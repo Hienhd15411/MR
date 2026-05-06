@@ -1,0 +1,60 @@
+from __future__ import annotations
+
+import json
+from typing import Iterable
+
+import gspread
+from google.oauth2.service_account import Credentials
+from loguru import logger
+
+from src.config.settings import google_credentials_json, google_sheets_id
+from src.storage.models import RawArticle
+from src.storage.schema import RAW_TAB, SHEET_HEADERS
+
+SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
+
+
+class SheetsClient:
+    def __init__(self, sheet_id: str, creds_json: str):
+        info = json.loads(creds_json)
+        creds = Credentials.from_service_account_info(info, scopes=SCOPES)
+        self.gc = gspread.authorize(creds)
+        self.sh = self.gc.open_by_key(sheet_id)
+
+    @classmethod
+    def from_env(cls) -> "SheetsClient":
+        return cls(sheet_id=google_sheets_id(), creds_json=google_credentials_json())
+
+    def _ensure_tab(self, name: str, headers: list[str]) -> gspread.Worksheet:
+        try:
+            ws = self.sh.worksheet(name)
+        except gspread.WorksheetNotFound:
+            ws = self.sh.add_worksheet(name, rows=1000, cols=len(headers))
+            ws.append_row(headers, value_input_option="RAW")
+            return ws
+        if not ws.row_values(1):
+            ws.append_row(headers, value_input_option="RAW")
+        return ws
+
+    def existing_ids(self) -> set[str]:
+        ws = self._ensure_tab(RAW_TAB, SHEET_HEADERS)
+        col = ws.col_values(1)
+        return set(col[1:]) if col else set()
+
+    def append_raw(self, articles: Iterable[RawArticle]) -> int:
+        ws = self._ensure_tab(RAW_TAB, SHEET_HEADERS)
+        existing = self.existing_ids()
+        seen: set[str] = set()
+        rows: list[list[str]] = []
+        for a in articles:
+            if a.id in existing or a.id in seen:
+                continue
+            seen.add(a.id)
+            rows.append(a.to_row())
+        if not rows:
+            logger.info("No new rows to append to {}", RAW_TAB)
+            return 0
+        # Single batched write to stay well under the 60 req/min Sheets quota.
+        ws.append_rows(rows, value_input_option="RAW")
+        logger.info("Appended {} rows to {}", len(rows), RAW_TAB)
+        return len(rows)

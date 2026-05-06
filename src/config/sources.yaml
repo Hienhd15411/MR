@@ -1,0 +1,12 @@
+# Iteration 1: only VnExpress so-hoa.
+# Subsequent iterations will fill in the remaining 21 sources.
+news:
+  - key: vnexpress_sohoa
+    name: "VnExpress - Số hoá"
+    crawler: rss
+    rss_url: "https://vnexpress.net/rss/so-hoa.rss"
+    detail_selector: "h1.title-detail"
+    scope: domestic
+    type: market_pulse
+
+players: []
