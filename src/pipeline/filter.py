@@ -30,11 +30,25 @@ def _strip_accents(text: str) -> str:
     return "".join(c for c in nfkd if not unicodedata.combining(c))
 
 
-def _build_pattern(keyword: str) -> re.Pattern[str]:
+def _is_acronym(keyword: str) -> bool:
+    """All-uppercase ASCII tokens like AI, LLM, GPT, BNPL, GMV are acronyms.
+
+    Case-sensitive matching prevents false positives such as Vietnamese
+    "ai" (pronoun) matching the AI keyword.
+    """
     kw = keyword.strip()
-    # Use \b word boundaries; for multi-word keywords \b handles each side fine.
+    if not kw or " " in kw or len(kw) > 8 or not kw.isascii():
+        return False
+    return kw.isupper() and any(c.isalpha() for c in kw)
+
+
+def _build_pattern(keyword: str, case_sensitive: bool = False) -> re.Pattern[str]:
+    kw = keyword.strip()
+    flags = re.UNICODE
+    if not case_sensitive:
+        flags |= re.IGNORECASE
     escaped = re.escape(kw)
-    return re.compile(rf"(?<![\w]){escaped}(?![\w])", re.IGNORECASE | re.UNICODE)
+    return re.compile(rf"(?<![\w]){escaped}(?![\w])", flags)
 
 
 @dataclass
@@ -54,10 +68,12 @@ class _CompiledCategory:
 def _compile_keyword_block(block: dict) -> list[tuple[re.Pattern[str], str]]:
     out: list[tuple[re.Pattern[str], str]] = []
     for kw in block.get("keywords", []) or []:
-        out.append((_build_pattern(kw), kw))
+        cs = _is_acronym(kw)
+        out.append((_build_pattern(kw, case_sensitive=cs), kw))
+        # Accent-stripped fallback only useful for VN-diacritic keywords.
         accent_free = _strip_accents(kw)
         if accent_free != kw:
-            out.append((_build_pattern(accent_free), kw))
+            out.append((_build_pattern(accent_free, case_sensitive=False), kw))
     return out
 
 

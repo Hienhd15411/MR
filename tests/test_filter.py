@@ -72,6 +72,44 @@ def test_word_boundary_does_not_match_substring():
     assert a.status == Status.FILTERED_OUT
 
 
+def test_acronym_ai_does_not_match_vietnamese_pronoun():
+    # "ai" in Vietnamese is a pronoun ("who/anyone"). Must not trigger AI.
+    a = _art("Ai cũng có thể đăng ký gói cước mới của nhà mạng")
+    CategoryClassifier().classify(a)
+    assert a.status == Status.FILTERED_OUT
+
+
+def test_acronym_ai_still_matches_uppercase():
+    a = _art("AI tạo sinh đang thay đổi mọi ngành công nghiệp")
+    CategoryClassifier().classify(a)
+    assert a.pre_category is not None
+    assert a.pre_category.startswith("AI")
+
+
+def test_chatgpt_classifies_as_big_tech_ai():
+    a = _art("ChatGPT vừa cập nhật phiên bản mới với khả năng vượt trội")
+    CategoryClassifier().classify(a)
+    assert a.pre_category == "AI/Big tech AI"
+
+
+def test_techcombank_classifies_as_fintech():
+    a = _art("Techcombank ra mắt dịch vụ chuyển khoản quốc tế mới")
+    CategoryClassifier().classify(a)
+    assert a.pre_category == "Fintech/E-wallet"
+
+
+def test_ghn_classifies_as_tmdt():
+    a = _art("GHN mở rộng mạng lưới giao hàng tại miền Trung")
+    CategoryClassifier().classify(a)
+    assert a.pre_category == "TMĐT"
+
+
+def test_vietjet_classifies_as_travel():
+    a = _art("VietJet công bố đường bay mới tới Hàn Quốc")
+    CategoryClassifier().classify(a)
+    assert a.pre_category == "Travel/Khách sạn/Giải trí"
+
+
 def test_apply_filter_returns_all_with_counts():
     arts = [
         _art("OpenAI giới thiệu GPT-5"),

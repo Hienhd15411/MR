@@ -4,8 +4,13 @@
 # - keywords are matched as whole words on lower-cased title + snippet
 # - VN diacritics are kept; matcher also tries an accent-stripped form
 # - the FIRST category whose keywords hit becomes `pre_category`
-# - if `players` matches, article is tagged players_movement (overrides type)
-# - articles with NO match are kept but marked status=filtered_out
+# - if `players` matches, article is reclassified as players_movement
+#   and `player` is filled
+# - articles with NO match are kept but flagged status=filtered_out
+#
+# To tune: add/remove keywords and re-run. Keep keywords specific enough to
+# avoid false positives ("AI" alone is fine because of word boundaries, but
+# "Be" alone would be too noisy — use "Be Group" / "ứng dụng Be" instead).
 
 market_pulse:
   AI:
@@ -15,81 +20,206 @@ market_pulse:
       - artificial intelligence
       - LLM
       - GPT
+      - ChatGPT
+      - Copilot
+      - Gemini
+      - Claude
+      - DeepSeek
+      - Llama
+      - Mistral
+      - Grok
+      - "Hugging Face"
       - OpenAI
       - Anthropic
-      - Claude
-      - Gemini
-      - DeepSeek
       - "mô hình ngôn ngữ"
+      - "học máy"
+      - "machine learning"
+      - "deep learning"
+      - generative
+      - "AI tạo sinh"
     subcategories:
       "AI agents":
-        keywords: ["agentic", "AI agent", "autonomous agent", "tác tử", "trợ lý ảo"]
+        keywords:
+          - agentic
+          - "AI agent"
+          - "autonomous agent"
+          - "tác tử"
+          - "trợ lý ảo"
+          - "AI assistant"
+          - "Operator"
+          - "Manus"
       "AI search & recommendation":
-        keywords: ["AI search", "perplexity", "tìm kiếm AI", "recommendation", "gợi ý cá nhân hoá"]
+        keywords:
+          - "AI search"
+          - perplexity
+          - SearchGPT
+          - "tìm kiếm AI"
+          - "tìm kiếm bằng AI"
+          - recommendation
+          - "gợi ý cá nhân hoá"
+          - "personalised search"
       "Big tech AI":
-        keywords: ["Google AI", "Microsoft AI", "Meta AI", "Apple Intelligence", "Amazon AI", "Nvidia"]
+        keywords:
+          - ChatGPT
+          - Copilot
+          - "Microsoft AI"
+          - "Google AI"
+          - "Meta AI"
+          - "Apple Intelligence"
+          - "Amazon AI"
+          - Nvidia
+          - "Bing AI"
+          - "Bard"
       "AI Vietnam":
-        keywords: ["AI Việt", "VinAI", "Zalo AI", "FPT AI", "VNPT AI", "Viettel AI"]
+        keywords:
+          - "AI Việt"
+          - "AI tại Việt Nam"
+          - VinAI
+          - "Zalo AI"
+          - "FPT AI"
+          - "VNPT AI"
+          - "Viettel AI"
+          - BKAI
+          - "MISA AI"
       "AI funding":
-        keywords: ["AI funding", "AI startup raise", "vòng gọi vốn AI", "AI series"]
+        keywords:
+          - "AI funding"
+          - "AI startup raise"
+          - "vòng gọi vốn AI"
+          - "AI series"
+          - "AI valuation"
+          - "đầu tư vào AI"
+          - "AI investment"
       "AI policy":
-        keywords: ["AI Act", "AI regulation", "quản lý AI", "khung pháp lý AI", "AI luật"]
+        keywords:
+          - "AI Act"
+          - "AI regulation"
+          - "EU AI Act"
+          - "executive order AI"
+          - "quản lý AI"
+          - "khung pháp lý AI"
+          - "luật AI"
+          - "đạo luật AI"
 
   Chat:
     keywords:
       - chatbot
-      - chat app
+      - "chat app"
       - "ứng dụng nhắn tin"
+      - "ứng dụng chat"
       - messaging
+      - "tin nhắn"
       - WhatsApp
       - Zalo
       - Telegram
       - Messenger
       - Viber
+      - Line
+      - Discord
+      - Slack
+      - "trò chuyện AI"
 
   "TMĐT":
     keywords:
       - "thương mại điện tử"
       - e-commerce
       - ecommerce
+      - "sàn TMĐT"
+      - marketplace
+      - "bán hàng online"
+      - "mua sắm trực tuyến"
+      - "online shopping"
+      - livestream
+      - "livestream bán hàng"
+      - "livestream commerce"
       - Shopee
       - Lazada
       - Tiki
-      - TikTok Shop
+      - "TikTok Shop"
       - Sendo
-      - marketplace
-      - "sàn TMĐT"
+      - Temu
+      - Shein
+      - Amazon
+      - Alibaba
+      - eBay
+      - GHN
+      - GHTK
+      - "Viettel Post"
+      - "J&T Express"
+      - "Best Express"
+      - "Ahamove"
 
   "Travel/Khách sạn/Giải trí":
     keywords:
       - "du lịch"
       - "đặt phòng"
       - "khách sạn"
+      - "tour du lịch"
+      - homestay
+      - resort
       - travel
       - hotel
+      - "vé máy bay"
+      - "đặt vé máy bay"
+      - "đặt tour"
       - Booking.com
       - Agoda
       - Traveloka
       - Klook
       - Airbnb
+      - Tripadvisor
+      - Expedia
+      - Vinpearl
+      - "Sun Group"
+      - "Sun World"
+      - "Vinpearl Land"
+      - "Vingroup du lịch"
+      # Entertainment
       - "giải trí"
       - streaming
       - Netflix
       - Spotify
+      - YouTube
+      - "TikTok giải trí"
+      - "FPT Play"
+      - VieON
+      - Galaxy
+      - CGV
+      - "BHD Star"
+      - "Lotte Cinema"
+      # Airlines (entertainment-adjacent)
+      - VietJet
+      - "Vietnam Airlines"
+      - "Bamboo Airways"
+      - "Vietravel Airlines"
 
   "Ride/Food delivery":
     keywords:
       - "gọi xe"
-      - ride hailing
+      - "ride hailing"
+      - "ride-hailing"
+      - "taxi công nghệ"
+      - "xe ôm công nghệ"
+      - "tài xế công nghệ"
       - "giao đồ ăn"
-      - food delivery
+      - "food delivery"
+      - "giao hàng"
+      - delivery
       - Grab
       - Gojek
-      - Be
-      - Xanh SM
+      - "Be Group"
+      - "ứng dụng Be"
+      - "Xanh SM"
       - ShopeeFood
       - GrabFood
-      - "tài xế công nghệ"
+      - GrabBike
+      - GrabCar
+      - GrabMart
+      - Uber
+      - Lalamove
+      - "Now Food"
+      - Foody
+      - "GoFood"
 
   "Fintech/E-wallet":
     keywords:
@@ -97,58 +227,209 @@ market_pulse:
       - "ví điện tử"
       - e-wallet
       - "thanh toán số"
-      - mobile money
+      - "thanh toán điện tử"
+      - "thanh toán không tiền mặt"
+      - "mobile money"
+      - "ngân hàng số"
+      - neobank
+      - "ngân hàng điện tử"
+      - "chuyển khoản"
+      - "QR code"
+      - "thanh toán QR"
+      - "thẻ tín dụng"
+      - "tín dụng tiêu dùng"
+      - "vay tiêu dùng"
+      - BNPL
+      - "buy now pay later"
+      - "mua trước trả sau"
+      # Wallets / payment platforms
       - MoMo
       - ZaloPay
       - VNPay
       - ShopeePay
-      - "ngân hàng số"
-      - neobank
-      - "chuyển khoản"
-      - QR
-      - "tín dụng tiêu dùng"
+      - VTC Pay
+      - GrabPay
+      - Apple Pay
+      - Google Pay
+      - Samsung Pay
+      - Visa
+      - Mastercard
+      - JCB
+      - Stripe
+      - PayPal
+      - Adyen
+      # VN banks
+      - Vietcombank
+      - VietinBank
+      - BIDV
+      - Agribank
+      - Techcombank
+      - VPBank
+      - MBBank
+      - "MB Bank"
+      - ACB
+      - TPBank
+      - Sacombank
+      - HDBank
+      - OCB
+      - SHB
+      - Eximbank
+      - VIB
+      - LienVietPostBank
+      - SeABank
+      - Cake
+      - Timo
+      # Lending / consumer finance
+      - "FE Credit"
+      - "Home Credit"
+      - "HD Saison"
+      - F88
+      - Tima
+      # Regulator
+      - "Ngân hàng Nhà nước"
+      - SBV
+      - "State Bank of Vietnam"
+      # Crypto / blockchain
+      - blockchain
+      - crypto
+      - "tiền số"
+      - "tiền mã hoá"
+      - Bitcoin
+      - Ethereum
+      - USDT
+      - stablecoin
+      - "Web3"
 
   Ticket:
     keywords:
       - "vé sự kiện"
+      - "vé concert"
+      - "vé show"
       - ticketing
-      - "đặt vé"
+      - "đặt vé sự kiện"
+      - "đặt vé concert"
       - Ticketbox
       - Eventbrite
-      - "vé concert"
-      - "vé máy bay"
+      - TicketMaster
+      - "BookMyShow"
 
-# When the article concerns one of these players, it is reclassified as
-# players_movement and `player` is filled.
+# Players Movement focal players (MVP). Player keyword overrides MP type.
 players:
   MoMo:
-    keywords: ["MoMo", "M_Service", "Ví MoMo"]
+    keywords:
+      - MoMo
+      - "Ví MoMo"
+      - "M_Service"
+      - "MoMo Pay"
   Grab:
-    keywords: ["Grab", "GrabPay", "GrabFood", "GrabMart", "GrabBike", "GrabCar"]
+    keywords:
+      - Grab
+      - GrabPay
+      - GrabFood
+      - GrabMart
+      - GrabBike
+      - GrabCar
+      - GrabExpress
+      - GrabAds
+      - "Grab Vietnam"
+      - "Grab Việt Nam"
 
+# Categories within Players Movement (Strategy / Product / Feature /
+# Partnership / Marketing). Marketing has 4 sub-categories per spec.
 players_movement_categories:
   Strategy:
-    keywords: ["chiến lược", "strategy", "tái cấu trúc", "định hướng", "vision", "roadmap"]
+    keywords:
+      - "chiến lược"
+      - strategy
+      - "tái cấu trúc"
+      - "định hướng"
+      - vision
+      - roadmap
+      - "kế hoạch dài hạn"
+      - "tầm nhìn"
+      - IPO
+      - "niêm yết"
+      - "gọi vốn"
+      - funding
+      - "vòng gọi vốn"
+      - acquisition
+      - "thâu tóm"
+      - "M&A"
+
   Product:
-    keywords: ["sản phẩm mới", "ra mắt", "product launch", "new product", "phát hành"]
+    keywords:
+      - "sản phẩm mới"
+      - "ra mắt"
+      - "ra mắt sản phẩm"
+      - "product launch"
+      - "new product"
+      - "phát hành"
+      - "công bố sản phẩm"
+      - "giới thiệu sản phẩm"
+
   Feature:
-    keywords: ["tính năng", "feature", "update", "cập nhật", "nâng cấp"]
+    keywords:
+      - "tính năng"
+      - feature
+      - update
+      - "cập nhật"
+      - "nâng cấp"
+      - "phiên bản mới"
+      - rollout
+
   Partnership:
-    keywords: ["hợp tác", "partnership", "ký kết", "đối tác chiến lược", "MOU", "liên minh"]
+    keywords:
+      - "hợp tác"
+      - partnership
+      - "ký kết"
+      - "đối tác chiến lược"
+      - MOU
+      - "biên bản ghi nhớ"
+      - "liên minh"
+      - "tích hợp"
+      - integration
+
   Marketing:
     keywords:
       - "chiến dịch"
       - campaign
-      - khuyến mãi
+      - "khuyến mãi"
       - promotion
       - "ưu đãi"
-      - quảng cáo
+      - "quảng cáo"
+      - advertising
+      - "tài trợ"
+      - sponsorship
+      - "ra quân"
     subcategories:
       "User acquisition":
-        keywords: ["thu hút người dùng", "tân binh", "user acquisition", "đăng ký mới"]
+        keywords:
+          - "thu hút người dùng"
+          - "tân binh"
+          - "user acquisition"
+          - "đăng ký mới"
+          - "khách hàng mới"
+          - "tăng trưởng người dùng"
       "User activation":
-        keywords: ["kích hoạt", "activation", "first transaction", "giao dịch đầu tiên"]
+        keywords:
+          - "kích hoạt"
+          - activation
+          - "first transaction"
+          - "giao dịch đầu tiên"
+          - "lần đầu sử dụng"
       "User engagement":
-        keywords: ["tương tác", "engagement", "retention", "giữ chân"]
+        keywords:
+          - "tương tác"
+          - engagement
+          - retention
+          - "giữ chân"
+          - "người dùng trung thành"
+          - "thời gian sử dụng"
       "Transaction Growth":
-        keywords: ["tăng trưởng giao dịch", "GMV", "transaction growth", "doanh số"]
+        keywords:
+          - "tăng trưởng giao dịch"
+          - GMV
+          - "transaction growth"
+          - "doanh số"
+          - "doanh thu giao dịch"
+          - "tăng trưởng doanh số"
