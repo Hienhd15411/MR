@@ -24,11 +24,22 @@ def main(argv: list[str] | None = None) -> int:
         help="Write a Markdown preview of the crawl to this path "
         "(e.g. output/raw_data.md).",
     )
+    parser.add_argument(
+        "--excel",
+        type=Path,
+        default=None,
+        help="Write an .xlsx workbook with `raw_data` and `summary` sheets "
+        "(e.g. output/raw_data.xlsx).",
+    )
     args = parser.parse_args(argv)
 
     setup_logger()
     logger.info("Starting Market Watch crawler pipeline")
-    summary = run_pipeline(write_to_sheet=args.sheet, markdown_path=args.markdown)
+    summary = run_pipeline(
+        write_to_sheet=args.sheet,
+        markdown_path=args.markdown,
+        excel_path=args.excel,
+    )
     logger.info("Done. Summary: {}", summary)
     return 0
 

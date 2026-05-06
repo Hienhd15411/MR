@@ -19,14 +19,17 @@ cp .env.example .env
 # Fill GOOGLE_SHEETS_ID and either GOOGLE_APPLICATION_CREDENTIALS (file path)
 # or GOOGLE_SHEETS_CREDENTIALS_JSON (inline JSON)
 
-# Crawl + write a Markdown preview to output/raw_data.md (no Sheets needed)
+# Crawl + write Excel workbook (raw_data + summary sheets)
+python -m src.main --excel output/raw_data.xlsx
+
+# Crawl + write a Markdown preview
 python -m src.main --markdown output/raw_data.md
 
 # Crawl + write to Google Sheets `raw_data`
 python -m src.main --sheet
 
-# Both
-python -m src.main --markdown output/raw_data.md --sheet
+# Combine any of them
+python -m src.main --excel output/raw_data.xlsx --markdown output/raw_data.md
 
 # Demo without external network (uses tests/fixtures/vnexpress_rss.xml)
 PYTHONPATH=. python scripts/demo_with_fixture.py

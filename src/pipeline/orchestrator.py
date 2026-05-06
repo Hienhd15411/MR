@@ -9,6 +9,7 @@ from loguru import logger
 
 from src.crawlers.base import BaseCrawler
 from src.crawlers.news.vnexpress import VnExpressSoHoa
+from src.storage.excel_sink import write_excel
 from src.storage.markdown_sink import write_markdown
 from src.storage.models import RawArticle
 
@@ -43,6 +44,7 @@ async def crawl_all(crawlers: Sequence[BaseCrawler]) -> list[RawArticle]:
 def run_pipeline(
     write_to_sheet: bool = False,
     markdown_path: Optional[Path] = None,
+    excel_path: Optional[Path] = None,
 ) -> dict:
     crawlers = build_crawlers()
     articles = asyncio.run(crawl_all(crawlers))
@@ -52,6 +54,11 @@ def run_pipeline(
         logger.info("Wrote {} articles to {}", n, markdown_path)
         summary["markdown_path"] = str(markdown_path)
         summary["markdown_count"] = n
+    if excel_path is not None:
+        n = write_excel(excel_path, articles)
+        logger.info("Wrote {} articles to {}", n, excel_path)
+        summary["excel_path"] = str(excel_path)
+        summary["excel_count"] = n
     if write_to_sheet and articles:
         # Lazy import: avoid pulling gspread/cryptography unless actually needed.
         from src.storage.sheets import SheetsClient

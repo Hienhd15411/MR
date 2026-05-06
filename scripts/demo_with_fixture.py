@@ -14,12 +14,15 @@ import asyncio
 from pathlib import Path
 
 from src.crawlers.news.vnexpress import VnExpressSoHoa
+from src.storage.excel_sink import write_excel
 from src.storage.markdown_sink import write_markdown
 from src.utils.logger import setup_logger
 
 
-FIXTURE = Path(__file__).resolve().parents[1] / "tests" / "fixtures" / "vnexpress_rss.xml"
-OUTPUT = Path(__file__).resolve().parents[1] / "output" / "raw_data.md"
+ROOT = Path(__file__).resolve().parents[1]
+FIXTURE = ROOT / "tests" / "fixtures" / "vnexpress_rss.xml"
+OUTPUT_MD = ROOT / "output" / "raw_data.md"
+OUTPUT_XLSX = ROOT / "output" / "raw_data.xlsx"
 
 
 async def main() -> None:
@@ -36,8 +39,10 @@ async def main() -> None:
     VnExpressSoHoa.fetch = fake_fetch  # type: ignore[assignment]
 
     articles = await crawler.run(client=None)
-    n = write_markdown(OUTPUT, articles)
-    print(f"Wrote {n} articles to {OUTPUT.relative_to(Path.cwd())}")
+    n_md = write_markdown(OUTPUT_MD, articles)
+    n_xlsx = write_excel(OUTPUT_XLSX, articles)
+    print(f"Wrote {n_md} articles to {OUTPUT_MD.relative_to(ROOT)}")
+    print(f"Wrote {n_xlsx} articles to {OUTPUT_XLSX.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":
