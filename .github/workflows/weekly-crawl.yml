@@ -25,6 +25,8 @@ jobs:
     env:
       CRAWL_WINDOW_DAYS: ${{ github.event.inputs.window_days || '7' }}
       LOG_LEVEL: INFO
+      # Always crawl fresh in CI; the local .cache/ is dev-only.
+      CRAWL_CACHE: "0"
     steps:
       - name: Checkout
         uses: actions/checkout@v4

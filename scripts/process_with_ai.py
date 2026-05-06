@@ -102,24 +102,24 @@ def cmd_apply(processed_path: Path = PROCESSED_PATH, dry_run: bool = False) -> i
         if score < 3 and "low_priority" not in str(r.get("tags", "")):
             r["tags"] = (str(r.get("tags", "")).strip(", ")
                           + (", low_priority" if r.get("tags") else "low_priority"))
+    # Per spec: `final_score < 3 → tag low_priority (KHÔNG xoá, để tham khảo)`.
+    # All AI-processed rows get status='processed' regardless of score; the
+    # low_priority tag is the only differentiator for downstream filtering.
     ids = [r["id"] for r in rows if r.get("id")]
-    low_ids = [r["id"] for r in rows if float(r.get("final_score", 0)) < 3]
-    high_ids = [i for i in ids if i not in low_ids]
+    low_count = sum(1 for r in rows if float(r.get("final_score", 0)) < 3)
 
     if dry_run:
         print(f"[dry-run] would append {len(rows)} rows to final_data")
-        print(f"[dry-run] would mark {len(high_ids)} as processed, "
-              f"{len(low_ids)} as filtered_out")
+        print(f"[dry-run] would mark {len(ids)} as processed "
+              f"({low_count} tagged low_priority)")
         return 0
 
     from src.storage.sheets import SheetsClient
 
     client = SheetsClient.from_env()
     client.append_final(rows)
-    client.mark_status(high_ids, "processed")
-    client.mark_status(low_ids, "filtered_out")
-    logger.info("Applied {} rows ({} processed, {} filtered_out)",
-                len(rows), len(high_ids), len(low_ids))
+    client.mark_status(ids, "processed")
+    logger.info("Applied {} rows ({} tagged low_priority)", len(rows), low_count)
     print(f"Applied {len(rows)} rows.")
     return 0
 

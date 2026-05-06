@@ -18,7 +18,8 @@ from src.storage.models import (
     SourceType,
     Status,
 )
-from src.utils.date_utils import now_utc, parse_date
+from src.config.settings import CRAWL_WINDOW_DAYS
+from src.utils.date_utils import now_utc, parse_date, within_window
 
 
 LIST_URL = "https://www.grab.com/vn/blog/"
@@ -38,24 +39,24 @@ class GrabVNBlog(BaseCrawler):
     type_ = "players_movement"
     player = "Grab"
 
-    def __init__(self, max_items: int = 30):
+    def __init__(self, max_items: int = 30, window_days: int = CRAWL_WINDOW_DAYS):
         super().__init__()
         self.max_items = max_items
+        self.window_days = window_days
         self._cache: dict[str, dict] = {}
 
-    async def _fetch_with_fallback(
-        self, client: httpx.AsyncClient, url: str
-    ) -> Optional[str]:
+    async def _fetch_spa(self, client: httpx.AsyncClient, url: str) -> Optional[str]:
+        """SPAs may return 200 with empty shell HTML; force Playwright in that case."""
         html = await self.fetch(client, url)
         if html and len(html) > 5000:
             return html
         from src.utils.playwright_fetch import fetch_html
 
-        logger.info("[{}] falling back to Playwright for {}", self.name, url)
+        logger.info("[{}] HTML looks empty, forcing Playwright for {}", self.name, url)
         return await fetch_html(url)
 
     async def list_article_urls(self, client: httpx.AsyncClient) -> list[str]:
-        html = await self._fetch_with_fallback(client, self.base_url)
+        html = await self._fetch_spa(client, self.base_url)
         if not html:
             return []
         soup = BeautifulSoup(html, "html.parser")
@@ -98,6 +99,8 @@ class GrabVNBlog(BaseCrawler):
                 )
 
         if not title:
+            return None
+        if published is not None and not within_window(published, self.window_days):
             return None
 
         return RawArticle(
