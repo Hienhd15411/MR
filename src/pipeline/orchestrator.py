@@ -1,15 +1,16 @@
 from __future__ import annotations
 
 import asyncio
-from typing import Sequence
+from pathlib import Path
+from typing import Optional, Sequence
 
 import httpx
 from loguru import logger
 
 from src.crawlers.base import BaseCrawler
 from src.crawlers.news.vnexpress import VnExpressSoHoa
+from src.storage.markdown_sink import write_markdown
 from src.storage.models import RawArticle
-from src.storage.sheets import SheetsClient
 
 MAX_CONCURRENCY = 5
 
@@ -39,11 +40,22 @@ async def crawl_all(crawlers: Sequence[BaseCrawler]) -> list[RawArticle]:
     return flat
 
 
-def run_pipeline(write_to_sheet: bool = True) -> dict:
+def run_pipeline(
+    write_to_sheet: bool = False,
+    markdown_path: Optional[Path] = None,
+) -> dict:
     crawlers = build_crawlers()
     articles = asyncio.run(crawl_all(crawlers))
-    written = 0
+    summary: dict = {"crawled": len(articles)}
+    if markdown_path is not None:
+        n = write_markdown(markdown_path, articles)
+        logger.info("Wrote {} articles to {}", n, markdown_path)
+        summary["markdown_path"] = str(markdown_path)
+        summary["markdown_count"] = n
     if write_to_sheet and articles:
+        # Lazy import: avoid pulling gspread/cryptography unless actually needed.
+        from src.storage.sheets import SheetsClient
+
         client = SheetsClient.from_env()
-        written = client.append_raw(articles)
-    return {"crawled": len(articles), "written": written}
+        summary["sheet_written"] = client.append_raw(articles)
+    return summary

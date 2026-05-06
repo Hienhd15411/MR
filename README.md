@@ -19,11 +19,17 @@ cp .env.example .env
 # Fill GOOGLE_SHEETS_ID and either GOOGLE_APPLICATION_CREDENTIALS (file path)
 # or GOOGLE_SHEETS_CREDENTIALS_JSON (inline JSON)
 
-# Crawl only, skip Sheet write
-python -m src.main --no-sheet
+# Crawl + write a Markdown preview to output/raw_data.md (no Sheets needed)
+python -m src.main --markdown output/raw_data.md
 
-# Crawl + write to Sheet
-python -m src.main
+# Crawl + write to Google Sheets `raw_data`
+python -m src.main --sheet
+
+# Both
+python -m src.main --markdown output/raw_data.md --sheet
+
+# Demo without external network (uses tests/fixtures/vnexpress_rss.xml)
+PYTHONPATH=. python scripts/demo_with_fixture.py
 
 # Run tests
 pytest -q
