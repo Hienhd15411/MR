@@ -9,7 +9,12 @@ from loguru import logger
 
 from src.config.settings import google_credentials_json, google_sheets_id
 from src.storage.models import RawArticle
-from src.storage.schema import RAW_TAB, SHEET_HEADERS
+from src.storage.schema import (
+    FINAL_HEADERS,
+    FINAL_TAB,
+    RAW_TAB,
+    SHEET_HEADERS,
+)
 
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
 
@@ -58,3 +63,40 @@ class SheetsClient:
         ws.append_rows(rows, value_input_option="RAW")
         logger.info("Appended {} rows to {}", len(rows), RAW_TAB)
         return len(rows)
+
+    # ---- final_data (written by scripts/process_with_ai.py) ----
+
+    def fetch_new_raw_rows(self) -> list[dict]:
+        ws = self._ensure_tab(RAW_TAB, SHEET_HEADERS)
+        records = ws.get_all_records()
+        return [r for r in records if r.get("status") == "new"]
+
+    def append_final(self, processed_rows: list[dict]) -> int:
+        ws = self._ensure_tab(FINAL_TAB, FINAL_HEADERS)
+        if not processed_rows:
+            return 0
+        rows = [[str(r.get(h, "")) for h in FINAL_HEADERS] for r in processed_rows]
+        ws.append_rows(rows, value_input_option="RAW")
+        logger.info("Appended {} rows to {}", len(rows), FINAL_TAB)
+        return len(rows)
+
+    def mark_status(self, ids: list[str], status: str) -> int:
+        """Update the `status` column for rows whose `id` is in `ids`."""
+        if not ids:
+            return 0
+        ws = self._ensure_tab(RAW_TAB, SHEET_HEADERS)
+        all_ids = ws.col_values(1)
+        status_col = SHEET_HEADERS.index("status") + 1
+        updates = []
+        target = set(ids)
+        for row_idx, val in enumerate(all_ids, start=1):
+            if row_idx == 1:
+                continue
+            if val in target:
+                updates.append({
+                    "range": gspread.utils.rowcol_to_a1(row_idx, status_col),
+                    "values": [[status]],
+                })
+        if updates:
+            ws.batch_update(updates, value_input_option="RAW")
+        return len(updates)

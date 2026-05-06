@@ -1,0 +1,83 @@
+from datetime import datetime, timezone
+
+from src.pipeline.filter import CategoryClassifier, apply_filter
+from src.storage.models import (
+    ArticleType,
+    RawArticle,
+    Scope,
+    SourceType,
+    Status,
+)
+
+
+def _art(title: str, snippet: str = "", t: ArticleType = ArticleType.MARKET_PULSE,
+         scope: Scope = Scope.DOMESTIC) -> RawArticle:
+    return RawArticle(
+        id=RawArticle.make_id(title),
+        crawled_at=datetime.now(timezone.utc),
+        source="test",
+        source_type=SourceType.NEWS,
+        url=f"https://x.test/{abs(hash(title))}",
+        title_original=title,
+        content_snippet=snippet,
+        published_date=datetime.now(timezone.utc),
+        type=t,
+        scope=scope,
+    )
+
+
+def test_classifies_ai_with_subcategory():
+    a = _art("OpenAI ra mắt GPT-5 với khả năng agentic mạnh mẽ")
+    CategoryClassifier().classify(a)
+    assert a.pre_category is not None
+    assert a.pre_category.startswith("AI")
+    assert "AI agents" in a.pre_category
+    assert a.status == Status.NEW
+
+
+def test_classifies_fintech():
+    a = _art("Ngân hàng số ra mắt ví điện tử mới cho người dùng Việt Nam")
+    CategoryClassifier().classify(a)
+    assert a.pre_category == "Fintech/E-wallet"
+
+
+def test_player_match_overrides_to_players_movement():
+    a = _art("MoMo hợp tác với một ngân hàng để mở rộng dịch vụ thanh toán")
+    CategoryClassifier().classify(a)
+    assert a.type == ArticleType.PLAYERS_MOVEMENT
+    assert a.player == "MoMo"
+    assert a.pre_category is not None
+    assert "Partnership" in a.pre_category
+
+
+def test_grab_marketing_subcategory():
+    a = _art("Grab tung chiến dịch khuyến mãi để thu hút người dùng mới")
+    CategoryClassifier().classify(a)
+    assert a.player == "Grab"
+    assert a.pre_category is not None
+    assert a.pre_category.startswith("Marketing")
+
+
+def test_no_match_marks_filtered_out():
+    a = _art("Thời tiết Hà Nội cuối tuần này có mưa rào")
+    CategoryClassifier().classify(a)
+    assert a.status == Status.FILTERED_OUT
+    assert a.pre_category is None
+
+
+def test_word_boundary_does_not_match_substring():
+    # "AI" must not match inside "AirAsia"
+    a = _art("AirAsia thông báo mở thêm đường bay tới Đà Nẵng")
+    CategoryClassifier().classify(a)
+    assert a.status == Status.FILTERED_OUT
+
+
+def test_apply_filter_returns_all_with_counts():
+    arts = [
+        _art("OpenAI giới thiệu GPT-5"),
+        _art("Tin thời tiết bình thường"),
+    ]
+    out = apply_filter(arts)
+    assert len(out) == 2
+    statuses = [a.status for a in out]
+    assert Status.NEW in statuses and Status.FILTERED_OUT in statuses

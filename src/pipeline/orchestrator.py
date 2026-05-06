@@ -8,17 +8,18 @@ import httpx
 from loguru import logger
 
 from src.crawlers.base import BaseCrawler
-from src.crawlers.news.vnexpress import VnExpressSoHoa
+from src.crawlers.factory import build_crawlers_from_yaml
+from src.pipeline.filter import apply_filter
 from src.storage.excel_sink import write_excel
 from src.storage.markdown_sink import write_markdown
-from src.storage.models import RawArticle
+from src.storage.models import RawArticle, Status
 
 MAX_CONCURRENCY = 5
 
 
 def build_crawlers() -> list[BaseCrawler]:
-    """Iter 1: only VnExpress so-hoa. Iter 2 will add the rest."""
-    return [VnExpressSoHoa()]
+    """Build all crawlers from sources.yaml."""
+    return build_crawlers_from_yaml()
 
 
 async def _run_one(crawler: BaseCrawler, sem: asyncio.Semaphore,
@@ -48,7 +49,13 @@ def run_pipeline(
 ) -> dict:
     crawlers = build_crawlers()
     articles = asyncio.run(crawl_all(crawlers))
-    summary: dict = {"crawled": len(articles)}
+    articles = apply_filter(articles)
+    n_filtered = sum(1 for a in articles if a.status == Status.FILTERED_OUT)
+    summary: dict = {
+        "crawled": len(articles),
+        "kept": len(articles) - n_filtered,
+        "filtered_out": n_filtered,
+    }
     if markdown_path is not None:
         n = write_markdown(markdown_path, articles)
         logger.info("Wrote {} articles to {}", n, markdown_path)

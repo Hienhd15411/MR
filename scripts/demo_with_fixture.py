@@ -14,6 +14,7 @@ import asyncio
 from pathlib import Path
 
 from src.crawlers.news.vnexpress import VnExpressSoHoa
+from src.pipeline.filter import apply_filter
 from src.storage.excel_sink import write_excel
 from src.storage.markdown_sink import write_markdown
 from src.utils.logger import setup_logger
@@ -39,6 +40,7 @@ async def main() -> None:
     VnExpressSoHoa.fetch = fake_fetch  # type: ignore[assignment]
 
     articles = await crawler.run(client=None)
+    articles = apply_filter(articles)
     n_md = write_markdown(OUTPUT_MD, articles)
     n_xlsx = write_excel(OUTPUT_XLSX, articles)
     print(f"Wrote {n_md} articles to {OUTPUT_MD.relative_to(ROOT)}")

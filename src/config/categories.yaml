@@ -1,0 +1,154 @@
+# Category keyword definitions used by src/pipeline/filter.py
+#
+# Matching rules:
+# - keywords are matched as whole words on lower-cased title + snippet
+# - VN diacritics are kept; matcher also tries an accent-stripped form
+# - the FIRST category whose keywords hit becomes `pre_category`
+# - if `players` matches, article is tagged players_movement (overrides type)
+# - articles with NO match are kept but marked status=filtered_out
+
+market_pulse:
+  AI:
+    keywords:
+      - AI
+      - "trí tuệ nhân tạo"
+      - artificial intelligence
+      - LLM
+      - GPT
+      - OpenAI
+      - Anthropic
+      - Claude
+      - Gemini
+      - DeepSeek
+      - "mô hình ngôn ngữ"
+    subcategories:
+      "AI agents":
+        keywords: ["agentic", "AI agent", "autonomous agent", "tác tử", "trợ lý ảo"]
+      "AI search & recommendation":
+        keywords: ["AI search", "perplexity", "tìm kiếm AI", "recommendation", "gợi ý cá nhân hoá"]
+      "Big tech AI":
+        keywords: ["Google AI", "Microsoft AI", "Meta AI", "Apple Intelligence", "Amazon AI", "Nvidia"]
+      "AI Vietnam":
+        keywords: ["AI Việt", "VinAI", "Zalo AI", "FPT AI", "VNPT AI", "Viettel AI"]
+      "AI funding":
+        keywords: ["AI funding", "AI startup raise", "vòng gọi vốn AI", "AI series"]
+      "AI policy":
+        keywords: ["AI Act", "AI regulation", "quản lý AI", "khung pháp lý AI", "AI luật"]
+
+  Chat:
+    keywords:
+      - chatbot
+      - chat app
+      - "ứng dụng nhắn tin"
+      - messaging
+      - WhatsApp
+      - Zalo
+      - Telegram
+      - Messenger
+      - Viber
+
+  "TMĐT":
+    keywords:
+      - "thương mại điện tử"
+      - e-commerce
+      - ecommerce
+      - Shopee
+      - Lazada
+      - Tiki
+      - TikTok Shop
+      - Sendo
+      - marketplace
+      - "sàn TMĐT"
+
+  "Travel/Khách sạn/Giải trí":
+    keywords:
+      - "du lịch"
+      - "đặt phòng"
+      - "khách sạn"
+      - travel
+      - hotel
+      - Booking.com
+      - Agoda
+      - Traveloka
+      - Klook
+      - Airbnb
+      - "giải trí"
+      - streaming
+      - Netflix
+      - Spotify
+
+  "Ride/Food delivery":
+    keywords:
+      - "gọi xe"
+      - ride hailing
+      - "giao đồ ăn"
+      - food delivery
+      - Grab
+      - Gojek
+      - Be
+      - Xanh SM
+      - ShopeeFood
+      - GrabFood
+      - "tài xế công nghệ"
+
+  "Fintech/E-wallet":
+    keywords:
+      - fintech
+      - "ví điện tử"
+      - e-wallet
+      - "thanh toán số"
+      - mobile money
+      - MoMo
+      - ZaloPay
+      - VNPay
+      - ShopeePay
+      - "ngân hàng số"
+      - neobank
+      - "chuyển khoản"
+      - QR
+      - "tín dụng tiêu dùng"
+
+  Ticket:
+    keywords:
+      - "vé sự kiện"
+      - ticketing
+      - "đặt vé"
+      - Ticketbox
+      - Eventbrite
+      - "vé concert"
+      - "vé máy bay"
+
+# When the article concerns one of these players, it is reclassified as
+# players_movement and `player` is filled.
+players:
+  MoMo:
+    keywords: ["MoMo", "M_Service", "Ví MoMo"]
+  Grab:
+    keywords: ["Grab", "GrabPay", "GrabFood", "GrabMart", "GrabBike", "GrabCar"]
+
+players_movement_categories:
+  Strategy:
+    keywords: ["chiến lược", "strategy", "tái cấu trúc", "định hướng", "vision", "roadmap"]
+  Product:
+    keywords: ["sản phẩm mới", "ra mắt", "product launch", "new product", "phát hành"]
+  Feature:
+    keywords: ["tính năng", "feature", "update", "cập nhật", "nâng cấp"]
+  Partnership:
+    keywords: ["hợp tác", "partnership", "ký kết", "đối tác chiến lược", "MOU", "liên minh"]
+  Marketing:
+    keywords:
+      - "chiến dịch"
+      - campaign
+      - khuyến mãi
+      - promotion
+      - "ưu đãi"
+      - quảng cáo
+    subcategories:
+      "User acquisition":
+        keywords: ["thu hút người dùng", "tân binh", "user acquisition", "đăng ký mới"]
+      "User activation":
+        keywords: ["kích hoạt", "activation", "first transaction", "giao dịch đầu tiên"]
+      "User engagement":
+        keywords: ["tương tác", "engagement", "retention", "giữ chân"]
+      "Transaction Growth":
+        keywords: ["tăng trưởng giao dịch", "GMV", "transaction growth", "doanh số"]

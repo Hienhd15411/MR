@@ -1,12 +1,199 @@
-# Iteration 1: only VnExpress so-hoa.
-# Subsequent iterations will fill in the remaining 21 sources.
+# All sources used by the auto-crawl pipeline.
+#
+# crawler:
+#   rss        → src.crawlers.rss.RSSCrawler (default; very stable)
+#   playwright → src.crawlers.playwright_html.PlaywrightHtmlCrawler
+#                (used for SPAs / paywalled sites — see players below)
+#
+# scope: domestic | international
+# type:  market_pulse | players_movement
+#
+# RSS feeds prioritised whenever possible because they are far more stable
+# than HTML scraping. Sites without a public RSS are scheduled with
+# Playwright in src/crawlers/players/ instead.
+
 news:
+  # ----- Vietnam -----
   - key: vnexpress_sohoa
-    name: "VnExpress - Số hoá"
+    name: "VnExpress – Số hoá"
     crawler: rss
     rss_url: "https://vnexpress.net/rss/so-hoa.rss"
-    detail_selector: "h1.title-detail"
     scope: domestic
     type: market_pulse
 
-players: []
+  - key: vnexpress_kinhdoanh
+    name: "VnExpress – Kinh doanh"
+    crawler: rss
+    rss_url: "https://vnexpress.net/rss/kinh-doanh.rss"
+    scope: domestic
+    type: market_pulse
+
+  - key: tuoitre_nhipsongso
+    name: "Tuổi Trẻ – Nhịp sống số"
+    crawler: rss
+    rss_url: "https://tuoitre.vn/rss/nhip-song-so.rss"
+    scope: domestic
+    type: market_pulse
+
+  - key: tuoitre_kinhdoanh
+    name: "Tuổi Trẻ – Kinh doanh"
+    crawler: rss
+    rss_url: "https://tuoitre.vn/rss/kinh-doanh.rss"
+    scope: domestic
+    type: market_pulse
+
+  - key: thanhnien_congnghe
+    name: "Thanh Niên – Công nghệ"
+    crawler: rss
+    rss_url: "https://thanhnien.vn/rss/cong-nghe.rss"
+    scope: domestic
+    type: market_pulse
+
+  - key: cafef_kinhteso
+    name: "CafeF – Kinh tế số"
+    crawler: rss
+    rss_url: "https://cafef.vn/kinh-te-so.rss"
+    scope: domestic
+    type: market_pulse
+
+  - key: cafef_doanhnghiep
+    name: "CafeF – Doanh nghiệp"
+    crawler: rss
+    rss_url: "https://cafef.vn/doanh-nghiep.rss"
+    scope: domestic
+    type: market_pulse
+
+  - key: cafebiz
+    name: "CafeBiz"
+    crawler: rss
+    rss_url: "https://cafebiz.vn/rss/home.rss"
+    scope: domestic
+    type: market_pulse
+
+  - key: theleader
+    name: "The Leader"
+    crawler: rss
+    rss_url: "https://theleader.vn/rss/trang-chu.rss"
+    scope: domestic
+    type: market_pulse
+
+  - key: nhipcaudautu
+    name: "Nhịp Cầu Đầu Tư"
+    crawler: rss
+    rss_url: "https://nhipcaudautu.vn/rss/cong-nghe.rss"
+    scope: domestic
+    type: market_pulse
+
+  - key: vietnamnet_ict
+    name: "VietnamNet – ICT (gồm ICTNews)"
+    crawler: rss
+    rss_url: "https://vietnamnet.vn/rss/cong-nghe.rss"
+    scope: domestic
+    type: market_pulse
+
+  - key: genk
+    name: "Genk"
+    crawler: rss
+    rss_url: "https://genk.vn/rss/home.rss"
+    scope: domestic
+    type: market_pulse
+
+  - key: vir
+    name: "Vietnam Investment Review"
+    crawler: rss
+    rss_url: "https://vir.com.vn/rss/home.rss"
+    scope: domestic
+    type: market_pulse
+
+  - key: thesaigontimes
+    name: "The Saigon Times"
+    crawler: rss
+    # Best-effort; site sometimes paywalled. Fail-soft if blocked.
+    rss_url: "https://thesaigontimes.vn/feed"
+    scope: domestic
+    type: market_pulse
+
+  - key: baodautu
+    name: "Báo Đầu Tư"
+    crawler: rss
+    rss_url: "https://baodautu.vn/rss/cong-nghe.rss"
+    scope: domestic
+    type: market_pulse
+
+  # ----- International -----
+  - key: techcrunch
+    name: "TechCrunch"
+    crawler: rss
+    rss_url: "https://techcrunch.com/feed/"
+    scope: international
+    type: market_pulse
+
+  - key: theverge
+    name: "The Verge"
+    crawler: rss
+    rss_url: "https://www.theverge.com/rss/index.xml"
+    scope: international
+    type: market_pulse
+
+  - key: bloomberg_tech
+    name: "Bloomberg Technology"
+    crawler: rss
+    # Bloomberg is heavily paywalled; the public RSS gives titles + summaries.
+    rss_url: "https://feeds.bloomberg.com/technology/news.rss"
+    scope: international
+    type: market_pulse
+
+  - key: reuters_tech
+    name: "Reuters Technology"
+    crawler: rss
+    # Reuters often blocks scrapers. Public Google News query as fallback.
+    rss_url: "https://news.google.com/rss/search?q=site:reuters.com+technology&hl=en-US"
+    scope: international
+    type: market_pulse
+
+  - key: techinasia
+    name: "Tech in Asia"
+    crawler: rss
+    rss_url: "https://www.techinasia.com/feed"
+    scope: international
+    type: market_pulse
+
+  - key: krasia
+    name: "KrAsia"
+    crawler: rss
+    rss_url: "https://kr-asia.com/feed"
+    scope: international
+    type: market_pulse
+
+  - key: restofworld
+    name: "Rest of World"
+    crawler: rss
+    rss_url: "https://restofworld.org/feed/latest/"
+    scope: international
+    type: market_pulse
+
+  - key: e27
+    name: "e27"
+    crawler: rss
+    rss_url: "https://e27.co/feed/"
+    scope: international
+    type: market_pulse
+
+# Players Movement sources — newsroom / blog pages of focal players.
+# These rarely have RSS, so they use Playwright + httpx fallback.
+players:
+  - key: momo
+    name: "MoMo Newsroom"
+    crawler: playwright
+    module: src.crawlers.players.momo:MoMoNewsroom
+    scope: domestic
+    type: players_movement
+    player: MoMo
+
+  - key: grab_vn_blog
+    name: "Grab VN Blog"
+    crawler: playwright
+    module: src.crawlers.players.grab:GrabVNBlog
+    scope: domestic
+    type: players_movement
+    player: Grab

@@ -45,7 +45,11 @@ def render_markdown(articles: Iterable[RawArticle]) -> str:
         for a in items:
             lines.append(f"- **[{a.title_original}]({a.url})**")
             meta = (
-                f"  - id: `{a.id}` · type: `{a.type.value}` · scope: `{a.scope.value}` · "
+                f"  - id: `{a.id}` · type: `{a.type.value}` · "
+                f"scope: `{a.scope.value}` · "
+                f"category: `{a.pre_category or '—'}`"
+                + (f" · player: `{a.player}`" if a.player else "")
+                + f" · status: `{a.status.value}` · "
                 f"published: {_fmt_dt(a.published_date)}"
             )
             lines.append(meta)
