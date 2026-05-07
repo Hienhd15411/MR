@@ -70,9 +70,11 @@ def _compile_keyword_block(block: dict) -> list[tuple[re.Pattern[str], str]]:
     for kw in block.get("keywords", []) or []:
         cs = _is_acronym(kw)
         out.append((_build_pattern(kw, case_sensitive=cs), kw))
-        # Accent-stripped fallback only useful for VN-diacritic keywords.
+        # Accent-stripped fallback for VN-diacritic keywords, but skip
+        # short single-syllable words where stripping causes collisions
+        # (e.g. "dừng" stripped → "dung" collides with "dùng").
         accent_free = _strip_accents(kw)
-        if accent_free != kw:
+        if accent_free != kw and len(accent_free) >= 6 and " " in accent_free.strip():
             out.append((_build_pattern(accent_free, case_sensitive=False), kw))
     return out
 

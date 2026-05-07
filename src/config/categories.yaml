@@ -313,7 +313,8 @@ market_pulse:
       - TicketMaster
       - "BookMyShow"
 
-# Players Movement focal players (MVP). Player keyword overrides MP type.
+# Players Movement focal players. Order matters: Zalo (Zalopay) checked
+# before Grab so Zalopay×Grab co-marketing is attributed to Zalo.
 players:
   MoMo:
     keywords:
@@ -321,6 +322,25 @@ players:
       - "Ví MoMo"
       - "M_Service"
       - "MoMo Pay"
+      - "MoMo Travel"
+      - "MoMo Movies"
+      - "Ví Trả Sau"
+  Zalo:
+    keywords:
+      - ZaloPay
+      - Zalopay
+      - "Zalo Pay"
+      - "Zalo OA"
+      - "Zalo Mini"
+      - "Zalo Mini App"
+      - "Tài khoản trả sau"
+      - " Zalo "
+      - "Zalo —"
+      - "Zalo -"
+      - "Zalo ra mắt"
+      - "Zalo cập nhật"
+      - "Zalo bổ sung"
+      - "Zalo triển khai"
   Grab:
     keywords:
       - Grab
@@ -331,11 +351,25 @@ players:
       - GrabCar
       - GrabExpress
       - GrabAds
+      - GrabXu
       - "Grab Vietnam"
       - "Grab Việt Nam"
+  Shopee:
+    keywords:
+      - Shopee
+      - ShopeeFood
+      - ShopeePay
+      - "Shopee Mall"
+      - "Shopee Non-Mall"
+  TikTokShop:
+    keywords:
+      - "TikTok Shop"
+      - TikTokShop
+      - "TikTok Go"
+      - "Tokopedia"
 
 # Categories within Players Movement (Strategy / Product / Feature /
-# Partnership / Marketing). Marketing has 4 sub-categories per spec.
+# Partnership / Marketing). Sub-categories aligned with the report template.
 players_movement_categories:
   Strategy:
     keywords:
@@ -366,6 +400,25 @@ players_movement_categories:
       - "phát hành"
       - "công bố sản phẩm"
       - "giới thiệu sản phẩm"
+      # NOTE: avoid bare "dừng" — accent-stripping collides with
+      # "dùng" (use). Keep specific phrases below in Off product.
+      - "dừng dịch vụ"
+      - "dừng cung cấp"
+      - "ngừng hỗ trợ"
+      - "off product"
+    subcategories:
+      "Product launch":
+        keywords:
+          - "ra mắt"
+          - "công bố sản phẩm"
+          - "phát hành"
+          - "product launch"
+      "Off product":
+        keywords:
+          - "dừng dịch vụ"
+          - "dừng cung cấp"
+          - "ngừng hỗ trợ"
+          - "kết thúc dịch vụ"
 
   Feature:
     keywords:
@@ -376,6 +429,23 @@ players_movement_categories:
       - "nâng cấp"
       - "phiên bản mới"
       - rollout
+    subcategories:
+      "Payment capability upgrade":
+        keywords:
+          - "thanh toán"
+          - "phương thức thanh toán"
+          - "payment capability"
+          - QR
+          - "ví điện tử"
+      "Security / Privacy":
+        keywords:
+          - "bảo mật"
+          - "quyền riêng tư"
+          - "security"
+          - "privacy"
+          - "deepfake"
+          - "lừa đảo"
+          - "chặn chụp"
 
   Partnership:
     keywords:
@@ -388,6 +458,40 @@ players_movement_categories:
       - "liên minh"
       - "tích hợp"
       - integration
+    subcategories:
+      "Transport / Mobility":
+        keywords:
+          - "xe buýt"
+          - metro
+          - "Green SM"
+          - "GSM"
+          - "vé tàu"
+          - "vé xe"
+          - "vé máy bay"
+          - "đi lại"
+          - "transport"
+          - "mobility"
+      "Utility":
+        keywords:
+          - "VTVgo"
+          - "tiền điện"
+          - "tiền nước"
+          - "internet"
+          - "VTVGo"
+          - "utility"
+          - "hóa đơn"
+          - "ETC"
+          - ePass
+      "Merchant / Retailer":
+        keywords:
+          - "AEON"
+          - FAHASA
+          - "Saigon Co.op"
+          - "Long Châu"
+          - "Pharmacity"
+          - "siêu thị"
+          - "nhà thuốc"
+          - "Điện Máy Xanh"
 
   Marketing:
     keywords:
@@ -401,6 +505,9 @@ players_movement_categories:
       - "tài trợ"
       - sponsorship
       - "ra quân"
+      - gamification
+      - "hoàn tiền"
+      - cashback
     subcategories:
       "User acquisition":
         keywords:
@@ -410,6 +517,8 @@ players_movement_categories:
           - "đăng ký mới"
           - "khách hàng mới"
           - "tăng trưởng người dùng"
+          - "lần đầu"
+          - "người dùng mới"
       "User activation":
         keywords:
           - "kích hoạt"
@@ -417,6 +526,7 @@ players_movement_categories:
           - "first transaction"
           - "giao dịch đầu tiên"
           - "lần đầu sử dụng"
+          - "mở tài khoản"
       "User engagement":
         keywords:
           - "tương tác"
@@ -425,6 +535,8 @@ players_movement_categories:
           - "giữ chân"
           - "người dùng trung thành"
           - "thời gian sử dụng"
+          - "Săn"
+          - "minigame"
       "Transaction Growth":
         keywords:
           - "tăng trưởng giao dịch"
@@ -433,3 +545,7 @@ players_movement_categories:
           - "doanh số"
           - "doanh thu giao dịch"
           - "tăng trưởng doanh số"
+          - "Sale 5.5"
+          - "ngày đôi"
+          - "flashsale"
+          - "nạp"

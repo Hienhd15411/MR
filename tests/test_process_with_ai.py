@@ -14,10 +14,13 @@ from scripts.process_with_ai import _validate_processed, cmd_apply  # noqa: E402
 def _good_row(**overrides):
     base = {
         "id": "abc123",
-        "title_normalized": "[OpenAI] Ra mắt GPT-5",
-        "summary": "OpenAI ra mắt mô hình GPT-5.",
+        "title_normalized": "OpenAI ra mắt GPT-5 với khả năng agentic",
+        "summary": "• OpenAI công bố GPT-5\n• Khả năng tool-use vượt trội\n• Tác động lớn đến AI commerce",
         "category": "AI",
         "sub_category": "Big tech AI",
+        "topic_lens": "Technology",
+        "topic_sub": "AI/ Gen AI",
+        "campaign_period": "",
         "impact_score": 5,
         "relevance_score": 4,
         "final_score": round(5 * 0.6 + 4 * 0.4, 2),
@@ -42,6 +45,12 @@ def test_validate_catches_score_out_of_range():
     row = _good_row(impact_score=7)
     errs = _validate_processed([row])
     assert any("impact_score" in e for e in errs)
+
+
+def test_validate_catches_invalid_topic_lens():
+    row = _good_row(topic_lens="Marketing")  # not in {Legal, Technology, Economic}
+    errs = _validate_processed([row])
+    assert any("topic_lens" in e for e in errs)
 
 
 def test_apply_dry_run_works(tmp_path):

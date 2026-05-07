@@ -52,6 +52,9 @@ def cmd_export() -> int:
     return 0
 
 
+_VALID_TOPIC_LENS = {"Legal", "Technology", "Economic"}
+
+
 def _validate_processed(rows: list[dict]) -> list[str]:
     errs: list[str] = []
     required = ["id"] + FINAL_EXTRA_HEADERS
@@ -59,6 +62,11 @@ def _validate_processed(rows: list[dict]) -> list[str]:
         for k in required:
             if k not in r:
                 errs.append(f"row {i}: missing field {k!r}")
+        if r.get("topic_lens") and r["topic_lens"] not in _VALID_TOPIC_LENS:
+            errs.append(
+                f"row {i}: topic_lens {r['topic_lens']!r} not in "
+                f"{sorted(_VALID_TOPIC_LENS)}"
+            )
         try:
             impact = float(r.get("impact_score", 0))
             relevance = float(r.get("relevance_score", 0))
