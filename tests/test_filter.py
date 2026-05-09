@@ -262,6 +262,64 @@ def test_listicle_dropped():
     assert a.status == Status.FILTERED_OUT
 
 
+# --- Off-domain (heavy industry / gadget / promo spam) ----------------
+
+
+def test_heavy_industry_steel_dropped():
+    a = _art("Bắt tay 'gã khổng lồ' Nhật làm thép, tỷ phú Phạm Nhật Vượng chọn đối tác tỷ đô")
+    CategoryClassifier().classify(a)
+    assert a.status == Status.FILTERED_OUT
+
+
+def test_real_estate_megaproject_dropped():
+    a = _art("Vinhomes của tỷ phú Phạm Nhật Vượng sẽ khởi công siêu dự án 23.600 tỷ đồng")
+    CategoryClassifier().classify(a)
+    assert a.status == Status.FILTERED_OUT
+
+
+def test_railway_infrastructure_dropped():
+    a = _art("Pháp muốn tham gia siêu dự án đường sắt tốc độ cao Bắc - Nam")
+    CategoryClassifier().classify(a)
+    assert a.status == Status.FILTERED_OUT
+
+
+def test_smartphone_release_dropped():
+    a = _art("OPPO Find X9 Ultra và Find X9s ra mắt tại Việt Nam, giá từ 25 triệu đồng")
+    CategoryClassifier().classify(a)
+    assert a.status == Status.FILTERED_OUT
+
+
+def test_motorbike_release_dropped():
+    a = _art("Suzuki tung ra mẫu xe côn tay chỉ hơn 30 triệu đồng")
+    CategoryClassifier().classify(a)
+    assert a.status == Status.FILTERED_OUT
+
+
+def test_all_caps_promo_banner_dropped():
+    a = _art("GRABUNLIMITED – MỞ GRAB LUÔN CÓ MÃ ÁP")
+    CategoryClassifier().classify(a)
+    assert a.status == Status.FILTERED_OUT
+
+
+def test_emoji_prefix_dropped():
+    a = _art("🚀 THAM GIA THỬ THÁCH CÙNG GRAB SINH VIÊN 🎁")
+    CategoryClassifier().classify(a)
+    assert a.status == Status.FILTERED_OUT
+
+
+def test_too_short_dropped():
+    a = _art("Khuyến mãi")
+    CategoryClassifier().classify(a)
+    assert a.status == Status.FILTERED_OUT
+
+
+def test_vinpearl_partnership_kept():
+    # Real travel-strategic news must pass
+    a = _art("Vinpearl hợp tác với 3 doanh nghiệp lữ hành hàng đầu Ấn Độ khai mở thị trường 1,47 tỷ dân")
+    CategoryClassifier().classify(a)
+    assert a.status == Status.NEW
+
+
 def test_concrete_funding_round_kept():
     a = _art("Anthropic gọi vốn vòng mới với định giá gần 1 nghìn tỷ USD")
     CategoryClassifier().classify(a)

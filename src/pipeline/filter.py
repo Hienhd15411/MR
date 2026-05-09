@@ -78,12 +78,34 @@ _NOISE_TITLE_PATTERNS = [
                re.IGNORECASE),
     # Quoted celebrity / influencer headlines (often opinion pieces)
     re.compile(r"^\s*[\w\s]+\s*[:：]\s*[\"“]"),
+    # Title starts with emoji / pictogram (promo banner from blog feeds)
+    re.compile(r"^\s*[\U0001F300-\U0001FAFF☀-➿]+"),
+    # Vague promo titles (player blog noise)
+    re.compile(r"^\s*(thông báo|thông cáo|sự kiện|cộng đồng|khuyến mãi|"
+               r"thư viện|ưu đãi)\s*$", re.IGNORECASE),
+    re.compile(r"^\s*(grab|momo|zalo|shopee)\s+triển khai\s+chiến dịch mới\s*$",
+               re.IGNORECASE),
+    # Gadget release with price tag in title (consumer launch)
+    re.compile(r"\bgiá\s+(từ\s+)?\d+([\.,]\d+)?\s*(triệu|tr|nghìn|usd|\$)",
+               re.IGNORECASE),
+    # Vehicle / motorbike releases
+    re.compile(r"\bxe\s+(côn\s+tay|máy\s+điện|tay\s+ga|ga|máy)\b",
+               re.IGNORECASE),
 ]
 
 
 def _is_noise_title(title: str) -> bool:
     if not title:
-        return False
+        return True  # empty title = drop
+    # Drop if too short / no real content
+    if len(title.strip()) < 10:
+        return True
+    # Drop if more than 70% uppercase letters (banner / promo all-caps)
+    letters = [c for c in title if c.isalpha()]
+    if letters:
+        upper_ratio = sum(1 for c in letters if c.isupper()) / len(letters)
+        if upper_ratio > 0.7 and len(letters) > 6:
+            return True
     for pat in _NOISE_TITLE_PATTERNS:
         if pat.search(title):
             return True
