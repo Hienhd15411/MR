@@ -1,15 +1,15 @@
 # Market Watch — raw_data preview
 
-- Generated: **2026-05-09 09:13 UTC**
-- Crawled: **740**
-- Kept: **90** (Market Pulse: 72 · Players Movement: 18)
-- Filtered out (no category match): **650**
+- Generated: **2026-05-09 09:22 UTC**
+- Crawled: **754**
+- Kept: **92** (Market Pulse: 74 · Players Movement: 18)
+- Filtered out (no category match): **662**
 
 ## Summary by category (kept only)
 
 | Category | Count |
 |---|---:|
-| — | 34 |
+| — | 35 |
 | AI | 21 |
 | Feature | 8 |
 | AI/Big tech AI | 7 |
@@ -18,11 +18,12 @@
 | Fintech/E-wallet | 4 |
 | Travel/Khách sạn/Giải trí | 3 |
 | TMĐT | 1 |
+| Chat | 1 |
 | Marketing/Transaction Growth | 1 |
 | Product/Product launch | 1 |
 | AI/AI Vietnam | 1 |
 
-## Market Pulse (72)
+## Market Pulse (74)
 
 ### bloomberg_tech (1)
 
@@ -32,13 +33,19 @@
   - signal: Strategy_MnA
   - Cerebras Systems Inc. is set to increase the price range of its initial public offering as soon as Monday, according to people familiar with the matter, as demand for the artificial intelligence chipmaker’s shares continues to build.
 
-### cafebiz (2)
+### cafebiz (3)
 
 - **[Microsoft từng lo ngại OpenAI “quay xe” sang Amazon: Hậu trường căng thẳng trước khoản đầu tư 1 tỷ USD](https://cafebiz.vn/microsoft-tung-lo-ngai-openai-quay-xe-sang-amazon-hau-truong-cang-thang-truoc-khoan-dau-tu-1-ty-usd-176260509151817167.chn)**
   - relevance: `8` · category: `AI` · scope: `domestic` · published: —
   - themes: cross_brand_partnerships, ai_infra_general
   - signal: Funding
   - Các tài liệu tòa án vừa hé lộ giai đoạn Microsoft từng lo ngại OpenAI sẽ chuyển sang Amazon và “nói xấu” Azure trước khi hai bên trở thành liên minh AI quyền lực nhất thế giới.
+
+- **[Vietcombank thông báo: Xóa ngay lập tức nếu nhận được dòng tin nhắn này](https://cafebiz.vn/vietcombank-thong-bao-xoa-ngay-lap-tuc-neu-nhan-duoc-dong-tin-nhan-nay-176260509120430509.chn)**
+  - relevance: `6` · category: `Chat` · scope: `domestic` · published: —
+  - themes: payment_wallet_war
+  - signal: Campaign_Marketing
+  - Lợi dụng tâm lý thích nhận quà tặng và các chương trình khuyến mãi, những kẻ lừa đảo đang ráo riết phát tán một loạt tin nhắn giả mạo thương hiệu Vietcombank.
 
 - **[Giá RAM tăng tới 600%, 95% nguồn cung toàn cầu bị siết chặt: iPhone, PS6 và laptop đồng loạt lao đao](https://cafebiz.vn/gia-ram-tang-toi-600-95-nguon-cung-toan-cau-bi-siet-chat-iphone-ps6-va-laptop-dong-loat-lao-dao-176260509150930662.chn)**
   - relevance: `6` · category: `AI` · scope: `domestic` · published: —
@@ -116,13 +123,19 @@
   - signal: Regulation
   - Khi AI "yêu" người dùng quá mức, một góc khuất sến súa đến đáng sợ của ChatGPT tại thị trường tỷ dân dần bộc lộ.
 
-### dantri_ai (2)
+### dantri_ai (3)
 
 - **[Mac mini M4 phiên bản giá rẻ bị khai tử tại Việt Nam](https://dantri.com.vn/cong-nghe/mac-mini-m4-phien-ban-gia-re-bi-khai-tu-tai-viet-nam-20260503230754574.htm)**
   - relevance: `6` · category: `—` · scope: `domestic` · published: 2026-05-03 23:55 UTC
   - themes: vn_market_data
   - signal: Regulation
   - (Dân trí) - Mới đây, Apple đã gỡ bỏ mẫu máy tính Mac mini M4 phiên bản 256GB trên cửa hàng trực tuyến của hãng tại Việt Nam.
+
+- **[OPPO Find X9 Ultra và Find X9s ra mắt tại Việt Nam, giá từ 25 triệu đồng](https://dantri.com.vn/cong-nghe/oppo-find-x9-ultra-va-find-x9s-ra-mat-tai-viet-nam-gia-tu-25-trieu-dong-20260505200435120.htm)**
+  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-05 23:46 UTC
+  - themes: vn_market_data
+  - signal: Launch
+  - (Dân trí) - Ngày 5/5, OPPO Việt Nam đã ra mắt bộ đôi Find X9 Ultra và Find X9s tại sự kiện “Finding Hội An”.
 
 - **[Điểm tuần: OpenAI phát triển điện thoại, iPhone 17 giúp Apple thắng lớn](https://dantri.com.vn/cong-nghe/diem-tuan-openai-phat-trien-dien-thoai-iphone-17-giup-apple-thang-lon-20260502211207657.htm)**
   - relevance: `5` · category: `AI` · scope: `domestic` · published: 2026-05-03 00:05 UTC
@@ -599,7 +612,7 @@
 
 ---
 
-## Filtered out (650) — for audit, not included in report
+## Filtered out (662) — for audit, not included in report
 
 These articles were crawled but did not match any tracked category (AI, Chat, TMĐT, Travel, Ride/Food delivery, Fintech/E-wallet, Ticket) nor mention a tracked player (MoMo, Grab).
 
@@ -629,6 +642,8 @@ These articles were crawled but did not match any tracked category (AI, Chat, TM
 - [Lỗi kh&oacute; chịu nhất tr&ecirc;n ChatGPT đ&atilde; được khắc phục](https://thanhnien.vn/loi-kho-chiu-nhat-tren-chatgpt-da-duoc-khac-phuc-185260506214650393.htm) — `thanhnien_congnghe` · published: 2026-05-06 23:31 UTC
 - [Google sắp tung th&ecirc;m g&oacute;i AI Gemini &#039;b&iacute; mật&#039;](https://thanhnien.vn/google-sap-tung-them-goi-ai-gemini-bi-mat-185260506152144821.htm) — `thanhnien_congnghe` · published: 2026-05-06 10:45 UTC
 - [Smartphone AI đầu ti&ecirc;n của OpenAI c&oacute; thể d&ugrave;ng chip MediaTek](https://thanhnien.vn/smartphone-ai-dau-tien-cua-openai-co-the-dung-chip-mediatek-185260506132927019.htm) — `thanhnien_congnghe` · published: 2026-05-06 07:17 UTC
+- [Tổng hợp câu lệnh tạo ảnh AI đang gây chú ý trên mạng](https://dantri.com.vn/cong-nghe/tong-hop-cau-lenh-tao-anh-ai-dang-gay-chu-y-tren-mang-20260505090835361.htm) — `dantri_ai` · published: 2026-05-06 04:57 UTC
+- ["Bóng ma" Claude Mythos làm thay đổi hoàn toàn cuộc chơi an ninh mạng](https://dantri.com.vn/cong-nghe/bong-ma-claude-mythos-lam-thay-doi-hoan-toan-cuoc-choi-an-ninh-mang-20260505165253616.htm) — `dantri_ai` · published: 2026-05-06 00:42 UTC
 - [OpenAI projects $50 billion spending on computing power this year, Brockman says - Reuters](https://news.google.com/rss/articles/CBMivwFBVV95cUxPMTBTSWxoNF9Fd3RQQXdLZHYzemNYNTRhNmhyOWo3ZXVtZTJGSmNydy1ac1czYl91aTJLZnMxZUFNNzZ5dmZoVTFRYVo1UjB2WG9XWEo4VmpSWlNqUW51VzVrWUhsZ0JZUDEwWU9WYVdZOGd5QlVDM1BDWVR0RGllWUs4OG1VOTlReGZNY0pMTnJDVy1CWHJYVXF2Ym9ybENpaEFKSjNlVHJjZWZJYXZNWFNmWXBkX1QwUUMwdE5HWQ?oc=5) — `reuters_tech` · published: 2026-05-05 19:51 UTC
 - [Beyond SaaS Stagnation: Why AI-Native Spend is Surging 94% as Enterprises Embrace Autonomous Workforces](https://www.scmp.com/presented/tech/topics/ai-native-agentic-workforce/article/3351998/beyond-saas-stagnation-why-ai-native-spend-surging-94-enterprises-embrace-autonomous-workforces?utm_source=rss_feed) — `scmp_tech` · published: 2026-05-05 16:00 UTC
 - [India's PNB hikes cybersecurity spend as AI models including Anthropic’s Mythos raise risks - Reuters](https://news.google.com/rss/articles/CBMi7AFBVV95cUxOeEgwQ3lNNFZUWXo0WUgxLVdOZTlTdlpMNkU4WDEwNHNyMjVaWUdOWTFUTXJFU0VaMTl3N1pFczJkX0xKU1VTRi1udlA3S1R1LXJOX1V0RzZTeFUybnJ1bmgtMVpWMkxoNTYxRzV3OXk2UTdJUDRwaFhvSjktZThEYTFNTzBfaG1VRjFSc1V4ZnppOFJ0UXRLTG9XOTNlN3piVXZzbnZsVmZEOWJ4dE1Gc1FCUXpacWRlWHpKNWFUM3BNeEVZSVg0U005Q3pOcmpDWGVILUVtNUoyQU5PM2lybFEyZ2drcGhsYlUzUQ?oc=5) — `reuters_tech` · published: 2026-05-05 14:37 UTC
@@ -651,6 +666,4 @@ These articles were crawled but did not match any tracked category (AI, Chat, TM
 - [ByteDance raises 2026 capex by at least 25% amid AI boom, rising memory costs, sources say](https://www.scmp.com/tech/article/3352906/bytedance-raises-2026-capex-least-25-amid-ai-boom-rising-memory-costs-sources-say?utm_source=rss_feed) — `scmp_tech` · published: 2026-05-09 06:00 UTC
 - [Google’s Isomorphic Labs to Raise Over $2 Billion in New Funding](https://www.bloomberg.com/news/articles/2026-05-08/google-s-isomorphic-labs-to-raise-over-2-billion-in-new-funding) — `bloomberg_tech` · published: 2026-05-08 18:39 UTC
 - [Airbnb says AI now writes 60% of its new code](https://techcrunch.com/2026/05/08/airbnb-says-ai-now-writes-60-of-its-new-code/) — `techcrunch` · published: 2026-05-08 12:49 UTC
-- [Trình duyệt hơn 3,6 tỷ người dùng đang âm thầm "nhồi nhét" mô hình AI 4GB vào máy tính của bạn](https://cafef.vn/trinh-duyet-hon-36-ty-nguoi-dung-dang-am-tham-nhoi-nhet-mo-hinh-ai-4gb-vao-may-tinh-cua-ban-188260508135921923.chn) — `cafef_kinhteso` · published: 2026-05-08 08:49 UTC
-- [Phân tích dữ liệu từ hơn 57.000 chiếc iPhone, Apple phát hiện suy giảm thính lực có thể khiến bạn “chậm lại” theo đúng nghĩa đen](https://cafef.vn/phan-tich-du-lieu-tu-hon-57000-chiec-iphone-apple-phat-hien-suy-giam-thinh-luc-co-the-khien-ban-cham-lai-theo-dung-nghia-den-18826050808595349.chn) — `cafef_kinhteso` · published: 2026-05-08 01:59 UTC
-- … and 600 more (see Sheet/xlsx)
+- … and 612 more (see Sheet/xlsx)
