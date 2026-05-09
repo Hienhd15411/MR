@@ -206,6 +206,50 @@ def test_in_scope_vertical_alone_is_now_kept():
     assert a.status == Status.NEW
 
 
+# --- PM bug fixes -----------------------------------------------------
+
+
+def test_player_in_body_not_title_stays_market_pulse():
+    # Indonesia regulation article mentions Grab in body but is MP, not PM
+    a = _art(
+        "App gọi xe trước sức ép giảm chiết khấu",
+        snippet=("Tổng thống Indonesia Prabowo Subianto đã ký quy định mới, "
+                 "yêu cầu các nền tảng như Grab và GoTo giảm mức phí từ 20% xuống 8%."),
+    )
+    CategoryClassifier().classify(a)
+    # Kept (Grab mentioned + Ride/Food vertical)
+    assert a.status == Status.NEW
+    # But classified as MP since Grab not in title
+    assert a.type == ArticleType.MARKET_PULSE
+    assert a.player is None
+
+
+def test_player_in_title_classifies_as_pm():
+    a = _art("Grab cập nhật phí nền tảng và phí dịch vụ từ 28/04")
+    CategoryClassifier().classify(a)
+    assert a.type == ArticleType.PLAYERS_MOVEMENT
+    assert a.player == "Grab"
+
+
+def test_ban_keyword_no_longer_matches_BAN_in_BAN_DO():
+    # BẢN ĐỒ stripped to BAN DO must NOT match Regulation "ban" keyword
+    # (which has been removed). The signal_type should be Marketing, not
+    # Regulation, for promo titles like this.
+    a = _art("THAM GIA THỬ THÁCH BẢN ĐỒ BUNG SỨC MÙA THI CÙNG GRAB SINH VIÊN")
+    clf = CategoryClassifier()
+    clf.classify(a)
+    sig = getattr(a, "_business_signal", "") or ""
+    assert sig != "Regulation", f"unexpected Regulation signal: {sig}"
+
+
+def test_security_incident_kept():
+    # Anh's Database keeps platform security incidents — they're
+    # legitimately relevant to player risk monitoring.
+    a = _art("Tái diễn chiêu trò lừa đảo chiếm đoạt tài khoản Telegram tại Việt Nam")
+    CategoryClassifier().classify(a)
+    assert a.status == Status.NEW
+
+
 def test_platform_regulation_passes_high_score():
     a = _art(
         "Indonesia ban hành sắc lệnh cắt phí nền tảng ride-hailing xuống 8% — "

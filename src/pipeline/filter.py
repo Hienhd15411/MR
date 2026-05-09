@@ -182,6 +182,18 @@ class EditorialClassifier:
         text = " ".join(parts)
         return text + " || " + _strip_accents(text)
 
+    @staticmethod
+    def _title_haystack(article: RawArticle) -> str:
+        """Title-only haystack — used for player attribution.
+
+        A player is the article's *subject* only when it appears in the
+        title. A passing mention in the body (e.g. an Indonesia
+        regulation article that mentions Grab once) should stay in
+        Market Pulse, not be re-routed to Players Movement.
+        """
+        text = article.title_original or ""
+        return text + " || " + _strip_accents(text)
+
     def _first_hit(
         self, haystack: str, cats: list[_CompiledCategory]
     ) -> CategoryHit | None:
@@ -233,9 +245,14 @@ class EditorialClassifier:
 
     def classify(self, article: RawArticle) -> RawArticle:
         haystack = self._haystack(article)
+        title_haystack = self._title_haystack(article)
 
         # ---- Always compute metadata (used by Round 2 / sort / render) ----
+        # tracked = subject of the article (player keyword in TITLE)
+        # mentioned_anywhere = also includes passing mentions in body
         tracked = [n for n, _ in self._all_hits(
+            title_haystack, self._sections.get("players", []))]
+        tracked_anywhere = [n for n, _ in self._all_hits(
             haystack, self._sections.get("players", []))]
         adjacent = [n for n, _ in self._all_hits(
             haystack, self._sections.get("adjacent_players", []))]
@@ -250,14 +267,16 @@ class EditorialClassifier:
         if has_signal:
             score += _BUSINESS_SIGNAL_BONUS
 
-        article._mentioned_players = ", ".join(tracked + adjacent)  # type: ignore[attr-defined]
+        # Mentioned players list includes passing-mention tracked + adjacent
+        article._mentioned_players = ", ".join(tracked_anywhere + adjacent)  # type: ignore[attr-defined]
         article._business_signal = signal_type  # type: ignore[attr-defined]
         article._matched_themes = ", ".join(name for name, _ in themes)  # type: ignore[attr-defined]
         article._relevance_score = score  # type: ignore[attr-defined]
 
         # ---- Round 1 (Scanning) gates ----
-        # Tracked players bypass noise/exclude — their own promo & content
-        # all belongs in Players Movement (anh's Database keeps them).
+        # Only TITLE-tracked players bypass noise/exclude (their own promo
+        # & content all belong in Players Movement). Passing mentions in
+        # body don't grant bypass — those go through the normal MP flow.
         if not tracked:
             # Gate 1: hard title noise (clickbait, ticker, gadget review).
             if _is_noise_title(article.title_original or ""):
@@ -274,7 +293,7 @@ class EditorialClassifier:
 
         # Gate 3: must match Cluster 1 (player) OR Cluster 2 (vertical).
         # That's it — no theme, no signal, no threshold gating.
-        in_scope = bool(tracked) or bool(adjacent)
+        in_scope = bool(tracked) or bool(tracked_anywhere) or bool(adjacent)
         mp_hit = self._first_hit(haystack, self._sections.get("market_pulse", []))
         if mp_hit is not None:
             in_scope = True

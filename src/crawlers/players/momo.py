@@ -6,6 +6,7 @@ Selectors are intentionally permissive so a layout tweak does not crash.
 """
 from __future__ import annotations
 
+import re
 from typing import Optional
 
 import httpx
@@ -26,15 +27,36 @@ from src.utils.date_utils import now_utc, parse_date, within_window
 
 LIST_URL = "https://momo.vn/tin-tuc"
 
+# Real MoMo article URLs end with `-<numeric_id>`, e.g.
+# /tin-tuc/thong-bao/giai-ma-tu-khoa-rinh-goi-nang-cap-youtube-icloud-8704.
+# Section landing pages (/tin-tuc/thong-bao, /tin-tuc/cong-dong, …) don't
+# have a numeric suffix and must be skipped.
+_ARTICLE_ID_RE = re.compile(r"-\d+/?$")
+_SECTION_BLOCKLIST = {
+    "/tin-tuc",
+    "/tin-tuc/thong-cao-bao-chi",
+    "/tin-tuc/hinh-anh-video",
+    "/tin-tuc/khuyen-mai",
+    "/tin-tuc/cong-dong",
+    "/tin-tuc/thong-bao",
+    "/tin-tuc/tin-tuc-su-kien",
+    "/tin-tuc/thong-cao",
+    "/tin-tuc/thu-vien",
+}
+
 
 def _looks_like_news_link(href: str) -> bool:
+    """Real article URLs only — skip section landing pages."""
     if not href:
         return False
-    if href.startswith("/tin-tuc/") and len(href) > len("/tin-tuc/") + 1:
-        return True
-    if "momo.vn/tin-tuc/" in href:
-        return True
-    return False
+    if "/tin-tuc/" not in href and not href.endswith("/tin-tuc"):
+        return False
+    path = href.split("?")[0].rstrip("/")
+    if any(path.endswith(b) for b in _SECTION_BLOCKLIST):
+        return False
+    if not _ARTICLE_ID_RE.search(path):
+        return False
+    return True
 
 
 class MoMoNewsroom(BaseCrawler):

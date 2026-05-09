@@ -691,8 +691,12 @@ business_signals:
       - "ban hành"
       - "khung pháp lý"
       - "quy định mới"
+      - "Quy định"
+      - "Nghị định"
+      - "Thông tư"
       - "chính sách mới"
       - "luật"
+      - "Luật"
       - regulation
       - "regulator"
       - "ngân hàng nhà nước ban hành"
@@ -700,9 +704,11 @@ business_signals:
       - "AI Act"
       - "compliance"
       - "tuân thủ"
-      - "siết"
-      - "cấm"
-      - ban
+      - "siết quy định"
+      - "siết chặt"
+      - "lệnh cấm"
+      # NOTE: removed bare "ban" / "cấm" — too short, false-positives
+      # via accent stripping (e.g. "BẢN ĐỒ" → "BAN DO" matched "ban").
   Performance:
     keywords:
       - GMV
@@ -1092,6 +1098,10 @@ exclude_patterns:
       - "hands-on"
       - "unboxing"
       - "so sánh điện thoại"
+  # NOTE: scam/fraud/phishing alerts are NOT excluded.
+  # Anh's Database keeps "Tái diễn chiêu trò lừa đảo Telegram" etc.
+  # because they are platform-relevant security incidents.
+
   entertainment_sports:
     description: "Entertainment/Sports không có angle platform"
     keywords:
