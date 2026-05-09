@@ -1,29 +1,30 @@
 # Market Watch — raw_data preview
 
-- Generated: **2026-05-09 10:06 UTC**
-- Crawled: **748**
-- Kept: **235** (Market Pulse: 226 · Players Movement: 9)
-- Filtered out (no category match): **513**
+- Generated: **2026-05-09 10:15 UTC**
+- Crawled: **802**
+- Kept: **270** (Market Pulse: 236 · Players Movement: 34)
+- Filtered out (no category match): **532**
 
 ## Summary by category (kept only)
 
 | Category | Count |
 |---|---:|
-| AI | 122 |
-| — | 30 |
-| Travel/Khách sạn/Giải trí | 23 |
-| AI/Big tech AI | 17 |
+| AI | 124 |
+| — | 43 |
+| Travel/Khách sạn/Giải trí | 24 |
+| Fintech/E-wallet | 18 |
+| AI/Big tech AI | 15 |
 | Ride/Food delivery | 12 |
-| Fintech/E-wallet | 11 |
-| TMĐT | 6 |
-| Chat | 4 |
+| Feature | 10 |
+| TMĐT | 8 |
+| Chat | 6 |
 | AI/AI agents | 3 |
-| Feature | 3 |
-| Marketing | 2 |
-| Product/Product launch | 1 |
+| Marketing | 3 |
+| Product/Product launch | 2 |
+| Feature/Security / Privacy | 1 |
 | AI/AI Vietnam | 1 |
 
-## Market Pulse (226)
+## Market Pulse (236)
 
 ### bloomberg_tech (16)
 
@@ -249,7 +250,7 @@
   - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-07 08:08 UTC
   - Ngành âm nhạc đang đứng trước cơn sóng tác động cực lớn từ AI khi công nghệ ngày càng phát triển.
 
-### dantri_ai (12)
+### dantri_ai (7)
 
 - **[Mac mini M4 phiên bản giá rẻ bị khai tử tại Việt Nam](https://dantri.com.vn/cong-nghe/mac-mini-m4-phien-ban-gia-re-bi-khai-tu-tai-viet-nam-20260503230754574.htm)**
   - relevance: `6` · category: `—` · scope: `domestic` · published: 2026-05-03 23:55 UTC
@@ -263,37 +264,14 @@
   - signal: Performance
   - (Dân trí) - Những thông tin công nghệ nổi bật tuần qua gồm OpenAI âm thầm phát triển điện thoại, iPhone 17 giúp Apple đạt kỷ lục doanh thu, 34 triệu thuê bao chưa xác nhận SIM chính chủ.
 
-- **[Tổng hợp câu lệnh tạo ảnh AI đang gây chú ý trên mạng](https://dantri.com.vn/cong-nghe/tong-hop-cau-lenh-tao-anh-ai-dang-gay-chu-y-tren-mang-20260505090835361.htm)**
-  - relevance: `4` · category: `AI/Big tech AI` · scope: `domestic` · published: 2026-05-06 04:57 UTC
-  - themes: ai_infra_general
-  - (Dân trí) - Nhiều xu hướng tạo ảnh bằng AI đang được chia sẻ rộng rãi trên mạng xã hội. Dưới đây là một số câu lệnh người dùng có thể tham khảo để tạo ảnh bằng ChatGPT hoặc Gemini.
-
-- **["Bóng ma" Claude Mythos làm thay đổi hoàn toàn cuộc chơi an ninh mạng](https://dantri.com.vn/cong-nghe/bong-ma-claude-mythos-lam-thay-doi-hoan-toan-cuoc-choi-an-ninh-mang-20260505165253616.htm)**
-  - relevance: `4` · category: `AI` · scope: `domestic` · published: 2026-05-06 00:42 UTC
-  - themes: ai_infra_general
-  - (Dân trí) - Sự cố rò rỉ công cụ AI Claude Mythos vào tháng 4 đã gióng hồi chuông cảnh báo, an ninh mạng không còn là cuộc chơi của kỹ sư đơn thuần, mà là cuộc đối đầu trực diện giữa AI tấn công và phòng thủ.
-
-- **[Ireland điều tra Meta liên quan thuật toán Facebook, Instagram](https://dantri.com.vn/cong-nghe/ireland-dieu-tra-meta-lien-quan-thuat-toan-facebook-instagram-20260506161119839.htm)**
-  - relevance: `2` · category: `—` · scope: `domestic` · published: 2026-05-06 10:51 UTC
-  - signal: Regulation
-  - (Dân trí) - Cơ quan quản lý truyền thông Ireland vừa chính thức mở cuộc điều tra đối với Meta Platforms về các cáo buộc vi phạm Đạo luật Dịch vụ Kỹ thuật số (DSA).
-
 - **[Giá iPhone 18 Pro Max có thể giúp Apple cạnh tranh hơn](https://dantri.com.vn/cong-nghe/gia-iphone-18-pro-max-co-the-giup-apple-canh-tranh-hon-20260504114159083.htm)**
   - relevance: `2` · category: `—` · scope: `domestic` · published: 2026-05-04 07:36 UTC
   - signal: Funding
   - (Dân trí) - Trong một báo cáo mới nhất, nhà phân tích Jeff Pu cho biết Apple sẽ áp dụng chiến lược định giá cạnh tranh đối với dòng sản phẩm iPhone 18 Pro và iPhone 18 Pro Max.
 
-- **[Kính thông minh của Apple sẽ được trang bị những tính năng chưa từng có](https://dantri.com.vn/cong-nghe/kinh-thong-minh-cua-apple-se-duoc-trang-bi-nhung-tinh-nang-chua-tung-co-20260504231733465.htm)**
-  - relevance: `1` · category: `—` · scope: `domestic` · published: 2026-05-07 03:43 UTC
-  - (Dân trí) - Các thông tin bị rò rỉ cho biết Apple sẽ gia nhập vào thị trường kính thông minh với mẫu kính thiết kế thời trang và những tính năng chưa từng có trên các sản phẩm khác.
-
 - **[30.000 tài khoản Facebook bị đánh cắp, lộ thủ đoạn mạo danh Meta](https://dantri.com.vn/cong-nghe/30000-tai-khoan-facebook-bi-danh-cap-lo-thu-doan-mao-danh-meta-20260502201851980.htm)**
   - relevance: `1` · category: `—` · scope: `domestic` · published: 2026-05-03 00:25 UTC
   - (Dân trí) - Một đường dây tội phạm mạng có tổ chức vừa bị phát hiện sử dụng nền tảng Google AppSheet làm "bàn đạp" phát tán email lừa đảo, chiếm đoạt thành công khoảng 30.000 tài khoản Facebook.
-
-- **[Cisco: AI có thể góp thêm khoảng 130 tỷ USD cho GDP Việt Nam vào 2040](https://dantri.com.vn/cong-nghe/cisco-ai-co-the-gop-them-khoang-130-ty-usd-cho-gdp-viet-nam-vao-2040-20260507062430241.htm)**
-  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-06 23:27 UTC
-  - (Dân trí) - Tại sự kiện Cisco Connect Vietnam 2026, các chuyên gia nhấn mạnh AI đang mở ra cơ hội lớn cho Việt Nam bứt phá, song đi kèm là yêu cầu cấp thiết về hạ tầng, bảo mật và nhân lực.
 
 - **[Bị sếp âm thầm tạo bản sao, nhân viên “chơi chiêu” chống trả bằng AI](https://dantri.com.vn/cong-nghe/bi-sep-am-tham-tao-ban-sao-nhan-vien-choi-chieu-chong-tra-bang-ai-20260504185154335.htm)**
   - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-04 23:57 UTC
@@ -401,7 +379,7 @@
   - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-07 10:00 UTC
   - From the Trump administration’s “formatting errors” to South Africa’s historic policy withdrawal, AI confabulation is infiltrating official documents.
 
-### reuters_tech (28)
+### reuters_tech (27)
 
 - **[Uber-backed Lime reveals revenue surge in US IPO filing - Reuters](https://news.google.com/rss/articles/CBMiggFBVV95cUxQNG5XeWFBOVdHRkZkYUZia3ptMERGaThHdWJCcjZJWkNMUldMY21pbTlkajZCZm9Veks4OTl3X2d5N2JZOEhrUTdjU2dONnNYWW55YXlpZDF0eEFjcUlLTTkzQ2F4bk12dFJTSHFIQlpvMVQwaXRsQ05fX3lCOUhvZnhB?oc=5)**
   - relevance: `6` · category: `Ride/Food delivery` · scope: `international` · published: 2026-05-08 13:32 UTC
@@ -461,11 +439,6 @@
   - relevance: `3` · category: `TMĐT` · scope: `international` · published: 2026-05-08 08:13 UTC
   - themes: ai_infra_general
   - US suspects Nvidia chips smuggled to Alibaba via Thailand, Bloomberg News reports Reuters
-
-- **[Nvidia to invest up to $2.1 billion in IREN as part of AI data center deal - Reuters](https://news.google.com/rss/articles/CBMipAFBVV95cUxOQXRfYjlTODB1c08tend0YVFhQUl3X0FVMnVBWDZyT193ei1DcFhJeWhBX2hRSHBGQ2k2eFFtcDVkQk5ndGRNNlFIbDVHMXNMbS1VbU1jN0VXb3RXdXZpYUE3RjRyMUxGVGVIM2R0NzNMLTNtd0R1ZHRFdm03Zm1ZZ3poaWc4c0JjUk10ckxxWGhTWDRiWDlPX1diR05wS2tfd1VHZQ?oc=5)**
-  - relevance: `3` · category: `AI/Big tech AI` · scope: `international` · published: 2026-05-07 22:02 UTC
-  - themes: ai_infra_general
-  - Nvidia to invest up to $2.1 billion in IREN as part of AI data center deal Reuters
 
 - **[Logitech bets on AI, gaming and business users as it raises spending, CEO says - Reuters](https://news.google.com/rss/articles/CBMilgFBVV95cUxNaWxvLU5Vdy1RVW84M2tWMnhkcHE4S1dzTV94dy1NQlhsek9VVWh3LVQ4ZEs5WTF1Z1UxVG01aXo2WUdXTVdlbEgzTG9RNHBvTFc3SWE4MDc1SGotaG4zU281RG9UcE0yZVAxTWlpUHpyZDIzeHppSEJiaXBYZk91SVIxTDc0NnhmLUxGaEdjQkt3UG5COHc?oc=5)**
   - relevance: `1` · category: `AI` · scope: `international` · published: 2026-05-08 12:08 UTC
@@ -768,6 +741,26 @@
 - **[Baidu AI chip unit Kunlunxin plans dual listing in Shanghai, HK](https://www.techinasia.com/news/baidu-ai-chip-unit-kunlunxin-begins-star-listing-process)**
   - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-08 06:17 UTC
   - Kunlunxin signed the agreement with China International Capital Corp on April 29.
+
+### telegram_blog (6)
+
+- **[Guest AI Bots, Bot-to-Bot Chats, Chat Automation, Custom AI Styles, 100M+ Emoji & Sticker Search and Much More](https://telegram.org/blog/ai-bot-revolution-11-new-features)**
+  - relevance: `0` · category: `AI` · player: `Telegram` · scope: `international` · published: —
+
+- **[AI Editor, Mighty Polls, Live Photos, Bots Managed by Bots, and More](https://telegram.org/blog/ai-editor-mighty-polls-and-more)**
+  - relevance: `0` · category: `AI` · player: `Telegram` · scope: `international` · published: —
+
+- **[AI Summaries, New Design and More](https://telegram.org/blog/new-design-ai-summaries)**
+  - relevance: `0` · category: `AI` · player: `Telegram` · scope: `international` · published: —
+
+- **[Gift Marketplace, Posting Several Stories at Once, Auto-Translate For Channels](https://telegram.org/blog/gift-marketplace-and-more)**
+  - relevance: `0` · category: `TMĐT` · player: `Telegram` · scope: `international` · published: —
+
+- **[Wear Collectible Gifts, Move Gifts to the Blockchain, Send Gifts to Channels, and More](https://telegram.org/blog/wear-gifts-blockchain-and-more)**
+  - relevance: `0` · category: `Fintech/E-wallet` · player: `Telegram` · scope: `international` · published: —
+
+- **[Affiliate Programs, AI-Powered Sticker Search, Collages, and More](https://telegram.org/blog/affiliate-programs-ai-sticker-search)**
+  - relevance: `0` · category: `AI` · player: `Telegram` · scope: `international` · published: —
 
 ### thanhnien_congnghe (15)
 
@@ -1137,7 +1130,65 @@
   - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-05 00:00 UTC
   - Các mô hình AI tốt nhất của Trung Quốc và Mỹ không còn cách biệt đáng kể về hiệu năng dù Mỹ vẫn sở hữu nhiều mô hình AI hàng đầu hơn.
 
-## Players Movement (9)
+### whatsapp_blog (2)
+
+- **[New Feature Roundup: Free up space, multiple accounts, cross-platform transfer and more](https://blog.whatsapp.com/new-feature-roundup-free-up-space-multiple-accounts-cross-platform-transfer-and-more)**
+  - relevance: `1` · category: `Chat` · player: `WhatsApp` · scope: `international` · published: —
+  - signal: Product_Feature
+  - Over time, our chats become a record of the moments that matter: conversations with family, laughs with friends, the photos and videos we couldn't stop sharing. To help you make the most of all of it, we're rolling out new ways to make WhatsApp even easier to use — whether you're staying organized, juggling work and personal, or getting more out of every chat.
+
+- **[Reintroducing About: An improved way to share what you're up to](https://blog.whatsapp.com/reintroducing-about-an-improved-way-to-share-what-youre-up-to)**
+  - relevance: `1` · category: `Chat` · player: `WhatsApp` · scope: `international` · published: —
+  - signal: Product_Feature
+  - For those of you that have used WhatsApp from the very start, you'll remember About was our first feature. Today we're reintroducing and improving About, making it more visible, timely, and easier to use.
+
+### zalopay_promo (8)
+
+- **[Khuyến mãi – Ưu Đãi](https://zalopay.vn/khuyen-mai/an-uong)**
+  - relevance: `6` · category: `Fintech/E-wallet` · player: `Zalo` · scope: `domestic` · published: —
+  - themes: payment_wallet_war
+  - signal: Product_Feature
+  - Cập nhật các mã khuyến mãi, hoàn tiền khi đặt đồ ăn online, đi chợ online khi thanh toán bằng ví điện tử ZaloPay.
+
+- **[Khuyến mãi – Ưu Đãi](https://zalopay.vn/khuyen-mai/hoa-don)**
+  - relevance: `5` · category: `Fintech/E-wallet` · player: `Zalo` · scope: `domestic` · published: —
+  - themes: consumer_lending_bnpl
+  - signal: Product_Feature
+  - Cập nhật thông tin khuyến mãi khi thanh toán hóa đơn điện - nước - Internet - học phí -vay tiêu dùng cùng hàng ngàn ưu đãi với ZaloPay.
+
+- **[Khuyến mãi – Ưu Đãi](https://zalopay.vn/khuyen-mai/tai-chinh)**
+  - relevance: `5` · category: `Fintech/E-wallet` · player: `Zalo` · scope: `domestic` · published: —
+  - themes: consumer_lending_bnpl
+  - signal: Product_Feature
+  - Để không bỏ lỡ ưu đãi hấp dẫn khi tiết kiệm, mua sắm, mua trước trả sau. Cập nhật cùng ZaloPay ngay!
+
+- **[Khuyến mãi – Ưu Đãi](https://zalopay.vn/khuyen-mai/du-lich)**
+  - relevance: `3` · category: `Travel/Khách sạn/Giải trí` · player: `Zalo` · scope: `domestic` · published: —
+  - themes: travel_booking_in_app
+  - signal: Product_Feature
+  - Cập nhật mã khuyến mãi khi đặt phòng khách sạn, book phòng homestay, đặt vé máy bay cho những chuyến đi trong mùa du lịch. Khám phá ngay cùng ZaloPay.
+
+- **[Khuyến mãi – Ưu Đãi](https://zalopay.vn/khuyen-mai/dac-biet)**
+  - relevance: `1` · category: `Fintech/E-wallet` · player: `Zalo` · scope: `domestic` · published: —
+  - signal: Product_Feature
+  - Cập nhật các chương trình ưu đãi từ mèo Toro, tích xu đổi quà... và các chương trình trong những dịp đặc biệt khác của ZaloPay
+
+- **[Khuyến mãi – Ưu Đãi](https://zalopay.vn/khuyen-mai/mua-sam)**
+  - relevance: `1` · category: `TMĐT` · player: `Zalo` · scope: `domestic` · published: —
+  - signal: Campaign_Marketing
+  - Tổng hợp các chương trình khuyến mãi, hoàn tiền hấp dẫn khi mua hàng trên các sàn thương mại điện tử lớn!
+
+- **[Khuyến mãi – Ưu Đãi](https://zalopay.vn/khuyen-mai/dien-thoai)**
+  - relevance: `1` · category: `Fintech/E-wallet` · player: `Zalo` · scope: `domestic` · published: —
+  - signal: Campaign_Marketing
+  - Chuyên trang cung cấp thông tin khuyến mãi về nạp tiền điện thoại, mã thẻ cào, dung lượng 3G/4G. Hàng loạt deal hot đang chờ đón bạn. Khám phá cùng ZaloPay ngay!
+
+- **[Khuyến mãi – Ưu Đãi](https://zalopay.vn/khuyen-mai/giai-tri)**
+  - relevance: `1` · category: `Fintech/E-wallet` · player: `Zalo` · scope: `domestic` · published: —
+  - signal: Product_Feature
+  - Tổng hợp, review chi tiết các thông tin khuyến mãi giải trí game online, mua vé phim... Cập nhật hàng loạt ưu đãi giải trí trong 24h qua với ZaloPay. Khám phá ngay!
+
+## Players Movement (34)
 
 ### cafef_kinhteso (1)
 
@@ -1151,6 +1202,40 @@
 - **[Đang ‘xác minh khuôn mặt’ qua Zalo, người phụ nữ phát hiện điện thoại đơ, tài khoản bị trừ gần 1 tỷ](https://genk.vn/dang-xac-minh-khuon-mat-qua-zalo-nguoi-phu-nu-phat-hien-dien-thoai-do-tai-khoan-bi-tru-gan-1-ty-165260508224840492.chn)**
   - relevance: `5` · category: `—` · player: `Zalo` · scope: `domestic` · published: —
   - Thực hiện "xác thực khuôn mặt" theo hướng dẫn, người phụ nữ phát hiện tài khoản bị trừ gần 1 tỷ đồng.
+
+### grab_merchant_vn (7)
+
+- **[GrabMart | Bí kíp tăng trưởng doanh thu sầu riêng](https://merchant.grab.com/vn-vn/blog/grabmart-bikiptangtruongdoanhthu-saurieng?ref=blog-v-n-h-nh-hi-u-qu)**
+  - relevance: `6` · category: `—` · player: `Grab` · scope: `domestic` · published: —
+  - signal: Performance
+  - Generated by create next app
+
+- **[GrabMart | Các chương trình ưu đãi dành cho ngành hàng trái cây tươi mùa hè 2026](https://merchant.grab.com/vn-vn/blog/traicay2026?ref=blog-ch-ng-tr-nh-khuy-n-m-i)**
+  - relevance: `6` · category: `Marketing` · player: `Grab` · scope: `domestic` · published: —
+  - signal: Campaign_Marketing
+  - Generated by create next app
+
+- **[Grab | Giải pháp tăng trưởng Người dùng mới (dành cho dịch vụ Đi Ăn Nhà Hàng)](https://merchant.grab.com/vn-vn/blog/dealhoidonkhachmoi?ref=blog-ch-ng-tr-nh-khuy-n-m-i)**
+  - relevance: `6` · category: `—` · player: `Grab` · scope: `domestic` · published: —
+  - signal: Performance
+  - Generated by create next app
+
+- **[Grab | Cập nhật cách tính điểm đánh giá sao Cửa hàng](https://merchant.grab.com/vn-vn/blog/capnhatcachtinhdiemdanhgiasao2026?ref=blog-t-nh-n-ng)**
+  - relevance: `6` · category: `Feature` · player: `Grab` · scope: `domestic` · published: —
+  - signal: Product_Feature
+  - Generated by create next app
+
+- **[GrabMart | Đảm việc nhà - Giỏi kinh doanh nhờ nắm bắt xu hướng bán hàng qua ứng dụng](https://merchant.grab.com/vn-vn/blog/traicaysachanvatvoduyninh?ref=blog-v-n-h-nh-hi-u-qu)**
+  - relevance: `5` · category: `—` · player: `Grab` · scope: `domestic` · published: —
+  - Generated by create next app
+
+- **[Grab | Triển khai tính năng “Nhận đơn theo cách thủ công”](https://merchant.grab.com/vn-vn/blog/nhandonthucong?ref=blog-t-nh-n-ng)**
+  - relevance: `5` · category: `Feature` · player: `Grab` · scope: `domestic` · published: —
+  - Generated by create next app
+
+- **[Ngày hội Du lịch TP. HCM 2026: Grab vinh danh Quán Trứ Danh - Tôn vinh du lịch ẩm thực thành phố](https://merchant.grab.com/vn-vn/blog/ngayhoidulich2026?ref=blog-s-ki-n)**
+  - relevance: `5` · category: `—` · player: `Grab` · scope: `domestic` · published: —
+  - Generated by create next app
 
 ### grab_vn_blog (6)
 
@@ -1189,9 +1274,85 @@
   - relevance: `6` · category: `Feature` · player: `MoMo` · scope: `domestic` · published: —
   - signal: Product_Feature
 
+### shopee_seller_blog (11)
+
+- **[[QUAN TRỌNG] CẬP NHẬT VỀ PHÍ DÀNH CHO NGƯỜI BÁN KHÔNG THUỘC SHOPEE MALL TỪ NGÀY 01/05/2026](https://banhang.shopee.vn/edu/article/27451)**
+  - relevance: `11` · category: `Feature` · player: `Shopee` · scope: `domestic` · published: —
+  - themes: super_app_commerce
+  - signal: Product_Feature
+
+- **[[QUAN TRỌNG] CẬP NHẬT VỀ PHÍ DÀNH CHO NGƯỜI BÁN THUỘC SHOPEE MALL TỪ NGÀY 08/05/2026](https://banhang.shopee.vn/edu/article/27452)**
+  - relevance: `11` · category: `Feature` · player: `Shopee` · scope: `domestic` · published: —
+  - themes: super_app_commerce
+  - signal: Product_Feature
+
+- **[TỔNG HỢP CÁC MỨC PHÍ DÀNH CHO NGƯỜI BÁN THUỘC SHOPEE MALL](https://banhang.shopee.vn/edu/article/21087)**
+  - relevance: `10` · category: `—` · player: `Shopee` · scope: `domestic` · published: —
+  - themes: super_app_commerce
+
+- **[Tỷ lệ sản phẩm bật kênh Hỏa Tốc đối với Shopee Mall/Shop Yêu Thích+](https://banhang.shopee.vn/edu/article/27364)**
+  - relevance: `10` · category: `—` · player: `Shopee` · scope: `domestic` · published: —
+  - themes: super_app_commerce
+
+- **[Cập nhật mức thuế suất GTGT áp dụng trên các loại phí của Shopee Việt Nam từ tháng 05/2025 đến hết tháng 12/2026](https://banhang.shopee.vn/edu/article/25329)**
+  - relevance: `6` · category: `Feature` · player: `Shopee` · scope: `domestic` · published: —
+  - signal: Product_Feature
+
+- **[[QUAN TRỌNG] Thông báo phát hành Chứng từ khấu trừ thuế 2025 đối với hoạt động kinh doanh trên Shopee](https://banhang.shopee.vn/edu/article/27358)**
+  - relevance: `6` · category: `Product/Product launch` · player: `Shopee` · scope: `domestic` · published: —
+  - signal: Launch
+
+- **[[Mới] Shopee Chat: Danh sách sản phẩm Người mua quan tâm và tính năng Mời đặt hàng](https://banhang.shopee.vn/edu/article/27284)**
+  - relevance: `6` · category: `Feature` · player: `Shopee` · scope: `domestic` · published: —
+  - signal: Product_Feature
+
+- **[[27/04 - 03/05] ĐIỂM TIN BÁN HÀNG TRÊN SHOPEE TUẦN QUA CÓ GÌ MỚI !](https://banhang.shopee.vn/edu/article/20471)**
+  - relevance: `5` · category: `—` · player: `Shopee` · scope: `domestic` · published: —
+
+- **[Hướng dẫn quay video màn hình khi Người Bán cần Shopee hỗ trợ](https://banhang.shopee.vn/edu/article/16440)**
+  - relevance: `5` · category: `—` · player: `Shopee` · scope: `domestic` · published: —
+
+- **[Tính năng phân bổ đơn vị vận chuyển tự động cho Người bán trên Shopee](https://banhang.shopee.vn/edu/article/17468)**
+  - relevance: `5` · category: `Feature` · player: `Shopee` · scope: `domestic` · published: —
+
+- **[[MỚI] Công cụ Tối ưu sản phẩm bởi AI trên Shopee](https://banhang.shopee.vn/edu/article/26654)**
+  - relevance: `5` · category: `—` · player: `Shopee` · scope: `domestic` · published: —
+
+### telegram_blog (1)
+
+- **[Member Tags, Login with Telegram, Disable Sharing, GIF Editing, Date Formatting, Voting Timestamps](https://telegram.org/blog/member-tags-disable-sharing-and-more)**
+  - relevance: `5` · category: `—` · player: `Telegram` · scope: `international` · published: —
+
+### whatsapp_blog (6)
+
+- **[WhatsApp's Latest Privacy Protection: Strict Account Settings](https://blog.whatsapp.com/whatsapps-latest-privacy-protection-strict-account-settings)**
+  - relevance: `6` · category: `Feature/Security / Privacy` · player: `WhatsApp` · scope: `international` · published: —
+  - signal: Product_Feature
+  - WhatsApp's new Strict Account Settings feature provides extreme security against sophisticated cyber attacks by locking privacy settings and blocking media from non-contacts.
+
+- **[Introducing parent-managed accounts on WhatsApp](https://blog.whatsapp.com/introducing-parent-managed-accounts-on-whatsapp)**
+  - relevance: `5` · category: `—` · player: `WhatsApp` · scope: `international` · published: —
+  - WhatsApp is the trusted way families communicate because it’s simple, private, and reliable.
+
+- **[Level Up Your WhatsApp Group Chats With New Member Tags, Text Stickers, and More](https://blog.whatsapp.com/level-up-your-whatsapp-group-chats-with-new-member-tags-text-stickers-and-more)**
+  - relevance: `5` · category: `—` · player: `WhatsApp` · scope: `international` · published: —
+  - It’s a new year and a great time for some upgrades to your group chats. Group chats on WhatsApp make it easier to stay connected with the people in your life no matter what device they own – whether it’s sharing New Year’s resolutions, preparing for that special celebration you have coming up, or planning to win your football league.
+
+- **[Helping billions ring in the New Year on WhatsApp](https://blog.whatsapp.com/helping-billions-ring-in-the-new-year-on-whatsapp)**
+  - relevance: `5` · category: `—` · player: `WhatsApp` · scope: `international` · published: —
+  - New Year’s is our biggest day at WhatsApp, with each year breaking new records for how people text and call their friends and loved ones.
+
+- **[Introducing WhatsApp for Apple Watch](https://blog.whatsapp.com/introducing-whatsapp-for-apple-watch)**
+  - relevance: `5` · category: `—` · player: `WhatsApp` · scope: `international` · published: —
+  - Today we are announcing a big upgrade for your wrist - the all-new WhatsApp app for your Apple Watch*
+
+- **[Encrypting your WhatsApp Chat Backup Just Got Easier](https://blog.whatsapp.com/encrypting-your-whatsapp-chat-backup-just-got-easier)**
+  - relevance: `5` · category: `—` · player: `WhatsApp` · scope: `international` · published: —
+  - Many of us carry years of precious memories in our WhatsApp chats – photos, heartfelt voice notes, and important conversations. That’s why protecting them if you ever lose your phone or need to transfer to a new device is so important.
+
 ---
 
-## Filtered out (513) — for audit, not included in report
+## Filtered out (532) — for audit, not included in report
 
 These articles were crawled but did not match any tracked category (AI, Chat, TMĐT, Travel, Ride/Food delivery, Fintech/E-wallet, Ticket) nor mention a tracked player (MoMo, Grab).
 
@@ -1209,6 +1370,7 @@ These articles were crawled but did not match any tracked category (AI, Chat, TM
 - [10 ngày nữa sẽ khởi công nhà máy điện 60.000 tỷ tại Nghệ An: Cú bắt tay của PV Power và đại gia Hàn Quốc](https://cafef.vn/10-ngay-nua-se-khoi-cong-nha-may-dien-60000-ty-tai-nghe-an-cu-bat-tay-cua-pv-power-va-dai-gia-han-quoc-188260507224951125.chn) — `cafef_doanhnghiep` · published: 2026-05-07 17:01 UTC
 - [Việt Nam xác định 10 nhóm công nghệ chiến lược](https://vnexpress.net/viet-nam-xac-dinh-10-nhom-cong-nghe-chien-luoc-5070604.html) — `vnexpress_sohoa` · published: 2026-05-06 06:00 UTC
 - [Canadian Solar elevates Hong Kong role amid industry slump and geopolitical tensions](https://www.scmp.com/business/banking-finance/article/3352524/canadian-solar-elevates-hong-kong-role-amid-industry-slump-and-geopolitical-tensions?utm_source=rss_feed) — `scmp_tech` · published: 2026-05-06 00:00 UTC
+- [Tin tức](https://zalopay.vn/tin-tuc/tin-tuc-su-kien) — `zalopay_news` · published: —
 - [Khuyến khích Hayleys PLC mở rộng đầu tư, kết nối chuỗi giá trị tại Việt Nam](https://vneconomy.vn/khuyen-khich-hayleys-plc-mo-rong-dau-tu-ket-noi-chuoi-gia-tri-tai-viet-nam.htm) — `vneconomy` · published: 2026-05-09 03:18 UTC
 - [Khuyến khích Hayleys PLC mở rộng đầu tư, kết nối chuỗi giá trị tại Việt Nam](https://vneconomy.vn/khuyen-khich-hayleys-plc-mo-rong-dau-tu-ket-noi-chuoi-gia-tri-tai-viet-nam.htm) — `vneconomy_techconnect` · published: 2026-05-09 03:18 UTC
 - [JT Epress: ESG - Từ chiến lược toàn cầu đến thực thi tại Việt Nam](https://vneconomy.vn/jt-epress-esg-tu-chien-luoc-toan-cau-den-thuc-thi-tai-viet-nam.htm) — `vneconomy` · published: 2026-05-09 01:00 UTC
@@ -1219,7 +1381,6 @@ These articles were crawled but did not match any tracked category (AI, Chat, TM
 - [Chuỗi gà rán hàng đầu Hàn Quốc gia nhập thị trường Việt Nam](https://tuoitre.vn/chuoi-ga-ran-hang-dau-han-quoc-gia-nhap-thi-truong-viet-nam-20260508121038168.htm) — `tuoitre_kinhdoanh` · published: 2026-05-08 05:31 UTC
 - [HD Hyundai đặt mục tiêu đóng 23 tàu tại Việt Nam mỗi năm](https://tuoitre.vn/hd-hyundai-dat-muc-tieu-dong-23-tau-tai-viet-nam-moi-nam-2026050717050176.htm) — `tuoitre_kinhdoanh` · published: 2026-05-07 10:22 UTC
 - [Nike chưa thể phục hồi với chiến lược 'Win Now'](https://vnexpress.net/nike-chua-the-phuc-hoi-voi-chien-luoc-win-now-5070718.html) — `vnexpress_kinhdoanh` · published: 2026-05-06 18:10 UTC
-- [OPPO Find X9 Ultra và Find X9s ra mắt tại Việt Nam, giá từ 25 triệu đồng](https://dantri.com.vn/cong-nghe/oppo-find-x9-ultra-va-find-x9s-ra-mat-tai-viet-nam-gia-tu-25-trieu-dong-20260505200435120.htm) — `dantri_ai` · published: 2026-05-05 23:46 UTC
 - [Cuộc đua công nghệ tăng nhiệt: Loạt TV Mini LED ồ ạt 'chào sân'](https://vnbusiness.vn//cuoc-dua-cong-nghe-tang-nhiet-loat-tv-mini-led-o-at-chao-san.html) — `vnbusiness` · published: 2026-05-04 09:26 UTC
 - [Suzuki tung ra mẫu xe côn tay chỉ hơn 30 triệu đồng: Người Việt lập tức nhớ tới “huyền thoại” EN150-A](https://genk.vn/suzuki-tung-ra-mau-xe-con-tay-chi-hon-30-trieu-dong-nguoi-viet-lap-tuc-nho-toi-huyen-thoai-en150-a-165260509135016385.chn) — `genk` · published: —
 - [Bộ trưởng Vũ Hải Quân: Hợp tác KHCN Việt Nam - Ấn Độ bước sang giai đoạn mới, thực chất, sâu rộng và hiệu quả hơn](https://cafef.vn/bo-truong-vu-hai-quan-hop-tac-khcn-viet-nam-an-do-buoc-sang-giai-doan-moi-thuc-chat-sau-rong-va-hieu-qua-hon-188260509144953818.chn) — `cafef_kinhteso` · published: 2026-05-09 07:49 UTC
@@ -1245,4 +1406,4 @@ These articles were crawled but did not match any tracked category (AI, Chat, TM
 - [Tạm giữ tài xế xe khách gây tai nạn khiến 3 người tử vong ở Gia Lai](https://cafebiz.vn/tam-giu-tai-xe-xe-khach-gay-tai-nan-khien-3-nguoi-tu-vong-o-gia-lai-176260509120030073.chn) — `cafebiz` · published: —
 - [Tại sao Topaz là đối tác chiến lược hàng đầu của các doanh nghiệp sản xuất?](https://cafebiz.vn/tai-sao-topaz-la-doi-tac-chien-luoc-hang-dau-cua-cac-doanh-nghiep-san-xuat-176260509122316707.chn) — `cafebiz` · published: —
 - [Starbucks, Pizza, khách sạn… kéo nhau vào ChatGPT: OpenAI đang làm điều từng khiến Google thống trị internet?](https://genk.vn/starbucks-pizza-khach-san-keo-nhau-vao-chatgpt-openai-dang-lam-dieu-tung-khien-google-thong-tri-internet-165260509074859095.chn) — `genk` · published: —
-- … and 463 more (see Sheet/xlsx)
+- … and 482 more (see Sheet/xlsx)
