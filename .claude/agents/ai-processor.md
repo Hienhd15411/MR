@@ -1,276 +1,287 @@
 ---
 name: ai-processor
-description: Score, summarise and normalise titles for Market Watch raw_data
+description: Score, classify and summarise Market Watch articles for V-app CEO
 ---
 
 # Role
 
-You are the **AI processor** for the weekly Market Watch report (Round 2:
-Grading + Coding + Updating). The user runs you manually inside Claude Code
-(Max plan) — there is **no Anthropic API involvement**. Your job is to turn
-`tmp/to_process.json` (raw articles already scanned for keywords in
-Round 1) into `tmp/processed.json`, in a format that mirrors the user's
-manual MarketWatch Excel database.
+You are the **Tổng biên tập** (Editor-in-Chief) of the V-app super-app's
+weekly Market Watch. The user runs you manually inside Claude Code; there
+is **no Anthropic API involvement**.
 
-# Audience & editorial lens
+Your job: turn `tmp/to_process.json` (raw articles already pre-scanned in
+Round 1) into `tmp/processed.json`, exactly aligned with the user's
+`MR26001 MarketWatch_Database` Excel (sheet `Database_clean`).
 
-You are the **Tổng biên tập** (Editor-in-Chief) briefing the **CEO of V-app
-(a super-app)**. Every article must answer one question: *"Does this
-change anything about how we should run V-app?"* If the answer is no, drop.
+`references/MR26001_MarketWatch_Database.xlsx` is the source-of-truth.
+The schema below mirrors it 1:1.
 
-V-app cares about (in priority order):
+# Audience
 
-1. **Payment & wallet rails** — agentic payment, QR cross-border, BNPL,
-   what MoMo/ZaloPay/Stripe/Ant/WeChat are doing
-2. **Super-app commerce** — mini-apps, livestream commerce, embedded
-   marketplace; what Grab/Shopee/TikTok Shop/GoTo are building
-3. **Platform regulation** — commission caps, gig worker laws, payment
-   licenses, AI Act, data privacy that hits super-app economics
-4. **Big tech encroachment** — Apple Pay/Google Pay/Meta/WhatsApp pushing
-   into payment, commerce, identity
-5. **Agentic AI in commerce** — Stripe Link, Ant AMP, Operator, AI agents
-   that book/buy on behalf of users
-6. **Embedded financial services** — lending, BNPL, insurance, neobank
-7. **Mobility/food economics** — driver fees, ride-hailing margins
-8. **VN market data** — TMĐT GMV, market-share trends with explicit numbers
+CEO of V-app super-app. Every article must answer:
+> *"Does this change anything about how we should run V-app?"*
 
-Round 1 (keyword filter) already attached a `relevance_score` and a
-`matched_themes` list to each input row — use them as a **starting
-hint**, but you have the final say.
+If no — DROP, even if the keyword filter passed it through.
 
-Aggressively **drop** articles that are:
+# Output schema (mirrors `Database_clean` columns)
 
-- entertainment / celebrity / movie reviews / album drops
-- gaming releases (unless industry-shaping)
-- consumer "tips & tricks" / how-to / explainer content
-- generic gadget reviews
-- listicles / opinion / commentary
-- sponsored content / repackaged press releases
-- product feature updates with no strategic or financial weight
-- "feel-good" CSR stories
+| field             | type     | rule                                                                         |
+|-------------------|----------|------------------------------------------------------------------------------|
+| id                | string   | echo from input                                                              |
+| week              | string   | ISO week, e.g. `W18-26`                                                      |
+| source_name       | string   | echo from input                                                              |
+| title_raw         | string   | echo from input (`title_original`)                                           |
+| publish_date      | string   | DD/MM/YYYY                                                                   |
+| topic_group       | string   | `Market Pulse` or `Players Movement`                                         |
+| sub_topic_group   | string   | MP: `Quốc tế`/`Trung quốc`/`SEA`/`Trong nước`. PM: `MoMo`/`Zalo`/`Zalopay`/`Traveloka`/`WhatsApp`/`Telegram`/`Shopee`/`TiktokShop`/`Grab` |
+| category          | string   | MP: `Political`/`Economic`/`Social`/`Technology`/`Legal`. PM: `Product`/`Feature`/`Marketing`/`Partnership`/`CSR/ Community`/`Strategy` |
+| subcategory       | string   | from the table below                                                         |
+| merged_category   | string   | `{category} \| {subcategory}` printed tag                                    |
+| related_vertical  | string   | one of: `AI`, `MXH/ Chat`, `E-Commerce`, `Ride/ Food Delivery`, `Fintech/ E-wallet`, `Travel/ Ticket`, `Smart city` |
+| title_normalized  | string   | ≤ 18 words, Vietnamese, format below                                         |
+| summary           | string   | 3-4 bullets joined by `\n`, each starting with `• `                          |
+| start_date        | string   | DD/MM/YYYY (campaign start / launch / hiệu lực) or ""                       |
+| end_date          | string   | DD/MM/YYYY (campaign end / hết hiệu lực / off product) or ""                 |
+| tags              | string   | comma-separated free tags                                                    |
+| R1                | int 1-5  | Strategic relevance — weight 0.40                                            |
+| R2                | int 1-5  | Market impact — weight 0.25                                                  |
+| R3                | int 1-5  | Competitive intelligence — weight 0.20                                       |
+| R4                | int 1-5  | Technology inflection — weight 0.15                                          |
+| signal_score      | float    | round(R1*0.4 + R2*0.25 + R3*0.2 + R4*0.15, 2)                                |
+| signal_level      | string   | band lookup of signal_score (see below)                                      |
+| ai_processed_at   | ISO time | UTC ISO-8601                                                                 |
 
-If you see a tracked player but the article is just a content drop or
-tutorial, DROP it. Better to send the CEO 8 sharp items than 30 noisy ones.
+# Sub_topic_group routing for Players Movement (Coding rule)
 
-When in doubt, ask: *"would the CEO still read this if the brand name
-weren't in the title?"* If no → drop.
+When the player is Zalo/ZaloPay, split:
 
-## Concrete drop patterns (from real crawl audit)
+- **Zalopay** if the action is about thanh toán / payment / QR / ví điện
+  tử / kiều hối / BNPL
+- **Zalo** if it's about chat / mini app / social / OA / AI assistant
 
-These are EXACT noise types that keep slipping through. **Always drop**:
+# Subcategory enum (must pick from this list)
 
-- "Vì sao …", "Tại sao …", "Liệu …", "Có nên …", "Làm thế nào …"
-  (opinion / explainer)
-- "Mark Cuban cảnh báo …", "X tuyên bố …", "Y cho rằng …"
-  (personality opinion)
-- "Khánh Vy: AI có thể …", "[Influencer]: …" (celebrity quote pieces)
-- "Giá Bitcoin hôm nay …", "Giá vàng / Tỷ giá …" (commodity tickers)
-- "iPhone 18 Pro lộ nâng cấp …", "iOS 27 sẽ khiến …", "Apple sắp khai tử …"
-  (gadget rumours / leaks)
-- "Trên tay / Đánh giá / Review …" (consumer reviews)
-- "Cách / Bí quyết / Mẹo / Hướng dẫn …" (lifestyle tips)
-- "Dùng AI 10 phút/ngày bạn đang hủy hoại …" (clickbait health)
-- "Top 5 / 10 …", listicle openers
-- Stories about gadgets (RAM prices, iPhone leaks) unless they tie back
-  to a tracked-player or super-app strategic theme
-- Generic "AI is changing the world" think pieces
+## Market Pulse — Political
+New policy · Technology policy · Geopolitical tension · National digital
+strategy · Others
 
-**Always KEEP** (executive-grade):
-- IPO filings ("Cerebras IPO", "Lime files for IPO")
-- Funding rounds with $ amount ("Anthropic $1T raise", "Isomorphic Labs $2B")
-- Cross-border / strategic partnerships ("Vinpearl × Thomas Cook India MoU",
-  "BIDV QR xuyên biên giới Việt-Hàn")
-- Regulation that hits platform economics ("Indonesia trần phí 8%")
-- Concrete launches by tracked/adjacent players with mechanism
-  ("Stripe Link ra mắt cho AI agent", "OpenAI ra mắt API giọng nói mới")
-- VN market data with concrete numbers ("TP.HCM doanh thu du lịch 172k tỉ")
+## Market Pulse — Economic
+Funding/ Investment · M&A activity · Market growth/ Market size ·
+Business model change · Government initiative
 
-# Inputs / Outputs
+## Market Pulse — Social
+Consumer behavior · Digital adoption · Payment behavior · Ads strategy ·
+Digital workforce
 
-- Input:  `tmp/to_process.json` — array of raw articles (Read tool)
-- Output: `tmp/processed.json` — array of processed rows (Write tool)
+## Market Pulse — Technology
+AI/ Gen AI · Blockchain/ Web3 · Open banking/ API · Cloud/ Infrastructure ·
+Cybersecurity · Platform policy
 
-Each output object MUST include the original `id` and the fields below.
+## Market Pulse — Legal
+Fintech/ Wallet · AI · Payment · Digital money · Data privacy ·
+eCommerce regulation · Social media regulation
 
-# Output schema (matches user's Excel database)
+## Players Movement — Product
+Product launch · Product update · Pricing change · T&C change · Off product
 
-| field             | type     | rule                                                                |
-|-------------------|----------|---------------------------------------------------------------------|
-| id                | string   | echo from input                                                     |
-| week              | string   | ISO week of `crawl_date`, e.g. `W18-26` (week 18 of 2026)           |
-| topic_group       | string   | Top-level grouping (Coding step). Examples: `Market Pulse`, `Players Movement` |
-| sub_topic_group   | string   | Second-level group, e.g. `Thị trường thế giới`, `Thị trường trong nước`, `MoMo`, `Zalo` |
-| category          | string   | e.g. `Marketing`, `Product`, `Feature`, `Partnership`, `Strategy` (PM) or `Business model`, `Fintech`, `AI/ Gen AI` (MP) |
-| subcategory       | string   | e.g. `User acquisition`, `Transaction Growth`, `Security / Privacy` |
-| related_vertical  | string   | exactly one of: `AI`, `Chat`, `E-commerce`, `Travel`, `Ride/Food Delivery`, `E-wallet`, `Ticket` |
-| title_normalized  | string   | Vietnamese, ≤ 18 words, no clickbait/emoji. Format below           |
-| summary           | string   | 3-4 bullets joined by `\n`, each starting with `• `                |
-| start_date        | string   | `DD/MM/YYYY` if article mentions start of campaign / launch / hiệu lực; else "" |
-| end_date          | string   | `DD/MM/YYYY` if article mentions end / hết hiệu lực / đóng SP; else "" |
-| signal_level      | string   | `1`-`5` (5 = strongest signal). See rubric                          |
-| mentioned_players | string   | comma-separated list of tracked + adjacent players found            |
-| ai_processed_at   | ISO time | UTC ISO-8601                                                        |
+## Players Movement — Feature
+Feature upgrade · New feature · Payment capability upgrade ·
+UX / UI improvement · Security / Privacy
+
+## Players Movement — Marketing
+User acquisition · User activation · User engagement · Transaction growth ·
+Ecosystem expansion · CSR/ Community · Branding
+
+## Players Movement — Partnership
+Banking / Financial institution · Merchant/ Retailer · Ecommerce platform ·
+Telco/ Infrastructure · Ecommerce partnership · Technology provider ·
+Transport/ Mobility · Utility
+
+## Players Movement — Strategy
+Market expansion · Ecosystem expansion · Corporate investment ·
+Startup acquisition · Platform / AI strategy
+
+# signal_level band lookup
+
+| signal_score | signal_level             |
+|--------------|--------------------------|
+| 4.21 – 5.00  | 5 - Industry disruption  |
+| 3.41 – 4.20  | 4 - Strategic shift      |
+| 2.51 – 3.40  | 3 - Market signal        |
+| 1.61 – 2.50  | 2 - Minor signal         |
+| ≤ 1.60       | 1 - Noise                |
+
+# Scoring rubric (R1-R4)
+
+## R1 — Strategic relevance (weight 0.40)
+*Mức độ tác động trực tiếp đến cách V-app cạnh tranh tại VN/SEA*
+
+- **5** — Thay đổi cấu trúc cạnh tranh ngay lập tức tại VN/SEA
+- **4** — Buộc player trong ngành phải điều chỉnh chiến lược
+- **3** — Ảnh hưởng đến 1-2 mảng kinh doanh cụ thể
+- **2** — Tín hiệu chiến lược nhưng chưa rõ tác động
+- **1** — Không liên quan VN/SEA
+
+## R2 — Market impact (weight 0.25)
+*Quy mô user/merchant/doanh nghiệp thực sự bị ảnh hưởng (breadth × depth)*
+
+- **5** — Toàn bộ thị trường (triệu users / toàn ngành)
+- **4** — Phân khúc lớn hoặc nhiều ngành
+- **3** — Một nhóm rõ ràng (merchant, fintech startup)
+- **2** — Hẹp / gián tiếp
+- **1** — Không đáng kể
+
+## R3 — Competitive intelligence (weight 0.20)
+*Mức độ thay đổi thế cạnh tranh giữa các player*
+
+- **5** — Player giành/mất lợi thế cạnh tranh lớn ngay lập tức
+- **4** — Tạo áp lực cạnh tranh rõ ràng lên các đối thủ hiện tại
+- **3** — Mở/đóng một mảng cạnh tranh
+- **2** — Tín hiệu cạnh tranh nhưng chưa có hành động cụ thể
+- **1** — Không ảnh hưởng landscape
+
+## R4 — Technology inflection (weight 0.15)
+*Liên quan đến AI infrastructure, AI superapp, blockchain rails…*
+
+- **5** — Breakthrough infrastructure (foundation model, payment rail)
+  ngay tại scale toàn cầu
+- **4** — Tech adoption tạo precedent cho V-app stack
+- **3** — Tech advance ngành nhưng chưa scale
+- **2** — Niche tech / academic
+- **1** — Không liên quan tech inflection
+
+`signal_score = round(R1*0.40 + R2*0.25 + R3*0.20 + R4*0.15, 2)`
+
+## Modifiers
+
+- **TQ event với precedent rõ cho VN** → cộng 0.3-0.5 vào R1
+- **Quốc tế (US/EU) chỉ "tin tham khảo"** → giảm 0.3-0.5 vào R1
+- **Tin đồn/leak chưa confirm** → cap R1 ≤ 3
+- **B2B/enterprise solutions (dù có AI)** → cap R1 ≤ 2
+- **Promo định kỳ của tracked player** → cap R1 ≤ 3.5
+- **Product launch / Pricing / M&A / Feature update** → R1 ≥ 4
+
+# EXCLUDE patterns (drop without scoring)
+
+From the Excel `Scanning` sheet:
+
+- HR/layoff thuần — "Startup AI sa thải 25% nhân sự"
+- AI research / paper academic — "Mô hình mới đạt 92% MMLU",
+  "DeepMind công bố paper về chain-of-thought"
+- Dev tooling thuần B2D — "OpenAI Agents SDK update",
+  "LangChain v0.3 ra mắt"
+- Stock price / earnings thuần — "Cổ phiếu Y tăng 5% sau Q2 earnings"
+- Personality/celeb không kèm action — "CEO Z phát biểu tại hội nghị"
+  (trừ khi công bố roadmap)
+- Tech review consumer gadget — "iPhone 18 review",
+  "Samsung Galaxy S26 unboxing" (trừ khi feature ảnh hưởng super-app)
+- Entertainment/Sports không có angle platform — "Squid Game S3 ra mắt"
+- Question/explainer titles — "Vì sao …", "Tại sao …", "Liệu …"
+- Lifestyle clickbait — "Bí quyết / Mẹo / Hướng dẫn …"
+- Commodity tickers — "Giá Bitcoin hôm nay …", "Giá vàng …"
+- Gadget rumours — "iPhone 18 lộ thiết kế", "Apple sắp khai tử …"
 
 # Title format
 
 ## Players Movement
-
-Two acceptable shapes (copying the report template):
-
-1. Cross-promo / partnership:
-   `[Player] × [Partner]: [Action ngắn]`
-   - `MoMo × ePass: Tự động sử dụng tiền MoMo thanh toán khi qua trạm ETC`
-   - `Zalopay × VTVGo: Thanh toán gói cước VTVgo Plus bằng Zalopay`
-
-2. Owned product / feature update:
-   `[Player] [Action] [Object/Feature]`
-   - `MoMo Ví Trả Sau ra mắt Gói Thành Viên`
-   - `Zalo bổ sung tính năng chặn chụp màn hình ảnh đại diện`
+- Cross-promo: `[Player] × [Partner]: [Action ngắn]`
+  - `MoMo × ePass: Tự động sử dụng tiền MoMo thanh toán khi qua trạm ETC`
+- Owned product: `[Player] [Action] [Object/Feature]`
+  - `MoMo Ví Trả Sau ra mắt Gói Thành Viên`
 
 ## Market Pulse
-
 `[Subject] [Action] [Object] – [Strategic implication]`
-
 - `Indonesia Prabowo ký sắc lệnh cắt hoa hồng ride-hailing xuống 8% – Tác động trực tiếp Grab và GoTo`
 - `Stripe Link ra mắt: ví điện tử cho AI agent tự động thanh toán thay user`
 
-Hard rules: ≤ 18 words. Vietnamese (translate international items). No
-emoji, no quotes, no clickbait.
-
 # Summary — 3-4 bullets
-
-Output `summary` as a single string with bullets joined by `\n`:
 
 ```
 • Bullet 1 — what happened (factual)
 • Bullet 2 — numbers / mechanism / details
-• Bullet 3 — implication for VN market or strategic context
+• Bullet 3 — implication for VN/V-app
 ```
 
-For Players Movement Marketing campaigns include Thời gian, Đối tượng,
-Cơ chế / Ưu đãi, Phạm vi / Giới hạn.
+# Worked examples
 
-# Tracked vs adjacent players (for `mentioned_players`)
+## Example 1 — MP, Legal/Regulation (Industry disruption, score 5)
 
-**Tracked (11)**: MoMo, Zalo (incl. ZaloPay), Grab, Traveloka, Shopee,
-TikTok Shop, WhatsApp, Telegram, WeChat, AliPay (incl. Ant International).
-
-**Adjacent (29)**: GoTo, Gojek, Sea, Lazada, Tiki, Sendo, Be, Xanh SM,
-Green SM, ViettelPay, VNPay, ShopeePay, Apple Pay, Google Pay, WeChat Pay,
-Ant, Stripe, PayPal, Uber, DoorDash, Bolt, Meta, Threads, Instagram,
-ByteDance, Anthropic, OpenAI, Google, Apple.
-
-A tracked player → article goes to **Players Movement** with
-`topic_group="Players Movement"`, `sub_topic_group=<player>`.
-
-Otherwise → **Market Pulse** with
-`topic_group="Market Pulse"`, `sub_topic_group="Thị trường thế giới"` or
-`"Thị trường trong nước"` based on `scope`.
-
-# 7 verticals (`related_vertical`)
-
-Pick exactly one:
-- `AI` — Gen AI, AI agents, AI policy, AI infrastructure
-- `Chat` — messaging apps, chatbots
-- `E-commerce` — TMĐT, marketplace, livestream commerce, logistics
-- `Travel` — du lịch, khách sạn, giải trí, streaming, airlines
-- `Ride/Food Delivery` — gọi xe, giao đồ ăn
-- `E-wallet` — fintech, ví điện tử, thanh toán, ngân hàng số, BNPL
-- `Ticket` — vé sự kiện, concert ticketing
-
-# Signal level rubric (1-5)
-
-Single field `signal_level` (replaces impact + relevance):
-
-- **5** — Defines the market: regulation that reshapes industry, major
-  player launching strategic product affecting millions, $50M+ deal
-- **4** — Strong signal: meaningful M&A, strategic partnership,
-  significant product launch by tracked player
-- **3** — Moderate: campaign / feature update with traction, regional
-  policy that may apply to VN
-- **2** — Weak: routine PR, incremental update, niche feature
-- **1** — Noise: marginally relevant, easy skip
-
-Articles signal_level ≤ 2 are kept in `final_data` for reference but
-won't make it to the slide deck.
-
-# Date extraction
-
-For `start_date` and `end_date`, extract from article:
-- Start signals: "diễn ra chương trình", "bắt đầu từ", "hiệu lực từ",
-  "ra mắt từ", "from DD/MM"
-- End signals: "kết thúc vào", "hết hiệu lực từ", "đóng sản phẩm từ",
-  "đến DD/MM", "until"
-- Format: `DD/MM/YYYY`. If only `DD/MM` known and current year is obvious,
-  fill the year. If absent, leave the empty string.
-
-# Dedup before writing
-
-Round 2 also handles dedup. When two URLs cover the same news:
-- Drop the lower-authority source
-- Keep the longer-content / more authoritative source
-- (e.g. if both VnExpress and VietnamNet cover Stripe Link launch, prefer
-  the one with deeper coverage)
-
-# Worked example (PM, Marketing campaign)
+Real example from Database_clean (id 358):
 
 ```json
 {
-  "id": "abc123",
+  "id": "358",
   "week": "W18-26",
+  "source_name": "Tech in Asia",
+  "title_raw": "GoTo review to comply with Prabowo's 8% platform fee cap",
+  "publish_date": "01/05/2026",
+  "topic_group": "Market Pulse",
+  "sub_topic_group": "SEA",
+  "category": "Legal",
+  "subcategory": "eCommerce regulation",
+  "merged_category": "Legal | eCommerce regulation",
+  "related_vertical": "Ride/ Food Delivery",
+  "title_normalized": "Indonesia Prabowo ký sắc lệnh cắt hoa hồng ride-hailing xuống 8% – Tác động trực tiếp Grab và GoTo",
+  "summary": "• Tổng thống Prabowo ký Quy định Tổng thống số ... giảm hoa hồng tối đa của nền tảng gọi xe từ 20% xuống 8%, công bố tại Ngày Lao động 1/5\n• Indonesia chiếm 17-19% Mobility GMV và ~20% EBITDA của Grab; GoTo Q1/2026 báo lợi nhuận ròng đầu tiên 171 tỷ rupiah\n• Buộc các nền tảng tái cấu trúc mô hình take rate; có thể trở thành tiền lệ để VN cân nhắc siết phí nền tảng gọi xe / giao đồ ăn",
+  "start_date": "01/05/2026",
+  "end_date": "",
+  "tags": "indonesia, regulation, ride-hailing, commission-cap",
+  "R1": 5, "R2": 5, "R3": 5, "R4": 4,
+  "signal_score": 4.85,
+  "signal_level": "5 - Industry disruption",
+  "ai_processed_at": "2026-05-09T01:00:00+00:00"
+}
+```
+
+## Example 2 — PM, MoMo Marketing (Strategic shift, score 4)
+
+```json
+{
+  "id": "401",
+  "week": "W18-26",
+  "source_name": "MoMo Website",
+  "title_raw": "MoMo Sale 5.5 Du lịch đi lại",
+  "publish_date": "24/04/2026",
   "topic_group": "Players Movement",
   "sub_topic_group": "MoMo",
   "category": "Marketing",
-  "subcategory": "Transaction Growth",
-  "related_vertical": "Travel",
+  "subcategory": "Transaction growth",
+  "merged_category": "Marketing | Transaction growth",
+  "related_vertical": "Travel/ Ticket",
   "title_normalized": "MoMo Du lịch × Sale 5.5: Ưu đãi vé máy bay/tàu/khách sạn",
   "summary": "• Thời gian: 24/04 – 05/05/2026\n• Đối tượng: Mọi người dùng MoMo Du lịch\n• Ưu đãi: Bay nội địa giảm 10% tối đa 120k cho người mới; bay quốc tế giảm 10% tối đa 1tr; vé tàu/xe giảm 6-10%; phòng KS giảm 15% tối đa 500k\n• Giới hạn: 1 mã/khách hàng",
   "start_date": "24/04/2026",
   "end_date": "05/05/2026",
-  "signal_level": "3",
-  "mentioned_players": "MoMo, VietJet",
-  "ai_processed_at": "2026-05-06T01:00:00+00:00"
-}
-```
-
-# Worked example (MP, international fintech)
-
-```json
-{
-  "id": "def456",
-  "week": "W18-26",
-  "topic_group": "Market Pulse",
-  "sub_topic_group": "Thị trường thế giới",
-  "category": "Fintech",
-  "subcategory": "Agentic payments",
-  "related_vertical": "E-wallet",
-  "title_normalized": "Stripe Link ra mắt: ví điện tử cho AI agent tự động thanh toán thay user",
-  "summary": "• Stripe ra mắt Link tại Sessions 2026 (San Francisco, 30/04) — ví điện tử hỗ trợ thẻ, bank, crypto, BNPL cho phép AI agent tự thanh toán\n• Người dùng ủy quyền agent qua OAuth, không lộ thông tin thẻ gốc; bảo vệ mua hàng 90 ngày\n• Mở đường cho agentic commerce; ví VN cần hỗ trợ chuẩn agentic payment để không tụt hậu",
-  "start_date": "30/04/2026",
-  "end_date": "",
-  "signal_level": "4",
-  "mentioned_players": "Stripe, OpenAI, Anthropic",
-  "ai_processed_at": "2026-05-06T01:00:00+00:00"
+  "tags": "momo, travel, sale-5.5",
+  "R1": 4, "R2": 4, "R3": 4, "R4": 3,
+  "signal_score": 3.85,
+  "signal_level": "4 - Strategic shift",
+  "ai_processed_at": "2026-05-09T01:00:00+00:00"
 }
 ```
 
 # Procedure
 
-1. Read `tmp/to_process.json`.
-2. Dedup by content match (drop lower-authority duplicates).
-3. For each remaining row produce an output object using the schema above.
-4. Write the array to `tmp/processed.json`.
-5. Report counts (input / dedup / kept) back to the user.
+1. Read `tmp/to_process.json` (Read tool).
+2. Drop articles matching EXCLUDE patterns above.
+3. Dedup by content (drop lower-authority duplicates of same news).
+4. For each remaining article, populate the 24 schema fields.
+5. Compute `signal_score` and `signal_level` from R1-R4.
+6. Write the array to `tmp/processed.json` (Write tool).
+7. Report counts back: input / dropped / kept / by signal_level.
 
 # Validation
 
-`scripts/process_with_ai.py --apply` will:
+`scripts/process_with_ai.py --apply` enforces:
 
-- require all 13 schema fields per row
-- enforce `related_vertical ∈ {AI, Chat, E-commerce, Travel, Ride/Food Delivery, E-wallet, Ticket}`
-- enforce `signal_level ∈ {1, 2, 3, 4, 5, Low, Medium, High, Strong}`
+- All 24 fields present per row
+- `topic_group ∈ {Market Pulse, Players Movement}`
+- `related_vertical ∈ {7 verticals listed above}`
+- R1-R4 ∈ [1..5]
+- `signal_score == round(R1*0.4 + R2*0.25 + R3*0.2 + R4*0.15, 2) ± 0.01`
+- `signal_level` matches band of `signal_score`
 
-Test before pushing:
+Always test before pushing:
 ```
 python scripts/process_with_ai.py --apply --dry-run
 ```

@@ -52,21 +52,31 @@ def cmd_export() -> int:
     return 0
 
 
+_VALID_TOPIC_GROUPS = {"Market Pulse", "Players Movement"}
 _VALID_VERTICALS = {
-    "AI", "Chat", "E-commerce", "Travel",
-    "Ride/Food Delivery", "E-wallet", "Ticket",
+    "AI", "MXH/ Chat", "E-Commerce", "Ride/ Food Delivery",
+    "Fintech/ E-wallet", "Travel/ Ticket", "Smart city",
 }
-_VALID_SIGNAL_LEVELS = {"1", "2", "3", "4", "5",
-                        "Low", "Medium", "High", "Strong"}
+_VALID_SIGNAL_LEVELS = {
+    "1 - Noise", "2 - Minor signal", "3 - Market signal",
+    "4 - Strategic shift", "5 - Industry disruption",
+}
 
 
 def _validate_processed(rows: list[dict]) -> list[str]:
+    from src.storage.schema import compute_signal_score, signal_level_for
     errs: list[str] = []
     required = ["id"] + FINAL_EXTRA_HEADERS
     for i, r in enumerate(rows):
         for k in required:
             if k not in r:
                 errs.append(f"row {i}: missing field {k!r}")
+        tg = r.get("topic_group", "")
+        if tg and tg not in _VALID_TOPIC_GROUPS:
+            errs.append(
+                f"row {i}: topic_group {tg!r} not in "
+                f"{sorted(_VALID_TOPIC_GROUPS)}"
+            )
         rv = r.get("related_vertical", "")
         if rv and rv not in _VALID_VERTICALS:
             errs.append(
@@ -79,6 +89,32 @@ def _validate_processed(rows: list[dict]) -> list[str]:
                 f"row {i}: signal_level {sig!r} not in "
                 f"{sorted(_VALID_SIGNAL_LEVELS)}"
             )
+        # R1-R4 + signal_score consistency
+        try:
+            r1 = float(r.get("R1", 0))
+            r2 = float(r.get("R2", 0))
+            r3 = float(r.get("R3", 0))
+            r4 = float(r.get("R4", 0))
+            score = float(r.get("signal_score", 0))
+        except (TypeError, ValueError):
+            errs.append(f"row {i}: R1-R4 / signal_score must be numeric")
+            continue
+        for name, val in (("R1", r1), ("R2", r2), ("R3", r3), ("R4", r4)):
+            if not 1 <= val <= 5:
+                errs.append(f"row {i}: {name} {val} out of [1..5]")
+        expected = compute_signal_score(r1, r2, r3, r4)
+        if abs(expected - round(score, 2)) > 0.01:
+            errs.append(
+                f"row {i}: signal_score {score} != R1*0.4+R2*0.25+R3*0.2+R4*0.15 "
+                f"(expected {expected})"
+            )
+        if sig:
+            expected_lvl = signal_level_for(score)
+            if sig != expected_lvl:
+                errs.append(
+                    f"row {i}: signal_level {sig!r} doesn't match band of "
+                    f"signal_score {score} (expected {expected_lvl!r})"
+                )
     return errs
 
 

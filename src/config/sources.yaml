@@ -155,6 +155,49 @@ news:
     scope: domestic
     type: market_pulse
 
+  # Sources from references/MR26001 sheet `Source_Crawl_Data`
+  - key: baotintuc_money
+    name: "Báo tin tức – Thị trường tiền tệ"
+    crawler: rss
+    rss_url: "https://baotintuc.vn/rss/thi-truong-tien-te-128.rss"
+    scope: domestic
+    type: market_pulse
+
+  - key: dantri_ai
+    name: "Dân Trí – AI/Internet"
+    crawler: rss
+    rss_url: "https://dantri.com.vn/rss/cong-nghe.rss"
+    scope: domestic
+    type: market_pulse
+
+  - key: vneconomy_techconnect
+    name: "VnEconomy – Techconnect"
+    crawler: rss
+    rss_url: "https://vneconomy.vn/techconnect.rss"
+    scope: domestic
+    type: market_pulse
+
+  - key: scmp_tech
+    name: "SCMP – Tech"
+    crawler: rss
+    rss_url: "https://www.scmp.com/rss/36/feed"
+    scope: international
+    type: market_pulse
+
+  - key: thuvienphapluat_vbm
+    name: "Thư viện pháp luật – Văn bản mới"
+    crawler: rss
+    rss_url: "https://thuvienphapluat.vn/rss/van-ban-moi.rss"
+    scope: domestic
+    type: market_pulse
+
+  - key: luatvietnam_chinhsach
+    name: "Luật Việt Nam – Điểm tin chính sách"
+    crawler: rss
+    rss_url: "https://luatvietnam.vn/rss/diem-tin-chinh-sach-moi-c559.rss"
+    scope: domestic
+    type: market_pulse
+
   # ----- International -----
   - key: techcrunch
     name: "TechCrunch"

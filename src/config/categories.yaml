@@ -1012,3 +1012,85 @@ strategic_themes:
       - "Meta AI"
       - "Nvidia"
       - "Cerebras"
+
+# ============================================================================
+# EXCLUDE PATTERNS (from references/MR26001 sheet `Scanning`)
+# ============================================================================
+#
+# An article that matches ANY of these patterns is dropped at Round 1
+# regardless of theme/player score. These come from anh's actual
+# editorial decisions in the Excel.
+exclude_patterns:
+  hr_layoff:
+    description: "HR/layoff thuần, không gắn product"
+    keywords:
+      - "sa thải"
+      - "cắt giảm nhân sự"
+      - "layoff"
+      - "RIF"
+  ai_research_paper:
+    description: "AI research / paper academic"
+    keywords:
+      - "benchmark"
+      - "paper"
+      - "đạt SOTA"
+      - "MMLU"
+      - "chain-of-thought"
+      - "hyperparameter"
+      - "model card"
+  dev_tooling_b2d:
+    description: "Dev tooling thuần B2D"
+    keywords:
+      - "Agents SDK"
+      - "LangChain"
+      - "API release"
+      - "SDK update"
+      - "OpenAI Agents"
+      - "TensorFlow"
+      - "PyTorch"
+  stock_earnings:
+    description: "Stock price / earnings thuần"
+    keywords:
+      - "Q1 earnings"
+      - "Q2 earnings"
+      - "Q3 earnings"
+      - "Q4 earnings"
+      - "cổ phiếu"
+      - "share price"
+      - "stock price"
+      - "earnings call"
+      - "earnings beat"
+      - "earnings miss"
+  personality_no_action:
+    description: "Personality/celeb không kèm action"
+    keywords:
+      - "phát biểu tại"
+      - "chia sẻ tại hội nghị"
+      - "diễn thuyết"
+      - "keynote opinion"
+      - "interview hé lộ"
+  consumer_gadget_review:
+    description: "Tech review consumer gadget"
+    keywords:
+      - "iPhone review"
+      - "Samsung Galaxy review"
+      - "đánh giá iPhone"
+      - "đánh giá Samsung"
+      - "trên tay"
+      - "hands-on"
+      - "unboxing"
+      - "so sánh điện thoại"
+  entertainment_sports:
+    description: "Entertainment/Sports không có angle platform"
+    keywords:
+      - "phát hành phim"
+      - "ra mắt phim"
+      - "MV mới"
+      - "bộ phim"
+      - "concert"
+      - "tập mới"
+      - "season mới"
+      - "bóng đá"
+      - "World Cup"
+      - "AFC"
+      - "Olympic"

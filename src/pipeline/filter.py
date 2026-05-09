@@ -212,6 +212,14 @@ class EditorialClassifier:
                         return True, f"{cat.name}/{sub_name}"
         return False, None
 
+    def _matches_exclude_pattern(self, haystack: str) -> str | None:
+        """Drop based on EXCLUDE keyword list from Excel Scanning sheet."""
+        for cat in self._sections.get("exclude_patterns", []):
+            for pat, _ in cat.patterns:
+                if pat.search(haystack):
+                    return cat.name
+        return None
+
     def classify(self, article: RawArticle) -> RawArticle:
         haystack = self._haystack(article)
 
@@ -222,6 +230,18 @@ class EditorialClassifier:
             article._business_signal = None  # type: ignore[attr-defined]
             article._matched_themes = ""  # type: ignore[attr-defined]
             article._relevance_score = 0  # type: ignore[attr-defined]
+            article._exclude_reason = "noise_title"  # type: ignore[attr-defined]
+            return article
+
+        # Hard exclude gate: matches anh's Excel Scanning sheet exclusions.
+        excl = self._matches_exclude_pattern(haystack)
+        if excl is not None:
+            article.status = Status.FILTERED_OUT
+            article._mentioned_players = ""  # type: ignore[attr-defined]
+            article._business_signal = None  # type: ignore[attr-defined]
+            article._matched_themes = ""  # type: ignore[attr-defined]
+            article._relevance_score = 0  # type: ignore[attr-defined]
+            article._exclude_reason = excl  # type: ignore[attr-defined]
             return article
 
         tracked = [n for n, _ in self._all_hits(

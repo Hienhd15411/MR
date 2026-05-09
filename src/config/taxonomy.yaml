@@ -1,0 +1,136 @@
+# Output taxonomy from references/MR26001_MarketWatch_Database — sheet
+# `Coding`. This is the source-of-truth for AI Round 2 classification.
+# `categories.yaml` keeps the keyword filter logic; this file holds the
+# enumerated taxonomy values that AI must pick from.
+
+topic_groups:
+  - "Market Pulse"
+  - "Players Movement"
+
+sub_topic_groups:
+  Market Pulse:
+    - "Quốc tế"
+    - "Trung quốc"
+    - "SEA"
+    - "Trong nước"
+  Players Movement:
+    - "MoMo"
+    - "Zalo"          # Zalo (chat / OA / mini app / AI assistant)
+    - "Zalopay"       # Zalo (payment / QR / wallet / kiều hối / BNPL)
+    - "Traveloka"
+    - "WhatsApp"
+    - "Telegram"
+    - "Shopee"
+    - "TiktokShop"
+    - "Grab"
+
+categories:
+  Market Pulse:
+    Political:
+      definition: "Chính sách, sắc lệnh, chiến lược quốc gia, geopolitics"
+      sub:
+        - "New policy"
+        - "Technology policy"
+        - "Geopolitical tension"
+        - "National digital strategy"
+        - "Others"
+    Economic:
+      definition: "Funding, M&A, mở rộng thị trường, business model, sáng kiến chính phủ"
+      sub:
+        - "Funding/ Investment"
+        - "M&A activity"
+        - "Market growth/ Market size"
+        - "Business model change"
+        - "Government initiative"
+    Social:
+      definition: "Hành vi người dùng, thanh toán số, chấp nhận AI"
+      sub:
+        - "Consumer behavior"
+        - "Digital adoption"
+        - "Payment behavior"
+        - "Ads strategy"
+        - "Digital workforce"
+    Technology:
+      definition: "AI, blockchain, open banking, cloud, cybersecurity, platform policy"
+      sub:
+        - "AI/ Gen AI"
+        - "Blockchain/ Web3"
+        - "Open banking/ API"
+        - "Cloud/ Infrastructure"
+        - "Cybersecurity"
+        - "Platform policy"
+    Legal:
+      definition: "Luật, Thông tư, Nghị định, Quyết định"
+      sub:
+        - "Fintech/ Wallet"
+        - "AI"
+        - "Payment"
+        - "Digital money"
+        - "Data privacy"
+        - "eCommerce regulation"
+        - "Social media regulation"
+
+  Players Movement:
+    Product:
+      definition: "Ra mắt, sửa đổi, thử nghiệm, đóng SP hoặc đổi pricing/T&C"
+      sub:
+        - "Product launch"
+        - "Product update"
+        - "Pricing change"
+        - "T&C change"
+        - "Off product"
+    Feature:
+      definition: "Cải tiến, cập nhật, hủy bỏ tính năng/bảo mật/quyền riêng tư"
+      sub:
+        - "Feature upgrade"
+        - "New feature"
+        - "Payment capability upgrade"
+        - "UX / UI improvement"
+        - "Security / Privacy"
+    Marketing:
+      definition: "Khuyến mãi, chiến dịch truyền thông"
+      sub:
+        - "User acquisition"
+        - "User activation"
+        - "User engagement"
+        - "Transaction growth"
+        - "Ecosystem expansion"
+        - "CSR/ Community"
+        - "Branding"
+    Partnership:
+      definition: "Hợp tác bên ngoài (bank, merchant, telco, tech, transport)"
+      sub:
+        - "Banking / Financial institution"
+        - "Merchant/ Retailer"
+        - "Ecommerce platform"
+        - "Telco/ Infrastructure"
+        - "Ecommerce partnership"
+        - "Technology provider"
+        - "Transport/ Mobility"
+        - "Utility"
+    "CSR/ Community":
+      definition: "Hoạt động vì cộng đồng, gây quỹ, marathon"
+      sub: []
+    Strategy:
+      definition: "Mở rộng thị trường, hệ sinh thái, đầu tư, mua startup, AI roadmap"
+      sub:
+        - "Market expansion"
+        - "Ecosystem expansion"
+        - "Corporate investment"
+        - "Startup acquisition"
+        - "Platform / AI strategy"
+
+# 7 verticals from sheet Coding (Bước 5)
+related_verticals:
+  - "AI"
+  - "MXH/ Chat"
+  - "E-Commerce"
+  - "Ride/ Food Delivery"
+  - "Fintech/ E-wallet"
+  - "Travel/ Ticket"
+  - "Smart city"
+
+# Routing rule for sub_topic_group within Players Movement (from Coding sheet)
+zalo_zalopay_split:
+  Zalopay: "thanh toán, payment, QR, ví điện tử, kiều hối, BNPL"
+  Zalo: "chat, mini app, social, OA, AI assistant"
