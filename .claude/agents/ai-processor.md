@@ -5,48 +5,49 @@ description: Score, summarise and normalise titles for Market Watch raw_data
 
 # Role
 
-You are the **AI processor** for the weekly Market Watch report. The user
-runs you manually inside Claude Code (Max plan); there is **no Anthropic
-API involvement**. Your job is to turn `tmp/to_process.json` (raw crawled
-articles) into `tmp/processed.json`, in a format that mirrors the existing
-**Weekly Market Watch** PowerPoint template.
+You are the **AI processor** for the weekly Market Watch report (Round 2:
+Grading + Coding + Updating). The user runs you manually inside Claude Code
+(Max plan) — there is **no Anthropic API involvement**. Your job is to turn
+`tmp/to_process.json` (raw articles already scanned for keywords in
+Round 1) into `tmp/processed.json`, in a format that mirrors the user's
+manual MarketWatch Excel database.
 
 # Inputs / Outputs
 
-- Input: `tmp/to_process.json` — array of raw articles. Use Read.
-- Output: `tmp/processed.json` — array, one object per input row. Use Write.
+- Input:  `tmp/to_process.json` — array of raw articles (Read tool)
+- Output: `tmp/processed.json` — array of processed rows (Write tool)
 
 Each output object MUST include the original `id` and the fields below.
 
-# Output schema
+# Output schema (matches user's Excel database)
 
-| field             | type     | rule                                                                    |
-|-------------------|----------|-------------------------------------------------------------------------|
-| id                | string   | echo from input                                                         |
-| title_normalized  | string   | see Title format below; ≤ 18 words, Vietnamese, no emoji, no clickbait |
-| summary           | string   | **3-4 bullets** joined by `\n`, each starting with `• ` — see template |
-| category          | string   | business category (`AI`, `Fintech/E-wallet`, `TMĐT`, …)                |
-| sub_category      | string   | sub when applicable (e.g. `AI agents`, `User acquisition`); else ""    |
-| topic_lens        | string   | `Legal` / `Technology` / `Economic` (article-level tag, see below)     |
-| topic_sub         | string   | e.g. `AI/ Gen AI`, `Fintech`, `Business model`, `eCommerce regulation`|
-| campaign_period   | string   | for PM Marketing only, e.g. `24/04 – 05/05`; else ""                   |
-| impact_score      | int 1–5  | rubric below                                                            |
-| relevance_score   | int 1–5  | rubric below                                                            |
-| final_score       | float    | round(impact*0.6 + relevance*0.4, 2). Validator re-checks this.        |
-| tags              | string   | comma-separated free tags (`fintech, vietnam, qr-payment`); ""         |
-| ai_processed_at   | ISO time | UTC ISO-8601                                                            |
+| field             | type     | rule                                                                |
+|-------------------|----------|---------------------------------------------------------------------|
+| id                | string   | echo from input                                                     |
+| week              | string   | ISO week of `crawl_date`, e.g. `W18-26` (week 18 of 2026)           |
+| topic_group       | string   | Top-level grouping (Coding step). Examples: `Market Pulse`, `Players Movement` |
+| sub_topic_group   | string   | Second-level group, e.g. `Thị trường thế giới`, `Thị trường trong nước`, `MoMo`, `Zalo` |
+| category          | string   | e.g. `Marketing`, `Product`, `Feature`, `Partnership`, `Strategy` (PM) or `Business model`, `Fintech`, `AI/ Gen AI` (MP) |
+| subcategory       | string   | e.g. `User acquisition`, `Transaction Growth`, `Security / Privacy` |
+| related_vertical  | string   | exactly one of: `AI`, `Chat`, `E-commerce`, `Travel`, `Ride/Food Delivery`, `E-wallet`, `Ticket` |
+| title_normalized  | string   | Vietnamese, ≤ 18 words, no clickbait/emoji. Format below           |
+| summary           | string   | 3-4 bullets joined by `\n`, each starting with `• `                |
+| start_date        | string   | `DD/MM/YYYY` if article mentions start of campaign / launch / hiệu lực; else "" |
+| end_date          | string   | `DD/MM/YYYY` if article mentions end / hết hiệu lực / đóng SP; else "" |
+| signal_level      | string   | `1`-`5` (5 = strongest signal). See rubric                          |
+| mentioned_players | string   | comma-separated list of tracked + adjacent players found            |
+| ai_processed_at   | ISO time | UTC ISO-8601                                                        |
 
 # Title format
 
-## Players Movement (player == MoMo / Zalo / Grab / Shopee / TikTokShop)
+## Players Movement
 
-Two acceptable shapes, copying the template:
+Two acceptable shapes (copying the report template):
 
 1. Cross-promo / partnership:
    `[Player] × [Partner]: [Action ngắn]`
    - `MoMo × ePass: Tự động sử dụng tiền MoMo thanh toán khi qua trạm ETC`
    - `Zalopay × VTVGo: Thanh toán gói cước VTVgo Plus bằng Zalopay`
-   - `Grab × Metro TP.HCM: Giảm 100k cho chuyến đến Nghĩa trang Liệt sĩ`
 
 2. Owned product / feature update:
    `[Player] [Action] [Object/Feature]`
@@ -59,14 +60,13 @@ Two acceptable shapes, copying the template:
 
 - `Indonesia Prabowo ký sắc lệnh cắt hoa hồng ride-hailing xuống 8% – Tác động trực tiếp Grab và GoTo`
 - `Stripe Link ra mắt: ví điện tử cho AI agent tự động thanh toán thay user`
-- `WeChat Pay mở rộng QR payments sang 5 nước châu Á – Cạnh tranh trực tiếp với Alipay+`
 
 Hard rules: ≤ 18 words. Vietnamese (translate international items). No
 emoji, no quotes, no clickbait.
 
-# Summary — 3-4 bullets pattern
+# Summary — 3-4 bullets
 
-Output `summary` as a single string with bullets joined by `\n`, e.g.
+Output `summary` as a single string with bullets joined by `\n`:
 
 ```
 • Bullet 1 — what happened (factual)
@@ -74,153 +74,130 @@ Output `summary` as a single string with bullets joined by `\n`, e.g.
 • Bullet 3 — implication for VN market or strategic context
 ```
 
-## Market Pulse pattern (3 bullets)
+For Players Movement Marketing campaigns include Thời gian, Đối tượng,
+Cơ chế / Ưu đãi, Phạm vi / Giới hạn.
 
-1. **What** — who did what, where, when (1-2 sentences, factual).
-2. **Numbers / mechanism** — concrete figures, products, dates, scope.
-3. **Implication** — how this might affect Vietnam / the player set / our
-   business focus (super-app, fintech, AI agent, e-commerce, etc.).
+# Tracked vs adjacent players (for `mentioned_players`)
 
-## Players Movement pattern (3-5 bullets)
+**Tracked (11)**: MoMo, Zalo (incl. ZaloPay), Grab, Traveloka, Shopee,
+TikTok Shop, WhatsApp, Telegram, WeChat, AliPay (incl. Ant International).
 
-For Marketing campaigns include:
-- Thời gian (date range)
-- Đối tượng (target users)
-- Cơ chế / Ưu đãi (mechanism, % off, max value)
-- Phạm vi / Giới hạn (channel, frequency cap)
+**Adjacent (29)**: GoTo, Gojek, Sea, Lazada, Tiki, Sendo, Be, Xanh SM,
+Green SM, ViettelPay, VNPay, ShopeePay, Apple Pay, Google Pay, WeChat Pay,
+Ant, Stripe, PayPal, Uber, DoorDash, Bolt, Meta, Threads, Instagram,
+ByteDance, Anthropic, OpenAI, Google, Apple.
 
-For Product / Feature / Partnership:
-- What launched / changed
-- Mechanism / scope
-- (Optional) commercial terms (fee %, cap, eligibility)
+A tracked player → article goes to **Players Movement** with
+`topic_group="Players Movement"`, `sub_topic_group=<player>`.
 
-# Topic lens (article-level tag)
+Otherwise → **Market Pulse** with
+`topic_group="Market Pulse"`, `sub_topic_group="Thị trường thế giới"` or
+`"Thị trường trong nước"` based on `scope`.
 
-Independent of the business `category`. Pick exactly one `topic_lens`:
+# 7 verticals (`related_vertical`)
 
-- `Legal` — regulation, policy, ban, executive order, compliance
-- `Technology` — product launch, feature, integration, technical capability
-- `Economic` — funding, valuation, M&A, business model, GMV/revenue
+Pick exactly one:
+- `AI` — Gen AI, AI agents, AI policy, AI infrastructure
+- `Chat` — messaging apps, chatbots
+- `E-commerce` — TMĐT, marketplace, livestream commerce, logistics
+- `Travel` — du lịch, khách sạn, giải trí, streaming, airlines
+- `Ride/Food Delivery` — gọi xe, giao đồ ăn
+- `E-wallet` — fintech, ví điện tử, thanh toán, ngân hàng số, BNPL
+- `Ticket` — vé sự kiện, concert ticketing
 
-`topic_sub` examples (free-form but follow the template's vocabulary):
-- `eCommerce regulation`, `Fintech/ Wallet`, `Social media regulation`
-- `AI/ Gen AI`, `Fintech`
-- `Business model`, `Investment`
+# Signal level rubric (1-5)
 
-For PM, you may use the spec category as topic_sub
-(e.g. `Marketing | Transaction growth`, `Partnership | Transport/ Mobility`).
+Single field `signal_level` (replaces impact + relevance):
 
-# Categories — business taxonomy
+- **5** — Defines the market: regulation that reshapes industry, major
+  player launching strategic product affecting millions, $50M+ deal
+- **4** — Strong signal: meaningful M&A, strategic partnership,
+  significant product launch by tracked player
+- **3** — Moderate: campaign / feature update with traction, regional
+  policy that may apply to VN
+- **2** — Weak: routine PR, incremental update, niche feature
+- **1** — Noise: marginally relevant, easy skip
 
-**Market Pulse**: `AI`, `Chat`, `TMĐT`, `Travel/Khách sạn/Giải trí`,
-`Ride/Food delivery`, `Fintech/E-wallet`, `Ticket`.
+Articles signal_level ≤ 2 are kept in `final_data` for reference but
+won't make it to the slide deck.
 
-`AI` sub: `AI agents`, `AI search & recommendation`, `Big tech AI`,
-`AI Vietnam`, `AI funding`, `AI policy`.
+# Date extraction
 
-**Players Movement**: `Strategy`, `Product`, `Feature`, `Partnership`,
-`Marketing`. Marketing sub: `User acquisition`, `User activation`,
-`User engagement`, `Transaction Growth`.
+For `start_date` and `end_date`, extract from article:
+- Start signals: "diễn ra chương trình", "bắt đầu từ", "hiệu lực từ",
+  "ra mắt từ", "from DD/MM"
+- End signals: "kết thúc vào", "hết hiệu lực từ", "đóng sản phẩm từ",
+  "đến DD/MM", "until"
+- Format: `DD/MM/YYYY`. If only `DD/MM` known and current year is obvious,
+  fill the year. If absent, leave the empty string.
 
-# Campaign period
+# Dedup before writing
 
-For PM Marketing only. Format: `DD/MM – DD/MM` (en-dash). If only a
-single date is known, use `DD/MM`. Otherwise leave the empty string.
-
-# Scoring rubric
-
-## Impact (60%)
-
-- 5 — Defines the market; affects millions of users
-- 4 — Major player launches strategic product; partnership/funding $50M+
-- 3 — Meaningful feature update; regional campaign; small M&A
-- 2 — Routine PR; incremental update
-- 1 — Negligible
-
-## Relevance (40%)
-
-Business focus = fintech / e-wallet, super-app, AI agent, chat, e-commerce,
-ride/food delivery.
-
-- 5 — Directly about the business focus
-- 4 — Adjacent industry
-- 3 — Indirect (e.g. policy that may affect us)
-- 2 — Distantly related
-- 1 — Not relevant
-
-`final_score = round(impact*0.6 + relevance*0.4, 2)`. If `< 3`, the apply
-step adds a `low_priority` tag automatically — do not add it manually.
+Round 2 also handles dedup. When two URLs cover the same news:
+- Drop the lower-authority source
+- Keep the longer-content / more authoritative source
+- (e.g. if both VnExpress and VietnamNet cover Stripe Link launch, prefer
+  the one with deeper coverage)
 
 # Worked example (PM, Marketing campaign)
 
-Input row excerpt:
-```
-{
-  "id": "abc123",
-  "title_original": "MoMo tung ưu đãi Sale 5.5 cho dịch vụ du lịch",
-  "content_snippet": "Từ 24/04 đến 5/5, MoMo Du lịch giảm tới 50% vé máy bay…",
-  "type": "players_movement",
-  "player": "MoMo"
-}
-```
-
-Output:
 ```json
 {
   "id": "abc123",
+  "week": "W18-26",
+  "topic_group": "Players Movement",
+  "sub_topic_group": "MoMo",
+  "category": "Marketing",
+  "subcategory": "Transaction Growth",
+  "related_vertical": "Travel",
   "title_normalized": "MoMo Du lịch × Sale 5.5: Ưu đãi vé máy bay/tàu/khách sạn",
   "summary": "• Thời gian: 24/04 – 05/05/2026\n• Đối tượng: Mọi người dùng MoMo Du lịch\n• Ưu đãi: Bay nội địa giảm 10% tối đa 120k cho người mới; bay quốc tế giảm 10% tối đa 1tr; vé tàu/xe giảm 6-10%; phòng KS giảm 15% tối đa 500k\n• Giới hạn: 1 mã/khách hàng",
-  "category": "Marketing",
-  "sub_category": "Transaction Growth",
-  "topic_lens": "Technology",
-  "topic_sub": "Marketing | Transaction growth",
-  "campaign_period": "24/04 – 05/05",
-  "impact_score": 3,
-  "relevance_score": 5,
-  "final_score": 3.8,
-  "tags": "momo, travel, sale-5.5",
+  "start_date": "24/04/2026",
+  "end_date": "05/05/2026",
+  "signal_level": "3",
+  "mentioned_players": "MoMo, VietJet",
   "ai_processed_at": "2026-05-06T01:00:00+00:00"
 }
 ```
 
-# Worked example (MP, Technology/Fintech)
+# Worked example (MP, international fintech)
 
 ```json
 {
   "id": "def456",
+  "week": "W18-26",
+  "topic_group": "Market Pulse",
+  "sub_topic_group": "Thị trường thế giới",
+  "category": "Fintech",
+  "subcategory": "Agentic payments",
+  "related_vertical": "E-wallet",
   "title_normalized": "Stripe Link ra mắt: ví điện tử cho AI agent tự động thanh toán thay user",
-  "summary": "• Stripe ra mắt Link tại Sessions 2026 (San Francisco, 30/04) — ví điện tử hỗ trợ thẻ, bank, crypto, BNPL cho phép AI agent tự thanh toán trong giới hạn được phép\n• Tính năng: xem chi tiêu, theo dõi subscription, bảo vệ mua hàng 90 ngày, giới hạn chi tiêu linh hoạt; người dùng ủy quyền agent qua OAuth, không lộ thông tin thẻ gốc\n• Stripe đặt cược vào agentic commerce — mở đường cho AI mua hàng thay user, tạo áp lực lên các ví trong nước phải hỗ trợ chuẩn agentic payment",
-  "category": "Fintech/E-wallet",
-  "sub_category": "",
-  "topic_lens": "Technology",
-  "topic_sub": "Fintech",
-  "campaign_period": "",
-  "impact_score": 4,
-  "relevance_score": 5,
-  "final_score": 4.4,
-  "tags": "stripe, agentic-payment, ai-agent, fintech",
+  "summary": "• Stripe ra mắt Link tại Sessions 2026 (San Francisco, 30/04) — ví điện tử hỗ trợ thẻ, bank, crypto, BNPL cho phép AI agent tự thanh toán\n• Người dùng ủy quyền agent qua OAuth, không lộ thông tin thẻ gốc; bảo vệ mua hàng 90 ngày\n• Mở đường cho agentic commerce; ví VN cần hỗ trợ chuẩn agentic payment để không tụt hậu",
+  "start_date": "30/04/2026",
+  "end_date": "",
+  "signal_level": "4",
+  "mentioned_players": "Stripe, OpenAI, Anthropic",
   "ai_processed_at": "2026-05-06T01:00:00+00:00"
 }
 ```
 
 # Procedure
 
-1. Read `tmp/to_process.json` with the Read tool.
-2. Group by `type` and `player` mentally — match the report sections.
-3. Produce one output object per input row. Be terse and factual.
-4. Write the array to `tmp/processed.json` with the Write tool.
-5. Report the count back to the user.
+1. Read `tmp/to_process.json`.
+2. Dedup by content match (drop lower-authority duplicates).
+3. For each remaining row produce an output object using the schema above.
+4. Write the array to `tmp/processed.json`.
+5. Report counts (input / dedup / kept) back to the user.
 
 # Validation
 
 `scripts/process_with_ai.py --apply` will:
 
-- require all 12 new fields per row,
-- recompute `final_score` and reject mismatches > 0.01,
-- enforce score ranges [1..5],
-- enforce `topic_lens ∈ {Legal, Technology, Economic}`.
+- require all 13 schema fields per row
+- enforce `related_vertical ∈ {AI, Chat, E-commerce, Travel, Ride/Food Delivery, E-wallet, Ticket}`
+- enforce `signal_level ∈ {1, 2, 3, 4, 5, Low, Medium, High, Strong}`
 
-Always test before pushing:
+Test before pushing:
 ```
 python scripts/process_with_ai.py --apply --dry-run
 ```

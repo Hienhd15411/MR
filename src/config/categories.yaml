@@ -313,8 +313,10 @@ market_pulse:
       - TicketMaster
       - "BookMyShow"
 
-# Players Movement focal players. Order matters: Zalo (Zalopay) checked
-# before Grab so Zalopay×Grab co-marketing is attributed to Zalo.
+# Tracked players — articles that mention any of these are reclassified as
+# players_movement and their `player` field is set. Order matters when one
+# article mentions multiple players (Zalo before Grab so Zalopay×Grab
+# co-marketing attributes to Zalo).
 players:
   MoMo:
     keywords:
@@ -354,6 +356,9 @@ players:
       - GrabXu
       - "Grab Vietnam"
       - "Grab Việt Nam"
+  Traveloka:
+    keywords:
+      - Traveloka
   Shopee:
     keywords:
       - Shopee
@@ -366,7 +371,76 @@ players:
       - "TikTok Shop"
       - TikTokShop
       - "TikTok Go"
-      - "Tokopedia"
+      - Tokopedia
+  WhatsApp:
+    keywords:
+      - WhatsApp
+      - "WhatsApp Business"
+  Telegram:
+    keywords:
+      - Telegram
+      - "Telegram Premium"
+  WeChat:
+    keywords:
+      - WeChat
+      - "WeChat Pay"
+      - "Weixin"
+  AliPay:
+    keywords:
+      - AliPay
+      - Alipay
+      - "Alipay+"
+      - "Ant International"
+      - "Ant Group"
+
+# Adjacent players — articles that mention these are KEPT (counted as
+# in-scope context) but classified as Market Pulse, not Players Movement.
+# They populate `mentioned_players` for relevance signaling.
+adjacent_players:
+  GoTo:
+    keywords: ["GoTo", "Gojek"]
+  Sea:
+    keywords: ["Sea Limited", "Sea Group"]
+  Lazada:
+    keywords: ["Lazada"]
+  Tiki:
+    keywords: ["Tiki"]
+  Sendo:
+    keywords: ["Sendo"]
+  Be:
+    keywords: ["Be Group", "ứng dụng Be"]
+  XanhSM:
+    keywords: ["Xanh SM", "Green SM", "GSM"]
+  ViettelPay:
+    keywords: ["ViettelPay", "Viettel Money", "Viettel Pay"]
+  VNPay:
+    keywords: ["VNPay", "VNPAY"]
+  ApplePay:
+    keywords: ["Apple Pay"]
+  GooglePay:
+    keywords: ["Google Pay"]
+  Stripe:
+    keywords: ["Stripe"]
+  PayPal:
+    keywords: ["PayPal"]
+  Uber:
+    keywords: ["Uber"]
+  DoorDash:
+    keywords: ["DoorDash"]
+  Bolt:
+    keywords: ["Bolt"]
+  Meta:
+    keywords: ["Meta", "Facebook", "Instagram", "Threads"]
+  ByteDance:
+    keywords: ["ByteDance", "TikTok"]
+  Anthropic:
+    keywords: ["Anthropic", "Claude"]
+  OpenAI:
+    keywords: ["OpenAI", "ChatGPT"]
+  Google:
+    keywords: ["Google", "Alphabet", "Gemini"]
+  Apple:
+    keywords: ["Apple", "Apple Intelligence"]
 
 # Categories within Players Movement (Strategy / Product / Feature /
 # Partnership / Marketing). Sub-categories aligned with the report template.

@@ -29,14 +29,22 @@ DEFAULT_INPUT = ROOT / "tmp" / "processed.json"
 DEFAULT_OUTPUT = ROOT / "output" / "weekly_report.md"
 
 # Section ordering follows the template.
-PLAYER_ORDER = ["MoMo", "Zalo", "Grab", "Shopee", "TikTokShop"]
-MP_BUCKETS = [
-    ("Ride/Food delivery", "Ride-hailing / Delivery"),
-    ("TMĐT", "TMĐT"),
-    ("Fintech/E-wallet", "Fintech / Đầu tư"),
-    ("Chat", "MXH / Chat / Giải trí"),
-    ("AI", "AI"),
+PLAYER_ORDER = [
+    "MoMo", "Zalo", "Grab", "Traveloka",
+    "Shopee", "TikTokShop", "WhatsApp", "Telegram",
+    "WeChat", "AliPay",
 ]
+# Match the 7 verticals from the user's manual workflow.
+VERTICAL_ORDER = [
+    ("Ride/Food Delivery", "Ride-hailing / Delivery"),
+    ("E-commerce", "E-commerce"),
+    ("E-wallet", "Fintech / E-wallet"),
+    ("Chat", "MXH / Chat"),
+    ("Travel", "Travel / Giải trí"),
+    ("AI", "AI"),
+    ("Ticket", "Ticket"),
+]
+MP_BUCKETS = VERTICAL_ORDER  # legacy alias
 
 
 def _is_pm(row: dict) -> bool:
@@ -49,37 +57,49 @@ def _is_intl(row: dict) -> bool:
 
 
 def _bucket_for_mp(row: dict) -> str:
+    """Use related_vertical (preferred) then fall back to category."""
+    rv = (row.get("related_vertical") or "").strip()
+    for key, _ in VERTICAL_ORDER:
+        if rv == key:
+            return key
     cat = row.get("category", "") or row.get("pre_category", "")
     cat = cat.split("/")[0].strip() if cat else ""
-    for key, _ in MP_BUCKETS:
-        if cat == key.split("/")[0].strip():
-            return key
-        if cat in key:
+    for key, _ in VERTICAL_ORDER:
+        if cat == key.split("/")[0].strip() or cat in key:
             return key
     return cat or "Khác"
 
 
 def _topic_tag(row: dict) -> str:
-    lens = row.get("topic_lens", "")
-    sub = row.get("topic_sub", "")
-    if lens and sub:
-        return f"{lens} | {sub}"
-    return lens or sub
+    cat = row.get("category", "")
+    sub = row.get("subcategory", "")
+    if cat and sub:
+        return f"{cat} | {sub}"
+    return cat or sub
 
 
 def _render_article(row: dict, lines: list[str]) -> None:
     title = row.get("title_normalized") or row.get("title_original", "")
     url = row.get("url", "")
     tag = _topic_tag(row)
-    period = row.get("campaign_period", "")
-    score = row.get("final_score", "")
+    sd = row.get("start_date", "")
+    ed = row.get("end_date", "")
+    score = row.get("signal_level", "")
+    mentioned = row.get("mentioned_players", "")
 
     head = f"### {title}"
     if tag:
         head += f"  \n*{tag}*"
     lines.append(head)
-    if period:
-        lines.append(f"**Thời gian:** {period}")
+    if sd or ed:
+        if sd and ed:
+            lines.append(f"**Thời gian:** {sd} – {ed}")
+        elif sd:
+            lines.append(f"**Hiệu lực từ:** {sd}")
+        elif ed:
+            lines.append(f"**Đến:** {ed}")
+    if mentioned:
+        lines.append(f"**Players:** {mentioned}")
     summary = row.get("summary", "").strip()
     if summary:
         # Summary may be either bullet text or plain. Normalise to bullets.
@@ -91,7 +111,8 @@ def _render_article(row: dict, lines: list[str]) -> None:
                 line = "• " + line
             lines.append(line)
     if url:
-        lines.append(f"[Read more]({url}) · score `{score}`")
+        score_str = f" · signal `{score}`" if score else ""
+        lines.append(f"[Read more]({url}){score_str}")
     lines.append("")
 
 
@@ -131,7 +152,7 @@ def render(rows: list[dict]) -> str:
 
     # ---- 1.1 MP World ----
     intl = [r for r in rows if not _is_pm(r) and _is_intl(r)]
-    intl.sort(key=lambda r: -float(r.get("final_score") or 0))
+    intl.sort(key=lambda r: -float(r.get("signal_level") or 0))
     lines.append("## 1.1 Market Pulse | Thị trường thế giới")
     lines.append("")
     if not intl:
@@ -164,7 +185,7 @@ def render(rows: list[dict]) -> str:
             lines.append("_Không có tin tuần qua._")
             lines.append("")
             continue
-        items.sort(key=lambda r: -float(r.get("final_score") or 0))
+        items.sort(key=lambda r: -float(r.get("signal_level") or 0))
         for r in items:
             _render_article(r, lines)
 

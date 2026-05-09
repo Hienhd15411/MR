@@ -110,6 +110,30 @@ def test_vietjet_classifies_as_travel():
     assert a.pre_category == "Travel/Khách sạn/Giải trí"
 
 
+def test_adjacent_player_only_classifies_as_market_pulse():
+    # Stripe is adjacent (not tracked). Article kept as Market Pulse, not PM.
+    a = _art("Stripe ra mắt Link – ví điện tử cho AI agent")
+    CategoryClassifier().classify(a)
+    assert a.type == ArticleType.MARKET_PULSE
+    # Stripe also matches Fintech keywords → category set
+    assert a.pre_category is not None
+    assert a.player is None  # adjacent player doesn't fill `player`
+
+
+def test_tracked_player_traveloka_classifies_as_pm():
+    a = _art("Traveloka ra mắt sản phẩm mới cho mảng đặt phòng quốc tế")
+    CategoryClassifier().classify(a)
+    assert a.type == ArticleType.PLAYERS_MOVEMENT
+    assert a.player == "Traveloka"
+
+
+def test_tracked_player_whatsapp_classifies_as_pm():
+    a = _art("WhatsApp triển khai nạp tiền trả trước tại Ấn Độ, hợp tác PayU")
+    CategoryClassifier().classify(a)
+    assert a.type == ArticleType.PLAYERS_MOVEMENT
+    assert a.player == "WhatsApp"
+
+
 def test_apply_filter_returns_all_with_counts():
     arts = [
         _art("OpenAI giới thiệu GPT-5"),

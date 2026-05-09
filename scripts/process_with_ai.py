@@ -52,7 +52,12 @@ def cmd_export() -> int:
     return 0
 
 
-_VALID_TOPIC_LENS = {"Legal", "Technology", "Economic"}
+_VALID_VERTICALS = {
+    "AI", "Chat", "E-commerce", "Travel",
+    "Ride/Food Delivery", "E-wallet", "Ticket",
+}
+_VALID_SIGNAL_LEVELS = {"1", "2", "3", "4", "5",
+                        "Low", "Medium", "High", "Strong"}
 
 
 def _validate_processed(rows: list[dict]) -> list[str]:
@@ -62,27 +67,17 @@ def _validate_processed(rows: list[dict]) -> list[str]:
         for k in required:
             if k not in r:
                 errs.append(f"row {i}: missing field {k!r}")
-        if r.get("topic_lens") and r["topic_lens"] not in _VALID_TOPIC_LENS:
+        rv = r.get("related_vertical", "")
+        if rv and rv not in _VALID_VERTICALS:
             errs.append(
-                f"row {i}: topic_lens {r['topic_lens']!r} not in "
-                f"{sorted(_VALID_TOPIC_LENS)}"
+                f"row {i}: related_vertical {rv!r} not in "
+                f"{sorted(_VALID_VERTICALS)}"
             )
-        try:
-            impact = float(r.get("impact_score", 0))
-            relevance = float(r.get("relevance_score", 0))
-            final = float(r.get("final_score", 0))
-        except (TypeError, ValueError):
-            errs.append(f"row {i}: scores must be numeric")
-            continue
-        if not 1 <= impact <= 5:
-            errs.append(f"row {i}: impact_score out of [1..5]")
-        if not 1 <= relevance <= 5:
-            errs.append(f"row {i}: relevance_score out of [1..5]")
-        expected = round(impact * 0.6 + relevance * 0.4, 2)
-        if abs(expected - round(final, 2)) > 0.01:
+        sig = str(r.get("signal_level", "")).strip()
+        if sig and sig not in _VALID_SIGNAL_LEVELS:
             errs.append(
-                f"row {i}: final_score {final} != impact*0.6 + relevance*0.4 "
-                f"(expected {expected})"
+                f"row {i}: signal_level {sig!r} not in "
+                f"{sorted(_VALID_SIGNAL_LEVELS)}"
             )
     return errs
 
@@ -104,22 +99,14 @@ def cmd_apply(processed_path: Path = PROCESSED_PATH, dry_run: bool = False) -> i
     now = datetime.now(timezone.utc).isoformat()
     for r in rows:
         r.setdefault("ai_processed_at", now)
-        if isinstance(r.get("tags"), list):
-            r["tags"] = ", ".join(r["tags"])
-        score = float(r.get("final_score", 0))
-        if score < 3 and "low_priority" not in str(r.get("tags", "")):
-            r["tags"] = (str(r.get("tags", "")).strip(", ")
-                          + (", low_priority" if r.get("tags") else "low_priority"))
-    # Per spec: `final_score < 3 → tag low_priority (KHÔNG xoá, để tham khảo)`.
-    # All AI-processed rows get status='processed' regardless of score; the
-    # low_priority tag is the only differentiator for downstream filtering.
+        if isinstance(r.get("mentioned_players"), list):
+            r["mentioned_players"] = ", ".join(r["mentioned_players"])
+
     ids = [r["id"] for r in rows if r.get("id")]
-    low_count = sum(1 for r in rows if float(r.get("final_score", 0)) < 3)
 
     if dry_run:
         print(f"[dry-run] would append {len(rows)} rows to final_data")
-        print(f"[dry-run] would mark {len(ids)} as processed "
-              f"({low_count} tagged low_priority)")
+        print(f"[dry-run] would mark {len(ids)} as processed")
         return 0
 
     from src.storage.sheets import SheetsClient
@@ -127,7 +114,7 @@ def cmd_apply(processed_path: Path = PROCESSED_PATH, dry_run: bool = False) -> i
     client = SheetsClient.from_env()
     client.append_final(rows)
     client.mark_status(ids, "processed")
-    logger.info("Applied {} rows ({} tagged low_priority)", len(rows), low_count)
+    logger.info("Applied {} rows", len(rows))
     print(f"Applied {len(rows)} rows.")
     return 0
 

@@ -128,14 +128,35 @@ class CategoryClassifier:
                     return CategoryHit(category=cat.name, subcategory=sub, keyword=kw)
         return None
 
+    def _all_player_hits(
+        self, haystack: str, cats: list[_CompiledCategory]
+    ) -> list[str]:
+        """Return all distinct player names whose keywords match."""
+        out: list[str] = []
+        for cat in cats:
+            for pat, _ in cat.patterns:
+                if pat.search(haystack):
+                    if cat.name not in out:
+                        out.append(cat.name)
+                    break
+        return out
+
     def classify(self, article: RawArticle) -> RawArticle:
         haystack = self._haystack(article)
+        tracked_cats = self._sections.get("players", [])
+        adjacent_cats = self._sections.get("adjacent_players", [])
 
-        # 1) Player check first — overrides type to players_movement
-        player_hit = self._first_hit(haystack, self._sections.get("players", []))
-        if player_hit is not None:
+        tracked = self._all_player_hits(haystack, tracked_cats)
+        adjacent = self._all_player_hits(haystack, adjacent_cats)
+        # Stash on the article via the player field for tracked, and the
+        # joint mention list for downstream AI step (stored in tags via
+        # serialisation; raw_data only carries `player`).
+        article._mentioned_players = ", ".join(tracked + adjacent)  # type: ignore[attr-defined]
+
+        # 1) Tracked player → players_movement
+        if tracked:
             article.type = ArticleType.PLAYERS_MOVEMENT
-            article.player = player_hit.category
+            article.player = tracked[0]
             pm_cats = self._sections.get("players_movement_categories", [])
             pm_hit = self._first_hit(haystack, pm_cats)
             if pm_hit is not None:
@@ -158,7 +179,14 @@ class CategoryClassifier:
             )
             return article
 
-        # 3) No match → keep but flag
+        # 3) Adjacent player only → keep as Market Pulse with no category
+        # so the AI step can refine. Useful context (eg Stripe/OpenAI news).
+        if adjacent:
+            article.type = ArticleType.MARKET_PULSE
+            article.pre_category = None
+            return article
+
+        # 4) No match → drop
         article.status = Status.FILTERED_OUT
         return article
 
