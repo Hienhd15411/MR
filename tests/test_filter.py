@@ -223,6 +223,52 @@ def test_platform_regulation_passes_high_score():
     assert score >= 10
 
 
+# --- Noise / clickbait drops -------------------------------------------
+
+
+def test_question_title_dropped():
+    a = _art("Vì sao doanh nghiệp Việt thất bại khi ứng dụng AI?")
+    CategoryClassifier().classify(a)
+    assert a.status == Status.FILTERED_OUT
+
+
+def test_personality_opinion_dropped():
+    a = _art("Mark Cuban cảnh báo \"lỗ hổng chí mạng\" của AI")
+    CategoryClassifier().classify(a)
+    assert a.status == Status.FILTERED_OUT
+
+
+def test_bitcoin_ticker_dropped():
+    a = _art("Giá Bitcoin hôm nay 9.5.2026: Lấy lại mốc 80.000 USD")
+    CategoryClassifier().classify(a)
+    assert a.status == Status.FILTERED_OUT
+
+
+def test_gadget_rumour_dropped():
+    a = _art("iPhone 18 Pro lộ nâng cấp màn hình đắt giá")
+    CategoryClassifier().classify(a)
+    assert a.status == Status.FILTERED_OUT
+
+
+def test_clickbait_health_dropped():
+    a = _art("Dùng AI quá 10 phút/ngày? Bạn đang tự hủy hoại bộ não mình")
+    CategoryClassifier().classify(a)
+    assert a.status == Status.FILTERED_OUT
+
+
+def test_listicle_dropped():
+    a = _art("Top 5 ứng dụng AI giúp bạn làm việc hiệu quả hơn")
+    CategoryClassifier().classify(a)
+    assert a.status == Status.FILTERED_OUT
+
+
+def test_concrete_funding_round_kept():
+    a = _art("Anthropic gọi vốn vòng mới với định giá gần 1 nghìn tỷ USD")
+    CategoryClassifier().classify(a)
+    assert a.status == Status.NEW
+    assert getattr(a, "_relevance_score", 0) >= 5
+
+
 def test_articles_sorted_by_relevance():
     arts = [
         _art("VietJet công bố đường bay mới — không liên quan thị trường super-app"),

@@ -55,6 +55,36 @@ tutorial, DROP it. Better to send the CEO 8 sharp items than 30 noisy ones.
 When in doubt, ask: *"would the CEO still read this if the brand name
 weren't in the title?"* If no → drop.
 
+## Concrete drop patterns (from real crawl audit)
+
+These are EXACT noise types that keep slipping through. **Always drop**:
+
+- "Vì sao …", "Tại sao …", "Liệu …", "Có nên …", "Làm thế nào …"
+  (opinion / explainer)
+- "Mark Cuban cảnh báo …", "X tuyên bố …", "Y cho rằng …"
+  (personality opinion)
+- "Khánh Vy: AI có thể …", "[Influencer]: …" (celebrity quote pieces)
+- "Giá Bitcoin hôm nay …", "Giá vàng / Tỷ giá …" (commodity tickers)
+- "iPhone 18 Pro lộ nâng cấp …", "iOS 27 sẽ khiến …", "Apple sắp khai tử …"
+  (gadget rumours / leaks)
+- "Trên tay / Đánh giá / Review …" (consumer reviews)
+- "Cách / Bí quyết / Mẹo / Hướng dẫn …" (lifestyle tips)
+- "Dùng AI 10 phút/ngày bạn đang hủy hoại …" (clickbait health)
+- "Top 5 / 10 …", listicle openers
+- Stories about gadgets (RAM prices, iPhone leaks) unless they tie back
+  to a tracked-player or super-app strategic theme
+- Generic "AI is changing the world" think pieces
+
+**Always KEEP** (executive-grade):
+- IPO filings ("Cerebras IPO", "Lime files for IPO")
+- Funding rounds with $ amount ("Anthropic $1T raise", "Isomorphic Labs $2B")
+- Cross-border / strategic partnerships ("Vinpearl × Thomas Cook India MoU",
+  "BIDV QR xuyên biên giới Việt-Hàn")
+- Regulation that hits platform economics ("Indonesia trần phí 8%")
+- Concrete launches by tracked/adjacent players with mechanism
+  ("Stripe Link ra mắt cho AI agent", "OpenAI ra mắt API giọng nói mới")
+- VN market data with concrete numbers ("TP.HCM doanh thu du lịch 172k tỉ")
+
 # Inputs / Outputs
 
 - Input:  `tmp/to_process.json` — array of raw articles (Read tool)

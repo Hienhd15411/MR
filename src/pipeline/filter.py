@@ -41,7 +41,53 @@ _TRACKED_PLAYER_BONUS = 5
 _ADJACENT_PLAYER_BONUS = 1
 _BUSINESS_SIGNAL_BONUS = 1
 # Articles below this score are dropped even if a theme matched.
-_RELEVANCE_THRESHOLD = 3
+# Tuned for V-app CEO lens: needs at least one Tier-A theme (5) OR
+# tracked player (5), plus a business signal (1).
+_RELEVANCE_THRESHOLD = 4
+
+# Title-level noise patterns. If the article title matches any of these,
+# we drop it regardless of theme/player score — these are clickbait,
+# opinion, explainer, lifestyle, ticker or rumour articles that aren't
+# strategic intel even when they mention a tracked brand.
+_NOISE_TITLE_PATTERNS = [
+    # Question titles (opinion/explainer)
+    re.compile(r"^\s*(vì sao|tại sao|liệu|có nên|làm sao|làm thế nào|điều gì)\b",
+               re.IGNORECASE),
+    re.compile(r"\?\s*$"),  # ends with ?
+    # Lifestyle / health / clickbait
+    re.compile(r"\b(bí quyết|mẹo|cách|tips|hướng dẫn)\s+",
+               re.IGNORECASE),
+    re.compile(r"\b(cảnh báo|đe doạ|hủy hoại|nguy cơ|bộ não|sức khỏe|sức khoẻ)\b",
+               re.IGNORECASE),
+    # Price tickers (commodity, not strategic)
+    re.compile(r"\bgiá\s+(bitcoin|btc|eth|vàng|usd|xăng|dầu)\b", re.IGNORECASE),
+    re.compile(r"\b(tỷ giá|tỉ giá)\b", re.IGNORECASE),
+    re.compile(r"\bbitcoin hôm nay\b", re.IGNORECASE),
+    # Rumours / leaks (gadget speculation)
+    re.compile(r"\b(rò rỉ|lộ\s+(diện|thông tin|thiết kế|cấu hình|tính năng)|"
+               r"có thể\s+(ra mắt|được ra mắt|khai tử)|"
+               r"sắp\s+(khai tử|ngừng))\b", re.IGNORECASE),
+    # Pure gadget reviews / preview titles
+    re.compile(r"\b(đánh giá|review|so sánh|trên tay|hands-on)\b",
+               re.IGNORECASE),
+    # Personality / opinion
+    re.compile(r"\b(tuyên bố|cảnh báo|tin rằng|nhận định|cho rằng|"
+               r"khẳng định|chia sẻ)\b.+(:|—|–)", re.IGNORECASE),
+    # Listicle markers
+    re.compile(r"^\s*(top\s+\d+|\d+\s+(điều|cách|lý do|bí mật|mẹo))",
+               re.IGNORECASE),
+    # Quoted celebrity / influencer headlines (often opinion pieces)
+    re.compile(r"^\s*[\w\s]+\s*[:：]\s*[\"“]"),
+]
+
+
+def _is_noise_title(title: str) -> bool:
+    if not title:
+        return False
+    for pat in _NOISE_TITLE_PATTERNS:
+        if pat.search(title):
+            return True
+    return False
 
 
 def _strip_accents(text: str) -> str:
@@ -168,6 +214,15 @@ class EditorialClassifier:
 
     def classify(self, article: RawArticle) -> RawArticle:
         haystack = self._haystack(article)
+
+        # Hard noise gate: drop clickbait/opinion/ticker even if score is high.
+        if _is_noise_title(article.title_original or ""):
+            article.status = Status.FILTERED_OUT
+            article._mentioned_players = ""  # type: ignore[attr-defined]
+            article._business_signal = None  # type: ignore[attr-defined]
+            article._matched_themes = ""  # type: ignore[attr-defined]
+            article._relevance_score = 0  # type: ignore[attr-defined]
+            return article
 
         tracked = [n for n, _ in self._all_hits(
             haystack, self._sections.get("players", []))]

@@ -120,6 +120,41 @@ news:
     scope: domestic
     type: market_pulse
 
+  - key: vneconomy
+    name: "VnEconomy"
+    crawler: rss
+    rss_url: "https://vneconomy.vn/cong-nghe.rss"
+    scope: domestic
+    type: market_pulse
+
+  - key: dddn
+    name: "Diễn đàn Doanh nghiệp"
+    crawler: rss
+    rss_url: "https://diendandoanhnghiep.vn/rss/cong-nghe.rss"
+    scope: domestic
+    type: market_pulse
+
+  - key: vnbusiness
+    name: "Vietnam Business Insider"
+    crawler: rss
+    rss_url: "https://vnbusiness.vn/rss/cong-nghe.rss"
+    scope: domestic
+    type: market_pulse
+
+  - key: doanhnhansaigon
+    name: "Doanh Nhân Sài Gòn"
+    crawler: rss
+    rss_url: "https://doanhnhansaigon.vn/rss/cong-nghe.rss"
+    scope: domestic
+    type: market_pulse
+
+  - key: brandsvietnam
+    name: "Brands Vietnam"
+    crawler: rss
+    rss_url: "https://www.brandsvietnam.com/feed.rss"
+    scope: domestic
+    type: market_pulse
+
   # ----- International -----
   - key: techcrunch
     name: "TechCrunch"

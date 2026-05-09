@@ -827,7 +827,7 @@ strategic_themes:
 
   super_app_commerce:
     weight: 5
-    description: "Super-app, mini-app, livestream commerce, in-app marketplace"
+    description: "Super-app, mini-app, livestream commerce, in-app marketplace, embedded logistics"
     keywords:
       - "super-app"
       - "super app"
@@ -843,6 +843,13 @@ strategic_themes:
       - "TikTok Shop"
       - "Shopee Mall"
       - "Shopee Non-Mall"
+      # Embedded logistics / API integrations into commerce
+      - "API tích hợp"
+      - "API logistics"
+      - "tích hợp giao hàng"
+      - "tích hợp logistics"
+      - "tích hợp thanh toán"
+      - "embedded logistics"
 
   platform_regulation:
     weight: 5
@@ -978,13 +985,15 @@ strategic_themes:
       - "Airbnb"
 
   ai_infra_general:
-    weight: 2
-    description: "Foundation model releases — context for AI strategy"
+    weight: 3
+    description: "Foundation model releases / AI labs — context for AI strategy"
     keywords:
       - "GPT"
       - "ChatGPT"
       - "Copilot"
       - "Claude"
+      - "Anthropic"
+      - "OpenAI"
       - "Gemini"
       - "Bard"
       - "Llama"
@@ -1002,3 +1011,4 @@ strategic_themes:
       - "Google AI"
       - "Meta AI"
       - "Nvidia"
+      - "Cerebras"
