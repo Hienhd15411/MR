@@ -171,27 +171,21 @@ market_pulse:
       - Expedia
       - Vinpearl
       - "Sun Group"
-      - "Sun World"
-      - "Vinpearl Land"
       - "Vingroup du lịch"
-      # Entertainment
-      - "giải trí"
-      - streaming
+      # Streaming / OTT platforms — kept because their business moves
+      # (ad tiers, pricing, partnerships) matter for super-app strategy.
       - Netflix
       - Spotify
-      - YouTube
-      - "TikTok giải trí"
-      - "FPT Play"
-      - VieON
-      - Galaxy
-      - CGV
-      - "BHD Star"
-      - "Lotte Cinema"
-      # Airlines (entertainment-adjacent)
+      - "Disney+"
+      - HBO
+      # Airlines (business-relevant)
       - VietJet
       - "Vietnam Airlines"
       - "Bamboo Airways"
       - "Vietravel Airlines"
+      # NOTE: removed CGV, Galaxy Cinema, BHD Star, Lotte Cinema, FPT Play,
+      # VieON, YouTube as keywords — too consumer/entertainment focused.
+      # Add back if a specific business action keyword is paired.
 
   "Ride/Food delivery":
     keywords:
@@ -623,3 +617,155 @@ players_movement_categories:
           - "ngày đôi"
           - "flashsale"
           - "nạp"
+
+# Business signal keywords. The Phase 1 filter REQUIRES at least one of
+# these to match alongside a vertical/player keyword. This is what keeps
+# the report executive-grade — it drops entertainment, lifestyle, gossip,
+# review and consumer "tips" articles even if they mention a tracked
+# brand.
+#
+# An article that matches a player/vertical but NO business signal is
+# treated as noise and dropped from raw_data → final_data.
+business_signals:
+  Launch:
+    keywords:
+      - "ra mắt"
+      - "công bố"
+      - "phát hành"
+      - "giới thiệu"
+      - "giới thiệu sản phẩm"
+      - "tung ra"
+      - "thử nghiệm"
+      - launch
+      - launches
+      - rollout
+      - debut
+      - unveils
+      - "trình làng"
+  Strategy_MnA:
+    keywords:
+      - "mua lại"
+      - "thâu tóm"
+      - "sáp nhập"
+      - acquisition
+      - acquires
+      - merger
+      - "M&A"
+      - IPO
+      - "niêm yết"
+      - "lên sàn"
+      - "tái cấu trúc"
+      - "restructure"
+      - "spin-off"
+      - "tách công ty"
+  Funding:
+    keywords:
+      - "gọi vốn"
+      - "vòng gọi vốn"
+      - "đầu tư"
+      - funding
+      - "Series A"
+      - "Series B"
+      - "Series C"
+      - "Series D"
+      - "định giá"
+      - valuation
+      - raises
+      - "rót vốn"
+  Partnership:
+    keywords:
+      - "hợp tác"
+      - "ký kết"
+      - "đối tác chiến lược"
+      - partnership
+      - partners with
+      - "MOU"
+      - "biên bản ghi nhớ"
+      - "liên minh"
+      - "tích hợp"
+      - integration
+      - "integrate"
+  Regulation:
+    keywords:
+      - "sắc lệnh"
+      - "ban hành"
+      - "khung pháp lý"
+      - "quy định mới"
+      - "chính sách mới"
+      - "luật"
+      - regulation
+      - "regulator"
+      - "ngân hàng nhà nước ban hành"
+      - "executive order"
+      - "AI Act"
+      - "compliance"
+      - "tuân thủ"
+      - "siết"
+      - "cấm"
+      - ban
+  Performance:
+    keywords:
+      - GMV
+      - "doanh thu"
+      - "doanh số"
+      - "lợi nhuận"
+      - "tăng trưởng"
+      - "thị phần"
+      - "market share"
+      - "lỗ"
+      - "EBITDA"
+      - "Q1"
+      - "Q2"
+      - "Q3"
+      - "Q4"
+      - "quý 1"
+      - "quý 2"
+      - "quý 3"
+      - "quý 4"
+      - "báo cáo tài chính"
+      - "earnings"
+  Pricing:
+    keywords:
+      - "điều chỉnh phí"
+      - "cập nhật phí"
+      - "bảng giá"
+      - "tăng phí"
+      - "giảm phí"
+      - "phí nền tảng"
+      - "phí xử lý"
+      - "phí cố định"
+      - "fee"
+      - "phí hoa hồng"
+      - "commission"
+  Expansion:
+    keywords:
+      - "mở rộng"
+      - "thị trường mới"
+      - "ra mắt tại"
+      - expansion
+      - "expand to"
+      - "expand into"
+      - "vào Việt Nam"
+      - "tại Việt Nam"
+      - "into Vietnam"
+      - "khai trương"
+  Product_Feature:
+    keywords:
+      - "tính năng mới"
+      - "cập nhật"
+      - update
+      - "nâng cấp"
+      - "phiên bản mới"
+      - "new feature"
+      - "feature"
+      - "rolls out"
+  Campaign_Marketing:
+    keywords:
+      - "chiến dịch"
+      - campaign
+      - "khuyến mãi"
+      - promotion
+      - "ưu đãi"
+      - "ra quân"
+      - cashback
+      - gamification

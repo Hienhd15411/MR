@@ -141,6 +141,26 @@ class CategoryClassifier:
                     break
         return out
 
+    def _has_business_signal(self, haystack: str) -> tuple[bool, str | None]:
+        """Executive-grade gate: drop articles without a business action.
+
+        Returns (matched?, signal_category). Articles that mention a
+        player/brand but don't describe a strategic move (launch, M&A,
+        funding, regulation, partnership, performance numbers, pricing,
+        expansion, product/feature update, marketing campaign) are
+        considered noise and filtered out.
+        """
+        signals = self._sections.get("business_signals", [])
+        for cat in signals:
+            for pat, _ in cat.patterns:
+                if pat.search(haystack):
+                    return True, cat.name
+            for sub_name, sub_pats in cat.subcategories:
+                for pat, _ in sub_pats:
+                    if pat.search(haystack):
+                        return True, f"{cat.name}/{sub_name}"
+        return False, None
+
     def classify(self, article: RawArticle) -> RawArticle:
         haystack = self._haystack(article)
         tracked_cats = self._sections.get("players", [])
@@ -148,13 +168,18 @@ class CategoryClassifier:
 
         tracked = self._all_player_hits(haystack, tracked_cats)
         adjacent = self._all_player_hits(haystack, adjacent_cats)
-        # Stash on the article via the player field for tracked, and the
-        # joint mention list for downstream AI step (stored in tags via
-        # serialisation; raw_data only carries `player`).
         article._mentioned_players = ", ".join(tracked + adjacent)  # type: ignore[attr-defined]
 
-        # 1) Tracked player → players_movement
+        # Business signal gate — REQUIRED for all paths.
+        has_signal, signal = self._has_business_signal(haystack)
+        article._business_signal = signal  # type: ignore[attr-defined]
+
+        # 1) Tracked player → players_movement (still needs business signal)
         if tracked:
+            if not has_signal:
+                article.status = Status.FILTERED_OUT
+                article.pre_category = None
+                return article
             article.type = ArticleType.PLAYERS_MOVEMENT
             article.player = tracked[0]
             pm_cats = self._sections.get("players_movement_categories", [])
@@ -172,6 +197,10 @@ class CategoryClassifier:
         # 2) Otherwise market_pulse keyword categories
         mp_hit = self._first_hit(haystack, self._sections.get("market_pulse", []))
         if mp_hit is not None:
+            if not has_signal:
+                article.status = Status.FILTERED_OUT
+                article.pre_category = None
+                return article
             article.type = ArticleType.MARKET_PULSE
             article.pre_category = (
                 f"{mp_hit.category}/{mp_hit.subcategory}"
@@ -179,9 +208,8 @@ class CategoryClassifier:
             )
             return article
 
-        # 3) Adjacent player only → keep as Market Pulse with no category
-        # so the AI step can refine. Useful context (eg Stripe/OpenAI news).
-        if adjacent:
+        # 3) Adjacent player only — keep only if there's a business signal
+        if adjacent and has_signal:
             article.type = ArticleType.MARKET_PULSE
             article.pre_category = None
             return article

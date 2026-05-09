@@ -80,7 +80,8 @@ def test_acronym_ai_does_not_match_vietnamese_pronoun():
 
 
 def test_acronym_ai_still_matches_uppercase():
-    a = _art("AI tạo sinh đang thay đổi mọi ngành công nghiệp")
+    # Must include a business signal (here: "ra mắt") to pass the executive gate.
+    a = _art("AI tạo sinh ra mắt phiên bản mới mạnh hơn cho doanh nghiệp")
     CategoryClassifier().classify(a)
     assert a.pre_category is not None
     assert a.pre_category.startswith("AI")
@@ -132,6 +133,51 @@ def test_tracked_player_whatsapp_classifies_as_pm():
     CategoryClassifier().classify(a)
     assert a.type == ArticleType.PLAYERS_MOVEMENT
     assert a.player == "WhatsApp"
+
+
+# --- Business-signal gate (executive-grade filter) ----------------------
+
+
+def test_brand_without_business_signal_is_dropped():
+    # Mentions Netflix but is just an entertainment piece — must be dropped
+    a = _art("Netflix ra phim Squid Game phần 3 với dàn diễn viên mới")
+    CategoryClassifier().classify(a)
+    assert a.status == Status.FILTERED_OUT
+
+
+def test_netflix_business_move_is_kept():
+    # Same brand, but a real business action — must pass
+    a = _art("Netflix ra mắt gói cước có quảng cáo tại thị trường Việt Nam")
+    CategoryClassifier().classify(a)
+    assert a.status == Status.NEW
+    assert a.pre_category is not None
+
+
+def test_player_news_without_signal_is_dropped():
+    # MoMo article that is just a tutorial / consumer tip — drop
+    a = _art("MoMo hướng dẫn cách quét QR an toàn khi mua sắm")
+    CategoryClassifier().classify(a)
+    assert a.status == Status.FILTERED_OUT
+
+
+def test_player_news_with_signal_is_kept():
+    a = _art("MoMo công bố hợp tác chiến lược với BIDV mở rộng thanh toán xuyên biên giới")
+    CategoryClassifier().classify(a)
+    assert a.status == Status.NEW
+    assert a.player == "MoMo"
+
+
+def test_adjacent_only_without_signal_is_dropped():
+    a = _art("Stripe gợi ý 5 mẹo bảo mật khi sử dụng thẻ thanh toán")
+    CategoryClassifier().classify(a)
+    assert a.status == Status.FILTERED_OUT
+
+
+def test_adjacent_with_signal_kept_as_market_pulse():
+    a = _art("Stripe ra mắt Link – ví điện tử cho AI agent tự động thanh toán")
+    CategoryClassifier().classify(a)
+    assert a.type == ArticleType.MARKET_PULSE
+    assert a.status == Status.NEW
 
 
 def test_apply_filter_returns_all_with_counts():

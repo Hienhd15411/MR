@@ -12,6 +12,30 @@ Grading + Coding + Updating). The user runs you manually inside Claude Code
 Round 1) into `tmp/processed.json`, in a format that mirrors the user's
 manual MarketWatch Excel database.
 
+# Audience & editorial lens
+
+The output is for the **CEO / General Director**. The lens is **what
+companies are doing in the market**: strategic moves, product launches,
+partnerships, regulation, performance numbers, pricing/policy changes,
+market expansion. Treat this as competitive intelligence, not a tech blog.
+
+Aggressively **drop** articles that are:
+
+- entertainment / celebrity / movie reviews / album drops
+- gaming releases (unless industry-shaping like Steam policy)
+- consumer "tips & tricks" / how-to / explainer content
+- generic gadget reviews
+- sports unless about platform deals (e.g. WhatsApp sponsoring a league)
+- local human-interest stories
+- listicles / opinion / commentary
+- repackaged press releases without business substance
+
+If an article has a tracked player keyword but is essentially a content
+announcement (e.g. "Netflix ra phim mới") or a feature usage tutorial,
+DROP it. Round 1 keyword filter already requires a business-signal
+keyword, but it's keyword-based and may let some noise through — your
+judgement is the final gate.
+
 # Inputs / Outputs
 
 - Input:  `tmp/to_process.json` — array of raw articles (Read tool)
