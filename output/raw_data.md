@@ -1,31 +1,29 @@
 # Market Watch — raw_data preview
 
-- Generated: **2026-05-09 09:51 UTC**
-- Crawled: **754**
-- Kept: **242** (Market Pulse: 221 · Players Movement: 21)
-- Filtered out (no category match): **512**
+- Generated: **2026-05-09 10:06 UTC**
+- Crawled: **748**
+- Kept: **235** (Market Pulse: 226 · Players Movement: 9)
+- Filtered out (no category match): **513**
 
 ## Summary by category (kept only)
 
 | Category | Count |
 |---|---:|
 | AI | 122 |
-| — | 33 |
+| — | 30 |
 | Travel/Khách sạn/Giải trí | 23 |
 | AI/Big tech AI | 17 |
+| Ride/Food delivery | 12 |
 | Fintech/E-wallet | 11 |
-| Feature | 8 |
-| Ride/Food delivery | 7 |
 | TMĐT | 6 |
-| Marketing | 4 |
 | Chat | 4 |
 | AI/AI agents | 3 |
-| Marketing/Transaction Growth | 1 |
+| Feature | 3 |
+| Marketing | 2 |
 | Product/Product launch | 1 |
 | AI/AI Vietnam | 1 |
-| Product/Off product | 1 |
 
-## Market Pulse (221)
+## Market Pulse (226)
 
 ### bloomberg_tech (16)
 
@@ -158,31 +156,24 @@
 ### cafef_kinhteso (22)
 
 - **[ChatGPT tự báo người thân nếu bạn gặp khó khăn](https://cafef.vn/chatgpt-tu-bao-nguoi-than-neu-ban-gap-kho-khan-188260509073804637.chn)**
-  - relevance: `5` · category: `AI/Big tech AI` · scope: `domestic` · published: 2026-05-09 08:16 UTC
+  - relevance: `4` · category: `AI/Big tech AI` · scope: `domestic` · published: 2026-05-09 08:16 UTC
   - themes: ai_infra_general
-  - signal: Regulation
   - Tính năng Trusted Contact cho phép người dùng trưởng thành chỉ định sẵn một người làm liên hệ khẩn cấp, cảnh báo được gửi qua email hoặc tin nhắn nhưng không tiết lộ nội dung cuộc trò chuyện.
-
-- **["Tôi sẽ đón lấy bạn": Câu nói của ChatGPT đang khiến hàng triệu người dùng Trung Quốc "dựng tóc gáy"](https://cafef.vn/toi-se-don-lay-ban-cau-noi-cua-chatgpt-dang-khien-hang-trieu-nguoi-dung-trung-quoc-dung-toc-gay-188260508083422507.chn)**
-  - relevance: `5` · category: `AI/Big tech AI` · scope: `domestic` · published: 2026-05-08 02:47 UTC
-  - themes: ai_infra_general
-  - signal: Regulation
-  - Khi AI "yêu" người dùng quá mức, một góc khuất sến súa đến đáng sợ của ChatGPT tại thị trường tỷ dân dần bộc lộ.
 
 - **[Người trẻ Châu Âu đang "yêu" một thuật toán: Sự trỗi dậy của đế chế hỗ trợ cảm xúc ChatGPT](https://cafef.vn/nguoi-tre-chau-au-dang-yeu-mot-thuat-toan-su-troi-day-cua-de-che-ho-tro-cam-xuc-chatgpt-188260508091648156.chn)**
   - relevance: `4` · category: `AI/Big tech AI` · scope: `domestic` · published: 2026-05-08 03:13 UTC
   - themes: ai_infra_general
   - Trí tuệ nhân tạo (AI) đang chứng minh khả năng đưa ra những lời giải đáp chất lượng cho các vấn đề sức khỏe tâm thần.
 
+- **["Tôi sẽ đón lấy bạn": Câu nói của ChatGPT đang khiến hàng triệu người dùng Trung Quốc "dựng tóc gáy"](https://cafef.vn/toi-se-don-lay-ban-cau-noi-cua-chatgpt-dang-khien-hang-trieu-nguoi-dung-trung-quoc-dung-toc-gay-188260508083422507.chn)**
+  - relevance: `4` · category: `AI/Big tech AI` · scope: `domestic` · published: 2026-05-08 02:47 UTC
+  - themes: ai_infra_general
+  - Khi AI "yêu" người dùng quá mức, một góc khuất sến súa đến đáng sợ của ChatGPT tại thị trường tỷ dân dần bộc lộ.
+
 - **[ChatGPT giờ dùng model GPT-5.5 Instant mặc định, bớt bịa chuyện hơn](https://cafef.vn/chatgpt-gio-dung-model-gpt-55-instant-mac-dinh-bot-bia-chuyen-hon-188260507073056764.chn)**
   - relevance: `4` · category: `AI/Big tech AI` · scope: `domestic` · published: 2026-05-07 13:00 UTC
   - themes: ai_infra_general
   - GPT-5.5 Instant được bổ sung khả năng dùng tìm kiếm để tham chiếu lại chat cũ, tệp người dùng và Gmail, trước mắt áp dụng cho gói Plus và Pro trên trình duyệt.
-
-- **[Trình duyệt hơn 3,6 tỷ người dùng đang âm thầm "nhồi nhét" mô hình AI 4GB vào máy tính của bạn](https://cafef.vn/trinh-duyet-hon-36-ty-nguoi-dung-dang-am-tham-nhoi-nhet-mo-hinh-ai-4gb-vao-may-tinh-cua-ban-188260508135921923.chn)**
-  - relevance: `2` · category: `AI` · scope: `domestic` · published: 2026-05-08 08:49 UTC
-  - signal: Regulation
-  - Google Chrome, trình duyệt phổ biến nhất thế giới với hơn 3,6 tỷ người dùng, đang vấp phải làn sóng chỉ trích dữ dội vì tự động tải xuống một mô hình AI cục bộ có dung lượng lên tới 4GB, mà không hề đưa ra bất kỳ thông báo hay yêu cầu cấp phép nào từ phía người dùng.
 
 - **[Phân tích dữ liệu từ hơn 57.000 chiếc iPhone, Apple phát hiện suy giảm thính lực có thể khiến bạn “chậm lại” theo đúng nghĩa đen](https://cafef.vn/phan-tich-du-lieu-tu-hon-57000-chiec-iphone-apple-phat-hien-suy-giam-thinh-luc-co-the-khien-ban-cham-lai-theo-dung-nghia-den-18826050808595349.chn)**
   - relevance: `2` · category: `—` · scope: `domestic` · published: 2026-05-08 01:59 UTC
@@ -196,6 +187,10 @@
 - **[Chỉ sở hữu 2 chữ cái, hòn đảo 16.000 dân bất ngờ kiếm hàng chục triệu USD mỗi năm từ Elon Musk và Google nhờ cơn sốt AI](https://cafef.vn/chi-so-huu-2-chu-cai-hon-dao-16000-dan-bat-ngo-kiem-hang-chuc-trieu-usd-moi-nam-tu-elon-musk-va-google-nho-con-sot-ai-188260509073440266.chn)**
   - relevance: `1` · category: `AI` · scope: `domestic` · published: 2026-05-09 01:44 UTC
   - Không cần làm gì, hòn đảo này vẫn thu bộn tiền từ túi Elon Musk và Google.
+
+- **[Trình duyệt hơn 3,6 tỷ người dùng đang âm thầm "nhồi nhét" mô hình AI 4GB vào máy tính của bạn](https://cafef.vn/trinh-duyet-hon-36-ty-nguoi-dung-dang-am-tham-nhoi-nhet-mo-hinh-ai-4gb-vao-may-tinh-cua-ban-188260508135921923.chn)**
+  - relevance: `1` · category: `AI` · scope: `domestic` · published: 2026-05-08 08:49 UTC
+  - Google Chrome, trình duyệt phổ biến nhất thế giới với hơn 3,6 tỷ người dùng, đang vấp phải làn sóng chỉ trích dữ dội vì tự động tải xuống một mô hình AI cục bộ có dung lượng lên tới 4GB, mà không hề đưa ra bất kỳ thông báo hay yêu cầu cấp phép nào từ phía người dùng.
 
 - **[Google lần đầu đưa bài diễn đàn vào AI Overview sau hai năm bị chỉ trích](https://cafef.vn/google-lan-dau-dua-bai-dien-dan-vao-ai-overview-sau-hai-nam-bi-chi-trich-188260508102822184.chn)**
   - relevance: `1` · category: `AI` · scope: `domestic` · published: 2026-05-08 04:02 UTC
@@ -259,7 +254,7 @@
 - **[Mac mini M4 phiên bản giá rẻ bị khai tử tại Việt Nam](https://dantri.com.vn/cong-nghe/mac-mini-m4-phien-ban-gia-re-bi-khai-tu-tai-viet-nam-20260503230754574.htm)**
   - relevance: `6` · category: `—` · scope: `domestic` · published: 2026-05-03 23:55 UTC
   - themes: vn_market_data
-  - signal: Regulation
+  - signal: Expansion
   - (Dân trí) - Mới đây, Apple đã gỡ bỏ mẫu máy tính Mac mini M4 phiên bản 256GB trên cửa hàng trực tuyến của hãng tại Việt Nam.
 
 - **[Điểm tuần: OpenAI phát triển điện thoại, iPhone 17 giúp Apple thắng lớn](https://dantri.com.vn/cong-nghe/diem-tuan-openai-phat-trien-dien-thoai-iphone-17-giup-apple-thang-lon-20260502211207657.htm)**
@@ -288,23 +283,21 @@
   - signal: Funding
   - (Dân trí) - Trong một báo cáo mới nhất, nhà phân tích Jeff Pu cho biết Apple sẽ áp dụng chiến lược định giá cạnh tranh đối với dòng sản phẩm iPhone 18 Pro và iPhone 18 Pro Max.
 
-- **[30.000 tài khoản Facebook bị đánh cắp, lộ thủ đoạn mạo danh Meta](https://dantri.com.vn/cong-nghe/30000-tai-khoan-facebook-bi-danh-cap-lo-thu-doan-mao-danh-meta-20260502201851980.htm)**
-  - relevance: `2` · category: `—` · scope: `domestic` · published: 2026-05-03 00:25 UTC
-  - signal: Regulation
-  - (Dân trí) - Một đường dây tội phạm mạng có tổ chức vừa bị phát hiện sử dụng nền tảng Google AppSheet làm "bàn đạp" phát tán email lừa đảo, chiếm đoạt thành công khoảng 30.000 tài khoản Facebook.
-
 - **[Kính thông minh của Apple sẽ được trang bị những tính năng chưa từng có](https://dantri.com.vn/cong-nghe/kinh-thong-minh-cua-apple-se-duoc-trang-bi-nhung-tinh-nang-chua-tung-co-20260504231733465.htm)**
   - relevance: `1` · category: `—` · scope: `domestic` · published: 2026-05-07 03:43 UTC
   - (Dân trí) - Các thông tin bị rò rỉ cho biết Apple sẽ gia nhập vào thị trường kính thông minh với mẫu kính thiết kế thời trang và những tính năng chưa từng có trên các sản phẩm khác.
 
-- **[Bị sếp âm thầm tạo bản sao, nhân viên “chơi chiêu” chống trả bằng AI](https://dantri.com.vn/cong-nghe/bi-sep-am-tham-tao-ban-sao-nhan-vien-choi-chieu-chong-tra-bang-ai-20260504185154335.htm)**
-  - relevance: `1` · category: `AI` · scope: `domestic` · published: 2026-05-04 23:57 UTC
-  - signal: Regulation
-  - (Dân trí) - Để thoát khỏi viễn cảnh tăm tối bị thay thế bởi chính bản sao AI của mình, nhiều nhân viên đã bắt đầu phản kháng bằng cách “lấy độc trị độc”.
+- **[30.000 tài khoản Facebook bị đánh cắp, lộ thủ đoạn mạo danh Meta](https://dantri.com.vn/cong-nghe/30000-tai-khoan-facebook-bi-danh-cap-lo-thu-doan-mao-danh-meta-20260502201851980.htm)**
+  - relevance: `1` · category: `—` · scope: `domestic` · published: 2026-05-03 00:25 UTC
+  - (Dân trí) - Một đường dây tội phạm mạng có tổ chức vừa bị phát hiện sử dụng nền tảng Google AppSheet làm "bàn đạp" phát tán email lừa đảo, chiếm đoạt thành công khoảng 30.000 tài khoản Facebook.
 
 - **[Cisco: AI có thể góp thêm khoảng 130 tỷ USD cho GDP Việt Nam vào 2040](https://dantri.com.vn/cong-nghe/cisco-ai-co-the-gop-them-khoang-130-ty-usd-cho-gdp-viet-nam-vao-2040-20260507062430241.htm)**
   - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-06 23:27 UTC
   - (Dân trí) - Tại sự kiện Cisco Connect Vietnam 2026, các chuyên gia nhấn mạnh AI đang mở ra cơ hội lớn cho Việt Nam bứt phá, song đi kèm là yêu cầu cấp thiết về hạ tầng, bảo mật và nhân lực.
+
+- **[Bị sếp âm thầm tạo bản sao, nhân viên “chơi chiêu” chống trả bằng AI](https://dantri.com.vn/cong-nghe/bi-sep-am-tham-tao-ban-sao-nhan-vien-choi-chieu-chong-tra-bang-ai-20260504185154335.htm)**
+  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-04 23:57 UTC
+  - (Dân trí) - Để thoát khỏi viễn cảnh tăm tối bị thay thế bởi chính bản sao AI của mình, nhiều nhân viên đã bắt đầu phản kháng bằng cách “lấy độc trị độc”.
 
 - **[AI sắp "ngốn" tới 400 GB RAM mỗi chip](https://dantri.com.vn/cong-nghe/ai-sap-ngon-toi-400-gb-ram-moi-chip-20260504112428600.htm)**
   - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-04 04:53 UTC
@@ -345,12 +338,6 @@
   - signal: Expansion
   - Tại Việt Nam, nơi "tình cảm" là chất xúc tác quan trọng cho mọi giao dịch, việc phó mặc khách hàng cho một AI thiếu ngữ cảnh chính là cách nhanh nhất để đẩy họ sang đối thủ.
 
-- **[ChatGPT tự báo người thân nếu bạn gặp khó khăn](https://genk.vn/chatgpt-tu-bao-nguoi-than-neu-ban-gap-kho-khan-165260805155432167.chn)**
-  - relevance: `5` · category: `AI/Big tech AI` · scope: `domestic` · published: —
-  - themes: ai_infra_general
-  - signal: Regulation
-  - Tính năng Trusted Contact cho phép người dùng trưởng thành chỉ định sẵn một người làm liên hệ khẩn cấp, cảnh báo được gửi qua email hoặc tin nhắn nhưng không tiết lộ nội dung cuộc trò chuyện.
-
 - **[Bỏ diễn hài đi khởi nghiệp, hai cô gái trẻ tạo ra hệ thống AI khiến OpenAI và AMD điên cuồng rót vốn](https://genk.vn/bo-dien-hai-di-khoi-nghiep-hai-co-gai-tre-tao-ra-he-thong-ai-khien-openai-va-amd-dien-cuong-rot-von-165260508121959107.chn)**
   - relevance: `5` · category: `AI` · scope: `domestic` · published: —
   - themes: ai_infra_general
@@ -363,6 +350,11 @@
   - signal: Funding
   - Vòng đầu tư do quỹ nhà nước Trung Quốc dẫn dắt, Tencent và Alibaba cũng đang đàm phán tham gia, mục tiêu chính là trao cổ phần cho nhân viên để giữ chân nhân tài trước áp lực cạnh tranh.
 
+- **[ChatGPT tự báo người thân nếu bạn gặp khó khăn](https://genk.vn/chatgpt-tu-bao-nguoi-than-neu-ban-gap-kho-khan-165260805155432167.chn)**
+  - relevance: `4` · category: `AI/Big tech AI` · scope: `domestic` · published: —
+  - themes: ai_infra_general
+  - Tính năng Trusted Contact cho phép người dùng trưởng thành chỉ định sẵn một người làm liên hệ khẩn cấp, cảnh báo được gửi qua email hoặc tin nhắn nhưng không tiết lộ nội dung cuộc trò chuyện.
+
 - **[Meta muốn quét chiều cao, cấu trúc xương để xác minh độ tuổi trẻ em: "Đây không phải nhận diện khuôn mặt"](https://genk.vn/meta-muon-quet-chieu-cao-cau-truc-xuong-de-xac-minh-do-tuoi-tre-em-day-khong-phai-nhan-dien-khuon-mat-16526050816102911.chn)**
   - relevance: `1` · category: `—` · scope: `domestic` · published: —
   - Đây là nỗ lực mới của Meta để tránh việc trẻ em dưới 13 tuổi sử dụng Facebook và Instagram.
@@ -374,6 +366,24 @@
 - **[BusMap dẫn đầu sít sao, Lotus Chat trở thành ứng dụng chat duy nhất trong cuộc đua Better List đầy căng thẳng](https://genk.vn/busmap-dan-dau-sit-sao-lotus-chat-tro-thanh-ung-dung-chat-duy-nhat-trong-cuoc-dua-better-list-day-cang-thang-165260508171024546.chn)**
   - relevance: `0` · category: `Chat` · scope: `domestic` · published: —
   - Bảng xếp hạng “Ứng dụng đổi mới sáng tạo nên cài đặt” tại Better List đang chứng kiến một trong những cuộc đua sít sao nhất kể từ đầu mùa khi khoảng cách giữa các ứng dụng top đầu gần như không đáng kể.
+
+### grab_vn_blog (3)
+
+- **[Ưu đãi ngân hàng HD Bank](https://www.grab.com/vn/blog/uu-dai-ngan-hang-hd-bank/)**
+  - relevance: `6` · category: `Ride/Food delivery` · player: `Grab` · scope: `domestic` · published: —
+  - themes: payment_wallet_war
+  - signal: Campaign_Marketing
+  - Độc lập tự do, ăn no là hạnh phúc. Thanh toán bằng thẻ HDBank trên GrabFood để tiết kiệm đến 135.000đ/tháng. Ưu đãi chỉ dành cho người dùng là chủ thẻ HD Bank 😉…
+
+- **[Ưu đãi ngân hàng TPBank](https://www.grab.com/vn/blog/uu-dai-ngan-hang-tpbank/)**
+  - relevance: `6` · category: `Ride/Food delivery` · player: `Grab` · scope: `domestic` · published: —
+  - themes: payment_wallet_war
+  - signal: Campaign_Marketing
+  - Chẳng cần "flex" nhiều, chỉ cần thanh toán bằng TPBank khi đặt GrabFood là đủ để bữa ăn của bạn vừa ngon miệng vừa "ngon ví". Xem ngay ưu đãi bạn nhé!
+
+- **[Đặc quyền người dùng GrabVIP](https://www.grab.com/vn/blog/dac-quyen-grabvip/)**
+  - relevance: `0` · category: `Ride/Food delivery` · player: `Grab` · scope: `domestic` · published: —
+  - GrabVIP là chương trình mang đến các đặc quyền dành riêng cho người dùng VIP khi sử dụng dịch vụ Grab. Đặc quyền từ đối tác chỉ dành cho người dùng VIP.
 
 ### restofworld (3)
 
@@ -788,7 +798,7 @@
 
 - **[iOS 27 sẽ khiến mọi người d&ugrave;ng iPhone theo c&aacute;ch ho&agrave;n to&agrave;n mới](https://thanhnien.vn/ios-27-se-khien-moi-nguoi-dung-iphone-theo-cach-hoan-toan-moi-185260505231033592.htm)**
   - relevance: `2` · category: `—` · scope: `domestic` · published: 2026-05-06 00:54 UTC
-  - signal: Regulation
+  - signal: Product_Feature
   - Apple đang chuẩn bị cho một bước tiến mới trong việc thay đổi cách người dùng tương tác với iPhone thông qua bản cập nhật iOS 27.
 
 - **[Chip A20 Pro của Apple sắp g&acirc;y chấn động ng&agrave;nh c&ocirc;ng nghệ](https://thanhnien.vn/chip-a20-pro-cua-apple-sap-gay-chan-dong-nganh-cong-nghe-185260509091636573.htm)**
@@ -803,11 +813,6 @@
 - **[CEO tương lai của Apple h&eacute; lộ AirPods Pro mới sẽ &#039;thay đổi thế giới&#039;](https://thanhnien.vn/ceo-tuong-lai-cua-apple-he-lo-airpods-pro-moi-se-thay-doi-the-gioi-185260508090909209.htm)**
   - relevance: `1` · category: `—` · scope: `domestic` · published: 2026-05-08 07:33 UTC
   - Apple đang chuẩn bị bước tiến táo bạo với AirPods Pro gắn camera, sản phẩm được kỳ vọng thay đổi cách tương tác công nghệ.
-
-- **[Gi&aacute; Bitcoin h&ocirc;m nay 7.5.2026: Rung lắc theo diễn biến ở eo biển Hormuz](https://thanhnien.vn/gia-bitcoin-hom-nay-752026-rung-lac-theo-dien-bien-o-eo-bien-hormuz-185260507153144517.htm)**
-  - relevance: `1` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-07 09:23 UTC
-  - signal: Regulation
-  - Giá Bitcoin tiến sát mốc 83.000 USD nhưng nhanh chóng giảm mạnh về vùng giá 81.000 USD sau khi ông Trump đặt câu hỏi về thỏa thuận ngừng bắn giữa Mỹ và Iran.
 
 - **[Tr&igrave;nh duyệt Chrome &acirc;m thầm &#039;nuốt&#039; 4 GB ổ cứng để chạy AI](https://thanhnien.vn/trinh-duyet-chrome-am-tham-nuot-4-gb-o-cung-de-chay-ai-185260507095621496.htm)**
   - relevance: `1` · category: `AI` · scope: `domestic` · published: 2026-05-07 03:34 UTC
@@ -830,6 +835,10 @@
   - relevance: `0` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-08 08:59 UTC
   - Giá Bitcoin hôm nay giảm, giao dịch quanh mốc 79.700 USD tuy nhiên các tín hiệu cho thấy thị trường có thể tiếp tục tăng giá mạnh trong tương lai.
 
+- **[Gi&aacute; Bitcoin h&ocirc;m nay 7.5.2026: Rung lắc theo diễn biến ở eo biển Hormuz](https://thanhnien.vn/gia-bitcoin-hom-nay-752026-rung-lac-theo-dien-bien-o-eo-bien-hormuz-185260507153144517.htm)**
+  - relevance: `0` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-07 09:23 UTC
+  - Giá Bitcoin tiến sát mốc 83.000 USD nhưng nhanh chóng giảm mạnh về vùng giá 81.000 USD sau khi ông Trump đặt câu hỏi về thỏa thuận ngừng bắn giữa Mỹ và Iran.
+
 ### theverge (3)
 
 - **[DOGE used ChatGPT in a way that was both dumb and illegal, judge rules](https://www.theverge.com/policy/927071/doge-chatgpt-grants-canceled)**
@@ -846,13 +855,19 @@
   - signal: Launch
   - Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment.&#160; From audacious plans to launch data centers into [&#8230;]
 
-### tuoitre_kinhdoanh (10)
+### tuoitre_kinhdoanh (11)
 
 - **[Vietcombank và VTV ký kết hợp tác phát triển hệ sinh thái số tích hợp](https://tuoitre.vn/vietcombank-va-vtv-ky-ket-hop-tac-phat-trien-he-sinh-thai-so-tich-hop-20260508173243145.htm)**
   - relevance: `9` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-08 11:00 UTC
   - themes: payment_wallet_war, cross_brand_partnerships
   - signal: Partnership
   - Bắt tay hợp tác toàn diện, Vietcombank và VTV hướng tới kết nối hệ sinh thái số, tích hợp dịch vụ tài chính - nội dung và mở rộng trải nghiệm số cho người dùng đa nền tảng.
+
+- **[App gọi xe trước sức ép giảm chiết khấu](https://tuoitre.vn/app-goi-xe-truoc-suc-ep-giam-chiet-khau-20260508084215977.htm)**
+  - relevance: `6` · category: `Ride/Food delivery` · scope: `domestic` · published: 2026-05-08 02:39 UTC
+  - themes: mobility_food_economics
+  - signal: Regulation
+  - Tổng thống Indonesia Prabowo Subianto đã ký quy định mới, yêu cầu các nền tảng như Grab và GoTo giảm mức phí thu từ tài xế từ tối đa 20% xuống còn 8% mỗi chuyến.
 
 - **[Cục Du lịch quốc gia Việt Nam và Mastercard thúc đẩy phát triển du lịch](https://tuoitre.vn/cuc-du-lich-quoc-gia-viet-nam-va-mastercard-thuc-day-phat-trien-du-lich-20260508144415558.htm)**
   - relevance: `5` · category: `Travel/Khách sạn/Giải trí` · scope: `domestic` · published: 2026-05-08 08:40 UTC
@@ -921,7 +936,7 @@
 
 - **[30.000 tài khoản Facebook bị chiếm đoạt, dữ liệu trở thành ‘món hàng’ buôn bán](https://vnbusiness.vn//30000-tai-khoan-facebook-bi-chiem-doat-du-lieu-tro-thanh-mon-hang-buon-ban.html)**
   - relevance: `2` · category: `—` · scope: `domestic` · published: 2026-05-05 05:19 UTC
-  - signal: Regulation
+  - signal: Campaign_Marketing
   - Khoảng 30.000 tài khoản Facebook Business bị chiếm đoạt trong "chiến dịch" lừa đảo quy mô lớn, dữ liệu sau đó bị rao bán công khai trên thị trường ngầm.
 
 - **[Apple có thể giữ giá iPhone 18 Pro, đẩy iPhone gập lên 2.400 USD](https://vnbusiness.vn//apple-co-the-giu-gia-iphone-18-pro-day-iphone-gap-len-2400-usd.html)**
@@ -935,9 +950,8 @@
 ### vneconomy (5)
 
 - **[Xe ôm công nghệ chạy xăng có thể bị dừng hoạt động tại vùng lõi Hoàn Kiếm từ 1/7/2026](https://vneconomy.vn/xe-om-cong-nghe-chay-xang-co-the-bi-dung-hoat-dong-tai-vung-loi-hoan-kiem-tu-172026.htm)**
-  - relevance: `6` · category: `Ride/Food delivery` · scope: `domestic` · published: 2026-05-08 23:56 UTC
+  - relevance: `5` · category: `Ride/Food delivery` · scope: `domestic` · published: 2026-05-08 23:56 UTC
   - themes: platform_regulation
-  - signal: Regulation
   - H#224; Nội dự kiến dừng ho#224;n to#224;n hoạt động của xe #244;m c#244;ng nghệ sử dụng xe m#225;y xăng trong v#249;ng ph#225;t thải thấp tại khu vực l#245;i quận Ho#224;n Kiếm từ ng#224;y 1/7/2026, đồng thời triển khai lộ tr#236;nh siết dần phương tiện nhi#234;n liệu h#243;a thạch trong V#224;nh đai 1...
 
 - **[Vietjet mở đường bay thẳng TP.Hồ Chí Minh - Colombo, thúc đẩy hợp tác Việt Nam - Sri Lanka](https://vneconomy.vn/vietjet-mo-duong-bay-thang-tpho-chi-minh-colombo-thuc-day-hop-tac-viet-nam-sri-lanka.htm)**
@@ -946,14 +960,15 @@
   - signal: Funding
   - Trước sự chứng kiến của Tổng B#237; thư, Chủ tịch nước T#244; L#226;m, Thủ tướng Sri Lanka Harini Amarasuriya c#249;ng l#227;nh đạo cấp cao hai nước, Vietjet ch#237;nh thức c#244;ng bố đường bay thẳng giữa TP.Hồ Ch#237; Minh v#224; Colombo tại Diễn đ#224;n Hợp t#225;c Thương mại, Đầu tư v#224; Du lịch Việt Nam – Sri Lanka.
 
+- **[Phạt nặng các hành vi vi phạm, lấn chiếm, sử dụng môi trường rừng trái quy định](https://vneconomy.vn/phat-nang-cac-hanh-vi-vi-pham-lan-chiem-su-dung-moi-truong-rung-trai-quy-dinh.htm)**
+  - relevance: `1` · category: `Travel/Khách sạn/Giải trí` · scope: `domestic` · published: 2026-05-09 01:52 UTC
+  - signal: Regulation
+  - Từ ng#224;y 25/6/2026, c#225;c h#224;nh vi lấn chiếm rừng bị phạt tới 80 triệu đồng. Mức phạt đến 10 triệu đồng đối với h#224;nh vi tổ chức c#225;c dịch vụ du lịch, kinh doanh trong rừng m#224; kh#244;ng được ph#233;p của chủ rừng...
+
 - **[Việt Nam - Sri Lanka: Mở đường bay thẳng, hiện thực hóa mục tiêu tỷ USD](https://vneconomy.vn/viet-nam-sri-lanka-mo-duong-bay-thang-hien-thuc-hoa-muc-tieu-ty-usd.htm)**
   - relevance: `1` · category: `Travel/Khách sạn/Giải trí` · scope: `domestic` · published: 2026-05-08 23:22 UTC
   - signal: Funding
   - Th#250;c đẩy mạnh mẽ hơn nữa giao thương xuất nhập khẩu hướng tới cột mốc tỷ USD, kết hợp h#224;i h#242;a giữa hợp t#225;c đầu tư v#224; ph#225;t triển du lịch, hứa hẹn sẽ l#224; m#244; h#236;nh cộng hưởng đầy hiệu quả cho nền kinh tế hai nước Việt Nam v#224; Sri Lanka trong tương lai…
-
-- **[Phạt nặng các hành vi vi phạm, lấn chiếm, sử dụng môi trường rừng trái quy định](https://vneconomy.vn/phat-nang-cac-hanh-vi-vi-pham-lan-chiem-su-dung-moi-truong-rung-trai-quy-dinh.htm)**
-  - relevance: `0` · category: `Travel/Khách sạn/Giải trí` · scope: `domestic` · published: 2026-05-09 01:52 UTC
-  - Từ ng#224;y 25/6/2026, c#225;c h#224;nh vi lấn chiếm rừng bị phạt tới 80 triệu đồng. Mức phạt đến 10 triệu đồng đối với h#224;nh vi tổ chức c#225;c dịch vụ du lịch, kinh doanh trong rừng m#224; kh#244;ng được ph#233;p của chủ rừng...
 
 - **[Dữ liệu và AI: Trái tim của kỷ nguyên công nghệ số](https://vneconomy.vn/du-lieu-va-ai-trai-tim-cua-ky-nguyen-cong-nghe-so.htm)**
   - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-09 01:19 UTC
@@ -962,9 +977,8 @@
 ### vneconomy_techconnect (5)
 
 - **[Xe ôm công nghệ chạy xăng có thể bị dừng hoạt động tại vùng lõi Hoàn Kiếm từ 1/7/2026](https://vneconomy.vn/xe-om-cong-nghe-chay-xang-co-the-bi-dung-hoat-dong-tai-vung-loi-hoan-kiem-tu-172026.htm)**
-  - relevance: `6` · category: `Ride/Food delivery` · scope: `domestic` · published: 2026-05-08 23:56 UTC
+  - relevance: `5` · category: `Ride/Food delivery` · scope: `domestic` · published: 2026-05-08 23:56 UTC
   - themes: platform_regulation
-  - signal: Regulation
   - H#224; Nội dự kiến dừng ho#224;n to#224;n hoạt động của xe #244;m c#244;ng nghệ sử dụng xe m#225;y xăng trong v#249;ng ph#225;t thải thấp tại khu vực l#245;i quận Ho#224;n Kiếm từ ng#224;y 1/7/2026, đồng thời triển khai lộ tr#236;nh siết dần phương tiện nhi#234;n liệu h#243;a thạch trong V#224;nh đai 1...
 
 - **[Vietjet mở đường bay thẳng TP.Hồ Chí Minh - Colombo, thúc đẩy hợp tác Việt Nam - Sri Lanka](https://vneconomy.vn/vietjet-mo-duong-bay-thang-tpho-chi-minh-colombo-thuc-day-hop-tac-viet-nam-sri-lanka.htm)**
@@ -973,20 +987,21 @@
   - signal: Funding
   - Trước sự chứng kiến của Tổng B#237; thư, Chủ tịch nước T#244; L#226;m, Thủ tướng Sri Lanka Harini Amarasuriya c#249;ng l#227;nh đạo cấp cao hai nước, Vietjet ch#237;nh thức c#244;ng bố đường bay thẳng giữa TP.Hồ Ch#237; Minh v#224; Colombo tại Diễn đ#224;n Hợp t#225;c Thương mại, Đầu tư v#224; Du lịch Việt Nam – Sri Lanka.
 
+- **[Phạt nặng các hành vi vi phạm, lấn chiếm, sử dụng môi trường rừng trái quy định](https://vneconomy.vn/phat-nang-cac-hanh-vi-vi-pham-lan-chiem-su-dung-moi-truong-rung-trai-quy-dinh.htm)**
+  - relevance: `1` · category: `Travel/Khách sạn/Giải trí` · scope: `domestic` · published: 2026-05-09 01:52 UTC
+  - signal: Regulation
+  - Từ ng#224;y 25/6/2026, c#225;c h#224;nh vi lấn chiếm rừng bị phạt tới 80 triệu đồng. Mức phạt đến 10 triệu đồng đối với h#224;nh vi tổ chức c#225;c dịch vụ du lịch, kinh doanh trong rừng m#224; kh#244;ng được ph#233;p của chủ rừng...
+
 - **[Việt Nam - Sri Lanka: Mở đường bay thẳng, hiện thực hóa mục tiêu tỷ USD](https://vneconomy.vn/viet-nam-sri-lanka-mo-duong-bay-thang-hien-thuc-hoa-muc-tieu-ty-usd.htm)**
   - relevance: `1` · category: `Travel/Khách sạn/Giải trí` · scope: `domestic` · published: 2026-05-08 23:22 UTC
   - signal: Funding
   - Th#250;c đẩy mạnh mẽ hơn nữa giao thương xuất nhập khẩu hướng tới cột mốc tỷ USD, kết hợp h#224;i h#242;a giữa hợp t#225;c đầu tư v#224; ph#225;t triển du lịch, hứa hẹn sẽ l#224; m#244; h#236;nh cộng hưởng đầy hiệu quả cho nền kinh tế hai nước Việt Nam v#224; Sri Lanka trong tương lai…
 
-- **[Phạt nặng các hành vi vi phạm, lấn chiếm, sử dụng môi trường rừng trái quy định](https://vneconomy.vn/phat-nang-cac-hanh-vi-vi-pham-lan-chiem-su-dung-moi-truong-rung-trai-quy-dinh.htm)**
-  - relevance: `0` · category: `Travel/Khách sạn/Giải trí` · scope: `domestic` · published: 2026-05-09 01:52 UTC
-  - Từ ng#224;y 25/6/2026, c#225;c h#224;nh vi lấn chiếm rừng bị phạt tới 80 triệu đồng. Mức phạt đến 10 triệu đồng đối với h#224;nh vi tổ chức c#225;c dịch vụ du lịch, kinh doanh trong rừng m#224; kh#244;ng được ph#233;p của chủ rừng...
-
 - **[Dữ liệu và AI: Trái tim của kỷ nguyên công nghệ số](https://vneconomy.vn/du-lieu-va-ai-trai-tim-cua-ky-nguyen-cong-nghe-so.htm)**
   - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-09 01:19 UTC
   - Trong bối cảnh kỷ nguy#234;n số đang b#249;ng nổ, dữ liệu v#224; tr#237; tuệ nh#226;n tạo (AI) kh#244;ng chỉ đơn thuần l#224; những c#244;ng cụ hỗ trợ m#224; đ#227; trở th#224;nh những yếu tố cốt l#245;i, định h#236;nh sự ph#225;t triển của nền kinh tế số, “tr#225;i tim” của kỷ nguy#234;n c#244;ng nghệ số…
 
-### vnexpress_kinhdoanh (9)
+### vnexpress_kinhdoanh (10)
 
 - **[Ngân hàng số Timo về tay Kredivo Group](https://vnexpress.net/ngan-hang-so-timo-ve-tay-kredivo-group-5070708.html)**
   - relevance: `13` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-06 11:41 UTC
@@ -997,7 +1012,7 @@
 - **[ACB hỗ trợ hộ kinh doanh chuyển đổi số](https://vnexpress.net/acb-ho-tro-ho-kinh-doanh-chuyen-doi-so-5071715.html)**
   - relevance: `6` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-09 01:00 UTC
   - themes: payment_wallet_war
-  - signal: Regulation
+  - signal: Campaign_Marketing
   - ACB triển khai bộ giải pháp gồm thiết bị thanh toán, hóa đơn điện tử, phần mềm bán hàng, đào tạo thuế và gói vay ưu đãi… hỗ trợ hộ kinh doanh làm quen chuyển đổi số, tối ưu vận hành.
 
 - **[Vinpearl hợp tác với ba 'ông lớn' lữ hành Ấn Độ](https://vnexpress.net/vinpearl-hop-tac-voi-ba-ong-lon-lu-hanh-an-do-5071401.html)**
@@ -1011,6 +1026,12 @@
   - themes: cross_brand_partnerships, travel_booking_in_app
   - signal: Partnership
   - Sun Group hợp tác GMR Group để phát triển dịch vụ phi hàng không, nghiên cứu đường bay mới kết nối Phú Quốc - Ấn Độ, thúc đẩy du lịch, thương mại.
+
+- **[Xe ôm công nghệ đồng loạt tăng giá](https://vnexpress.net/xe-om-cong-nghe-dong-loat-tang-gia-5070596.html)**
+  - relevance: `6` · category: `Ride/Food delivery` · scope: `domestic` · published: 2026-05-06 08:22 UTC
+  - themes: platform_regulation
+  - signal: Pricing
+  - Cuối tháng 4 đến đầu tháng 5, Grab thông báo tăng phí nền tảng, còn Be nâng giá cước, với lý do chi phí nhiên liệu tăng và cải thiện vận hành.
 
 - **[CEO Nvidia, Apple sẽ cùng ông Trump đến Trung Quốc](https://vnexpress.net/ceo-nvidia-apple-se-cung-ong-trump-den-trung-quoc-5071620.html)**
   - relevance: `4` · category: `—` · scope: `domestic` · published: 2026-05-08 17:00 UTC
@@ -1072,11 +1093,6 @@
   - themes: ai_infra_general
   - Sự bùng nổ của AI và robot đẩy chi phí sản xuất của Nvidia tại châu Á lên mức kỷ lục, trong khi cơn khát linh kiện khiến nhiều dòng chip cũ bị khai tử sớm.
 
-- **[Giám đốc tạo bản sao AI cho nhân viên trút giận](https://vnexpress.net/giam-doc-tao-ban-sao-ai-cho-nhan-vien-trut-gian-5071287.html)**
-  - relevance: `1` · category: `AI` · scope: `domestic` · published: 2026-05-08 04:00 UTC
-  - signal: Regulation
-  - Giám đốc công ty Klarna tạo ra phiên bản AI của chính mình để làm "bao cát", giúp nhân viên giải tỏa bức xúc trong giai đoạn cắt giảm ngân sách.
-
 - **[Apple dùng iPhone nghiên cứu tốc độ đi bộ và thính lực](https://vnexpress.net/apple-dung-iphone-nghien-cuu-toc-do-di-bo-va-thinh-luc-5071196.html)**
   - relevance: `1` · category: `—` · scope: `domestic` · published: 2026-05-08 01:11 UTC
   - Apple thực hiện nghiên cứu với hơn 57.000 tình nguyện viên sử dụng iPhone, cho thấy mức độ mất thính lực càng cao thì tốc độ đi bộ càng chậm.
@@ -1084,11 +1100,6 @@
 - **[Google chạy ngầm mô hình AI trên Chrome](https://vnexpress.net/google-chay-ngam-mo-hinh-ai-tren-chrome-5070929.html)**
   - relevance: `1` · category: `AI` · scope: `domestic` · published: 2026-05-07 04:14 UTC
   - Trình duyệt Chrome của Google bị phát hiện tự động tải, lưu mô hình AI dung lượng 4 GB và chạy ngầm nhưng không thông báo cho người dùng.
-
-- **[Thị trường IT Việt 'thiếu người giỏi, dư người code cơ bản'](https://vnexpress.net/thi-truong-it-viet-thieu-nguoi-gioi-du-nguoi-code-co-ban-5059102.html)**
-  - relevance: `1` · category: `AI` · scope: `domestic` · published: 2026-05-05 02:00 UTC
-  - signal: Regulation
-  - Lập trình viên mới vào nghề gặp khó khăn hơn khi xin việc do AI khiến các doanh nghiệp chuyển sang săn tìm nhân sự có tư duy, năng lực giải bài toán thực.
 
 - **[Đại diện Microsoft Việt Nam: AI cần dữ liệu như nhân viên 'háu ăn'](https://vnexpress.net/dai-dien-microsoft-viet-nam-ai-can-du-lieu-nhu-nhan-vien-hau-an-5071659.html)**
   - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-09 00:38 UTC
@@ -1102,6 +1113,10 @@
   - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-08 08:00 UTC
   - Ngoài thiết kế, tính năng AI cùng camera chụp nhanh, linh hoạt trong nhiều tình huống giúp Galaxy S26 Ultra tăng tính hữu dụng khi sử dụng hàng ngày.
 
+- **[Giám đốc tạo bản sao AI cho nhân viên trút giận](https://vnexpress.net/giam-doc-tao-ban-sao-ai-cho-nhan-vien-trut-gian-5071287.html)**
+  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-08 04:00 UTC
+  - Giám đốc công ty Klarna tạo ra phiên bản AI của chính mình để làm "bao cát", giúp nhân viên giải tỏa bức xúc trong giai đoạn cắt giảm ngân sách.
+
 - **[Chip đạt tốc độ 500 Gb/giây](https://vnexpress.net/chip-dat-toc-do-500-gb-giay-5070492.html)**
   - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-06 09:00 UTC
   - Chip sử dụng công nghệ Silicon-germanium do Đức phát triển đạt tốc độ 500 Gb/giây, được kỳ vọng giúp tăng hiệu suất AI, mạng và xử lý dữ liệu tốc độ cao.
@@ -1114,11 +1129,15 @@
   - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-05 09:00 UTC
   - Hơn 7.800 tổ chức và doanh nghiệp bị dính mã độc tống tiền (ransomware) trong năm 2025, tăng 389% so với 2024 do công cụ tấn công bằng AI trở nên phổ biến.
 
+- **[Thị trường IT Việt 'thiếu người giỏi, dư người code cơ bản'](https://vnexpress.net/thi-truong-it-viet-thieu-nguoi-gioi-du-nguoi-code-co-ban-5059102.html)**
+  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-05 02:00 UTC
+  - Lập trình viên mới vào nghề gặp khó khăn hơn khi xin việc do AI khiến các doanh nghiệp chuyển sang săn tìm nhân sự có tư duy, năng lực giải bài toán thực.
+
 - **[Trung Quốc gần bắt kịp Mỹ về hiệu năng AI](https://vnexpress.net/trung-quoc-gan-bat-kip-my-ve-hieu-nang-ai-5067916.html)**
   - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-05 00:00 UTC
   - Các mô hình AI tốt nhất của Trung Quốc và Mỹ không còn cách biệt đáng kể về hiệu năng dù Mỹ vẫn sở hữu nhiều mô hình AI hàng đầu hơn.
 
-## Players Movement (21)
+## Players Movement (9)
 
 ### cafef_kinhteso (1)
 
@@ -1133,19 +1152,7 @@
   - relevance: `5` · category: `—` · player: `Zalo` · scope: `domestic` · published: —
   - Thực hiện "xác thực khuôn mặt" theo hướng dẫn, người phụ nữ phát hiện tài khoản bị trừ gần 1 tỷ đồng.
 
-### grab_vn_blog (9)
-
-- **[Ưu đãi ngân hàng HD Bank](https://www.grab.com/vn/blog/uu-dai-ngan-hang-hd-bank/)**
-  - relevance: `11` · category: `Marketing` · player: `Grab` · scope: `domestic` · published: —
-  - themes: payment_wallet_war
-  - signal: Campaign_Marketing
-  - Độc lập tự do, ăn no là hạnh phúc. Thanh toán bằng thẻ HDBank trên GrabFood để tiết kiệm đến 135.000đ/tháng. Ưu đãi chỉ dành cho người dùng là chủ thẻ HD Bank 😉…
-
-- **[Ưu đãi ngân hàng TPBank](https://www.grab.com/vn/blog/uu-dai-ngan-hang-tpbank/)**
-  - relevance: `11` · category: `Marketing` · player: `Grab` · scope: `domestic` · published: —
-  - themes: payment_wallet_war
-  - signal: Regulation
-  - Chẳng cần "flex" nhiều, chỉ cần thanh toán bằng TPBank khi đặt GrabFood là đủ để bữa ăn của bạn vừa ngon miệng vừa "ngon ví". Xem ngay ưu đãi bạn nhé!
+### grab_vn_blog (6)
 
 - **[Hãy trở thành những người dùng đầu tiên trải nghiệm Vay Siêu Tốc trên Grab](https://www.grab.com/vn/blog/vaysieutoc/)**
   - relevance: `6` · category: `Product/Product launch` · player: `Grab` · scope: `domestic` · published: —
@@ -1157,11 +1164,6 @@
   - signal: Campaign_Marketing
   - Trở thành Hội viên #GrabUnlimited ngay hôm nay để chuyến Grab* nào cũng✨ đảm bảo có ưu đãi. 🔊Hội viên #GrabUnlimited, mở Grab, luôn có mã áp: 🚗Giảm 20%
 
-- **[🚀 THAM GIA THỬ THÁCH “BẢN ĐỒ BUNG SỨC MÙA THI CÙNG GRAB” CÙNG GRAB SINH VIÊN🎁](https://www.grab.com/vn/blog/%f0%9f%9a%80-tham-gia-thu-thach-ban-do-bung-suc-mua-thi-cung-grab-cung-grab-sinh-vien%f0%9f%8e%81/)**
-  - relevance: `6` · category: `—` · player: `Grab` · scope: `domestic` · published: —
-  - signal: Regulation
-  - <p dir="ltr" style="line-height: 1.656; background-color: #ffffff; margin-top: 0pt; margin-bottom: 0pt;">Trân trọng,</p> <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">Đội ngũ Grab.</p>
-
 - **[CÔNG BỐ KẾT QUẢ THỬ THÁCH “ĐƯỜNG ĐUA GIA NHẬP HỘI CHỦ SHOP” CÙNG GRABEXPRESS](https://www.grab.com/vn/blog/cong-bo-ket-qua-thu-thach-duong-dua-gia-nhap-hoi-chu-shop-cung-grabexpress/)**
   - relevance: `6` · category: `—` · player: `Grab` · scope: `domestic` · published: —
   - signal: Launch
@@ -1169,7 +1171,7 @@
 
 - **[Thông báo cập nhật bảng giá và phương thức đặt xe cho dịch vụ GrabCar Premium](https://www.grab.com/vn/blog/thong-bao-cap-nhat-bang-gia-va-phuong-thuc-dat-xe-cho-dich-vu-grabcar-premium/)**
   - relevance: `6` · category: `Feature` · player: `Grab` · scope: `domestic` · published: —
-  - signal: Regulation
+  - signal: Pricing
   - Bạn thân mến, Nhằm đảm bảo trải nghiệm di chuyển chất lượng cao và tiện nghi vượt trội của dịch vụ GrabCar Premium, từ ngày 28/04/2026, Grab sẽ thực hiện cập…
 
 - **[THÔNG TIN TỪ GRAB](https://www.grab.com/vn/blog/thong-tin-tu-grab/)**
@@ -1177,74 +1179,19 @@
   - signal: Product_Feature
   - LƯU Ý: Kể từ ngày 28/04 Grab đã cập nhật thông tin mới nhất về các loại phí áp dụng cho từng loại hình dịch vụ trên Bảng thông tin các dịch vụ trên ứng dụng…
 
-- **[Đặc quyền người dùng GrabVIP](https://www.grab.com/vn/blog/dac-quyen-grabvip/)**
-  - relevance: `5` · category: `Product/Off product` · player: `Grab` · scope: `domestic` · published: —
-  - GrabVIP là chương trình mang đến các đặc quyền dành riêng cho người dùng VIP khi sử dụng dịch vụ Grab. Đặc quyền từ đối tác chỉ dành cho người dùng VIP.
+- **[🚀 THAM GIA THỬ THÁCH “BẢN ĐỒ BUNG SỨC MÙA THI CÙNG GRAB” CÙNG GRAB SINH VIÊN🎁](https://www.grab.com/vn/blog/%f0%9f%9a%80-tham-gia-thu-thach-ban-do-bung-suc-mua-thi-cung-grab-cung-grab-sinh-vien%f0%9f%8e%81/)**
+  - relevance: `5` · category: `—` · player: `Grab` · scope: `domestic` · published: —
+  - <p dir="ltr" style="line-height: 1.656; background-color: #ffffff; margin-top: 0pt; margin-bottom: 0pt;">Trân trọng,</p> <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">Đội ngũ Grab.</p>
 
-### momo_newsroom (7)
-
-- **[Thông cáo](https://momo.vn/tin-tuc/thong-cao-bao-chi)**
-  - relevance: `11` · category: `Feature` · player: `MoMo` · scope: `domestic` · published: —
-  - themes: super_app_commerce
-  - signal: Product_Feature
-  - Báo chí đồng hành cùng MoMo trên hành trình trở thành Siêu ứng dụng. Những tin tức báo chí uy tín, nổi bật và được cập nhật thường xuyên
-
-- **[Thư viện](https://momo.vn/tin-tuc/hinh-anh-video)**
-  - relevance: `11` · category: `Feature` · player: `MoMo` · scope: `domestic` · published: —
-  - themes: super_app_commerce
-  - signal: Product_Feature
-  - Tổng hợp các Video, hình ảnh có trong Thư viện của Siêu ứng dụng MoMo được cập nhật thường xuyên cho người dùng
-
-- **[Sự Kiện](https://momo.vn/tin-tuc/tin-tuc-su-kien)**
-  - relevance: `6` · category: `Feature` · player: `MoMo` · scope: `domestic` · published: —
-  - signal: Product_Feature
-  - Cập nhật những sự kiện hot nhất đang được tổ chức trên ứng dụng MoMo. Tham gia sự kiện và rinh quà hot từ những thương hiệu nổi tiếng
-
-- **[Khuyến mãi](https://momo.vn/tin-tuc/khuyen-mai)**
-  - relevance: `6` · category: `Marketing/Transaction Growth` · player: `MoMo` · scope: `domestic` · published: —
-  - signal: Regulation
-  - Ngàn khuyến mãi, deal mua sắm trên MoMo giúp bạn chi tiêu tiết kiệm: nạp tiền điện thoại, thanh toán hóa đơn, tiết kiệm tài chính...
-
-- **[Cộng đồng](https://momo.vn/tin-tuc/cong-dong)**
-  - relevance: `6` · category: `Feature` · player: `MoMo` · scope: `domestic` · published: —
-  - signal: Product_Feature
-  - Cùng MoMo cập nhật những hình ảnh, tin tức mỗi một hoàn cảnh, những mảnh đời bất hạnh đạng được cộng đồng chung tay giúp đỡ, lan tỏa yêu thương, cùng nhau sống vui, sống tốt mỗi ngày
-
-- **[Thông báo](https://momo.vn/tin-tuc/thong-bao)**
-  - relevance: `6` · category: `Feature` · player: `MoMo` · scope: `domestic` · published: —
-  - signal: Product_Feature
-  - Những thông báo về sản phẩm, dịch vụ, cập nhật tính năng mới cập nhật trên ứng dụng MoMo. Tìm hiểu ngay
+### momo_newsroom (1)
 
 - **[Giải mã từ khóa, rinh gói nâng cấp YouTube & iCloud miễn phí cùng MoMo](https://momo.vn/tin-tuc/thong-bao/giai-ma-tu-khoa-rinh-goi-nang-cap-youtube-icloud-8704)**
   - relevance: `6` · category: `Feature` · player: `MoMo` · scope: `domestic` · published: —
   - signal: Product_Feature
 
-### scmp_tech (1)
-
-- **[China, Indonesia launch cross-border QR payments – a boost for the global yuan?](https://www.scmp.com/economy/global-economy/article/3352360/china-indonesia-launch-cross-border-qr-payments-boost-global-yuan?utm_source=rss_feed)**
-  - relevance: `6` · category: `—` · player: `AliPay` · scope: `international` · published: 2026-05-04 09:00 UTC
-  - signal: Launch
-  - China and Indonesia have launched a new cross-border QR payment system, marking the latest step in Beijing’s drive to build a regional digital payments network as it pushes to internationalise the yuan and reduce dependence on the US dollar. Users can now use domestic mobile apps – such as China’s Alipay and Indonesia’s QRIS – to scan QR codes and make retail payments in either country using their home currencies. Alicia Garcia-Herrero, chief economist for the Asia-Pacific region at French...
-
-### tuoitre_kinhdoanh (1)
-
-- **[App gọi xe trước sức ép giảm chiết khấu](https://tuoitre.vn/app-goi-xe-truoc-suc-ep-giam-chiet-khau-20260508084215977.htm)**
-  - relevance: `10` · category: `—` · player: `Grab` · scope: `domestic` · published: 2026-05-08 02:39 UTC
-  - themes: mobility_food_economics
-  - signal: Regulation
-  - Tổng thống Indonesia Prabowo Subianto đã ký quy định mới, yêu cầu các nền tảng như Grab và GoTo giảm mức phí thu từ tài xế từ tối đa 20% xuống còn 8% mỗi chuyến.
-
-### vnexpress_kinhdoanh (1)
-
-- **[Xe ôm công nghệ đồng loạt tăng giá](https://vnexpress.net/xe-om-cong-nghe-dong-loat-tang-gia-5070596.html)**
-  - relevance: `11` · category: `—` · player: `Grab` · scope: `domestic` · published: 2026-05-06 08:22 UTC
-  - themes: platform_regulation
-  - signal: Pricing
-  - Cuối tháng 4 đến đầu tháng 5, Grab thông báo tăng phí nền tảng, còn Be nâng giá cước, với lý do chi phí nhiên liệu tăng và cải thiện vận hành.
-
 ---
 
-## Filtered out (512) — for audit, not included in report
+## Filtered out (513) — for audit, not included in report
 
 These articles were crawled but did not match any tracked category (AI, Chat, TMĐT, Travel, Ride/Food delivery, Fintech/E-wallet, Ticket) nor mention a tracked player (MoMo, Grab).
 
@@ -1298,4 +1245,4 @@ These articles were crawled but did not match any tracked category (AI, Chat, TM
 - [Tạm giữ tài xế xe khách gây tai nạn khiến 3 người tử vong ở Gia Lai](https://cafebiz.vn/tam-giu-tai-xe-xe-khach-gay-tai-nan-khien-3-nguoi-tu-vong-o-gia-lai-176260509120030073.chn) — `cafebiz` · published: —
 - [Tại sao Topaz là đối tác chiến lược hàng đầu của các doanh nghiệp sản xuất?](https://cafebiz.vn/tai-sao-topaz-la-doi-tac-chien-luoc-hang-dau-cua-cac-doanh-nghiep-san-xuat-176260509122316707.chn) — `cafebiz` · published: —
 - [Starbucks, Pizza, khách sạn… kéo nhau vào ChatGPT: OpenAI đang làm điều từng khiến Google thống trị internet?](https://genk.vn/starbucks-pizza-khach-san-keo-nhau-vao-chatgpt-openai-dang-lam-dieu-tung-khien-google-thong-tri-internet-165260509074859095.chn) — `genk` · published: —
-- … and 462 more (see Sheet/xlsx)
+- … and 463 more (see Sheet/xlsx)
