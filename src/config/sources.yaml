@@ -275,3 +275,67 @@ players:
     scope: domestic
     type: players_movement
     player: Grab
+
+  - key: grab_merchant_vn
+    name: "Grab Merchant VN Blog"
+    crawler: playwright
+    module: src.crawlers.players.grab_merchant:GrabMerchantVNBlog
+    scope: domestic
+    type: players_movement
+    player: Grab
+
+  - key: zalopay_news
+    name: "Zalopay News"
+    crawler: playwright
+    module: src.crawlers.players.zalo:ZaloPayNews
+    scope: domestic
+    type: players_movement
+    player: Zalo
+
+  - key: zalopay_promo
+    name: "Zalopay Khuyến mãi"
+    crawler: playwright
+    module: src.crawlers.players.zalo:ZaloPayPromo
+    scope: domestic
+    type: players_movement
+    player: Zalo
+
+  - key: zalo_oa_news
+    name: "Zalo OA News"
+    crawler: playwright
+    module: src.crawlers.players.zalo:ZaloOANews
+    scope: domestic
+    type: players_movement
+    player: Zalo
+
+  - key: whatsapp_blog
+    name: "WhatsApp Blog"
+    crawler: playwright
+    module: src.crawlers.players.messaging:WhatsAppBlog
+    scope: international
+    type: players_movement
+    player: WhatsApp
+
+  - key: telegram_blog
+    name: "Telegram Blog"
+    crawler: playwright
+    module: src.crawlers.players.messaging:TelegramBlog
+    scope: international
+    type: players_movement
+    player: Telegram
+
+  - key: shopee_seller_blog
+    name: "Shopee Seller Blog"
+    crawler: playwright
+    module: src.crawlers.players.marketplace:ShopeeSellerBlog
+    scope: domestic
+    type: players_movement
+    player: Shopee
+
+  - key: tiktokshop_seller_blog
+    name: "TikTokShop Seller Blog"
+    crawler: playwright
+    module: src.crawlers.players.marketplace:TikTokShopSellerBlog
+    scope: domestic
+    type: players_movement
+    player: TikTokShop
