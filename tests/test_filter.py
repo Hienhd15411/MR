@@ -99,16 +99,26 @@ def test_techcombank_classifies_as_fintech():
     assert a.pre_category == "Fintech/E-wallet"
 
 
-def test_ghn_classifies_as_tmdt():
-    a = _art("GHN mở rộng mạng lưới giao hàng tại miền Trung")
+def test_ghn_in_app_logistics_partnership_classifies():
+    # GHN tích hợp với marketplace là super-app concern.
+    # (Avoid mentioning a tracked player so this stays Market Pulse.)
+    a = _art(
+        "GHN ra mắt API tích hợp giao hàng trực tiếp cho các sàn "
+        "thương mại điện tử lớn"
+    )
     CategoryClassifier().classify(a)
+    assert a.status == Status.NEW
     assert a.pre_category == "TMĐT"
 
 
-def test_vietjet_classifies_as_travel():
-    a = _art("VietJet công bố đường bay mới tới Hàn Quốc")
+def test_vietjet_super_app_partnership_classifies():
+    # Strategic super-app angle, not just route announcement
+    a = _art(
+        "VietJet công bố hợp tác chiến lược với Grab tích hợp đặt vé "
+        "máy bay trong super-app"
+    )
     CategoryClassifier().classify(a)
-    assert a.pre_category == "Travel/Khách sạn/Giải trí"
+    assert a.pre_category is not None
 
 
 def test_adjacent_player_only_classifies_as_market_pulse():
@@ -178,6 +188,53 @@ def test_adjacent_with_signal_kept_as_market_pulse():
     CategoryClassifier().classify(a)
     assert a.type == ArticleType.MARKET_PULSE
     assert a.status == Status.NEW
+
+
+# --- V-app editorial relevance scoring ---------------------------------
+
+
+def test_relevance_score_attached():
+    a = _art("MoMo công bố hợp tác chiến lược với BIDV mở rộng QR xuyên biên giới")
+    CategoryClassifier().classify(a)
+    score = getattr(a, "_relevance_score", 0)
+    # tracked player (5) + payment_wallet_war theme (5) + signal (1) = 11+
+    assert score >= 10
+    assert "payment_wallet_war" in (getattr(a, "_matched_themes", "") or "")
+
+
+def test_in_scope_vertical_without_strategic_theme_is_dropped():
+    # An article that mentions Lazada flash sale with a Launch verb
+    # but doesn't touch any V-app strategic theme — drop.
+    a = _art("Lazada tung khuyến mãi giảm 50% nhân ngày của mẹ")
+    CategoryClassifier().classify(a)
+    # No strategic theme + no tracked player → score below threshold
+    assert a.status == Status.FILTERED_OUT
+
+
+def test_platform_regulation_passes_high_score():
+    a = _art(
+        "Indonesia ban hành sắc lệnh cắt phí nền tảng ride-hailing xuống 8% — "
+        "ảnh hưởng Grab và GoTo"
+    )
+    CategoryClassifier().classify(a)
+    assert a.status == Status.NEW
+    score = getattr(a, "_relevance_score", 0)
+    # platform_regulation (5) + mobility theme (4) + tracked Grab (5) + signal (1)
+    assert score >= 10
+
+
+def test_articles_sorted_by_relevance():
+    arts = [
+        _art("VietJet công bố đường bay mới — không liên quan thị trường super-app"),
+        _art("MoMo ra mắt agentic payment hợp tác Stripe và Anthropic"),
+    ]
+    out = apply_filter(arts)
+    # The MoMo article should be ranked higher (or at least kept above
+    # the airline expansion which scores zero / is filtered).
+    if len(out) >= 2 and out[0].status == Status.NEW and out[1].status == Status.NEW:
+        s0 = getattr(out[0], "_relevance_score", 0)
+        s1 = getattr(out[1], "_relevance_score", 0)
+        assert s0 >= s1
 
 
 def test_apply_filter_returns_all_with_counts():

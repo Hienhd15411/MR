@@ -25,15 +25,23 @@ def _render_section(title: str, items: list[RawArticle], lines: list[str]) -> No
         lines.append(f"### {src} ({len(group)})")
         lines.append("")
         for a in group:
+            score = getattr(a, "_relevance_score", 0)
+            themes = getattr(a, "_matched_themes", "") or ""
+            signal = getattr(a, "_business_signal", "") or ""
             lines.append(f"- **[{a.title_original}]({a.url})**")
             meta_parts = [
+                f"relevance: `{score}`",
                 f"category: `{a.pre_category or '—'}`",
                 f"scope: `{a.scope.value}`",
                 f"published: {_fmt_dt(a.published_date)}",
             ]
             if a.player:
-                meta_parts.insert(1, f"player: `{a.player}`")
+                meta_parts.insert(2, f"player: `{a.player}`")
             lines.append("  - " + " · ".join(meta_parts))
+            if themes:
+                lines.append(f"  - themes: {themes}")
+            if signal:
+                lines.append(f"  - signal: {signal}")
             if a.content_snippet:
                 snippet = a.content_snippet.replace("\n", " ").strip()
                 lines.append(f"  - {snippet}")
@@ -43,8 +51,10 @@ def _render_section(title: str, items: list[RawArticle], lines: list[str]) -> No
 def render_markdown(articles: Iterable[RawArticle]) -> str:
     arts = list(articles)
     arts.sort(
-        key=lambda a: (a.published_date or datetime.min.replace(tzinfo=timezone.utc)),
-        reverse=True,
+        key=lambda a: (
+            -getattr(a, "_relevance_score", 0),
+            -(a.published_date or datetime.min.replace(tzinfo=timezone.utc)).timestamp(),
+        ),
     )
 
     kept = [a for a in arts if a.status != Status.FILTERED_OUT]

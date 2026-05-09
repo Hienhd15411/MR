@@ -769,3 +769,236 @@ business_signals:
       - "ra quân"
       - cashback
       - gamification
+
+# ============================================================================
+# V-APP STRATEGIC THEMES (editor-in-chief curation lens)
+# ============================================================================
+#
+# Articles must touch at least ONE of these themes (with a business signal)
+# to make it into the report. Vertical match + business signal is no longer
+# sufficient on its own — themes filter for "what affects V-app's super-app
+# strategy", not "what's in the e-commerce vertical generally".
+#
+# Each theme has a `weight` (1–5). Higher weight → higher CEO priority.
+# Total `relevance_score` = sum of matched theme weights + bonuses for
+# tracked-player and adjacent-player mentions.
+#
+# Tier A (weight 5) — core super-app battle: payment, commerce platform,
+#   regulation that hits commission/license, big-tech competition
+# Tier B (weight 3–4) — adjacent disruption: agentic AI, lending, mobility
+# Tier C (weight 1–2) — context for strategy: AI infra, banking general
+
+strategic_themes:
+  payment_wallet_war:
+    weight: 5
+    description: "E-wallet competition, payment rails, QR cross-border, agentic payment, VN banks"
+    keywords:
+      - "ví điện tử"
+      - "thanh toán không tiền mặt"
+      - "thanh toán xuyên biên giới"
+      - "QR xuyên biên giới"
+      - "QR quốc tế"
+      - "QR thanh toán"
+      - "chuyển khoản quốc tế"
+      - "agentic payment"
+      - "ví cho AI"
+      - "cross-border payment"
+      - "thanh toán bằng AI"
+      - "AMP"
+      - "Stripe Link"
+      - "WeChat Pay"
+      - "Alipay+"
+      - "NAPAS"
+      - "Mobile Money"
+      # VN banks rolling out new payment rails / digital products
+      - Vietcombank
+      - VietinBank
+      - BIDV
+      - Techcombank
+      - VPBank
+      - MBBank
+      - "MB Bank"
+      - ACB
+      - TPBank
+      - Sacombank
+      - HDBank
+      - "ngân hàng số"
+      - "ngân hàng điện tử"
+
+  super_app_commerce:
+    weight: 5
+    description: "Super-app, mini-app, livestream commerce, in-app marketplace"
+    keywords:
+      - "super-app"
+      - "super app"
+      - "siêu ứng dụng"
+      - "everything app"
+      - "mini-app"
+      - "Mini Program"
+      - "livestream commerce"
+      - "livestream bán hàng"
+      - "social commerce"
+      - "embedded commerce"
+      - "in-app marketplace"
+      - "TikTok Shop"
+      - "Shopee Mall"
+      - "Shopee Non-Mall"
+
+  platform_regulation:
+    weight: 5
+    description: "Commission caps, gig worker law, payment license, data privacy"
+    keywords:
+      - "phí nền tảng"
+      - "phí hoa hồng"
+      - "trần phí"
+      - "siết quy định"
+      - "tài xế công nghệ"
+      - "lao động nền tảng"
+      - "gig economy"
+      - "gig worker"
+      - "giấy phép thanh toán"
+      - "trung gian thanh toán"
+      - "Ngân hàng Nhà nước"
+      - "SBV"
+      - "AI Act"
+      - "EU AI Act"
+      - "executive order"
+      - "siết"
+      - "ban hành"
+      - "khung pháp lý"
+      - "compliance"
+      - "tuân thủ"
+
+  big_tech_in_finance_commerce:
+    weight: 5
+    description: "Apple/Google/Meta moving into payment, commerce, super-app territory"
+    keywords:
+      - "Apple Pay"
+      - "Google Pay"
+      - "Apple Intelligence"
+      - "Meta AI"
+      - "WhatsApp Pay"
+      - "WhatsApp Business"
+      - "Google Wallet"
+      - "Amazon Pay"
+      - "Threads"
+      - "Instagram Shop"
+
+  agentic_ai_commerce:
+    weight: 4
+    description: "AI agents that buy/book/transact on behalf of users"
+    keywords:
+      - "agentic"
+      - "AI agent"
+      - "autonomous agent"
+      - "agentic commerce"
+      - "agentic payment"
+      - "AI commerce"
+      - "Operator"
+      - "AI Sponsored"
+      - "Stripe Link"
+      - "Ant AMP"
+
+  consumer_lending_bnpl:
+    weight: 4
+    description: "BNPL, consumer lending, embedded finance, neobank"
+    keywords:
+      - BNPL
+      - "buy now pay later"
+      - "mua trước trả sau"
+      - "Pay Later"
+      - "Trả Sau"
+      - "Ví Trả Sau"
+      - "tín dụng tiêu dùng"
+      - "vay tiêu dùng"
+      - "embedded finance"
+      - "ngân hàng số"
+      - neobank
+      - "Cake"
+      - "Timo"
+      - "FE Credit"
+      - "Home Credit"
+      - "F88"
+
+  mobility_food_economics:
+    weight: 4
+    description: "Ride-hailing economics, food delivery margins, driver policies"
+    keywords:
+      - "gọi xe"
+      - "ride hailing"
+      - "ride-hailing"
+      - "food delivery"
+      - "giao đồ ăn"
+      - "tài xế"
+      - "GMV mobility"
+      - "GoTo"
+      - "Gojek"
+      - "Uber"
+      - "DoorDash"
+      - "Bolt"
+      - "Lalamove"
+
+  vn_market_data:
+    weight: 4
+    description: "Vietnam market sizing, transaction data, share trends"
+    keywords:
+      - "thị trường Việt Nam"
+      - "tại Việt Nam"
+      - "người Việt"
+      - "doanh số TMĐT"
+      - "thị phần"
+      - "GMV Việt Nam"
+      - "VECOM"
+      - "Cục TMĐT"
+      - "Bộ Công Thương"
+
+  cross_brand_partnerships:
+    weight: 3
+    description: "Wallet × airline, super-app × bank, etc."
+    keywords:
+      - "hợp tác chiến lược"
+      - "đối tác chiến lược"
+      - "tích hợp"
+      - "MOU"
+      - "partnership"
+      - "ký kết"
+      - "liên minh"
+
+  travel_booking_in_app:
+    weight: 2
+    description: "Travel/booking integrated into super-app stack"
+    keywords:
+      - "đặt phòng"
+      - "vé máy bay"
+      - "đặt vé"
+      - "Booking.com"
+      - "Agoda"
+      - "Traveloka"
+      - "Klook"
+      - "Airbnb"
+
+  ai_infra_general:
+    weight: 2
+    description: "Foundation model releases — context for AI strategy"
+    keywords:
+      - "GPT"
+      - "ChatGPT"
+      - "Copilot"
+      - "Claude"
+      - "Gemini"
+      - "Bard"
+      - "Llama"
+      - "DeepSeek"
+      - "Mistral"
+      - "Grok"
+      - "Hugging Face"
+      - "mô hình ngôn ngữ"
+      - "foundation model"
+      - "LLM"
+      - "AI tạo sinh"
+      - "generative"
+      - "Apple Intelligence"
+      - "Microsoft AI"
+      - "Google AI"
+      - "Meta AI"
+      - "Nvidia"
