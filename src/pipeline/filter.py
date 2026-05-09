@@ -1,25 +1,18 @@
-"""Editorial-grade filter for the V-app super-app Market Watch report.
+"""Round 1 (Scanning) filter — matches anh's Excel `Scanning` sheet rule.
 
-Reads `src/config/categories.yaml` and acts as a chief editor briefing the
-V-app CEO. For each article it computes:
+Rule:
+    KEEP if  (tracked_player OR adjacent_player OR vertical_match)
+             AND NOT (exclude_pattern OR noise_title)
+    DROP otherwise
 
-  - mentioned_players  — tracked + adjacent player names found
-  - business_signal    — what kind of action (Launch / Funding / …)
-  - matched_themes     — V-app strategic themes touched + their weights
-  - relevance_score    — weighted sum (drives report ordering & cut-off)
-  - pre_category       — output classification (vertical or PM bucket)
-  - type / player      — Market Pulse vs Players Movement attribution
+Themes / business signals / relevance score are still computed and stashed
+on the article as METADATA for the AI Round 2 step. They are NOT gates —
+Round 1 deliberately over-includes so Round 2 (AI manual via Claude Code)
+has a candidate pool of ~300-500 articles to curate down to ~30-50 that
+make the report.
 
-A binary keep/drop decision is made AFTER scoring:
-
-    KEEP if  business_signal AND (
-                tracked_player                                # competitor news
-                OR  matched_themes (any V-app strategic theme)  # in-scope
-             )
-    DROP otherwise — even if a vertical keyword matched.
-
-This implements: vertical match alone is no longer enough; the article
-must actually touch V-app's super-app strategy.
+Reference: references/MR26001_MarketWatch_Database.xlsx → sheet
+`Scanning` (Bước 1, Round 1) and `Database` (480 rows produced by it).
 """
 from __future__ import annotations
 
@@ -36,14 +29,10 @@ from src.storage.models import ArticleType, RawArticle, Status
 
 CATEGORIES_YAML = Path(__file__).resolve().parents[1] / "config" / "categories.yaml"
 
-# Bonuses added on top of theme weights.
+# Bonuses kept for downstream sort + Round 2 prioritisation.
 _TRACKED_PLAYER_BONUS = 5
 _ADJACENT_PLAYER_BONUS = 1
 _BUSINESS_SIGNAL_BONUS = 1
-# Articles below this score are dropped even if a theme matched.
-# Tuned for V-app CEO lens: needs at least one Tier-A theme (5) OR
-# tracked player (5), plus a business signal (1).
-_RELEVANCE_THRESHOLD = 4
 
 # Title-level noise patterns. If the article title matches any of these,
 # we drop it regardless of theme/player score — these are clickbait,
@@ -245,27 +234,7 @@ class EditorialClassifier:
     def classify(self, article: RawArticle) -> RawArticle:
         haystack = self._haystack(article)
 
-        # Hard noise gate: drop clickbait/opinion/ticker even if score is high.
-        if _is_noise_title(article.title_original or ""):
-            article.status = Status.FILTERED_OUT
-            article._mentioned_players = ""  # type: ignore[attr-defined]
-            article._business_signal = None  # type: ignore[attr-defined]
-            article._matched_themes = ""  # type: ignore[attr-defined]
-            article._relevance_score = 0  # type: ignore[attr-defined]
-            article._exclude_reason = "noise_title"  # type: ignore[attr-defined]
-            return article
-
-        # Hard exclude gate: matches anh's Excel Scanning sheet exclusions.
-        excl = self._matches_exclude_pattern(haystack)
-        if excl is not None:
-            article.status = Status.FILTERED_OUT
-            article._mentioned_players = ""  # type: ignore[attr-defined]
-            article._business_signal = None  # type: ignore[attr-defined]
-            article._matched_themes = ""  # type: ignore[attr-defined]
-            article._relevance_score = 0  # type: ignore[attr-defined]
-            article._exclude_reason = excl  # type: ignore[attr-defined]
-            return article
-
+        # ---- Always compute metadata (used by Round 2 / sort / render) ----
         tracked = [n for n, _ in self._all_hits(
             haystack, self._sections.get("players", []))]
         adjacent = [n for n, _ in self._all_hits(
@@ -273,7 +242,6 @@ class EditorialClassifier:
         themes = self._all_hits(haystack, self._sections.get("strategic_themes", []))
         has_signal, signal_type = self._has_business_signal(haystack)
 
-        # Compute editorial relevance score
         score = sum(w for _, w in themes)
         if tracked:
             score += _TRACKED_PLAYER_BONUS
@@ -282,33 +250,41 @@ class EditorialClassifier:
         if has_signal:
             score += _BUSINESS_SIGNAL_BONUS
 
-        # Stash editorial metadata on the article (consumed by sinks/render)
         article._mentioned_players = ", ".join(tracked + adjacent)  # type: ignore[attr-defined]
         article._business_signal = signal_type  # type: ignore[attr-defined]
         article._matched_themes = ", ".join(name for name, _ in themes)  # type: ignore[attr-defined]
         article._relevance_score = score  # type: ignore[attr-defined]
 
-        # ---- Editorial decision ----
-        # Hard requirement 1: must describe a business action.
-        if not has_signal:
-            article.status = Status.FILTERED_OUT
-            return article
+        # ---- Round 1 (Scanning) gates ----
+        # Tracked players bypass noise/exclude — their own promo & content
+        # all belongs in Players Movement (anh's Database keeps them).
+        if not tracked:
+            # Gate 1: hard title noise (clickbait, ticker, gadget review).
+            if _is_noise_title(article.title_original or ""):
+                article.status = Status.FILTERED_OUT
+                article._exclude_reason = "noise_title"  # type: ignore[attr-defined]
+                return article
 
-        # Hard requirement 2: must touch V-app strategy. Three valid paths:
-        #   a) Tracked competitor (always interesting)
-        #   b) Strategic theme match (super-app concern)
-        #   c) Adjacent player + theme (industry context)
-        in_scope = bool(tracked) or bool(themes)
+            # Gate 2: explicit exclude patterns from anh's Excel Scanning sheet.
+            excl = self._matches_exclude_pattern(haystack)
+            if excl is not None:
+                article.status = Status.FILTERED_OUT
+                article._exclude_reason = excl  # type: ignore[attr-defined]
+                return article
+
+        # Gate 3: must match Cluster 1 (player) OR Cluster 2 (vertical).
+        # That's it — no theme, no signal, no threshold gating.
+        in_scope = bool(tracked) or bool(adjacent)
+        mp_hit = self._first_hit(haystack, self._sections.get("market_pulse", []))
+        if mp_hit is not None:
+            in_scope = True
+
         if not in_scope:
             article.status = Status.FILTERED_OUT
+            article._exclude_reason = "no_player_or_vertical_match"  # type: ignore[attr-defined]
             return article
 
-        # Hard requirement 3: relevance threshold (drops weak matches)
-        if score < _RELEVANCE_THRESHOLD:
-            article.status = Status.FILTERED_OUT
-            return article
-
-        # ---- Output classification (separate from filter) ----
+        # ---- Output classification ----
         if tracked:
             article.type = ArticleType.PLAYERS_MOVEMENT
             article.player = tracked[0]
@@ -323,16 +299,13 @@ class EditorialClassifier:
                 article.pre_category = None
             return article
 
-        # Market Pulse — assign a vertical for output classification
         article.type = ArticleType.MARKET_PULSE
-        mp_hit = self._first_hit(haystack, self._sections.get("market_pulse", []))
         if mp_hit is not None:
             article.pre_category = (
                 f"{mp_hit.category}/{mp_hit.subcategory}"
                 if mp_hit.subcategory else mp_hit.category
             )
         else:
-            # Theme matched but no vertical keyword — still keep, AI will tag
             article.pre_category = None
         return article
 
@@ -355,7 +328,7 @@ def apply_filter(articles: Iterable[RawArticle]) -> list[RawArticle]:
         out.append(a)
     out.sort(key=lambda a: -getattr(a, "_relevance_score", 0))
     logger.info(
-        "Editorial filter: kept={} filtered_out={} (threshold={})",
-        kept, filtered, _RELEVANCE_THRESHOLD,
+        "Round 1 (Scanning): kept={} filtered_out={}",
+        kept, filtered,
     )
     return out

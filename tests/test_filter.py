@@ -148,42 +148,32 @@ def test_tracked_player_whatsapp_classifies_as_pm():
 # --- Business-signal gate (executive-grade filter) ----------------------
 
 
-def test_brand_without_business_signal_is_dropped():
-    # Mentions Netflix but is just an entertainment piece — must be dropped
-    a = _art("Netflix ra phim Squid Game phần 3 với dàn diễn viên mới")
-    CategoryClassifier().classify(a)
-    assert a.status == Status.FILTERED_OUT
-
-
 def test_netflix_business_move_is_kept():
-    # Same brand, but a real business action — must pass
+    # Brand + business action — keep
     a = _art("Netflix ra mắt gói cước có quảng cáo tại thị trường Việt Nam")
     CategoryClassifier().classify(a)
     assert a.status == Status.NEW
     assert a.pre_category is not None
 
 
-def test_player_news_without_signal_is_dropped():
-    # MoMo article that is just a tutorial / consumer tip — drop
-    a = _art("MoMo hướng dẫn cách quét QR an toàn khi mua sắm")
-    CategoryClassifier().classify(a)
-    assert a.status == Status.FILTERED_OUT
-
-
-def test_player_news_with_signal_is_kept():
-    a = _art("MoMo công bố hợp tác chiến lược với BIDV mở rộng thanh toán xuyên biên giới")
+def test_player_news_always_kept():
+    # Tracked player → always keep (Round 1 is permissive). Any noise
+    # clearance happens at Round 2 (AI manual).
+    a = _art("MoMo công bố hợp tác chiến lược với BIDV mở rộng QR xuyên biên giới")
     CategoryClassifier().classify(a)
     assert a.status == Status.NEW
     assert a.player == "MoMo"
 
 
-def test_adjacent_only_without_signal_is_dropped():
-    a = _art("Stripe gợi ý 5 mẹo bảo mật khi sử dụng thẻ thanh toán")
+def test_player_promo_kept_player_blogs_are_in_scope():
+    # MoMo lì xì promo titles ARE in anh's Database (kept by Round 1).
+    a = _art("Lắc Xì MoMo: Lấy 10 miếng vàng 0,1 chỉ, 2 iPad Mini, quà sức khỏe từ Chubb")
     CategoryClassifier().classify(a)
-    assert a.status == Status.FILTERED_OUT
+    assert a.status == Status.NEW
+    assert a.player == "MoMo"
 
 
-def test_adjacent_with_signal_kept_as_market_pulse():
+def test_adjacent_player_with_business_action_kept():
     a = _art("Stripe ra mắt Link – ví điện tử cho AI agent tự động thanh toán")
     CategoryClassifier().classify(a)
     assert a.type == ArticleType.MARKET_PULSE
@@ -202,13 +192,18 @@ def test_relevance_score_attached():
     assert "payment_wallet_war" in (getattr(a, "_matched_themes", "") or "")
 
 
-def test_in_scope_vertical_without_strategic_theme_is_dropped():
-    # An article that mentions Lazada flash sale with a Launch verb
-    # but doesn't touch any V-app strategic theme — drop.
+def test_galaxy_with_ai_features_kept():
+    # Anh keeps these in Database. Gadget brand + AI angle → KEEP via AI vertical.
+    a = _art("Galaxy S26 series có 7 tính năng AI mới: Tự mở app gọi xe, đặt đồ ăn, chỉnh ảnh bằng giọng nói")
+    CategoryClassifier().classify(a)
+    assert a.status == Status.NEW
+
+
+def test_in_scope_vertical_alone_is_now_kept():
+    # Round 1 is permissive — vertical match alone passes. Round 2 will curate.
     a = _art("Lazada tung khuyến mãi giảm 50% nhân ngày của mẹ")
     CategoryClassifier().classify(a)
-    # No strategic theme + no tracked player → score below threshold
-    assert a.status == Status.FILTERED_OUT
+    assert a.status == Status.NEW
 
 
 def test_platform_regulation_passes_high_score():
@@ -295,14 +290,24 @@ def test_motorbike_release_dropped():
     assert a.status == Status.FILTERED_OUT
 
 
-def test_all_caps_promo_banner_dropped():
+def test_all_caps_promo_kept_for_tracked_player():
+    # Tracked player promo banners — anh's Database keeps them (Round 2
+    # AI will normalise the title). Round 1 keeps player content as-is.
     a = _art("GRABUNLIMITED – MỞ GRAB LUÔN CÓ MÃ ÁP")
     CategoryClassifier().classify(a)
-    assert a.status == Status.FILTERED_OUT
+    assert a.status == Status.NEW
+    assert a.player == "Grab"
 
 
-def test_emoji_prefix_dropped():
+def test_emoji_prefix_kept_for_tracked_player():
     a = _art("🚀 THAM GIA THỬ THÁCH CÙNG GRAB SINH VIÊN 🎁")
+    CategoryClassifier().classify(a)
+    assert a.status == Status.NEW
+
+
+def test_all_caps_non_player_dropped():
+    # All-caps without tracked player — still drops as noise.
+    a = _art("CƠN SỐT KHUYẾN MÃI: GIẢM 50% TẠI MỌI CỬA HÀNG")
     CategoryClassifier().classify(a)
     assert a.status == Status.FILTERED_OUT
 
