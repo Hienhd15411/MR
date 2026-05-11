@@ -29,6 +29,29 @@ from src.storage.models import ArticleType, RawArticle, Status
 
 CATEGORIES_YAML = Path(__file__).resolve().parents[1] / "config" / "categories.yaml"
 
+# Source name → player mapping. Articles from these player-blog sources
+# are auto-tagged as that player even when the title doesn't mention the
+# brand (player promo titles like "5.5 Sale" or "Happy Friday" come
+# from grab_vn_blog / momo_newsroom / zalopay_news and obviously belong
+# to that player).
+_SOURCE_TO_PLAYER = {
+    "momo_newsroom": "MoMo",
+    "grab_vn_blog": "Grab",
+    "grab_merchant_vn": "Grab",
+    "zalopay_news": "Zalo",
+    "zalopay_promo": "Zalo",
+    "zalo_oa_news": "Zalo",
+    "whatsapp_blog": "WhatsApp",
+    "telegram_blog": "Telegram",
+    "shopee_seller_blog": "Shopee",
+    "tiktokshop_seller_blog": "TikTokShop",
+}
+
+
+def _player_for_source(source: str) -> str | None:
+    return _SOURCE_TO_PLAYER.get(source)
+
+
 # Bonuses kept for downstream sort + Round 2 prioritisation.
 _TRACKED_PLAYER_BONUS = 5
 _ADJACENT_PLAYER_BONUS = 1
@@ -39,14 +62,14 @@ _BUSINESS_SIGNAL_BONUS = 1
 # opinion, explainer, lifestyle, ticker or rumour articles that aren't
 # strategic intel even when they mention a tracked brand.
 _NOISE_TITLE_PATTERNS = [
-    # Question titles (opinion/explainer)
-    re.compile(r"^\s*(vì sao|tại sao|liệu|có nên|làm sao|làm thế nào|điều gì)\b",
+    # NOTE: question titles are NOT dropped anymore — anh's Database
+    # keeps many "Vì sao DN X thất bại?", "Có gì ở mô hình AI Y?" because
+    # they are market-analysis explainers. Round 2 AI will filter.
+    # Lifestyle / health clickbait — keep only specific shape patterns.
+    re.compile(r"^\s*(bí quyết|mẹo|tips)\b", re.IGNORECASE),
+    re.compile(r"^\s*cách\s+(làm|sử dụng|đăng ký|nhận|kích hoạt|tải|kiếm tiền)\b",
                re.IGNORECASE),
-    re.compile(r"\?\s*$"),  # ends with ?
-    # Lifestyle / health / clickbait
-    re.compile(r"\b(bí quyết|mẹo|cách|tips|hướng dẫn)\s+",
-               re.IGNORECASE),
-    re.compile(r"\b(cảnh báo|đe doạ|hủy hoại|nguy cơ|bộ não|sức khỏe|sức khoẻ)\b",
+    re.compile(r"\b(hủy hoại|đe doạ).+(bộ não|sức khỏe|sức khoẻ)\b",
                re.IGNORECASE),
     # Price tickers (commodity, not strategic)
     re.compile(r"\bgiá\s+(bitcoin|btc|eth|vàng|usd|xăng|dầu)\b", re.IGNORECASE),
@@ -54,32 +77,26 @@ _NOISE_TITLE_PATTERNS = [
     re.compile(r"\bbitcoin hôm nay\b", re.IGNORECASE),
     # Rumours / leaks (gadget speculation)
     re.compile(r"\b(rò rỉ|lộ\s+(diện|thông tin|thiết kế|cấu hình|tính năng)|"
-               r"có thể\s+(ra mắt|được ra mắt|khai tử)|"
                r"sắp\s+(khai tử|ngừng))\b", re.IGNORECASE),
-    # Pure gadget reviews / preview titles
-    re.compile(r"\b(đánh giá|review|so sánh|trên tay|hands-on)\b",
+    # Pure gadget reviews / preview titles — narrow scope only
+    re.compile(r"^\s*(đánh giá|review|trên tay|hands-on)\s+"
+               r"(iphone|samsung|galaxy|macbook|laptop|tablet|smartphone|"
+               r"điện thoại|máy tính|tai nghe|đồng hồ|smartwatch)",
                re.IGNORECASE),
-    # Personality / opinion
-    re.compile(r"\b(tuyên bố|cảnh báo|tin rằng|nhận định|cho rằng|"
-               r"khẳng định|chia sẻ)\b.+(:|—|–)", re.IGNORECASE),
+    re.compile(r"\b(unboxing|so sánh chi tiết)\b", re.IGNORECASE),
     # Listicle markers
     re.compile(r"^\s*(top\s+\d+|\d+\s+(điều|cách|lý do|bí mật|mẹo))",
                re.IGNORECASE),
-    # Quoted celebrity / influencer headlines (often opinion pieces)
-    re.compile(r"^\s*[\w\s]+\s*[:：]\s*[\"“]"),
-    # Title starts with emoji / pictogram (promo banner from blog feeds)
+    # Title starts with emoji
     re.compile(r"^\s*[\U0001F300-\U0001FAFF☀-➿]+"),
-    # Vague promo titles (player blog noise)
+    # Vague single-word nav titles
     re.compile(r"^\s*(thông báo|thông cáo|sự kiện|cộng đồng|khuyến mãi|"
                r"thư viện|ưu đãi)\s*$", re.IGNORECASE),
-    re.compile(r"^\s*(grab|momo|zalo|shopee)\s+triển khai\s+chiến dịch mới\s*$",
-               re.IGNORECASE),
     # Gadget release with price tag in title (consumer launch)
     re.compile(r"\bgiá\s+(từ\s+)?\d+([\.,]\d+)?\s*(triệu|tr|nghìn|usd|\$)",
                re.IGNORECASE),
     # Vehicle / motorbike releases
-    re.compile(r"\bxe\s+(côn\s+tay|máy\s+điện|tay\s+ga|ga|máy)\b",
-               re.IGNORECASE),
+    re.compile(r"\bxe\s+(côn\s+tay|máy\s+điện|tay\s+ga)\b", re.IGNORECASE),
 ]
 
 
@@ -247,13 +264,23 @@ class EditorialClassifier:
         haystack = self._haystack(article)
         title_haystack = self._title_haystack(article)
 
+        # ---- Source-based player auto-tag ----
+        # Articles from player blog sources belong to that player even
+        # when the title is a generic promo line ("5.5 Sale", "Happy
+        # Friday") that doesn't mention the brand.
+        source_player = _player_for_source(article.source)
+
         # ---- Always compute metadata (used by Round 2 / sort / render) ----
         # tracked = subject of the article (player keyword in TITLE)
         # mentioned_anywhere = also includes passing mentions in body
         tracked = [n for n, _ in self._all_hits(
             title_haystack, self._sections.get("players", []))]
+        if source_player and source_player not in tracked:
+            tracked.insert(0, source_player)
         tracked_anywhere = [n for n, _ in self._all_hits(
             haystack, self._sections.get("players", []))]
+        if source_player and source_player not in tracked_anywhere:
+            tracked_anywhere.insert(0, source_player)
         adjacent = [n for n, _ in self._all_hits(
             haystack, self._sections.get("adjacent_players", []))]
         themes = self._all_hits(haystack, self._sections.get("strategic_themes", []))
@@ -292,8 +319,14 @@ class EditorialClassifier:
                 return article
 
         # Gate 3: must match Cluster 1 (player) OR Cluster 2 (vertical).
-        # That's it — no theme, no signal, no threshold gating.
-        in_scope = bool(tracked) or bool(tracked_anywhere) or bool(adjacent)
+        # That's it — no signal / no threshold gating. We also accept a
+        # strategic_theme hit as in-scope, since anh's editorial concerns
+        # include policy keywords (Thông tư, VNeID…) that aren't in the
+        # vertical keyword lists.
+        in_scope = (
+            bool(tracked) or bool(tracked_anywhere) or bool(adjacent)
+            or bool(themes)
+        )
         mp_hit = self._first_hit(haystack, self._sections.get("market_pulse", []))
         if mp_hit is not None:
             in_scope = True

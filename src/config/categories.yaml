@@ -118,6 +118,14 @@ market_pulse:
       - Discord
       - Slack
       - "trò chuyện AI"
+      - "Communities"
+      - "X Chat"
+      - "Threads"
+      - "live chat"
+      - "social media"
+      - "mạng xã hội"
+      - "esports"
+      - "Esports"
 
   "TMĐT":
     keywords:
@@ -224,15 +232,18 @@ market_pulse:
       - "thanh toán điện tử"
       - "thanh toán không tiền mặt"
       - "mobile money"
+      - "ngân hàng"
       - "ngân hàng số"
       - neobank
       - "ngân hàng điện tử"
       - "chuyển khoản"
+      - "chuyển tiền"
       - "QR code"
       - "thanh toán QR"
       - "thẻ tín dụng"
       - "tín dụng tiêu dùng"
       - "vay tiêu dùng"
+      - "tiền nhanh"
       - BNPL
       - "buy now pay later"
       - "mua trước trả sau"
@@ -415,6 +426,64 @@ adjacent_players:
     keywords: ["Google Pay"]
   Stripe:
     keywords: ["Stripe"]
+  Airwallex:
+    keywords: ["Airwallex"]
+  OpenClaw:
+    keywords: ["OpenClaw"]
+  Snapchat:
+    keywords: ["Snapchat"]
+  Yelp:
+    keywords: ["Yelp"]
+  X_Twitter:
+    keywords: ["Twitter", "X.com", "X Chat", "tài khoản X"]
+  VNPT:
+    keywords: ["VNPT", "VNPT Money", "VNeID", "Vietnam Post Telecom"]
+  MobiFone:
+    keywords: ["MobiFone", "MobiFone Money"]
+  Viettel:
+    keywords: ["Viettel", "ViettelPay", "Viettel Money"]
+  Vietbank:
+    keywords: ["Vietbank", "Vietbank Digital"]
+  ShopBack:
+    keywords: ["ShopBack", "Ready Player ShopBack"]
+  Robinhood:
+    keywords: ["Robinhood"]
+  HitPay:
+    keywords: ["HitPay"]
+  Roku:
+    keywords: ["Roku"]
+  Lovable:
+    keywords: ["Lovable"]
+  Zoom:
+    keywords: ["Zoom"]
+  Schneider:
+    keywords: ["Schneider", "Schneider Electric"]
+  Snap:
+    keywords: ["Snap", "Snapchat", "Snap Maps"]
+  YouTube:
+    keywords: ["YouTube", "YouTube Premium", "YouTube Shorts", "YouTube Music"]
+  LinkedIn:
+    keywords: ["LinkedIn"]
+  Xiaohongshu:
+    keywords: ["Xiaohongshu", "RedShop", "Red Note"]
+  Truecaller:
+    keywords: ["Truecaller"]
+  Beehiiv:
+    keywords: ["Beehiiv"]
+  MicroSoft:
+    keywords: ["Microsoft", "Outlook"]
+  CMC:
+    keywords: ["CMC Corp", "CMC Tech"]
+  FPT:
+    keywords: ["FPT", "FPT Play", "FPT Smart Cloud"]
+  Onus:
+    keywords: ["Onus", "ONUS"]
+  Patreon:
+    keywords: ["Patreon"]
+  Substack:
+    keywords: ["Substack"]
+  Reddit:
+    keywords: ["Reddit"]
   PayPal:
     keywords: ["PayPal"]
   Uber:
@@ -819,6 +888,36 @@ strategic_themes:
       - "Alipay+"
       - "NAPAS"
       - "Mobile Money"
+      - "Mobile Banking"
+      - "Thông tư"
+      - "Nghị định"
+      - "Công văn"
+      - "Quyết định"
+      - "Cục Thuế"
+      - "TT-NHNN"
+      - "VNeID"
+      - "định danh điện tử"
+      - "thanh toán không dùng tiền mặt"
+      - "thí điểm"
+      - "tài sản mã hóa"
+      - "sàn giao dịch tài sản"
+      - "wealthtech"
+      - "bảo hiểm số"
+      - "bảo hiểm digital"
+      - "VCCI"
+      - "hộ kinh doanh"
+      - "doanh thu hộ kinh doanh"
+      - "thuê bao di động"
+      - "thuê bao"
+      - "SIM rác"
+      - "sinh trắc học"
+      - "xác thực sinh trắc"
+      - "Luật Sở hữu trí tuệ"
+      - "Bộ Nông nghiệp"
+      - "Bộ KH&CN"
+      - "thủ tục hành chính"
+      - "an toàn thực phẩm"
+      - "cổng thông tin"
       # VN banks rolling out new payment rails / digital products
       - Vietcombank
       - VietinBank
@@ -1109,13 +1208,15 @@ exclude_patterns:
       - "ra mắt phim"
       - "MV mới"
       - "bộ phim"
-      - "concert"
+      - "concert tour"
       - "tập mới"
       - "season mới"
       - "bóng đá"
       - "World Cup"
-      - "AFC"
-      - "Olympic"
+      - "AFC Cup"
+      - "Olympic Games"
+      # NOTE: removed bare "concert" / "AFC" / "Olympic" — false-positive
+      # on "Apple Music × Ticketmaster concert discovery" (real partnership).
 
   # ---- Off-domain exclusions (anh's CEO doesn't care) ----
   heavy_industry_real_estate:
@@ -1146,13 +1247,14 @@ exclude_patterns:
       - "Trương Gia Bình bất động sản"
       - "đại dự án"
       - "công nghiệp bán dẫn"
-      - "Intel"
-      - "TSMC"
-      - "Samsung Display"
-      - "Foxconn"
-      # NOTE: Vingroup steel/auto là off-scope nhưng VinAI/Zalo/etc. có
-      # rule riêng (qua tracked players). Keyword "Vingroup" ở đây drop
-      # tin BĐS/thép/auto chứ không drop tin AI Vingroup.
+
+
+
+      # NOTE: removed Intel/TSMC/Samsung Display/Foxconn — anh's Database
+      # keeps semiconductor news (TSMC revenue 35.7B from AI chips IS
+      # relevant context for AI compute economics).
+      # NOTE: Vingroup steel/auto là off-scope nhưng VinAI có rule riêng
+      # (qua tracked players). Keyword "Vingroup" ở đây drop tin BĐS/thép.
 
   consumer_gadget_release:
     description: "Pure consumer-gadget unboxing/review/promo — keep ONLY when there's an AI/super-app angle (handled separately by tracked-player bypass)"

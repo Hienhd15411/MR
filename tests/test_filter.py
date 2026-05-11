@@ -265,16 +265,20 @@ def test_platform_regulation_passes_high_score():
 # --- Noise / clickbait drops -------------------------------------------
 
 
-def test_question_title_dropped():
+def test_question_title_now_kept_for_market_analysis():
+    # Anh's Database keeps "Vì sao …", "Có gì ở …" market-analysis
+    # explainers. Question pattern was removed from Round 1 noise.
     a = _art("Vì sao doanh nghiệp Việt thất bại khi ứng dụng AI?")
     CategoryClassifier().classify(a)
-    assert a.status == Status.FILTERED_OUT
+    assert a.status == Status.NEW
 
 
-def test_personality_opinion_dropped():
+def test_personality_opinion_now_kept():
+    # Removed personality opinion noise — anh keeps "Mark Cuban cảnh báo"
+    # type pieces (they often have follow-up substance).
     a = _art("Mark Cuban cảnh báo \"lỗ hổng chí mạng\" của AI")
     CategoryClassifier().classify(a)
-    assert a.status == Status.FILTERED_OUT
+    assert a.status == Status.NEW
 
 
 def test_bitcoin_ticker_dropped():
