@@ -75,8 +75,10 @@ jobs:
           if-no-files-found: warn
           retention-days: 30
 
-      - name: Commit results back to branch
-        if: success() && github.event_name == 'workflow_dispatch'
+      - name: Commit results back to repo
+        # Run on both manual and scheduled runs so CEO has fresh data
+        # every Monday morning without needing to tải artifact.
+        if: success() && (github.event_name == 'workflow_dispatch' || github.event_name == 'schedule')
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -85,5 +87,7 @@ jobs:
             echo "No changes in output/ — skipping commit."
             exit 0
           fi
-          git commit -m "ci: update raw_data from crawl run ${{ github.run_id }}"
+          # [skip ci] guards against re-triggering on commits that may
+          # eventually wire a push trigger.
+          git commit -m "ci: weekly Market Watch crawl ${{ github.run_id }} [skip ci]"
           git push origin HEAD:${{ github.ref_name }}
