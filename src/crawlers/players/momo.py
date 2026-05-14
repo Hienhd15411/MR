@@ -26,6 +26,13 @@ from src.utils.date_utils import now_utc, parse_date, within_window
 
 
 LIST_URL = "https://momo.vn/tin-tuc"
+# Section landing pages each list more articles than the /tin-tuc root.
+# Hitting all three multiplies voucher / promo coverage 3-5x.
+LIST_URLS_EXTRA = [
+    "https://momo.vn/tin-tuc/khuyen-mai",
+    "https://momo.vn/tin-tuc/thong-bao",
+    "https://momo.vn/tin-tuc/tin-tuc-su-kien",
+]
 
 # Real MoMo article URLs end with `-<numeric_id>`, e.g.
 # /tin-tuc/thong-bao/giai-ma-tu-khoa-rinh-goi-nang-cap-youtube-icloud-8704.
@@ -67,7 +74,7 @@ class MoMoNewsroom(BaseCrawler):
     type_ = "players_movement"
     player = "MoMo"
 
-    def __init__(self, max_items: int = 30, window_days: int = CRAWL_WINDOW_DAYS):
+    def __init__(self, max_items: int = 60, window_days: int = CRAWL_WINDOW_DAYS):
         super().__init__()
         self.max_items = max_items
         self.window_days = window_days
@@ -84,14 +91,16 @@ class MoMoNewsroom(BaseCrawler):
         return await fetch_html(url)
 
     async def list_article_urls(self, client: httpx.AsyncClient) -> list[str]:
-        html = await self._fetch_spa(client, self.base_url)
-        if not html:
-            return []
-        soup = BeautifulSoup(html, "html.parser")
         urls: list[str] = []
-        for a in soup.find_all("a", href=True):
-            href = a["href"]
-            if _looks_like_news_link(href):
+        for list_url in [self.base_url] + LIST_URLS_EXTRA:
+            html = await self._fetch_spa(client, list_url)
+            if not html:
+                continue
+            soup = BeautifulSoup(html, "html.parser")
+            for a in soup.find_all("a", href=True):
+                href = a["href"]
+                if not _looks_like_news_link(href):
+                    continue
                 if href.startswith("/"):
                     href = "https://momo.vn" + href
                 if href.rstrip("/") == LIST_URL.rstrip("/"):
@@ -118,9 +127,15 @@ class MoMoNewsroom(BaseCrawler):
             h1 = soup.find("h1")
             if h1 and h1.get_text(strip=True):
                 title = h1.get_text(strip=True)
-            desc = soup.find("meta", attrs={"name": "description"})
-            if desc and desc.get("content"):
-                snippet = desc["content"]
+            # Body content first (voucher mechanics live in body, not meta).
+            from src.crawlers.players._spa import _extract_body_text
+            body = _extract_body_text(soup)
+            if body:
+                snippet = body[:500]
+            else:
+                desc = soup.find("meta", attrs={"name": "description"})
+                if desc and desc.get("content"):
+                    snippet = desc["content"]
             time_el = soup.find("time")
             if time_el:
                 published = parse_date(

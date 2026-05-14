@@ -61,6 +61,45 @@ def _canonical_url(url: str) -> str:
                        urlencode(keep), ""))
 
 
+def _extract_body_text(soup: BeautifulSoup) -> str:
+    """Extract main article content from common containers.
+
+    Tries the following in order:
+      <article>
+      <main>
+      <div class*="content"|"article"|"post"|"entry">
+      All <p> inside body
+
+    Returns up to 800 chars of joined paragraph text, stripping nav,
+    script, style, header, footer, and known noise blocks.
+    """
+    # Remove noise elements before reading
+    for tag in soup.find_all(["script", "style", "nav", "header", "footer",
+                              "aside", "form"]):
+        tag.decompose()
+    # Try semantic containers
+    for selector in [
+        {"name": "article"},
+        {"name": "main"},
+        {"name": "div", "class_": re.compile(r"(content|article|post|entry|body)", re.IGNORECASE)},
+        {"name": "section", "class_": re.compile(r"(content|article|post)", re.IGNORECASE)},
+    ]:
+        container = soup.find(**selector)
+        if container:
+            text = container.get_text(" ", strip=True)
+            text = re.sub(r"\s+", " ", text)
+            if len(text) >= 80:
+                return text[:800]
+    # Fallback: join all <p> tags in body
+    body = soup.find("body") or soup
+    paras = [p.get_text(" ", strip=True) for p in body.find_all("p")]
+    paras = [p for p in paras if len(p) > 20]  # drop super-short
+    if paras:
+        text = " ".join(paras)
+        return re.sub(r"\s+", " ", text)[:800]
+    return ""
+
+
 def _looks_like_cta_or_nav(title: str) -> bool:
     if not title:
         return True
@@ -173,12 +212,23 @@ class PlayerBlogCrawler(BaseCrawler):
             h1 = soup.find("h1")
             if h1 and h1.get_text(strip=True):
                 title = h1.get_text(strip=True)
-            desc = soup.find("meta", attrs={"name": "description"})
-            if desc and desc.get("content"):
-                candidate = desc["content"].strip()
-                # Filter out Next.js / React app default boilerplate
-                if candidate and not _looks_like_cta_or_nav(candidate):
-                    snippet = candidate
+
+            # Extract article body — prefer real content over meta description.
+            # Voucher / promo pages need detail like "Giảm 30% tối đa 120k đơn
+            # từ 500k cho người dùng mới" which lives in the body, not in
+            # the (often boilerplate) meta description.
+            body = _extract_body_text(soup)
+            if body and not _looks_like_cta_or_nav(body[:60]):
+                snippet = body[:500]
+
+            # Meta description as fallback when no body content found.
+            if not snippet:
+                desc = soup.find("meta", attrs={"name": "description"})
+                if desc and desc.get("content"):
+                    candidate = desc["content"].strip()
+                    if candidate and not _looks_like_cta_or_nav(candidate):
+                        snippet = candidate
+
             time_el = soup.find("time")
             if time_el:
                 published = parse_date(

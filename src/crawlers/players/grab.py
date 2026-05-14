@@ -89,9 +89,14 @@ class GrabVNBlog(BaseCrawler):
             h1 = soup.find("h1")
             if h1 and h1.get_text(strip=True):
                 title = h1.get_text(strip=True)
-            desc = soup.find("meta", attrs={"name": "description"})
-            if desc and desc.get("content"):
-                snippet = desc["content"]
+            from src.crawlers.players._spa import _extract_body_text
+            body = _extract_body_text(soup)
+            if body:
+                snippet = body[:500]
+            else:
+                desc = soup.find("meta", attrs={"name": "description"})
+                if desc and desc.get("content"):
+                    snippet = desc["content"]
             time_el = soup.find("time")
             if time_el:
                 published = parse_date(
