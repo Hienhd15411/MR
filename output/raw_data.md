@@ -1,16 +1,39 @@
 # Market Watch — raw_data preview
 
-- Generated: **2026-05-14 04:37 UTC**
+- Generated: **2026-05-14 04:44 UTC**
 - Crawled: **820**
-- Kept: **423** (Market Pulse: 329 · Players Movement: 94)
-- Filtered out (no category match): **397**
+- Kept: **421** (Market Pulse: 327 · Players Movement: 94)
+- Filtered out (no category match): **399**
+
+## Summary by relevance score
+
+| Band | Score range | Count | Meaning |
+|---|---:|---:|---|
+| 🔥 Must-read | `10+` | 25 | Tracked player + Tier-A theme + signal |
+| ✅ Strong | `7-9` | 10 | Tracked player or multi-theme match |
+| 🟢 Moderate | `4-6` | 212 | Single theme + signal |
+| 🟡 Context | `1-3` | 87 | Adjacent player / weak signal |
+| ⚪ Noise | `0-0` | 87 | No theme/signal — borderline keep |
+
+## Top 10 highest relevance
+
+1. `[14]` **Đề xuất doanh nghiệp nộp thuế thay người gom ve chai, phế liệu**
+2. `[14]` **FPT ra mắt FPT MongoDB Enterprise: Rút ngắn thời gian triển khai AI, giảm áp lực vận hành dữ liệu cho doanh nghiệp Việt**
+3. `[14]` **New Feature Roundup: Missed call messages, new Status stickers and more!** · *WhatsApp*
+4. `[13]` **WhatsApp adds an incognito mode in Meta AI chats** · *WhatsApp*
+5. `[13]` **Introducing Incognito Chat with Meta AI: A completely private way to chat with AI** · *WhatsApp*
+6. `[12]` **Nắm 62% thị phần, "ông vua" OLED tung át chủ bài TV 9,9mm mỏng hơn bút chí, tích hợp Gemini Copilot**
+7. `[11]` **Digital Trust in Finance: CAEX chia sẻ quan điểm xây dựng sàn tài sản mã hóa**
+8. `[11]` **Dư nợ cho vay 10 tỷ USD: Con số gây choáng trong báo cáo tài chính của công ty mẹ Shopee, hé lộ 'cỗ máy tín dụng' đang nuôi cuộc chiến với TikTok Shop** · *Shopee*
+9. `[11]` **Tham gia Vòng Sống Khỏe nhận quà có trị giá đến 3.990.000đ** · *MoMo*
+10. `[11]` **Ưu đãi ngân hàng HD Bank** · *Grab*
 
 ## Summary by category (kept only)
 
 | Category | Count |
 |---|---:|
-| AI | 147 |
-| — | 130 |
+| AI | 146 |
+| — | 129 |
 | Feature | 31 |
 | Fintech/E-wallet | 20 |
 | Travel/Khách sạn/Giải trí | 15 |
@@ -28,7 +51,7 @@
 | Product/Off product | 1 |
 | AI/AI funding | 1 |
 
-## Market Pulse (329)
+## Market Pulse (327)
 
 ### bloomberg_tech (21)
 
@@ -589,7 +612,7 @@
   - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-11 06:50 UTC
   - (Dân trí) - Cơn sốt AI trên toàn cầu không chỉ khiến giá RAM tăng cao, mà còn tác động đến giá bán ổ cứng SSD.
 
-### genk (22)
+### genk (21)
 
 - **[FPT ra mắt FPT MongoDB Enterprise: Rút ngắn thời gian triển khai AI, giảm áp lực vận hành dữ liệu cho doanh nghiệp Việt](https://genk.vn/fpt-ra-mat-fpt-mongodb-enterprise-rut-ngan-thoi-gian-trien-khai-ai-giam-ap-luc-van-hanh-du-lieu-cho-doanh-nghiep-viet-165261305150647797.chn)**
   - relevance: `14` · category: `AI` · scope: `domestic` · published: —
@@ -666,11 +689,6 @@
   - themes: cross_brand_partnerships
   - signal: Partnership
   - Dòng Vortex DDR5 48 GB lần đầu xuất hiện tại Computex 2026, kèm phụ kiện Vortex Water Block giúp giảm nhiệt độ từ 66°C xuống 31°C khi hoạt động liên tục.
-
-- **[Từ ngày 21/5, địa chỉ khai báo lưu trú, tạm trú chung chính thức áp dụng trên cả nước](https://genk.vn/tu-ngay-21-5-dia-chi-khai-bao-luu-tru-tam-tru-chung-chinh-thuc-ap-dung-tren-ca-nuoc-165260513022910895.chn)**
-  - relevance: `4` · category: `—` · scope: `domestic` · published: —
-  - themes: vn_market_data
-  - Người dân và tất cả cơ sở lưu trú cần lưu ý ngừng sử dụng nền tảng cũ và phần mềm ASM, chuyển sang thao tác hoàn toàn trên hệ thống website thống nhất dành cho cả người Việt Nam và người nước ngoài.
 
 - **[Elden Ring: Tarnished Edition có thể ra mắt trên Switch 2 vào tháng 7 tới](https://genk.vn/elden-ring-tarnished-edition-co-the-ra-mat-tren-switch-2-vao-thang-7-toi-165261305065926420.chn)**
   - relevance: `1` · category: `Ride/Food delivery` · scope: `domestic` · published: —
@@ -1590,7 +1608,7 @@
   - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-10 08:05 UTC
   - Bất chấp căng thẳng Trung Đông, kim ngạch xuất nhập khẩu tháng 4 của Trung Quốc vẫn tăng trên 14% nhờ nhu cầu tích trữ hàng hóa toàn cầu, đơn hàng AI.
 
-### vnexpress_sohoa (21)
+### vnexpress_sohoa (20)
 
 - **[Loạt thông tin được ông chủ ChatGPT hé lộ trong phiên tòa](https://vnexpress.net/loat-thong-tin-duoc-ong-chu-chatgpt-he-lo-trong-phien-toa-5073321.html)**
   - relevance: `5` · category: `AI/Big tech AI` · scope: `domestic` · published: 2026-05-13 10:40 UTC
@@ -1662,10 +1680,6 @@
   - relevance: `1` · category: `AI` · scope: `domestic` · published: 2026-05-10 05:00 UTC
   - signal: Launch
   - Công ty Figure AI công bố video quá trình hai robot Figure 03 phối hợp dọn dẹp phòng ngủ mà không cần con người trợ giúp.
-
-- **[Vai trò của sách trong thời AI](https://vnexpress.net/vai-tro-cua-sach-trong-thoi-ai-5073618.html)**
-  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-14 04:18 UTC
-  - Trong thời AI và video ngắn bùng nổ, sách được đánh giá vẫn có giá trị riêng khi giúp người đọc hình thành tư duy hệ thống và năng lực phản biện.
 
 - **[Nhà mạng có xóa được tài khoản gắn với 'SIM quay đầu'?](https://vnexpress.net/nha-mang-co-xoa-duoc-tai-khoan-gan-voi-sim-quay-dau-5073355.html)**
   - relevance: `0` · category: `Chat` · scope: `domestic` · published: 2026-05-14 01:00 UTC
@@ -2192,7 +2206,7 @@
 
 ---
 
-## Filtered out (397) — for audit, not included in report
+## Filtered out (399) — for audit, not included in report
 
 These articles were crawled but did not match any tracked category (AI, Chat, TMĐT, Travel, Ride/Food delivery, Fintech/E-wallet, Ticket) nor mention a tracked player (MoMo, Grab).
 
@@ -2246,4 +2260,4 @@ These articles were crawled but did not match any tracked category (AI, Chat, TM
 - [Doanh nghiệp Trung Quốc thâu tóm 'ông lớn' thuốc kháng sinh Việt: Nhìn lại nhiều thương vụ khác](https://tuoitre.vn/doanh-nghiep-trung-quoc-thau-tom-ong-lon-thuoc-khang-sinh-viet-nhin-lai-nhieu-thuong-vu-khac-20260513184334597.htm) — `tuoitre_kinhdoanh` · published: 2026-05-13 14:08 UTC
 - [Introducing the 6 stages at TechCrunch Disrupt 2026 — built for today’s tougher startup market](https://techcrunch.com/2026/05/13/introducing-the-6-stages-of-techcrunch-disrupt-2026-built-for-todays-tougher-startup-market/) — `techcrunch` · published: 2026-05-13 14:00 UTC
 - [Dự án đình đám ở tứ giác Bến Thành có diễn biến mới](https://cafef.vn/du-an-dinh-dam-o-tu-giac-ben-thanh-co-dien-bien-moi-188260513205028771.chn) — `cafef_doanhnghiep` · published: 2026-05-13 13:50 UTC
-- … and 347 more (see Sheet/xlsx)
+- … and 349 more (see Sheet/xlsx)
