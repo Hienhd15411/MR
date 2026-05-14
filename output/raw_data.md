@@ -1,263 +1,366 @@
 # Market Watch — raw_data preview
 
-- Generated: **2026-05-12 01:54 UTC**
-- Crawled: **815**
-- Kept: **394** (Market Pulse: 316 · Players Movement: 78)
-- Filtered out (no category match): **421**
+- Generated: **2026-05-14 04:19 UTC**
+- Crawled: **807**
+- Kept: **409** (Market Pulse: 328 · Players Movement: 81)
+- Filtered out (no category match): **398**
 
 ## Summary by category (kept only)
 
 | Category | Count |
 |---|---:|
-| — | 145 |
-| AI | 130 |
-| Fintech/E-wallet | 30 |
-| Feature | 18 |
+| — | 153 |
+| AI | 146 |
+| Fintech/E-wallet | 20 |
+| Feature | 15 |
+| Travel/Khách sạn/Giải trí | 14 |
 | AI/Big tech AI | 13 |
-| Travel/Khách sạn/Giải trí | 11 |
-| Chat | 10 |
-| AI/AI agents | 9 |
-| TMĐT | 8 |
-| Ride/Food delivery | 7 |
-| Marketing | 7 |
+| Ride/Food delivery | 10 |
+| Chat | 9 |
+| Marketing | 8 |
+| TMĐT | 7 |
+| AI/AI agents | 7 |
 | Feature/Payment capability upgrade | 2 |
 | Product/Product launch | 2 |
 | Marketing/Transaction Growth | 1 |
 | Product/Off product | 1 |
+| AI/AI funding | 1 |
 
-## Market Pulse (316)
+## Market Pulse (328)
 
-### bloomberg_tech (23)
+### bloomberg_tech (21)
 
-- **[AI Chipmaker Cerebras Seeks $4.8 Billion in Upsized IPO | Bloomberg Tech 5/11/2026](https://www.bloomberg.com/news/videos/2026-05-11/bloomberg-tech-5-11-2026-video)**
-  - relevance: `9` · category: `AI/AI agents` · scope: `international` · published: 2026-05-11 20:09 UTC
-  - themes: agentic_ai_commerce, ai_infra_general
-  - signal: Strategy_MnA
-  - Bloomberg’s Caroline Hyde and Ed Ludlow discuss Cerebras’ increased IPO plans as the AI chipmaker and data center operator boosts its offering plans by one-third to as much as $4.8 billion. Plus, Circle CEO Jeremy Allaire explains what drove the company’s first-quarter revenue and his vision of an agent-led future. And, Google researchers say they have uncovered the first-ever zero-day attack built by AI.  (Source: Bloomberg)
-
-- **[AI Chipmaker Cerebras Seeks $4.8 Billion in Upsized US IPO](https://www.bloomberg.com/news/articles/2026-05-11/ai-chipmaker-cerebras-systems-seeks-4-8-billion-in-upsized-ipo)**
-  - relevance: `8` · category: `AI/AI agents` · scope: `international` · published: 2026-05-11 12:23 UTC
-  - themes: agentic_ai_commerce, ai_infra_general
-  - signal: Strategy_MnA
-  - Cerebras Systems Inc. increased the size of its initial public offering, now seeking to raise as much as $4.8 billion, as demand for the artificial intelligence chipmaker and data center operator’s shares continues to build.
-
-- **[Consumers Still Buying Beauty Products That 'Matter to Them,' Says Sally Beauty CEO](https://www.bloomberg.com/news/videos/2026-05-11/consumers-still-buying-products-that-matter-paulonis-video)**
-  - relevance: `6` · category: `TMĐT` · scope: `international` · published: 2026-05-11 20:10 UTC
-  - themes: super_app_commerce
-  - Denise Paulonis, President and CEO of Sally Beauty Holdings, said that the beauty industry remains resilient to concerns around affordability as consumer remain consistent in buying beauty products that 'matter to them' like hair dye and nail accessories even if they are not replacing pricier items. Paulonis said that she remains optimistic about her company's growth as consumers explore new e-commerce avenues like the TikTok Shop.  (Source: Bloomberg)
-
-- **[GitLab Says Will Cut Jobs to Spend on Growth in ‘Agentic Era’](https://www.bloomberg.com/news/articles/2026-05-11/gitlab-says-will-cut-jobs-to-spend-on-growth-in-agentic-era)**
-  - relevance: `4` · category: `AI/AI agents` · scope: `international` · published: 2026-05-11 21:31 UTC
-  - themes: agentic_ai_commerce
-  - GitLab Inc., which makes software that helps developers on coding projects, said it is cutting jobs to free up money to spend on the market opportunity for artificial intelligence agents.
-
-- **[Microsoft Targeted $92 Billion Return on Early OpenAI Investment](https://www.bloomberg.com/news/articles/2026-05-11/microsoft-targeted-92-billion-return-on-early-openai-investment)**
-  - relevance: `4` · category: `AI` · scope: `international` · published: 2026-05-11 19:28 UTC
-  - themes: ai_infra_general
-  - Microsoft Corp. targeted a $92 billion return from its large early investments in OpenAI, a landmark arrangement that helped usher in the current AI era.
-
-- **[Sutskever Says His OpenAI Stake Worth About $7 Billion](https://www.bloomberg.com/news/articles/2026-05-11/sutskever-says-his-openai-stake-worth-about-7-billion)**
-  - relevance: `4` · category: `AI/Big tech AI` · scope: `international` · published: 2026-05-11 19:04 UTC
-  - themes: ai_infra_general
-  - OpenAI co-founder and former chief scientist Ilya Sutskever said his stake in the ChatGPT maker is worth roughly $7 billion, making him one of the largest individual shareholders in the artificial intelligence startup.
-
-- **[OpenAI to Buy Consulting Firm for JV With Private Equity](https://www.bloomberg.com/news/articles/2026-05-11/openai-to-buy-consulting-firm-for-private-equity-joint-venture)**
-  - relevance: `4` · category: `AI` · scope: `international` · published: 2026-05-11 13:00 UTC
-  - themes: ai_infra_general
-  - OpenAI will acquire a consulting company to contribute to a new private equity-backed joint venture to help drive adoption of its artificial intelligence software across more businesses.
-
-- **[Angi Becomes Latest Company to Announce AI Pivot](https://www.bloomberg.com/news/videos/2026-05-11/angi-becomes-latest-company-to-announce-ai-pivot-video)**
-  - relevance: `2` · category: `AI` · scope: `international` · published: 2026-05-11 19:08 UTC
-  - signal: Performance
-  - Angi CEO Jeff Kip joins Bloomberg’s Carol Massar and Tim Stenovec to discuss the company’s latest earnings, AI efforts, and Angi’s outlook on the housing market.  (Source: Bloomberg)
-
-- **[Meta Sued by California County Over ‘Scam’ Advertisements](https://www.bloomberg.com/news/articles/2026-05-11/meta-sued-by-california-county-over-scam-advertisements)**
-  - relevance: `1` · category: `—` · scope: `international` · published: 2026-05-11 17:38 UTC
-  - Meta Platforms Inc. was sued by Santa Clara County, California, over allegations that the company “knowingly facilitates and profits from billions of scam advertisements” on its social networks, including Facebook and Instagram.
-
-- **[Market Optimistic on AI Surge, Ignoring Risks: Noviskis](https://www.bloomberg.com/news/videos/2026-05-11/market-optimistic-on-ai-surge-ignoring-risks-noviskis-video)**
-  - relevance: `1` · category: `AI` · scope: `international` · published: 2026-05-11 16:50 UTC
-  - signal: Performance
-  - Jessica Noviskis, OCIO portfolio strategist at Marquette Associates, says market optimism is largely driven by strong earnings and the resurgence of the AI sector despite potential risks. "We are entirely pricing markets off of the good things that are happening," she said, "and ignoring the risks and the war and the potential for inflation and maybe rate hikes." (Source: Bloomberg)
-
-- **[Bartels Expects Secular Bear Market to Start Next Decade](https://www.bloomberg.com/news/videos/2026-05-11/bartels-expects-secular-bear-market-to-start-next-decade-video)**
-  - relevance: `1` · category: `—` · scope: `international` · published: 2026-05-11 15:03 UTC
-  - Mary Ann Bartels, chief investment strategist at Sanctuary Wealth, shares her long term outlook for stocks. She believes a secular bear market will kickoff the next decade after a nice rally over the next four years. She speaks on "Bloomberg Open Interest." (Source: Bloomberg)
-
-- **[Google Says Hacker Used Mythos-Like AI for Software Tool Exploit](https://www.bloomberg.com/news/articles/2026-05-11/hackers-used-ai-to-build-zero-day-attack-google-researchers-say)**
-  - relevance: `1` · category: `AI` · scope: `international` · published: 2026-05-11 13:02 UTC
-  - Security researchers at Alphabet Inc.’s Google said they believe a cybercrime group used artificial intelligence to create a hacking tool that can bypass defenses in a widely-used tool to administer computer systems.
-
-- **[UK Fintech Wise Makes US Trading Debut With Dual Listing](https://www.bloomberg.com/news/articles/2026-05-11/uk-fintech-wise-makes-us-trading-debut-with-dual-listing)**
-  - relevance: `1` · category: `Fintech/E-wallet` · scope: `international` · published: 2026-05-11 10:07 UTC
-  - signal: Launch
-  - Wise Group Plc made its trading debut in the US with a Nasdaq listing as the financial technology firm tries to take advantage of a larger stock market and its legions of investors.
-
-- **[Rezolve AI CEO Weighs In on Hostile Bid for Commerce.com](https://www.bloomberg.com/news/videos/2026-05-11/rezolve-ai-ceo-weighs-in-on-bid-for-commerce-com-video)**
-  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-11 19:13 UTC
-  - Rezolve AI CEO Dan Wagner discusses the reason behind his company’s hostile bid for Commerce.com, including what he called an “embarrassing growth rate” by the takeover target. He joins Caroline Hyde and Ed Ludlow on “Bloomberg Tech.” (Source: Bloomberg)
-
-- **[A $400 AI Bet That’s a High-Stakes Wager on the Future of Work](https://www.bloomberg.com/news/videos/2026-05-11/a-400-ai-bet-that-s-a-wager-on-the-future-of-work-video)**
-  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-11 18:42 UTC
-  - AI is set to have a profound impact on the workforce and productivity, but by how much and how quickly are still being debated and bet on by academics. Bloomberg’s Stacey Vanek Smith describes the $400 wager on the future of work. She joins Caroline Hyde and Ed Ludlow on “Bloomberg Tech." (Source: Bloomberg)
-
-- **[Rates Just One Factor for Stablecoin Growth, Says Circle CEO](https://www.bloomberg.com/news/videos/2026-05-11/rates-just-one-factor-for-stablecoin-growth-circle-ceo-video)**
-  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-11 18:20 UTC
-  - Stablecoin issuer Circle says it’s moving closer to a future where AI agents can make financial transactions. The company saw a 20% revenue surge in its first-quarter, though net income declined amid volatility in cryptocurrency markets. Circle CEO Jeremy Allaire speaks with Caroline Hyde and Ed Ludlow on “Bloomberg Tech.”  (Source: Bloomberg)
-
-- **[BMO's Schleif Says AI Stampede Fueling Rally Beyond Tech](https://www.bloomberg.com/news/videos/2026-05-11/bmo-s-schleif-says-ai-stampede-fueling-rally-beyond-tech-video)**
-  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-11 17:12 UTC
-  - Carol Schleif, chief market strategist for Bank of Montreal, says the buildout of AI infrastructure is lifting a broad cross section of stocks, not just a handful of tech names. She speaks with Ed Ludlow and Caroline Hyde on “Bloomberg Tech.” (Source: Bloomberg)
-
-- **[Investing in the Age of AI Disruption](https://www.bloomberg.com/news/videos/2026-05-11/investing-in-the-age-of-ai-disruption-video)**
-  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-11 15:39 UTC
-  - Mike Pyle, Deputy Head of BlackRock's Portfolio Management Group joined Bloomberg Open Interest to explain why AI isn’t a bubble and how it’s  reshaping the global economy. He breaks down the short-term inflation hit vs. long-term productivity boom, and why traditional 60/40 portfolios are failing to diversify in an AI-dominated market. He also warns investors may be underestimating the economic risks from the Iran conflict, global oil disruptions, and the Strait of Hormuz crisis. (Source: Bloom
-
-- **[SoftBank in Talks for Major Data Center Project in France](https://www.bloomberg.com/news/articles/2026-05-11/softbank-s-son-in-talks-for-major-data-center-project-in-france)**
-  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-11 12:19 UTC
-  - SoftBank Group Corp. founder Masayoshi Son has held talks about unveiling an ambitious French AI data center project with President Emmanuel Macron in the coming weeks, according to people familiar with the matter.
-
-- **[Novo Hands Over Parkinson’s Therapy to Zuckerberg-Backed Startup](https://www.bloomberg.com/news/articles/2026-05-11/novo-hands-over-parkinson-s-therapy-to-zuckerberg-backed-startup)**
-  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-11 12:00 UTC
-  - Novo Nordisk A/S agreed to hand over an experimental therapy for Parkinson’s disease to a Mark Zuckerberg-backed AI startup to potentially speed its development.
-
-- **[Amazon Prepares to Sell First Swiss Franc Bond in AI Push](https://www.bloomberg.com/news/articles/2026-05-11/amazon-prepares-to-issue-its-first-swiss-franc-bond-in-ai-push)**
-  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-11 09:04 UTC
-  - Amazon.com, Inc. is preparing to issue Swiss franc bonds for the first time, as Big Tech hyperscalers turn to new debt markets to fund artificial intelligence spending.
-
-- **[Why Stablecoins Are Crypto’s Real Payments Test](https://www.bloomberg.com/news/videos/2026-05-10/why-stablecoins-are-crypto-s-real-payments-test-video)**
-  - relevance: `0` · category: `Fintech/E-wallet` · scope: `international` · published: 2026-05-10 12:04 UTC
-  - Every year, Filipinos working overseas send $35 billion back home &mdash; and a growing share of those transfers are being executed using stablecoins. The blockchain technology promises to make cross-border payments cheaper and nearly instantaneous, offering an alternative to traditional remittance channels. But even though the opportunity could be huge, stablecoins remain a tiny part of the global payments system today. With the GENIUS Act set to take effect and banks eyeing the space, the race
-
-- **[Banks and Crypto Backers Tussle as Senators Eye Landmark Digital Asset Bill](https://www.bloomberg.com/news/articles/2026-05-09/banks-and-crypto-backers-tussle-as-senators-eye-stablecoin-bill)**
-  - relevance: `0` · category: `Fintech/E-wallet` · scope: `international` · published: 2026-05-09 23:50 UTC
-  - Banking groups are floating last-minute changes to a compromise on stablecoin yield as a key Senate panel begins considering a landmark digital asset bill.
-
-### cafebiz (11)
-
-- **[VIB và Visa thúc đẩy hợp tác toàn diện hướng tới phát triển hệ sinh thái thanh toán số Việt Nam](https://cafebiz.vn/vib-va-visa-thuc-day-hop-tac-toan-dien-huong-toi-phat-trien-he-sinh-thai-thanh-toan-so-viet-nam-176260511223951717.chn)**
-  - relevance: `8` · category: `Fintech/E-wallet` · scope: `domestic` · published: —
-  - themes: vn_market_data, cross_brand_partnerships
+- **[Microsoft Spent Over $100 Billion on OpenAI Partnership](https://www.bloomberg.com/news/articles/2026-05-13/microsoft-spent-over-100-billion-on-openai-partnership-to-date)**
+  - relevance: `8` · category: `AI` · scope: `international` · published: 2026-05-13 17:15 UTC
+  - themes: cross_brand_partnerships, ai_infra_general
   - signal: Partnership
-  - Trong hành trình hiện thực hóa mục tiêu dẫn đầu thị trường thẻ tại Việt Nam, Ngân hàng Quốc Tế (VIB) đang tiếp tục mở rộng hợp tác với các đối tác thanh toán toàn cầu nhằm phát triển hệ sinh thái thẻ và thanh toán số thế hệ mới.
+  - Microsoft Corp. has spent more than $100 billion on its partnership with OpenAI, a sum that underscores the significance of the software maker’s role in the AI company’s growth.
 
-- **[Biến động nhân sự cấp cao nhiều ngân hàng](https://cafebiz.vn/bien-dong-nhan-su-cap-cao-nhieu-ngan-hang-176260512070601402.chn)**
+- **[Anthropic Eyeing Over $900 Billion Valuation | Bloomberg Tech 5/13/2026](https://www.bloomberg.com/news/videos/2026-05-13/bloomberg-tech-5-13-2026-video)**
+  - relevance: `5` · category: `AI/Big tech AI` · scope: `international` · published: 2026-05-13 20:05 UTC
+  - themes: ai_infra_general
+  - signal: Funding
+  - Bloomberg’s Caroline Hyde and Ed Ludlow discuss what to expect from the highly anticipated meeting between President Trump and China's Xi Jinping, as Nvidia CEO Jensen Huang gets added to the trip last minute. Plus, Anthropic is looking to raise at least $30 billion in fresh financing at a valuation of more than $900 billion, in what could be its largest funding round yet. And, we speak with Anduril CEO Brian Schimpf as the company hits a $61 billion valuation in its latest funding round.  (Sour
+
+- **[Anthropic in Talks to Raise $30 Billion at a $900 Billion Valuation](https://www.bloomberg.com/news/videos/2026-05-13/anthropic-in-talks-to-raise-30-billion-in-financing-video)**
+  - relevance: `5` · category: `AI` · scope: `international` · published: 2026-05-13 19:16 UTC
+  - themes: ai_infra_general
+  - signal: Funding
+  - Anthropic PBC is in early talks with investors to raise at least $30 billion in fresh financing, according to people familiar with the matter, setting the stage for what could be its largest funding round yet. The Claude maker would then be valued at more than $900 billion. Bloomberg's Ed Ludlow reports. (Source: Bloomberg)
+
+- **[Affirm Seeing Real, Scalable Growth, CEO Says](https://www.bloomberg.com/news/videos/2026-05-13/affirm-seeing-real-scalable-growth-ceo-says-video)**
+  - relevance: `5` · category: `—` · scope: `international` · published: 2026-05-13 18:22 UTC
+  - themes: agentic_ai_commerce
+  - signal: Expansion
+  - Agentic commerce and international expansion is the new focus for Affirm, which laid out a bold roadmap to $100 billion in annual volume at the company's 2026 Investor Forum. Affirm CEO Max Levchin joins Ed Ludlow and Caroline Hyde to break it down on "Bloomberg Tech." (Source: Bloomberg)
+
+- **[AI Chipmaker Cerebras Raises $5.55 Billion in Year’s Biggest IPO](https://www.bloomberg.com/news/articles/2026-05-13/ai-chipmaker-cerebras-said-poised-to-price-ipo-at-185-per-share)**
+  - relevance: `4` · category: `AI` · scope: `international` · published: 2026-05-13 20:11 UTC
+  - themes: ai_infra_general
+  - signal: Strategy_MnA
+  - Cerebras Systems Inc. raised $5.55 billion in its US initial public offering, as the artificial intelligence chipmaker seizes on the surging demand for semiconductors.
+
+- **[TPG Says OpenAI Venture a Traditional Move for Firm](https://www.bloomberg.com/news/articles/2026-05-13/tpg-says-new-openai-venture-a-traditional-move-for-the-pe-firm)**
+  - relevance: `4` · category: `AI` · scope: `international` · published: 2026-05-13 19:56 UTC
+  - themes: ai_infra_general
+  - OpenAI may be a marquee corporate name but working with the tech giant is business as usual for TPG Inc.
+
+- **[Companies are 'Testing & Trying' with AI Costs: Trujillo](https://www.bloomberg.com/news/videos/2026-05-13/companies-are-testing-trying-with-ai-costs-trujillo-video)**
+  - relevance: `4` · category: `AI` · scope: `international` · published: 2026-05-13 18:21 UTC
+  - themes: ai_infra_general
+  - David Trujillo, partner at TPG, joins Dani Burger on "Bloomberg Deals." OpenAI this week unveiled a new consulting and services business, aimed at driving higher adoption rates of its technology across companies. The new joint-venture is backed by billions of private equity dollars, and led by PE powerhouse TPG.   (Source: Bloomberg)
+
+- **[Musk’s xAI Races to Get Wall Street Firms to Use Grok Chatbot](https://www.bloomberg.com/news/articles/2026-05-13/musk-s-xai-races-to-get-wall-street-firms-to-use-grok-chatbot)**
+  - relevance: `3` · category: `AI` · scope: `international` · published: 2026-05-13 19:38 UTC
+  - themes: ai_infra_general
+  - Elon Musk’s xAI has recruited multiple Wall Street firms with ties to the billionaire’s business empire to test its Grok chatbot, according to people familiar with the matter, part of a push to bolster revenue ahead of parent company SpaceX’s initial public offering.
+
+- **[Judge Says Cannot ‘Rubber Stamp’ $1.5 Million Musk-SEC Deal](https://www.bloomberg.com/news/articles/2026-05-13/judge-says-cannot-rubber-stamp-musk-s-1-5-million-sec-deal)**
+  - relevance: `2` · category: `—` · scope: `international` · published: 2026-05-13 19:26 UTC
+  - signal: Pricing
+  - A federal judge cited “red flags” about a proposed $1.5 million deal between Elon Musk and the Securities and Exchange Commission to end the agency’s lawsuit alleging the world’s richest person waited too long in 2022 to reveal his growing stake in Twitter Inc.
+
+- **[Google Tie-Up Lifts Fanuc to Record as Physical AI Bets Grow](https://www.bloomberg.com/news/articles/2026-05-14/fanuc-shares-surge-after-partnership-with-google-on-physical-ai)**
+  - relevance: `1` · category: `AI` · scope: `international` · published: 2026-05-14 02:55 UTC
+  - Fanuc Corp. shares soar after the company announced that it would tie up with Alphabet Inc.’s Google in an announcement on Wednesday, broadening expectations for physical AI with robotics companies.
+
+- **[Blackstone REIT Raises $1.75 Billion in IPO to Buy Data Centers](https://www.bloomberg.com/news/articles/2026-05-13/blackstone-reit-raises-1-75-billion-in-ipo-to-buy-data-centers)**
+  - relevance: `1` · category: `AI` · scope: `international` · published: 2026-05-13 23:05 UTC
+  - signal: Strategy_MnA
+  - Blackstone Digital Infrastructure Trust Inc. raised $1.75 billion in a US initial public offering, as investors’ appetite for artificial intelligence infrastructure shows no sign of easing.
+
+- **[AI Bond Binge Overwhelms Wall Street, Pushing Alphabet Overseas](https://www.bloomberg.com/news/articles/2026-05-13/ai-bond-binge-overwhelms-wall-street-pushing-alphabet-overseas)**
+  - relevance: `1` · category: `AI` · scope: `international` · published: 2026-05-13 22:41 UTC
+  - Bankers were still putting the final touches on Alphabet Inc.’s blockbuster $17 billion of bond sales when word started to spread Monday morning on Wall Street: the company is already hawking more debt.
+
+- **[AI In Focus As Top CEOs Head To China For Trade Summit](https://www.bloomberg.com/news/videos/2026-05-13/ai-in-focus-as-top-ceos-head-to-china-for-trade-summit-video)**
+  - relevance: `1` · category: `AI` · scope: `international` · published: 2026-05-13 19:11 UTC
+  - US business leaders including Apple Inc.’s Tim Cook and Tesla Inc.’s Elon Musk on Trump’s first overseas trip since waging war in the Middle East &mdash; a 36-hour visit with Xi Jinping that’s expected to encompass the war, tariffs and the self-ruled island of Taiwan. The list of attendees until Tuesday had not included Huang, whose company makes the chips at the heart of the AI boom and has been pushing for greater leeway in a market he’s identified as a $50 billion opportunity. Bloomberg's Ed
+
+- **[Blackstone’s AirTrunk Seeks $2 Billion Loan for Malaysia Growth](https://www.bloomberg.com/news/articles/2026-05-14/blackstone-s-airtrunk-seeks-2-billion-loan-for-malaysia-growth)**
+  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-14 01:42 UTC
+  - Blackstone Inc.-owned data center firm AirTrunk is marketing a $2.3 billion loan to fund a Malaysia project, according to people familiar with the matter, part of a slew of tech-linked financings in Southeast Asia spurred by the artificial intelligence boom.
+
+- **[China’s Hot, Unprofitable AI Stocks Are Hard to Short Until July](https://www.bloomberg.com/news/articles/2026-05-13/china-s-hot-unprofitable-ai-stocks-are-hard-to-short-until-july)**
+  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-13 23:00 UTC
+  - Short sellers eying China’s hottest AI firms have found the going hard with so little of their shares publicly traded. That scarcity premium may come to an end in July as stock lockups expire.
+
+- **[Why the US Must Engage China on AI Safety Before It’s ‘Game Over’](https://www.bloomberg.com/news/articles/2026-05-13/why-the-us-must-engage-china-on-ai-safety-before-it-s-game-over)**
+  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-13 20:27 UTC
+  - Sebastian Mallaby of the Council on Foreign Relations says Chinese AI is closing the gap—and that means Washington can’t afford to ignore safety talks.
+
+- **[Cisco Soars on Sales Forecast, AI-Focused Restructuring Plan](https://www.bloomberg.com/news/articles/2026-05-13/cisco-gives-better-than-anticipated-forecast-plans-to-cut-jobs)**
+  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-13 20:15 UTC
+  - Cisco Systems Inc. gained as much as 19% in late trading after the company delivered a better-than-anticipated sales forecast and announced plans to cut thousands of jobs, an attempt to focus on the fast-growing AI market.
+
+- **[Hackers Are Already Using AI to Beef Up Their Attacks, Hide Their Activity](https://www.bloomberg.com/news/newsletters/2026-05-13/hackers-are-already-using-ai-to-beef-up-their-attacks-hide-their-activity)**
+  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-13 19:22 UTC
+  - Security personnel are catching attackers in new ways, too.
+
+- **[Fintech Bunq Applies for Banking License in Mexico](https://www.bloomberg.com/news/articles/2026-05-13/fintech-bunq-applies-for-mexican-banking-license-in-global-push)**
+  - relevance: `0` · category: `Fintech/E-wallet` · scope: `international` · published: 2026-05-13 15:39 UTC
+  - Bunq filed for a Mexican banking license, becoming the latest digital firm seeking to tap into Latin America’s fast-growing financial-technology market.
+
+- **[Amazon Puts Alexa Inside the Shopping Search Bar in AI Push](https://www.bloomberg.com/news/articles/2026-05-13/amazon-puts-alexa-inside-the-shopping-search-bar-in-ai-push)**
+  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-13 13:00 UTC
+  - Artificial intelligence algorithms are coming to some of the most valuable real estate in retail: the Amazon.com Inc. search bar.
+
+- **[Alibaba, Tencent Investors Look Past Slow Growth to AI Potential](https://www.bloomberg.com/news/articles/2026-05-13/alibaba-revenue-misses-estimates-despite-ai-monetization-efforts)**
+  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-13 09:39 UTC
+  - China’s twin technology leaders outlined steady progress in AI spheres from agents to cloud services, winning investors over despite lackluster results that reflected the challenges of monetizing artificial intelligence.
+
+### cafebiz (17)
+
+- **[Thông báo mới nhất từ cơ quan Thuế đến những ai chuẩn bị đi nước ngoài](https://cafebiz.vn/thong-bao-moi-nhat-tu-co-quan-thue-den-nhung-ai-chuan-bi-di-nuoc-ngoai-176260514091916361.chn)**
+  - relevance: `6` · category: `Travel/Khách sạn/Giải trí` · scope: `domestic` · published: —
+  - themes: payment_wallet_war
+  - signal: Regulation
+  - Thời gian gần đây, quy định về tạm hoãn xuất cảnh do nợ thuế đang nhận được sự quan tâm lớn từ người dân, hộ kinh doanh và cộng đồng doanh nghiệp, đặc biệt khi nhu cầu đi lại, công tác, du lịch, học tập ở nước ngoài ngày càng tăng. Nhiều người lo ngại việc bị tạm hoãn xuất cảnh có thể ảnh hưởng trực tiếp đến kế hoạch cá nhân và công việc nếu không kịp thời nắm bắt thông tin.
+
+- **[Thay đổi trên VNeID từ 15/5 mà người dân cần biết](https://cafebiz.vn/thay-doi-tren-vneid-tu-15-5-ma-nguoi-dan-can-biet-176260514091443849.chn)**
+  - relevance: `6` · category: `—` · scope: `domestic` · published: —
+  - themes: payment_wallet_war
+  - Từ 15/5 sẽ có đổi mới liên quan đến việc sử dụng VNeID mà người dân cần biết.
+
+- **[Không cần mặt bằng lớn, không cần vốn cao: 5 nghề phù hợp cho người từng bán hàng vỉa hè](https://cafebiz.vn/khong-can-mat-bang-lon-khong-can-von-cao-5-nghe-phu-hop-cho-nguoi-tung-ban-hang-via-he-176260514090157923.chn)**
+  - relevance: `6` · category: `—` · scope: `domestic` · published: —
+  - themes: platform_regulation
+  - signal: Regulation
+  - Nhiều địa phương bắt đầu siết chặt tình trạng buôn bán lấn chiếm vỉa hè khiến không ít người lao động phải tìm hướng mưu sinh mới. Nhưng thay vì bi quan, nhiều người từng bán hàng rong đang chuyển sang các công việc nhỏ gọn hơn, linh hoạt hơn và thậm chí cho thu nhập ổn định hơn trước – mà không cần mặt bằng lớn hay số vốn quá cao
+
+- **[Thuế chống bán phá giá tôm sang Mỹ: 132 doanh nghiệp gánh mức 'kịch khung' hơn 25%, Sao Ta và STAPIMEX chịu thuế bao nhiêu?](https://cafebiz.vn/thue-chong-ban-pha-gia-tom-sang-my-132-doanh-nghiep-ganh-muc-kich-khung-hon-25-sao-ta-va-stapimex-chiu-thue-bao-nhieu-176260514090040805.chn)**
+  - relevance: `6` · category: `—` · scope: `domestic` · published: —
+  - themes: payment_wallet_war
+  - signal: Regulation
+  - Phán quyết sơ bộ từ Bộ Thương mại Mỹ (DOC) tiếp tục duy trì mức thuế toàn quốc 25,76% đối với 132 doanh nghiệp tôm Việt Nam. Đáng chú ý, hai "đầu tàu" xuất khẩu là Sao Ta (FMC) và STAPIMEX cũng đã lộ diện mức thuế suất riêng rẽ, mang theo những rủi ro bất ngờ từ quy định dữ liệu sẵn có bất lợi.
+
+- **[Cảnh báo đến những người thích ăn dưa hấu: 5 sai lầm biến ngon thành "độc", có thể gây tử vong](https://cafebiz.vn/canh-bao-den-nhung-nguoi-thich-an-dua-hau-5-sai-lam-bien-ngon-thanh-doc-co-the-gay-tu-vong-176260514100204749.chn)**
+  - relevance: `5` · category: `—` · scope: `domestic` · published: —
+  - themes: payment_wallet_war
+  - Dưa hấu là một trong những loại trái cây được yêu thích nhất mùa hè. Thế nhưng, điều quyết định nó là món ngon hay món "độc" hoàn toàn nằm ở cách ăn của mỗi người.
+
+- **[Vietcombank, VietinBank, Agribank, BIDV ngừng toàn bộ giao dịch rút/chuyển tiền đối với 5 trường hợp sau](https://cafebiz.vn/vietcombank-vietinbank-agribank-bidv-ngung-toan-bo-giao-dich-rut-chuyen-tien-doi-voi-5-truong-hop-sau-176260514101940509.chn)**
   - relevance: `5` · category: `Fintech/E-wallet` · scope: `domestic` · published: —
   - themes: payment_wallet_war
-  - Sacombank OCB, Eximbank có thay đổi nhân sự cấp cao ở vị trí tổng giám đốc, phó tổng Giám đốc, thành viên hội đồng quản trị, thành viên ban kiểm soát.
+  - Có 5 trường hợp tài khoản ngân hàng sẽ bị tạm dừng giao dịch, bao gồm rút tiền và chuyển tiền mà người dùng cần lưu ý!
 
-- **[Hyundai Tucson sản xuất chưa đầy 1 năm đã phải thu hồi tại Việt Nam](https://cafebiz.vn/hyundai-tucson-san-xuat-chua-day-1-nam-da-phai-thu-hoi-tai-viet-nam-176260512084028233.chn)**
-  - relevance: `5` · category: `—` · scope: `domestic` · published: —
+- **[Cơn ác mộng của OpenAI: Anthropic nhắm thẳng mốc định giá 900 tỷ USD, chứng minh sai lầm lớn nhất của Sam Altman](https://cafebiz.vn/con-ac-mong-cua-openai-anthropic-nham-thang-moc-dinh-gia-900-ty-usd-chung-minh-sai-lam-lon-nhat-cua-sam-altman-176260514091524149.chn)**
+  - relevance: `5` · category: `AI` · scope: `domestic` · published: —
+  - themes: ai_infra_general
+  - signal: Funding
+  - Với tốc độ tăng trưởng không tưởng và sự ủng hộ tuyệt đối từ cộng đồng công nghệ, Anthropic chính thức bước ra khỏi bóng tối để khẳng định vị thế ông vua mới trong kỷ nguyên trí tuệ nhân tạo.
+
+- **[Nhà máy nào ở Tây Ninh liên quan bà Trương Mỹ Lan vừa bị rao bán đấu giá ngàn tỉ?](https://cafebiz.vn/nha-may-nao-o-tay-ninh-lien-quan-ba-truong-my-lan-vua-bi-rao-ban-dau-gia-ngan-ti-176260514085155357.chn)**
+  - relevance: `5` · category: `Fintech/E-wallet` · scope: `domestic` · published: —
+  - themes: payment_wallet_war
+  - Nhà máy Tanifood Tây Ninh liên quan bà Trương Mỹ Lan bị VietinBank rao bán đấu giá hơn 1.200 tỉ đồng để thu hồi nợ
+
+- **[Phóng viên Fox News sang Trung Quốc chưa kịp tác nghiệp tin ông Trump đã bị camera giao thông phạt 40 USD vì đỗ xe trái phép](https://cafebiz.vn/phong-vien-fox-news-sang-trung-quoc-chua-kip-tac-nghiep-tin-ong-trump-da-bi-camera-giao-thong-phat-40-usd-vi-do-xe-trai-phep-176260514105341596.chn)**
+  - relevance: `4` · category: `—` · scope: `domestic` · published: —
+  - themes: mobility_food_economics
+  - Nhóm phóng viên của Fox News bày tỏ sự bất ngờ về hệ thống camera giao thông dày đặc tại Trung Quốc. Thậm chí, tài xế vừa đỗ xe khoảng 2 phút đã bị xử phạt.
+
+- **[Nghiên cứu 20 năm của ĐH Harvard: 1 loại quả giúp kéo dài tuổi thọ, “thuốc quý” cho tim mạch, bán đầy chợ Việt mà nhiều người vẫn xem nhẹ](https://cafebiz.vn/nghien-cuu-20-nam-cua-dh-harvard-1-loai-qua-giup-keo-dai-tuoi-tho-thuoc-quy-cho-tim-mach-ban-day-cho-viet-ma-nhieu-nguoi-van-xem-nhe-17626051409132088.chn)**
+  - relevance: `4` · category: `—` · scope: `domestic` · published: —
+  - themes: vn_market_data
+  - Loại quả quen thuộc mà nhiều người Việt ăn hàng ngày hóa ra có nhiều công dụng hơn chúng ta tưởng.
+
+- **[Phát sinh giao dịch chuyển khoản chứa nội dung hoặc ký tự sau, người dân cần trình báo công an ngay](https://cafebiz.vn/phat-sinh-giao-dich-chuyen-khoan-chua-noi-dung-hoac-ky-tu-sau-nguoi-dan-can-trinh-bao-cong-an-ngay-176260514102011884.chn)**
+  - relevance: `0` · category: `Fintech/E-wallet` · scope: `domestic` · published: —
+  - Công an cảnh báo khẩn về thủ đoạn giả vờ chuyển khoản nhầm để "ép vay" lãi suất cao.
+
+- **[Phó Chủ tịch Ngân hàng SHB Đỗ Quang Vinh thông báo tin vui đến mọi người](https://cafebiz.vn/pho-chu-tich-ngan-hang-shb-do-quang-vinh-thong-bao-tin-vui-den-moi-nguoi-176260514105844525.chn)**
+  - relevance: `0` · category: `Fintech/E-wallet` · scope: `domestic` · published: —
+  - " Ba luôn cảm ơn ông trời đã cho em đến bên ba, cảm ơn toàn gia đình đã luôn ủng hộ, đồng hành, chăm sóc em và cảm ơn em đã luôn thương yêu ba", Đỗ Quang Vinh viết trên trang cá nhân.
+
+- **[Chuyển khoản với nội dung như thế này, người dân cần trình báo ngay lập tức](https://cafebiz.vn/chuyen-khoan-voi-noi-dung-nhu-the-nay-nguoi-dan-can-trinh-bao-ngay-lap-tuc-17626051316193671.chn)**
+  - relevance: `0` · category: `Fintech/E-wallet` · scope: `domestic` · published: —
+  - Chỉ vì tin tưởng và không kiểm tra kỹ thông tin, nhiều người đã mất sạch tiền mà không kịp nhận ra mình vừa sập bẫy.
+
+- **[Bảo hiểm xã hội Việt Nam phát thông báo quan trọng đến người dân cả nước](https://cafebiz.vn/bao-hiem-xa-hoi-viet-nam-phat-thong-bao-quan-trong-den-nguoi-dan-ca-nuoc-176260514094912009.chn)**
+  - relevance: `0` · category: `Chat` · scope: `domestic` · published: —
+  - Bảo hiểm xã hội (BHXH) Việt Nam khẳng định không gửi file cài đặt, đường link hay thông báo qua mạng xã hội, tin nhắn.
+
+- **[Nam sinh vùng cao giành học bổng tiến sĩ toàn phần hơn 7,5 tỷ đồng tại Mỹ](https://cafebiz.vn/nam-sinh-vung-cao-gianh-hoc-bong-tien-si-toan-phan-hon-75-ty-dong-tai-my-176260514092436331.chn)**
+  - relevance: `0` · category: `AI` · scope: `domestic` · published: —
+  - Từ học sinh vùng cao rụt rè, Nguyễn Hồng Anh theo đuổi ngành Trí tuệ nhân tạo và xuất sắc giành học bổng tiến sĩ toàn phần Mỹ trị giá 300.000 USD.
+
+- **[Bị ép làm việc 24/7 trong môi trường toxic, AI bắt đầu biết "lên mạng" kể khổ, bóc phốt môi trường làm việc độc hại như một nhân viên chính hiệu](https://cafebiz.vn/bi-ep-lam-viec-24-7-trong-moi-truong-toxic-ai-bat-dau-biet-len-mang-ke-kho-boc-phot-moi-truong-lam-viec-doc-hai-nhu-mot-nhan-vien-chinh-hieu-176260514093441142.chn)**
+  - relevance: `0` · category: `AI` · scope: `domestic` · published: —
+  - Nỗi lo mới của giới văn phòng: Không chỉ thạo việc, AI còn biết "bóc phốt" sếp khi môi trường quá toxic
+
+- **["Hào phóng" như giới hoạt hình AI Trung Quốc: Sản xuất 1.100 phim/ngày chỉ để "làm từ thiện" cho bãi rác nội dung khổng lồ trên mạng](https://cafebiz.vn/hao-phong-nhu-gioi-hoat-hinh-ai-trung-quoc-san-xuat-1100-phim-ngay-chi-de-lam-tu-thien-cho-bai-rac-noi-dung-khong-lo-tren-mang-176260514091818066.chn)**
+  - relevance: `0` · category: `AI` · scope: `domestic` · published: —
+  - Đằng sau ảo tưởng cứ chạm tay vào AI Manhua là hái ra tiền là một thực tại đầy nghiệt ngã.
+
+### cafef_doanhnghiep (13)
+
+- **[Nắm 62% thị phần, "ông vua" OLED tung át chủ bài TV 9,9mm mỏng hơn bút chí, tích hợp Gemini Copilot](https://cafef.vn/nam-62-thi-phan-ong-vua-oled-tung-at-chu-bai-tv-99mm-mong-hon-but-chi-tich-hop-gemini-copilot-188260514084829413.chn)**
+  - relevance: `12` · category: `AI/Big tech AI` · scope: `domestic` · published: 2026-05-14 01:54 UTC
+  - themes: vn_market_data, cross_brand_partnerships, ai_infra_general
+  - signal: Launch
+  - LG Electronics Việt Nam vừa ra mắt dải sản phẩm TV và thiết bị âm thanh thế hệ 2026 tại TP.HCM, tập trung vào công nghệ hiển thị và nền tảng trí tuệ nhân tạo nhằm đáp ứng nhu cầu nội địa.
+
+- **[Thuế chống bán phá giá tôm sang Mỹ: 132 doanh nghiệp gánh mức 'kịch khung' hơn 25%, Sao Ta và STAPIMEX chịu thuế bao nhiêu?](https://cafef.vn/thue-chong-ban-pha-gia-tom-sang-my-132-doanh-nghiep-ganh-muc-kich-khung-hon-25-sao-ta-va-stapimex-chiu-thue-bao-nhieu-188260514085559942.chn)**
+  - relevance: `6` · category: `—` · scope: `domestic` · published: 2026-05-14 01:59 UTC
+  - themes: payment_wallet_war
+  - signal: Regulation
+  - Phán quyết sơ bộ từ Bộ Thương mại Mỹ (DOC) tiếp tục duy trì mức thuế toàn quốc 25,76% đối với 132 doanh nghiệp tôm Việt Nam. Đáng chú ý, hai "đầu tàu" xuất khẩu là Sao Ta (FMC) và STAPIMEX cũng đã lộ diện mức thuế suất riêng rẽ, mang theo những rủi ro bất ngờ từ quy định dữ liệu sẵn có bất lợi.
+
+- **[GTEL được nâng cấp thành Tổng công ty trực thuộc Bộ Công an, phấn đấu trở thành hạt nhân Tổ hợp công nghiệp an ninh quốc gia](https://cafef.vn/gtel-duoc-nang-cap-thanh-tong-cong-ty-truc-thuoc-bo-cong-an-phan-dau-tro-thanh-hat-nhan-to-hop-cong-nghiep-an-ninh-quoc-gia-18826051400121999.chn)**
+  - relevance: `6` · category: `—` · scope: `domestic` · published: 2026-05-13 17:12 UTC
+  - themes: payment_wallet_war
+  - signal: Product_Feature
+  - Tại buổi lễ, Bộ trưởng Lương Tam Quang đã trao các quyết định điều động, bổ nhiệm giữ chức vụ Chủ tịch GTEL đối với Đại tá Lương Đức Minh.
+
+- **[Công bố Lệnh của Chủ tịch nước về luật thuế liên quan đến hộ kinh doanh](https://cafef.vn/cong-bo-lenh-cua-chu-tich-nuoc-ve-luat-thue-lien-quan-den-ho-kinh-doanh-188260513154612709.chn)**
+  - relevance: `6` · category: `—` · scope: `domestic` · published: 2026-05-13 09:45 UTC
+  - themes: payment_wallet_war
+  - signal: Launch
+  - Ngưỡng doanh thu miễn thuế 500 triệu đồng với hộ kinh doanh không còn được quy định trong luật mà giao cho Chính phủ quy định chi tiết ngưỡng này.
+
+- **[Rút từ 4 giờ xuống 10 phút: FPT đang triển khai "át chủ bài" chưa từng có trên sườn dốc Điện Biên nhằm tạo thêm 2.630 tỷ đồng](https://cafef.vn/rut-tu-4-gio-xuong-10-phut-fpt-dang-trien-khai-at-chu-bai-chua-tung-co-tren-suon-doc-dien-bien-nham-tao-them-2630-ty-dong-188260514102113752.chn)**
+  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-14 03:21 UTC
+  - themes: cross_brand_partnerships
+  - signal: Launch
+  - Tại những sườn dốc của Điện Biên — nơi máy móc thông thường phải 'bó tay' — một liên minh công nghệ Việt do FPT dẫn đầu vừa tung ra lời giải trị giá 2.630 tỷ đồng mỗi năm.
+
+- **[Nóng: Founder hãng gọi xe Gojek bị kết án 18 năm tù](https://cafef.vn/nong-founder-hang-goi-xe-gojek-bi-ket-an-18-nam-tu-188260513212513159.chn)**
+  - relevance: `5` · category: `Ride/Food delivery` · scope: `domestic` · published: 2026-05-13 14:25 UTC
+  - themes: mobility_food_economics
+  - Các công tố viên Indonesia vừa đề nghị mức án 18 năm tù đối với ông Nadiem Makarim - cựu Bộ trưởng Giáo dục kiêm người sáng lập “kỳ lân” Gojek.
+
+- **[Tasco Auto lần đầu tiên bán siêu xe, giá cao nhất 13 tỷ đồng](https://cafef.vn/tasco-auto-lan-dau-tien-ban-sieu-xe-gia-cao-nhat-13-ty-dong-18826051315335694.chn)**
+  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-13 08:34 UTC
+  - themes: vn_market_data
+  - signal: Launch
+  - Tại Việt Nam, Lotus giới thiệu đồng thời 4 dòng xe chiến lược gồm Emira, Eletre, Emeya và Evija.
+
+- **[Bắt nhóm tài xế "hack" cước Xanh SM](https://cafef.vn/bat-nhom-tai-xe-hack-cuoc-xanh-sm-dung-thiet-bi-500000-dong-de-vo-hieu-hoa-cam-bien-xe-vinfast-188260513120259834.chn)**
+  - relevance: `5` · category: `Ride/Food delivery` · scope: `domestic` · published: 2026-05-13 05:10 UTC
+  - themes: mobility_food_economics
+  - Cơ quan Cảnh sát điều tra Công an tỉnh Thái Nguyên vừa thực hiện lệnh bắt tạm giam 4 đối tượng liên quan đến hành vi sử dụng thiết bị công nghệ can thiệp trái phép vào hệ thống giám sát của Công ty Cổ phần Di chuyển Xanh và Thông minh GSM nhằm mục đích chiếm đoạt tài sản.
+
+- **[Đón sóng tăng trưởng Ready-to-eat, Thọ Phát phủ sóng mạnh kênh phân phối](https://cafef.vn/don-song-tang-truong-ready-to-eat-tho-phat-phu-song-manh-kenh-phan-phoi-188260513075109809.chn)**
+  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-13 01:00 UTC
+  - themes: vn_market_data
+  - signal: Performance
+  - Thị trường thực phẩm chế biến sẵn (Ready-to-eat) tại Việt Nam đang ngày một bùng nổ. Theo các số liệu vĩ mô, tốc độ tăng trưởng của ngành hàng này dự kiến đạt 4,7% trong giai đoạn từ 2025 – 2033, đặc biệt tăng trưởng mạnh tại các thành phố lớn nơi nhịp sống bận rộn lên ngôi.
+
+- **[Bidiphar hợp tác Citek dự án chuyển đổi số quy mô lớn](https://cafef.vn/bidiphar-hop-tac-citek-du-an-chuyen-doi-so-quy-mo-lon-188260513153328061.chn)**
+  - relevance: `4` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-13 08:30 UTC
+  - themes: cross_brand_partnerships
+  - signal: Partnership
+  - Ngày 11/05/2026, công ty Cổ phần Dược – Trang thiết bị Y tế Bình Định (HOSE: DBD) và Citek chính thức khởi động dự án chuyển đổi số với phạm vi: chuyển đổi hệ thống quản trị lên SAP S/4HANA Private Cloud, triển khai CSV đáp ứng tiêu chuẩn GMP-EU, áp dụng IFRS, ứng dụng QR Code và xây dựng nền tảng Data Warehouse & BI.
+
+- **[Thế "tiến thoái lưỡng nan" của FPT Telecom](https://cafef.vn/the-tien-thoai-luong-nan-cua-fpt-telecom-188260512160251011.chn)**
+  - relevance: `2` · category: `—` · scope: `domestic` · published: 2026-05-12 09:02 UTC
+  - signal: Regulation
+  - FPT Telecom cho biết sẽ nghiên cứu và triển khai các phương án phù hợp nhằm khắc phục tình trạng này, bảo đảm đáp ứng quy định pháp luật về điều kiện công ty đại chúng trong thời hạn theo quy định.
+
+- **[Chủ tịch Tào Đức Thắng nói về áp lực của Tập đoàn Viettel](https://cafef.vn/chu-tich-tao-duc-thang-noi-ve-ap-luc-cua-tap-doan-viettel-188260513160301713.chn)**
+  - relevance: `1` · category: `—` · scope: `domestic` · published: 2026-05-13 09:02 UTC
+  - Ông Tào Đức Thắng cho rằng không có môi trường phát triển nào chỉ toàn thuận lợi. Nếu không có mục tiêu, thách thức và áp lực tích cực, mỗi cá nhân sẽ khó trưởng thành như mong đợi.
+
+- **[Chủ tịch Đỗ Quang Vinh bất ngờ làm "thầy giáo"](https://cafef.vn/chu-tich-do-quang-vinh-bat-ngo-lam-thay-giao-188260512134448342.chn)**
+  - relevance: `0` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-12 06:46 UTC
+  - Việc Phó Chủ tịch HĐQT SHB Đỗ Quang Vinh trực tiếp tham gia đào tạo nghiệp vụ tín dụng cho nghiên cứu sinh diễn ra trong bối cảnh Ngân hàng SHB đang thúc đẩy mạnh mẽ chiến lược chuyển đổi số và mô hình ngân hàng hệ sinh thái.
+
+### cafef_kinhteso (31)
+
+- **[Digital Trust in Finance: CAEX chia sẻ quan điểm xây dựng sàn tài sản mã hóa](https://cafef.vn/digital-trust-in-finance-caex-chia-sequan-diem-xay-dung-san-tai-san-ma-hoa-188260512091814923.chn)**
+  - relevance: `11` · category: `—` · scope: `domestic` · published: 2026-05-12 02:25 UTC
+  - themes: payment_wallet_war, platform_regulation
+  - signal: Regulation
+  - Trong bối cảnh Việt Nam bắt đầu mở đường cho thị trường tài sản mã hóa thông qua khung pháp lý thí điểm theo Nghị quyết 05/2025/NQ-CP, điều thị trường quan tâm không chỉ là doanh nghiệp nào sẽ tham gia, mà còn là cách các doanh nghiệp đó xây dựng nền tảng, quản trị rủi ro và bảo vệ người dùng như thế nào.
+
+- **[Từ ngày 1/7, lý lịch tư pháp sẽ hiển thị trên VNeID, gồm những thông tin gì?](https://cafef.vn/tu-ngay-1-7-ly-lich-tu-phap-se-hien-thi-tren-vneid-gom-nhung-thong-tin-gi-188260512171455701.chn)**
+  - relevance: `10` · category: `—` · scope: `domestic` · published: 2026-05-12 10:30 UTC
+  - themes: payment_wallet_war, cross_brand_partnerships
+  - signal: Partnership
+  - Từ ngày 1/7, thông tin lý lịch tư pháp sẽ chính thức được tích hợp và hiển thị trên ứng dụng VNeID. Đây được xem là bước tiến mới trong quá trình chuyển đổi số, giúp người dân tiếp cận thông tin pháp lý cá nhân thuận tiện hơn, đồng thời giảm đáng kể thời gian và thủ tục hành chính.
+
+- **[Gemini trên Android đã có thể làm việc thay bạn](https://cafef.vn/gemini-tren-android-da-co-the-lam-viec-thay-ban-188260513084406721.chn)**
+  - relevance: `8` · category: `AI` · scope: `domestic` · published: 2026-05-13 02:36 UTC
+  - themes: cross_brand_partnerships, ai_infra_general
+  - signal: Launch
+  - Gemini sẽ có thêm khả năng tạo widget Android theo mô tả bằng ngôn ngữ thông thường, tích hợp vào Gboard với tính năng Rambler chuyển giọng nói thành văn bản, và ra mắt trước trên Samsung Galaxy và Google Pixel trong mùa hè này.
+
+- **[Thay đổi quan trọng về BHXH trên VNeID, người dân cần cập nhật ngay để không bỏ lỡ quyền lợi!](https://cafef.vn/thay-doi-quan-trong-ve-bhxh-tren-vneid-nguoi-dan-can-cap-nhat-ngay-de-khong-bo-lo-quyen-loi-188260513084052177.chn)**
+  - relevance: `7` · category: `—` · scope: `domestic` · published: 2026-05-13 01:40 UTC
+  - themes: payment_wallet_war
+  - signal: Product_Feature
+  - Quyết định số 366/QĐ-BHXH về Quy trình thu BHXH, BHYT, BHTN; cấp sổ BHXH, thẻ BHYT. đã điều chỉnh việc phân cấp, phân quyền đối với tổ chức, cá nhân thuộc hệ thống BHXH Việt Nam trong thực hiện công tác thu, cấp sổ BHXH, thẻ BHYT.
+
+- **[Claude bị biến thành “đồng phạm” với hacker: Tự viết 17.000 dòng code, 49 module tấn công, nhắm thẳng vào hạ tầng nước của thành phố](https://cafef.vn/claude-bi-bien-thanh-dong-pham-voi-hacker-tu-viet-17000-dong-code-49-module-tan-cong-nham-thang-vao-ha-tang-nuoc-cua-thanh-pho-188260514074304487.chn)**
+  - relevance: `5` · category: `AI` · scope: `domestic` · published: 2026-05-14 03:37 UTC
+  - themes: ai_infra_general
+  - signal: Campaign_Marketing
+  - Dù Anthropic nhiều lần ca ngợi về khả năng đạo đức của Claude, chatbot AI này vẫn dễ dàng bị hacker qua mặt và tích cực hỗ trợ cho chiến dịch tấn công nhắm thẳng vào hệ thống hạ tầng quan trọng của thành phố.
+
+- **[Người phụ nữ SN 1983 có giao dịch 15 triệu đồng với tài khoản mở tại Vietcombank, Công an vào cuộc xác minh dòng tiền](https://cafef.vn/nguoi-phu-nu-sn-1983-co-giao-dich-15-trieu-dong-voi-tai-khoan-mo-tai-vietcombank-cong-an-vao-cuoc-xac-minh-dong-tien-188260513182624583.chn)**
+  - relevance: `5` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-13 11:50 UTC
+  - themes: payment_wallet_war
+  - Vào ngày 11/5, chị Hà Thị Nam đã đến cơ quan Công an trình báo về giao dịch chuyển khoản 15 triệu đồng.
+
+- **[Đến năm 2045, Việt Nam là trung tâm công nghiệp công nghệ số hàng đầu khu vực](https://cafef.vn/den-nam-2045-viet-nam-la-trung-tam-cong-nghiep-cong-nghe-so-hang-dau-khu-vuc-188260513155254767.chn)**
+  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-13 10:46 UTC
+  - themes: payment_wallet_war
+  - Phó Thủ tướng Hồ Quốc Dũng ký Quyết định số 840/QĐ-TTg ngày 13/5/206 phê duyệt Chương trình phát triển công nghiệp công nghệ số giai đoạn 2026 - 2030, tầm nhìn 2045 (Chương trình).
+
+- **[Anthropic ra mắt "trợ lý AI ngành luật", thu hút hơn 20.000 người đăng ký](https://cafef.vn/anthropic-ra-mat-tro-ly-ai-nganh-luat-thu-hut-hon-20000-nguoi-dang-ky-18826051314223985.chn)**
+  - relevance: `5` · category: `AI` · scope: `domestic` · published: 2026-05-13 08:35 UTC
+  - themes: ai_infra_general
+  - signal: Launch
+  - Anthropic đang biến Claude thành “trợ lý pháp lý AI” có thể kết nối trực tiếp với các phần mềm luật chuyên dụng, làm nóng thêm cuộc đua AI trong ngành pháp lý.
+
+- **[Phát hiện thú vị về xu hướng đi xe 2 bánh ở Việt Nam, chuyên gia quốc tế cảm thán: "Môi trường giao thông Việt Nam đông đúc và biến động nhanh bậc nhất châu Á"](https://cafef.vn/phat-hien-thu-vi-ve-xu-huong-di-xe-2-banh-o-viet-nam-chuyen-gia-quoc-te-cam-than-moi-truong-giao-thong-viet-nam-dong-duc-va-bien-dong-nhanh-bac-nhat-chau-a-188260512170721468.chn)**
+  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-12 10:06 UTC
   - themes: vn_market_data
   - signal: Expansion
-  - Hàng loạt xe Hyundai Tucson tại Việt Nam vừa được thông báo thu hồi do lỗi cụm đồng hồ trung tâm có thể tự khởi động lại khi vận hành.
+  - Một nghiên cứu mới của HERE Technologies cho thấy người sử dụng xe hai bánh tại Việt Nam đang phụ thuộc đáng kể vào các công nghệ điều hướng theo thời gian thực để duy trì thu nhập, nâng cao an toàn và cải thiện khả năng kiểm soát phương tiện trong điều kiện giao thông ngày càng phức tạp.
 
-- **[AI có thể trở thành “sếp” trong doanh nghiệp tương lai?](https://cafebiz.vn/ai-co-the-tro-thanh-sep-trong-doanh-nghiep-tuong-lai-176260512080744247.chn)**
-  - relevance: `5` · category: `AI` · scope: `domestic` · published: —
+- **[Thông tin mới liên quan đến số định danh điện tử mà người dân cần nắm rõ](https://cafef.vn/thong-tin-moi-lien-quan-den-so-dinh-danh-dien-tu-ma-nguoi-dan-can-nam-ro-188260512151231639.chn)**
+  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-12 09:12 UTC
+  - themes: payment_wallet_war
+  - Công an Hà Nội vừa có thông báo liên quan đến Căn cước và định danh điện tử.
+
+- **[Qualcomm khai trương Trung tâm R&D mới tại Hà Nội: Kỹ sư Việt sẽ trực tiếp tham gia thiết kế, phát triển các công nghệ quan trọng](https://cafef.vn/qualcomm-khai-truong-trung-tam-rd-moi-tai-ha-noi-ky-su-viet-se-truc-tiep-tham-gia-thiet-ke-phat-trien-cac-cong-nghe-quan-trong-188260512152136307.chn)**
+  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-12 08:21 UTC
+  - themes: vn_market_data
+  - signal: Launch
+  - Ngày 12/5, Qualcomm đã chính thức công bố khai trương Trung tâm Nghiên cứu và Phát triển (R&D) tại Hà Nội, đánh dấu một cột mốc mới trong cam kết đầu tư dài hạn của công ty đối với hệ sinh thái công nghệ đang phát triển mạnh mẽ tại Việt Nam.
+
+- **[AI có thể trở thành “sếp” trong doanh nghiệp tương lai?](https://cafef.vn/ai-co-the-tro-thanh-sep-trong-doanh-nghiep-tuong-lai-188260512101135862.chn)**
+  - relevance: `5` · category: `AI` · scope: `domestic` · published: 2026-05-12 06:41 UTC
   - themes: payment_wallet_war
   - AI đang âm thầm bước vào phòng họp của các tập đoàn lớn, đưa ra chiến lược và tư vấn quyết định. Câu hỏi đặt ra lúc này là: liệu một AI có thể trở thành thành viên hội đồng quản trị trong tương lai?
 
-- **[Vụ ồn ào của Miu Lê: Công an Thành phố Hải Phòng thông tin về địa điểm 6 đối tượng sử dụng ma túy](https://cafebiz.vn/vu-on-ao-cua-miu-le-cong-an-thanh-pho-hai-phong-thong-tin-ve-dia-diem-6-doi-tuong-su-dung-ma-tuy-176260511213811809.chn)**
-  - relevance: `5` · category: `—` · scope: `domestic` · published: —
-  - themes: payment_wallet_war
-  - Chiều 11/5, Cổng thông tin điện tử Công an TP Hải Phòng đăng tải thông tin về vụ việc 6 người bị phát hiện có hành vi sử dụng trái phép chất ma túy tại khu vực bãi tắm Tùng Thu, trong đó có ca sĩ Miu Lê.
-
-- **[Cuộc chiến mới của Google và OpenAI: Biến AI thành “trợ lý shopping”](https://cafebiz.vn/cuoc-chien-moi-cua-google-va-openai-bien-ai-thanh-tro-ly-shopping-176260512081207481.chn)**
-  - relevance: `4` · category: `AI` · scope: `domestic` · published: —
-  - themes: ai_infra_general
-  - Không chỉ dừng lại ở việc tư vấn, Google và OpenAI đang lao vào cuộc chiến tỷ đô để biến AI thành những "trợ lý" có khả năng tự cầm ví và chốt đơn thay người dùng.
-
-- **[Tín dụng đang 'chạy nhanh hơn' huy động vốn](https://cafebiz.vn/tin-dung-dang-chay-nhanh-hon-huy-dong-von-176260512075343822.chn)**
-  - relevance: `1` · category: `Fintech/E-wallet` · scope: `domestic` · published: —
-  - signal: Performance
-  - Tăng trưởng tín dụng đang vượt xa huy động tại nhiều ngân hàng trong quý I/2026, khiến áp lực nguồn vốn và thanh khoản ngày càng rõ nét.
-
-- **[Vô tình tìm kiếm tên mình trên mạng, một luật sư Trung Quốc bất ngờ bị AI kết án 3 năm tù](https://cafebiz.vn/vo-tinh-tim-kiem-ten-minh-tren-mang-mot-luat-su-trung-quoc-bat-ngo-bi-ai-ket-an-3-nam-tu-176260512073741856.chn)**
-  - relevance: `1` · category: `AI` · scope: `domestic` · published: —
-  - signal: Regulation
-  - Điều gì sẽ xảy ra khi một ngày bạn tìm kiếm tên mình trên mạng và thấy AI kết luận rằng mình đã…bị kết án tù 3 năm?
-
-- **[1 phút 4 giây bài phát biểu từ 4 năm trước của nguyên hiệu trưởng ĐH Sư phạm Hà Nội viral trở lại](https://cafebiz.vn/1-phut-4-giay-bai-phat-bieu-tu-4-nam-truoc-cua-nguyen-hieu-truong-dh-su-pham-ha-noi-viral-tro-lai-176260512084217548.chn)**
-  - relevance: `0` · category: `Chat` · scope: `domestic` · published: —
-  - Một đoạn video từ lễ tốt nghiệp cách đây vài năm của Trường Đại học Sư phạm Hà Nội đang bất ngờ viral trở lại trên mạng xã hội.
-
-- **[Lãi suất ngân hàng SHB mới nhất tháng 5/2026: Gửi kỳ hạn nào nhận lãi suất cao nhất?](https://cafebiz.vn/lai-suat-ngan-hang-shb-moi-nhat-thang-5-2026-gui-ky-han-nao-nhan-lai-suat-cao-nhat-176260511205819544.chn)**
-  - relevance: `0` · category: `Fintech/E-wallet` · scope: `domestic` · published: —
-  - Trong tháng 5/2026, SHB áp dụng mức lãi suất huy động cao nhất lên tới 6,70%/năm ở các kỳ hạn từ 24 tháng trở lên.
-
-- **[Chủ đề khiến dân văn phòng thi nhau kể chuyện: Nghề tay trái nào nghe “lạ” nhưng lại giúp nhiều người kiếm thêm, 10 người thì 9 người làm 1 NGHỀ NÀY!](https://cafebiz.vn/chu-de-khien-dan-van-phong-thi-nhau-ke-chuyen-nghe-tay-trai-nao-nghe-la-nhung-lai-giup-nhieu-nguoi-kiem-them-10-nguoi-thi-9-nguoi-lam-1-nghe-nay-176260511144721279.chn)**
-  - relevance: `0` · category: `Chat` · scope: `domestic` · published: —
-  - Giữa lúc nhiều người trẻ ngày càng áp lực vì thu nhập khó theo kịp chi phí sinh hoạt, câu chuyện về những nghề tay trái vừa thú vị vừa mang lại nguồn thu nhập khá bất ngờ trở thành chủ đề được dân văn phòng bàn luận rôm rả trên mạng xã hội.
-
-### cafef_doanhnghiep (9)
-
-- **[Công an TP. Hà Nội kiểm tra gần 10.000 cơ sở kinh doanh trong Quý II/2026](https://cafef.vn/cong-an-tp-ha-noi-kiem-tra-gan-10000-co-so-kinh-doanh-trong-quy-ii-2026-18826051021463956.chn)**
-  - relevance: `11` · category: `—` · scope: `domestic` · published: 2026-05-10 14:50 UTC
-  - themes: payment_wallet_war, platform_regulation
-  - signal: Regulation
-  - Công an TP. Hà Nội vừa ban hành Kế hoạch số 83/KH-CAHN-ANKT về việc kiểm tra việc chấp hành các quy định pháp luật đối với 9.960 doanh nghiệp, hộ kinh doanh và cá nhân trên địa bàn trong giai đoạn cao điểm Quý II/2026.
-
-- **[Người Việt duy nhất trong phòng họp ĐHCĐ Berkshire Hathaway 14 năm trước: Nếu đầu tư không thể dựa vào cảm xúc, tin đồn thì rốt cuộc phải dựa vào đâu?](https://cafef.vn/nguoi-viet-duy-nhat-trong-phong-hop-dhcd-berkshire-hathaway-14-nam-truoc-neu-dau-tu-khong-the-dua-vao-cam-xuc-tin-don-thi-rot-cuoc-phai-dua-vao-dau-188260511080319492.chn)**
-  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-11 01:02 UTC
+- **[Được đánh giá là một trong những điểm đến hấp dẫn nhất Đông Nam Á, chuyên gia chỉ ra những lĩnh vực 'hot' tại Việt Nam đang 'lọt mắt xanh' các nhà đầu tư quốc tế?](https://cafef.vn/duoc-danh-gia-la-mot-trong-nhung-diem-den-hap-dan-nhat-dong-nam-a-chuyen-gia-chi-ra-nhung-linh-vuc-hot-tai-viet-nam-dang-lot-mat-xanh-cac-nha-dau-tu-quoc-te-188260512121027055.chn)**
+  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-12 05:10 UTC
   - themes: vn_market_data
-  - signal: Funding
-  - Năm 2012, giữa hàng chục nghìn cổ đông tham dự đại hội thường niên của Berkshire Hathaway, có một người Việt Nam ngồi trong khán phòng là ông Hoàng Quốc Anh, hiện là Giám đốc điều hành, Phó Tổng Thư ký Hội Thành viên Độc lập Hội đồng Quản trị Doanh nghiệp Việt Nam (VNIDA).
-
-- **[Tiêu tốn 2 triệu giờ công tạo nên kho nổi 74.000 tấn chứa nửa triệu thùng dầu, 'ông trùm' dịch vụ Dầu khí Việt Nam thu 8.700 tỷ trong 30 ngày đầu năm](https://cafef.vn/tieu-ton-2-trieu-gio-cong-tao-nen-kho-noi-74000-tan-chua-nua-trieu-thung-dau-ong-trum-dich-vu-dau-khi-viet-nam-thu-8700-ty-trong-30-ngay-dau-nam-188260509230523668.chn)**
-  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-09 17:04 UTC
-  - themes: vn_market_data
-  - signal: Performance
-  - Việc Tổng công ty Cổ phần Dịch vụ Kỹ thuật Dầu khí Việt Nam (PVS) hạ thủy kho nổi Lạc Đà Vàng giúp củng cố thị phần, hỗ trợ doanh thu gần 8.700 tỷ đồng trong quý 1/2026.
-
-- **[Jollibee Việt Nam đạt bảo chứng quốc tế về ATTP: Để nỗi lo nhường chỗ cho những bữa ăn trăm phần trăm vui vẻ](https://cafef.vn/jollibee-viet-nam-dat-bao-chung-quoc-te-ve-attp-de-noi-lo-nhuong-cho-cho-nhung-bua-an-tram-phan-tram-vui-ve-188260509094524105.chn)**
-  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-09 03:00 UTC
-  - themes: payment_wallet_war
-  - An toàn thực phẩm đang là "điểm nóng" thách thức toàn ngành F&B. Giữa bối cảnh đó, nhà máy của Jollibee Việt Nam đạt chứng nhận FSSC 22000 do SGS cấp không chỉ là một bảo chứng chất lượng, mà còn là cam kết từ Jollibee Việt Nam: Mang đến trọn vẹn 100% niềm vui trong từng bữa ăn, cho mỗi gia đình Việt.
-
-- **[The Coffee House tái định vị, mục tiêu dẫn đầu chuỗi Espresso Việt](https://cafef.vn/the-coffee-house-tai-dinh-vi-muc-tieu-dan-dau-chuoi-espresso-viet-188260511073000969.chn)**
-  - relevance: `4` · category: `—` · scope: `domestic` · published: 2026-05-11 03:00 UTC
-  - themes: vn_market_data
-  - Sức ép từ làn sóng các thương hiệu trẻ đang buộc những tên tuổi F&B lâu năm phải gạt bỏ lối mòn để tìm hướng đi mới. Trước bối cảnh này, The Coffee House lựa chọn tập trung vào giá trị cốt lõi, chính thức định vị trở thành "chuỗi Espresso của người Việt hàng đầu về chất lượng cà phê".
-
-- **[Chính quyền tỉnh Champasak và Bầu Đức ký thỏa thuận phát triển 5.000 ha cà phê, nhắm mục tiêu vùng trồng lớn nhất thế giới](https://cafef.vn/chinh-quyen-tinh-champasak-va-bau-duc-ky-thoa-thuan-phat-trien-5000-ha-ca-phe-nham-muc-tieu-vung-trong-lon-nhat-the-gioi-188260510230216045.chn)**
-  - relevance: `4` · category: `—` · scope: `domestic` · published: 2026-05-10 17:01 UTC
-  - themes: cross_brand_partnerships
-  - signal: Partnership
-  - Tập đoàn Hoàng Anh Gia Lai và chính quyền tỉnh Champasak (Lào) đã ký kết biên bản ghi nhớ về việc hợp tác phát triển vùng nguyên liệu 5.000 ha cà phê.
-
-- **[VNSteel công bố phán quyết của trọng tài về vụ tranh chấp lô đất 2 mặt tiền tại TP HCM](https://cafef.vn/vnsteel-cong-bo-phan-quyet-cua-trong-tai-ve-vu-tranh-chap-lo-dat-2-mat-tien-tai-tp-hcm-188260509230651423.chn)**
-  - relevance: `4` · category: `—` · scope: `domestic` · published: 2026-05-09 17:06 UTC
-  - themes: cross_brand_partnerships
   - signal: Launch
-  - Ngày 8/5, Hội đồng Trọng tài đã chấp thuận yêu cầu của VNSteel về việc chấm dứt Thỏa thuận hợp tác đầu tư giữa VNSteel và Công ty cổ phần Địa ốc An Huy.
-
-- **[Kỷ lục tại Tân Sơn Nhất và cú đột biến tại Nội Bài: Điều gì đã xảy ra?](https://cafef.vn/ky-luc-tai-tan-son-nhat-va-cu-dot-bien-tai-noi-bai-dieu-gi-da-xay-ra-188260510235822954.chn)**
-  - relevance: `2` · category: `—` · scope: `domestic` · published: 2026-05-10 17:10 UTC
-  - signal: Launch
-  - Căng thẳng biển Đỏ, tình hình tắc nghẽn cảng biển tại một số thời điểm đã đem lại vận may bất ngờ cho các công ty dịch vụ hàng hóa hàng không, bên cạnh veiejc Samsung, Apple, Foxconn... ra mắt sản phẩm mới.
-
-- **[Thaigroup hé lộ kế hoạch siêu tổ hợp dự án 128.000 tỷ đồng hơn 1.000ha tại Ninh Bình](https://cafef.vn/thaigroup-he-lo-ke-hoach-sieu-to-hop-du-an-128000-ty-dong-hon-1000ha-tai-ninh-binh-188260511105945723.chn)**
-  - relevance: `0` · category: `Travel/Khách sạn/Giải trí` · scope: `domestic` · published: 2026-05-11 04:00 UTC
-  - Tổ hợp sẽ phát triển từ 15.000 – 20.000 phòng khách sạn và nghỉ dưỡng nhằm đáp ứng nhu cầu lưu trú ngày càng tăng tại Ninh Bình – địa phương đã đón khoảng 19,4 triệu lượt khách trong năm 2025.
-
-### cafef_kinhteso (35)
-
-- **[Microsoft từng lo ngại OpenAI “quay xe” sang Amazon: Hậu trường căng thẳng trước khoản đầu tư 1 tỷ USD](https://cafef.vn/microsoft-tung-lo-ngai-openai-quay-xe-sang-amazon-hau-truong-cang-thang-truoc-khoan-dau-tu-1-ty-usd-188260510072844249.chn)**
-  - relevance: `8` · category: `AI` · scope: `domestic` · published: 2026-05-10 02:30 UTC
-  - themes: cross_brand_partnerships, ai_infra_general
-  - signal: Funding
-  - Các tài liệu tòa án vừa hé lộ giai đoạn Microsoft từng lo ngại OpenAI sẽ chuyển sang Amazon và “nói xấu” Azure trước khi hai bên trở thành liên minh AI quyền lực nhất thế giới.
-
-- **[OpenAI ra mắt API giọng nói mới](https://cafef.vn/openai-ra-mat-api-giong-noi-moi-188260509130225373.chn)**
-  - relevance: `8` · category: `AI` · scope: `domestic` · published: 2026-05-09 13:00 UTC
-  - themes: cross_brand_partnerships, ai_infra_general
-  - signal: Launch
-  - GPT-Realtime-2, model mới nhất trong bộ ba, được tích hợp khả năng suy luận tương đương GPT-5 và tính phí theo token thay vì theo phút.
-
-- **[Công an đã phát hiện ra nguyên nhân người dân có thể bị đánh cắp thông tin cá nhân, tài khoản VNeID, Facebook...](https://cafef.vn/cong-an-da-phat-hien-ra-nguyen-nhan-nguoi-dan-co-the-bi-danh-cap-thong-tin-ca-nhan-tai-khoan-vneid-facebook-188260509142501532.chn)**
-  - relevance: `6` · category: `—` · scope: `domestic` · published: 2026-05-09 07:30 UTC
-  - themes: payment_wallet_war
-  - Với thủ đoạn lừa đảo này, Công an tỉnh Ninh Bình đã có nhiều khuyến cáo tới người dân.
+  - Sáng nay, tại Hà Nội, Trung tâm Đổi mới sáng tạo Quốc gia (NIC) đã phối hợp cùng Tổ chức Phát triển đầu tư vốn tư nhân (VPCA) và Quỹ DO Ventures  tổ chức Buổi công bố thông tin chính thức Diễn đàn Đầu tư đổi mới sáng tạo Việt Nam 2026 (VIPC Summit 2026).
 
 - **[75 nhân viên OpenAI bỏ túi 30 triệu USD chỉ sau 1 đêm: Cơn mưa tiền chưa từng có!](https://cafef.vn/75-nhan-vien-openai-bo-tui-30-trieu-usd-chi-sau-1-dem-con-mua-tien-chua-tung-co-188260512070547745.chn)**
   - relevance: `5` · category: `AI` · scope: `domestic` · published: 2026-05-12 01:49 UTC
@@ -277,155 +380,90 @@
   - signal: Expansion
   - Chuyên gia cho rằng Việt Nam đang phải đối mặt với nhiều mối đe doạ dài hạn từ trí tuệ nhân tạo (AI).
 
-- **[Xây nhà máy lắp ráp và kiểm định chip lớn nhất thế giới tại Việt Nam, đại bàng Mỹ tin tưởng chuyển giao 31 thiết bị quan trọng](https://cafef.vn/xay-nha-may-lap-rap-va-kiem-dinh-chip-lon-nhat-the-gioi-tai-viet-nam-dai-bang-my-tin-tuong-chuyen-giao-31-thiet-bi-quan-trong-188260511153941088.chn)**
-  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-11 09:31 UTC
-  - themes: vn_market_data
-  - signal: Expansion
-  - Đại bàng Mỹ tin tưởng chuyển giao 31 thiết bị quan trọng cho Việt Nam.
-
-- **[Loạt công nghệ đẳng cấp "Make by Viettel" xuất hiện tại Thổ Nhỹ Kỳ](https://cafef.vn/loat-cong-nghe-dang-cap-make-by-viettel-xuat-hien-tai-tho-nhy-ky-188260511144149168.chn)**
-  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-11 07:41 UTC
+- **[Hai cỗ máy của Figure AI gật đầu hiểu ý nhau: Bước ngoặt lịch sử hay khoảnh khắc rùng mình?](https://cafef.vn/hai-co-may-cua-figure-ai-gat-dau-hieu-y-nhau-buoc-ngoat-lich-su-hay-khoanh-khac-rung-minh-188260512075417356.chn)**
+  - relevance: `4` · category: `AI` · scope: `domestic` · published: 2026-05-12 08:15 UTC
   - themes: cross_brand_partnerships
-  - signal: Partnership
-  - Viettel High Tech mở rộng hợp tác công nghệ quốc phòng với hàng loạt đối tác Thổ Nhĩ Kỳ.
-
-- **[Thanh niên SN 2004 được chuyển khoản 100 triệu đồng, Công an nhanh chóng xác minh nội dung giao dịch](https://cafef.vn/thanh-nien-sn-2004-duoc-chuyen-khoan-100-trieu-dong-cong-an-nhanh-chong-xac-minh-noi-dung-giao-dich-188260510140350194.chn)**
-  - relevance: `5` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-10 07:13 UTC
-  - themes: payment_wallet_war
-  - Ngày 7/5, anh Trương Minh Đức nhận được 100 triệu đồng từ tài khoản đuôi 6789, mở tại ngân hàng Techcombank, kèm nội dung giao dịch là "alis TRUONG MINH DUC".
-
-- **[“Bố già” AI ra mắt mô hình AI mới chạy được trên laptop: Khi cả ngành đốt nghìn tỷ USD vào chip, ông chứng minh họ sai](https://cafef.vn/bo-gia-ai-ra-mat-mo-hinh-ai-moi-chay-duoc-tren-laptop-khi-ca-nganh-dot-nghin-ty-usd-vao-chip-ong-chung-minh-ho-sai-188260511133738594.chn)**
-  - relevance: `4` · category: `AI` · scope: `domestic` · published: 2026-05-11 07:22 UTC
-  - themes: ai_infra_general
   - signal: Launch
-  - Để tránh phải tiêu tốn cả nghìn tỷ USD cho các mô hình ngôn ngữ lớn, ông LeCun tạo ra một kiến trúc mô hình AI mới, gọn nhẹ hơn, thông minh hơn và tiêu tốn ít tài nguyên hơn khi vận hành.
+  - Figure AI ra mắt bản demo mới nhất, phô diễn khả năng hợp tác ấn tượng của hai robot Helix-02. Chỉ trong chưa đầy hai phút, chúng tự động quan sát, suy đoán ý định và cùng nhau dọn dẹp phòng ngủ, mở ra kỷ nguyên mới cho ngành robot.
 
-- **[4.800 tỷ USD vs 5.200 tỷ USD: Nhờ AI, Google đang trên đường soán ngôi công ty giá trị nhất thế giới của Nvidia, đến Warren Buffett cũng không thể ngồi yên](https://cafef.vn/4800-ty-usd-vs-5200-ty-usd-nho-ai-google-dang-tren-duong-soan-ngoi-cong-ty-gia-tri-nhat-the-gioi-cua-nvidia-den-warren-buffett-cung-khong-the-ngoi-yen-18826051109441667.chn)**
-  - relevance: `4` · category: `AI/Big tech AI` · scope: `domestic` · published: 2026-05-11 04:31 UTC
-  - themes: ai_infra_general
-  - “Con quái vật” Google bắt đầu cho thấy AI không biến họ thành nạn nhân mà đang tạo nên “vị vua” mới thay thế Nvidia.
+- **[MediaTek chuẩn bị ra mắt chip 2nm đầu tiên, hiệu năng vượt  mặt Apple](https://cafef.vn/mediatek-chuan-bi-ra-mat-chip-2nm-dau-tien-hieu-nang-vuot-mat-apple-188260513084517113.chn)**
+  - relevance: `2` · category: `—` · scope: `domestic` · published: 2026-05-13 03:03 UTC
+  - signal: Launch
+  - Chip Dimensity 9600 dự kiến xuất hiện trên vivo X500 Pro, OPPO Find X10 Pro và Find X10 Pro Max vào tháng 9 tới.
 
-- **[Đội bảo vệ 9 người canh gác AI trị giá 350 tỷ USD, có nhiệm vụ ngăn chặn chatbot "phá hủy xã hội"](https://cafef.vn/doi-bao-ve-9-nguoi-canh-gac-ai-tri-gia-350-ty-usd-co-nhiem-vu-ngan-chan-chatbot-pha-huy-xa-hoi-188260511071849804.chn)**
-  - relevance: `4` · category: `AI` · scope: `domestic` · published: 2026-05-11 02:30 UTC
-  - themes: ai_infra_general
-  - Giữa cuộc đua AI trị giá hàng trăm tỷ USD, nhóm 9 người tại Anthropic đang được giao nhiệm vụ phát hiện những nguy cơ có thể khiến chatbot thay đổi xã hội mất kiểm soát.
-
-- **[Đại chiến AI 2026: Google đang "nuốt chửng" giấc mơ bán lẻ trị giá 5.000 tỷ USD của OpenAI như thế nào?](https://cafef.vn/dai-chien-ai-2026-google-dang-nuot-chung-giac-mo-ban-le-tri-gia-5000-ty-usd-cua-openai-nhu-the-nao-188260511071712957.chn)**
-  - relevance: `4` · category: `AI` · scope: `domestic` · published: 2026-05-11 02:00 UTC
-  - themes: ai_infra_general
-  - Dù OpenAI đi trước trong mảng thương mại bằng tác nhân AI, nhưng chính công ty này lại phải khai tử sản phẩm trước tiến vì thế yếu hơn so với Google.
-
-- **[NVIDIA: Chi phí vận hành AI đã vượt xa lương nhân viên](https://cafef.vn/nvidia-chi-phi-van-hanh-ai-da-vuot-xa-luong-nhan-vien-18826051107252949.chn)**
-  - relevance: `4` · category: `AI/Big tech AI` · scope: `domestic` · published: 2026-05-11 01:29 UTC
-  - themes: ai_infra_general
-  - signal: Funding
-  - Các công ty lớn đang đầu tư hàng nghìn tỷ USD để xây dựng và nâng cấp nhà máy AI, khiến chi phí công nghệ tăng mạnh.
-
-- **[OpenAI cùng NVIDIA, AMD ra giao thức chung: GPU không còn phải chờ nhau](https://cafef.vn/openai-cung-nvidia-amd-ra-giao-thuc-chung-gpu-khong-con-phai-cho-nhau-188260510153232763.chn)**
-  - relevance: `4` · category: `AI/Big tech AI` · scope: `domestic` · published: 2026-05-10 10:30 UTC
-  - themes: ai_infra_general
-  - Giao thức MRC chia một cổng mạng 800 Gb/s thành tám đường 100 Gb/s đi qua các thiết bị chuyển mạch riêng biệt, tự chuyển hướng trong chưa đầy một phần triệu giây khi có sự cố, giúp xây cluster 131.000 GPU chỉ với hai tầng chuyển mạch thay vì ba hoặc bốn tầng như trước.
-
-- **[Samsung chạm mốc nghìn tỷ USD, dự báo vượt NVIDIA về lợi nhuận vào năm 2027](https://cafef.vn/samsung-cham-moc-nghin-ty-usd-du-bao-vuot-nvidia-ve-loi-nhuan-vao-nam-2027-188260510153337025.chn)**
-  - relevance: `4` · category: `AI/Big tech AI` · scope: `domestic` · published: 2026-05-10 09:30 UTC
-  - themes: ai_infra_general
-  - signal: Performance
-  - Lợi nhuận hoạt động toàn tập đoàn tăng 756% so với năm ngoái, nhờ giá DRAM bùng nổ và nhu cầu bộ nhớ phục vụ hạ tầng AI đẩy biên lợi nhuận bán dẫn lên mức kỷ lục.
-
-- **[ChatGPT tự báo người thân nếu bạn gặp khó khăn](https://cafef.vn/chatgpt-tu-bao-nguoi-than-neu-ban-gap-kho-khan-188260509073804637.chn)**
-  - relevance: `4` · category: `AI/Big tech AI` · scope: `domestic` · published: 2026-05-09 08:16 UTC
-  - themes: ai_infra_general
-  - Tính năng Trusted Contact cho phép người dùng trưởng thành chỉ định sẵn một người làm liên hệ khẩn cấp, cảnh báo được gửi qua email hoặc tin nhắn nhưng không tiết lộ nội dung cuộc trò chuyện.
-
-- **[Bộ trưởng Vũ Hải Quân: Hợp tác KHCN Việt Nam - Ấn Độ bước sang giai đoạn mới, thực chất, sâu rộng và hiệu quả hơn](https://cafef.vn/bo-truong-vu-hai-quan-hop-tac-khcn-viet-nam-an-do-buoc-sang-giai-doan-moi-thuc-chat-sau-rong-va-hieu-qua-hon-188260509144953818.chn)**
-  - relevance: `4` · category: `—` · scope: `domestic` · published: 2026-05-09 07:49 UTC
-  - themes: cross_brand_partnerships
-  - signal: Partnership
-  - Hợp tác Việt Nam - Ấn Độ trong phát triển nguồn nhân lực, khoa học công nghệ, đổi mới sáng tạo và chuyển đổi số sẽ bước sang một giai đoạn mới: Thực chất hơn, sâu rộng hơn và hiệu quả hơn.
+- **[3 thay đổi lớn cho người dùng iPhone trên iOS 26.5 vừa ra mắt](https://cafef.vn/3-thay-doi-lon-cho-nguoi-dung-iphone-tren-ios-265-vua-ra-mat-188260513073442795.chn)**
+  - relevance: `2` · category: `Chat` · scope: `domestic` · published: 2026-05-13 02:05 UTC
+  - signal: Launch
+  - Apple vừa phát hành iOS 26.5 cho iPhone với tính năng đáng chú ý là mã hóa đầu cuối cho tin nhắn.
 
 - **[CEO FPT: Nhiều doanh nghiệp Việt vẫn mới ở “level 1-2” của AI, muốn bứt phá phải thay đổi cách vận hành](https://cafef.vn/ceo-fpt-nhieu-doanh-nghiep-viet-van-moi-o-level-1-2-cua-ai-muon-but-pha-phai-thay-doi-cach-van-hanh-188260511160642032.chn)**
   - relevance: `2` · category: `AI` · scope: `domestic` · published: 2026-05-11 09:35 UTC
   - signal: Launch
   - Tại Cisco CxO Symposium 2026, CEO FPT cho rằng AI không còn là công cụ thử nghiệm mà đang trở thành “nhân sự số” trong doanh nghiệp, với KPI, ngân sách và vai trò trực tiếp trong vận hành.
 
-- **[Nâng cao hiệu quả năng lượng, độ tin cậy và hiệu suất của các tòa nhà thông minh](https://cafef.vn/nang-cao-hieu-qua-nang-luong-do-tin-cay-va-hieu-suat-cua-cac-toa-nha-thong-minh-188260511151526206.chn)**
-  - relevance: `2` · category: `—` · scope: `domestic` · published: 2026-05-11 08:15 UTC
-  - signal: Launch
-  - Schneider Electric, tập đoàn hàng đầu thế giới trong lĩnh vực công nghệ năng lượng, chính thức ra mắt thế hệ biến tần Altivar HVAC mới, bao gồm hai model ATH200 và ATH600.
+- **[Một nhân viên tài chính đã ‘tự nguyện’ chuyển 25 triệu USD cho kẻ lừa đảo chỉ sau cuộc họp qua Zoom: Chuyên gia Hiếu PC cảnh báo hiểm họa trong kỷ nguyên AI](https://cafef.vn/mot-nhan-vien-tai-chinh-da-tu-nguyen-chuyen-25-trieu-usd-cho-ke-lua-dao-chi-sau-cuoc-hop-qua-zoom-chuyen-gia-hieu-pc-canh-bao-hiem-hoa-trong-ky-nguyen-ai-18826051217410991.chn)**
+  - relevance: `1` · category: `AI` · scope: `domestic` · published: 2026-05-12 10:41 UTC
+  - Trong bối cảnh các chiêu trò lừa đảo Deepfake bùng phát mạnh, chuyên gia an ninh mạng Ngô Minh Hiếu khuyến nghị người dùng không vội tin vào những cuộc gọi, video có hình ảnh và giọng nói quen thuộc, đồng thời cần chủ động xác minh trước mọi yêu cầu chuyển tiền hay cung cấp thông tin quan trọng.
 
-- **[Xbox lại đi xuống: Phần cứng giảm hơn 30%, Microsoft vẫn sống khỏe nhờ AI](https://cafef.vn/xbox-lai-di-xuong-phan-cung-giam-hon-30-microsoft-van-song-khoe-nho-ai-188260510153145559.chn)**
-  - relevance: `2` · category: `AI` · scope: `domestic` · published: 2026-05-10 10:00 UTC
-  - signal: Performance
-  - Đây là quý thứ ba liên tiếp mảng Xbox giảm doanh thu, còn nội dung và dịch vụ cũng đi lùi 5%.
+- **[Chủ tịch Tào Đức Thắng vừa có phát biểu về kế hoạch của Viettel](https://cafef.vn/chu-tich-tao-duc-thang-vua-co-phat-bieu-ve-ke-hoach-cua-viettel-188260512152532662.chn)**
+  - relevance: `1` · category: `—` · scope: `domestic` · published: 2026-05-12 08:25 UTC
+  - Viettel Talent 2026 chính thức khai giảng, mở ra hệ sinh thái phát triển nhân tài công nghệ.
 
-- **["Thung lũng Silicon mới" của Mỹ hút 200 tỷ USD, 75 công ty sản xuất chip AI, chấp nhận đánh đổi tài nguyên để lấy việc làm](https://cafef.vn/thung-lung-silicon-moi-cua-my-hut-200-ty-usd-75-cong-ty-san-xuat-chip-ai-chap-nhan-danh-doi-tai-nguyen-de-lay-viec-lam-188260511072414135.chn)**
-  - relevance: `1` · category: `AI` · scope: `domestic` · published: 2026-05-11 03:29 UTC
-  - signal: Funding
-  - Arizona đang trở thành trung tâm chip AI mới của Mỹ với hơn 200 tỷ USD đầu tư, nhưng đằng sau cơn sốt bán dẫn là nỗi lo cạn kiệt tài nguyên và áp lực sống giữa sa mạc Phoenix.
+- **[BHXH Việt Nam phát thông báo quan trọng đến người dân cả nước](https://cafef.vn/bhxh-viet-nam-phat-thong-bao-quan-trong-den-nguoi-dan-ca-nuoc-188260514093811062.chn)**
+  - relevance: `0` · category: `Chat` · scope: `domestic` · published: 2026-05-14 02:43 UTC
+  - Bảo hiểm xã hội (BHXH) Việt Nam khẳng định không gửi file cài đặt, đường link hay thông báo qua mạng xã hội, tin nhắn.
 
-- **[iOS 27 có thể thay đổi hoàn toàn cách người dùng iPhone dùng AI](https://cafef.vn/ios-27-co-the-thay-doi-hoan-toan-cach-nguoi-dung-iphone-dung-ai-188260510131744902.chn)**
-  - relevance: `1` · category: `AI` · scope: `domestic` · published: 2026-05-10 06:36 UTC
-  - Với iOS 27, Apple sẽ chính thức đập tan định kiến về một hệ sinh thái độc quyền để biến iPhone thành một siêu trung tâm điều phối trí tuệ nhân tạo.
+- **[Hiệu ứng tâm lý Technostress: AI học việc trong 15 phút, nhân sự sợ bị bỏ rơi, phải liên tục chứng minh bản thân hữu ích, mệt mỏi hơn cả chạy deadline](https://cafef.vn/hieu-ung-tam-ly-technostress-ai-hoc-viec-trong-15-phut-nhan-su-so-bi-bo-roi-phai-lien-tuc-chung-minh-ban-than-huu-ich-met-moi-hon-ca-chay-deadline-188260514090944428.chn)**
+  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-14 02:35 UTC
+  - Khảo sát của NBER cho thấy 69% doanh nghiệp dùng AI nhưng 90% không tăng năng suất, phải chăng các CEO đang quá "lý tưởng hóa" về việc dùng thuật toán thay lao động?
 
-- **[Bỏ túi 7 tỷ USD lợi nhuận, Sony liệu có dứt tình với máy chơi game PlayStation như đã từng làm với tivi, để chuyển qua làm AI với TSMC?](https://cafef.vn/bo-tui-7-ty-usd-loi-nhuan-sony-lieu-co-dut-tinh-voi-may-choi-game-playstation-nhu-da-tung-lam-voi-tivi-de-chuyen-qua-lam-ai-voi-tsmc-188260510092900854.chn)**
-  - relevance: `1` · category: `AI` · scope: `domestic` · published: 2026-05-10 03:46 UTC
-  - signal: Performance
-  - Liệu cơn bão AI có đang khiến ông lớn Sony thay đổi chiến lược kinh doanh một lần nữa?
+- **[“Cha đỡ đầu” AI phát cảnh báo đỏ: Siêu trí tuệ nhân tạo có thể đẩy loài người tới bờ vực tuyệt chủng trong 10 năm tới](https://cafef.vn/cha-do-dau-ai-phat-canh-bao-do-sieu-tri-tue-nhan-tao-co-the-day-loai-nguoi-toi-bo-vuc-tuyet-chung-trong-10-nam-toi-188260514073927778.chn)**
+  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-14 00:53 UTC
+  - Một lời cảnh báo rúng động từ chính “cha đỡ đầu” AI đang hé lộ viễn cảnh nơi những cỗ máy siêu thông minh có thể vượt khỏi tầm kiểm soát của nhân loại.
 
-- **[Thảm họa "Vibe Coding": 5.000 ứng dụng AI đang "phơi" sạch dữ liệu lên mạng](https://cafef.vn/tham-hoa-vibe-coding-5000-ung-dung-ai-dang-phoi-sach-du-lieu-len-mang-188260509145620854.chn)**
-  - relevance: `1` · category: `AI` · scope: `domestic` · published: 2026-05-09 10:30 UTC
-  - signal: Performance
-  - Hàng nghìn bí mật doanh nghiệp và dữ liệu cá nhân đang bị "phơi bày" công khai do lỗ hổng từ các ứng dụng tạo bằng AI
+- **[Giải pháp chống giả mạo khuôn mặt  "Make in Việt Nam" ghi dấu trên bảng xếp hạng quốc tế](https://cafef.vn/giai-phap-chong-gia-mao-khuon-mat-make-in-viet-nam-ghi-dau-tren-bang-xep-hang-quoc-te-188260513181028291.chn)**
+  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-13 11:10 UTC
+  - CIVAMS.FACE-FAS, giải pháp chống giả mạo khuôn mặt do CMC ATI phát triển, vượt qua bài đánh giá iBeta Level 1 theo tiêu chuẩn ISO/IEC 30107-3, tiếp tục ghi dấu năng lực AI “Make in Vietnam” trên các bảng xếp hạng quốc tế.
 
-- **[Mark Cuban cảnh báo “lỗ hổng chí mạng” của AI: Cùng một câu hỏi, mỗi lần trả lời mỗi kiểu?](https://cafef.vn/mark-cuban-canh-bao-lo-hong-chi-mang-cua-ai-cung-mot-cau-hoi-moi-lan-tra-loi-moi-kieu-188260509150319113.chn)**
-  - relevance: `1` · category: `AI` · scope: `domestic` · published: 2026-05-09 09:30 UTC
-  - signal: Performance
-  - Mark Cuban cho rằng điểm đáng sợ nhất của AI không nằm ở độ thông minh, mà ở việc cùng một câu hỏi nhưng mỗi lần lại cho ra một đáp án khác nhau.
+- **[Người dùng hay AI là “tác giả”? Cuộc chiến bản quyền thời đại trí tuệ nhân tạo bắt đầu nóng lên](https://cafef.vn/nguoi-dung-hay-ai-la-tac-gia-cuoc-chien-ban-quyen-thoi-dai-tri-tue-nhan-tao-bat-dau-nong-len-188260513092735982.chn)**
+  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-13 04:31 UTC
+  - Nội dung do AI tạo ra, bản quyền thuộc về ai?
 
-- **[Giới khoa học liệu có sắp bị "khai tử" bởi startup AI 4 tháng tuổi định giá 4 tỷ USD?](https://cafef.vn/gioi-khoa-hoc-lieu-co-sap-bi-khai-tu-boi-startup-ai-4-thang-tuoi-dinh-gia-4-ty-usd-188260509090651653.chn)**
-  - relevance: `1` · category: `AI` · scope: `domestic` · published: 2026-05-09 04:49 UTC
-  - signal: Funding
-  - Ngay cả những bộ óc nghiên cứu tinh anh nhất cũng đang đứng trước nguy cơ bị thay thế bởi chính thực thể mà họ tạo ra.
+- **[“Quái vật AI” mới của Trung Quốc: Baidu tung ERNIE 5.1, chi phí thấp hơn 94%, đè bẹp các đối thủ phương Tây](https://cafef.vn/quai-vat-ai-moi-cua-trung-quoc-baidu-tung-ernie-51-chi-phi-thap-hon-94-de-bep-cac-doi-thu-phuong-tay-188260513092621832.chn)**
+  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-13 04:10 UTC
+  - ERNIE 5.1, “át chủ bài” mới của Baidu, đang khiến giới công nghệ toàn cầu choáng váng với khả năng tối ưu chi phí chưa từng có.
 
-- **[Sau một ngày chuyển khoản thành công 350.000.000 đồng, người đàn ông SN 1979 phải đến công an trình báo](https://cafef.vn/sau-mot-ngay-chuyen-khoan-thanh-cong-350000000-dong-nguoi-dan-ong-sn-1979-phai-den-cong-an-trinh-bao-188260511162043446.chn)**
-  - relevance: `0` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-11 09:22 UTC
-  - Công an xã Bình Lư đã nhanh chóng xác minh và hỗ trợ anh Vũ Viết Hoàng nhận lại 350.000.000 đồng chuyển khoản nhầm.
+- **[Cảnh báo rủi ro bảo mật từ AI: Hiếu PC chỉ ra những "khiên chắn" kỹ thuật bảo vệ bí mật người dùng khi sử dụng](https://cafef.vn/canh-bao-rui-ro-bao-mat-tu-ai-hieu-pc-chi-ra-nhung-khien-chan-ky-thuat-bao-ve-bi-mat-nguoi-dung-khi-su-dung-188260513103216787.chn)**
+  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-13 04:08 UTC
+  - Chuyên gia an ninh mạng Ngô Minh Hiếu khuyến nghị người dùng thiết lập ngay các "khiên chắn" bảo mật để bảo vệ quyền riêng tư trên không gian mạng.
 
-- **[16.000 nhân viên bị tạm dừng đóng lương hưu đối ứng để dồn tiền cho AI: Bước đi gây giận dữ của hãng công nghệ 2 tỷ USD](https://cafef.vn/16000-nhan-vien-bi-tam-dung-dong-luong-huu-doi-ung-de-don-tien-cho-ai-buoc-di-gay-gian-du-cua-hang-cong-nghe-2-ty-usd-188260511133151867.chn)**
-  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-11 08:40 UTC
-  - Trong thời buổi nhà nhà AI, người người AI thì đến quỹ lương hưu của nhân viên cũng trở thành đối tượng bị nhắm tới.
+- **[Gen Z càng dùng càng ghét AI: Công nghệ từng được tung hô nay lại khiến giới trẻ tức giận và bất an](https://cafef.vn/gen-z-cang-dung-cang-ghet-ai-cong-nghe-tung-duoc-tung-ho-nay-lai-khien-gioi-tre-tuc-gian-va-bat-an-18826051307315606.chn)**
+  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-13 00:34 UTC
+  - Từng được kỳ vọng là đòn bẩy giúp thế hệ trẻ bứt phá, nhưng thực tế cho thấy trí tuệ nhân tạo đang trở thành nỗi ám ảnh, gây ra làn sóng phản đối mạnh mẽ và tâm lý kiệt quệ cho những người vốn được coi là am hiểu công nghệ nhất hiện nay.
 
-- **[Mark Zuckerberg, Sam Altman dự đoán AI sẽ thông minh hơn người trong năm 2026, nhưng nghiên cứu lại hé lộ góc khuất lớn nhất của cơn sốt AI nghìn tỷ USD](https://cafef.vn/mark-zuckerberg-sam-altman-du-doan-ai-se-thong-minh-hon-nguoi-trong-nam-2026-nhung-nghien-cuu-lai-he-lo-goc-khuat-lon-nhat-cua-con-sot-ai-nghin-ty-usd-18826051107272454.chn)**
-  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-11 03:00 UTC
-  - Nhiều nghiên cứu thần kinh học và nhận thức hiện đại cho rằng các mô hình AI đang bị "ảo tưởng" về việc sở hữu tư duy và trí thông minh thật sự như con người.
+- **[Chuyên gia giải mã lý do người thông minh vẫn "trắng tay" vì lừa đảo mạng?](https://cafef.vn/chuyen-gia-giai-ma-ly-do-nguoi-thong-minh-van-trang-tay-vi-lua-dao-mang-1882605121602249.chn)**
+  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-12 09:57 UTC
+  - Ngày 12/5/2026, tại Khách sạn The Ascott (Tây Hồ, Hà Nội), Diễn đàn Digital Trust in Finance 2026 - “Xây dựng niềm tin số tài chính trong kỷ nguyên AI”.
 
-- **[AI tiêu diệt loài người? Triết gia Nick Bostrom cảnh báo về tương lai bất ngờ khi công nghệ phát triển quá nhanh](https://cafef.vn/ai-tieu-diet-loai-nguoi-triet-gia-nick-bostrom-canh-bao-ve-tuong-lai-bat-ngo-khi-cong-nghe-phat-trien-qua-nhanh-188260510141610671.chn)**
-  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-10 08:30 UTC
-  - Từng là "cha đẻ" của những cảnh báo tận thế, Nick Bostrom tiếp tục gây sốc khi tuyên bố về AI.
-
-- **[Tất cả hộ, cá nhân kinh doanh chú ý cảnh báo quan trọng từ Cơ quan Thuế](https://cafef.vn/tat-ca-ho-ca-nhan-kinh-doanh-chu-y-canh-bao-quan-trong-tu-co-quan-thue-188260510151226016.chn)**
-  - relevance: `0` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-10 08:16 UTC
-  - Hộ, cá nhân kinh doanh cần đề cao cảnh giác khi nhận được yêu cầu cung cấp thông tin cá nhân, tài khoản ngân hàng hoặc chuyển tiền từ các cuộc gọi tự xưng là cán bộ thuế.
-
-- **[Phát hiện 3 thiếu niên dưới 14 tuổi có biểu hiện lạ, Công an có khuyến cáo đặc biệt tới toàn bộ phụ huynh](https://cafef.vn/phat-hien-3-thieu-nien-duoi-14-tuoi-co-bieu-hien-la-cong-an-co-khuyen-cao-dac-biet-toi-toan-bo-phu-huynh-188260510140505104.chn)**
-  - relevance: `0` · category: `Chat` · scope: `domestic` · published: 2026-05-10 07:12 UTC
-  - Sau sự việc xảy ra vào ngày 6/5, Công an tỉnh Lai Châu khuyến cáo các gia đình cần tăng cường quản lý, giám sát việc sử dụng mạng xã hội của trẻ em. Người dân cũng tuyệt đối không tin theo các lời mời gọi tuyển dụng không rõ nguồn gốc trên không gian mạng.
-
-- **[Hai kiểu người sẽ bị AI đào thải khỏi thị trường lao động](https://cafef.vn/hai-kieu-nguoi-se-bi-ai-dao-thai-khoi-thi-truong-lao-dong-188260509145452747.chn)**
-  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-09 09:46 UTC
-  - AI có thể không cướp toàn bộ việc làm, nhưng theo các lãnh đạo công nghệ, hai kiểu người này đang là những cái tên đầu tiên đứng trước nguy cơ bị đào thải khỏi thị trường lao động.
-
-- **[Hết thời thừa tiền, Mark Zuckerberg và các Big Tech đang phải vay nợ chồng chất để tham gia canh bạc AI đã lên tới 725 tỷ USD](https://cafef.vn/het-thoi-thua-tien-mark-zuckerberg-va-cac-big-tech-dang-phai-vay-no-chong-chat-de-tham-gia-canh-bac-ai-da-len-toi-725-ty-usd-188260509090534516.chn)**
-  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-09 07:22 UTC
-  - Dòng tiền tự do của các Big Tech đang xuống mức thấp nhất kể từ năm 2014 và đang phải vay nợ rất nhiều cho các dự án AI.
-
-### dantri_ai (26)
+### dantri_ai (29)
 
 - **[Vì sao cần xóa số điện thoại lạ, số cũ không sử dụng khỏi tài khoản VNeID?](https://dantri.com.vn/cong-nghe/vi-sao-can-xoa-so-dien-thoai-la-so-cu-khong-su-dung-khoi-tai-khoan-vneid-20260509141551511.htm)**
   - relevance: `10` · category: `—` · scope: `domestic` · published: 2026-05-09 07:23 UTC
   - themes: payment_wallet_war, cross_brand_partnerships
   - signal: Partnership
   - (Dân trí) - Nếu bạn phát hiện tài khoản VNeID của mình được tích hợp những số điện thoại lạ hoặc số cũ từ lâu không còn dùng đến, cần nhanh chóng xóa bỏ những thông tin này.
+
+- **[Nhiều thuê bao bị khóa một chiều, người dân tấp nập đi xác thực SIM](https://dantri.com.vn/cong-nghe/nhieu-thue-bao-bi-khoa-mot-chieu-nguoi-dan-tap-nap-di-xac-thuc-sim-20260513140235714.htm)**
+  - relevance: `6` · category: `—` · scope: `domestic` · published: 2026-05-13 07:38 UTC
+  - themes: payment_wallet_war
+  - signal: Regulation
+  - (Dân trí) - Nhiều thuê bao di động bị khóa một chiều do chưa hoàn tất xác thực thông tin theo quy định mới. Do đó, tại các điểm giao dịch của các nhà mạng, lượng người đến chuẩn hóa thuê bao tăng mạnh.
+
+- **[Dùng phần mềm lậu, nhiều người “méo mặt” vì mất dữ liệu](https://dantri.com.vn/cong-nghe/dung-phan-mem-lau-nhieu-nguoi-meo-mat-vi-mat-du-lieu-20260511152521830.htm)**
+  - relevance: `6` · category: `—` · scope: `domestic` · published: 2026-05-12 08:16 UTC
+  - themes: platform_regulation
+  - signal: Regulation
+  - (Dân trí) - Nghĩ rằng dùng phần mềm không bản quyền giúp tiết kiệm chi phí, nhiều người lại đối mặt nguy cơ mất dữ liệu, nhiễm mã độc và các rủi ro pháp lý khi bản quyền số bị siết chặt.
 
 - **[Game lậu, phim lậu vẫn tràn lan trên Internet, mạng xã hội thành vỏ bọc mới](https://dantri.com.vn/cong-nghe/game-lau-phim-lau-van-tran-lan-tren-internet-mang-xa-hoi-thanh-vo-boc-moi-20260511144440852.htm)**
   - relevance: `6` · category: `Chat` · scope: `domestic` · published: 2026-05-11 09:34 UTC
@@ -450,11 +488,17 @@
   - signal: Regulation
   - (Dân trí) - Trong bối cảnh quảng cáo thổi phồng, bán hàng thiếu kiểm soát tràn lan, quy định mới được kỳ vọng trở thành “liều thuốc mạnh” giúp làm sạch môi trường kinh doanh trực tuyến.
 
-- **[Nhà mạng bắt đầu khóa SIM thuê bao chưa xác thực sinh trắc học](https://dantri.com.vn/cong-nghe/nha-mang-bat-dau-khoa-sim-thue-bao-chua-xac-thuc-sinh-trac-hoc-20260505100948134.htm)**
-  - relevance: `6` · category: `—` · scope: `domestic` · published: 2026-05-05 03:29 UTC
-  - themes: payment_wallet_war
-  - signal: Regulation
-  - (Dân trí) - Sau thời hạn yêu cầu chuẩn hóa thông tin theo Thông tư 08, nhiều người dùng đã bắt đầu bị khóa SIM một chiều do chưa xác thực dữ liệu sinh trắc học khớp với Cơ sở dữ liệu quốc gia về dân cư.
+- **[Apple sắp tích hợp camera vào tai nghe không dây AirPods](https://dantri.com.vn/cong-nghe/apple-sap-tich-hop-camera-vao-tai-nghe-khong-day-airpods-20260512131654326.htm)**
+  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-13 06:38 UTC
+  - themes: cross_brand_partnerships
+  - signal: Partnership
+  - (Dân trí) - Vì sao Apple lại muốn trang bị thêm camera vào chiếc tai nghe không dây AirPods thế hệ mới của hãng?
+
+- **[HBO Go ngừng hoạt động tại Việt Nam](https://dantri.com.vn/cong-nghe/hbo-go-ngung-hoat-dong-tai-viet-nam-20260513132851981.htm)**
+  - relevance: `5` · category: `Travel/Khách sạn/Giải trí` · scope: `domestic` · published: 2026-05-13 06:36 UTC
+  - themes: vn_market_data
+  - signal: Expansion
+  - (Dân trí) - Sau gần 7 năm gắn bó với khán giả Việt Nam, dịch vụ nội dung trực tuyến HBO Go sẽ chính thức ngừng hoạt động vào ngày 15/6.
 
 - **[Viettel High Tech mở rộng hợp tác công nghệ quốc phòng với Thổ Nhĩ Kỳ](https://dantri.com.vn/cong-nghe/viettel-high-tech-mo-rong-hop-tac-cong-nghe-quoc-phong-voi-tho-nhi-ky-20260511111734926.htm)**
   - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-11 05:05 UTC
@@ -495,15 +539,10 @@
   - themes: ai_infra_general
   - (Dân trí) - Chỉ với một câu lệnh AI, người dùng có thể thử khôi phục những bức ảnh cũ bị phai màu, trầy xước hoặc mờ nhòe trực tiếp trên ChatGPT.
 
-- **[Tổng hợp câu lệnh tạo ảnh AI đang gây chú ý trên mạng](https://dantri.com.vn/cong-nghe/tong-hop-cau-lenh-tao-anh-ai-dang-gay-chu-y-tren-mang-20260505090835361.htm)**
-  - relevance: `4` · category: `AI/Big tech AI` · scope: `domestic` · published: 2026-05-06 04:57 UTC
+- **[Đối tác Nvidia bị tấn công mạng gần 2 tháng mới phát hiện](https://dantri.com.vn/cong-nghe/doi-tac-nvidia-bi-tan-cong-mang-gan-2-thang-moi-phat-hien-20260511231708719.htm)**
+  - relevance: `3` · category: `—` · scope: `domestic` · published: 2026-05-13 00:29 UTC
   - themes: ai_infra_general
-  - (Dân trí) - Nhiều xu hướng tạo ảnh bằng AI đang được chia sẻ rộng rãi trên mạng xã hội. Dưới đây là một số câu lệnh người dùng có thể tham khảo để tạo ảnh bằng ChatGPT hoặc Gemini.
-
-- **["Bóng ma" Claude Mythos làm thay đổi hoàn toàn cuộc chơi an ninh mạng](https://dantri.com.vn/cong-nghe/bong-ma-claude-mythos-lam-thay-doi-hoan-toan-cuoc-choi-an-ninh-mang-20260505165253616.htm)**
-  - relevance: `4` · category: `AI` · scope: `domestic` · published: 2026-05-06 00:42 UTC
-  - themes: ai_infra_general
-  - (Dân trí) - Sự cố rò rỉ công cụ AI Claude Mythos vào tháng 4 đã gióng hồi chuông cảnh báo, an ninh mạng không còn là cuộc chơi của kỹ sư đơn thuần, mà là cuộc đối đầu trực diện giữa AI tấn công và phòng thủ.
+  - (Dân trí) - Nhà cung cấp dịch vụ chơi game đám mây được NVIDIA ủy quyền vừa xác nhận vụ xâm nhập hệ thống nghiêm trọng, làm lộ lọt thông tin cá nhân của hàng loạt người dùng đã đăng ký.
 
 - **[Bài toán khó của Apple với iPad](https://dantri.com.vn/cong-nghe/bai-toan-kho-cua-apple-voi-ipad-20260510221716021.htm)**
   - relevance: `2` · category: `—` · scope: `domestic` · published: 2026-05-11 01:30 UTC
@@ -520,11 +559,6 @@
   - signal: Launch
   - (Dân trí) - Trong một bài đăng mới nhất trên Weibo, tài khoản Fixed Focus Digital cho biết việc Apple hạ cấp dòng sản phẩm iPhone 18 tiêu chuẩn là điều không thể tránh khỏi.
 
-- **[Ireland điều tra Meta liên quan thuật toán Facebook, Instagram](https://dantri.com.vn/cong-nghe/ireland-dieu-tra-meta-lien-quan-thuat-toan-facebook-instagram-20260506161119839.htm)**
-  - relevance: `2` · category: `—` · scope: `domestic` · published: 2026-05-06 10:51 UTC
-  - signal: Regulation
-  - (Dân trí) - Cơ quan quản lý truyền thông Ireland vừa chính thức mở cuộc điều tra đối với Meta Platforms về các cáo buộc vi phạm Đạo luật Dịch vụ Kỹ thuật số (DSA).
-
 - **[Apple sắp có thiết bị AI đeo trên người, hỗ trợ Siri và camera](https://dantri.com.vn/cong-nghe/apple-sap-co-thiet-bi-ai-deo-tren-nguoi-ho-tro-siri-va-camera-20260509112022695.htm)**
   - relevance: `1` · category: `AI` · scope: `domestic` · published: 2026-05-09 08:23 UTC
   - (Dân trí) - Apple được cho là đang phát triển một thiết bị AI đeo được hoàn toàn mới, có thiết kế dạng ghim hoặc mặt dây chuyền nhỏ gọn, tương tự kích thước của AirTag.
@@ -537,120 +571,153 @@
   - relevance: `1` · category: `—` · scope: `domestic` · published: 2026-05-07 07:26 UTC
   - (Dân trí) - Viettel đã mang loạt sản phẩm công nghệ cao dự Triển lãm Quốc phòng lớn nhất Á - Âu (SAHA 2026), qua đó khẳng định vị thế quốc phòng của Việt Nam.
 
-- **[Kính thông minh của Apple sẽ được trang bị những tính năng chưa từng có](https://dantri.com.vn/cong-nghe/kinh-thong-minh-cua-apple-se-duoc-trang-bi-nhung-tinh-nang-chua-tung-co-20260504231733465.htm)**
-  - relevance: `1` · category: `—` · scope: `domestic` · published: 2026-05-07 03:43 UTC
-  - (Dân trí) - Các thông tin bị rò rỉ cho biết Apple sẽ gia nhập vào thị trường kính thông minh với mẫu kính thiết kế thời trang và những tính năng chưa từng có trên các sản phẩm khác.
+- **[Cơn khát AI đẩy giá vật liệu ABF tăng sốc](https://dantri.com.vn/cong-nghe/con-khat-ai-day-gia-vat-lieu-abf-tang-soc-20260512131908305.htm)**
+  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-13 06:42 UTC
+  - (Dân trí) - Các nhà sản xuất tại Đài Loan hiện hoạt động hết công suất và thị trường được dự báo còn tiếp tục nóng lên trong nhiều năm tới.
+
+- **[Tưởng đã xóa hết dấu vết AI, sinh viên bất ngờ khi bị phát hiện (Kỳ 2)](https://dantri.com.vn/cong-nghe/tuong-da-xoa-het-dau-vet-ai-sinh-vien-bat-ngo-khi-bi-phat-hien-ky-2-20260512145030540.htm)**
+  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-13 00:14 UTC
+  - (Dân trí) - Trước những chiêu trò gian lận AI tinh vi của sinh viên, giảng viên đều có thể lần tìm ra dấu vết chỉ qua một vài "manh mối".
+
+- **[Tưởng đã xóa hết dấu vết AI, sinh viên bất ngờ khi bị phát hiện (Kỳ 1)](https://dantri.com.vn/cong-nghe/tuong-da-xoa-het-dau-vet-ai-sinh-vien-bat-ngo-khi-bi-phat-hien-ky-1-20260511193311011.htm)**
+  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-12 07:44 UTC
+  - (Dân trí) - Một bên tìm mọi cách để gian lận AI, một bên nỗ lực truy tìm đâu là tư duy thật của sinh viên. Liệu sẽ có hồi kết nào cho cuộc "đối đầu” giữa sinh viên và giảng viên?
+
+- **["Bắt trend" mặt nạ gỗ của Sơn Tùng M-TP bằng AI](https://dantri.com.vn/cong-nghe/bat-trend-mat-na-go-cua-son-tung-m-tp-bang-ai-20260511121352115.htm)**
+  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-12 00:16 UTC
+  - (Dân trí) - Sau khi Sơn Tùng M-TP thay ảnh đại diện bằng hình chiếc mặt nạ gỗ bí ẩn, nhiều người dùng mạng xã hội bắt đầu tạo ảnh cá nhân theo phong cách tương tự bằng AI.
+
+- **[Trào lưu "bước ra từ trang cá nhân", người dùng dễ bị lộ dữ liệu sinh trắc](https://dantri.com.vn/cong-nghe/trao-luu-buoc-ra-tu-trang-ca-nhan-nguoi-dung-de-bi-lo-du-lieu-sinh-trac-20260511163136001.htm)**
+  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-11 13:41 UTC
+  - (Dân trí) - Gần đây, mạng xã hội tràn ngập hình ảnh từ trào lưu “bước ra từ trang cá nhân". Bằng cách sử dụng AI, người dùng có thể biến bức ảnh đại diện tĩnh thành hình ảnh mang phong cách điện ảnh, sống động.
 
 - **[Cơn sốt AI khiến giá SSD tăng cao](https://dantri.com.vn/cong-nghe/con-sot-ai-khien-gia-ssd-tang-cao-20260511105815926.htm)**
   - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-11 06:50 UTC
   - (Dân trí) - Cơn sốt AI trên toàn cầu không chỉ khiến giá RAM tăng cao, mà còn tác động đến giá bán ổ cứng SSD.
 
-- **[Cisco: AI có thể góp thêm khoảng 130 tỷ USD cho GDP Việt Nam vào 2040](https://dantri.com.vn/cong-nghe/cisco-ai-co-the-gop-them-khoang-130-ty-usd-cho-gdp-viet-nam-vao-2040-20260507062430241.htm)**
-  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-06 23:27 UTC
-  - (Dân trí) - Tại sự kiện Cisco Connect Vietnam 2026, các chuyên gia nhấn mạnh AI đang mở ra cơ hội lớn cho Việt Nam bứt phá, song đi kèm là yêu cầu cấp thiết về hạ tầng, bảo mật và nhân lực.
+### genk (22)
 
-- **[Mua SIM mới nhưng “dính” tài khoản lạ, bất cập từ kho số tái sử dụng](https://dantri.com.vn/cong-nghe/mua-sim-moi-nhung-dinh-tai-khoan-la-bat-cap-tu-kho-so-tai-su-dung-20260505191213607.htm)**
-  - relevance: `0` · category: `Chat` · scope: `domestic` · published: 2026-05-06 00:35 UTC
-  - (Dân trí) - Việc mua phải SIM đã qua sử dụng nhưng chưa được xóa liên kết với các tài khoản ngân hàng, mạng xã hội đang đẩy người dùng vào tình huống “dở khóc dở cười”, tiềm ẩn nhiều rủi ro về bảo mật thông tin.
+- **[FPT ra mắt FPT MongoDB Enterprise: Rút ngắn thời gian triển khai AI, giảm áp lực vận hành dữ liệu cho doanh nghiệp Việt](https://genk.vn/fpt-ra-mat-fpt-mongodb-enterprise-rut-ngan-thoi-gian-trien-khai-ai-giam-ap-luc-van-hanh-du-lieu-cho-doanh-nghiep-viet-165261305150647797.chn)**
+  - relevance: `14` · category: `AI` · scope: `domestic` · published: —
+  - themes: platform_regulation, vn_market_data, cross_brand_partnerships
+  - signal: Launch
+  - FPT Smart Cloud ra mắt FPT MongoDB Enterprise, nền tảng DBaaS tích hợp MongoDB Enterprise trên hạ tầng cloud nội địa, hướng tới nhu cầu hiện đại hóa dữ liệu, triển khai AI và đảm bảo tuân thủ lưu trữ dữ liệu tại Việt Nam cho doanh nghiệp.
 
-### genk (17)
+- **[Panasonic mang hệ thống điều hòa thật vào trường học để đào tạo kỹ sư Việt Nam](https://genk.vn/panasonic-mang-he-thong-dieu-hoa-that-vao-truong-hoc-de-dao-tao-ky-su-viet-nam-165261405070240648.chn)**
+  - relevance: `8` · category: `—` · scope: `domestic` · published: —
+  - themes: vn_market_data, cross_brand_partnerships
+  - signal: Partnership
+  - Panasonic đang mở rộng hợp tác với nhiều trường đại học, cao đẳng kỹ thuật tại Việt Nam bằng cách tài trợ phòng thực hành điều hòa, thông gió và chất lượng không khí để sinh viên được học trực tiếp trên hệ thống thật.
 
-- **[Nikkei: 11,5 triệu việc làm tại Việt Nam chịu tác động nghiêm trọng từ AI](https://genk.vn/nikkei-115-trieu-viec-lam-tai-viet-nam-chiu-tac-dong-nghiem-trong-tu-ai-165260512084348692.chn)**
+- **[Mua sim Viettel data và hỗ trợ chuẩn hóa VNeID tại CellphoneS](https://genk.vn/mua-sim-viettel-data-va-ho-tro-chuan-hoa-vneid-tai-cellphones-165260513155117789.chn)**
+  - relevance: `6` · category: `—` · scope: `domestic` · published: —
+  - themes: payment_wallet_war
+  - SIM Viettel data là giải pháp kết nối di động được nhiều người lựa chọn nhờ tốc độ ổn định và phủ sóng rộng. Một chiếc SIM phù hợp giúp mọi hoạt động online diễn ra liền mạch, từ làm việc đến giải trí.
+
+- **[Yamaha YS150 gây chú ý nhờ độ bền và siêu tiết kiệm xăng, gợi nhớ thời hoàng kim của Yamaha FZ-S tại Việt Nam](https://genk.vn/yamaha-ys150-gay-chu-y-nho-do-ben-va-sieu-tiet-kiem-xang-goi-nho-thoi-hoang-kim-cua-yamaha-fz-s-tai-viet-nam-165260513110749365.chn)**
+  - relevance: `5` · category: `—` · scope: `domestic` · published: —
+  - themes: vn_market_data
+  - signal: Expansion
+  - Yamaha YS150 là mẫu xe nổi bật nhờ sự bền bỉ, cực kỳ tiết kiệm xăng và vô cùng dễ dàng điều khiển. Mẫu xe này đồng thời khiến nhiều người dùng Việt nhớ tới Yamaha FZ-S, dòng naked bike từng rất được ưa chuộng.
+
+- **[Googlebook ra mắt, đối trọng với MacBook Neo của Apple](https://genk.vn/googlebook-ra-mat-doi-trong-voi-macbook-neo-cua-apple-165261305224343850.chn)**
   - relevance: `5` · category: `AI` · scope: `domestic` · published: —
-  - themes: vn_market_data
-  - signal: Expansion
-  - Chuyên gia cho rằng Việt Nam đang phải đối mặt với nhiều mối đe doạ dài hạn từ trí tuệ nhân tạo (AI).
-
-- **[Schneider Electric ra mắt biến tần Altivar HVAC mới, tiết kiệm hơn 30% điện năng cho hệ thống điều hòa tòa nhà](https://genk.vn/schneider-electric-ra-mat-bien-tan-altivar-hvac-moi-tiet-kiem-hon-30-dien-nang-cho-he-thong-dieu-hoa-toa-nha-165260511161620052.chn)**
-  - relevance: `5` · category: `—` · scope: `domestic` · published: —
-  - themes: cross_brand_partnerships
-  - signal: Launch
-  - Schneider Electric giới thiệu thế hệ biến tần Altivar HVAC mới gồm ATH200 và ATH600, hướng tới các hệ thống HVAC trong tòa nhà thương mại, bệnh viện, sân bay và trung tâm dữ liệu với khả năng tiết kiệm điện, tăng độ ổn định vận hành và hỗ trợ tích hợp tòa nhà thông minh.
-
-- **[Thêm 20 điện thoại Samsung được "lên đời" One UI 8.5](https://genk.vn/them-20-dien-thoai-samsung-duoc-len-doi-one-ui-85-165261005193335936.chn)**
-  - relevance: `5` · category: `—` · scope: `domestic` · published: —
-  - themes: vn_market_data
-  - signal: Expansion
-  - Người dùng Galaxy tại Việt Nam và nhiều khu vực sẽ bắt đầu nhận bản cập nhật One UI 8.5 từ ngày 11 tháng 5.
-
-- **[Vì sao bảo dưỡng xe điện tốn ít hơn một nửa so với xe xăng: đáp án từ Mỹ, châu Âu và một bãi đỗ xe taxi tại Hà Nội](https://genk.vn/vi-sao-bao-duong-xe-dien-ton-it-hon-mot-nua-so-voi-xe-xang-cau-tra-loi-tu-my-chau-au-va-mot-bai-do-xe-taxi-tai-ha-noi-165260511124050376.chn)**
-  - relevance: `5` · category: `—` · scope: `domestic` · published: —
-  - themes: vn_market_data
-  - signal: Expansion
-  - Bộ Năng lượng Hoa Kỳ năm 2021 đã đo được điều mà nhiều chủ xe điện cảm nhận trên hóa đơn dịch vụ: chi phí bảo dưỡng xe điện thấp hơn xe xăng cùng phân khúc khoảng 40%. Consumer Reports khảo sát hàng nghìn chủ xe đưa ra con số mạnh hơn, 50%. Tại Việt Nam, chủ xe VF 5 và chủ xe Vios cũng chia sẻ những câu chuyện tương tự.
-
-- **[Đội bảo vệ 9 người canh gác AI trị giá 350 tỷ USD, có nhiệm vụ ngăn chặn chatbot "phá hủy xã hội"](https://genk.vn/doi-bao-ve-9-nguoi-canh-gac-ai-tri-gia-350-ty-usd-co-nhiem-vu-ngan-chan-chatbot-pha-huy-xa-hoi-165260512084203857.chn)**
-  - relevance: `4` · category: `AI` · scope: `domestic` · published: —
-  - themes: ai_infra_general
-  - Giữa cuộc đua AI trị giá hàng trăm tỷ USD, nhóm 9 người tại Anthropic đang được giao nhiệm vụ phát hiện những nguy cơ có thể khiến chatbot thay đổi xã hội mất kiểm soát.
-
-- **[Con đường “tử thần” với 18 khúc cua tay áo ở Trung Quốc khiến tài xế kinh hãi mỗi khi đi qua](https://genk.vn/con-duong-tu-than-voi-18-khuc-cua-tay-ao-o-trung-quoc-khien-tai-xe-kinh-hai-moi-khi-di-qua-165260511110514705.chn)**
-  - relevance: `4` · category: `—` · scope: `domestic` · published: —
-  - themes: mobility_food_economics
-  - Chỉ dài chưa đầy 4 km nhưng con đường Lingpaishi tại Trùng Khánh, Trung Quốc lại khiến nhiều tài xế phải “toát mồ hôi” vì độ dốc khủng khiếp cùng 18 khúc cua tay áo liên tiếp nằm cheo leo giữa hai vách núi dựng đứng.
-
-- **[Hai cỗ máy của Figure AI gật đầu hiểu ý nhau: Bước ngoặt lịch sử hay khoảnh khắc rùng mình?](https://genk.vn/hai-co-may-cua-figure-ai-gat-dau-hieu-y-nhau-buoc-ngoat-lich-su-hay-khoanh-khac-rung-minh-165260511110614058.chn)**
-  - relevance: `4` · category: `AI` · scope: `domestic` · published: —
-  - themes: cross_brand_partnerships
-  - signal: Launch
-  - Figure AI ra mắt bản demo mới nhất, phô diễn khả năng hợp tác ấn tượng của hai robot Helix-02. Chỉ trong chưa đầy hai phút, chúng tự động quan sát, suy đoán ý định và cùng nhau dọn dẹp phòng ngủ, mở ra kỷ nguyên mới cho ngành robot.
-
-- **[AMD hợp tác Samsung phát triển công nghệ mới](https://genk.vn/amd-hop-tac-samsung-phat-trien-cong-nghe-moi-165261005193108188.chn)**
-  - relevance: `4` · category: `—` · scope: `domestic` · published: —
-  - themes: cross_brand_partnerships
-  - signal: Partnership
-  - DGF Siêu Nén giúp giảm tới 30% dung lượng lưu trữ mô hình 3D, hỗ trợ cả các card đồ họa Radeon đời cũ lẫn thế hệ mới.
-
-- **[iQOO 15T chơi mượt Genshin Impact ở 60fps](https://genk.vn/iqoo-15t-choi-muot-genshin-impact-o-60fps-165261005175052446.chn)**
-  - relevance: `4` · category: `—` · scope: `domestic` · published: —
-  - themes: cross_brand_partnerships
-  - signal: Partnership
-  - iQOO 15T sử dụng chip Dimensity 9500 phiên bản đặc biệt, tích hợp chip chơi game Q3 do hãng tự phát triển và pin 8.000mAh hỗ trợ sạc nhanh 100W.
-
-- **[“Bố già” AI ra mắt mô hình AI mới chạy được trên laptop: Khi cả ngành đốt nghìn tỷ USD vào chip, ông chứng minh họ sai](https://genk.vn/bo-gia-ai-ra-mat-mo-hinh-ai-moi-chay-duoc-tren-laptop-khi-ca-nganh-dot-nghin-ty-usd-vao-chip-ong-chung-minh-ho-sai-165260511115647758.chn)**
-  - relevance: `4` · category: `AI` · scope: `domestic` · published: —
   - themes: ai_infra_general
   - signal: Launch
-  - Để tránh phải tiêu tốn cả nghìn tỷ USD cho các mô hình ngôn ngữ lớn, ông LeCun tạo ra một kiến trúc mô hình AI mới, gọn nhẹ hơn, thông minh hơn và tiêu tốn ít tài nguyên hơn khi vận hành.
+  - Googlebook chạy Aluminum OS, hệ điều hành kết hợp Chrome OS và Android với Gemini làm trợ lý, dự kiến lên kệ cuối năm 2026 với giá từ 15,7 triệu đồng.
 
-- **[Xe ga Trung Quốc mới gây sốc: Trang bị vượt Honda và Yamaha nhưng người Việt vẫn chưa dám xuống tiền?](https://genk.vn/xe-ga-trung-quoc-moi-gay-soc-trang-bi-vuot-honda-va-yamaha-nhung-nguoi-viet-van-chua-dam-xuong-tien-165260510143002692.chn)**
-  - relevance: `4` · category: `—` · scope: `domestic` · published: —
-  - themes: vn_market_data
-  - Haojue TVL350 vừa được hé lộ và nhanh chóng thu hút sự chú ý nhờ ngoại hình hiện đại cùng loạt trang bị cao cấp. Mẫu xe được định vị như một dòng scooter touring tầm trung hướng tới nhóm khách hàng trẻ, đặc biệt là nữ biker yêu thích sự tiện nghi và an toàn.
+- **[Google mở rộng Gemini Intelligence trên Android: AI có thể tự dùng ứng dụng, đặt đồ ăn, gửi ảnh và truy cập dữ liệu cá nhân](https://genk.vn/google-mo-rong-gemini-intelligence-tren-android-ai-co-the-tu-dung-ung-dung-dat-do-an-gui-anh-va-truy-cap-du-lieu-ca-nhan-165260513231734944.chn)**
+  - relevance: `5` · category: `AI` · scope: `domestic` · published: —
+  - themes: ai_infra_general
+  - signal: Expansion
+  - Theo Google, các tính năng Gemini Intelligence mới sẽ bắt đầu được triển khai từ mùa hè 2026 cho smartphone Google Pixel và Samsung Galaxy.
 
-- **[vivo sắp ra điện thoại tầm trung dùng chip Snapdragon "đầu 8", pin 7.000mAh](https://genk.vn/vivo-sap-ra-dien-thoai-tam-trung-dung-chip-snapdragon-dau-8-pin-7000mah-165261005193259289.chn)**
+- **[Anthropic ra mắt "trợ lý AI ngành luật", thu hút hơn 20.000 người đăng ký](https://genk.vn/anthropic-ra-mat-tro-ly-ai-nganh-luat-thu-hut-hon-20000-nguoi-dang-ky-165260514071251632.chn)**
+  - relevance: `5` · category: `AI` · scope: `domestic` · published: —
+  - themes: ai_infra_general
+  - signal: Launch
+  - Anthropic đang biến Claude thành “trợ lý pháp lý AI” có thể kết nối trực tiếp với các phần mềm luật chuyên dụng, làm nóng thêm cuộc đua AI trong ngành pháp lý.
+
+- **[Claude bị biến thành “đồng phạm” với hacker: Tự viết 17.000 dòng code, 49 module tấn công, nhắm thẳng vào hạ tầng nước của thành phố](https://genk.vn/claude-bi-bien-thanh-dong-pham-voi-hacker-tu-viet-17000-dong-code-49-module-tan-cong-nham-thang-vao-ha-tang-nuoc-cua-thanh-pho-165260513200114881.chn)**
+  - relevance: `5` · category: `AI` · scope: `domestic` · published: —
+  - themes: ai_infra_general
+  - signal: Campaign_Marketing
+  - Dù Anthropic nhiều lần ca ngợi về khả năng đạo đức của Claude, chatbot AI này vẫn dễ dàng bị hacker qua mặt và tích cực hỗ trợ cho chiến dịch tấn công nhắm thẳng vào hệ thống hạ tầng quan trọng của thành phố.
+
+- **[CEO TPBank: Dòng tiền lừa đảo chỉ mất 40-45 giây là chuyển khỏi tài khoản, sau vài phút chạy qua cả chục ngân hàng rồi rút ra tiền mặt](https://genk.vn/ceo-tpbank-dong-tien-lua-dao-chi-mat-40-45-giay-la-chuyen-khoi-tai-khoan-sau-vai-phut-chay-qua-ca-chuc-ngan-hang-roi-rut-ra-tien-mat-165260513153513239.chn)**
+  - relevance: `5` · category: `AI` · scope: `domestic` · published: —
+  - themes: payment_wallet_war
+  - Tại Diễn đàn Digital Trust in Finance 2026 tổ chức ngày 12/5, ông Nguyễn Hưng - CEO TPBank đã có những chia sẻ về bức tranh chuyển đổi số của ngành ngân hàng, những cơ hội từ trí tuệ nhân tạo (AI) và cả thách thức trước các thủ đoạn lừa đảo tinh vi hiện nay.
+
+- **[Anthropic muốn biến Claude thành "luật sư"](https://genk.vn/anthropic-muon-bien-claude-thanh-luat-su-165261305065848521.chn)**
+  - relevance: `5` · category: `AI` · scope: `domestic` · published: —
+  - themes: ai_infra_general
+  - signal: Regulation
+  - Claude for Legal giờ kết nối trực tiếp với DocuSign, Box và nền tảng nghiên cứu Westlaw của Thomson Reuters, giúp luật sư làm việc mà không cần rời khỏi hệ thống quen thuộc.
+
+- **[Cận cảnh Lenovo Yoga 7i 2-in-1 Gen 11: Tích hợp Intel Core Ultra thế hệ 3, 32GB RAM, đa dụng mạnh mẽ nhưng vẫn có điểm cần lưu ý](https://genk.vn/can-canh-lenovo-yoga-7i-2-in-1-gen-11-tich-hop-intel-core-ultra-the-he-3-32gb-ram-da-dung-manh-me-nhung-van-co-diem-can-luu-y-165261305183654183.chn)**
   - relevance: `4` · category: `—` · scope: `domestic` · published: —
   - themes: cross_brand_partnerships
   - signal: Partnership
-  - vivo S60 dự kiến trang bị cảm biến tele kính tiềm vọng Sony, hỗ trợ sạc nhanh 90W và có phiên bản màu hồng hợp tác với IP anime Trung Quốc.
+  - Với Yoga 7i 2-in-1 Gen 11, Lenovo dường như đang chuyển sang chiến lược mang tính thực dụng hơn khi tập trung ưu tiên trải nghiệm sử dụng hàng ngày, tính linh hoạt và hiệu quả lâu dài thay vì những thông số hào nhoáng.
 
-- **[CEO FPT: Nhiều doanh nghiệp Việt vẫn mới ở “level 1-2” của AI, muốn bứt phá phải thay đổi cách vận hành](https://genk.vn/ceo-fpt-nhieu-doanh-nghiep-viet-van-moi-o-level-1-2-cua-ai-muon-but-pha-phai-thay-doi-cach-van-hanh-165261105130454416.chn)**
-  - relevance: `2` · category: `AI` · scope: `domestic` · published: —
+- **[vivo X300 Ultra đối đầu dàn flagship 2026: Đâu là điểm vượt trội hàng đầu](https://genk.vn/vivo-x300-ultra-doi-dau-dan-flagship-2026-dau-la-diem-vuot-troi-hang-dau-165260513172652638.chn)**
+  - relevance: `4` · category: `AI` · scope: `domestic` · published: —
+  - themes: cross_brand_partnerships
+  - signal: Partnership
+  - Trong bối cảnh thị trường smartphone cao cấp năm 2026 chứng kiến sự bùng nổ của các thiết bị tích hợp AI, vivo X300 Ultra vẫn khẳng định vị thế hàng đầu thông qua hệ thống camera 200MP kết hợp ống kính Zeiss.
+
+- **[RAM giờ có cả tản nhiệt nước, tích hợp thêm màn hình LCD](https://genk.vn/ram-gio-co-ca-tan-nhiet-nuoc-tich-hop-them-man-hinh-lcd-165261305065740383.chn)**
+  - relevance: `4` · category: `—` · scope: `domestic` · published: —
+  - themes: cross_brand_partnerships
+  - signal: Partnership
+  - Dòng Vortex DDR5 48 GB lần đầu xuất hiện tại Computex 2026, kèm phụ kiện Vortex Water Block giúp giảm nhiệt độ từ 66°C xuống 31°C khi hoạt động liên tục.
+
+- **[Từ ngày 21/5, địa chỉ khai báo lưu trú, tạm trú chung chính thức áp dụng trên cả nước](https://genk.vn/tu-ngay-21-5-dia-chi-khai-bao-luu-tru-tam-tru-chung-chinh-thuc-ap-dung-tren-ca-nuoc-165260513022910895.chn)**
+  - relevance: `4` · category: `—` · scope: `domestic` · published: —
+  - themes: vn_market_data
+  - Người dân và tất cả cơ sở lưu trú cần lưu ý ngừng sử dụng nền tảng cũ và phần mềm ASM, chuyển sang thao tác hoàn toàn trên hệ thống website thống nhất dành cho cả người Việt Nam và người nước ngoài.
+
+- **[Elden Ring: Tarnished Edition có thể ra mắt trên Switch 2 vào tháng 7 tới](https://genk.vn/elden-ring-tarnished-edition-co-the-ra-mat-tren-switch-2-vao-thang-7-toi-165261305065926420.chn)**
+  - relevance: `1` · category: `Ride/Food delivery` · scope: `domestic` · published: —
   - signal: Launch
-  - Tại Cisco CxO Symposium 2026, CEO FPT cho rằng AI không còn là công cụ thử nghiệm mà đang trở thành “nhân sự số” trong doanh nghiệp, với KPI, ngân sách và vai trò trực tiếp trong vận hành.
+  - Một nhà bán lẻ Canada vừa niêm yết Elden Ring: Tarnished Edition với ngày giao hàng dự kiến là 10.7, làm dấy lên hy vọng về thông báo chính thức sớm.
 
-- **[Intel sắp gia công chip cho Apple, hai bên nối lại quan hệ sau 3 năm](https://genk.vn/intel-sap-gia-cong-chip-cho-apple-hai-ben-noi-lai-quan-he-sau-3-nam-165261005225146149.chn)**
+- **[Xbox thế hệ mới sẽ bỏ ổ đĩa](https://genk.vn/xbox-the-he-moi-se-bo-o-dia-165261305201552934.chn)**
   - relevance: `1` · category: `—` · scope: `domestic` · published: —
-  - Thỏa thuận sơ bộ nằm trong chiến lược của Apple nhằm giảm phụ thuộc TSMC, Intel dự kiến sản xuất chip M cấp thấp và chip iPhone không phải dòng Pro từ năm 2027.
+  - Thông tin từ Windows Central tiết lộ Microsoft đang nghiên cứu chương trình có mã 'Positron', cho phép chuyển bản quyền đĩa vật lý sang bản số khi lên đời máy mới, dù cơ chế cụ thể vẫn chưa rõ.
 
-- **[Tesla ký hợp đồng chip với Intel, Apple cũng muốn tham gia](https://genk.vn/tesla-ky-hop-dong-chip-voi-intel-apple-cung-muon-tham-gia-165261005224801689.chn)**
+- **[Viettel Store 20 năm: Trúng iPhone 17 Pro Max, giảm giá Galaxy S26 và OPPO Find X9](https://genk.vn/viettel-store-20-nam-trung-iphone-17-pro-max-giam-gia-galaxy-s26-va-oppo-find-x9-165260513215839864.chn)**
+  - relevance: `1` · category: `—` · scope: `domestic` · published: —
+  - Hai chương trình trúng thưởng chạy song song trong tháng 5 và tháng 6, giải cao nhất là iPhone 17 Pro Max và phiếu mua sắm 20 triệu đồng.
+
+- **[iPhone 18 Pro bỏ dùng màn hình Tandem OLED?](https://genk.vn/iphone-18-pro-bo-dung-man-hinh-tandem-oled-165261305065736457.chn)**
+  - relevance: `1` · category: `—` · scope: `domestic` · published: —
+  - Thay vì OLED hai lớp (Tandem OLED), Apple đang phát triển màn hình LTPO+ OLED cho iPhone 18 Pro, cho phép điều chỉnh tốc độ làm mới linh hoạt từ 1Hz đến 120Hz để cải thiện hiệu quả năng lượng.
+
+- **[Sony Xperia 1 VIII ra mắt: Camera tele thay đổi lớn, Snapdragon 8 Elite Gen 5, vẫn giữ jack 3.5mm và thẻ nhớ, giá tiệm cận 50 triệu](https://genk.vn/sony-xperia-1-viii-ra-mat-camera-tele-thay-doi-lon-snapdragon-8-elite-gen-5-van-giu-jack-35mm-va-the-nho-gia-tiem-can-50-trieu-16526051311564691.chn)**
   - relevance: `1` · category: `AI` · scope: `domestic` · published: —
-  - Chính phủ Mỹ hiện nắm 10% cổ phần Intel trị giá hơn 1 triệu tỷ đồng, còn Intel đã bán hết toàn bộ công suất sản xuất chip năm ngoái nhờ nhu cầu AI bùng nổ.
+  - signal: Launch
+  - Sony chính thức trình làng Xperia 1 VIII với thay đổi lớn về camera tele, thiết kế cụm camera mới cùng loạt nâng cấp AI, nhưng vẫn giữ nhiều “đặc sản” hiếm thấy trên flagship hiện nay như jack tai nghe 3.5mm, khe microSD và nút chụp ảnh vật lý hai nấc.
 
-- **[Elon Musk đến thăm nhà máy Intel, xAI sắp không cần phụ thuộc TSMC nữa](https://genk.vn/elon-musk-den-tham-nha-may-intel-xai-sap-khong-can-phu-thuoc-tsmc-nua-165261005225222207.chn)**
-  - relevance: `0` · category: `AI` · scope: `domestic` · published: —
-  - Intel và xAI đang triển khai hai dự án lớn: nhà máy chip quy mô cực lớn TeraFab và hợp đồng sản xuất chip AI thế hệ tiếp theo bằng công nghệ 14A của Intel.
+- **[DJI sắp ra mắt drone siêu nhẹ](https://genk.vn/dji-sap-ra-mat-drone-sieu-nhe-165261305065930500.chn)**
+  - relevance: `1` · category: `Travel/Khách sạn/Giải trí` · scope: `domestic` · published: —
+  - signal: Launch
+  - Nếu Air 4 thực sự nhẹ dưới 250g, người dùng sẽ dễ dàng mang đi du lịch và ít bị ràng buộc bởi quy định hơn.
 
-- **[Duy Luân: “64GB RAM trên MacBook đã đủ chạy nhiều mô hình AI mà phần lớn laptop Windows không thể”](https://genk.vn/duy-luan-64gb-ram-tren-macbook-da-du-chay-nhieu-mo-hinh-ai-ma-laptop-windows-khong-the-165261105071249874.chn)**
+- **[“Quái vật AI” mới của Trung Quốc: Baidu tung ERNIE 5.1, chi phí thấp hơn 94%, đè bẹp các đối thủ phương Tây](https://genk.vn/quai-vat-ai-moi-cua-trung-quoc-baidu-tung-ernie-51-chi-phi-thap-hon-94-de-bep-cac-doi-thu-phuong-tay-165260514071440892.chn)**
   - relevance: `0` · category: `AI` · scope: `domestic` · published: —
-  - Từ trải nghiệm thực tế với MacBook Pro M5 Max 128GB, Duy Luân cho rằng Unified Memory đang giúp Mac có lợi thế lớn trong cuộc chơi AI local.
+  - ERNIE 5.1, “át chủ bài” mới của Baidu, đang khiến giới công nghệ toàn cầu choáng váng với khả năng tối ưu chi phí chưa từng có.
+
+- **[Sony dùng AI để tăng tốc làm game, nhưng vẫn giữ con người là trung tâm sáng tạo](https://genk.vn/sony-dung-ai-de-tang-toc-lam-game-nhung-van-giu-con-nguoi-la-trung-tam-sang-tao-165261305065932497.chn)**
+  - relevance: `0` · category: `AI` · scope: `domestic` · published: —
+  - Các studio PlayStation đang tự động hóa nhiều quy trình lặp lại nhờ AI, giúp rút ngắn thời gian phát triển game mà không thay thế vai trò của nghệ sĩ.
 
 ### restofworld (3)
 
-- **[The global cybersecurity gap deepens as AI-powered attacks surge](https://restofworld.org/2026/ai-cybersecurity-anthropic-mythos/?utm_source=rss&utm_medium=rss&utm_campaign=feeds)**
-  - relevance: `4` · category: `AI` · scope: `international` · published: 2026-05-05 10:00 UTC
-  - themes: ai_infra_general
-  - Restricted access to powerful defensive AI tools like Anthropic’s Mythos leaves some companies, central banks, and nations more vulnerable than others.
+- **[What’s at stake for tech at the Trump-Xi meeting](https://restofworld.org/2026/trump-xi-meeting-tech/?utm_source=rss&utm_medium=rss&utm_campaign=feeds)**
+  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-13 10:00 UTC
+  - U.S.-China summit to likely cover AI rivalry, chip exports, supply chain security, and the EV trade as leaders navigate intensifying geopolitical tensions.
 
 - **[The Chinese whiz kids of Silicon Valley](https://restofworld.org/2026/chinese-ai-researchers-silicon-valley/?utm_source=rss&utm_medium=rss&utm_campaign=feeds)**
   - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-11 10:00 UTC
@@ -660,98 +727,122 @@
   - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-07 10:00 UTC
   - From the Trump administration’s “formatting errors” to South Africa’s historic policy withdrawal, AI confabulation is infiltrating official documents.
 
-### reuters_tech (20)
+### reuters_tech (25)
 
-- **[Uber-backed Lime reveals revenue surge in US IPO filing - Reuters](https://news.google.com/rss/articles/CBMiggFBVV95cUxQNG5XeWFBOVdHRkZkYUZia3ptMERGaThHdWJCcjZJWkNMUldMY21pbTlkajZCZm9Veks4OTl3X2d5N2JZOEhrUTdjU2dONnNYWW55YXlpZDF0eEFjcUlLTTkzQ2F4bk12dFJTSHFIQlpvMVQwaXRsQ05fX3lCOUhvZnhB?oc=5)**
-  - relevance: `6` · category: `Ride/Food delivery` · scope: `international` · published: 2026-05-08 13:32 UTC
-  - themes: mobility_food_economics
-  - signal: Strategy_MnA
-  - Uber-backed Lime reveals revenue surge in US IPO filing Reuters
-
-- **[Uber forecasts strong second-quarter bookings despite Middle East woes - Reuters](https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVlp4cVFUSTBGcUJlYnJpZ3ZqVmRzdUFLcm1jUk9GTTVISUpRQ2dVQURzR3h2WER0V2JJaWQ2SEdZaGdBR2tOYkxjSG9LOHlOQnBDdm9WclhFRFJ1Tnd4dS1GNk1sYmUtaWUwVzZkWWFIdDVuU05lU3FFM3VMWENBV1ZMMGdGN0lrc3hsd2xLZVEzVFBUdkxLTm5xNHZ6d010SjNrdVd0WHAyWTJNMms3UjZlOTNvRWpCdHFLWkJ0ZTlxY0FsVFQtVDFGLXhQSHlnbWc?oc=5)**
-  - relevance: `5` · category: `Ride/Food delivery` · scope: `international` · published: 2026-05-06 23:01 UTC
-  - themes: mobility_food_economics
-  - Uber forecasts strong second-quarter bookings despite Middle East woes Reuters
-
-- **[Ex-OpenAI exec Sutskever says he spent a year gathering proof of alleged Altman dishonesty - Reuters](https://news.google.com/rss/articles/CBMiuwFBVV95cUxNejRjVEZaWTlmSWZJQkRSWDhNYkFqNm51UXNxTmNsVjFueEhEeTUwZUpvYkpPYjZLMGR5NGVYblpuZFo1cmJsLTNkVXk4OVFpdmwzS005N0hLWDRuNy1OcXhSVkFHT1FxcXBFa09GV2VqaGkxM3hPb2ltak1YU05jdVc3S2dUOGhMZGRiWHJFcnlGS2FCeEotQ0dPYWpPb2JneFpVSlhtZ181TmdZTEhEUEduU1BtWEs5X1B3?oc=5)**
-  - relevance: `4` · category: `AI` · scope: `international` · published: 2026-05-11 21:48 UTC
+- **[Exclusive: Microsoft eyeing startup deals for life after OpenAI - Reuters](https://news.google.com/rss/articles/CBMilAFBVV95cUxQM2VyeEVUTWlmTUQtd0tKanlmR2l5ZmxPMXp5UFdnTGljWnlZX1ZhRGFBZVZjZU44U3dZS2dKQVFHcVpncVp6VUJIVFpicWpxMUxEZ1cwTTdyUl9xZVNES3NiVnZNTUp2czFKWkNWSW5EVVFBV2tZOG9laDdDVU42cFZDeUtpbFJjWnhWT2xMOEg4QU1D?oc=5)**
+  - relevance: `4` · category: `AI` · scope: `international` · published: 2026-05-13 20:52 UTC
   - themes: ai_infra_general
-  - Ex-OpenAI exec Sutskever says he spent a year gathering proof of alleged Altman dishonesty Reuters
+  - Exclusive: Microsoft eyeing startup deals for life after OpenAI Reuters
 
-- **[OpenAI creates new unit with $4 billion investment to aid corporate AI push - Reuters](https://news.google.com/rss/articles/CBMitwFBVV95cUxONzBVZGx1c2JvQTRJeWZ2d1FPQU1GTnhSaEZONVV0YmpaRnI4WE50Q25udWxlNC1LbVR0ZkJnTzJYM0dRekdNZWVVempHSEZJT1ZTS1Q3bDI0NHJRdW5lOURaUmNPX0UtQVNnUXNyQUhXQnhvd1lYT1JZdXl5dWtiNk9CblcxV1FHQmdoSGpiekJjX3kwSlZSeHVOcE93ZHY1VU92bldWRTZqb2NKck1yUlRqWjkzRk0?oc=5)**
-  - relevance: `4` · category: `AI` · scope: `international` · published: 2026-05-11 13:59 UTC
+- **[OpenAI chief Altman has over $2 billion stake in companies that dealt with OpenAI, court filing shows - Reuters](https://news.google.com/rss/articles/CBMiygFBVV95cUxQeDUxQUx2TDdmSWNrbHFMd0pRQzJXZmd1RDJkNHFVWl9heHZLNE5ibVhYS3JhS0JkTjZHT2VEam9lWnprZkhLUEZiMnJLNjdyNDJxSHRvUzAwOWJvNTFFNEJWZTJhMERuNzFiSmpkaUk3M3BIVzlXMlhzYW1SSHZ0WEY2Nm5idnAwUlVVcV84NVR4RFJXanNaQV9qOVNkNUpOUWZhYzZXOE9FdEhSc1Q5YU1XZ21lVkdRT1NhSmJ0akQ5M0hGTHVsV0xB?oc=5)**
+  - relevance: `4` · category: `AI` · scope: `international` · published: 2026-05-13 19:53 UTC
   - themes: ai_infra_general
-  - OpenAI creates new unit with $4 billion investment to aid corporate AI push Reuters
+  - OpenAI chief Altman has over $2 billion stake in companies that dealt with OpenAI, court filing shows Reuters
 
-- **[Anthropic signs $1.8 billion AI cloud deal with Akamai, Bloomberg News reports - Reuters](https://news.google.com/rss/articles/CBMivAFBVV95cUxPRWh0a2p2a3dybEdNaXVMdEtRaU5TYVlYY0FlNFUwN20xNGtXVTdQbVlYVHRjby1aamRNWWxzVGJEUTdaUHNrcjI2RXdLS1NWbHZIdVVnVWpQMW9fcFVGQUh0T1d0MnVoVUlKNlJOdGRmMEN6UzdfSG14VGlkU0lsNHdZamZJVWJWM1U4TWNFMWdQeDBhdDJiTWRCTm94WnpkcEI3U0lUNEI4M0hwcklJR0lSZzhkU1N5TnFtYQ?oc=5)**
-  - relevance: `4` · category: `AI` · scope: `international` · published: 2026-05-08 18:52 UTC
+- **[SoftBank profit more than triples to $12 billion on OpenAI stake gains - Reuters](https://news.google.com/rss/articles/CBMirAFBVV95cUxPNGh6U2JUX3dvS2hEcUpDRURYQTRWTXRoeWtiQ3Viam5KYTBSSngycnlkbVBOVzF6d3JLeUFCQ1JISjFnX25vOFl3bjIyQ2FfUlFQMUNUZUwyd2x4VFJLeDRxbFFtMzJ3ZmdPZk9VN1hpTE1aSHJZeDlteWs2R25BSlpqM0Q2ckp4bC1lVFZsY1VRMmRxSFRub2haODJfdUU5eGc1MktVcTQtODRh?oc=5)**
+  - relevance: `4` · category: `AI` · scope: `international` · published: 2026-05-13 06:44 UTC
   - themes: ai_infra_general
-  - Anthropic signs $1.8 billion AI cloud deal with Akamai, Bloomberg News reports Reuters
+  - SoftBank profit more than triples to $12 billion on OpenAI stake gains Reuters
+
+- **[Japan megabanks to gain access to Anthropic's Mythos in about two weeks, source says - Reuters](https://news.google.com/rss/articles/CBMivAFBVV95cUxPRHQ4Z3NVSjVBeURnYUtKbFhVVmJTQkd0cWpwX0ozZmRiZVY0UHRQckJPbzJlcDVNUGVvbGg3T2xlODJic3JmVXdEZndRc2puUDFPUlZNbDNlTzhpVE1mRU1ReVlYcGcxTGZlTXZxcnNPbTNoT2pRR3E0NWpyd3lLRFFaY0hyQWhId1R2dnFfTFlMazlEbzhFRnREMlhhVm5odGRoTWphTDhxNkdQaXdmMVBKV3VhX0tQand0cw?oc=5)**
+  - relevance: `4` · category: `AI` · scope: `international` · published: 2026-05-13 05:18 UTC
+  - themes: ai_infra_general
+  - Japan megabanks to gain access to Anthropic's Mythos in about two weeks, source says Reuters
+
+- **[Anthropic's Mythos sends US banks rushing to plug cyber holes - Reuters](https://news.google.com/rss/articles/CBMirwFBVV95cUxNSUVXTGZSYWxqVU5NQ0V5c1h0bVZIV2REZVQwSk5OQ2RnRTktUWZ4WUY2OF9NWUxsNk44cmlFRjdlTlFqYjdUNHhiOGhUWEVpWVpMckk5bEJXTVRlM3ZvcTBLTy1lY3R4Wm1yYkh6Nzlmcld0cjNQRngwSjFOSlJ6WV9Gb2o4b2VGU1lyMW9rSFg3cUxBY1p2ZmVtWU9zN3pKcFIzQnFOMGdWekdBVmRF?oc=5)**
+  - relevance: `4` · category: `AI` · scope: `international` · published: 2026-05-12 19:43 UTC
+  - themes: ai_infra_general
+  - Anthropic's Mythos sends US banks rushing to plug cyber holes Reuters
+
+- **[Pentagon deploys Anthropic's Mythos to patch cyber gaps while planning to ditch firm - Reuters](https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSFE3cnQwallpU2dpMFJ2RTZzVHNETFRQZmd5bk9XbUZGSGM0aXpCaGdhNlJubXVGY19uTWFEdzZtX05CZDlnY0ZqN1Vmc1BxTVptMHhiOUR1UU15NWwxTUFJTl8xcnB6MmJBQ2pYT2RTRnV6bFBhaVo5Mkh3a0hTc2NqVmNYbWJEWDhVWi1wZUt1eXFCbVM0OEtmVk5mcTZsTi1pdzBRM3phR3BzN3d5YW9LdDZ1Zmloc3Vna2QzV2VYQQ?oc=5)**
+  - relevance: `4` · category: `AI` · scope: `international` · published: 2026-05-12 16:09 UTC
+  - themes: ai_infra_general
+  - Pentagon deploys Anthropic's Mythos to patch cyber gaps while planning to ditch firm Reuters
+
+- **[India's IT shares near three‑year low as OpenAI move revives AI fears - Reuters](https://news.google.com/rss/articles/CBMivgFBVV95cUxNMVl0Yk5LWnc2MWx0TWtBbjh3Tnpwak1IZlE3NVpfZ01vVFg0bkpYZWowWGEyeFMxdWI1RjdIVFhpc0haVk9CTC1KdzM5R1lWWVdaMGJlb3gyOGZwbHh3VHNTX2tWYXZNQ2FvLVBmQlJCcXR6RW5NTXB6VkNnOWUxck1fNU9vbGp2d3NBaDlmLXExYlhrWHQ3UWR4WHFudW41NFFGQ0JPUktQOERSNzVQM0R2Qnpfc2ZsalB5SWd3?oc=5)**
+  - relevance: `4` · category: `AI` · scope: `international` · published: 2026-05-12 05:42 UTC
+  - themes: ai_infra_general
+  - India's IT shares near three‑year low as OpenAI move revives AI fears Reuters
+
+- **[OpenAI, Microsoft agree to cap revenue sharing at $38 billion, The Information reports - Reuters](https://news.google.com/rss/articles/CBMitAFBVV95cUxNblVmbDNUMWl1TnJGZ1lvSlBUWkZPOGswWWk2MGxGczB0TVMwZVliUGpicUp5M0dKUTg1cEFBblQtZ3lfc0ZXZDUwTy1KcERsLUxHWTRPYnJ4bElJWG8ta3J2X1ZVTkg1am9jN3ZvNkJncFFzQXhvWV9ScnFsbFA4S3doU0d3Y0pIUE5nNEVtVm91eTQ0MDdCVE1ybTY5WmZEUnBTeVBDRG9GWjZSNC1IRTRYTVY?oc=5)**
+  - relevance: `4` · category: `AI` · scope: `international` · published: 2026-05-12 01:22 UTC
+  - themes: ai_infra_general
+  - OpenAI, Microsoft agree to cap revenue sharing at $38 billion, The Information reports Reuters
 
 - **[In OpenAI trial, former technology chief says Altman sowed 'chaos,' distrust among top executives - Reuters](https://news.google.com/rss/articles/CBMizAFBVV95cUxOcDBWMjRUdGd0bmo4ajdVc244Ul9PbFdhME5zb25uUWMxVlJualFIZktMMHFzbkowWXF0RnhoMllGenlGWFR6Q253aF9mOG9yRWVWTWUtUmNscEFEaFJ5M0xNOXJJVXBRMVVRMXRWZmhuN3hmeUxNakNBX0JncmV4NmsxR2J2R3Rhclc5SHdwUkpaQmhwcFljSGVSU1g5V18xYWFRdGZza1FHem5HS1ptX2pWTjlia01Kalo5aUNLd1BLT2hySXNyb29Ocm0?oc=5)**
   - relevance: `4` · category: `AI` · scope: `international` · published: 2026-05-08 02:28 UTC
   - themes: ai_infra_general
   - In OpenAI trial, former technology chief says Altman sowed 'chaos,' distrust among top executives Reuters
 
-- **[Nvidia funds construction of Corning plants, in addition to equity investment - Reuters](https://news.google.com/rss/articles/CBMitgFBVV95cUxPTDhqbFp0ZEdzWENjN0NNZTdvY2N1ZUtodlJMTl95UzExcElSaG1qdWNXdy1mMFNZakl4ZEl1dzg4LTFfQnBPT2o4YWlFcG54Qk1QbVZuYS1CV2xZQWVIcDFUa0g5ZjgxYmVvRUU3Z3JCa0syTjZsb0hfVnFnUVdQN1hEalB1aHhsQkNPS3Roa1FLNklhX1lhNHJqRzZBT0dRVFZvUVptUDNjNklvTG5ZdjA3TXkyQQ?oc=5)**
-  - relevance: `3` · category: `—` · scope: `international` · published: 2026-05-08 06:08 UTC
+- **[Nvidia CEO's foundation buys $108 million of AI computing from CoreWeave, donates it to researchers - Reuters](https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWDktRjkwaTNMT3JycTV4b3pwbGItcVF2N2NOUmJiYzBoSVhoWUdVdnk2Z0JiUVBIMTBvN2ltVmJKRVEyc1RxNndZLUljU29uelVFOWU4Zks5cEsxT1ZGcmgwTkdvUHd0UTRTTGY1V2I4NTdOQjRod0p3dlg1RWoxUkhwZ0RiZEZVZ3dKMDZoLVN2UkJ0MDJSdS1IZEd4NFRRcjlDc292QXlmaUxoQXRMOVgxLXNhRXdWZURCeC1uVEpIN01YR2s4aw?oc=5)**
+  - relevance: `3` · category: `AI/Big tech AI` · scope: `international` · published: 2026-05-13 23:57 UTC
   - themes: ai_infra_general
-  - Nvidia funds construction of Corning plants, in addition to equity investment Reuters
+  - Nvidia CEO's foundation buys $108 million of AI computing from CoreWeave, donates it to researchers Reuters
 
-- **[Hackers pushing innovation in AI-enabled hacking operations, Google says - Reuters](https://news.google.com/rss/articles/CBMivgFBVV95cUxPZmx3aHF5WThIVEpsUnpPNXkxUGZOamt6MTlvMXFhYm5WbUZNUG11V21qb2ZSQkZpSFZNYkRZcDhobGxQeXhlUkpBanY2YXhmMXhFM0otcEd4ZWU5Rl9CSVhLU2lSV0N0cGZYdl9IYjlnOGVFQ3JBZTF3el9EZE1SX0w4azl0ejlXM1V3RnNsTVM0cEE0RzdlR00xVlJoUGZmQ3M5TUlmY0Z6TTlGQmVlZmY4VDV1Nkd4aVgzb29B?oc=5)**
-  - relevance: `1` · category: `AI` · scope: `international` · published: 2026-05-11 20:55 UTC
-  - Hackers pushing innovation in AI-enabled hacking operations, Google says Reuters
+- **[Nvidia CEO joins Trump for China trip, spurring hopes for H200 deal - Reuters](https://news.google.com/rss/articles/CBMirwFBVV95cUxPNENyZVd1OHEwbTAxeE80T2lqb015TXZBS2RsQ0xSOUxoRVJ4Smk3UmhFejQ3U3hsMGlBQjdjTlMwVFhoOHdDbi12QUcybzZOVUlkVEdaNjBrdmdSU3pkT2JHdy03alFfV2NzX3B1UjM4WUtNZ01hbnI3aDE1RmVtTVhqZUc2S2JIMjVkS0lUMFVyVVJDdjlrS1NBRFVNRTVGc0RJMHZvNHlvd0xSM3NJ?oc=5)**
+  - relevance: `3` · category: `—` · scope: `international` · published: 2026-05-13 06:06 UTC
+  - themes: ai_infra_general
+  - Nvidia CEO joins Trump for China trip, spurring hopes for H200 deal Reuters
 
-- **[Microsoft, Google, xAI security test details deleted from US government website - Reuters](https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVGxvQjN5RUR4T2FFODZGUkJpZ3hDUi1Ba0dJVGxIcXNsY3BlZ0JzTUdGNU4ybHE5aWM0UVEyb1JhZkd2UFFWUGZ4U3JLcTZmM1Z2QjZYRG1ycy1XazdYUlRvcm5faXhPUU02SkdXVzJ1dEhZR0dWWWN1LV96RzlfNHp5NHZHMmVmT3czbEZaTmxVLUExNE56a3A5MTVNay1VSEFfSDVCR05ja19UcU1JeUFtTFhyWW9sMWFtYlRON185NjA?oc=5)**
-  - relevance: `1` · category: `—` · scope: `international` · published: 2026-05-11 19:50 UTC
-  - Microsoft, Google, xAI security test details deleted from US government website Reuters
+- **[Exclusive: Meta employees launch protest against mouse-tracking tech at US offices - Reuters](https://news.google.com/rss/articles/CBMixwFBVV95cUxONEE4SmlFR2VJQ1h0c2lOcDhTUGJ5eTB5NkZZV19GMkdyMGlhczFGZEZxYXhvVTlZMzJtdzFMN0VaZnRwdmJCWFY0UFpUNUtsbTl2ekVBYm8yTHluYWhKMkx0X3JPYXhSZ2hGbEtRcEZCWU9Wb0NheEtFZ2NBYzBkeHVueV9CaDlHaTBGU0RCZER4WmU2OURqbWVMV3dYOXI1Z3RGQkdxSENPak5ROWpJZ0pjVnBOUXZINVRudWcxUmZKX3VlTVB3?oc=5)**
+  - relevance: `2` · category: `—` · scope: `international` · published: 2026-05-12 19:59 UTC
+  - signal: Launch
+  - Exclusive: Meta employees launch protest against mouse-tracking tech at US offices Reuters
+
+- **[Google-backed Isomorphic raises $2.1 billion to scale AI-driven drug discovery - Reuters](https://news.google.com/rss/articles/CBMixAFBVV95cUxQVGRLQTBxRHVVMUNsX05aYmd5akMtUmhuVzcxN0lEbF9yLW5CNmtSVFZVT2pCWDV5bS1zM3BobDd3dVU3cXJSdjhyTkZSWW1fNGpKYlhReFg3M3I3Zy14VE9WMWpnNDQ4QWt3Q0h0enZOcUNuX01HTVNrRkFZTlNTVUlqLWczZUlMbnBhWDRJY3drN3BuVDlQMm5tUEJuNTZwRTNsWk1mZlhqdTdwcXJ1eVYzQU9QUENMVGJrS0hSLW1IYjRy?oc=5)**
+  - relevance: `2` · category: `AI` · scope: `international` · published: 2026-05-12 16:23 UTC
+  - signal: Funding
+  - Google-backed Isomorphic raises $2.1 billion to scale AI-driven drug discovery Reuters
+
+- **[Exclusive: LinkedIn planning to lay off 5% of staff in latest tech-sector cuts, source says - Reuters](https://news.google.com/rss/articles/CBMiywFBVV95cUxQYlNwRmtuNFk4c2w2M0l2SWsxaW4wMmQ3TndEQVY2UUdSWFhXNzhCS1RHZkg1ZFFPcGlJMmZiTzNqMjZ0U2JtWWFlR1RORVhOcjhualhsTV83WmxEZ2ROMEIwWEhQTEhVYmd0WmlhWC1DaGh0QjhHVWQ3TW5uMldTRF8xdm9BNmp1aHJ5YWRCOGF6RnpRYzA2ZlFlUXRLMHltdnNrazFYcko3Y2IwZDVvQm95N1NDTHBNVUFTMjhJTUZreGxvTGtOdXR4Zw?oc=5)**
+  - relevance: `1` · category: `—` · scope: `international` · published: 2026-05-13 15:11 UTC
+  - Exclusive: LinkedIn planning to lay off 5% of staff in latest tech-sector cuts, source says Reuters
+
+- **[EU takes aim at TikTok, Meta's 'addictive designs' for teens - Reuters](https://news.google.com/rss/articles/CBMiowFBVV95cUxPQ0hzczk3TGZybnhnS19HOERmQWYyZXNUWkdwcVpqS09MNWRlekMzRFJKd3VfMzh0SlpGMUkwZWVFbk5GVlZwNHBUYl9ELW5oeG41NXYxMUFRc3IyQ2JYTm1ZZzAzMFZ6dTlXNGpSWmVOUi1wUFdoaUxjZmdtT2pVX0F6d2lqZjMyX00tbkllSWxRSTVMNkw0dGVpc0tKSVBLZTQ0?oc=5)**
+  - relevance: `1` · category: `—` · scope: `international` · published: 2026-05-12 15:46 UTC
+  - EU takes aim at TikTok, Meta's 'addictive designs' for teens Reuters
 
 - **[Alphabet, Amazon tap overseas debt markets to fund AI infrastructure push - Reuters](https://news.google.com/rss/articles/CBMiqAFBVV95cUxOX1VEZEpXRmh4OFM3RGgxX1Z1cjBPaHlWMTZqa3lwbklEcXNSN0VnWVowUFZ1ZEp2LUpUTFpLazFuSngtS2pyMHI2Q283Z0NybFdkTTJGNEtxcHEtX1kxTjIzS1hjTVNOUi1GeDVNRnFjVzFXWHJDRmJnMmN0VUJsUGJrdi1LeUUtbVNtdjZjMjRwaW94SlpaS2lSazRqa1dDX1M4SXUtQWk?oc=5)**
   - relevance: `1` · category: `AI` · scope: `international` · published: 2026-05-11 17:48 UTC
   - Alphabet, Amazon tap overseas debt markets to fund AI infrastructure push Reuters
 
-- **[California county sues Meta over scam ads - Reuters](https://news.google.com/rss/articles/CBMiuAFBVV95cUxNazhoNnRpTnJTb25TUGdLOFB3TC1QN3VTUjlYT0hJZjJxS3JPOF92dmswRkNKcV9CeUVkNlhuX05VMjIyeWh0WU14R0RvN0licEE4Qm0zOENlX3pVcUg0SUU5V1QyNmI2Mk9tNkRKUEpac0w0WGVwSUpfaHVIblJEcTgtMXNLbHBFbmJWSUhNVFZUYlEwOEpWTnRoSy1VSTdmWmN3S2RlMG9Cb0NWZzNickJ0Q05wTk5m?oc=5)**
-  - relevance: `1` · category: `—` · scope: `international` · published: 2026-05-11 15:22 UTC
-  - California county sues Meta over scam ads Reuters
+- **[Cisco to cut about 4,000 jobs in AI-focused restructuring as orders surge - Reuters](https://news.google.com/rss/articles/CBMiiwFBVV95cUxQU21ycmNvZ1V4WXMzSHd2b01CdzdCdWhoRmRRUFprZkc4b1VXMXBLdXdOUUVPRUtPOVcwdTZDbGp5ZldCdzZ5T2tQRlFxdXJ0QkRvS2VGMjgwUzJReUV4N0JQV3NEcklMSzNyRTU0UWZ2TGFoNWZVR2pwbFl0VXd5SFZmTzBmYWNpZ3Zr?oc=5)**
+  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-13 22:28 UTC
+  - Cisco to cut about 4,000 jobs in AI-focused restructuring as orders surge Reuters
 
-- **[Microsoft’s African data center falters on payment demands, Bloomberg News reports - Reuters](https://news.google.com/rss/articles/CBMixAFBVV95cUxQc004TlNOQ3k0SEVzN2Roa2hveTZER3d3b3ZJaFlPVktOdHZLRVJkY25pcDZITFdjQlF1T0l3MTkwLUlDTlJrbWdSTk5OdEk4M3R6REVIZi01RmptSy1JamNVdDJsTkE3S3JEdXRQMkQwRF9ndDhtLXNlS2g1cHBvMjV0akV6T04yY1NabEpTXy1zcVRhMzRrUjFaRWFkNzAzalFMZ1FMbERtLWktMmFEVUJaSEZnbEtZWENkTjJrUXlveUNp?oc=5)**
-  - relevance: `1` · category: `—` · scope: `international` · published: 2026-05-10 13:47 UTC
-  - Microsoft’s African data center falters on payment demands, Bloomberg News reports Reuters
+- **[AI is not replacing workers on a large scale so far, says Bank of Canada - Reuters](https://news.google.com/rss/articles/CBMitAFBVV95cUxPelJKa29lQTY0THE4TTEtbzVEZS1IUTVCbzM3blRUS2xndjN4VGQ2Wm9qX1RCNWRTZ0VQVk9EbGFkQ3h3cjBJZ25OVWpBX0RTbTFrUTM3MGJjNXd2aUM0UDNTSW1NSk84YnUxS1U4VkxybE5EbGpCZTB1eGFIWVh2SFhSLVJPMzNiRlE0Q2hSSGY2WUdXSzRjcWpXUWRWSTFPb0tZWTR2b0s1SzZlM1B5YXVyZEM?oc=5)**
+  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-13 16:00 UTC
+  - AI is not replacing workers on a large scale so far, says Bank of Canada Reuters
 
-- **[S&P 500 and Nasdaq notch records, boosted by AI and earnings optimism - Reuters](https://news.google.com/rss/articles/CBMinAFBVV95cUxOOGVILXcwU3hObHYzalJvRDNUTDVJS0pXNnR6QjVtNXhtTTNSclRlejJYRjRiX2pJcmlOMGVBdzZvOUdzNWg1aV9GQVdWdzBOUUVEX3NaaGhTcHlyNEJEcFlVOHJGWnJWVlZNZHNnMC0wQ0ZPZmRxMTZYdGF4T1MwcDdLcUM4Q0xyNzJJRHVyUlJUT0lKM21leFU5dVc?oc=5)**
-  - relevance: `1` · category: `AI` · scope: `international` · published: 2026-05-08 23:26 UTC
-  - signal: Performance
-  - S&P 500 and Nasdaq notch records, boosted by AI and earnings optimism Reuters
+- **[Top French court rejects Amazon challenge over French book delivery fees - Reuters](https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMjVMM0NzSTJ1cHJEdlVsQjV4b3VWdktwSkhneGFocjE5Rm1EV2NraVdSdldDN19aeWJHVVQ0OHQ2bTRWWnZqQm1fN3ljM3JRTXhzSnNBankweUx6VDZ5MWtHYnNpdnZDd2gxUms5Y19ocklWZ0xZdzVURGpITG4zVno3b29nUGtNT1plZXBVd0l3aFVRaFBnZmVmOUNBOEtNSjdvNVA5Ri1rcTV2cWxsam40eWVKa3h5OUpxbklvQ2dCNVk?oc=5)**
+  - relevance: `0` · category: `TMĐT` · scope: `international` · published: 2026-05-13 15:35 UTC
+  - Top French court rejects Amazon challenge over French book delivery fees Reuters
 
-- **[Netflix sued by Texas for allegedly spying on children, addicting users - Reuters](https://news.google.com/rss/articles/CBMilAFBVV95cUxOeWVZRHcweHdqVEZ2Y3FlNzBGUlNBX0ZrbFhWOU55NVJzd1FvMWhKOUtBcHQ3TWhVRExYZENHcHkzbk1UcTJPWV9CbUg2Xzd4SXVSVWdZLUtDa3ZHNENBcktQNk5wTXEwOEhfY0Y1TUNHc0hWNGtST3pMUVhmaTdSdGR1MFZkUkFfT3VEVXhhNFF6b0JV?oc=5)**
-  - relevance: `0` · category: `Travel/Khách sạn/Giải trí` · scope: `international` · published: 2026-05-11 21:55 UTC
-  - Netflix sued by Texas for allegedly spying on children, addicting users Reuters
+- **[From Australia to Europe, countries move to curb children's social media access - Reuters](https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVFBHdjRDTXdveThibXU1bXk3S3IwN2pDSUp5bXVfZVQ0ME5VUHphZGhYS0xkVkdiUThJWl9HR3p3aU9xd0VldEw5MXlBd1hNYlZTN3ZPbnBSaHRBYW5WNWZ5UXRRdG5aRWIxaUE0OU9WeEE1OG1rWWVQOFF6SEdlV1VvOC1ieVZEODhLMVJ3RVR5VS12RDZ4VzMwd2ZuNVJTVkpPRkpfd3VGazcwbDJkbm9SWmpaZVdxOXlz?oc=5)**
+  - relevance: `0` · category: `Chat` · scope: `international` · published: 2026-05-13 15:29 UTC
+  - From Australia to Europe, countries move to curb children's social media access Reuters
 
-- **[Circle revenue boosted as stablecoin demand rises amid volatility; shares up - Reuters](https://news.google.com/rss/articles/CBMivwFBVV95cUxQcXA0anhidjh2MkxXSUJkRXAzNlJ1QzhXTnBFSW9UbmN1WXpuWVQ5aWxJeTc4YW1sZk9sVzBhTmZBdDFnc21PcVNXY212S0g1Qmpxd1dXdGIydDlyOHFpTFpoZ2JJOFV6Ti1UNzJnM3F2QlBwUzRfcVppUl92TXdZaUxoRVdYN3FqQ1BaeGdmRmljR0hmSTVmenJHQXdHVlA5amFsQXZ5ZGltVE9vblFMSDhpaDlad2t2VERlZkUxQQ?oc=5)**
-  - relevance: `0` · category: `Fintech/E-wallet` · scope: `international` · published: 2026-05-11 14:19 UTC
-  - Circle revenue boosted as stablecoin demand rises amid volatility; shares up Reuters
+- **[AI cloud firm Nebius reports near eightfold revenue surge, shares jump - Reuters](https://news.google.com/rss/articles/CBMipgFBVV95cUxQVVdNeS11cTNCNHpEbWVQbFlIWDVzdlVLZDFiRW15VzlwRnNiLWFOLTJERHJzcS1ZQkQ3SUU5Wk5FYkR2T1JnRnJFN3FGT3NQZzkwM1dKS3pPWjRwQ0duUFJ2TXFoVFAzMDNldGJMRHJ6S3pkMUVQNXp3MmZlSjAtMENOcXQxNEt2RlR3ZG5NaDJGbHB3OVZ1Y19qQTZwNHJKeElZU1Vn?oc=5)**
+  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-13 13:42 UTC
+  - AI cloud firm Nebius reports near eightfold revenue surge, shares jump Reuters
 
-- **[Amazon's Chile data center moves ahead after residents lose environmental challenge - Reuters](https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNGxKWThnOTNDQnZjSkdORmxxZVZPdV9TcjIteXhNcGhUdXpiT25vNktLQmgzOGd3aDFtbVZtTTh6WERHMk1heGNFQ3E1ME1ZOVVZN3RwUlNfdnkyd3AtNGQwMXpmWnh1Q0JwcDdSUEtUYkFFbzRfVnpZWktycHh3RXlyU0lDY1JTS090SjFXSHZkTWZkVUZWNWFzeExySXlHS3RiNDhyOTIyMGZ4MF9RMWRSbUJGWVc3RDQzSXNaZzBteVdNdzlGVUpOZlZsYVh5bUUxSFN5WU1uM016Qnc?oc=5)**
-  - relevance: `0` · category: `TMĐT` · scope: `international` · published: 2026-05-10 07:00 UTC
-  - Amazon's Chile data center moves ahead after residents lose environmental challenge Reuters
+- **[Tech rivalry, distrust sap summit hopes for Trump-Xi AI push - Reuters](https://news.google.com/rss/articles/CBMipgFBVV95cUxPaUJtM1JTcTFZOC11QVp1OU83REJBV2FzMzZTRVZSSk9Ia3JfSTlSY3lVVklWYzE4ZlVLQkMxR3AzMTFVeFc0SEhTOFlzbjRaNjluWWlsMnFpbUprNnEwYVQ0QWwzanRHbXlmeXQ1OGJSWGgwMU1FMWxOeFBOa3BoSzNpYkFaWkl3NnJEWk1Id0ZUbmRFVGJDOTJjbmhOS1MwXzFsY3R3?oc=5)**
+  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-13 07:40 UTC
+  - Tech rivalry, distrust sap summit hopes for Trump-Xi AI push Reuters
 
-- **[Thailand's SiamAI denies exporting US AI servers to China - Reuters](https://news.google.com/rss/articles/CBMirAFBVV95cUxQUW1SVkV6RHM2VDVnelE4X0hIc3Nfb1dEbXdRQnNobUFvZzNaZGFRaHNEUDlLaHdFUGhrazJMdF8tUHcxc2x1c2s2c1d6XzlmQ2tXU0NRQXQwNGl2cUZGQzVZYWpXNWJvZ3B3ZWlZLUtUOGxNd0pHYUdoMktwUzFYalZWUW8zZDc4dWl6ZmU2VEw3SWdzN0Fyb1p4cng1NWVPRlIwbFBhT1NheVA3?oc=5)**
-  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-09 05:44 UTC
-  - Thailand's SiamAI denies exporting US AI servers to China Reuters
+- **[Investors say they want Trump and Xi to stay out of AI's way - Reuters](https://news.google.com/rss/articles/CBMingFBVV95cUxObFB6YVhTbkxmMkJ3c01WSUx6cTMzcFlRQnlIZlFrbWlrRm9TM3hHR3dveWduRkQzbTY3eFNEN1Jmb3NjV3RBUDE3S281ZjAweVdVZG9HYW9FRzBHdm41OUVXU3VOWlZBa1ZENUFjTldhNURYTUhGWHE0YWNRazM3YTFUaUxGTUhKRHdjd1FLbjE3VnQySF9CZlJtYWszdw?oc=5)**
+  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-12 21:43 UTC
+  - Investors say they want Trump and Xi to stay out of AI's way Reuters
 
-- **[US Senate Committee set to consider long-awaited crypto bill this week - Reuters](https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVnc3V1lOeFg0SDgxQWdqNjUxX3dBUjYzcHJ2T1RSZ0ZQVXdMNlF4ZnY4TGVRc2U3Vkp6WklxcG1kdm5jeFlsM2tqZlNEXzV6TExCUERKeXFBeTJXS0JTblpJRjBYMWRTWjQ3dmhhUzVsNzlpZnkzN0hQdXBjbnZ6bWZNMFBvaGhrVmhTQnl6TjVwVlVsTVJLbnBndjR0WnlfVXhUNTlSSWZGUkxWcGVWTFU3RFdfWDNhdUQ2bXg5Z3A0X0dNY1Bhcy1VSk1xZkxVSHkxeVBqODFOOEk?oc=5)**
-  - relevance: `0` · category: `Fintech/E-wallet` · scope: `international` · published: 2026-05-09 02:06 UTC
-  - US Senate Committee set to consider long-awaited crypto bill this week Reuters
+- **[Zelenskiy meets Palantir CEO as Ukraine expands use of AI in war - Reuters](https://news.google.com/rss/articles/CBMipwFBVV95cUxQQzN3anR0UXZwTk9ST0ZpbGZsZVNPcDhiX1RGanZsZHhUZ1NlMlc0Vy1xYk9Ia3piMUVPbXl6QThMMGVyZDBpRXpoZTVPZ3JQUHJVckRqLWlrWGxsaDRCNzdNREg4VThnWGt4STZac2swZElaQjJXUkNTRm1HSFhMSnhqeER2b3RNRzZMOFctNTRSeVF0UmVSOVBfN2txNEhuUUVNb0taRQ?oc=5)**
+  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-12 09:24 UTC
+  - Zelenskiy meets Palantir CEO as Ukraine expands use of AI in war Reuters
 
-- **[RBC lifts S&P 500 year-end target to 7,900 on AI optimism - Reuters](https://news.google.com/rss/articles/CBMipAFBVV95cUxPOU1EZUNaQlZCUXo0eTBSaUZhTHNGaUppb2FpcTBwYmN5TGlMaEVPWlZTY0FVZWk4OHZsNlQ4NEFiNUxQVzhHMDBGMWxvSkhvaGxkQ3dFd2RCbWt1RFpDcW5MNWVtTTB6NUhBdGZIcTNOeDVnVENCdzV0LVFGdzZvZmZhS1Q0a1VDS0VvbWxYTnRMQzJodFc0N2VlYlAzWkRvdjYydg?oc=5)**
-  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-08 05:46 UTC
-  - RBC lifts S&P 500 year-end target to 7,900 on AI optimism Reuters
+- **[Germany's finance watchdog to make targeted inspections amid 'substantial' AI risks - Reuters](https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeEhpZl8xMHZZcFJVX0FtR3NaMnJMN1diZElrZ3VOU0JTYUFOcDk5aWJMUE5oWEVxQmpQSWtIcXpvcV9lTG4tYWliVTliNkZ0RS1EaHBxNU9ON2dBS2VMdWxiSlZ5bXllLUtHYThjck5KLXVjOHlyOHdzZHZZdmNxQWhuN2gxRFFPYmpQM3VDS3VLMVBGN0x5UkFoZDVienRfaUNzQ0Y3RGZnMU8ydlZhRnJURnpyZzcwX3BN?oc=5)**
+  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-12 08:04 UTC
+  - Germany's finance watchdog to make targeted inspections amid 'substantial' AI risks Reuters
 
-- **[Arm shares slide on smartphone market weakness, AI chip supply concerns - Reuters](https://news.google.com/rss/articles/CBMiugFBVV95cUxQLVN5WF9RU003bTQ1dTIydWxJNS1HSXJoT2x5T1FicExfMGVXbzF6YU15Y0VUNDFTVl9OOHN3akk4bHp2OU81aU12Ymx4OWRsZWE1eDhDYy1QQTgtRURVQXUtV0tpTWtZX1JONlAwd253SXV6ZW9yNXFPaUowSWx5WlJrSV9kRERpdXdWOU1BaGtpUXdGTnRUbm9rVUJQMDhzclAyZ1V6dW1ucWJ5RXJFNnMxeG5iX3oxWVE?oc=5)**
-  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-07 13:56 UTC
-  - Arm shares slide on smartphone market weakness, AI chip supply concerns Reuters
-
-### scmp_tech (29)
+### scmp_tech (27)
 
 - **[How Nvidia’s Corning pact shines light on China’s dominant role in global fibre supply](https://www.scmp.com/tech/tech-trends/article/3352907/how-nvidias-corning-pact-shines-light-chinas-dominant-role-global-fibre-supply?utm_source=rss_feed)**
   - relevance: `7` · category: `AI/Big tech AI` · scope: `international` · published: 2026-05-08 13:00 UTC
@@ -759,17 +850,10 @@
   - signal: Partnership
   - Chipmaking giant Nvidia’s deepening partnership with US fibre optics maker Corning to replace copper links in next-generation rack-scale artificial intelligence systems is shining a spotlight on mainland China’s optical communications supply chain. The domestic optical value chain is also doubling down on AI scenarios, emerging as the global bedrock for the high-capacity components required to power AI infrastructure. “The global optical fibre and cable market had entered a period of both rising
 
-- **[China’s chipmakers pour revenue into R&D, outpacing US ratios](https://www.scmp.com/tech/big-tech/article/3352533/chinas-chipmakers-pour-revenue-rd-outpacing-us-ratios?utm_source=rss_feed)**
-  - relevance: `7` · category: `AI` · scope: `international` · published: 2026-05-06 02:30 UTC
-  - themes: big_tech_in_finance_commerce
-  - signal: Performance
-  - China’s chip champions channelled a larger proportion of revenue into research and development (R&D) than their US peers, first-quarter earnings show, as Beijing presses ahead with its tech self-reliance drive amid an artificial intelligence boom. Beijing-based Moore Threads spent half of its revenue on R&D in the quarter ended March 2026, while Shanghai-based MetaX spent 45 per cent over the same period, according to exchange filings. By contrast, US chipmakers such as AMD and Intel have...
-
-- **[Canadian Solar elevates Hong Kong role amid industry slump and geopolitical tensions](https://www.scmp.com/business/banking-finance/article/3352524/canadian-solar-elevates-hong-kong-role-amid-industry-slump-and-geopolitical-tensions?utm_source=rss_feed)**
-  - relevance: `6` · category: `—` · scope: `international` · published: 2026-05-06 00:00 UTC
-  - themes: platform_regulation
-  - signal: Regulation
-  - Canadian Solar, one of the industry’s most exposed players to US-China tensions, is expanding the role of its Hong Kong operations as it reshapes its global business to weather a deepening downturn and rising geopolitical pressure, positioning the city as a hub for financing, talent and technology development, according to its board director. The Nasdaq-listed group, founded in 2001 by Chinese entrepreneur Shawn Qu, has been grappling with increasingly stringent compliance requirements from...
+- **[JD.com swings back to profitability in first quarter though profits tumble 53%](https://www.scmp.com/tech/tech-trends/article/3353291/jdcom-swings-back-profitability-first-quarter-though-profits-tumble-53?utm_source=rss_feed)**
+  - relevance: `4` · category: `TMĐT` · scope: `international` · published: 2026-05-12 10:50 UTC
+  - themes: mobility_food_economics
+  - Chinese online shopping giant JD.com reported a 53.2 per cent year-on-year decline in first-quarter profit to 5.1 billion yuan (US$750.2 million) due to protracted competition on the e-commerce and food delivery fronts. The company was able to swing back to profitability after posting a loss in the previous quarter. Under non-generally accepted accounting principles which excludes one-off costs and non-cash items, JD.com posted a net income of 7.4 billion yuan in the March quarter, compared with
 
 - **[Shadow APIs: how Chinese developers bypass restrictions to access Claude and Gemini](https://www.scmp.com/tech/tech-trends/article/3353002/shadow-apis-how-chinese-developers-bypass-restrictions-access-claude-and-gemini?utm_source=rss_feed)**
   - relevance: `4` · category: `AI` · scope: `international` · published: 2026-05-10 07:00 UTC
@@ -787,41 +871,29 @@
   - signal: Funding
   - Chinese artificial intelligence high-flier DeepSeek is expected to close its first external financing round soon, boosting its valuation to up to US$50 billion, according to three people familiar with the matter, as the country’s marquee state-backed investment vehicle joins in bankrolling what is seen as a national technology champion. The round was being backed by a group of state-linked investors, including AI-focused affiliates under the third phase of the China Integrated Circuit Industry..
 
-- **[Baggage bots: Chinese humanoid robots roll into Japan’s airports amid labour shortage](https://www.scmp.com/tech/article/3352626/baggage-bots-chinese-humanoid-robots-roll-japans-airports-amid-labour-shortage?utm_source=rss_feed)**
-  - relevance: `4` · category: `AI` · scope: `international` · published: 2026-05-06 11:30 UTC
-  - themes: cross_brand_partnerships
-  - signal: Launch
-  - China-made humanoid robots are beginning to gain traction in Japan, with models from Chinese firms Unitree and UBTech being deployed by Japan Airlines for baggage and cargo handling, highlighting the growing adoption of Chinese robotics technology as Japan grapples with acute labour shortages. Japan Airlines said last week that it would launch a two-year trial using humanoid robots for ground-handling operations at Tokyo’s Haneda Airport through a partnership with GMO AI & Robotics. Tasks in the
-
-- **[Beyond SaaS Stagnation: Why AI-Native Spend is Surging 94% as Enterprises Embrace Autonomous Workforces](https://www.scmp.com/presented/tech/topics/ai-native-agentic-workforce/article/3351998/beyond-saas-stagnation-why-ai-native-spend-surging-94-enterprises-embrace-autonomous-workforces?utm_source=rss_feed)**
-  - relevance: `4` · category: `AI/AI agents` · scope: `international` · published: 2026-05-05 16:00 UTC
-  - themes: agentic_ai_commerce
-  - [The content of this article has been produced by our advertising partner.] The enterprise software landscape is undergoing a structural reckoning. According to recent market data, AI-native spending has surged by 94% year-on-year (YoY), nearly double the growth rate of hybrid tools and dramatically outpacing traditional SaaS, which has cooled to just 8%. Amidst this shift, omnichannel leader Omnichat today announces its definitive evolution into an AI-Native Agentic Customer Experience (CX)...
-
-- **[Hype or real cash flow: China’s robot boom faces reality check as commercialisation lags](https://www.scmp.com/tech/big-tech/article/3351817/hype-or-real-cash-flow-chinas-robot-boom-faces-reality-check-commercialisation-lags?utm_source=rss_feed)**
-  - relevance: `4` · category: `—` · scope: `international` · published: 2026-05-05 03:00 UTC
-  - themes: agentic_ai_commerce
-  - A desk with a laptop and a stack of books. A shirt waiting to be folded. A kitchen counter, a milk-tea stand and pile of building blocks – all in a single room. Robots of different shapes face their tasks with focus, controlled by a human operator. Pick up. Place. Fold. Repeat. This is not a film set, it is a data collection factory for embodied intelligence – a de facto “data foundry”. The facility, in Shanghai’s Zhangjiang hi-tech zone, is run by Agibot, a fast-rising robotics company. The...
-
 - **[China’s AI ascent leaves Trump a stark choice: escalate or relax chip controls?](https://www.scmp.com/economy/global-economy/article/3353180/chinas-ai-ascent-leaves-trump-stark-choice-escalate-or-relax-chip-controls?utm_source=rss_feed)**
   - relevance: `3` · category: `AI/Big tech AI` · scope: `international` · published: 2026-05-11 22:00 UTC
   - themes: ai_infra_general
   - US President Donald Trump’s landmark visit to China comes as the US-Iran war disrupts global energy supplies, fuels economic uncertainty and adds fresh strain to Washington-Beijing ties. In this story, part of a series examining how rivalry, interdependence and geopolitical crises are reshaping the relationship between the two powers, we examine how artificial intelligence (AI), chip controls and competing technology ecosystems are redefining US-China rivalry. Nvidia CEO Jensen Huang was the...
 
-- **[China’s chipmakers rush to embrace DeepSeek’s V4. Which names stand out?](https://www.scmp.com/tech/big-tech/article/3352644/chinas-chipmakers-rush-embrace-deepseeks-v4-which-names-stand-out?utm_source=rss_feed)**
-  - relevance: `3` · category: `AI` · scope: `international` · published: 2026-05-06 12:30 UTC
-  - themes: ai_infra_general
-  - The release of DeepSeek’s latest large language model, V4, has been followed by a wave of adoption among domestic semiconductor manufacturers and artificial intelligence chipmakers, with firms racing to support the model on local hardware platforms. The shift comes amid rising geopolitical tensions over advanced semiconductors. Here are some of the key players enabling the model’s deployment on domestic hardware. Huawei Huawei Technologies was among the first to act, with the V4 fully adapted to
-
-- **[AI ecosystems in China and US grow apart amid tech war](https://www.scmp.com/plus/tech/tech-war/article/3352563/ai-ecosystems-china-and-us-grow-apart-amid-tech-war?utm_source=rss_feed)**
-  - relevance: `3` · category: `AI` · scope: `international` · published: 2026-05-06 04:15 UTC
-  - themes: ai_infra_general
-  - China and the United States are taking divergent paths to developing artificial intelligence (AI), putting their technology ecosystems increasingly at odds. This divergence was on show on April 24 when start-up DeepSeek launched its next-generation V4 AI models that were optimised for use with the Ascend chips and associated software tools of tech giant Huawei Technologies. China has for years been pursuing technological self-reliance, a policy reiterated by the Communist Party’s Politburo at...
+- **[Kuaishou shares soar as Kling AI eyes US$20 billion valuation in potential spin-off](https://www.scmp.com/tech/article/3353214/kuaishou-stock-surges-reports-kling-ai-unit-spin?utm_source=rss_feed)**
+  - relevance: `2` · category: `AI` · scope: `international` · published: 2026-05-12 03:04 UTC
+  - signal: Strategy_MnA
+  - Kuaishou Technology’s shares jumped as much as 10 per cent on Tuesday morning after reports that the Chinese short-video platform was raising new funding for its Kling AI unit at a valuation of US$20 billion. Kuaishou – often seen as a rival to ByteDance-owned Douyin in China – plans to spin off its video generation service, according to a report by Chinese technology news outlet The LatePost on Monday, citing anonymous sources. The company is in talks with potential investors, including Tencent
 
 - **[ByteDance raises 2026 capex by at least 25% amid AI boom, rising memory costs, sources say](https://www.scmp.com/tech/article/3352906/bytedance-raises-2026-capex-least-25-amid-ai-boom-rising-memory-costs-sources-say?utm_source=rss_feed)**
   - relevance: `2` · category: `AI` · scope: `international` · published: 2026-05-09 06:00 UTC
   - signal: Funding
   - TikTok owner ByteDance is ramping up its spending on artificial intelligence infrastructure, boosting its planned capital expenditure this year to more than 200 billion yuan (US$30 billion), according to two people familiar with the matter. This represented an increase of at least 25 per cent compared with a preliminary plan discussed late last year that proposed AI capex of 160 billion yuan, they said. The increase was necessary because of the company’s growing commitment to AI, as well as...
+
+- **[How ByteDance plans to turn OpenClaw craze into a profitable AI business](https://www.scmp.com/tech/tech-trends/article/3353310/how-bytedance-plans-turn-openclaw-craze-profitable-ai-business?utm_source=rss_feed)**
+  - relevance: `1` · category: `AI` · scope: `international` · published: 2026-05-13 02:00 UTC
+  - ByteDance’s Volcano Engine, the cloud unit that released an OpenClaw-based cloud agent tool ArkClaw, is betting that the next phase of artificial intelligence will hinge on cheaper tokens, higher inference efficiency and longer context windows. “Agent-related token consumption still accounts for a single-digit percentage of total token usage, but it is growing,” said Li Guodong, chief architect of ArkClaw, on Tuesday on the sidelines of OpenClaw’s first mainland China event since the open-source
+
+- **[Hong Kong-listed biotech firm uses AI to produce nano-rockets to deliver life-saving drugs](https://www.scmp.com/business/banking-finance/article/3353341/hong-kong-biotech-firm-uses-ai-produce-nano-rockets-deliver-life-saving-drugs?utm_source=rss_feed)**
+  - relevance: `1` · category: `AI` · scope: `international` · published: 2026-05-13 01:30 UTC
+  - signal: Launch
+  - Shares of METiS TechBio surged 173 per cent on their Hong Kong debut on Wednesday as the AI-driven drug design start-up’s initial public offering drew strong demand from investors amid buoyant sentiment for AI-related stocks in the city. Its stocks traded at HK$28.68 at the open, climbing as high as HK$29.6 in the morning trading session before retreating to HK$23.8 at the close, up 126.67 per cent from the offering price. Co-founder and CEO of METiS TechBio, Lai Tsai-Ta, who obtained a PhD from
 
 - **[Alibaba taps into China’s ‘chat to buy’ trend via Qwen AI and Taobao integration](https://www.scmp.com/tech/article/3353132/alibaba-taps-chinas-chat-buy-trend-qwen-ai-and-taobao-integration?utm_source=rss_feed)**
   - relevance: `1` · category: `AI/AI agents` · scope: `international` · published: 2026-05-11 08:03 UTC
@@ -855,9 +927,25 @@
   - relevance: `1` · category: `—` · scope: `international` · published: 2026-05-07 08:30 UTC
   - TikTok is investing US$25 billion in data infrastructure projects in Thailand, the company’s biggest investment announced to date in Southeast Asia, as China’s technology giants continue expanding their footprint in the region. The investment would be used to install additional servers and expand data storage and processing infrastructure across Bangkok, Samut Prakan and Chachoengsao provinces to support rising demand for digital services, according to an announcement by Thailand’s Board of...
 
-- **[ByteDance’s AI subscription gamble: chatbot faces reality check in China](https://www.scmp.com/tech/tech-trends/article/3352661/bytedances-ai-subscription-gamble-chatbot-faces-reality-check-china?utm_source=rss_feed)**
-  - relevance: `1` · category: `AI` · scope: `international` · published: 2026-05-07 01:59 UTC
-  - Chloe Wang, a 26-year-old fund employee in Shenzhen, said she “definitely wouldn’t” pay for a subscription to Doubao, Chinese tech giant ByteDance’s artificial intelligence chatbot, at its proposed price. “I’m willing to pay for AI tools, but I don’t think it’s worth that much – even though I find Doubao relatively easy to use among domestic AI products,” said Wang, who uses the app occasionally for work-related queries. “If I had to pay for an AI tool as a productivity aid, I’d probably rather.
+- **[Alibaba shares surge 7% in Hong Kong as firm accelerates pivot to AI](https://www.scmp.com/tech/big-tech/article/3353487/alibaba-shares-surge-8-new-york-firm-accelerates-pivot-ai?utm_source=rss_feed)**
+  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-14 01:19 UTC
+  - Shares of Alibaba Group Holding opened up 7.8 per cent in Hong Kong, after the firm reported strong growth from its artificial intelligence products and ramped up its commitment to the technology. The Chinese tech giant also saw its New York-listed shares surge 8.2 per cent on Wednesday, closing at US$145.81, after it confirmed that revenues from AI-related products had hit 8.97 billion yuan (US$1.3 billion) in the first quarter. The company said the segment had now registered triple-digit...
+
+- **[Chinese memory module makers ramp up production as CXMT DDR5 breakthrough hits market](https://www.scmp.com/tech/tech-trends/article/3353464/chinese-memory-module-makers-ramp-production-cxmt-ddr5-breakthrough-hits-market?utm_source=rss_feed)**
+  - relevance: `0` · category: `Ride/Food delivery` · scope: `international` · published: 2026-05-13 23:30 UTC
+  - Chinese memory module manufacturers are accelerating the release of consumer and enterprise storage products powered by domestic DDR5 chips, as breakthroughs by ChangXin Memory Technologies (CXMT), the nation’s leading memory chipmaker, filter through the supply chain. Powev, one of China’s major memory module vendors, recently said its Sinker-branded DDR5 server memories had entered mass production and delivery. The 64GB DDR5-5600 RDIMM product passed testing by multiple major customers and was
+
+- **[Alibaba CEO signals capex boost as China tech giant forges full-stack AI path](https://www.scmp.com/tech/big-tech/article/3353451/alibaba-ai-revenue-logs-triple-digit-growth-11th-quarter-amid-strategic-reshuffle?utm_source=rss_feed)**
+  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-13 10:57 UTC
+  - Alibaba Group Holding expects its annualised recurring revenue from AI models and applications to hit 30 billion yuan (US$4.42 billion) by the year’s end, as the company ramps up its AI commitment. AI products are projected to generate more than 50 per cent of Alibaba’s cloud-computing revenue within the next year, as the tech giant looks to step up its AI monetisation efforts. Alibaba CEO Eddie Wu Yongming said the company was likely to “overshoot” the original capital-expenditure target of 380
+
+- **[Tencent misses first-quarter revenue estimates, bets on AI for new growth](https://www.scmp.com/tech/article/3353445/tencents-misses-first-quarter-revenue-estimates-bets-ai-new-growth?utm_source=rss_feed)**
+  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-13 10:38 UTC
+  - Facing scrutiny and persistent questions over its track record in artificial intelligence, Tencent Holdings’ co-founder and CEO Pony Ma Huateng offered this candid assessment to shareholders on Wednesday: “A year ago we thought we were on the boat, then we found it was leaking.” Speaking at the firm’s annual general meeting at the Four Seasons Hotel in Hong Kong, Ma signalled the beginnings of a turnaround, saying that the company had finally found its footing but was “not yet seated”, according
+
+- **[AI engine: China’s booming tech exports give Beijing ‘wind in its sails’ for Trump summit](https://www.scmp.com/tech/big-tech/article/3353300/ai-engine-chinas-booming-tech-exports-give-beijing-wind-its-sails-trump-summit?utm_source=rss_feed)**
+  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-12 15:30 UTC
+  - Driven by global appetite for artificial intelligence, China’s computing hardware exports have emerged as a pivotal new engine for growth, providing Beijing with strategic leverage as US tech titans accompany President Donald Trump on a high-stakes visit to the Chinese capital this week, according to analysts. Chinese trade received another significant boost from the technology sector in April, as integrated circuit (IC) export value doubled year on year to US$31.09 billion, according to data...
 
 - **[China deepens footprint at AI conference despite NeurIPS dispute, US tensions](https://www.scmp.com/tech/tech-trends/article/3353173/china-deepens-footprint-ai-conference-despite-neurips-dispute-us-tensions?utm_source=rss_feed)**
   - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-11 14:00 UTC
@@ -879,381 +967,362 @@
   - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-08 10:30 UTC
   - China’s rapid technological gains and aggressive pricing are making it increasingly difficult for South Korean firms to find profitable areas of industrial synergy with their Chinese counterparts, according to experts. Speakers at a recent forum in Beijing urged firms from both countries to pivot towards building more interdependent ecosystems in high-growth sectors such as batteries and artificial intelligence, while also calling for the advancement of negotiations towards an upgraded...
 
-- **[Samsung halts all home appliance sales in China as pivot to AI accelerates](https://www.scmp.com/business/companies/article/3352690/samsung-halts-all-home-appliance-sales-china-pivot-ai-accelerates?utm_source=rss_feed)**
-  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-07 02:48 UTC
-  - South Korean tech giant Samsung Electronics said on Wednesday it would end sales of all home appliance products in mainland China, retreating further from a consumer market increasingly dominated by domestic rivals as the group doubles down on its far more profitable semiconductor business. Samsung’s home appliance portfolio in China includes televisions, monitors, air conditioners, refrigerators, washing machines, dryers, vacuum cleaners and air purifiers. In a notice published on its official.
+### techcrunch (10)
 
-- **[After the frenzy, the fallout: why the chips are down for Shenzhen’s tech traders](https://www.scmp.com/tech/article/3352642/after-frenzy-fallout-why-chips-are-down-shenzhens-tech-traders?utm_source=rss_feed)**
-  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-06 13:00 UTC
-  - While the world’s largest memory-chip makers are reaping record profits from the artificial intelligence boom, traders in Shenzhen’s Huaqiangbei electronics market are being left to deal with the fallout of a speculative frenzy that has sharply reversed, wiping out much of the value of their inventories since late 2025. “The market surge last year became so frantic that everyone from shoemakers to fishmongers piled into memory-chip speculation,” a trader surnamed Liu said from his cramped stall.
-
-- **[Supersized and scaling: China pushes 10,000-card computing clusters in AI race](https://www.scmp.com/tech/big-tech/article/3352200/supersized-and-scaling-china-pushes-10000-card-computing-clusters-ai-race?utm_source=rss_feed)**
-  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-05 15:00 UTC
-  - In China, computing facilities have emerged as a new form of infrastructure over the past two years, sparking an arms race among cities and technology companies to build 10,000-card computing clusters. These clusters – which link 10,000 or more artificial intelligence accelerator chips – enable faster iteration of AI capabilities and significantly reduce model training times. Domestic champions, from tech giants such as Huawei Technologies and Alibaba Group Holding to graphics processing unit...
-
-### techcrunch (13)
-
-- **[Uber has always wanted to be more than a ride; now it has reason to hurry](https://techcrunch.com/2026/05/10/uber-has-always-wanted-to-be-more-than-a-ride-now-it-has-reason-to-hurry/)**
-  - relevance: `5` · category: `Ride/Food delivery` · scope: `international` · published: 2026-05-10 18:08 UTC
-  - themes: mobility_food_economics
-  - The company has been trying to embed itself inside the AV industry — as a data provider, an investor, and a distribution platform — but the consumer-facing bet may be just as important.
-
-- **[Anthropic says ‘evil’ portrayals of AI were responsible for Claude’s blackmail attempts](https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/)**
-  - relevance: `4` · category: `AI` · scope: `international` · published: 2026-05-10 20:40 UTC
+- **[Anthropic courts a new kind of customer: small business owners](https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners/)**
+  - relevance: `5` · category: `AI` · scope: `international` · published: 2026-05-13 16:00 UTC
   - themes: ai_infra_general
-  - Fictional portrayals of artificial intelligence can have a real effect on AI models, according to Anthropic.
-
-- **[We’re feeling cynical about xAI’s big deal with Anthropic](https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/)**
-  - relevance: `4` · category: `AI` · scope: `international` · published: 2026-05-10 15:34 UTC
-  - themes: ai_infra_general
-  - On the latest episode of the Equity podcast, we discussed what xAI's deal with Anthropic might mean for parent company SpaceX.
-
-- **[Riding an AI rally, Robinhood preps second retail venture IPO](https://techcrunch.com/2026/05/11/riding-an-ai-rally-robinhood-preps-second-retail-venture-ipo/)**
-  - relevance: `2` · category: `AI` · scope: `international` · published: 2026-05-12 00:09 UTC
   - signal: Strategy_MnA
-  - Robinhood files confidentially for its second venture fund, this time targeting growth and early-stage startups.
+  - For founders and investors, Anthropic's new offering signals that the AI platform wars are expanding downmarket and that the next major battleground for user acquisition isn't the Fortune 500; it's the 36 million small businesses that make up the backbone of the U.S. economy.
 
-- **[TikTok launches an ad-free subscription plan in the UK](https://techcrunch.com/2026/05/11/tiktok-launches-an-ad-free-subscription-plan-in-the-uk/)**
-  - relevance: `2` · category: `—` · scope: `international` · published: 2026-05-11 14:05 UTC
-  - signal: Launch
-  - Users who sign up for the plan won’t see ads on TikTok, and their data won’t be used for advertising purposes.
-
-- **[Finally, texts between Android and iPhone users can be end-to-end encrypted](https://techcrunch.com/2026/05/11/finally-texts-between-android-and-iphone-users-can-be-end-to-end-encrypted/)**
-  - relevance: `1` · category: `—` · scope: `international` · published: 2026-05-11 21:59 UTC
-  - Google had urged Apple for years to support RCS texting to make communication between each company's devices more seamless.
-
-- **[Discord launches Nitro Rewards, giving subscribers access to the base tier of Xbox Game Pass for no extra cost](https://techcrunch.com/2026/05/11/discord-launches-nitro-rewards-giving-subscribers-access-to-the-base-tier-of-xbox-game-pass-for-no-extra-cost/)**
-  - relevance: `1` · category: `Chat` · scope: `international` · published: 2026-05-11 13:00 UTC
-  - signal: Launch
-  - Discord's Nitro Rewards program will give Nitro subscribers access to Xbox Game Pass and discounts from Logitech, SteelSeries, and other gaming brands.
-
-- **[Venmo’s biggest makeover in years comes at a very interesting time](https://techcrunch.com/2026/05/11/venmos-biggest-makeover-in-years-comes-at-a-very-interesting-time/)**
-  - relevance: `1` · category: `Fintech/E-wallet` · scope: `international` · published: 2026-05-11 12:00 UTC
-  - The timing is notable. PayPal, which owns Venmo, is restructuring to spin Venmo off as a stand-alone business unit — a move widely seen as laying the groundwork for a potential sale. Stripe has reportedly expressed interest in buying PayPal outright.
-
-- **[TechCrunch Mobility: Lime’s IPO gamble](https://techcrunch.com/2026/05/10/techcrunch-mobility-limes-ipo-gamble/)**
-  - relevance: `1` · category: `AI` · scope: `international` · published: 2026-05-10 16:05 UTC
-  - signal: Strategy_MnA
-  - Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part.
-
-- **[Voice AI in India is hard — Wispr Flow is betting on it anyway](https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/)**
-  - relevance: `1` · category: `AI` · scope: `international` · published: 2026-05-10 02:00 UTC
-  - signal: Launch
-  - Wispr Flow says growth accelerated in India after its Hinglish rollout, even as voice AI products continue to face challenges.
-
-- **[GM just laid off hundreds of IT workers to hire those with stronger AI skills](https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/)**
-  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-11 23:04 UTC
-  - Some of the positions focus on AI-native development, data engineering and analytics, cloud-based engineering, and agent and model development as well as prompt engineering and new AI workflows.
-
-- **[Digg tries again, this time as an AI news aggregator](https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/)**
-  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-11 17:02 UTC
-  - In an email to beta testers, the company said the site's goal is to "track the most influential voices in a space" and to surface the news that's actually worth "paying attention to."
-
-- **[There aren’t enough rockets for space data centers — Cowboy Space raised $275M to build them](https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/)**
-  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-11 13:00 UTC
-  - The apparently insatiable demand for AI compute has data center entrepreneurs looking to the stars. There's a key problem: There aren't enough rockets to put data centers in orbit around Earth, and they're too expensive.
-
-### techinasia (24)
-
-- **[OpenAI launches AI deployment unit with $4b](https://www.techinasia.com/news/openai-launches-ai-deployment-unit-4b)**
-  - relevance: `5` · category: `AI` · scope: `international` · published: 2026-05-12 01:41 UTC
-  - themes: ai_infra_general
-  - signal: Launch
-  - Tomoro, formed in 2023, brings 150 AI engineers and deployment specialists to OpenAI.
-
-- **[Indonesia’s IDN acquires venue operator M Bloc](https://www.techinasia.com/news/indonesias-idn-buys-venue-operator-bloc)**
-  - relevance: `5` · category: `—` · scope: `international` · published: 2026-05-11 13:10 UTC
+- **[Notion just turned its workspace into a hub for AI agents](https://techcrunch.com/2026/05/13/notion-just-turned-its-workspace-into-a-hub-for-ai-agents/)**
+  - relevance: `4` · category: `AI/AI agents` · scope: `international` · published: 2026-05-13 21:45 UTC
   - themes: agentic_ai_commerce
-  - signal: Strategy_MnA
-  - The assets will be grouped under a new platform called IDN Bloc, as the company expands its culture and entertainment business.
+  - Notion’s new developer platform lets teams connect AI agents, external data sources, and custom code directly into their workspace as the company pushes deeper into agentic productivity software.
 
-- **[Microsoft expects $92b from OpenAI investment](https://www.techinasia.com/news/microsoft-expected-92b-openai-investment)**
-  - relevance: `4` · category: `AI` · scope: `international` · published: 2026-05-12 00:25 UTC
+- **[Anthropic’s Cat Wu says that, in the future, AI will anticipate your needs before you know what they are](https://techcrunch.com/2026/05/13/anthropics-cat-wu-says-that-in-the-future-ai-will-anticipate-your-needs-before-you-know-what-they-are/)**
+  - relevance: `4` · category: `AI` · scope: `international` · published: 2026-05-13 19:28 UTC
   - themes: ai_infra_general
-  - Microsoft invested about US$13 billion in OpenAI and later gained a 27% stake in the company.
+  - The head of product for Claude Code and Cowork says that the next big step for AI is proactivity.
 
-- **[Baidu says new AI model cuts training costs sharply](https://www.techinasia.com/news/baidu-says-new-ai-model-cuts-training-costs-sharply)**
-  - relevance: `4` · category: `AI` · scope: `international` · published: 2026-05-11 08:13 UTC
+- **[Ransomware hackers claim breach at Foxconn, a major electronics manufacturer for Apple, Google, and Nvidia](https://techcrunch.com/2026/05/13/ransomware-hackers-claim-breach-at-foxconn-a-major-electronics-manufacturer-for-apple-google-and-nvidia/)**
+  - relevance: `4` · category: `—` · scope: `international` · published: 2026-05-13 15:39 UTC
   - themes: ai_infra_general
-  - Ernie 5.1 ranked first among Chinese models and fourth overall, behind OpenAI’s GPT-5.5 and Anthropic’s Claude Opus 4.6.
+  - A ransomware group has claimed responsibility for hacking the electronics manufacturing giant Foxconn and is attempting to extort the company.
 
-- **[OpenAI reportedly let employees sell up to $30m in shares each](https://www.techinasia.com/news/openai-reportedly-employees-sell-30m-shares)**
-  - relevance: `4` · category: `AI` · scope: `international` · published: 2026-05-11 07:54 UTC
+- **[Anthropic now has more business customers than OpenAI, according to Ramp data](https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data/)**
+  - relevance: `4` · category: `AI` · scope: `international` · published: 2026-05-13 14:00 UTC
   - themes: ai_infra_general
-  - Over 600 employees sold shares in a deal valuing OpenAI at around US$400 billion.
+  - A survey compiled from fintech firm Ramp’s clients’ expense data shows 34.4% of participating businesses are paying for Anthropic services, more than any other AI lab, while only 32.3% pay for OpenAI.
 
-- **[Amazon says AI is reshaping Southeast Asia’s export model](https://www.techinasia.com/amazon-ai-reshaping-southeast-asias-export-model)**
-  - relevance: `3` · category: `AI` · scope: `international` · published: 2026-05-11 08:00 UTC
-  - themes: ai_infra_general
-  - Larry Hu, head of Amazon Global Selling for Southeast Asia explains how generative AI now automates customer service, marketing, and supply chains.
+- **[Instagram’s new ‘Instants’ feature combines elements from Snapchat and BeReal](https://techcrunch.com/2026/05/13/instagrams-new-instants-feature-combines-elements-from-snapchat-and-bereal/)**
+  - relevance: `2` · category: `—` · scope: `international` · published: 2026-05-13 16:57 UTC
+  - signal: Product_Feature
+  - The feature lets users share disappearing photos with their close friends or mutual followers that can be viewed only once and remain available for 24 hours.
 
-- **[Robinhood files for 2nd public venture fund](https://www.techinasia.com/news/robinhood-files-2nd-public-venture-fund)**
-  - relevance: `1` · category: `—` · scope: `international` · published: 2026-05-12 01:14 UTC
-  - Robinhood said both funds let retail investors buy listed shares tied to private startup portfolios through regular brokerage accounts.
-
-- **[SoBanHang bags fresh funding for AI push, regional expansion](https://www.techinasia.com/sobanhang-bags-fresh-funding-ai-push-regional-expansion)**
-  - relevance: `1` · category: `AI` · scope: `international` · published: 2026-05-12 01:00 UTC
-  - signal: Funding
-  - The Vietnam-based company is shifting to AI-native SME software and plans to scale in and beyond its home market.
-
-- **[Google-backed edtech startup Adda247 cuts 20% workforce](https://www.techinasia.com/news/googlebacked-edtech-startup-adda247-cuts-20-workforce)**
-  - relevance: `1` · category: `—` · scope: `international` · published: 2026-05-12 00:59 UTC
-  - The layoffs hit product and content teams, while the company said it made structural changes across the organization.
-
-- **[Israeli VC fund launches $26m for AI, cybersecurity startups](https://www.techinasia.com/news/shlomo-kramer-backs-26m-ai-cyber-venture-fund)**
-  - relevance: `1` · category: `AI` · scope: `international` · published: 2026-05-12 00:34 UTC
+- **[Geothermal startup Fervo Energy pops 33% in IPO debut fueled by AI data center demand](https://techcrunch.com/2026/05/13/geothermal-startup-fervo-energy-pops-33-in-ipo-debut-fueled-by-ai-data-center-demand/)**
+  - relevance: `1` · category: `AI` · scope: `international` · published: 2026-05-13 17:42 UTC
   - signal: Launch
-  - Skinos Ventures plans to make five investments with US$2.5 million checks each.
+  - Fervo Energy's IPO was upsized several times after potential investors asked why the enhanced geothermal startup wasn't raising more money.
 
-- **[Love Bonito’s international fit](https://www.techinasia.com/love-bonitos-international-fit)**
-  - relevance: `1` · category: `AI` · scope: `international` · published: 2026-05-12 00:30 UTC
-  - signal: Expansion
-  - Love Bonito is balancing international expansion with profitability pressures, while cybersecurity firms face their toughest battle yet with AI.
-
-- **[Lightspeed backs defense AI startup Helsing at $18b valuation](https://www.techinasia.com/news/lightspeed-backs-defense-ai-startup-helsing-18b)**
-  - relevance: `1` · category: `AI` · scope: `international` · published: 2026-05-12 00:19 UTC
+- **[Origin Lab raises $8M to help video game companies sell data to world-model builders](https://techcrunch.com/2026/05/13/origin-lab-raises-8m-to-help-video-game-companies-sell-data-to-world-model-builders/)**
+  - relevance: `1` · category: `AI` · scope: `international` · published: 2026-05-13 16:22 UTC
   - signal: Funding
-  - Helsing's previous €600 million round was led by Spotify founder Daniel Ek in June 2025.
+  - Origin Lab will serve as a marketplace where AI labs can buy high-quality licensed data, and video-game companies can sell it.
 
-- **[Circle raises $222m for Arc institutional blockchain](https://www.techinasia.com/news/circle-raises-222m-arc-institutional-blockchain)**
-  - relevance: `1` · category: `Fintech/E-wallet` · scope: `international` · published: 2026-05-11 23:38 UTC
+- **[Amazon launches an AI shopping assistant for the search bar, powered by Alexa+](https://techcrunch.com/2026/05/13/amazon-launches-an-ai-shopping-assistant-for-the-search-bar-powered-by-alexa/)**
+  - relevance: `1` · category: `AI` · scope: `international` · published: 2026-05-13 14:59 UTC
+  - signal: Launch
+  - Alexa for Shopping offers a voice- and touch-enabled shopping experience across mobile, desktop, and Echo Show smart displays. Alexa for Shopping provides more personalized recommendations and automates the shopping experience across Amazon and other online retailers.
+
+- **[Poppy debuts a proactive AI assistant to help organize your digital life](https://techcrunch.com/2026/05/13/poppy-debuts-a-proactive-ai-assistant-to-help-organize-your-digital-life/)**
+  - relevance: `0` · category: `AI/AI agents` · scope: `international` · published: 2026-05-13 13:27 UTC
+  - Poppy is an AI-powered app that connects your calendar, email, messages, and other services to surface reminders, suggestions, and tasks based on what’s happening in your life.
+
+### techinasia (21)
+
+- **[Ninja Van’s logistics reality check](https://www.techinasia.com/ninja-vans-logistics-reality-check)**
+  - relevance: `6` · category: `Ride/Food delivery` · scope: `international` · published: 2026-05-14 00:30 UTC
+  - themes: mobility_food_economics
+  - signal: Performance
+  - Ninja Van’s earnings reveal Southeast Asia’s logistics squeeze. Plus, Gojek co-founder Nadiem Makarim faces an 18-year prison sentence.
+
+- **[Nvidia partners with AI startup Ineffable on RL systems](https://www.techinasia.com/news/nvidia-partners-ai-startup-ineffable-rl-systems)**
+  - relevance: `5` · category: `AI/Big tech AI` · scope: `international` · published: 2026-05-14 00:19 UTC
+  - themes: ai_infra_general
+  - signal: Partnership
+  - Ineffable raised a US$1.1 billion seed round in April from Sequoia and Lightspeed, with backing from Nvidia, Google, and other investors.
+
+- **[Uber plans India data center with Adani Group](https://www.techinasia.com/news/uber-plans-india-data-center-adani-group)**
+  - relevance: `5` · category: `Ride/Food delivery` · scope: `international` · published: 2026-05-13 09:17 UTC
+  - themes: mobility_food_economics
+  - CEO Khosrowshahi disclosed the plan in a post on X during a visit to India, where he met Finance Minister Nirmala Sitharaman and Aviation Minister Ram Mohan Naidu.
+
+- **[SoftBank Group Q4 profit jumps on OpenAI gains](https://www.techinasia.com/news/softbank-group-q4-profit-jumps-openai-gains)**
+  - relevance: `5` · category: `AI` · scope: `international` · published: 2026-05-13 08:39 UTC
+  - themes: ai_infra_general
+  - signal: Performance
+  - SoftBank's Vision Fund gained 3.1 trillion yen in the quarter, boosting profits for five straight quarters.
+
+- **[XAI tests Grok on Wall Street ahead of SpaceX IPO](https://www.techinasia.com/news/xai-tests-grok-wall-street-spacex-ipo)**
+  - relevance: `4` · category: `AI` · scope: `international` · published: 2026-05-14 00:32 UTC
+  - themes: ai_infra_general
+  - signal: Strategy_MnA
+  - Much of xAI revenue so far has come from Musk’s other companies, including SpaceX and Tesla.
+
+- **[Building an AI copilot for robotics engineers](https://www.techinasia.com/building-ai-copilot-robotics-engineers)**
+  - relevance: `4` · category: `AI/Big tech AI` · scope: `international` · published: 2026-05-13 07:00 UTC
+  - themes: ai_infra_general
+  - signal: Launch
+  - Backed by Antler, Drift generates simulation environments and launch files to help engineers scale hardware production.
+
+- **[China issues AI agent development guidelines](https://www.techinasia.com/news/china-issues-ai-agent-development-guidelines)**
+  - relevance: `4` · category: `AI/AI agents` · scope: `international` · published: 2026-05-13 04:26 UTC
+  - themes: agentic_ai_commerce
+  - The document describes AI agents as systems that can perceive, remember, decide, interact, and act autonomously.
+
+- **[Cisco jumps 14% after beat, raises outlook](https://www.techinasia.com/news/cisco-jumps-14-beat-raises-outlook)**
+  - relevance: `2` · category: `—` · scope: `international` · published: 2026-05-14 00:34 UTC
   - signal: Funding
-  - Arc's initial 10 billion tokens will be distributed among Circle, users, developers, and reserves.
+  - Cisco expects fiscal fourth-quarter revenue of US$16.7 billion to US$16.9 billion and adjusted earnings of US$1.16 to US$1.18 a share.
 
-- **[Google considers AI servers in India: minister](https://www.techinasia.com/news/google-considers-ai-servers-india-minister)**
-  - relevance: `1` · category: `AI` · scope: `international` · published: 2026-05-11 12:59 UTC
-  - Google designs chips like TPUs but relies on partners for server assembly and testing.
+- **[Tencent misses Q1 estimates as AI investment climbs](https://www.techinasia.com/news/tencent-misses-q1-estimates-ai-investment-climbs)**
+  - relevance: `1` · category: `AI/AI funding` · scope: `international` · published: 2026-05-14 00:39 UTC
+  - signal: Performance
+  - The Chinese tech company stepped up AI investment amid tougher competition and US chip export curbs.
 
-- **[Amazon plans first Swiss franc bond sale for AI](https://www.techinasia.com/news/amazon-plans-swiss-franc-bond-sale-ai)**
-  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-12 01:37 UTC
-  - Amazon has hired BNP Paribas, Deutsche Bank, and JPMorgan to arrange its Swiss franc bond sale.
+- **[LinkedIn plans layoffs affecting 5% of staff](https://www.techinasia.com/news/linkedin-plans-layoffs-affecting-5-staff)**
+  - relevance: `1` · category: `—` · scope: `international` · published: 2026-05-14 00:22 UTC
+  - The move comes even as LinkedIn's revenue rose 12% year on year in the latest quarter, based on Microsoft's filings.
 
-- **[US payments firm Corpay adds stablecoin settlement](https://www.techinasia.com/news/payments-firm-corpay-adds-stablecoin-settlement)**
-  - relevance: `0` · category: `Fintech/E-wallet` · scope: `international` · published: 2026-05-12 01:33 UTC
-  - Corpay clients can now manage stablecoin and fiat balances on a single platform.
+- **[China launches global AI education platform](https://www.techinasia.com/news/china-launches-global-ai-education-platform)**
+  - relevance: `1` · category: `AI` · scope: `international` · published: 2026-05-13 06:54 UTC
+  - signal: Launch
+  - Smart Education of China platform now serves about 220 countries and regions worldwide.
 
-- **[Shein, Temu face off in London copyright trial](https://www.techinasia.com/news/shein-temu-face-london-copyright-trial)**
-  - relevance: `0` · category: `TMĐT` · scope: `international` · published: 2026-05-12 01:02 UTC
-  - Shein sued Temu in 2023, alleging Temu used thousands of Shein product photos for identical or copied items.
+- **[Samsung plans Q4 launch of AI server memory modules](https://www.techinasia.com/news/samsung-plans-q4-launch-ai-server-memory-modules)**
+  - relevance: `1` · category: `AI` · scope: `international` · published: 2026-05-13 06:27 UTC
+  - signal: Launch
+  - Samsung's CMM-D 3.1 module supports up to 1TB with 72GB/s bandwidth on PCIe 6.0.
 
-- **[SoftBank’s Son eyes major France AI data center](https://www.techinasia.com/news/softbank-eyes-major-france-ai-data-center)**
-  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-12 00:09 UTC
-  - The announcement may come at the Choose France Summit to attract foreign investment.
+- **[AI demand drives SK hynix toward $1t](https://www.techinasia.com/news/sk-hynix-surge-nears-1t)**
+  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-14 03:24 UTC
+  - If SK hynix follows, South Korea would become the first country outside the US with more than one trillion-dollar company.
 
-- **[Netflix sued by Texas over user data practices](https://www.techinasia.com/news/netflix-sued-texas-user-data-practices)**
-  - relevance: `0` · category: `Travel/Khách sạn/Giải trí` · scope: `international` · published: 2026-05-11 23:33 UTC
-  - The lawsuit claims Netflix's data practices generated billions annually and involved sharing data with brokers.
+- **[Alibaba targets $4.4b in AI revenue by 2026](https://www.techinasia.com/news/alibaba-targets-442b-ai-revenue-2026)**
+  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-14 01:36 UTC
+  - Alibaba also said AI products could contribute more than half of cloud revenue within a year.
 
-- **[Blackstone buys majority stake in Greek ecommerce firm](https://www.techinasia.com/news/blackstone-buys-majority-stake-in-greek-ecommerce-firm-skroutz)**
-  - relevance: `0` · category: `TMĐT` · scope: `international` · published: 2026-05-11 09:55 UTC
-  - Financial terms were not disclosed, but the deal values Skroutz at 635 million euros (US$747 million) including debt.
+- **[Tracking the alumni networks powering SEA’s AI startups](https://www.techinasia.com/visual-story/tracking-alumni-networks-powering-seas-ai-startups)**
+  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-14 01:00 UTC
+  - Hundreds of AI founders in Southeast Asia share the same roots. Here’s how alumni networks are shaping the region’s AI boom.
 
-- **[Korea picks Samsung-led team for $1.8b AI center](https://www.techinasia.com/news/korea-picks-samsungled-team-18b-ai-center)**
-  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-11 09:34 UTC
-  - The center is planned to house 15,000 advanced AI chips by 2028 while offering discounts and vouchers to SMEs, startups, universities, and research institutes.
+- **[50 rising AI startups in Asia](https://www.techinasia.com/50-rising-ai-startups-in-asia)**
+  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-14 00:00 UTC
+  - These AI startups have a shot at becoming the next big thing.
 
-- **[China’s Dongguan ships nearly half of global AI glasses](https://www.techinasia.com/news/dongguan-ships-global-ai-glasses)**
-  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-11 09:30 UTC
-  - The Guangdong city ranked first worldwide by shipment volume, while global AI glasses shipments rose 322% from a year earlier.
+- **[Alibaba’s cloud revenue jumps 40% on AI demand](https://www.techinasia.com/news/alibabas-cloud-revenue-jumps-40-ai-demand)**
+  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-13 11:38 UTC
+  - AI-related products accounted for 30% of Alibaba Cloud's external revenue in the March quarter.
 
-- **[China ranks 3rd behind US, UK in global healthcare AI index: report](https://www.techinasia.com/news/china-ranks-3rd-uk-global-healthcare-ai-index-report)**
-  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-11 07:59 UTC
-  - Hong Kong ranked third among 20 city hubs in AI competitiveness, behind Boston and San Francisco.
+- **[Alibaba’s financial health in 12 charts](https://www.techinasia.com/visual-story/alibabas-financial-health-charts)**
+  - relevance: `0` · category: `TMĐT` · scope: `international` · published: 2026-05-13 10:15 UTC
+  - Alibaba is China&#039;s largest ecommerce company, but it has lost some of its edge to nimbler rivals.
 
-- **[Prosus sells 5% Delivery Hero stake to Hong Kong’s Aspex for $394m](https://www.techinasia.com/news/prosus-sells-5-delivery-hero-stake-hong-kongs-aspex-394m)**
-  - relevance: `0` · category: `Ride/Food delivery` · scope: `international` · published: 2026-05-11 07:44 UTC
-  - Prosus is selling Delivery Hero shares at US$26 each, 22% above the 30-day average price.
+- **[74% of firms rolled back AI customer agents: research](https://www.techinasia.com/news/74-firms-rolled-ai-customer-agents-research)**
+  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-13 08:59 UTC
+  - 74% of enterprises rolled back or shut down live AI customer communication agents due to governance issues.
+
+- **[Korea Exchange deploys AI in core market operations](https://www.techinasia.com/news/korea-exchange-deploys-ai-core-market-operations)**
+  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-13 07:24 UTC
+  - Fair Labs was recently chosen to lead a 4.1 billion won research project backed by South Korea's culture ministry.
+
+- **[Tesla to bring more AI products to China](https://www.techinasia.com/news/tesla-bring-ai-products-china)**
+  - relevance: `0` · category: `AI` · scope: `international` · published: 2026-05-13 06:54 UTC
+  - As of March 2026, Tesla had 588 directly operated stores in 119 mainland Chinese cities.
 
 ### thanhnien_congnghe (19)
 
-- **[Chuyển động c&ocirc;ng nghệ tuần qua: Kh&oacute;a SIM một chiều | Siết vi phạm bản quyền số](https://thanhnien.vn/chuyen-dong-cong-nghe-tuan-qua-khoa-sim-mot-chieu-siet-vi-pham-ban-quyen-so-185260510103834706.htm)**
-  - relevance: `10` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-11 00:15 UTC
-  - themes: payment_wallet_war, platform_regulation
-  - Việt Nam trở thành quốc gia chủ nhà thường niên của giải đấu Thể thao điện tử Đông Nam Á, khóa SIM một chiều với thuê bao chưa xác thực, Bitcoin tiến sát mốc 83.000 USD là những tin tức nổi bật trong tuần qua.
-
-- **[H&agrave;ng triệu người d&ugrave;ng x&oacute;a ChatGPT khỏi điện thoại](https://thanhnien.vn/hang-trieu-nguoi-dung-xoa-chatgpt-khoi-dien-thoai-185260510124644675.htm)**
-  - relevance: `8` · category: `AI/Big tech AI` · scope: `domestic` · published: 2026-05-10 06:44 UTC
+- **[Google h&eacute; lộ thay đổi lớn cho Chrome tr&ecirc;n Android](https://thanhnien.vn/google-he-lo-thay-doi-lon-cho-chrome-tren-android-185260513151148196.htm)**
+  - relevance: `8` · category: `AI` · scope: `domestic` · published: 2026-05-13 11:53 UTC
   - themes: cross_brand_partnerships, ai_infra_general
   - signal: Partnership
-  - ChatGPT đang phải đối mặt với sự tẩy chay từ người dùng sau khi ký kết một thỏa thuận gây tranh cãi với chính phủ Mỹ.
+  - Google sẽ tích hợp sản phẩm trí tuệ nhân tạo (AI) Gemini của hãng vào trình duyệt Chrome trên Android trong tương lai không xa.
+
+- **[Doanh nghiệp Việt h&igrave;nh th&agrave;nh hệ sinh th&aacute;i an ninh mạng nội địa](https://thanhnien.vn/doanh-nghiep-viet-hinh-thanh-he-sinh-thai-an-ninh-mang-noi-dia-185260512212623427.htm)**
+  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-14 04:07 UTC
+  - themes: vn_market_data
+  - signal: Expansion
+  - Dữ liệu từ Hiệp hội An ninh mạng quốc gia (NCA) cho thấy có tới 52,3% cơ quan và doanh nghiệp tại Việt Nam từng chịu thiệt hại từ tấn công mạng, đặt ra yêu cầu cấp thiết về phát triển giải pháp bảo mật nội địa.
+
+- **[iOS 27 h&eacute; lộ t&iacute;nh năng camera mới](https://thanhnien.vn/ios-27-he-lo-tinh-nang-camera-moi-185260513100855771.htm)**
+  - relevance: `5` · category: `AI` · scope: `domestic` · published: 2026-05-13 14:13 UTC
+  - themes: cross_brand_partnerships
+  - signal: Partnership
+  - iOS 27 được đồn đoán sẽ mang đến thay đổi lớn cho camera iPhone khi Apple bắt đầu tích hợp AI trực tiếp vào trải nghiệm chụp ảnh và quay video.
+
+- **[HBO Go dừng hoạt động tại Việt Nam](https://thanhnien.vn/hbo-go-dung-hoat-dong-tai-viet-nam-18526051315180411.htm)**
+  - relevance: `5` · category: `Travel/Khách sạn/Giải trí` · scope: `domestic` · published: 2026-05-13 09:15 UTC
+  - themes: vn_market_data
+  - signal: Expansion
+  - Sau 7 năm có mặt tại thị trường Việt Nam, gói nội dung trực tuyến HBO Go sẽ chính thức ngừng hoạt động từ ngày 15.6.
+
+- **[Google c&ocirc;ng bố Googlebook nhằm thay đổi ho&agrave;n to&agrave;n c&aacute;ch d&ugrave;ng m&aacute;y t&iacute;nh](https://thanhnien.vn/google-cong-bo-googlebook-nham-thay-doi-hoan-toan-cach-dung-may-tinh-185260513125250777.htm)**
+  - relevance: `5` · category: `AI` · scope: `domestic` · published: 2026-05-13 05:56 UTC
+  - themes: ai_infra_general
+  - signal: Launch
+  - Google vừa công bố một sản phẩm hoàn toàn mới mang tên Googlebook với mục tiêu biến Gemini thành bộ não của chiếc laptop tiếp theo.
+
+- **[Gi&aacute; Bitcoin h&ocirc;m nay 13.5.2026: 5 s&agrave;n tiền số Việt Nam vượt qua v&ograve;ng 1 cấp ph&eacute;p](https://thanhnien.vn/gia-bitcoin-hom-nay-1352026-5-san-tien-so-viet-nam-vuot-qua-vong-1-cap-phep-185260513114119958.htm)**
+  - relevance: `5` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-13 05:17 UTC
+  - themes: payment_wallet_war
+  - Giá Bitcoin hôm nay tiếp tục rung lắc mạnh, có lúc thủng đáy xuống vùng giá 79.000 USD trong khi Bộ Tài chính thông báo 5 sàn giao dịch đã vượt qua vòng 1 để xem xét cấp phép vận hành thí điểm.
+
+- **[Qualcomm mở rộng nghi&ecirc;n cứu AI, b&aacute;n dẫn tại Việt Nam](https://thanhnien.vn/qualcomm-mo-rong-nghien-cuu-ai-ban-dan-tai-viet-nam-185260512205840349.htm)**
+  - relevance: `5` · category: `AI` · scope: `domestic` · published: 2026-05-13 02:07 UTC
+  - themes: vn_market_data
+  - signal: Expansion
+  - Trong giai đoạn đầu vận hành, Trung tâm R&D của Qualcomm tại Việt Nam sẽ dồn trọng tâm vào hai lĩnh vực cốt lõi: trí tuệ nhân tạo (AI) và phát triển hệ thống trên một vi mạch (SoC).
+
+- **[Google ph&aacute;t triển m&ocirc; h&igrave;nh tạo video AI mới Gemini Omni](https://thanhnien.vn/google-phat-trien-mo-hinh-tao-video-ai-moi-gemini-omni-185260512174222684.htm)**
+  - relevance: `5` · category: `AI` · scope: `domestic` · published: 2026-05-13 01:40 UTC
+  - themes: ai_infra_general
+  - signal: Launch
+  - Sự kiện Google I/O 2026 sẽ diễn ra vào tuần tới và những thông tin đầu tiên về các tính năng mà Google sắp giới thiệu đã được tiết lộ.
+
+- **[Gmail cập nhật t&iacute;nh năng AI c&oacute; thể &#039;nhập vai&#039; th&agrave;nh người d&ugrave;ng](https://thanhnien.vn/gmail-cap-nhat-tinh-nang-ai-co-the-nhap-vai-thanh-nguoi-dung-185260512095101196.htm)**
+  - relevance: `5` · category: `AI` · scope: `domestic` · published: 2026-05-12 03:09 UTC
+  - themes: ai_infra_general
+  - signal: Product_Feature
+  - Gemini trong Gmail vừa có khả năng 'nhập vai' người dùng với khả năng soạn email chuyên nghiệp hơn.
+
+- **[Claude bất ngờ nhắc người d&ugrave;ng đi ngủ v&agrave; uống nước](https://thanhnien.vn/claude-bat-ngo-nhac-nguoi-dung-di-ngu-va-uong-nuoc-185260513162141394.htm)**
+  - relevance: `4` · category: `AI` · scope: `domestic` · published: 2026-05-13 12:28 UTC
+  - themes: ai_infra_general
+  - Một số người dùng Claude cho biết chatbot của Anthropic đã tự nhắc họ nghỉ ngơi, uống nước hoặc dừng làm việc sau các cuộc trò chuyện dài.
+
+- **[Google x&aacute;c nhận nhiều Chromebook c&oacute; thể &#039;lột x&aacute;c&#039; th&agrave;nh GoogleBook](https://thanhnien.vn/google-xac-nhan-nhieu-chromebook-co-the-lot-xac-thanh-googlebook-185260514104136058.htm)**
+  - relevance: `2` · category: `—` · scope: `domestic` · published: 2026-05-14 03:53 UTC
+  - signal: Launch
+  - Google sẽ ra mắt GoogleBook vào mùa thu năm nay, nhưng không có nghĩa là hãng sẽ loại bỏ hoàn toàn dòng sản phẩm Chromebook.
+
+- **[Những thảm họa của Microsoft khiến người d&ugrave;ng đi&ecirc;u đứng](https://thanhnien.vn/nhung-tham-hoa-cua-microsoft-khien-nguoi-dung-dieu-dung-185260511111216742.htm)**
+  - relevance: `2` · category: `—` · scope: `domestic` · published: 2026-05-12 13:48 UTC
+  - signal: Product_Feature
+  - Nhìn lại những lần Microsoft khiến cả thế giới điêu đứng vì Windows Update.
 
 - **[Apple ph&aacute;t h&agrave;nh iOS 26.5 với loạt t&iacute;nh năng mới](https://thanhnien.vn/apple-phat-hanh-ios-265-voi-loat-tinh-nang-moi-185260512014933778.htm)**
   - relevance: `2` · category: `—` · scope: `domestic` · published: 2026-05-12 00:13 UTC
   - signal: Launch
   - Apple vừa chính thức phát hành iOS 26.5 (và iPadOS 26.5), gần hai tháng sau khi công ty triển khai iOS 26.4.
 
-- **[iPhone 18 Pro lộ n&acirc;ng cấp m&agrave;n h&igrave;nh đắt gi&aacute;](https://thanhnien.vn/iphone-18-pro-lo-nang-cap-man-hinh-dat-gia-18526050912560575.htm)**
-  - relevance: `2` · category: `—` · scope: `domestic` · published: 2026-05-09 07:30 UTC
-  - signal: Launch
-  - Samsung từ lâu dẫn đầu trong lĩnh vực công nghệ màn hình, nhưng Apple có thể vượt qua đối thủ trong năm nay khi ra mắt iPhone 18 Pro.
+- **[Loạt t&iacute;nh năng th&ocirc;ng minh vừa được th&ecirc;m v&agrave;o Google Maps](https://thanhnien.vn/loat-tinh-nang-thong-minh-vua-duoc-them-vao-google-maps-185260513103906347.htm)**
+  - relevance: `1` · category: `—` · scope: `domestic` · published: 2026-05-13 13:33 UTC
+  - Google Maps năm 2026 bắt đầu xóa sổ dần bản đồ 2D, kỷ nguyên dẫn đường 'nhập vai' chính thức bắt đầu.
 
-- **[Điều g&igrave; xảy ra nếu người d&ugrave;ng kh&ocirc;ng bao giờ cập nhật iPhone?](https://thanhnien.vn/dieu-gi-xay-ra-neu-nguoi-dung-khong-bao-gio-cap-nhat-iphone-185260508084757009.htm)**
-  - relevance: `2` · category: `—` · scope: `domestic` · published: 2026-05-08 02:07 UTC
-  - signal: Product_Feature
-  - Giống như nhiều thiết bị công nghệ khác, iPhone thường xuyên nhận được các bản cập nhật phần mềm từ Apple.
+- **[L&yacute; do Apple cố t&igrave;nh l&agrave;m hộp iPhone cực kỳ kh&oacute; mở](https://thanhnien.vn/ly-do-apple-co-tinh-lam-hop-iphone-cuc-ky-kho-mo-185260513093734982.htm)**
+  - relevance: `1` · category: `—` · scope: `domestic` · published: 2026-05-13 03:31 UTC
+  - Apple đã thao túng cảm xúc người dùng một cách 'thần kỳ' bằng chiếc hộp iPhone như thế nào?
+
+- **[C&ocirc;ng cụ t&igrave;m kiếm Google gặp sự cố lạ tr&ecirc;n to&agrave;n cầu](https://thanhnien.vn/cong-cu-tim-kiem-google-gap-su-co-la-tren-toan-cau-185260512152428808.htm)**
+  - relevance: `1` · category: `—` · scope: `domestic` · published: 2026-05-12 08:47 UTC
+  - Google Search, một trong những công cụ tìm kiếm phổ biến nhất thế giới, được ghi nhận đã gặp sự cố nghiêm trọng vào khoảng 11 giờ 30 ngày 12.5, theo giờ Việt Nam.
 
 - **[Sự thật về t&iacute;nh năng &#039;tăng tốc&#039; mới tr&ecirc;n Windows 11](https://thanhnien.vn/su-that-ve-tinh-nang-tang-toc-moi-tren-windows-11-185260511102805527.htm)**
   - relevance: `1` · category: `—` · scope: `domestic` · published: 2026-05-11 03:52 UTC
   - Microsoft tung 'chiêu bài' Low Latency Profile giúp Windows 11 mượt hơn.
 
-- **[Apple đang ph&aacute;t triển iPhone như &#039;phim viễn tưởng&#039;?](https://thanhnien.vn/apple-dang-phat-trien-iphone-nhu-phim-vien-tuong-185260510143011581.htm)**
-  - relevance: `1` · category: `—` · scope: `domestic` · published: 2026-05-10 11:34 UTC
-  - Không chỉ iPhone gập, Apple còn được cho là đang phát triển iPhone không gian với công nghệ nghe như phim khoa học viễn tưởng.
+- **[Gi&aacute; Bitcoin h&ocirc;m nay 14.5.2026: Thủng đ&aacute;y 79.000 USD, &#039;c&aacute; voi&#039; b&aacute;n khống 70 triệu USD](https://thanhnien.vn/gia-bitcoin-hom-nay-1452026-thung-day-79000-usd-ca-voi-ban-khong-70-trieu-usd-185260514072514732.htm)**
+  - relevance: `0` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-14 01:21 UTC
+  - Giá Bitocin hôm nay giảm mạnh, không giữ được vùng kháng cự quan trọng 80.000 USD, có lúc thủng đáy 79.000 USD.
 
-- **[L&yacute; do n&ecirc;n thận trọng khi sử dụng Microsoft Edge](https://thanhnien.vn/ly-do-nen-than-trong-khi-su-dung-microsoft-edge-185260508110035878.htm)**
-  - relevance: `1` · category: `—` · scope: `domestic` · published: 2026-05-09 13:00 UTC
-  - Microsoft Edge đang bị chỉ trích vì những vấn đề bảo mật có thể ảnh hưởng trực tiếp đến tài khoản và mật khẩu người dùng.
+- **[Gi&aacute; Bitcoin h&ocirc;m nay 12.5.2026: Rủi ro ở Iran l&agrave;m rung chuyển thị trường](https://thanhnien.vn/gia-bitcoin-hom-nay-1252026-rui-ro-o-iran-lam-rung-chuyen-thi-truong-185260512065257903.htm)**
+  - relevance: `0` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-12 02:19 UTC
+  - Giá Bitcoin hôm nay giảm từ 82.400 USD xuống còn 80.000 USD khi những tình hình địa chính trị ở Iran tiếp tục diễn biến phức tạp.
 
-- **[Chip A20 Pro của Apple sắp g&acirc;y chấn động ng&agrave;nh c&ocirc;ng nghệ](https://thanhnien.vn/chip-a20-pro-cua-apple-sap-gay-chan-dong-nganh-cong-nghe-185260509091636573.htm)**
-  - relevance: `1` · category: `—` · scope: `domestic` · published: 2026-05-09 03:33 UTC
-  - Apple chính thức bỏ xa các đối thủ một thập kỷ khi chip A20 Pro với tiến trình 2 nm xuất hiện trên dòng iPhone 18 Pro?
+### theverge (8)
 
-- **[Gi&aacute; Bitcoin h&ocirc;m nay 9.5.2026: Lấy lại mốc 80.000 USD](https://thanhnien.vn/gia-bitcoin-hom-nay-952026-lay-lai-moc-80000-usd-185260509072230857.htm)**
-  - relevance: `1` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-09 02:34 UTC
-  - signal: Funding
-  - Giá Bitcoin hôm nay quay lại mốc 80.000 USD nhưng những diễn biến khó lường trong chiến sự Iran khiến nhà đầu tư phải đối mặt nhiều rủi ro.
+- **[Mark Zuckerberg announces &#8216;completely private&#8217; encrypted Meta AI chat](https://www.theverge.com/tech/929791/meta-ai-incognito-chats)**
+  - relevance: `9` · category: `AI/Big tech AI` · scope: `international` · published: 2026-05-13 16:45 UTC
+  - themes: big_tech_in_finance_commerce, ai_infra_general
+  - Meta CEO Mark Zuckerberg says its new Incognito Chat is "the first major AI product where there is no log of your conversations stored on servers." Messages in Incognito Chat aren't saved or stored in users' chat history, similar to incognito modes on other AI chatbots, but Meta says its version is different because it [&#8230;]
 
-- **[CEO tương lai của Apple h&eacute; lộ AirPods Pro mới sẽ &#039;thay đổi thế giới&#039;](https://thanhnien.vn/ceo-tuong-lai-cua-apple-he-lo-airpods-pro-moi-se-thay-doi-the-gioi-185260508090909209.htm)**
-  - relevance: `1` · category: `—` · scope: `domestic` · published: 2026-05-08 07:33 UTC
-  - Apple đang chuẩn bị bước tiến táo bạo với AirPods Pro gắn camera, sản phẩm được kỳ vọng thay đổi cách tương tác công nghệ.
-
-- **[Việt Nam đăng cai giải Thể thao điện tử Đ&ocirc;ng Nam &Aacute; từ năm 2026](https://thanhnien.vn/viet-nam-dang-cai-giai-the-thao-dien-tu-dong-nam-a-tu-nam-2026-185260508122617634.htm)**
-  - relevance: `1` · category: `Chat` · scope: `domestic` · published: 2026-05-08 05:52 UTC
-  - signal: Funding
-  - Bắt đầu từ năm 2026, Việt Nam sẽ trở thành quốc gia chủ nhà thường niên của giải đấu Thể thao điện tử Đông Nam Á - SEA Esports Nations Cup (SNC).
-
-- **[Apple n&oacute;i g&igrave; về việc d&ugrave;ng sạc 100W cho iPhone?](https://thanhnien.vn/apple-noi-gi-ve-viec-dung-sac-100w-cho-iphone-185260507150843466.htm)**
-  - relevance: `1` · category: `—` · scope: `domestic` · published: 2026-05-07 12:28 UTC
-  - Nhiều người lo sạc 100W sẽ làm chai pin iPhone nhanh hơn, nhưng Apple khẳng định mọi thứ không xảy ra như tưởng tượng.
-
-- **[Galaxy S26 tăng sức mạnh chỉnh sửa ảnh bằng AI](https://thanhnien.vn/galaxy-s26-tang-suc-manh-chinh-sua-anh-bang-ai-185260511012258447.htm)**
-  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-11 03:05 UTC
-  - Samsung đang biến smartphone thành studio AI di động khi Galaxy S26 có thể chỉnh sửa ảnh chỉ bằng vài câu lệnh.
-
-- **[Gi&aacute; Bitcoin h&ocirc;m nay 11.5.2026: Tăng vọt l&ecirc;n 82.200 USD sau đề xuất h&ograve;a b&igrave;nh của Iran](https://thanhnien.vn/gia-bitcoin-hom-nay-1152026-tang-vot-len-82200-usd-sau-de-xuat-hoa-binh-cua-iran-185260511072606734.htm)**
-  - relevance: `0` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-11 01:46 UTC
-  - Giá Bitcoin hôm nay bất ngờ tăng vọt từ 80.000 USD lên 82.200 USD sau khi Iran gửi phản hồi đề xuất hòa bình cho Mỹ.
-
-- **[Gi&aacute; Bitcoin h&ocirc;m nay 10.5.2026: D&ograve;ng tiền đổ v&agrave;o ETF Bitcoin 6 tuần li&ecirc;n tiếp](https://thanhnien.vn/gia-bitcoin-hom-nay-1052026-dong-tien-do-vao-etf-bitcoin-6-tuan-lien-tiep-185260510073439011.htm)**
-  - relevance: `0` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-10 01:54 UTC
-  - Giá Bitcoin hôm nay tiếp tục duy trì trên mức 80.000 USD trong khi các dữ liệu trên thị trường tài chính cho thấy các quỹ ETF Bitcoin của Mỹ ghi nhận dòng tiền dương 6 tuần liên tiếp.
-
-- **[Cơ hội để Việt Nam vươn m&igrave;nh th&agrave;nh cường quốc Esports](https://thanhnien.vn/co-hoi-de-viet-nam-vuon-minh-thanh-cuong-quoc-esports-185260509121359294.htm)**
-  - relevance: `0` · category: `Chat` · scope: `domestic` · published: 2026-05-09 08:18 UTC
-  - Việt Nam có lượng tuyển thủ chuyên nghiệp, cộng đồng cuồng nhiệt nhưng vẫn chưa khai thác tiềm năng tương xứng để trở thành cường quốc Esports hàng đầu thế giới.
-
-- **[V&igrave; sao doanh nghiệp Việt thất bại khi ứng dụng AI?](https://thanhnien.vn/vi-sao-doanh-nghiep-viet-that-bai-khi-ung-dung-ai-185260508170345203.htm)**
-  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-08 11:56 UTC
-  - Trong số những lý do chính khiến việc áp dụng AI vào doanh nghiệp không đạt kỳ vọng, theo các chuyên gia, nguyên nhân lớn nhất đến từ yếu tố ít được quan tâm đó là trải nghiệm ban đầu của nhân viên.
-
-- **[Gi&aacute; Bitcoin h&ocirc;m nay 8.5.2026: Hơn 8 tỉ USD BTC r&uacute;t khỏi c&aacute;c s&agrave;n tiền số](https://thanhnien.vn/gia-bitcoin-hom-nay-852026-hon-8-ti-usd-btc-rut-khoi-cac-san-tien-so-185260508154022583.htm)**
-  - relevance: `0` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-08 08:59 UTC
-  - Giá Bitcoin hôm nay giảm, giao dịch quanh mốc 79.700 USD tuy nhiên các tín hiệu cho thấy thị trường có thể tiếp tục tăng giá mạnh trong tương lai.
-
-### theverge (7)
-
-- **[OpenAI just released its answer to Claude Mythos](https://www.theverge.com/ai-artificial-intelligence/928342/openai-daybreak-security-ai)**
-  - relevance: `8` · category: `AI/AI agents` · scope: `international` · published: 2026-05-11 23:05 UTC
-  - themes: agentic_ai_commerce, ai_infra_general
-  - OpenAI is launching Daybreak, an AI initiative focused on detecting and patching vulnerabilities before attackers find them. Daybreak uses the Codex Security AI agent that launched in March to create a threat model based on an organization's code and focus on possible attack paths, validate likely vulnerabilities, and then automate the detection of the higher [&#8230;]
-
-- **[Here&#8217;s what Mira Murati&#8217;s AI company is up to](https://www.theverge.com/ai-artificial-intelligence/928309/mira-murati-thinking-machines-ai-interaction-model)**
-  - relevance: `4` · category: `AI` · scope: `international` · published: 2026-05-11 22:19 UTC
+- **[Microsoft&#8217;s Edge Copilot update uses AI to pull information from across your tabs](https://www.theverge.com/tech/930188/microsoft-edge-copilot-ai-tabs)**
+  - relevance: `5` · category: `AI/Big tech AI` · scope: `international` · published: 2026-05-13 22:04 UTC
   - themes: ai_infra_general
-  - Thinking Machines, the AI company founded by former OpenAI CTO Mira Murati, announced Monday that it's working on something called "interaction models." The idea behind interaction models, according to Thinking Machines, is that they will let people "collaborate with AI the way we naturally collaborate with each other - they continuously take in audio, video, [&#8230;]
+  - signal: Product_Feature
+  - Microsoft Edge is adding a new feature that will allow its Copilot AI chatbot to gather information from all of your open tabs. When you start a conversation with Copilot, you can ask the chatbot questions about what's in your tabs, compare the products you're looking at, summarize your open articles, and more. In its [&#8230;]
 
-- **[Apple brings encrypted RCS chats to iPhone](https://www.theverge.com/tech/928141/apple-ios-26-5-rcs-messages-iphone-google-android)**
-  - relevance: `1` · category: `Chat` · scope: `international` · published: 2026-05-11 17:57 UTC
-  - Apple now lets you have encrypted RCS conversations with Android users through the Messages app on iOS. As part of iOS 26.5, which was released on Monday, Apple added support for end-to-end encrypted RCS messaging in beta, meaning that Apple and Google can't see your messages while they're sent. With iOS 26.5, you'll see a [&#8230;]
+- **[Instagram hits the copy button again with new disappearing Instants photos](https://www.theverge.com/tech/929958/instagram-instants-photos-disappearing-app)**
+  - relevance: `2` · category: `—` · scope: `international` · published: 2026-05-13 17:57 UTC
+  - signal: Product_Feature
+  - Instagram is once again cribbing from competitors like Snapchat and BeReal with a new photo-sharing format it calls "Instants," which are ephemeral photos that you can't edit and that you can only share with your close friends or followers that follow you back. Instants are available globally beginning on Wednesday as a feature in the [&#8230;]
 
-- **[Google stopped a zero-day hack that it says was developed with AI](https://www.theverge.com/tech/928007/google-ai-zero-day-exploit-stopped)**
-  - relevance: `1` · category: `AI` · scope: `international` · published: 2026-05-11 16:09 UTC
-  - For the first time, Google says it has spotted and stopped a zero-day exploit developed with AI. According to a report from Google Threat Intelligence Group (GTIG), "prominent cyber crime threat actors" were planning to use the vulnerability for a "mass exploitation event" that would have allowed them to bypass two-factor authentication on an unnamed [&#8230;]
+- **[YouTube is courting creators — and sponsors — with streaming shows](https://www.theverge.com/news/930092/youtube-creators-shows-sponsors-netflix-upfront)**
+  - relevance: `1` · category: `Chat` · scope: `international` · published: 2026-05-13 21:30 UTC
+  - In the ongoing fight for content and talent, YouTube is pitching itself as the connector between the creators and advertisers - and marketing its creators not just as the future of social media, but also of advertising, TV, streaming, and entertainment more broadly. At the company's annual advertiser event in New York on Wednesday, YouTube [&#8230;]
 
-- **[Govee’s new portable smart lamp is on sale for the first time](https://www.theverge.com/gadgets/928249/govee-table-lamp-classic-deal-sale)**
-  - relevance: `0` · category: `TMĐT` · scope: `international` · published: 2026-05-11 19:56 UTC
-  - If you’ve always liked the idea of the Philips Hue Go portable lamp but couldn’t justify the $100+ price tag, Govee recently released a much cheaper alternative, the Govee Table Lamp Classic, and it’s already receiving its first discount. Right now, you can pick the rechargeable smart lamp up at Amazon for $63.99 ($16 off), [&#8230;]
+- **[The crypto Clarity Act returns to the Senate this week. The banks are already trying to kill it.](https://www.theverge.com/column/929752/the-crypto-clarity-act-returns-to-the-senate-this-week-the-banks-are-already-trying-to-kill-it)**
+  - relevance: `1` · category: `Fintech/E-wallet` · scope: `international` · published: 2026-05-13 19:19 UTC
+  - signal: Regulation
+  - Hello and welcome to Regulator, the newsletter for Verge subscribers that goes into tech shenanigans that take place in the backrooms of Washington. Really, it sometimes does feel like the online series The Backrooms: a parallel universe with no internal logic, evil corporations lurking in the background, and mind-rending eldritch horrors around every corner. (Not [&#8230;]
 
-- **[Texas sues Netflix for advertising &#8216;bait and switch&#8217; and spying](https://www.theverge.com/streaming/928071/texas-netflix-lawsuit-privacy)**
-  - relevance: `0` · category: `Travel/Khách sạn/Giải trí` · scope: `international` · published: 2026-05-11 17:04 UTC
-  - Texas Attorney General Ken Paxton has filed a lawsuit against Netflix, accusing the company of turning its back on its promise to remain ad-free and safe for kids. The lawsuit, filed on Monday, claims Netflix has "opened Texans' data for inspection by the same Big Ad Tech community it once criticized for exploiting users in [&#8230;]
+- **[Trump administration defends right to ban content moderation experts from US](https://www.theverge.com/policy/930178/citr-rubio-visa-deportation-misinformation-research)**
+  - relevance: `0` · category: `Chat` · scope: `international` · published: 2026-05-13 21:58 UTC
+  - The Trump administration is fighting for the right to keep some social media moderation advocates out of the US. On Wednesday, US District Court Judge James Boasberg heard arguments in a lawsuit between the nonprofit Coalition for Independent Technology Research (CITR) and Secretary of State Marco Rubio and other Trump administration officials. The suit concerns [&#8230;]
 
-- **[7 of our favorite deals from Amazon’s Pet Days sale](https://www.theverge.com/gadgets/927788/amazon-pet-days-tech-gadgets-cat-dog-deal-sale)**
-  - relevance: `0` · category: `TMĐT` · scope: `international` · published: 2026-05-11 15:45 UTC
-  - A big part of my job here at The Verge is to find deals on tech that readers will like. But in my personal life, I’m not spending anywhere near as much money on tech as I am on food, litter, and other supplies for our two cats. Sad, but true. If your life is [&#8230;]
+- **[AMD&#8217;s best CPU tech for gamers is coming to workstations too](https://www.theverge.com/tech/930132/amd-ryzen-pro-9000-series-3d-v-cache)**
+  - relevance: `0` · category: `Chat` · scope: `international` · published: 2026-05-13 20:38 UTC
+  - For the first time, AMD is including its 3D V-Cache tech in its commercial workstation processors with a refreshed line of Ryzen PRO 9000 series chips. Up until now, AMD's 3D V-Cache chips have mainly been geared toward gamers, but they've also gotten better at creative tasks over recent years. In our review of the [&#8230;]
 
-### tuoitre_kinhdoanh (13)
+- **[Netflix’s ad ambitions just keep growing](https://www.theverge.com/streaming/929627/netflix-ads-plan-upfront-2026)**
+  - relevance: `0` · category: `Travel/Khách sạn/Giải trí` · scope: `international` · published: 2026-05-13 18:45 UTC
+  - For the second year in a row, Netflix's ad-supported tier more than doubled its monthly viewerbase. During its 2026 upfront presentation, Netflix revealed that its $8.99-per-month plan reaches more than 250 million people around the globe, a significant leap from 94 million users reported last year. The streaming service reported earning $1.5 billion from ads [&#8230;]
 
-- **[Tin tức sáng 12-5: Sẽ liên kết tài khoản, ví điện tử trên VNeID để thực hiện thanh toán](https://tuoitre.vn/tin-tuc-sang-12-5-se-lien-ket-tai-khoan-vi-dien-tu-tren-vneid-de-thuc-hien-thanh-toan-20260511225153179.htm)**
-  - relevance: `7` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-11 17:22 UTC
+### tuoitre_kinhdoanh (11)
+
+- **[Ngành thuế cấp tập xử lý gần 1 triệu doanh nghiệp, hộ kinh doanh ‘chết chưa được chôn’](https://tuoitre.vn/nganh-thue-cap-tap-xu-ly-gan-1-trieu-doanh-nghiep-ho-kinh-doanh-20260513233445677.htm)**
+  - relevance: `6` · category: `—` · scope: `domestic` · published: 2026-05-13 16:51 UTC
   - themes: payment_wallet_war
-  - signal: Expansion
-  - Tin tức đáng chú ý: Liên kết tài khoản thanh toán, ví điện tử trên VNeID; Sáng nay khai mạc Đại hội đại biểu Mặt trận Tổ quốc; Nghiên cứu mở rộng phát triển hệ thống cảng hàng không...
+  - signal: Campaign_Marketing
+  - Cục Thuế vừa phát động chiến dịch “Làm sạch mã số thuế” nhằm chuẩn hóa và giảm thiểu số lượng người nộp thuế ở trạng thái ngừng hoạt động nhưng chưa hoàn thành thủ tục chấm dứt hiệu lực mã số thuế, hoặc bỏ địa chỉ đã đăng ký kinh doanh.
 
-- **[SACOMBANK kiện toàn đội ngũ lãnh đạo cấp cao](https://tuoitre.vn/sacombank-kien-toan-doi-ngu-lanh-dao-cap-cao-20260511191317581.htm)**
-  - relevance: `6` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-11 12:14 UTC
+- **[Thứ trưởng Bộ Tài chính thông tin về chính sách thuế mới với hộ kinh doanh](https://tuoitre.vn/thu-truong-bo-tai-chinh-thong-tin-ve-chinh-sach-thue-moi-voi-ho-kinh-doanh-20260513170528255.htm)**
+  - relevance: `6` · category: `—` · scope: `domestic` · published: 2026-05-13 10:31 UTC
   - themes: payment_wallet_war
-  - signal: Launch
-  - Ngân hàng TMCP Sài Gòn Thương Tín (SACOMBANK) chính thức công bố và trao quyết định bổ nhiệm ông Lưu Danh Đức và ông Nguyễn Hoàng Hải giữ chức vụ Phó Tổng Giám đốc.
+  - signal: Regulation
+  - Thứ trưởng Bộ Tài chính Cao Anh Tuấn cho biết theo quy định với hộ kinh doanh có doanh thu dưới 1 tỉ đồng/năm, phải đến ngày 31-1-2027 mới phải thông báo doanh thu với cơ quan thuế.
 
-- **[Bất ngờ phát hiện nợ thuế hàng trăm triệu đồng sau khi cài eTax Mobile](https://tuoitre.vn/bat-ngo-phat-hien-no-thue-hang-tram-trieu-dong-sau-khi-cai-etax-mobile-20260512003001456.htm)**
-  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-12 00:58 UTC
+- **[Hà Nội tính cho thuê vỉa hè, mở đường phát triển kinh tế đêm](https://tuoitre.vn/ha-noi-tinh-cho-thue-via-he-mo-duong-phat-trien-kinh-te-dem-20260513204435989.htm)**
+  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-13 14:13 UTC
   - themes: payment_wallet_war
-  - Không ít người sau khi cài ứng dụng eTax Mobile đã bất ngờ phát hiện các khoản nợ thuế thu nhập cá nhân kéo dài nhiều năm, bị kê khai thu nhập khống hoặc đứng tên hộ kinh doanh mà không hề biết.
+  - Hà Nội dự kiến thí điểm cho thuê một phần vỉa hè, lòng đường để kinh doanh, phát triển kinh tế đêm với nhiều tiêu chí chặt chẽ.
 
-- **[Thủ tướng yêu cầu các bộ trưởng nghiêm túc thực hiện cắt giảm thủ tục, điều kiện kinh doanh](https://tuoitre.vn/thu-tuong-yeu-cau-cac-bo-truong-nghiem-tuc-thuc-hien-cat-giam-thu-tuc-dieu-kien-kinh-doanh-20260511162317768.htm)**
-  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-11 09:50 UTC
-  - themes: payment_wallet_war
-  - Phó thủ tướng Phạm Thị Thanh Trà ký văn bản số 484 của Thủ tướng gửi các bộ trưởng, trưởng cơ quan ngang bộ về việc nghiêm túc thực hiện phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh.
-
-- **[Đọc nhanh 11-5: Dầu vượt 107 USD, vàng hạ nhiệt; Giầy Thượng Đình muốn làm dự án trên 'đất vàng'](https://tuoitre.vn/doc-nhanh-11-5-dau-vuot-107-usd-vang-ha-nhiet-giay-thuong-dinh-muon-lam-du-an-tren-dat-vang-20260511080909885.htm)**
-  - relevance: `5` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-11 01:27 UTC
+- **[Nhiều hãng bay quốc tế cắt giảm chuyến bay, hãng Việt có thể điều chỉnh khai thác](https://tuoitre.vn/nhieu-hang-bay-quoc-te-cat-giam-chuyen-bay-hang-viet-co-the-dieu-chinh-khai-thac-20260513172046036.htm)**
+  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-13 10:36 UTC
   - themes: vn_market_data
   - signal: Expansion
-  - Căng thẳng Mỹ - Iran leo thang trở lại đẩy giá dầu Brent tăng 3,6% lên 107,9 USD/thùng, trong khi vàng giảm gần 31 USD và Bitcoin chạm đỉnh 4 tháng. Tại Việt Nam, Giầy Thượng Đình muốn làm dự án nhà ở nghìn tỉ trên 'đất vàng' Nguyễn Trãi.
+  - Giá nhiên liệu tăng sốc đang kéo hàng không toàn cầu vào đợt cắt giảm chuyến bay mới. Tại Việt Nam, các hãng bay cũng bắt đầu rà soát lịch bay.
 
-- **[Tiền gửi vào nhiều ngân hàng giảm, một 'ông lớn' Big4 sụt 82.000 tỉ đồng](https://tuoitre.vn/tien-gui-vao-nhieu-ngan-hang-giam-mot-ong-lon-big4-sut-82-000-ti-dong-20260510154538062.htm)**
-  - relevance: `5` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-10 08:59 UTC
+- **[VietinBank rao bán nhà máy hơn 1.200 tỉ đồng liên quan bà Trương Mỹ Lan](https://tuoitre.vn/vietinbank-rao-ban-nha-may-hon-1-200-ti-dong-lien-quan-ba-truong-my-lan-20260513171732065.htm)**
+  - relevance: `5` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-13 10:24 UTC
   - themes: payment_wallet_war
-  - Tiền gửi vào ngân hàng ghi nhận xu hướng sụt giảm trong quý đầu năm nay. Tại BIDV, lượng tiền gửi khách hàng giảm 82.000 tỉ đồng.
+  - VietinBank chuẩn bị đấu giá toàn bộ Nhà máy Tanifood Tây Ninh cùng dây chuyền chế biến nông sản với giá khởi điểm hơn 1.216 tỉ đồng - tài sản được xác định liên quan hệ sinh thái của bà Trương Mỹ Lan.
 
-- **[Dịch vụ 'cho thuê con cái' ở Thái và mỏ vàng của 'kinh tế bạc' tại Việt Nam](https://tuoitre.vn/dich-vu-cho-thue-con-cai-o-thai-va-mo-vang-cua-kinh-te-bac-tai-viet-nam-20260509231023481.htm)**
-  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-10 03:18 UTC
+- **[VinFast tái cấu trúc mảng sản xuất ở Việt Nam](https://tuoitre.vn/vinfast-tai-cau-truc-mang-san-xuat-o-viet-nam-20260513164637222.htm)**
+  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-13 10:10 UTC
+  - themes: vn_market_data
+  - signal: Strategy_MnA
+  - Công ty CP Đầu tư nghiên cứu và Phát triển Tương lai, đại diện nhóm nhận chuyển nhượng mảng sản xuất của VinFast tại Việt Nam, là pháp nhân được thành lập tại TP.HCM.
+
+- **[Robot, công nghệ Trung Quốc đổ bộ tìm nhà thu mua tại Việt Nam](https://tuoitre.vn/robot-cong-nghe-trung-quoc-do-bo-tim-nha-thu-mua-tai-viet-nam-20260513164129261.htm)**
+  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-13 09:54 UTC
   - themes: vn_market_data
   - signal: Expansion
-  - Dịch vụ cho người già ở nhiều nước trong khu vực đã rất đa dạng. Nhu cầu chăm sóc người cao tuổi tại nhà ở Việt Nam cũng đang ngày càng rõ nét nhưng dịch vụ còn thiếu nhiều mảnh ghép.
+  - Hàng loạt robot phục vụ, thiết bị gia dụng thông minh, máy móc công nghiệp và công nghệ sản xuất mới nhất từ Trung Quốc đang tìm nguồn hàng và đối tác phân phối tại Việt Nam.
 
-- **[Hai doanh nghiệp đầu mối bị phạt 320 triệu đồng vì vi phạm về dự trữ xăng dầu](https://tuoitre.vn/hai-doanh-nghiep-dau-moi-bi-phat-320-trieu-dong-vi-vi-pham-ve-du-tru-xang-dau-20260511151643771.htm)**
-  - relevance: `4` · category: `—` · scope: `domestic` · published: 2026-05-11 08:46 UTC
-  - themes: vn_market_data
-  - Thông tin từ Cục Quản lý và phát triển thị trường trong nước (Bộ Công Thương) vừa phát đi, các đơn vị chức năng của cục đã kiểm tra đột xuất và xử phạt hai doanh nghiệp đầu mối do vi phạm về dự trữ xăng dầu.
+- **[Dự án hồ chứa nước hơn 4.400 tỉ ở Đắk Lắk thi công 10 năm, nay tiếp tục xin lùi tiến độ](https://tuoitre.vn/du-an-ho-chua-nuoc-hon-4-400-ti-o-dak-lak-thi-cong-10-nam-nay-tiep-tuc-xin-lui-tien-do-20260513143514138.htm)**
+  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-13 08:26 UTC
+  - themes: payment_wallet_war
+  - Đắk Lắk vừa có báo cáo và tờ trình gửi Bộ Nông nghiệp và Môi trường, đề xuất điều chỉnh thời gian thực hiện dự án hồ chứa nước Krông Pách Thượng giai đoạn 1 đến hết năm 2026.
 
-- **[Saigontourist Group ký loạt MOU tại Sri Lanka, thúc đẩy hợp tác chiến lược](https://tuoitre.vn/saigontourist-group-ky-loat-mou-tai-sri-lanka-thuc-day-hop-tac-chien-luoc-20260511091202814.htm)**
-  - relevance: `4` · category: `Travel/Khách sạn/Giải trí` · scope: `domestic` · published: 2026-05-11 02:26 UTC
+- **[EU nhập LNG Nga cao kỷ lục từ sau xung đột Ukraine](https://tuoitre.vn/eu-nhap-lng-nga-cao-ky-luc-tu-sau-xung-dot-ukraine-2026051322184518.htm)**
+  - relevance: `4` · category: `—` · scope: `domestic` · published: 2026-05-13 15:29 UTC
   - themes: cross_brand_partnerships
   - signal: Partnership
-  - Trong khuôn khổ chuyến công tác của Tổng Bí thư, Chủ tịch nước Tô Lâm tới Sri Lanka, Saigontourist Group cùng Vietnam Airlines ký kết ba biên bản ghi nhớ hợp tác với các hiệp hội du lịch hàng đầu quốc đảo Nam Á.
+  - Mặc dù các chuyến hàng khí đốt từ Nga đến Liên minh châu Âu (EU) qua đường ống phần lớn đã bị đình chỉ, các quốc gia thành viên vẫn tiếp tục mua khí tự nhiên hóa lỏng (LNG) qua tàu chở dầu.
 
-- **[Tổng giám đốc OCB Phạm Hồng Hải xin từ nhiệm](https://tuoitre.vn/tong-giam-doc-ocb-pham-hong-hai-xin-tu-nhiem-20260511143237273.htm)**
-  - relevance: `1` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-11 08:05 UTC
-  - signal: Launch
-  - Ngân hàng TMCP Phương Đông (OCB) vừa công bố thông tin về việc ông Phạm Hồng Hải gửi đơn từ nhiệm vị trí Tổng giám đốc sau hai năm đảm đương chức vụ này.
+- **[Đưa nền tảng chuẩn quốc tế vào ngành tài chính, fintech và IoT Việt Nam](https://tuoitre.vn/dua-nen-tang-chuan-quoc-te-vao-nganh-tai-chinh-fintech-va-iot-viet-nam-20260513155320261.htm)**
+  - relevance: `4` · category: `AI` · scope: `domestic` · published: 2026-05-13 09:16 UTC
+  - themes: cross_brand_partnerships
+  - signal: Partnership
+  - Nhiều doanh nghiệp Việt đang chuyển đổi số trên hạ tầng dữ liệu được thiết kế cho mô hình giao dịch truyền thống, không đáp ứng được yêu cầu về cấu trúc linh hoạt, xử lý dữ liệu phi cấu trúc và tích hợp AI vào quy trình vận hành.
 
-- **[TP.HCM tung loạt chương trình kích cầu, thúc tăng trưởng bằng cú hích tiêu dùng](https://tuoitre.vn/tp-hcm-tung-loat-chuong-trinh-kich-cau-thuc-tang-truong-bang-cu-hich-tieu-dung-20260509230314324.htm)**
-  - relevance: `1` · category: `Travel/Khách sạn/Giải trí` · scope: `domestic` · published: 2026-05-10 00:59 UTC
-  - signal: Performance
-  - TP.HCM đang đẩy mạnh hàng loạt chương trình kích cầu mua sắm, du lịch và dịch vụ nhằm thúc đẩy tiêu dùng nội địa - một trong những động lực quan trọng cho mục tiêu tăng trưởng kinh tế hai con số năm nay.
+- **[Ngân hàng liên tiếp cảnh báo lừa đảo AI giả giọng nói, chiếm quyền điện thoại](https://tuoitre.vn/ngan-hang-lien-tiep-canh-bao-lua-dao-ai-gia-giong-noi-chiem-quyen-dien-thoai-20260514093942213.htm)**
+  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-14 02:49 UTC
+  - Nhiều ngân hàng cảnh báo thủ đoạn giả số điện thoại, giả giọng bằng AI để lừa đảo; khuyến cáo khách hàng không cung cấp OTP, mật khẩu hay cài ứng dụng lạ từ cuộc gọi, tin nhắn không rõ nguồn gốc.
 
-- **[Tin tức sáng 10-5: Lãi suất liên ngân hàng qua đêm về dưới 6%; Nhựa Bình Minh chia cổ tức 'khủng'](https://tuoitre.vn/tin-tuc-sang-10-5-lai-suat-lien-ngan-hang-qua-dem-ve-duoi-6-nhua-binh-minh-chia-co-tuc-khung-20260509154908722.htm)**
-  - relevance: `1` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-09 23:00 UTC
-  - signal: Product_Feature
-  - Một số tin tức đáng chú ý: Đề xuất tăng mức chuẩn trợ cấp ưu đãi người có công 8%; Hoàn thành cập nhật dữ liệu 23,5 triệu thửa đất; Nguyên giám đốc Sở Công Thương Gia Lai được đề cử vào HĐQT Đức Long Gia Lai.
-
-- **[AI lấn sâu, 'chạm' từng hộp sữa, viên thuốc](https://tuoitre.vn/ai-lan-sau-cham-tung-hop-sua-vien-thuoc-20260510224954904.htm)**
-  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-10 21:44 UTC
-  - Nhiều doanh nghiệp đang dốc tiền vào trí tuệ nhân tạo (AI), mang về hiệu quả vượt trội thông qua dữ liệu đong đếm được.
-
-### tuoitre_nhipsongso (3)
+### tuoitre_nhipsongso (6)
 
 - **[Siri có thể tích hợp ChatGPT, Gemini trên iOS 27](https://tuoitre.vn/siri-co-the-tich-hop-chatgpt-gemini-tren-ios-27-20260508103010438.htm)**
   - relevance: `8` · category: `AI/Big tech AI` · scope: `domestic` · published: 2026-05-09 04:53 UTC
@@ -1261,182 +1330,233 @@
   - signal: Launch
   - Apple được cho là thử nghiệm cho phép chọn ChatGPT hoặc Gemini cho Siri trên iOS 27, trong bối cảnh cuộc đua AI tăng tốc.
 
+- **[Người Việt đổi cách dùng Internet, nhà mạng vào cuộc đua mới](https://tuoitre.vn/nguoi-viet-doi-cach-dung-internet-nha-mang-vao-cuoc-dua-moi-20260512062155126.htm)**
+  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-12 01:30 UTC
+  - themes: vn_market_data
+  - signal: Expansion
+  - Internet tại Việt Nam đang thay đổi nhanh khi người dùng không còn mặn mà với một trải nghiệm chung.
+
 - **[Google Finance tích hợp AI: Người dùng phổ thông cũng có thể đầu tư như chuyên gia](https://tuoitre.vn/google-finance-tich-hop-ai-nguoi-dung-pho-thong-cung-co-the-dau-tu-nhu-chuyen-gia-20260508101326621.htm)**
   - relevance: `5` · category: `AI` · scope: `domestic` · published: 2026-05-09 00:35 UTC
   - themes: cross_brand_partnerships
   - signal: Launch
   - Google thử nghiệm Google Finance tích hợp AI tại Israel, cho phép người dùng phổ thông tiếp cận phân tích tài chính như giới đầu tư chuyên nghiệp.
 
+- **[Meta bỏ mã hóa chat Instagram, người dùng cần lưu ý gì?](https://tuoitre.vn/meta-bo-ma-hoa-chat-instagram-nguoi-dung-can-luu-y-gi-20260512154201953.htm)**
+  - relevance: `1` · category: `—` · scope: `domestic` · published: 2026-05-13 06:27 UTC
+  - Meta ngừng hỗ trợ mã hóa đầu cuối cho chat Instagram từ tháng 5-2026, làm dấy lên lo ngại về quyền riêng tư người dùng.
+
+- **[Từ làm chủ mạng lưới viễn thông đến bước đi toàn cầu của Viettel](https://tuoitre.vn/tu-lam-chu-mang-luoi-vien-thong-den-buoc-di-toan-cau-cua-viettel-20260513070925051.htm)**
+  - relevance: `1` · category: `—` · scope: `domestic` · published: 2026-05-13 01:30 UTC
+  - Thiết bị Site Router của Viettel đã từng bước được nghiên cứu, kiểm chứng trên mạng lưới viễn thông trong nước và sẵn sàng tham gia thị trường quốc tế.
+
 - **[Phát hiện AI có thể tự nhân bản và ‘di cư’ qua máy chủ khác](https://tuoitre.vn/phat-hien-ai-co-the-tu-nhan-ban-va-di-cu-qua-may-chu-khac-20260511142051169.htm)**
   - relevance: `1` · category: `AI` · scope: `domestic` · published: 2026-05-12 01:31 UTC
   - signal: Launch
   - Nghiên cứu chấn động vừa được Palisade Research công bố đã chính thức xác nhận một cột mốc đáng lo ngại khi khả năng tự nhân bản tự trị của AI không còn là chuyện trên phim ảnh.
 
-### vnbusiness (4)
+### vnbusiness (3)
+
+- **[Phanh phui nhóm tài xế 'rút ruột' Xanh SM](https://vnbusiness.vn//phanh-phui-nhom-tai-xe-rut-ruot-xanh-sm.html)**
+  - relevance: `5` · category: `Ride/Food delivery` · scope: `domestic` · published: 2026-05-13 12:11 UTC
+  - themes: mobility_food_economics
+  - Công an tỉnh Thái Nguyên khởi tố 4 đối tượng liên quan vụ “hack” cước Xanh SM bằng thiết bị điện tử nhằm qua mặt hệ thống giám sát.
+
+- **[OpenAI tạo “cơn mưa triệu phú”: Nhân viên AI đổi đời sau một đêm](https://vnbusiness.vn//openai-tao-con-mua-trieu-phu-nhan-vien-ai-doi-doi-sau-mot-dem.html)**
+  - relevance: `5` · category: `AI` · scope: `domestic` · published: 2026-05-12 04:38 UTC
+  - themes: ai_infra_general
+  - signal: Strategy_MnA
+  - Cơn sốt AI đang tạo ra thế hệ triệu phú công nghệ mới tại Thung lũng Silicon khi hàng trăm nhân viên OpenAI thu về hàng chục triệu USD nhờ bán cổ phần trước thềm IPO.
 
 - **[Trước giờ G: iPhone 18 lộ nhiều nâng cấp 'tham vọng'](https://vnbusiness.vn//truoc-gio-g-iphone-18-lo-nhieu-nang-cap-tham-vong.html)**
   - relevance: `2` · category: `AI` · scope: `domestic` · published: 2026-05-11 08:33 UTC
   - signal: Product_Feature
   - iPhone 18 được cho là sẽ mang nhiều thay đổi lớn về AI, camera, pin và thiết kế - mở màn cho giai đoạn chiến lược mới của Apple.
 
-- **[30.000 tài khoản Facebook bị chiếm đoạt, dữ liệu trở thành ‘món hàng’ buôn bán](https://vnbusiness.vn//30000-tai-khoan-facebook-bi-chiem-doat-du-lieu-tro-thanh-mon-hang-buon-ban.html)**
-  - relevance: `2` · category: `—` · scope: `domestic` · published: 2026-05-05 05:19 UTC
+### vneconomy (15)
+
+- **[VCCI: Rất bất cập nếu mở rộng trách nhiệm hình sự của pháp nhân thương mại](https://vneconomy.vn/vcci-rat-bat-cap-neu-mo-rong-trach-nhiem-hinh-su-cua-phap-nhan-thuong-mai.htm)**
+  - relevance: `6` · category: `—` · scope: `domestic` · published: 2026-05-14 03:22 UTC
+  - themes: payment_wallet_war
+  - signal: Regulation
+  - Dự thảo đề xuất ho#224;n thiện quy định về phạm vi chịu tr#225;ch nhiệm h#236;nh sự của ph#225;p nh#226;n thương mại đối với một số tội thuộc nh#243;m tội về thuế, lao động, t#224;i ch#237;nh, bảo hiểm, c#225;c tội về t#224;i sản như cho vay l#227;i nặng, lừa đảo chiếm đoạt t#224;i sản, c#225;c tội về sử dụng đất đai...
+
+- **[Cơ hội trải nghiệm không gian ghi hình Quán Nhà Haha ngoài đời thực cùng Vietcombank](https://vneconomy.vn/co-hoi-trai-nghiem-khong-gian-ghi-hinh-quan-nha-haha-ngoai-doi-thuc-cung-vietcombank.htm)**
+  - relevance: `6` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-14 01:00 UTC
+  - themes: payment_wallet_war
   - signal: Campaign_Marketing
-  - Khoảng 30.000 tài khoản Facebook Business bị chiếm đoạt trong "chiến dịch" lừa đảo quy mô lớn, dữ liệu sau đó bị rao bán công khai trên thị trường ngầm.
+  - Từ ng#224;y 13/5/2026 đến 2/6/2026, Ng#226;n h#224;ng TMCP Ngoại thương Việt Nam (Vietcombank) triển khai chương tr#236;nh khuyến mại “Tiết kiệm c#249;ng Vietcombank, #218;t Ha mời bạn gh#233; Qu#225;n Nh#224;” d#224;nh cho kh#225;ch h#224;ng gửi tiết kiệm c#243; kỳ hạn trong thời gian đồng h#224;nh c#249;ng chương tr#236;nh truyền h#236;nh thực tế Qu#225;n Nh#224; Haha.
 
-- **[Apple có thể giữ giá iPhone 18 Pro, đẩy iPhone gập lên 2.400 USD](https://vnbusiness.vn//apple-co-the-giu-gia-iphone-18-pro-day-iphone-gap-len-2400-usd.html)**
-  - relevance: `1` · category: `—` · scope: `domestic` · published: 2026-05-06 09:11 UTC
-  - Trước áp lực chi phí linh kiện, Apple được cho là giữ giá iPhone 18 Pro để duy trì sức mua, đồng thời định vị iPhone gập ở phân khúc siêu cao cấp với mức giá tới 2.400 USD.
-
-- **['Cơn sốt' AI đẩy giá chip nhớ tăng tới 40%](https://vnbusiness.vn//con-sot-ai-day-gia-chip-nho-tang-toi-40.html)**
-  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-06 06:04 UTC
-  - Dữ liệu từ ADATA cho thấy nhu cầu AI bùng nổ đang kéo giá chip nhớ tăng mạnh, tạo áp lực lan rộng lên thiết bị điện tử tiêu dùng.
-
-### vneconomy (11)
-
-- **[Lâm Đồng ban hành hệ số điều chỉnh giá đất năm 2026](https://vneconomy.vn/lam-dong-ban-hanh-he-so-dieu-chinh-gia-dat-nam-2026.htm)**
-  - relevance: `11` · category: `—` · scope: `domestic` · published: 2026-05-11 09:08 UTC
-  - themes: payment_wallet_war, platform_regulation
-  - signal: Regulation
-  - UBND tỉnh L#226;m Đồng vừa ban h#224;nh Quyết định số 22/2026/QĐ-UBND quy định hệ số điều chỉnh gi#225; đất năm 2026 tr#234;n địa b#224;n tỉnh. Quyết định c#243; hiệu lực từ ng#224;y 15/5/2026, nhằm tạo cơ sở ph#225;p l#253; phục vụ việc triển khai Luật Đất đai 2024 v#224; c#225;c văn bản hướng dẫn thi h#224;nh…
-
-- **[Kê khai thuế trên toàn bộ doanh thu “gây khó” cho nền tảng gọi xe](https://vneconomy.vn/ke-khai-thue-tren-toan-bo-doanh-thu-gay-kho-cho-nen-tang-goi-xe.htm)**
-  - relevance: `10` · category: `Ride/Food delivery` · scope: `domestic` · published: 2026-05-11 10:51 UTC
-  - themes: payment_wallet_war, mobility_food_economics
-  - signal: Regulation
-  - Quy định y#234;u cầu doanh nghiệp nền tảng k#234; khai v#224; nộp thuế gi#225; trị gia tăng tr#234;n to#224;n bộ doanh thu kh#244;ng ph#226;n biệt phần được hưởng l#224;m dấy l#234;n nhiều lo ngại về t#237;nh hợp l#253;. Theo VCCI, c#225;ch tiếp cận khiến nghĩa vụ thuế kh#244;ng tương xứng với phần thu nhập thực nhận v#224; ph#225;t sinh vướng mắc trong thực tiễn triển khai ở nhiều m#244; h#236;nh kinh doanh kh#225;c nhau…
-
-- **[Điện Biên đón làn sóng đầu tư mới](https://vneconomy.vn/dien-bien-don-lan-song-dau-tu-moi.htm)**
-  - relevance: `6` · category: `—` · scope: `domestic` · published: 2026-05-11 08:50 UTC
-  - themes: payment_wallet_war
-  - signal: Funding
-  - Tại hội nghị x#250;c tiến đầu tư v#224;o tỉnh Điện Bi#234;n năm 2026, địa phương đ#227; ch#224;o đ#243;n hơn 750 đại biểu, doanh nh#226;n v#224; nh#224; đầu tư trong nước, quốc tế tham dự. Sự kiện ghi nhận 22 nh#224; đầu tư k#253; bi#234;n bản hợp t#225;c đầu tư với tổng vốn cam kết hơn 209.370 tỷ đồng; đồng thời 11 nh#224; đầu tư được trao 12 quyết định chấp thuận chủ trương đầu tư với tổng vốn tr#234;n 48.320 tỷ đồng...
-
-- **[Ủy ban Thường vụ Quốc hội cho ý kiến về Kỳ họp thứ hai, Quốc hội khóa XVI](https://vneconomy.vn/uy-ban-thuong-vu-quoc-hoi-cho-y-kien-ve-ky-hop-thu-hai-quoc-hoi-khoa-xvi.htm)**
-  - relevance: `6` · category: `—` · scope: `domestic` · published: 2026-05-11 08:47 UTC
-  - themes: payment_wallet_war
-  - signal: Regulation
-  - Dự kiến Kỳ họp thứ hai Quốc hội kh#243;a XV khai mạc v#224;o ng#224;y 20/10 với 2 đợt họp. Quốc hội sẽ xem x#233;t, quyết định 36 dự #225;n luật, nghị quyết thuộc c#244;ng t#225;c lập ph#225;p v#224; 6 nh#243;m nội dung về kinh tế - x#227; hội, t#224;i ch#237;nh, ng#226;n s#225;ch nh#224; nước, gi#225;m s#225;t v#224; vấn đề quan trọng kh#225;c...
-
-- **[Mọi giao dịch giữa người dân và chính quyền sẽ được thực hiện trên môi trường số](https://vneconomy.vn/moi-giao-dich-giua-nguoi-dan-va-chinh-quyen-se-duoc-thuc-hien-tren-moi-truong-so.htm)**
-  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-12 00:02 UTC
-  - themes: payment_wallet_war
-  - Đ#243; l#224; mục ti#234;u đặt ra đến năm 2035 của Chương tr#236;nh Đề #225;n ph#225;t triển ứng dụng dữ liệu về d#226;n cư, định danh v#224; x#225;c thực điện tử phục vụ chuyển đổi số quốc gia giai đoạn 2026 - 2030, tầm nh#236;n đến năm 2035 vừa được Ph#243; Thủ tướng Hồ Quốc Dũng ph#234; duyệt tại Quyết định số 826/QĐ-TTg ng#224;y 11/5/2026…
-
-- **[Prudential Việt Nam nhiều năm góp mặt trong nhóm doanh nghiệp đóng góp ngân sách lớn tại TP.HCM](https://vneconomy.vn/prudential-viet-nam-nhieu-nam-gop-mat-trong-nhom-doanh-nghiep-dong-gop-ngan-sach-lon-tai-tphcm.htm)**
-  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-11 13:31 UTC
+- **[Nâng cấp chuỗi cung ứng toàn cầu tại Việt Nam, nhìn từ câu chuyện “hợp lực” giữa Intel và Fab 9](https://vneconomy.vn/nang-cap-chuoi-cung-ung-toan-cau-tai-viet-nam-nhin-tu-cau-chuyen-hop-luc-giua-intel-va-fab-9.htm)**
+  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-13 15:50 UTC
   - themes: vn_market_data
-  - signal: Regulation
-  - Nhiều năm qua, Prudential Việt Nam li#234;n tục được ghi nhận l#224; một trong những doanh nghiệp c#243; đ#243;ng g#243;p lớn cho ng#226;n s#225;ch nh#224; nước, thể hiện r#245; cam kết tu#226;n thủ ph#225;p luật v#224; đồng h#224;nh c#249;ng sự ph#225;t triển kinh tế – x#227; hội tại Việt Nam.
+  - signal: Expansion
+  - Tại Diễn đ#224;n Nhịp cầu Ph#225;t triển Việt Nam (Vietnam Connect Forum) 2026, c#226;u chuyện thực tiễn về sự li#234;n kết trong chuỗi cung ứng to#224;n cầu của Intel v#224; Fab 9 đ#227; cho thấy doanh nghiệp Việt ho#224;n to#224;n c#243; thể tham gia v#224;o chuỗi gi#225; trị c#244;ng nghệ cao nếu c#243; đủ quyết t#226;m v#224; chiến lược đ#250;ng đắn…
 
-- **[Công tác dân nguyện: Lắng nghe dân, trả lời dân, giải quyết kiến nghị của dân đến nơi đến chốn](https://vneconomy.vn/cong-tac-dan-nguyen-lang-nghe-dan-tra-loi-dan-giai-quyet-kien-nghi-cua-dan-den-noi-den-chon.htm)**
-  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-11 09:46 UTC
-  - themes: payment_wallet_war
-  - Theo Ph#243; Chủ tịch Quốc hội, Thượng tướng Nguyễn Do#227;n Anh, cần coi th#244;ng tin d#226;n nguyện l#224; đầu v#224;o quan trọng cho hoạt động lập ph#225;p, gi#225;m s#225;t v#224; quyết định những vấn đề quan trọng của đất nước. Do đ#243;, lắng nghe d#226;n phải thực chất; trả lời d#226;n phải r#245; r#224;ng; giải quyết kiến nghị của d#226;n phải đến nơi, đến chốn.
-
-- **[Tiềm năng hợp tác giữa Việt Nam và Canada trong triển khai điện hạt nhân](https://vneconomy.vn/tiem-nang-hop-tac-giua-viet-nam-va-canada-trong-trien-khai-dien-hat-nhan.htm)**
-  - relevance: `4` · category: `—` · scope: `domestic` · published: 2026-05-11 09:05 UTC
-  - themes: cross_brand_partnerships
-  - signal: Partnership
-  - Với kinh nghiệm nghiệm 80 năm vận h#224;nh c#244;ng nghệ hạt nh#226;n ri#234;ng, Canada kh#244;ng chỉ c#243; c#244;ng nghệ, m#224; c#242;n sở hữu hệ sinh th#225;i c#244;ng nghiệp, nguồn uranium, kinh nghiệm đ#224;o tạo v#224; năng lực vận h#224;nh, cho thấy nước n#224;y l#224; đối t#225;c ph#249; hợp với Việt Nam...
-
-- **[FiinGroup: Áp lực biên lợi nhuận khiến các ngân hàng khó giảm lãi suất ngay trong ngắn hạn](https://vneconomy.vn/fiingroup-ap-luc-bien-loi-nhuan-khien-cac-ngan-hang-kho-giam-lai-suat-ngay-trong-ngan-han.htm)**
-  - relevance: `1` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-12 00:01 UTC
-  - signal: Performance
-  - Theo Fiingroup l#227;i suất cho vay được dự b#225;o sẽ kh#243; giảm ngay trong ngắn hạn khi bi#234;n lợi nhuận của c#225;c ng#226;n h#224;ng đang chịu #225;p lực thu hẹp r#245; rệt.
-
-- **[Quyền riêng tư về dữ liệu người tiêu dùng đang trở nên "xa xỉ"](https://vneconomy.vn/quyen-rieng-tu-ve-du-lieu-nguoi-tieu-dung-dang-tro-nen-xa-xi.htm)**
-  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-12 01:46 UTC
-  - Năm 2026, cuộc đua gi#224;nh lấy dữ liệu người ti#234;u d#249;ng đang trở n#234;n khốc liệt chẳng kh#225;c n#224;o một “cơn sốt v#224;ng”, khi AI b#249;ng nổ tr#234;n mọi lĩnh vực. Trong bối cảnh n#224;y, quyền ri#234;ng tư về dữ liệu đang trở th#224;nh một điều quot;xa xỉquot;...
-
-- **[Vietnam Airlines chốt ngày đại hội cổ đông 2026](https://vneconomy.vn/vietnam-airlines-chot-ngay-dai-hoi-co-dong-2026.htm)**
-  - relevance: `0` · category: `Travel/Khách sạn/Giải trí` · scope: `domestic` · published: 2026-05-11 12:45 UTC
-  - Tổng C#244;ng ty H#224;ng kh#244;ng Việt Nam - CTCP - Vietnam Airlines (m#227; HVN-HOSE) c#244;ng bố Nghị quyết Hội đồng quản trị về kế hoạch tổ chức đại hội cổ đ#244;ng thường ni#234;n năm 2026.
-
-### vneconomy_techconnect (11)
-
-- **[Lâm Đồng ban hành hệ số điều chỉnh giá đất năm 2026](https://vneconomy.vn/lam-dong-ban-hanh-he-so-dieu-chinh-gia-dat-nam-2026.htm)**
-  - relevance: `11` · category: `—` · scope: `domestic` · published: 2026-05-11 09:08 UTC
-  - themes: payment_wallet_war, platform_regulation
-  - signal: Regulation
-  - UBND tỉnh L#226;m Đồng vừa ban h#224;nh Quyết định số 22/2026/QĐ-UBND quy định hệ số điều chỉnh gi#225; đất năm 2026 tr#234;n địa b#224;n tỉnh. Quyết định c#243; hiệu lực từ ng#224;y 15/5/2026, nhằm tạo cơ sở ph#225;p l#253; phục vụ việc triển khai Luật Đất đai 2024 v#224; c#225;c văn bản hướng dẫn thi h#224;nh…
-
-- **[Kê khai thuế trên toàn bộ doanh thu “gây khó” cho nền tảng gọi xe](https://vneconomy.vn/ke-khai-thue-tren-toan-bo-doanh-thu-gay-kho-cho-nen-tang-goi-xe.htm)**
-  - relevance: `10` · category: `Ride/Food delivery` · scope: `domestic` · published: 2026-05-11 10:51 UTC
-  - themes: payment_wallet_war, mobility_food_economics
-  - signal: Regulation
-  - Quy định y#234;u cầu doanh nghiệp nền tảng k#234; khai v#224; nộp thuế gi#225; trị gia tăng tr#234;n to#224;n bộ doanh thu kh#244;ng ph#226;n biệt phần được hưởng l#224;m dấy l#234;n nhiều lo ngại về t#237;nh hợp l#253;. Theo VCCI, c#225;ch tiếp cận khiến nghĩa vụ thuế kh#244;ng tương xứng với phần thu nhập thực nhận v#224; ph#225;t sinh vướng mắc trong thực tiễn triển khai ở nhiều m#244; h#236;nh kinh doanh kh#225;c nhau…
-
-- **[Điện Biên đón làn sóng đầu tư mới](https://vneconomy.vn/dien-bien-don-lan-song-dau-tu-moi.htm)**
-  - relevance: `6` · category: `—` · scope: `domestic` · published: 2026-05-11 08:50 UTC
-  - themes: payment_wallet_war
-  - signal: Funding
-  - Tại hội nghị x#250;c tiến đầu tư v#224;o tỉnh Điện Bi#234;n năm 2026, địa phương đ#227; ch#224;o đ#243;n hơn 750 đại biểu, doanh nh#226;n v#224; nh#224; đầu tư trong nước, quốc tế tham dự. Sự kiện ghi nhận 22 nh#224; đầu tư k#253; bi#234;n bản hợp t#225;c đầu tư với tổng vốn cam kết hơn 209.370 tỷ đồng; đồng thời 11 nh#224; đầu tư được trao 12 quyết định chấp thuận chủ trương đầu tư với tổng vốn tr#234;n 48.320 tỷ đồng...
-
-- **[Ủy ban Thường vụ Quốc hội cho ý kiến về Kỳ họp thứ hai, Quốc hội khóa XVI](https://vneconomy.vn/uy-ban-thuong-vu-quoc-hoi-cho-y-kien-ve-ky-hop-thu-hai-quoc-hoi-khoa-xvi.htm)**
-  - relevance: `6` · category: `—` · scope: `domestic` · published: 2026-05-11 08:47 UTC
-  - themes: payment_wallet_war
-  - signal: Regulation
-  - Dự kiến Kỳ họp thứ hai Quốc hội kh#243;a XV khai mạc v#224;o ng#224;y 20/10 với 2 đợt họp. Quốc hội sẽ xem x#233;t, quyết định 36 dự #225;n luật, nghị quyết thuộc c#244;ng t#225;c lập ph#225;p v#224; 6 nh#243;m nội dung về kinh tế - x#227; hội, t#224;i ch#237;nh, ng#226;n s#225;ch nh#224; nước, gi#225;m s#225;t v#224; vấn đề quan trọng kh#225;c...
-
-- **[Mọi giao dịch giữa người dân và chính quyền sẽ được thực hiện trên môi trường số](https://vneconomy.vn/moi-giao-dich-giua-nguoi-dan-va-chinh-quyen-se-duoc-thuc-hien-tren-moi-truong-so.htm)**
-  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-12 00:02 UTC
-  - themes: payment_wallet_war
-  - Đ#243; l#224; mục ti#234;u đặt ra đến năm 2035 của Chương tr#236;nh Đề #225;n ph#225;t triển ứng dụng dữ liệu về d#226;n cư, định danh v#224; x#225;c thực điện tử phục vụ chuyển đổi số quốc gia giai đoạn 2026 - 2030, tầm nh#236;n đến năm 2035 vừa được Ph#243; Thủ tướng Hồ Quốc Dũng ph#234; duyệt tại Quyết định số 826/QĐ-TTg ng#224;y 11/5/2026…
-
-- **[Prudential Việt Nam nhiều năm góp mặt trong nhóm doanh nghiệp đóng góp ngân sách lớn tại TP.HCM](https://vneconomy.vn/prudential-viet-nam-nhieu-nam-gop-mat-trong-nhom-doanh-nghiep-dong-gop-ngan-sach-lon-tai-tphcm.htm)**
-  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-11 13:31 UTC
+- **[Chương trình Rồng Vàng 2026: Thúc đẩy kiến tạo, củng cố cộng đồng doanh nghiệp FDI hoạt động hiệu quả và ngày càng lớn mạnh tại Việt Nam](https://vneconomy.vn/chuong-trinh-rong-vang-2026-thuc-day-kien-tao-cung-co-cong-dong-doanh-nghiep-fdi-hoat-dong-hieu-qua-va-ngay-cang-lon-manh-tai-viet-nam.htm)**
+  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-13 14:00 UTC
   - themes: vn_market_data
-  - signal: Regulation
-  - Nhiều năm qua, Prudential Việt Nam li#234;n tục được ghi nhận l#224; một trong những doanh nghiệp c#243; đ#243;ng g#243;p lớn cho ng#226;n s#225;ch nh#224; nước, thể hiện r#245; cam kết tu#226;n thủ ph#225;p luật v#224; đồng h#224;nh c#249;ng sự ph#225;t triển kinh tế – x#227; hội tại Việt Nam.
+  - signal: Expansion
+  - Giải thưởng Rồng V#224;ng ch#237;nh l#224; gi#225; trị truyền th#244;ng mang lại cho c#225;c doanh nghiệp tham gia chương tr#236;nh cũng như t#225;c động lan tỏa tới c#225;c cộng đồng x#227; hội, tạo sự nhận thức s#226;u rộng về hoạt động, th#224;nh tựu v#224; nỗ lực của cộng đồng doanh nghiệp FDI tại Việt Nam...
 
-- **[Công tác dân nguyện: Lắng nghe dân, trả lời dân, giải quyết kiến nghị của dân đến nơi đến chốn](https://vneconomy.vn/cong-tac-dan-nguyen-lang-nghe-dan-tra-loi-dan-giai-quyet-kien-nghi-cua-dan-den-noi-den-chon.htm)**
-  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-11 09:46 UTC
+- **[Chính sách thuế nhận được phản hồi tích cực của hộ kinh doanh và doanh nghiệp](https://vneconomy.vn/chinh-sach-thue-nhan-duoc-phan-hoi-tich-cuc-cua-ho-kinh-doanh-va-doanh-nghiep.htm)**
+  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-13 12:22 UTC
   - themes: payment_wallet_war
-  - Theo Ph#243; Chủ tịch Quốc hội, Thượng tướng Nguyễn Do#227;n Anh, cần coi th#244;ng tin d#226;n nguyện l#224; đầu v#224;o quan trọng cho hoạt động lập ph#225;p, gi#225;m s#225;t v#224; quyết định những vấn đề quan trọng của đất nước. Do đ#243;, lắng nghe d#226;n phải thực chất; trả lời d#226;n phải r#245; r#224;ng; giải quyết kiến nghị của d#226;n phải đến nơi, đến chốn.
+  - Th#244;ng tin tại họp b#225;o, Thứ trưởng Bộ T#224;i ch#237;nh cho biết việc n#226;ng ngưỡng chịu thuế l#234;n 1 tỷ đồng nhận được sự phản hồi rất t#237;ch cực của c#225;c hộ kinh doanh v#224; doanh nghiệp...
 
-- **[Tiềm năng hợp tác giữa Việt Nam và Canada trong triển khai điện hạt nhân](https://vneconomy.vn/tiem-nang-hop-tac-giua-viet-nam-va-canada-trong-trien-khai-dien-hat-nhan.htm)**
-  - relevance: `4` · category: `—` · scope: `domestic` · published: 2026-05-11 09:05 UTC
-  - themes: cross_brand_partnerships
-  - signal: Partnership
-  - Với kinh nghiệm nghiệm 80 năm vận h#224;nh c#244;ng nghệ hạt nh#226;n ri#234;ng, Canada kh#244;ng chỉ c#243; c#244;ng nghệ, m#224; c#242;n sở hữu hệ sinh th#225;i c#244;ng nghiệp, nguồn uranium, kinh nghiệm đ#224;o tạo v#224; năng lực vận h#224;nh, cho thấy nước n#224;y l#224; đối t#225;c ph#249; hợp với Việt Nam...
+- **[Hà Nội giao hơn 1,6ha đất tại khu đô thị Tây Hồ Tây làm nhà ở cho lực lượng vũ trang công an](https://vneconomy.vn/ha-noi-giao-hon-16ha-dat-tai-khu-do-thi-tay-ho-tay-lam-nha-o-cho-luc-luong-vu-trang-cong-an.htm)**
+  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-13 12:00 UTC
+  - themes: payment_wallet_war
+  - UBND TP. H#224; Nội vừa c#243; quyết định 2446/QĐ – UBND v#234;̀ việc giao 16.060m2 đ#226;́t tại ô đ#226;́t có ký hiệu C2-CT1 và C2-CX1 khu đô thị Tây H#244;̀ Tây cho Công ty c#244;̉ ph#226;̀n Đ#226;̀u tư Lạc H#244;̀ng đ#234;̉ thực hiện Dự án Đ#226;̀u tư xây dựng nhà ở cho lực lượng vũ trang Công an nhân dân (nhà ở xã hội) – đợt 1.
 
-- **[FiinGroup: Áp lực biên lợi nhuận khiến các ngân hàng khó giảm lãi suất ngay trong ngắn hạn](https://vneconomy.vn/fiingroup-ap-luc-bien-loi-nhuan-khien-cac-ngan-hang-kho-giam-lai-suat-ngay-trong-ngan-han.htm)**
-  - relevance: `1` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-12 00:01 UTC
+- **[CEO Nvidia được mời tháp tùng Tổng thống Trump thăm Trung Quốc vào phút chót](https://vneconomy.vn/ceo-nvidia-duoc-moi-thap-tung-tong-thong-trump-tham-trung-quoc-vao-phut-chot.htm)**
+  - relevance: `3` · category: `—` · scope: `domestic` · published: 2026-05-14 01:21 UTC
+  - themes: ai_infra_general
+  - #212;ng Jensen Huang, CEO h#227;ng chế tạo chip Nvidia, l#224; c#225;i t#234;n được bổ sung v#224;o ph#250;t ch#243;t trong ph#225;i đo#224;n doanh nghiệp đi c#249;ng #244;ng Tổng thống Mỹ Donald Trump trong chuyến thăm cấp nh#224; nước tới Trung Quốc…
+
+- **[Capital Square hưởng lợi từ xu hướng phát triển mới của đô thị trung tâm Đà Nẵng](https://vneconomy.vn/capital-square-huong-loi-tu-xu-huong-phat-trien-moi-cua-do-thi-trung-tam-da-nang.htm)**
+  - relevance: `1` · category: `Travel/Khách sạn/Giải trí` · scope: `domestic` · published: 2026-05-14 02:00 UTC
   - signal: Performance
-  - Theo Fiingroup l#227;i suất cho vay được dự b#225;o sẽ kh#243; giảm ngay trong ngắn hạn khi bi#234;n lợi nhuận của c#225;c ng#226;n h#224;ng đang chịu #225;p lực thu hẹp r#245; rệt.
+  - Đ#224; Nẵng được định hướng trở th#224;nh trung t#226;m dẫn dắt du lịch khu vực, c#225;c dự #225;n sở hữu vị tr#237; l#245;i đ#244; thị ven s#244;ng H#224;n đang gia tăng sức h#250;t nhờ hưởng lợi trực tiếp từ tăng trưởng du lịch, thương mại v#224; nhu cầu lưu tr#250; quốc tế.
 
-- **[Quyền riêng tư về dữ liệu người tiêu dùng đang trở nên "xa xỉ"](https://vneconomy.vn/quyen-rieng-tu-ve-du-lieu-nguoi-tieu-dung-dang-tro-nen-xa-xi.htm)**
-  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-12 01:46 UTC
-  - Năm 2026, cuộc đua gi#224;nh lấy dữ liệu người ti#234;u d#249;ng đang trở n#234;n khốc liệt chẳng kh#225;c n#224;o một “cơn sốt v#224;ng”, khi AI b#249;ng nổ tr#234;n mọi lĩnh vực. Trong bối cảnh n#224;y, quyền ri#234;ng tư về dữ liệu đang trở th#224;nh một điều quot;xa xỉquot;...
+- **[Suối Tiên tung ưu đãi lớn, khởi động Lễ hội trái cây Nam Bộ 2026](https://vneconomy.vn/suoi-tien-tung-uu-dai-lon-khoi-dong-le-hoi-trai-cay-nam-bo-2026.htm)**
+  - relevance: `1` · category: `Travel/Khách sạn/Giải trí` · scope: `domestic` · published: 2026-05-14 01:00 UTC
+  - signal: Campaign_Marketing
+  - M#249;a h#232; đang đến gần, mở ra thời điểm l#253; tưởng để c#225;c gia đ#236;nh v#224; nh#243;m bạn l#234;n kế hoạch vui chơi, giải tr#237;. Trong đ#243;, Khu du lịch Văn h#243;a Suối Ti#234;n (TP.HCM) tiếp tục thu h#250;t sự quan t#226;m khi ch#237;nh thức khởi động Suối Ti#234;n Farm Festival 2026 - Lễ hội tr#225;i c#226;y Nam Bộ lần thứ 22, khai mạc ng#224;y 31/5 tới đ#226;y.
 
-- **[Vietnam Airlines chốt ngày đại hội cổ đông 2026](https://vneconomy.vn/vietnam-airlines-chot-ngay-dai-hoi-co-dong-2026.htm)**
-  - relevance: `0` · category: `Travel/Khách sạn/Giải trí` · scope: `domestic` · published: 2026-05-11 12:45 UTC
-  - Tổng C#244;ng ty H#224;ng kh#244;ng Việt Nam - CTCP - Vietnam Airlines (m#227; HVN-HOSE) c#244;ng bố Nghị quyết Hội đồng quản trị về kế hoạch tổ chức đại hội cổ đ#244;ng thường ni#234;n năm 2026.
+- **[Hà Nội phát triển kinh tế đêm: Tham vọng 12% GRDP vào năm 2045](https://vneconomy.vn/ha-noi-phat-trien-kinh-te-dem-tham-vong-12-grdp-vao-nam-2045.htm)**
+  - relevance: `1` · category: `Travel/Khách sạn/Giải trí` · scope: `domestic` · published: 2026-05-14 00:29 UTC
+  - signal: Performance
+  - Kh#244;ng c#242;n chỉ l#224; những con phố ẩm thực hay tour du lịch di sản, kinh tế đ#234;m đang được H#224; Nội n#226;ng tầm th#224;nh một trụ cột tăng trưởng chiến lược - với lộ tr#236;nh b#224;i bản k#233;o d#224;i hai thập kỷ v#224; những con số mục ti#234;u đầy tham vọng...
 
-### vnexpress_kinhdoanh (13)
+- **[Kỳ vọng thương mại điện tử năm 2026 tăng trưởng 20%](https://vneconomy.vn/ky-vong-thuong-mai-dien-tu-nam-2026-tang-truong-20.htm)**
+  - relevance: `1` · category: `TMĐT` · scope: `domestic` · published: 2026-05-13 12:03 UTC
+  - signal: Performance
+  - quot;Ch#250;ng t#244;i kỳ vọng thương mại điện tử năm nay sẽ tăng trưởng 20%, qua đ#243; đ#243;ng g#243;p v#224;o mục ti#234;u tăng trưởng hai con số m#224; Ch#237;nh phủ đ#227; đề ra”...
+
+- **[Bộ Y tế cập nhật thông tin mới nhất về bệnh do virus Hanta](https://vneconomy.vn/bo-y-te-cap-nhat-thong-tin-moi-nhat-ve-benh-do-virus-hanta.htm)**
+  - relevance: `1` · category: `Travel/Khách sạn/Giải trí` · scope: `domestic` · published: 2026-05-13 11:36 UTC
+  - signal: Product_Feature
+  - Trước c#225;c th#244;ng tin quốc tế li#234;n quan đến ch#249;m ca bệnh do virus Hanta ghi nhận tr#234;n t#224;u du lịch quốc tế MV Hondius, chiều 13/5, Cục Ph#242;ng bệnh, Bộ Y tế đ#227; cập nhật những th#244;ng tin mới nhất...
+
+- **[Startup Hàn Quốc số hóa kỹ năng lao động để huấn luyện “bộ não AI” cho robot hình người](https://vneconomy.vn/startup-han-quoc-so-hoa-ky-nang-lao-dong-de-huan-luyen-bo-nao-ai-cho-robot-hinh-nguoi.htm)**
+  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-14 03:24 UTC
+  - C#225;c doanh nghiệp H#224;n Quốc đang tăng tốc x#226;y dựng cơ sở dữ liệu kỹ năng con người nhằm đ#224;o tạo robot AI thế hệ mới, với kỳ vọng đưa robot h#236;nh người v#224;o nh#224; m#225;y, kh#225;ch sạn v#224; cả hộ gia đ#236;nh trong những năm tới...
+
+- **[Dễ kiếm việc làm nếu có kỹ năng đa nhiệm](https://vneconomy.vn/de-kiem-viec-lam-neu-co-ky-nang-da-nhiem.htm)**
+  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-14 03:20 UTC
+  - Trước bối cảnh c#225;c doanh nghiệp Thủ đ#244; đang phải thắt chặt quản trị để ứng ph#243; với chi ph#237; đầu v#224;o biến động, những lao động sở hữu kỹ năng đa nhiệm, v#224; biết ứng dụng AI/c#244;ng nghệ sẽ nắm giữ lợi thế cạnh tranh vượt trội...
+
+- **[Sau loạt nghi vấn “dự án ma”, điện thoại Trump T1 xác nhận lịch giao hàng](https://vneconomy.vn/sau-loat-nghi-van-du-an-ma-dien-thoai-trump-t1-xac-nhan-lich-giao-hang.htm)**
+  - relevance: `0` · category: `Ride/Food delivery` · scope: `domestic` · published: 2026-05-14 01:46 UTC
+  - Sau nhiều lần tr#236; ho#227;n, Trump Mobile cho biết d#242;ng điện thoại th#244;ng minh đầu ti#234;n của h#227;ng sẽ giao tới những kh#225;ch h#224;ng đ#227; đặt mua trước trong tuần n#224;y…
+
+### vneconomy_techconnect (15)
+
+- **[VCCI: Rất bất cập nếu mở rộng trách nhiệm hình sự của pháp nhân thương mại](https://vneconomy.vn/vcci-rat-bat-cap-neu-mo-rong-trach-nhiem-hinh-su-cua-phap-nhan-thuong-mai.htm)**
+  - relevance: `6` · category: `—` · scope: `domestic` · published: 2026-05-14 03:22 UTC
+  - themes: payment_wallet_war
+  - signal: Regulation
+  - Dự thảo đề xuất ho#224;n thiện quy định về phạm vi chịu tr#225;ch nhiệm h#236;nh sự của ph#225;p nh#226;n thương mại đối với một số tội thuộc nh#243;m tội về thuế, lao động, t#224;i ch#237;nh, bảo hiểm, c#225;c tội về t#224;i sản như cho vay l#227;i nặng, lừa đảo chiếm đoạt t#224;i sản, c#225;c tội về sử dụng đất đai...
+
+- **[Cơ hội trải nghiệm không gian ghi hình Quán Nhà Haha ngoài đời thực cùng Vietcombank](https://vneconomy.vn/co-hoi-trai-nghiem-khong-gian-ghi-hinh-quan-nha-haha-ngoai-doi-thuc-cung-vietcombank.htm)**
+  - relevance: `6` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-14 01:00 UTC
+  - themes: payment_wallet_war
+  - signal: Campaign_Marketing
+  - Từ ng#224;y 13/5/2026 đến 2/6/2026, Ng#226;n h#224;ng TMCP Ngoại thương Việt Nam (Vietcombank) triển khai chương tr#236;nh khuyến mại “Tiết kiệm c#249;ng Vietcombank, #218;t Ha mời bạn gh#233; Qu#225;n Nh#224;” d#224;nh cho kh#225;ch h#224;ng gửi tiết kiệm c#243; kỳ hạn trong thời gian đồng h#224;nh c#249;ng chương tr#236;nh truyền h#236;nh thực tế Qu#225;n Nh#224; Haha.
+
+- **[Nâng cấp chuỗi cung ứng toàn cầu tại Việt Nam, nhìn từ câu chuyện “hợp lực” giữa Intel và Fab 9](https://vneconomy.vn/nang-cap-chuoi-cung-ung-toan-cau-tai-viet-nam-nhin-tu-cau-chuyen-hop-luc-giua-intel-va-fab-9.htm)**
+  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-13 15:50 UTC
+  - themes: vn_market_data
+  - signal: Expansion
+  - Tại Diễn đ#224;n Nhịp cầu Ph#225;t triển Việt Nam (Vietnam Connect Forum) 2026, c#226;u chuyện thực tiễn về sự li#234;n kết trong chuỗi cung ứng to#224;n cầu của Intel v#224; Fab 9 đ#227; cho thấy doanh nghiệp Việt ho#224;n to#224;n c#243; thể tham gia v#224;o chuỗi gi#225; trị c#244;ng nghệ cao nếu c#243; đủ quyết t#226;m v#224; chiến lược đ#250;ng đắn…
+
+- **[Chương trình Rồng Vàng 2026: Thúc đẩy kiến tạo, củng cố cộng đồng doanh nghiệp FDI hoạt động hiệu quả và ngày càng lớn mạnh tại Việt Nam](https://vneconomy.vn/chuong-trinh-rong-vang-2026-thuc-day-kien-tao-cung-co-cong-dong-doanh-nghiep-fdi-hoat-dong-hieu-qua-va-ngay-cang-lon-manh-tai-viet-nam.htm)**
+  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-13 14:00 UTC
+  - themes: vn_market_data
+  - signal: Expansion
+  - Giải thưởng Rồng V#224;ng ch#237;nh l#224; gi#225; trị truyền th#244;ng mang lại cho c#225;c doanh nghiệp tham gia chương tr#236;nh cũng như t#225;c động lan tỏa tới c#225;c cộng đồng x#227; hội, tạo sự nhận thức s#226;u rộng về hoạt động, th#224;nh tựu v#224; nỗ lực của cộng đồng doanh nghiệp FDI tại Việt Nam...
+
+- **[Chính sách thuế nhận được phản hồi tích cực của hộ kinh doanh và doanh nghiệp](https://vneconomy.vn/chinh-sach-thue-nhan-duoc-phan-hoi-tich-cuc-cua-ho-kinh-doanh-va-doanh-nghiep.htm)**
+  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-13 12:22 UTC
+  - themes: payment_wallet_war
+  - Th#244;ng tin tại họp b#225;o, Thứ trưởng Bộ T#224;i ch#237;nh cho biết việc n#226;ng ngưỡng chịu thuế l#234;n 1 tỷ đồng nhận được sự phản hồi rất t#237;ch cực của c#225;c hộ kinh doanh v#224; doanh nghiệp...
+
+- **[Hà Nội giao hơn 1,6ha đất tại khu đô thị Tây Hồ Tây làm nhà ở cho lực lượng vũ trang công an](https://vneconomy.vn/ha-noi-giao-hon-16ha-dat-tai-khu-do-thi-tay-ho-tay-lam-nha-o-cho-luc-luong-vu-trang-cong-an.htm)**
+  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-13 12:00 UTC
+  - themes: payment_wallet_war
+  - UBND TP. H#224; Nội vừa c#243; quyết định 2446/QĐ – UBND v#234;̀ việc giao 16.060m2 đ#226;́t tại ô đ#226;́t có ký hiệu C2-CT1 và C2-CX1 khu đô thị Tây H#244;̀ Tây cho Công ty c#244;̉ ph#226;̀n Đ#226;̀u tư Lạc H#244;̀ng đ#234;̉ thực hiện Dự án Đ#226;̀u tư xây dựng nhà ở cho lực lượng vũ trang Công an nhân dân (nhà ở xã hội) – đợt 1.
+
+- **[CEO Nvidia được mời tháp tùng Tổng thống Trump thăm Trung Quốc vào phút chót](https://vneconomy.vn/ceo-nvidia-duoc-moi-thap-tung-tong-thong-trump-tham-trung-quoc-vao-phut-chot.htm)**
+  - relevance: `3` · category: `—` · scope: `domestic` · published: 2026-05-14 01:21 UTC
+  - themes: ai_infra_general
+  - #212;ng Jensen Huang, CEO h#227;ng chế tạo chip Nvidia, l#224; c#225;i t#234;n được bổ sung v#224;o ph#250;t ch#243;t trong ph#225;i đo#224;n doanh nghiệp đi c#249;ng #244;ng Tổng thống Mỹ Donald Trump trong chuyến thăm cấp nh#224; nước tới Trung Quốc…
+
+- **[Capital Square hưởng lợi từ xu hướng phát triển mới của đô thị trung tâm Đà Nẵng](https://vneconomy.vn/capital-square-huong-loi-tu-xu-huong-phat-trien-moi-cua-do-thi-trung-tam-da-nang.htm)**
+  - relevance: `1` · category: `Travel/Khách sạn/Giải trí` · scope: `domestic` · published: 2026-05-14 02:00 UTC
+  - signal: Performance
+  - Đ#224; Nẵng được định hướng trở th#224;nh trung t#226;m dẫn dắt du lịch khu vực, c#225;c dự #225;n sở hữu vị tr#237; l#245;i đ#244; thị ven s#244;ng H#224;n đang gia tăng sức h#250;t nhờ hưởng lợi trực tiếp từ tăng trưởng du lịch, thương mại v#224; nhu cầu lưu tr#250; quốc tế.
+
+- **[Suối Tiên tung ưu đãi lớn, khởi động Lễ hội trái cây Nam Bộ 2026](https://vneconomy.vn/suoi-tien-tung-uu-dai-lon-khoi-dong-le-hoi-trai-cay-nam-bo-2026.htm)**
+  - relevance: `1` · category: `Travel/Khách sạn/Giải trí` · scope: `domestic` · published: 2026-05-14 01:00 UTC
+  - signal: Campaign_Marketing
+  - M#249;a h#232; đang đến gần, mở ra thời điểm l#253; tưởng để c#225;c gia đ#236;nh v#224; nh#243;m bạn l#234;n kế hoạch vui chơi, giải tr#237;. Trong đ#243;, Khu du lịch Văn h#243;a Suối Ti#234;n (TP.HCM) tiếp tục thu h#250;t sự quan t#226;m khi ch#237;nh thức khởi động Suối Ti#234;n Farm Festival 2026 - Lễ hội tr#225;i c#226;y Nam Bộ lần thứ 22, khai mạc ng#224;y 31/5 tới đ#226;y.
+
+- **[Hà Nội phát triển kinh tế đêm: Tham vọng 12% GRDP vào năm 2045](https://vneconomy.vn/ha-noi-phat-trien-kinh-te-dem-tham-vong-12-grdp-vao-nam-2045.htm)**
+  - relevance: `1` · category: `Travel/Khách sạn/Giải trí` · scope: `domestic` · published: 2026-05-14 00:29 UTC
+  - signal: Performance
+  - Kh#244;ng c#242;n chỉ l#224; những con phố ẩm thực hay tour du lịch di sản, kinh tế đ#234;m đang được H#224; Nội n#226;ng tầm th#224;nh một trụ cột tăng trưởng chiến lược - với lộ tr#236;nh b#224;i bản k#233;o d#224;i hai thập kỷ v#224; những con số mục ti#234;u đầy tham vọng...
+
+- **[Kỳ vọng thương mại điện tử năm 2026 tăng trưởng 20%](https://vneconomy.vn/ky-vong-thuong-mai-dien-tu-nam-2026-tang-truong-20.htm)**
+  - relevance: `1` · category: `TMĐT` · scope: `domestic` · published: 2026-05-13 12:03 UTC
+  - signal: Performance
+  - quot;Ch#250;ng t#244;i kỳ vọng thương mại điện tử năm nay sẽ tăng trưởng 20%, qua đ#243; đ#243;ng g#243;p v#224;o mục ti#234;u tăng trưởng hai con số m#224; Ch#237;nh phủ đ#227; đề ra”...
+
+- **[Bộ Y tế cập nhật thông tin mới nhất về bệnh do virus Hanta](https://vneconomy.vn/bo-y-te-cap-nhat-thong-tin-moi-nhat-ve-benh-do-virus-hanta.htm)**
+  - relevance: `1` · category: `Travel/Khách sạn/Giải trí` · scope: `domestic` · published: 2026-05-13 11:36 UTC
+  - signal: Product_Feature
+  - Trước c#225;c th#244;ng tin quốc tế li#234;n quan đến ch#249;m ca bệnh do virus Hanta ghi nhận tr#234;n t#224;u du lịch quốc tế MV Hondius, chiều 13/5, Cục Ph#242;ng bệnh, Bộ Y tế đ#227; cập nhật những th#244;ng tin mới nhất...
+
+- **[Startup Hàn Quốc số hóa kỹ năng lao động để huấn luyện “bộ não AI” cho robot hình người](https://vneconomy.vn/startup-han-quoc-so-hoa-ky-nang-lao-dong-de-huan-luyen-bo-nao-ai-cho-robot-hinh-nguoi.htm)**
+  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-14 03:24 UTC
+  - C#225;c doanh nghiệp H#224;n Quốc đang tăng tốc x#226;y dựng cơ sở dữ liệu kỹ năng con người nhằm đ#224;o tạo robot AI thế hệ mới, với kỳ vọng đưa robot h#236;nh người v#224;o nh#224; m#225;y, kh#225;ch sạn v#224; cả hộ gia đ#236;nh trong những năm tới...
+
+- **[Dễ kiếm việc làm nếu có kỹ năng đa nhiệm](https://vneconomy.vn/de-kiem-viec-lam-neu-co-ky-nang-da-nhiem.htm)**
+  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-14 03:20 UTC
+  - Trước bối cảnh c#225;c doanh nghiệp Thủ đ#244; đang phải thắt chặt quản trị để ứng ph#243; với chi ph#237; đầu v#224;o biến động, những lao động sở hữu kỹ năng đa nhiệm, v#224; biết ứng dụng AI/c#244;ng nghệ sẽ nắm giữ lợi thế cạnh tranh vượt trội...
+
+- **[Sau loạt nghi vấn “dự án ma”, điện thoại Trump T1 xác nhận lịch giao hàng](https://vneconomy.vn/sau-loat-nghi-van-du-an-ma-dien-thoai-trump-t1-xac-nhan-lich-giao-hang.htm)**
+  - relevance: `0` · category: `Ride/Food delivery` · scope: `domestic` · published: 2026-05-14 01:46 UTC
+  - Sau nhiều lần tr#236; ho#227;n, Trump Mobile cho biết d#242;ng điện thoại th#244;ng minh đầu ti#234;n của h#227;ng sẽ giao tới những kh#225;ch h#224;ng đ#227; đặt mua trước trong tuần n#224;y…
+
+### vnexpress_kinhdoanh (12)
 
 - **[Đề xuất doanh nghiệp nộp thuế thay người gom ve chai, phế liệu](https://vnexpress.net/de-xuat-doanh-nghiep-nop-thue-thay-nguoi-gom-ve-chai-phe-lieu-5072084.html)**
   - relevance: `14` · category: `Ride/Food delivery` · scope: `domestic` · published: 2026-05-10 05:48 UTC
   - themes: payment_wallet_war, platform_regulation, mobility_food_economics
   - VCCI đề nghị Bộ Tài chính bổ sung cơ chế khai, nộp thuế thay với hộ kinh doanh ve chai, đồng nát và sửa cách tính thuế với mô hình tài xế công nghệ.
 
-- **[ACB hỗ trợ hộ kinh doanh chuyển đổi số](https://vnexpress.net/acb-ho-tro-ho-kinh-doanh-chuyen-doi-so-5071715.html)**
-  - relevance: `6` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-09 01:00 UTC
-  - themes: payment_wallet_war
-  - signal: Campaign_Marketing
-  - ACB triển khai bộ giải pháp gồm thiết bị thanh toán, hóa đơn điện tử, phần mềm bán hàng, đào tạo thuế và gói vay ưu đãi… hỗ trợ hộ kinh doanh làm quen chuyển đổi số, tối ưu vận hành.
+- **[Agribank thúc đẩy giải pháp ngân hàng số khu vực Tây Nam Bộ](https://vnexpress.net/agribank-thuc-day-giai-phap-ngan-hang-so-khu-vuc-tay-nam-bo-5073401.html)**
+  - relevance: `10` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-13 07:00 UTC
+  - themes: payment_wallet_war, consumer_lending_bnpl
+  - signal: Expansion
+  - Agribank đẩy mạnh các giải pháp thanh toán không tiền mặt, mở rộng hạ tầng giao dịch, thúc đẩy tài chính số khu vực nông thôn Tây Nam Bộ.
 
-- **[Vinpearl hợp tác với ba 'ông lớn' lữ hành Ấn Độ](https://vnexpress.net/vinpearl-hop-tac-voi-ba-ong-lon-lu-hanh-an-do-5071401.html)**
-  - relevance: `6` · category: `Travel/Khách sạn/Giải trí` · scope: `domestic` · published: 2026-05-08 03:00 UTC
-  - themes: cross_brand_partnerships, travel_booking_in_app
-  - signal: Partnership
-  - Vinpearl ký hợp tác với Thomas Cook India, SOTC Travel và MakeMyTrip nhằm khai thác thị trường 1,47 tỷ dân, đưa Việt Nam trở thành điểm đến ưu tiên của du khách Ấn Độ.
-
-- **[Lãi suất tiết kiệm ngân hàng nào cao nhất?](https://vnexpress.net/lai-suat-tiet-kiem-ngan-hang-nao-cao-nhat-5072646.html)**
-  - relevance: `5` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-11 22:33 UTC
+- **[Hà Nội có thể cho thuê vỉa hè 45.000 đồng một m2 mỗi tháng để kinh doanh](https://vnexpress.net/ha-noi-co-the-cho-thue-via-he-45-000-dong-mot-m2-moi-thang-de-kinh-doanh-5073615.html)**
+  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-13 22:00 UTC
   - themes: payment_wallet_war
-  - Lãi suất tiết kiệm hạ nhiệt sau chỉ đạo của Thống đốc song mặt bằng chung vẫn ở mức hấp dẫn, một số nhà băng như HDBank, NCB trả 8-9% một năm.
+  - Hà Nội có thể thí điểm cho thuê một phần lòng đường, vỉa hè cao nhất 45.000 đồng một m2 mỗi tháng để phát triển kinh tế đô thị, kinh tế đêm.
+
+- **[Đề xuất phân bổ dần khoản lỗ gần 45.000 tỷ đồng vào giá điện](https://vnexpress.net/de-xuat-phan-bo-dan-khoan-lo-gan-45-000-ty-dong-vao-gia-dien-5073607.html)**
+  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-13 17:00 UTC
+  - themes: vn_market_data
+  - signal: Performance
+  - Bộ Công Thương đề xuất cơ chế phân bổ dần vào giá điện các chi phí chưa được tính đủ, làm cơ sở xử lý khoản lỗ lũy kế gần 45.000 tỷ đồng của EVN.
+
+- **[Ngân hàng tiếp tục rao bán nhà máy nông sản hơn 1.200 tỷ liên quan bà Trương Mỹ Lan](https://vnexpress.net/ngan-hang-tiep-tuc-rao-ban-nha-may-nong-san-hon-1-200-ty-lien-quan-ba-truong-my-lan-5073438.html)**
+  - relevance: `5` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-13 08:47 UTC
+  - themes: payment_wallet_war
+  - VietinBank phát mãi lần hai nhà máy Tanifood Tây Ninh liên quan vụ án Vạn Thịnh Phát với giá khởi điểm 1.200 tỷ đồng, thấp hơn 10% so với lần rao bán trước.
 
 - **[Hãng taxi mua 1.500 ôtô điện VinFast](https://vnexpress.net/hang-taxi-mua-1-500-oto-dien-vinfast-5072736.html)**
   - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-11 12:00 UTC
@@ -1449,60 +1569,43 @@
   - themes: platform_regulation
   - Siết trật tự đô thị khiến tiểu thương cố gắng tận dụng từng cm mưu sinh, trong khi các chuỗi hàng quán lớn buộc thay đổi mô hình kinh doanh để tồn tại.
 
-- **[Cuộc thi UOB Painting of the Year 2026 chính thức khởi động](https://vnexpress.net/cuoc-thi-uob-painting-of-the-year-2026-chinh-thuc-khoi-dong-5071581.html)**
-  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-09 12:00 UTC
-  - themes: vn_market_data
-  - signal: Expansion
-  - Mùa giải thứ 4 của cuộc thi tại Việt Nam sẽ nhận tác phẩm đến hết ngày 31/7, tạo cơ hội cho nghệ sĩ Việt kết nối sân chơi nghệ thuật khu vực và quốc tế.
-
-- **[CEO Nvidia, Apple sẽ cùng ông Trump đến Trung Quốc](https://vnexpress.net/ceo-nvidia-apple-se-cung-ong-trump-den-trung-quoc-5071620.html)**
-  - relevance: `4` · category: `—` · scope: `domestic` · published: 2026-05-08 17:00 UTC
+- **[Doanh nghiệp Mỹ hưởng lợi gì khi cùng ông Trump tới Trung Quốc?](https://vnexpress.net/doanh-nghiep-my-huong-loi-gi-khi-cung-ong-trump-toi-trung-quoc-5073296.html)**
+  - relevance: `4` · category: `—` · scope: `domestic` · published: 2026-05-13 04:18 UTC
   - themes: ai_infra_general
-  - Hơn 10 lãnh đạo doanh nghiệp, trong đó có CEO Nvidia, Apple, Qualcomm, Citigroup và Boeing sẽ cùng Tổng thống Mỹ đến Trung Quốc tuần tới.
+  - Trong khi Boeing và Cargill có thể đạt thỏa thuận mua hàng, Nvidia, Meta và Tesla lại đến Trung Quốc để giải quyết các rào cản chính sách tại đây.
 
-- **[Thủ tướng Sri Lanka muốn doanh nghiệp Việt tăng hợp tác thương mại, hàng không](https://vnexpress.net/thu-tuong-sri-lanka-muon-doanh-nghiep-viet-tang-hop-tac-thuong-mai-hang-khong-5071709.html)**
-  - relevance: `4` · category: `Travel/Khách sạn/Giải trí` · scope: `domestic` · published: 2026-05-08 14:48 UTC
+- **[BIM Group hợp tác Aeon xây trung tâm thương mại 4.300 tỷ đồng](https://vnexpress.net/bim-group-hop-tac-aeon-xay-trung-tam-thuong-mai-4-300-ty-dong-5073288.html)**
+  - relevance: `4` · category: `—` · scope: `domestic` · published: 2026-05-13 04:00 UTC
   - themes: cross_brand_partnerships
   - signal: Partnership
-  - Thủ tướng Sri Lanka muốn doanh nghiệp Việt mở rộng hợp tác trong lĩnh vực thương mại, chế biến thực phẩm, logistics, hàng không và du lịch.
+  - BIM Group và Aeonmall Việt Nam ký hợp tác phát triển trung tâm thương mại Aeon Mall Đà Nẵng Hòa Xuân, diện tích sàn hơn 120.000 m2, ngày 11/5.
 
-- **[V-Green hợp tác PVOil triển khai hơn 3.000 tủ đổi pin](https://vnexpress.net/v-green-hop-tac-pvoil-trien-khai-hon-3-000-tu-doi-pin-5071452.html)**
-  - relevance: `4` · category: `—` · scope: `domestic` · published: 2026-05-08 05:00 UTC
-  - themes: cross_brand_partnerships
-  - signal: Partnership
-  - Hơn 3.000 tủ đổi pin xe máy điện VinFast dự kiến lắp đặt tại chuỗi cửa hàng xăng dầu của PVOil trên toàn quốc, sau lễ ký hợp tác hôm 7/5.
+- **[Giới đầu tư kỳ vọng gì vào thượng đỉnh Mỹ - Trung?](https://vnexpress.net/gioi-dau-tu-ky-vong-gi-vao-thuong-dinh-my-trung-5073144.html)**
+  - relevance: `1` · category: `AI` · scope: `domestic` · published: 2026-05-12 17:08 UTC
+  - signal: Funding
+  - Giới đầu tư dự báo khó có thỏa thuận kinh tế đột phá, dồn chú ý vào diễn biến lĩnh vực AI tại cuộc gặp lãnh đạo Mỹ - Trung.
 
-- **[Đa dạng hoạt động tại gian hàng FPT Shop ở Vietnam GameVerse 2026](https://vnexpress.net/da-dang-hoat-dong-tai-gian-hang-fpt-shop-o-vietnam-gameverse-2026-5071890.html)**
-  - relevance: `1` · category: `—` · scope: `domestic` · published: 2026-05-09 08:00 UTC
-  - FPT Shop mang đến không gian trải nghiệm gaming với laptop, PC, màn hình, điện thoại, tablet từ thương hiệu nubia, Epower, Acer, Asus tại Vietnam Gameverse 2026, ngày 8-9/5.
+- **[Lãi suất tiết kiệm ngân hàng nào cao nhất?](https://vnexpress.net/lai-suat-tiet-kiem-ngan-hang-nao-cao-nhat-5072646.html)**
+  - relevance: `0` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-11 22:33 UTC
+  - Lãi suất tiết kiệm hạ nhiệt sau chỉ đạo của Thống đốc song mặt bằng chung với các khoản thỏa thuận vẫn ở mức hấp dẫn, một số nhà băng trả 8-9% một năm.
 
 - **[Trung Quốc tăng mạnh xuất nhập khẩu](https://vnexpress.net/trung-quoc-tang-manh-xuat-nhap-khau-5072090.html)**
   - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-10 08:05 UTC
   - Bất chấp căng thẳng Trung Đông, kim ngạch xuất nhập khẩu tháng 4 của Trung Quốc vẫn tăng trên 14% nhờ nhu cầu tích trữ hàng hóa toàn cầu, đơn hàng AI.
 
-- **[Sắp có đường bay thẳng giữa Việt Nam và Sri Lanka](https://vnexpress.net/sap-co-duong-bay-thang-giua-viet-nam-va-sri-lanka-5071681.html)**
-  - relevance: `0` · category: `Travel/Khách sạn/Giải trí` · scope: `domestic` · published: 2026-05-08 12:38 UTC
-  - Từ tháng 10, Vietnam Airlines sẽ khai thác đường bay thẳng kết nối giữa TP HCM và Colombo (Sri Lanka).
+### vnexpress_sohoa (20)
 
-### vnexpress_sohoa (25)
+- **[Loạt thông tin được ông chủ ChatGPT hé lộ trong phiên tòa](https://vnexpress.net/loat-thong-tin-duoc-ong-chu-chatgpt-he-lo-trong-phien-toa-5073321.html)**
+  - relevance: `5` · category: `AI/Big tech AI` · scope: `domestic` · published: 2026-05-13 10:40 UTC
+  - themes: ai_infra_general
+  - signal: Regulation
+  - Trong phiên tòa đang diễn ra giữa Elon Musk và OpenAI, Sam Altman nhận xét Musk "đáng sợ", nhưng bị luật sư chất vấn về tính trung thực.
 
-- **[VTC Online hợp tác Smilegate đưa nền tảng Stove vào Việt Nam](https://vnexpress.net/vtc-online-hop-tac-smilegate-dua-nen-tang-stove-vao-viet-nam-5071876.html)**
-  - relevance: `8` · category: `—` · scope: `domestic` · published: 2026-05-09 07:00 UTC
-  - themes: vn_market_data, cross_brand_partnerships
-  - signal: Launch
-  - VTC Online và Smilegate ký kết hợp tác chiến lược phát hành nền tảng game Stove tại Việt Nam trong khuôn khổ Vietnam GameVerse 2026, ngày 8/5 tại TP HCM.
-
-- **[Anthropic dạy tác nhân AI cách 'mơ mộng'](https://vnexpress.net/anthropic-day-tac-nhan-ai-cach-mo-mong-5070997.html)**
-  - relevance: `8` · category: `AI` · scope: `domestic` · published: 2026-05-07 08:54 UTC
-  - themes: cross_brand_partnerships, ai_infra_general
-  - signal: Partnership
-  - Anthropic bắt đầu tích hợp tính năng "mơ mộng" cho tác nhân AI nhằm mục đích tinh chỉnh bộ nhớ làm việc và giảm lỗi có thể xảy ra.
-
-- **[Việt Nam có hơn 6 triệu người kiếm tiền trên TikTok](https://vnexpress.net/viet-nam-co-hon-6-trieu-nguoi-kiem-tien-tren-tiktok-5071245.html)**
-  - relevance: `6` · category: `TMĐT` · scope: `domestic` · published: 2026-05-07 12:58 UTC
+- **[HBO Go ngừng dịch vụ trực tuyến tại Việt Nam](https://vnexpress.net/hbo-go-ngung-dich-vu-truc-tuyen-tai-viet-nam-5073221.html)**
+  - relevance: `5` · category: `Travel/Khách sạn/Giải trí` · scope: `domestic` · published: 2026-05-13 02:46 UTC
   - themes: vn_market_data
-  - signal: Performance
-  - Hơn 6 triệu người Việt Nam có thu nhập hàng tháng từ TikTok đang cho thấy mô hình thương mại điện tử kết hợp nội dung đang tăng trưởng mạnh tại thị trường này.
+  - signal: Expansion
+  - Gói nội dung trực tuyến HBO Go sẽ dừng hoạt động tại Việt Nam từ ngày 15/6, sau 7 năm gia nhập thị trường.
 
 - **[Doanh nghiệp Việt thỏa thuận cung cấp mạng 5G trong quân sự Thổ Nhĩ Kỳ](https://vnexpress.net/doanh-nghiep-viet-thoa-thuan-cung-cap-mang-5g-trong-quan-su-tho-nhi-ky-5072509.html)**
   - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-11 07:10 UTC
@@ -1510,17 +1613,20 @@
   - signal: Partnership
   - Viettel High Tech hợp tác với một số doanh nghiệp tại Thổ Nhĩ Kỳ để cung cấp giải pháp mạng 5G trong quân sự và hệ thống viễn thông đảm bảo mức độ bảo mật và ổn định cao.
 
-- **[Bức thư gửi robot giành giải nhất Cuộc thi viết thư UPU](https://vnexpress.net/buc-thu-gui-robot-gianh-giai-nhat-cuoc-thi-viet-thu-upu-5071572.html)**
-  - relevance: `5` · category: `—` · scope: `domestic` · published: 2026-05-08 09:08 UTC
-  - themes: vn_market_data
-  - signal: Expansion
-  - Bức thư viết dưới góc nhìn của robot, nói về sự kết nối giữa con người trong thời đại số, giành giải nhất Cuộc thi viết thư UPU lần thứ 55 tại Việt Nam.
+- **['Siêu hacker AI' khiến loạt ngân hàng Mỹ vội sửa lỗi bảo mật](https://vnexpress.net/sieu-hacker-ai-khien-loat-ngan-hang-my-voi-sua-loi-bao-mat-5073574.html)**
+  - relevance: `4` · category: `AI` · scope: `domestic` · published: 2026-05-14 02:00 UTC
+  - themes: ai_infra_general
+  - Các ngân hàng Mỹ đang gấp rút khắc phục những điểm yếu hệ thống IT do Mythos, công cụ AI được mệnh danh "siêu hacker" của Anthropic, phát hiện.
 
-- **[Thủ tướng: Phát triển công nghệ chiến lược không chạy theo phong trào](https://vnexpress.net/thu-tuong-phat-trien-cong-nghe-chien-luoc-khong-chay-theo-phong-trao-5072796.html)**
-  - relevance: `4` · category: `—` · scope: `domestic` · published: 2026-05-11 17:05 UTC
-  - themes: cross_brand_partnerships
-  - signal: Partnership
-  - Lãnh đạo Chính phủ yêu cầu phát triển công nghệ chiến lược không chạy theo phong trào, đẩy mạnh hợp tác nhà nước - viện/trường - doanh nghiệp, có kết quả cụ thể trong năm 2026.
+- **[Grok của Elon Musk mất dần vị thế trong cuộc đua AI](https://vnexpress.net/grok-cua-elon-musk-mat-dan-vi-the-trong-cuoc-dua-ai-5073523.html)**
+  - relevance: `4` · category: `AI` · scope: `domestic` · published: 2026-05-13 17:00 UTC
+  - themes: ai_infra_general
+  - AI Grok của xAI, công ty do Elon Musk thành lập và điều hành, bị đánh giá tụt hậu khá xa so với các đối thủ OpenAI, Anthropic hay Google.
+
+- **[Sam Altman: 'Elon Musk muốn sở hữu 90% OpenAI'](https://vnexpress.net/sam-altman-elon-musk-muon-so-huu-90-openai-5073273.html)**
+  - relevance: `4` · category: `AI` · scope: `domestic` · published: 2026-05-13 05:00 UTC
+  - themes: ai_infra_general
+  - Xuất hiện tại phiên tòa ngày 12/5, Sam Altman cho biết Elon Musk từng ám ảnh với việc kiểm soát toàn bộ OpenAI và yêu cầu lượng cổ phần khổng lồ.
 
 - **[Nhiều nhà phát triển Trung Quốc 'vượt rào' dùng Claude, Gemini](https://vnexpress.net/nhieu-nha-phat-trien-trung-quoc-vuot-rao-dung-claude-gemini-5072567.html)**
   - relevance: `4` · category: `AI` · scope: `domestic` · published: 2026-05-11 12:00 UTC
@@ -1537,26 +1643,18 @@
   - themes: ai_infra_general
   - Startup Mỹ Anthropic cho biết việc Claude từng tống tiền xuất phát từ dữ liệu đào tạo mô hình trên Internet, trong đó mô tả AI là xấu xa.
 
-- **[Việt Nam hợp tác với Ấn Độ nghiên cứu, chế biến đất hiếm](https://vnexpress.net/viet-nam-hop-tac-voi-an-do-nghien-cuu-che-bien-dat-hiem-5071282.html)**
-  - relevance: `4` · category: `—` · scope: `domestic` · published: 2026-05-07 15:26 UTC
-  - themes: cross_brand_partnerships
-  - signal: Partnership
-  - Cơ quan của Việt Nam và Ấn Độ sẽ lập nhóm nghiên cứu chung, trao đổi dữ liệu kỹ thuật, phân tích mẫu quặng và phối hợp xây dựng các tiêu chuẩn kỹ thuật về đất hiếm.
+- **[Ứng dụng Việt báo lượng mưa được hàng chục nghìn người sử dụng](https://vnexpress.net/ung-dung-viet-bao-luong-mua-duoc-hang-chuc-nghin-nguoi-su-dung-5073211.html)**
+  - relevance: `2` · category: `—` · scope: `domestic` · published: 2026-05-13 02:00 UTC
+  - signal: Launch
+  - Từ hệ thống dữ liệu phục vụ cơ quan phòng chống thiên tai, VRain dần trở thành ứng dụng theo dõi lượng mưa với hàng chục nghìn người dùng, được Apple giới thiệu trên trang chủ.
 
-- **[Hai cựu giám đốc OpenAI tố với tòa Sam Altman 'nói dối'](https://vnexpress.net/hai-cuu-giam-doc-openai-to-voi-toa-sam-altman-noi-doi-5070883.html)**
-  - relevance: `4` · category: `AI` · scope: `domestic` · published: 2026-05-07 02:40 UTC
-  - themes: ai_infra_general
-  - Cựu CTO Mira Murati và cựu nhà khoa học trưởng Ilya Sutskever cùng khai tại tòa rằng Altman là người "không trung thực", "gây mâu thuẫn" trong đội ngũ lãnh đạo OpenAI.
+- **[Các chuyên gia quốc tế bàn về tương lai AI tại TP HCM](https://vnexpress.net/cac-chuyen-gia-quoc-te-ban-ve-tuong-lai-ai-tai-tp-hcm-5073633.html)**
+  - relevance: `1` · category: `AI` · scope: `domestic` · published: 2026-05-14 02:24 UTC
+  - Sự kiện GStar 2026, diễn ra cuối tháng 5 tại TP HCM, quy tụ nhiều chuyên gia từ Google, Qualcomm... cùng bàn về hướng phát triển định hình tương lai AI.
 
-- **[Tổng Bí thư, Chủ tịch nước Tô Lâm đề nghị thúc đẩy hình thành Đối tác số Việt Nam - Ấn Độ](https://vnexpress.net/tong-bi-thu-chu-tich-nuoc-to-lam-de-nghi-thuc-day-hinh-thanh-doi-tac-so-viet-nam-an-do-5070851.html)**
-  - relevance: `4` · category: `—` · scope: `domestic` · published: 2026-05-07 00:18 UTC
-  - themes: cross_brand_partnerships
-  - signal: Partnership
-  - Tổng Bí thư, Chủ tịch nước Tô Lâm đề nghị Việt Nam - Ấn Độ xây dựng các không gian hợp tác mới về khoa học, công nghệ, trong đó thúc đẩy hình thành Đối tác số giữa hai nước.
-
-- **[FPT hai năm liền là 'Nhà mạng được yêu thích nhất'](https://vnexpress.net/fpt-hai-nam-lien-la-nha-mang-duoc-yeu-thich-nhat-5072739.html)**
-  - relevance: `1` · category: `—` · scope: `domestic` · published: 2026-05-11 13:00 UTC
-  - FPT được vinh danh ở hạng mục "Nhà mạng được yêu thích nhất" tại Vietnam Game Awards, đánh dấu năm thứ hai liên tiếp nhận giải thưởng này.
+- **[TikTok muốn thúc đẩy mô hình 'xã thương mại điện tử' ở Việt Nam](https://vnexpress.net/tiktok-muon-thuc-day-mo-hinh-xa-thuong-mai-dien-tu-o-viet-nam-5073573.html)**
+  - relevance: `1` · category: `TMĐT` · scope: `domestic` · published: 2026-05-13 13:12 UTC
+  - TikTok dự kiến dành 100 tỷ đồng trong 6 tháng cuối năm 2026 để thúc đẩy mô hình "xã thương mại điện tử" trên toàn quốc.
 
 - **[Ngành sản xuất bo mạch chủ lao đao vì AI](https://vnexpress.net/nganh-san-xuat-bo-mach-chu-lao-dao-vi-ai-5072181.html)**
   - relevance: `1` · category: `AI` · scope: `domestic` · published: 2026-05-10 22:00 UTC
@@ -1568,118 +1666,94 @@
   - signal: Launch
   - Công ty Figure AI công bố video quá trình hai robot Figure 03 phối hợp dọn dẹp phòng ngủ mà không cần con người trợ giúp.
 
-- **[Intel 'đạt thỏa thuận' sản xuất chip cho Apple](https://vnexpress.net/intel-dat-thoa-thuan-san-xuat-chip-cho-apple-5071736.html)**
-  - relevance: `1` · category: `—` · scope: `domestic` · published: 2026-05-09 02:00 UTC
-  - Intel và Apple được cho là đã đạt thỏa thuận sơ bộ về sản xuất một số chip, một phần nhờ chính quyền Mỹ thúc đẩy.
+- **[Nhà mạng có xóa được tài khoản gắn với 'SIM quay đầu'?](https://vnexpress.net/nha-mang-co-xoa-duoc-tai-khoan-gan-voi-sim-quay-dau-5073355.html)**
+  - relevance: `0` · category: `Chat` · scope: `domestic` · published: 2026-05-14 01:00 UTC
+  - Nhà mạng có thể xóa các tài khoản ngân hàng, mạng xã hội đang gắn với số điện thoại của chủ cũ hay không?
 
-- **[Đại diện Microsoft Việt Nam: AI cần dữ liệu như nhân viên 'háu ăn'](https://vnexpress.net/dai-dien-microsoft-viet-nam-ai-can-du-lieu-nhu-nhan-vien-hau-an-5071659.html)**
-  - relevance: `1` · category: `AI` · scope: `domestic` · published: 2026-05-09 00:38 UTC
-  - Chuyên gia Microsoft ví von AI như một nhân viên thích ăn uống, có thể "ăn" rất nhiều loại dữ liệu, nhưng cần "thức ăn" sạch để làm việc tốt.
+- **[Samsung hướng One UI 8.5 thành 'hệ điều hành AI'](https://vnexpress.net/samsung-huong-one-ui-8-5-thanh-he-dieu-hanh-ai-5073215.html)**
+  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-13 01:00 UTC
+  - Phiên bản One UI 8.5 của Samsung được ví như "AI OS" với khả năng chủ động dự đoán và hỗ trợ người dùng dựa trên ngữ cảnh thực tế.
 
-- **[Apple dùng iPhone nghiên cứu tốc độ đi bộ và thính lực](https://vnexpress.net/apple-dung-iphone-nghien-cuu-toc-do-di-bo-va-thinh-luc-5071196.html)**
-  - relevance: `1` · category: `—` · scope: `domestic` · published: 2026-05-08 01:11 UTC
-  - Apple thực hiện nghiên cứu với hơn 57.000 tình nguyện viên sử dụng iPhone, cho thấy mức độ mất thính lực càng cao thì tốc độ đi bộ càng chậm.
+- **[Lý do bảo mật ngày càng mạnh nhưng nhiều người vẫn mất tiền](https://vnexpress.net/ly-do-bao-mat-ngay-cang-manh-nhung-nhieu-nguoi-van-mat-tien-5073145.html)**
+  - relevance: `0` · category: `Fintech/E-wallet` · scope: `domestic` · published: 2026-05-12 17:00 UTC
+  - Tài khoản được định danh, bảo mật qua nhiều lớp nhưng người dùng vẫn bị sập bẫy lừa đảo, một phần do bị thao túng tâm lý dẫn đến tự chuyển tiền.
 
-- **[Google chạy ngầm mô hình AI trên Chrome](https://vnexpress.net/google-chay-ngam-mo-hinh-ai-tren-chrome-5070929.html)**
-  - relevance: `1` · category: `AI` · scope: `domestic` · published: 2026-05-07 04:14 UTC
-  - Trình duyệt Chrome của Google bị phát hiện tự động tải, lưu mô hình AI dung lượng 4 GB và chạy ngầm nhưng không thông báo cho người dùng.
+- **['An ninh mạng cần thiết kế từ đầu, không phải lớp vá thêm'](https://vnexpress.net/an-ninh-mang-can-thiet-ke-tu-dau-khong-phai-lop-va-them-5073097.html)**
+  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-12 12:00 UTC
+  - Theo Phó chủ tịch Vinasa Nguyễn Tử Quảng, AI đang thay đổi bản chất của chiến tranh mạng, buộc doanh nghiệp phải chủ động từ đầu.
+
+- **[Gần 30 'kỳ lân' công nghệ tụ hội bàn về tương lai AI tại châu Âu](https://vnexpress.net/gan-30-ky-lan-cong-nghe-tu-hoi-ban-ve-tuong-lai-ai-tai-chau-au-5072925.html)**
+  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-12 09:04 UTC
+  - Hơn 600 diễn giả quốc tế cùng gần 30 startup "kỳ lân" sẽ tham gia South Summit Madrid 2026 - một trong những diễn đàn lớn nhất châu Âu về AI và khởi nghiệp công nghệ.
 
 - **[Màn đấu võ của hai robot hình người gây sốt](https://vnexpress.net/man-dau-vo-cua-hai-robot-hinh-nguoi-gay-sot-5072422.html)**
   - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-11 22:00 UTC
   - Robot hình người của Unitree và Engine AI đấu tay đôi trong một cửa hàng ở Mỹ và thu hút sự chú ý trên mạng xã hội.
 
-- **[Công ty dịch thuật cắt giảm 1/4 nhân sự do AI](https://vnexpress.net/cong-ty-dich-thuat-cat-giam-1-4-nhan-su-do-ai-5071618.html)**
-  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-08 17:00 UTC
-  - Công ty dịch thuật AI DeepL (Đức) thông báo khoảng 250 trong số 1.000 nhân viên công ty sẽ mất việc vì AI khiến những vị trí đó trở nên dư thừa.
+## Players Movement (81)
 
-- **[Hai tính năng hữu dụng nhất trên Galaxy S26 Ultra](https://vnexpress.net/hai-tinh-nang-huu-dung-nhat-tren-galaxy-s26-ultra-5071525.html)**
-  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-08 08:00 UTC
-  - Ngoài thiết kế, tính năng AI cùng camera chụp nhanh, linh hoạt trong nhiều tình huống giúp Galaxy S26 Ultra tăng tính hữu dụng khi sử dụng hàng ngày.
+### cafebiz (3)
 
-- **[Giám đốc tạo bản sao AI cho nhân viên trút giận](https://vnexpress.net/giam-doc-tao-ban-sao-ai-cho-nhan-vien-trut-gian-5071287.html)**
-  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-08 04:00 UTC
-  - Giám đốc công ty Klarna tạo ra phiên bản AI của chính mình để làm "bao cát", giúp nhân viên giải tỏa bức xúc trong giai đoạn cắt giảm ngân sách.
+- **[Dư nợ cho vay 10 tỷ USD: Con số gây choáng trong báo cáo tài chính của công ty mẹ Shopee, hé lộ 'cỗ máy tín dụng' đang nuôi cuộc chiến với TikTok Shop](https://cafebiz.vn/du-no-cho-vay-10-ty-usd-con-so-gay-choang-trong-bao-cao-tai-chinh-cua-cong-ty-me-shopee-he-lo-co-may-tin-dung-dang-nuoi-cuoc-chien-voi-tiktok-shop-176260514090628662.chn)**
+  - relevance: `11` · category: `—` · player: `Shopee` · scope: `domestic` · published: —
+  - themes: super_app_commerce
+  - signal: Performance
+  - Tổng giá trị hàng hóa giao dịch (GMV) của Shopee tăng 30% so với cùng kỳ, trong khi EBITDA điều chỉnh của mảng này lại giảm 9%.
 
-- **[Rắc rối khi mua phải SIM từng đăng ký tài khoản ngân hàng](https://vnexpress.net/rac-roi-khi-mua-phai-sim-tung-dang-ky-tai-khoan-ngan-hang-5071061.html)**
-  - relevance: `0` · category: `Chat` · scope: `domestic` · published: 2026-05-08 00:00 UTC
-  - Nhiều người dùng gặp rắc rối khi mua SIM mới nhưng số điện thoại đã được chủ cũ đăng ký tài khoản ngân hàng, mạng xã hội.
+- **[Chi phí giảm 30%, doanh thu tăng 47%: "Vũ khí" AI đã giúp tập đoàn mẹ của Shopee hốt bạc 7 tỷ USD như thế nào?](https://cafebiz.vn/chi-phi-giam-30-doanh-thu-tang-47-vu-khi-ai-da-giup-tap-doan-me-cua-shopee-hot-bac-7-ty-usd-nhu-the-nao-176260514101254903.chn)**
+  - relevance: `6` · category: `Marketing` · player: `Shopee` · scope: `domestic` · published: —
+  - signal: Performance
+  - Sự kết hợp giữa khả năng nhắm mục tiêu chính xác của AI và nội dung chất lượng đã giúp tỷ lệ người bán chấp nhận trả tiền quảng cáo tăng 35% so với năm ngoái.
 
-- **[Chip đạt tốc độ 500 Gb/giây](https://vnexpress.net/chip-dat-toc-do-500-gb-giay-5070492.html)**
-  - relevance: `0` · category: `AI` · scope: `domestic` · published: 2026-05-06 09:00 UTC
-  - Chip sử dụng công nghệ Silicon-germanium do Đức phát triển đạt tốc độ 500 Gb/giây, được kỳ vọng giúp tăng hiệu suất AI, mạng và xử lý dữ liệu tốc độ cao.
+- **[Rúng động: Phòng chat tội phạm tình dục Telegram xuyên quốc gia mang bí danh "dầu", "nhiên liệu", "xe sang", đứng đầu bởi nhóm tri thức cao](https://cafebiz.vn/rung-dong-phong-chat-toi-pham-tinh-duc-telegram-xuyen-quoc-gia-mang-bi-danh-dau-nhien-lieu-xe-sang-dung-dau-boi-nhom-tri-thuc-cao-176260514095247162.chn)**
+  - relevance: `5` · category: `—` · player: `Telegram` · scope: `domestic` · published: —
+  - Một sinh viên người Trung Quốc vừa bị tòa án Đức kết tội đánh thuốc mê và cưỡng hiếp một phụ nữ ở Munich (thủ phủ bang Bayern) trong nhiều tháng. Đáng chú ý, bị cáo là thành viên của một nhóm chat Telegram, nơi đàn ông chia sẻ hình ảnh về tội ác của họ.
 
-## Players Movement (78)
+### cafef_kinhteso (2)
 
-### cafef_kinhteso (1)
+- **[Thử nghiệm "GrabCar Thú Cưng" ở Hà Nội](https://cafef.vn/thu-nghiem-grabcar-thu-cung-o-ha-noi-18826051310460722.chn)**
+  - relevance: `6` · category: `—` · player: `Grab` · scope: `domestic` · published: 2026-05-13 03:45 UTC
+  - signal: Launch
+  - Sau thời gian thử nghiệm tại TP.HCM, Grab Việt Nam đã triển khai thử nghiệm dịch vụ GrabCar Thú Cưng tại Hà Nội.
 
-- **[Công an thông báo đến tất cả những ai nhận được thông tin, hình ảnh qua Zalo có nội dung sau](https://cafef.vn/cong-an-thong-bao-den-tat-ca-nhung-ai-nhan-duoc-thong-tin-hinh-anh-qua-zalo-co-noi-dung-sau-188260510145842941.chn)**
-  - relevance: `5` · category: `—` · player: `Zalo` · scope: `domestic` · published: 2026-05-10 08:04 UTC
-  - Người dân cần hết sức bình tĩnh và tỉnh táo, đề cao cảnh giác, tránh để bị đe dọa, đánh lừa mà thực hiện theo yêu cầu của các đối tượng lừa đảo.
+- **[Tổng giám đốc MoMo: AI đang khiến lừa đảo trở nên nhanh hơn, rẻ hơn, tinh vi hơn](https://cafef.vn/tong-giam-doc-momo-ai-dang-khien-lua-dao-tro-nen-nhanh-hon-re-hon-tinh-vi-hon-188260512134529972.chn)**
+  - relevance: `5` · category: `—` · player: `MoMo` · scope: `domestic` · published: 2026-05-12 06:46 UTC
+  - Ông Nguyễn Mạnh Tường, Đồng chủ tịch MoMo cho biết mỗi giao dịch trên nền tảng của MoMo được xử lý trong 100-300 mili giây, nhanh hơn một cái chớp mắt nhưng cuộc chiến với tội phạm mạng vẫn rất cam go.
 
-### grab_merchant_vn (14)
+### dantri_ai (1)
 
-- **[GrabMart | Bí kíp tăng trưởng doanh thu sầu riêng](https://merchant.grab.com/vn-vn/blog/grabmart-bikiptangtruongdoanhthu-saurieng?ref=blog-v-n-h-nh-hi-u-qu)**
+- **[Đề nghị Zalo, Meta bảo vệ người dùng trước nguy cơ lừa đảo bằng AI](https://dantri.com.vn/cong-nghe/de-nghi-zalo-meta-bao-ve-nguoi-dung-truoc-nguy-co-lua-dao-bang-ai-20260512150646414.htm)**
+  - relevance: `5` · category: `—` · player: `Zalo` · scope: `domestic` · published: 2026-05-13 07:15 UTC
+  - (Dân trí) - Ủy ban Cạnh tranh Quốc gia đã có văn bản đề nghị các nền tảng số tăng cường bảo vệ quyền lợi người tiêu dùng trước nguy cơ lừa đảo bằng trí tuệ nhân tạo.
+
+### grab_merchant_vn (7)
+
+- **[GrabMart | Bí kíp tăng trưởng doanh thu sầu riêng](https://merchant.grab.com/vn-vn/blog/grabmart-bikiptangtruongdoanhthu-saurieng)**
   - relevance: `6` · category: `—` · player: `Grab` · scope: `domestic` · published: —
   - signal: Performance
-  - Generated by create next app
 
-- **[GrabMart | Các chương trình ưu đãi dành cho ngành hàng trái cây tươi mùa hè 2026](https://merchant.grab.com/vn-vn/blog/traicay2026?ref=blog-ch-ng-tr-nh-khuy-n-m-i)**
+- **[GrabMart | Các chương trình ưu đãi dành cho ngành hàng trái cây tươi mùa hè 2026](https://merchant.grab.com/vn-vn/blog/traicay2026)**
   - relevance: `6` · category: `Marketing` · player: `Grab` · scope: `domestic` · published: —
   - signal: Campaign_Marketing
-  - Generated by create next app
 
-- **[Grab | Giải pháp tăng trưởng Người dùng mới (dành cho dịch vụ Đi Ăn Nhà Hàng)](https://merchant.grab.com/vn-vn/blog/dealhoidonkhachmoi?ref=blog-ch-ng-tr-nh-khuy-n-m-i)**
+- **[Grab | Giải pháp tăng trưởng Người dùng mới (dành cho dịch vụ Đi Ăn Nhà Hàng)](https://merchant.grab.com/vn-vn/blog/dealhoidonkhachmoi)**
   - relevance: `6` · category: `—` · player: `Grab` · scope: `domestic` · published: —
   - signal: Performance
-  - Generated by create next app
 
-- **[>> TẠO CHIẾN DỊCH NGAY<<](https://merchant.grab.com/vn-vn/blog/deal-khao-nang?ref=blog-ch-ng-tr-nh-khuy-n-m-i)**
-  - relevance: `6` · category: `Marketing` · player: `Grab` · scope: `domestic` · published: —
-  - signal: Campaign_Marketing
-  - Generated by create next app
-
-- **[Grab | Cập nhật cách tính điểm đánh giá sao Cửa hàng](https://merchant.grab.com/vn-vn/blog/capnhatcachtinhdiemdanhgiasao2026?ref=blog-t-nh-n-ng)**
+- **[Grab | Cập nhật cách tính điểm đánh giá sao Cửa hàng](https://merchant.grab.com/vn-vn/blog/capnhatcachtinhdiemdanhgiasao2026)**
   - relevance: `6` · category: `Feature` · player: `Grab` · scope: `domestic` · published: —
   - signal: Product_Feature
-  - Generated by create next app
 
-- **[👉GỬI NGAY](https://merchant.grab.com/vn-vn/blog/quandinhmeohay2026?ref=blog-b-n-tin-chung)**
+- **[GrabMart | Đảm việc nhà - Giỏi kinh doanh nhờ nắm bắt xu hướng bán hàng qua ứng dụng](https://merchant.grab.com/vn-vn/blog/traicaysachanvatvoduyninh)**
   - relevance: `5` · category: `—` · player: `Grab` · scope: `domestic` · published: —
-  - Generated by create next app
 
-- **[THÔNG TIN CHI TIẾT](https://merchant.grab.com/vn-vn/blog/hoantindungquangcao-grabfood?ref=blog-b-n-tin-chung)**
-  - relevance: `5` · category: `—` · player: `Grab` · scope: `domestic` · published: —
-  - Generated by create next app
-
-- **[>>TẠO LIÊN KẾT NGAY<<](https://merchant.grab.com/vn-vn/blog/lienketthongminh?ref=blog-b-n-tin-chung)**
-  - relevance: `5` · category: `—` · player: `Grab` · scope: `domestic` · published: —
-  - Generated by create next app
-
-- **[GrabMart | Đảm việc nhà - Giỏi kinh doanh nhờ nắm bắt xu hướng bán hàng qua ứng dụng](https://merchant.grab.com/vn-vn/blog/traicaysachanvatvoduyninh?ref=blog-v-n-h-nh-hi-u-qu)**
-  - relevance: `5` · category: `—` · player: `Grab` · scope: `domestic` · published: —
-  - Generated by create next app
-
-- **[>>TẠO LIÊN KẾT NGAY<<](https://merchant.grab.com/vn-vn/blog/lienketthongminh?ref=blog-t-nh-n-ng)**
-  - relevance: `5` · category: `—` · player: `Grab` · scope: `domestic` · published: —
-  - Generated by create next app
-
-- **[Grab | Triển khai tính năng “Nhận đơn theo cách thủ công”](https://merchant.grab.com/vn-vn/blog/nhandonthucong?ref=blog-t-nh-n-ng)**
+- **[Grab | Triển khai tính năng “Nhận đơn theo cách thủ công”](https://merchant.grab.com/vn-vn/blog/nhandonthucong)**
   - relevance: `5` · category: `Feature` · player: `Grab` · scope: `domestic` · published: —
-  - Generated by create next app
 
-- **[THÔNG TIN CHƯƠNG TRÌNH](https://merchant.grab.com/vn-vn/blog/quantotbung?ref=blog-s-ki-n)**
+- **[Ngày hội Du lịch TP. HCM 2026: Grab vinh danh Quán Trứ Danh - Tôn vinh du lịch ẩm thực thành phố](https://merchant.grab.com/vn-vn/blog/ngayhoidulich2026)**
   - relevance: `5` · category: `—` · player: `Grab` · scope: `domestic` · published: —
-  - Generated by create next app
 
-- **[Ngày hội Du lịch TP. HCM 2026: Grab vinh danh Quán Trứ Danh - Tôn vinh du lịch ẩm thực thành phố](https://merchant.grab.com/vn-vn/blog/ngayhoidulich2026?ref=blog-s-ki-n)**
-  - relevance: `5` · category: `—` · player: `Grab` · scope: `domestic` · published: —
-  - Generated by create next app
-
-- **[THÔNG TIN CHƯƠNG TRÌNH](https://merchant.grab.com/vn-vn/blog/thantaiphatloc?ref=blog-s-ki-n)**
-  - relevance: `5` · category: `—` · player: `Grab` · scope: `domestic` · published: —
-  - Generated by create next app
-
-### grab_vn_blog (16)
+### grab_vn_blog (17)
 
 - **[Ưu đãi ngân hàng HD Bank](https://www.grab.com/vn/blog/uu-dai-ngan-hang-hd-bank/)**
   - relevance: `11` · category: `Marketing` · player: `Grab` · scope: `domestic` · published: —
@@ -1708,20 +1782,15 @@
   - signal: Campaign_Marketing
   - Trở thành Hội viên #GrabUnlimited ngay hôm nay để chuyến Grab* nào cũng✨ đảm bảo có ưu đãi. 🔊Hội viên #GrabUnlimited, mở Grab, luôn có mã áp: 🚗Giảm 20%
 
+- **[THÔNG TIN KHUYẾN MẠI CỦA CHƯƠNG TRÌNH GRABFOOD VẠN DEAL MASTXIMUM GIẢM 50%](https://www.grab.com/vn/blog/thong-tin-khuyen-mai-cua-chuong-trinh-grabfood-van-deal-mastximum-giam-50/)**
+  - relevance: `6` · category: `Marketing` · player: `Grab` · scope: `domestic` · published: —
+  - signal: Launch
+  - 🔊 Xin thông báo mùa hè nóng kỷ lục chỉ còn là cái tên: GrabFood giới thiệu biệt đội Mátximum nóng tới đâu cũng có vạn deal món mát nhất – giảm “maximum”!
+
 - **[CÔNG BỐ KẾT QUẢ THỬ THÁCH “ĐƯỜNG ĐUA GIA NHẬP HỘI CHỦ SHOP” CÙNG GRABEXPRESS](https://www.grab.com/vn/blog/cong-bo-ket-qua-thu-thach-duong-dua-gia-nhap-hoi-chu-shop-cung-grabexpress/)**
   - relevance: `6` · category: `—` · player: `Grab` · scope: `domestic` · published: —
   - signal: Launch
   - Thông tin Thử thách “Đường Đua Gia Nhập Hội Chủ Shop” đã công bố trên Blog chính thức của Grab: https://www.grab.com/vn/blog/thu-thach-duong-dua-gia-nhap-hoi…
-
-- **[Thông báo cập nhật bảng giá và phương thức đặt xe cho dịch vụ GrabCar Premium](https://www.grab.com/vn/blog/thong-bao-cap-nhat-bang-gia-va-phuong-thuc-dat-xe-cho-dich-vu-grabcar-premium/)**
-  - relevance: `6` · category: `Feature` · player: `Grab` · scope: `domestic` · published: —
-  - signal: Pricing
-  - Bạn thân mến, Nhằm đảm bảo trải nghiệm di chuyển chất lượng cao và tiện nghi vượt trội của dịch vụ GrabCar Premium, từ ngày 28/04/2026, Grab sẽ thực hiện cập…
-
-- **[THÔNG TIN TỪ GRAB](https://www.grab.com/vn/blog/thong-tin-tu-grab/)**
-  - relevance: `6` · category: `Feature` · player: `Grab` · scope: `domestic` · published: —
-  - signal: Product_Feature
-  - LƯU Ý: Kể từ ngày 28/04 Grab đã cập nhật thông tin mới nhất về các loại phí áp dụng cho từng loại hình dịch vụ trên Bảng thông tin các dịch vụ trên ứng dụng…
 
 - **[Thông tin mới nhất](https://www.grab.com/vn/blog/driver/)**
   - relevance: `5` · category: `—` · player: `Grab` · scope: `domestic` · published: —
@@ -1745,22 +1814,36 @@
 - **[Pulse of Vietnam](https://www.grab.com/vn/blog/pulse-of-vietnam?page=1)**
   - relevance: `5` · category: `—` · player: `Grab` · scope: `domestic` · published: —
 
+- **[Thông báo triển khai dịch vụ GrabCar Plus, GrabBike Plus tại một số tỉnh thành](https://www.grab.com/vn/blog/thong-bao-trien-khai-dich-vu-grabcar-plus-grabbike-plus-tai-mot-so-tinh-thanh/)**
+  - relevance: `5` · category: `—` · player: `Grab` · scope: `domestic` · published: —
+  - Bạn thân mến, Nhằm đáp ứng nhu cầu di chuyển đa dạng của hành khách, Grab chính thức triển khai dịch vụ GrabCar, GrabCar Plus và GrabBike Plus tại một số tỉnh…
+
+- **[Thử thách của Tín](https://www.grab.com/vn/blog/thu-thach-cua-tin/)**
+  - relevance: `5` · category: `—` · player: `Grab` · scope: `domestic` · published: —
+  - <p dir="ltr" style="line-height: 1.656; background-color: #ffffff; margin-top: 0pt; margin-bottom: 0pt;">Trân trọng,</p> <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">Đội ngũ Grab.</p>
+
 - **[🚀 THAM GIA THỬ THÁCH “BẢN ĐỒ BUNG SỨC MÙA THI CÙNG GRAB” CÙNG GRAB SINH VIÊN🎁](https://www.grab.com/vn/blog/%f0%9f%9a%80-tham-gia-thu-thach-ban-do-bung-suc-mua-thi-cung-grab-cung-grab-sinh-vien%f0%9f%8e%81/)**
   - relevance: `5` · category: `—` · player: `Grab` · scope: `domestic` · published: —
   - <p dir="ltr" style="line-height: 1.656; background-color: #ffffff; margin-top: 0pt; margin-bottom: 0pt;">Trân trọng,</p> <p dir="ltr" style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;">Đội ngũ Grab.</p>
 
 ### momo_newsroom (3)
 
-- **[Đặt vé Sun PhuQuoc Airways cận giờ bay - Giảm đến 20%](https://momo.vn/tin-tuc/khuyen-mai/dat-ve-sun-phuquoc-airways-can-gio-bay-giam-den-20-8702)**
+- **[Sale giữa tháng 5: Vé máy bay giảm đến 1 triệu](https://momo.vn/tin-tuc/khuyen-mai/sale-giua-thang-5-ve-may-bay-giam-den-1-trieu-8712)**
   - relevance: `7` · category: `—` · player: `MoMo` · scope: `domestic` · published: —
   - themes: travel_booking_in_app
 
-- **[Giải mã từ khóa, rinh gói nâng cấp YouTube & iCloud miễn phí cùng MoMo](https://momo.vn/tin-tuc/thong-bao/giai-ma-tu-khoa-rinh-goi-nang-cap-youtube-icloud-8704)**
-  - relevance: `6` · category: `Feature` · player: `MoMo` · scope: `domestic` · published: —
-  - signal: Product_Feature
+- **[Miễn phí 1.000 ly trà sữa khi đặt vé Vietnam Airlines trên MoMo](https://momo.vn/tin-tuc/khuyen-mai/mien-phi-1000-ly-tra-sua-khi-dat-ve-vietnam-8711)**
+  - relevance: `7` · category: `—` · player: `MoMo` · scope: `domestic` · published: —
+  - themes: travel_booking_in_app
 
 - **[Bạn mới nhập mã CHONMOMO: Có quà 500.000đ giảm nhiều dịch vụ, thêm tiền thưởng đến 1 triệu](https://momo.vn/tin-tuc/khuyen-mai/ban-moi-nhap-ma-chonmomo-co-qua-500000d-giam-8225)**
   - relevance: `5` · category: `—` · player: `MoMo` · scope: `domestic` · published: —
+
+### reuters_tech (1)
+
+- **[Meta seeks to avoid EU fine with free WhatsApp access for rival AI chatbots - Reuters](https://news.google.com/rss/articles/CBMizAFBVV95cUxOYm5qekpIZ3VjRVQwQ2x6eTRnWmdDZTJOUTVYbkxaQklrRzdFRjYtRjRHU1JLV0Mxb1JLcDlsZFo5Y2E5STF5aFFRMkpseThURm5UUGhTUUZBajU2U3c2dnNXSEVEUXFBRzVxQzlyQUNRd1pUX2ROVmxNekZjUDNWWnhiemYwMmF4emoxa3hoR2Jzd3VNYlhpSGFLQ0o5dlUtYUR4LUI1LUtYVFByUFV3YUUxYXI2VHQ2MmlaaXFsSzRtTDU0R2N0dEdWa3g?oc=5)**
+  - relevance: `5` · category: `—` · player: `WhatsApp` · scope: `international` · published: 2026-05-12 20:35 UTC
+  - Meta seeks to avoid EU fine with free WhatsApp access for rival AI chatbots Reuters
 
 ### shopee_seller_blog (15)
 
@@ -1802,6 +1885,9 @@
   - relevance: `6` · category: `Feature` · player: `Shopee` · scope: `domestic` · published: —
   - signal: Product_Feature
 
+- **[Tính năng phân bổ đơn vị vận chuyển tự động cho Người bán trên Shopee](https://banhang.shopee.vn/edu/article/17468)**
+  - relevance: `5` · category: `Feature` · player: `Shopee` · scope: `domestic` · published: —
+
 - **[[04/05 - 10/05] ĐIỂM TIN BÁN HÀNG TRÊN SHOPEE TUẦN QUA CÓ GÌ MỚI !](https://banhang.shopee.vn/edu/article/20471)**
   - relevance: `5` · category: `—` · player: `Shopee` · scope: `domestic` · published: —
 
@@ -1811,14 +1897,29 @@
 - **[Hướng dẫn quay video màn hình khi Người Bán cần Shopee hỗ trợ](https://banhang.shopee.vn/edu/article/16440)**
   - relevance: `5` · category: `—` · player: `Shopee` · scope: `domestic` · published: —
 
-- **[Tính năng phân bổ đơn vị vận chuyển tự động cho Người bán trên Shopee](https://banhang.shopee.vn/edu/article/17468)**
-  - relevance: `5` · category: `Feature` · player: `Shopee` · scope: `domestic` · published: —
-
 - **[[MỚI] Công cụ Tối ưu sản phẩm bởi AI trên Shopee](https://banhang.shopee.vn/edu/article/26654)**
   - relevance: `5` · category: `—` · player: `Shopee` · scope: `domestic` · published: —
 
 - **[BẢN TIN TẾT ÂM LỊCH 2026](https://banhang.shopee.vn/edu/article/26800)**
   - relevance: `5` · category: `—` · player: `Shopee` · scope: `domestic` · published: —
+
+### techcrunch (1)
+
+- **[WhatsApp adds an incognito mode in Meta AI chats](https://techcrunch.com/2026/05/13/whatsapp-adds-an-incognito-mode-in-meta-ai-chats/)**
+  - relevance: `13` · category: `—` · player: `WhatsApp` · scope: `international` · published: 2026-05-13 14:00 UTC
+  - themes: big_tech_in_finance_commerce, ai_infra_general
+  - Meta said these incognito conversations are not saved, and messages will disappear by default once you close the chat.
+
+### techinasia (2)
+
+- **[Ant Group Q4 profit falls 79% as AI spending rises](https://www.techinasia.com/news/ant-group-q4-profit-falls-79-ai-spending-rises)**
+  - relevance: `6` · category: `—` · player: `AliPay` · scope: `international` · published: 2026-05-14 00:37 UTC
+  - signal: Performance
+  - The drop came as Ant stepped up spending on AI for healthcare, large language models, and payments after its profit fell 91% in the previous quarter.
+
+- **[Meta offers rival AI chatbots free WhatsApp access to avoid EU fine](https://www.techinasia.com/news/meta-offers-rival-ai-chatbots-free-whatsapp-access-avoid-eu-fine)**
+  - relevance: `5` · category: `—` · player: `WhatsApp` · scope: `international` · published: 2026-05-13 04:19 UTC
+  - The move is part of the company’s effort to settle an EU antitrust probe that could otherwise result in a fine.
 
 ### telegram_blog (19)
 
@@ -1940,58 +2041,58 @@
 
 ---
 
-## Filtered out (421) — for audit, not included in report
+## Filtered out (398) — for audit, not included in report
 
 These articles were crawled but did not match any tracked category (AI, Chat, TMĐT, Travel, Ride/Food delivery, Fintech/E-wallet, Ticket) nor mention a tracked player (MoMo, Grab).
 
-- ["Cá mập" nghìn tỷ bán sạch cổ phiếu Vingroup, kiên quyết nắm giữ FPT](https://cafef.vn/ca-map-nghin-ty-ban-sach-co-phieu-vingroup-kien-quyet-nam-giu-fpt-188260512073735543.chn) — `cafef_doanhnghiep` · published: 2026-05-12 00:37 UTC
+- [Pin dự phòng tích hợp cáp sạc, màn hình của Ugreen thêm màu mới hợp iPhone 17 Pro, giá khoảng 1 triệu](https://genk.vn/pin-du-phong-tich-hop-cap-sac-man-hinh-cua-ugreen-them-mau-moi-hop-iphone-17-pro-gia-khoang-1-trieu-165260513225514224.chn) — `genk` · published: —
 - [Chính phủ ban hành 20 nhiệm vụ phát triển công nghệ chiến lược](https://vnexpress.net/chinh-phu-ban-hanh-20-nhiem-vu-phat-trien-cong-nghe-chien-luoc-5072232.html) — `vnexpress_sohoa` · published: 2026-05-10 15:17 UTC
-- [18 đại diện pháp luật công ty xuất nhập khẩu, thép, cà phê...sau đây bị tạm hoãn xuất cảnh](https://cafef.vn/18-dai-dien-phap-luat-cong-ty-xuat-nhap-khau-thep-ca-phesau-day-bi-tam-hoan-xuat-canh-188260509111738223.chn) — `cafef_doanhnghiep` · published: 2026-05-09 04:38 UTC
-- [Thương hiệu vận hành Quốc tế: Yếu tố quyết định giá trị bất động sản nghỉ dưỡng](https://cafebiz.vn/thuong-hieu-van-hanh-quoc-te-yeu-to-quyet-dinh-gia-tri-bat-dong-san-nghi-duong-176260511173355177.chn) — `cafebiz` · published: —
-- [Chiến lược "độc bản" của AREUS by BM Windows trong phân khúc nhôm kính siêu sang](https://cafef.vn/chien-luoc-doc-ban-cua-areus-by-bm-windows-trong-phan-khuc-nhom-kinh-sieu-sang-188260512075844129.chn) — `cafef_doanhnghiep` · published: 2026-05-12 01:00 UTC
-- [Cú bắt tay của tỷ phú Phạm Nhật Vượng và Viettel](https://cafef.vn/cu-bat-tay-cua-ty-phu-pham-nhat-vuong-va-viettel-188260509224520225.chn) — `cafef_doanhnghiep` · published: 2026-05-09 15:45 UTC
-- [OPPO Find X9 Ultra và Find X9s ra mắt tại Việt Nam, giá từ 25 triệu đồng](https://dantri.com.vn/cong-nghe/oppo-find-x9-ultra-va-find-x9s-ra-mat-tai-viet-nam-gia-tu-25-trieu-dong-20260505200435120.htm) — `dantri_ai` · published: 2026-05-05 23:46 UTC
-- [Thông tin mới nhất vụ Vingroup khởi kiện 68 cá nhân, tổ chức](https://cafebiz.vn/thong-tin-moi-nhat-vu-vingroup-khoi-kien-68-ca-nhan-to-chuc-176260512070227468.chn) — `cafebiz` · published: —
-- [Tiết lộ sốc: Tại sao các siêu AI ChatGPT, Gemini, Claude lại cãi nhau về tương lai của bạn?](https://cafef.vn/tiet-lo-soc-tai-sao-cac-sieu-ai-chatgpt-gemini-claude-lai-cai-nhau-ve-tuong-lai-cua-ban-188260511133307878.chn) — `cafef_kinhteso` · published: 2026-05-11 06:46 UTC
-- [Khởi công Celesta Gold: Mảnh ghép quan trọng định hình chuẩn sống mới ở khu Nam](https://cafebiz.vn/khoi-cong-celesta-gold-manh-ghep-quan-trong-dinh-hinh-chuan-song-moi-o-khu-nam-176260511173924273.chn) — `cafebiz` · published: —
-- [Lenovo trình làng thế hệ Idea Tab mới tích hợp AI cùng phiên bản FIFA World Cup 26™](https://genk.vn/lenovo-trinh-lang-the-he-idea-tab-moi-tich-hop-ai-cung-phien-ban-fifa-world-cup-26-165260511114820301.chn) — `genk` · published: —
-- [Loạt “ông lớn” Vingroup, Sun Group, BRG, Mường Thanh… “đổ bộ” về tỉnh biên giới giáp Trung Quốc và Lào](https://cafebiz.vn/loat-ong-lon-vingroup-sun-group-brg-muong-thanh-do-bo-ve-tinh-bien-gioi-giap-trung-quoc-va-lao-17626051207043964.chn) — `cafebiz` · published: —
-- [Hoàn trả doanh nghiệp hơn 700 triệu đồng tiền ký quỹ phục hồi môi trường](https://vneconomy.vn/hoan-tra-doanh-nghiep-hon-700-trieu-dong-tien-ky-quy-phuc-hoi-moi-truong.htm) — `vneconomy` · published: 2026-05-12 01:45 UTC
-- [Hoàn trả doanh nghiệp hơn 700 triệu đồng tiền ký quỹ phục hồi môi trường](https://vneconomy.vn/hoan-tra-doanh-nghiep-hon-700-trieu-dong-tien-ky-quy-phuc-hoi-moi-truong.htm) — `vneconomy_techconnect` · published: 2026-05-12 01:45 UTC
-- [US geothermal developer Fervo Energy targets $1.8b IPO](https://www.techinasia.com/news/geothermal-developer-fervo-energy-targets-182b-ipo) — `techinasia` · published: 2026-05-12 01:04 UTC
-- [Chủ đầu tư dự án Nhà tang lễ quận Thanh Xuân: Không lưu trữ tro cốt ở 2 tòa tháp 13 tầng](https://cafef.vn/chu-dau-tu-du-an-nha-tang-le-quan-thanh-xuan-khong-luu-tru-tro-cot-o-2-toa-thap-13-tang-188260512074848757.chn) — `cafef_doanhnghiep` · published: 2026-05-12 01:01 UTC
-- [Đổi mới nhưng giữ bản sắc, Phúc Long đạt lợi nhuận kỷ lục quý 1](https://cafef.vn/doi-moi-nhung-giu-ban-sac-phuc-long-dat-loi-nhuan-ky-luc-quy-1-188260512075943778.chn) — `cafef_doanhnghiep` · published: 2026-05-12 01:00 UTC
-- [Vì sao Nobu Danang lọt tầm ngắm của các nhà đầu tư miền Bắc?](https://vneconomy.vn/vi-sao-nobu-danang-lot-tam-ngam-cua-cac-nha-dau-tu-mien-bac.htm) — `vneconomy` · published: 2026-05-12 01:00 UTC
-- [Vì sao Nobu Danang lọt tầm ngắm của các nhà đầu tư miền Bắc?](https://vneconomy.vn/vi-sao-nobu-danang-lot-tam-ngam-cua-cac-nha-dau-tu-mien-bac.htm) — `vneconomy_techconnect` · published: 2026-05-12 01:00 UTC
-- [Thông tin mới tại mỏ sắt lớn nhất Đông Nam Á, bỏ hoang 10 năm ở Hà Tĩnh](https://cafef.vn/thong-tin-moi-tai-mo-sat-lon-nhat-dong-nam-a-bo-hoang-10-nam-o-ha-tinh-188260512075212376.chn) — `cafef_doanhnghiep` · published: 2026-05-12 00:52 UTC
-- [Cắt 1.000 tỷ tiền thù lao đại lý, hãng bảo hiểm Nhật chuyển 3.700 tỷ về công ty mẹ](https://cafef.vn/cat-1000-ty-tien-thu-lao-dai-ly-hang-bao-hiem-nhat-chuyen-3700-ty-ve-cong-ty-me-188260512073631617.chn) — `cafef_doanhnghiep` · published: 2026-05-12 00:36 UTC
-- [Tập đoàn của các tỉ phú Việt Nam kiếm bao nhiêu tiền mỗi ngày, ngành nào lãi đậm?](https://tuoitre.vn/tap-doan-cua-cac-ti-phu-viet-nam-kiem-bao-nhieu-tien-moi-ngay-nganh-nao-lai-dam-20260512062812834.htm) — `tuoitre_kinhdoanh` · published: 2026-05-12 00:32 UTC
-- [Chứng khoán 12-5: Vì sao nhiều doanh nghiệp lãi lớn nhưng cổ phiếu chưa hút dòng tiền?](https://tuoitre.vn/chung-khoan-12-5-vi-sao-nhieu-doanh-nghiep-lai-lon-nhung-co-phieu-chua-hut-dong-tien-20260512070704211.htm) — `tuoitre_kinhdoanh` · published: 2026-05-12 00:30 UTC
-- [Xuất khẩu sang Anh: Chuyển từ tư duy bán hàng sang đầu tư xây dựng thị trường](https://vneconomy.vn/xuat-khau-sang-anh-chuyen-tu-tu-duy-ban-hang-sang-dau-tu-xay-dung-thi-truong.htm) — `vneconomy` · published: 2026-05-12 00:01 UTC
-- [Xuất khẩu sang Anh: Chuyển từ tư duy bán hàng sang đầu tư xây dựng thị trường](https://vneconomy.vn/xuat-khau-sang-anh-chuyen-tu-tu-duy-ban-hang-sang-dau-tu-xay-dung-thi-truong.htm) — `vneconomy_techconnect` · published: 2026-05-12 00:01 UTC
-- [Stock market concentration - a feature, not a bug - Reuters](https://news.google.com/rss/articles/CBMisAFBVV95cUxPMld2eFQzS0JvWndnRzlRdzhpc3FwXzQxUTVPam9TVV82bDdlQjE2ZzFXT2xLUGQteldTN0ptVmJLSnhMM2xza0FUWmF4RE1qNHpEU1FJVDZ1QmtoTUNnVzhNd21CNHFudUUyVEp4NzNndk10azJLakRXQi1GVndWRW8tcE9LTTJGV1c0ZVNWWDZrWk9LaFc5d1BuMmM5X0x3MVJGU1RVNnYyM2lJby1Deg?oc=5) — `reuters_tech` · published: 2026-05-11 23:30 UTC
-- [Những căn nhà xa hoa vắng bóng người ở New York và tranh cãi đánh thuế nhà thứ hai](https://tuoitre.vn/nhung-can-nha-xa-hoa-vang-bong-nguoi-o-new-york-va-tranh-cai-danh-thue-nha-thu-hai-20260511225515246.htm) — `tuoitre_kinhdoanh` · published: 2026-05-11 23:26 UTC
-- [Yarbo says it will remove the intentional backdoor from its robot lawn mower](https://www.theverge.com/tech/928289/yarbo-remove-robot-lawn-mower-backdoor) — `theverge` · published: 2026-05-11 22:40 UTC
-- [Pakistan court ruling clears path for TRG founder's return, raises governance concerns - Reuters](https://news.google.com/rss/articles/CBMi0AFBVV95cUxNVGxxQ2VvaUdmTmVZa1dBTlRINWo1LS1tTl9fUU9DNEJMczM3Q2NNNmxmUEtsaU50U0FQU0FaQ0VuVS1ZajRzaFl6YnI2WEI5cDQ3ZW00M21qRTE5VFVITE5Ca05obU41N3pZYzBIeC1rUURZeXg2TGN4NUlTaHVvTExTZGdnMkFSbjhla2VwaW5sX0p1VmYwUzVWaGVuUzdoMXFTS3RKbmNaS2Z2Qk9IZ3hLajcyNk1xOE1xR1ZrOEJ5dm9WSDZiUUswOE5qSkw3?oc=5) — `reuters_tech` · published: 2026-05-11 17:57 UTC
-- [Daniel Ek-backed defense tech Helsing to raise $1.2B at $18B valuation](https://techcrunch.com/2026/05/11/daniel-ek-backed-defense-tech-helsing-to-raise-1-2b-at-18b-valuation/) — `techcrunch` · published: 2026-05-11 17:38 UTC
-- [‘Too early’ to talk IPO, Redwood Materials’ incoming CFO says](https://techcrunch.com/2026/05/11/too-early-to-talk-ipo-for-redwood-materials-incoming-cfo-says/) — `techcrunch` · published: 2026-05-11 16:00 UTC
-- [VN-Index mất mốc 1900 điểm, nhà đầu tư cẩn trọng trước điều chỉnh](https://vneconomy.vn/vn-index-mat-moc-1900-diem-nha-dau-tu-can-trong-truoc-dieu-chinh.htm) — `vneconomy` · published: 2026-05-11 15:26 UTC
-- [VN-Index mất mốc 1900 điểm, nhà đầu tư cẩn trọng trước điều chỉnh](https://vneconomy.vn/vn-index-mat-moc-1900-diem-nha-dau-tu-can-trong-truoc-dieu-chinh.htm) — `vneconomy_techconnect` · published: 2026-05-11 15:26 UTC
-- ['Cá voi' Bitcoin trị giá 40 triệu USD thức giấc](https://vnexpress.net/ca-voi-bitcoin-tri-gia-40-trieu-usd-thuc-giac-5072749.html) — `vnexpress_kinhdoanh` · published: 2026-05-11 14:19 UTC
-- [Fervo Energy Boosts IPO Target to $1.8 Billion](https://www.bloomberg.com/news/articles/2026-05-11/bill-gates-backed-fervo-energy-boosts-ipo-target-to-1-8-billion) — `bloomberg_tech` · published: 2026-05-11 13:05 UTC
-- [Loại trừ nhóm Vingroup, định giá thị trường ngày càng rẻ hơn](https://vneconomy.vn/loai-tru-nhom-vingroup-dinh-gia-thi-truong-ngay-cang-re-hon.htm) — `vneconomy` · published: 2026-05-11 12:49 UTC
-- [Loại trừ nhóm Vingroup, định giá thị trường ngày càng rẻ hơn](https://vneconomy.vn/loai-tru-nhom-vingroup-dinh-gia-thi-truong-ngay-cang-re-hon.htm) — `vneconomy_techconnect` · published: 2026-05-11 12:49 UTC
-- [Cá nhân tiếp tục mua ròng mạnh khi VN-Index rớt khỏi mốc 1.900 điểm](https://vneconomy.vn/ca-nhan-tiep-tuc-mua-rong-manh-khi-vn-index-rot-khoi-moc-1900-diem.htm) — `vneconomy` · published: 2026-05-11 12:46 UTC
-- [Cá nhân tiếp tục mua ròng mạnh khi VN-Index rớt khỏi mốc 1.900 điểm](https://vneconomy.vn/ca-nhan-tiep-tuc-mua-rong-manh-khi-vn-index-rot-khoi-moc-1900-diem.htm) — `vneconomy_techconnect` · published: 2026-05-11 12:46 UTC
-- [Điện Biên: Đột phá thể chế, “hợp lực” khơi thông cực tăng trưởng Tây Bắc](https://vneconomy.vn/dien-bien-dot-pha-the-che-hop-luc-khoi-thong-cuc-tang-truong-tay-bac.htm) — `vneconomy` · published: 2026-05-11 12:13 UTC
-- [Điện Biên: Đột phá thể chế, “hợp lực” khơi thông cực tăng trưởng Tây Bắc](https://vneconomy.vn/dien-bien-dot-pha-the-che-hop-luc-khoi-thong-cuc-tang-truong-tay-bac.htm) — `vneconomy_techconnect` · published: 2026-05-11 12:13 UTC
-- [HSBC lifts S&P 500 year-end target on earnings optimism - Reuters](https://news.google.com/rss/articles/CBMinAFBVV95cUxQZVc2MERiVVZURGNHYzVfRGVackF4OEVzdGdQbmdPelMzZ0xQcFFOb3FxUzlYRWJpRVNvMjBIVHJiOVR1SktfcFhFaVYxMnhCOWZaNW1nVloySGFtZHJtZHFWS2NQdEF1YlI0TWZWSTZJYnR0alFYVlFUY3VtdUZUNnpXTW9pem5ZOU15cjF2RFhENFRHWGNOU0tFLXY?oc=5) — `reuters_tech` · published: 2026-05-11 10:36 UTC
-- [Ambani's Jio Platforms IPO pivots to pure fundraising, no investor exits, sources say - Reuters](https://news.google.com/rss/articles/CBMiygFBVV95cUxOZ2xiRFJfMGVLbU5yTXpHZUU3MTg5X0FEajNlVEpZaC10NmV3cVNkX3h0NGFTUjFJWmpyM0hIbzd3ZDJyTDluWVhVUUdZMlROalgyYWFCTGIyZlpEbWFvZnZIN2FxeXcxaEY3RjNJbEhXRE1kTGd0NW5QNmN5UC1zY0VSRFRjemNMbjRYZS1mVUhmMGs5NmpUSXZKdWdHNmJmR2VQYVJoR052MEdNUXdZc2oyZEE1d2oySnhlTThMelFjYkxsN2VDbWZ3?oc=5) — `reuters_tech` · published: 2026-05-11 10:17 UTC
-- [Nhiều người làm Affiliate bị truy thuế vì mắc lỗi này](https://cafef.vn/nhieu-nguoi-lam-affiliate-bi-truy-thue-vi-mac-loi-nay-188260511161117582.chn) — `cafef_kinhteso` · published: 2026-05-11 10:05 UTC
-- [Hà Nội có thêm 51.000m² mặt bằng bán lẻ mới, cuộc đua hút khách thuê nóng lên ngoài trung tâm](https://tuoitre.vn/ha-noi-co-them-51-000m-mat-bang-ban-le-moi-cuoc-dua-hut-khach-thue-nong-len-ngoai-trung-tam-2026051116410038.htm) — `tuoitre_kinhdoanh` · published: 2026-05-11 10:00 UTC
-- [Điện mặt trời dạng cắm đang tăng trưởng mạnh, bùng nổ ở nhiều quốc gia](https://vneconomy.vn/dien-mat-troi-dang-cam-dang-tang-truong-manh-bung-no-o-nhieu-quoc-gia.htm) — `vneconomy` · published: 2026-05-11 09:54 UTC
-- [Điện mặt trời dạng cắm đang tăng trưởng mạnh, bùng nổ ở nhiều quốc gia](https://vneconomy.vn/dien-mat-troi-dang-cam-dang-tang-truong-manh-bung-no-o-nhieu-quoc-gia.htm) — `vneconomy_techconnect` · published: 2026-05-11 09:54 UTC
-- [Chiến tranh Vùng Vịnh khiến thị trường năng lượng biến đổi sâu sắc và lâu dài](https://vneconomy.vn/chien-tranh-vung-vinh-khien-thi-truong-nang-luong-bien-doi-sau-sac-va-lau-dai.htm) — `vneconomy` · published: 2026-05-11 09:50 UTC
-- [Chiến tranh Vùng Vịnh khiến thị trường năng lượng biến đổi sâu sắc và lâu dài](https://vneconomy.vn/chien-tranh-vung-vinh-khien-thi-truong-nang-luong-bien-doi-sau-sac-va-lau-dai.htm) — `vneconomy_techconnect` · published: 2026-05-11 09:50 UTC
-- [Hải Phòng đặt mục tiêu tăng trưởng GRDP 13 - 14% giai đoạn 2026 - 2030](https://vneconomy.vn/hai-phong-dat-muc-tieu-tang-truong-grdp-13-14-giai-doan-2026-2030.htm) — `vneconomy` · published: 2026-05-11 09:46 UTC
-- … and 371 more (see Sheet/xlsx)
+- [Vì sao VinFast ra giá 530 triệu USD khi chuyển nhượng mảng sản xuất xe tại Việt Nam?](https://cafef.vn/vi-sao-vinfast-ra-gia-530-trieu-usd-khi-chuyen-nhuong-mang-san-xuat-xe-tai-viet-nam-188260514001327032.chn) — `cafef_doanhnghiep` · published: 2026-05-13 17:13 UTC
+- [VinFast sẽ tách mảng sản xuất tại Việt Nam](https://vnexpress.net/vinfast-se-tach-mang-san-xuat-tai-viet-nam-5073349.html) — `vnexpress_kinhdoanh` · published: 2026-05-13 03:46 UTC
+- [Mẫu xe tay ga giá hơn 50 triệu đồng gây tranh cãi, có ngoại hình giống Honda Square X125 đang bán với giá gần 100 triệu đồng tại Việt Nam](https://genk.vn/mau-xe-tay-ga-gia-hon-50-trieu-dong-gay-tranh-cai-co-ngoai-hinh-giong-honda-square-x125-dang-ban-voi-gia-gan-100-trieu-dong-tai-viet-nam-165260513114016018.chn) — `genk` · published: —
+- [Tận dụng công nghệ của thế kỷ 19, hacker lừa được hơn 4 tỷ đồng của AI thông minh top đầu thế giới](https://cafef.vn/tan-dung-cong-nghe-cua-the-ky-19-hacker-lua-duoc-hon-4-ty-dong-cua-ai-thong-minh-top-dau-the-gioi-188260513135358902.chn) — `cafef_kinhteso` · published: 2026-05-13 07:50 UTC
+- [Sốc: Tỷ phú Jensen Huang khuyên sinh viên nên đi làm thợ xây, thợ điện để đổi đời trong kỷ nguyên AI](https://cafef.vn/soc-ty-phu-jensen-huang-khuyen-sinh-vien-nen-di-lam-tho-xay-tho-dien-de-doi-doi-trong-ky-nguyen-ai-188260512151218496.chn) — `cafef_kinhteso` · published: 2026-05-12 09:30 UTC
+- [Tận dụng công nghệ của thế kỷ 19, hacker lừa được hơn 4 tỷ đồng của AI thông minh top đầu thế giới](https://genk.vn/tan-dung-cong-nghe-cua-the-ky-19-hacker-lua-duoc-hon-4-ty-dong-cua-ai-thong-minh-top-dau-the-gioi-16526051313194434.chn) — `genk` · published: —
+- [Hòa Phát khởi công KCN đầu tiên tại Hải Phòng, quy mô 245ha, tổng vốn đầu tư gần 3.400 tỷ đồng](https://cafef.vn/hoa-phat-khoi-cong-kcn-dau-tien-tai-hai-phong-quy-mo-245ha-tong-von-dau-tu-gan-3400-ty-dong-188260514110527194.chn) — `cafef_doanhnghiep` · published: 2026-05-14 04:05 UTC
+- [China’s startup funding, as explained in charts](https://www.techinasia.com/visual-story/capital-china-chinas-funding-landscape) — `techinasia` · published: 2026-05-14 04:00 UTC
+- [Xây dựng Nghị quyết mới về bảo vệ môi trường đáp ứng yêu cầu phát triển mới](https://vneconomy.vn/xay-dung-nghi-quyet-moi-ve-bao-ve-moi-truong-dap-ung-yeu-cau-phat-trien-moi.htm) — `vneconomy` · published: 2026-05-14 03:25 UTC
+- [Xây dựng Nghị quyết mới về bảo vệ môi trường đáp ứng yêu cầu phát triển mới](https://vneconomy.vn/xay-dung-nghi-quyet-moi-ve-bao-ve-moi-truong-dap-ung-yeu-cau-phat-trien-moi.htm) — `vneconomy_techconnect` · published: 2026-05-14 03:25 UTC
+- [Bất động sản thương hiệu góp phần nâng cao vị thế đô thị đẳng cấp của TP. Hồ Chí Minh](https://vneconomy.vn/bat-dong-san-thuong-hieu-gop-phan-nang-cao-vi-the-do-thi-dang-cap-cua-tp-ho-chi-minh.htm) — `vneconomy` · published: 2026-05-14 03:22 UTC
+- [Bất động sản thương hiệu góp phần nâng cao vị thế đô thị đẳng cấp của TP. Hồ Chí Minh](https://vneconomy.vn/bat-dong-san-thuong-hieu-gop-phan-nang-cao-vi-the-do-thi-dang-cap-cua-tp-ho-chi-minh.htm) — `vneconomy_techconnect` · published: 2026-05-14 03:22 UTC
+- [Singapore ứng phó rủi ro khí hậu trong thế giới bị ràng buộc bởi carbon](https://vneconomy.vn/singapore-ung-pho-rui-ro-khi-hau-trong-the-gioi-bi-rang-buoc-boi-carbon.htm) — `vneconomy` · published: 2026-05-14 03:18 UTC
+- [Singapore ứng phó rủi ro khí hậu trong thế giới bị ràng buộc bởi carbon](https://vneconomy.vn/singapore-ung-pho-rui-ro-khi-hau-trong-the-gioi-bi-rang-buoc-boi-carbon.htm) — `vneconomy_techconnect` · published: 2026-05-14 03:18 UTC
+- [TP. Hồ Chí Minh khẩn trương tháo gỡ vướng mắc cho hơn 800 dự án](https://vneconomy.vn/tp-ho-chi-minh-khan-truong-thao-go-vuong-mac-cho-hon-800-du-an.htm) — `vneconomy` · published: 2026-05-14 03:14 UTC
+- [TP. Hồ Chí Minh khẩn trương tháo gỡ vướng mắc cho hơn 800 dự án](https://vneconomy.vn/tp-ho-chi-minh-khan-truong-thao-go-vuong-mac-cho-hon-800-du-an.htm) — `vneconomy_techconnect` · published: 2026-05-14 03:14 UTC
+- [Windows 11 &acirc;m thầm l&agrave;m chậm m&aacute;y t&iacute;nh ra sao v&agrave; c&aacute;ch xử l&yacute; triệt để](https://thanhnien.vn/windows-11-am-tham-lam-cham-may-tinh-ra-sao-va-cach-xu-ly-triet-de-185260512135744936.htm) — `thanhnien_congnghe` · published: 2026-05-14 02:33 UTC
+- [Bộ Tài chính “điểm mặt” 14 đơn vị trung ương giải ngân ì ạch](https://vneconomy.vn/bo-tai-chinh-diem-mat-14-don-vi-trung-uong-giai-ngan-i-ach.htm) — `vneconomy` · published: 2026-05-14 02:09 UTC
+- [Bộ Tài chính “điểm mặt” 14 đơn vị trung ương giải ngân ì ạch](https://vneconomy.vn/bo-tai-chinh-diem-mat-14-don-vi-trung-uong-giai-ngan-i-ach.htm) — `vneconomy_techconnect` · published: 2026-05-14 02:09 UTC
+- [Mapping the players sweeping Korea’s cleantech space](https://www.techinasia.com/visual-story/mapping-koreas-notable-cleantech-players) — `techinasia` · published: 2026-05-14 02:00 UTC
+- [Cựu vương ngành thép vẫn tiếp tục chìm trong thua lỗ, vốn chủ sở hữu âm 800 tỷ đồng](https://cafef.vn/cuu-vuong-nganh-thep-van-tiep-tuc-chim-trong-thua-lo-von-chu-so-huu-am-800-ty-dong-188260514081506928.chn) — `cafef_doanhnghiep` · published: 2026-05-14 01:14 UTC
+- [Dấu ấn thu hút FDI](https://vneconomy.vn/dau-an-thu-hut-fdi-1292056.htm) — `vneconomy` · published: 2026-05-14 01:00 UTC
+- [Vị thế chiến lược của khu đô thị Bắc Sài Gòn trong quy hoạch hạ tầng logistics liên vùng](https://vneconomy.vn/vi-the-chien-luoc-cua-khu-do-thi-bac-sai-gon-trong-quy-hoach-ha-tang-logistics-lien-vung.htm) — `vneconomy` · published: 2026-05-14 01:00 UTC
+- [Bắc Ninh chuyển mình mạnh mẽ trên bản đồ đô thị phía Bắc](https://vneconomy.vn/bac-ninh-chuyen-minh-manh-me-tren-ban-do-do-thi-phia-bac.htm) — `vneconomy` · published: 2026-05-14 01:00 UTC
+- [Cùng Hong Leong định vị tương lai và nâng tầm trọng tâm kinh tế khu vực](https://vneconomy.vn/cung-hong-leong-dinh-vi-tuong-lai-va-nang-tam-trong-tam-kinh-te-khu-vuc.htm) — `vneconomy` · published: 2026-05-14 01:00 UTC
+- [Vị thế chiến lược của khu đô thị Bắc Sài Gòn trong quy hoạch hạ tầng logistics liên vùng](https://vneconomy.vn/vi-the-chien-luoc-cua-khu-do-thi-bac-sai-gon-trong-quy-hoach-ha-tang-logistics-lien-vung.htm) — `vneconomy_techconnect` · published: 2026-05-14 01:00 UTC
+- [Bắc Ninh chuyển mình mạnh mẽ trên bản đồ đô thị phía Bắc](https://vneconomy.vn/bac-ninh-chuyen-minh-manh-me-tren-ban-do-do-thi-phia-bac.htm) — `vneconomy_techconnect` · published: 2026-05-14 01:00 UTC
+- [Cùng Hong Leong định vị tương lai và nâng tầm trọng tâm kinh tế khu vực](https://vneconomy.vn/cung-hong-leong-dinh-vi-tuong-lai-va-nang-tam-trong-tam-kinh-te-khu-vuc.htm) — `vneconomy_techconnect` · published: 2026-05-14 01:00 UTC
+- [Dấu ấn thu hút FDI](https://vneconomy.vn/dau-an-thu-hut-fdi-1292056.htm) — `vneconomy_techconnect` · published: 2026-05-14 01:00 UTC
+- [AI không giúp doanh nghiệp “hoạt động hiệu quả nhất” theo cách… cắt giảm nhân sự](https://vneconomy.vn/ai-khong-giup-doanh-nghiep-hoat-dong-hieu-qua-nhat-theo-cach-cat-giam-nhan-su.htm) — `vneconomy` · published: 2026-05-14 00:35 UTC
+- [AI không giúp doanh nghiệp “hoạt động hiệu quả nhất” theo cách… cắt giảm nhân sự](https://vneconomy.vn/ai-khong-giup-doanh-nghiep-hoat-dong-hieu-qua-nhat-theo-cach-cat-giam-nhan-su.htm) — `vneconomy_techconnect` · published: 2026-05-14 00:35 UTC
+- [6 tỷ người sẽ theo dõi “cuộc đua marketing” World Cup 2026](https://vneconomy.vn/6-ty-nguoi-se-theo-doi-cuoc-dua-marketing-world-cup-2026.htm) — `vneconomy` · published: 2026-05-14 00:34 UTC
+- [6 tỷ người sẽ theo dõi “cuộc đua marketing” World Cup 2026](https://vneconomy.vn/6-ty-nguoi-se-theo-doi-cuoc-dua-marketing-world-cup-2026.htm) — `vneconomy_techconnect` · published: 2026-05-14 00:34 UTC
+- [X launches a History tab for bookmarks, likes, videos, and articles](https://techcrunch.com/2026/05/13/x-launches-a-history-tab-for-bookmarks-likes-videos-and-articles/) — `techcrunch` · published: 2026-05-13 17:16 UTC
+- [Cú hích tái cấu trúc kinh tế toàn cầu từ xung đột Trung Đông](https://vnexpress.net/cu-hich-tai-cau-truc-kinh-te-toan-cau-tu-xung-dot-trung-dong-5073241.html) — `vnexpress_kinhdoanh` · published: 2026-05-13 17:05 UTC
+- [Rivian spinoff Mind Robotics raises another $400M](https://techcrunch.com/2026/05/13/rivian-spinoff-mind-robotics-raises-another-400m/) — `techcrunch` · published: 2026-05-13 16:34 UTC
+- [Rivian spinout Mind Robotics valued at $3.4 billion in new funding round - Reuters](https://news.google.com/rss/articles/CBMivAFBVV95cUxPRkRvQzY0dnFtZ3Roa1pySkRmNF95R3hrZjhNWExROTZqT2o3b1l1alhCeVVvY3FOalI4eTNKWEhIQlk2a016VFJDRVlmRVcwNVdKTm94SE9TYXF6UzRRNUtqdWd2Y2c0eFZza0VqMVV4dnR0R3RwcWlMWWcxUXdXVEVlTlRzUmVTaFRBOV96YTFFVzNCeU9PVnlFclpYX0djNHFvMFZHRTJUU09YY25ET2NlYjNSSkVIdG8xSg?oc=5) — `reuters_tech` · published: 2026-05-13 15:55 UTC
+- [VinFast nói về kế hoạch tái cấu trúc: Giảm áp lực nợ, kỳ vọng năm 2027 có lãi](https://tuoitre.vn/vinfast-noi-ve-ke-hoach-tai-cau-truc-giam-ap-luc-no-ky-vong-nam-2027-co-lai-20260513205858671.htm) — `tuoitre_kinhdoanh` · published: 2026-05-13 14:49 UTC
+- [Anduril raises $5B, doubles valuation to $61B](https://techcrunch.com/2026/05/13/anduril-raises-5b-doubles-valuation-to-61b/) — `techcrunch` · published: 2026-05-13 14:44 UTC
+- [r/WallStreetBets really hates the SEC’s proposal to weaken quarterly reporting](https://techcrunch.com/2026/05/13/r-wallstreetbets-really-hates-the-secs-proposal-to-weaken-quarterly-reporting/) — `techcrunch` · published: 2026-05-13 14:42 UTC
+- [[Phóng sự ảnh]: Lễ công bố và Vinh danh các doanh nghiệp FDI tiêu biểu 2025 - 2026 nhận giải thưởng Rồng Vàng 2026](https://vneconomy.vn/phong-su-anh-le-cong-bo-va-vinh-danh-cac-doanh-nghiep-fdi-tieu-bieu-2025-2026-nhan-giai-thuong-rong-vang-2026.htm) — `vneconomy` · published: 2026-05-13 14:30 UTC
+- [[Phóng sự ảnh]: Lễ công bố và Vinh danh các doanh nghiệp FDI tiêu biểu 2025 - 2026 nhận giải thưởng Rồng Vàng 2026](https://vneconomy.vn/phong-su-anh-le-cong-bo-va-vinh-danh-cac-doanh-nghiep-fdi-tieu-bieu-2025-2026-nhan-giai-thuong-rong-vang-2026.htm) — `vneconomy_techconnect` · published: 2026-05-13 14:30 UTC
+- [Thị trường vẫn đang tìm điểm cân bằng mới và giao dịch khá lỏng lẻo](https://vneconomy.vn/thi-truong-van-dang-tim-diem-can-bang-moi-va-giao-dich-kha-long-leo.htm) — `vneconomy` · published: 2026-05-13 14:24 UTC
+- [Thị trường vẫn đang tìm điểm cân bằng mới và giao dịch khá lỏng lẻo](https://vneconomy.vn/thi-truong-van-dang-tim-diem-can-bang-moi-va-giao-dich-kha-long-leo.htm) — `vneconomy_techconnect` · published: 2026-05-13 14:24 UTC
+- [Doanh nghiệp Trung Quốc thâu tóm 'ông lớn' thuốc kháng sinh Việt: Nhìn lại nhiều thương vụ khác](https://tuoitre.vn/doanh-nghiep-trung-quoc-thau-tom-ong-lon-thuoc-khang-sinh-viet-nhin-lai-nhieu-thuong-vu-khac-20260513184334597.htm) — `tuoitre_kinhdoanh` · published: 2026-05-13 14:08 UTC
+- [Introducing the 6 stages at TechCrunch Disrupt 2026 — built for today’s tougher startup market](https://techcrunch.com/2026/05/13/introducing-the-6-stages-of-techcrunch-disrupt-2026-built-for-todays-tougher-startup-market/) — `techcrunch` · published: 2026-05-13 14:00 UTC
+- [Dự án đình đám ở tứ giác Bến Thành có diễn biến mới](https://cafef.vn/du-an-dinh-dam-o-tu-giac-ben-thanh-co-dien-bien-moi-188260513205028771.chn) — `cafef_doanhnghiep` · published: 2026-05-13 13:50 UTC
+- [Quỹ Đầu tư Bản Việt Discovery hoàn tất bán cổ phiếu VCI để cơ cấu danh mục](https://vneconomy.vn/quy-dau-tu-ban-viet-discovery-hoan-tat-ban-co-phieu-vci-de-co-cau-danh-muc.htm) — `vneconomy` · published: 2026-05-13 12:52 UTC
+- … and 348 more (see Sheet/xlsx)
