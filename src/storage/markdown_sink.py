@@ -13,7 +13,51 @@ def _fmt_dt(dt: datetime | None) -> str:
     return dt.astimezone(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
 
+def _category_bucket(pre_category: str | None) -> str:
+    """Top-level PM bucket from `pre_category` (Category/Subcategory)."""
+    if not pre_category:
+        return "Khác"
+    return pre_category.split("/")[0].strip() or "Khác"
+
+
+# Ordering inside each player section (matches Weekly Market Watch template)
+_PM_CATEGORY_ORDER = [
+    "Strategy",
+    "Product",
+    "Feature",
+    "Partnership",
+    "Marketing",   # vouchers / khuyến mãi
+    "CSR/ Community",
+    "Khác",
+]
+
+
+def _render_article(a: RawArticle, lines: list[str]) -> None:
+    score = getattr(a, "_relevance_score", 0)
+    themes = getattr(a, "_matched_themes", "") or ""
+    signal = getattr(a, "_business_signal", "") or ""
+    lines.append(f"- **[{a.title_original}]({a.url})**")
+    meta_parts = [
+        f"relevance: `{score}`",
+        f"category: `{a.pre_category or '—'}`",
+        f"scope: `{a.scope.value}`",
+        f"published: {_fmt_dt(a.published_date)}",
+    ]
+    if a.player:
+        meta_parts.insert(2, f"player: `{a.player}`")
+    lines.append("  - " + " · ".join(meta_parts))
+    if themes:
+        lines.append(f"  - themes: {themes}")
+    if signal:
+        lines.append(f"  - signal: {signal}")
+    if a.content_snippet:
+        snippet = a.content_snippet.replace("\n", " ").strip()
+        lines.append(f"  - {snippet}")
+    lines.append("")
+
+
 def _render_section(title: str, items: list[RawArticle], lines: list[str]) -> None:
+    """Generic group-by-source rendering (used for Market Pulse)."""
     if not items:
         return
     lines.append(f"## {title} ({len(items)})")
@@ -25,27 +69,52 @@ def _render_section(title: str, items: list[RawArticle], lines: list[str]) -> No
         lines.append(f"### {src} ({len(group)})")
         lines.append("")
         for a in group:
-            score = getattr(a, "_relevance_score", 0)
-            themes = getattr(a, "_matched_themes", "") or ""
-            signal = getattr(a, "_business_signal", "") or ""
-            lines.append(f"- **[{a.title_original}]({a.url})**")
-            meta_parts = [
-                f"relevance: `{score}`",
-                f"category: `{a.pre_category or '—'}`",
-                f"scope: `{a.scope.value}`",
-                f"published: {_fmt_dt(a.published_date)}",
-            ]
-            if a.player:
-                meta_parts.insert(2, f"player: `{a.player}`")
-            lines.append("  - " + " · ".join(meta_parts))
-            if themes:
-                lines.append(f"  - themes: {themes}")
-            if signal:
-                lines.append(f"  - signal: {signal}")
-            if a.content_snippet:
-                snippet = a.content_snippet.replace("\n", " ").strip()
-                lines.append(f"  - {snippet}")
+            _render_article(a, lines)
+
+
+def _render_pm_grouped(items: list[RawArticle], lines: list[str]) -> None:
+    """Players Movement — group by player → then by category.
+
+    Matches the Weekly Market Watch template structure:
+        ## Players Movement (N)
+        ### MoMo (X)
+            Marketing — Voucher / Khuyến mãi (12)
+              - ...
+            Product (2)
+            Partnership (3)
+        ### Zalo (Y)
+            ...
+    """
+    if not items:
+        return
+    lines.append(f"## Players Movement ({len(items)})")
+    lines.append("")
+
+    by_player: dict[str, list[RawArticle]] = {}
+    for a in items:
+        by_player.setdefault(a.player or "Không xác định", []).append(a)
+
+    for player, group in sorted(by_player.items()):
+        lines.append(f"### {player} ({len(group)})")
+        lines.append("")
+
+        # Bucket by top-level category
+        by_cat: dict[str, list[RawArticle]] = {}
+        for a in group:
+            by_cat.setdefault(_category_bucket(a.pre_category), []).append(a)
+
+        # Render in template order
+        ordered_keys = (
+            [k for k in _PM_CATEGORY_ORDER if k in by_cat]
+            + [k for k in by_cat if k not in _PM_CATEGORY_ORDER]
+        )
+        for cat in ordered_keys:
+            cat_items = by_cat[cat]
+            cat_label = "Marketing — Voucher / Khuyến mãi" if cat == "Marketing" else cat
+            lines.append(f"#### {cat_label} ({len(cat_items)})")
             lines.append("")
+            for a in cat_items:
+                _render_article(a, lines)
 
 
 def render_markdown(articles: Iterable[RawArticle]) -> str:
@@ -90,7 +159,7 @@ def render_markdown(articles: Iterable[RawArticle]) -> str:
         lines.append("")
 
     _render_section("Market Pulse", market_pulse, lines)
-    _render_section("Players Movement", players_movement, lines)
+    _render_pm_grouped(players_movement, lines)
 
     if dropped:
         lines.append("---")
