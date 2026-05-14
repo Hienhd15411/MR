@@ -145,6 +145,46 @@ def render_markdown(articles: Iterable[RawArticle]) -> str:
     lines.append(f"- Filtered out (no category match): **{len(dropped)}**")
     lines.append("")
 
+    # ---- Summary by relevance score band ----
+    bands = [
+        ("🔥 Must-read", 10, 999, "Tracked player + Tier-A theme + signal"),
+        ("✅ Strong",     7,  9,   "Tracked player or multi-theme match"),
+        ("🟢 Moderate",   4,  6,   "Single theme + signal"),
+        ("🟡 Context",    1,  3,   "Adjacent player / weak signal"),
+        ("⚪ Noise",      0,  0,   "No theme/signal — borderline keep"),
+    ]
+    band_buckets: dict[str, tuple[int, list[RawArticle]]] = {
+        name: (0, []) for name, *_ in bands
+    }
+    for a in kept:
+        score = getattr(a, "_relevance_score", 0)
+        for name, lo, hi, _ in bands:
+            if lo <= score <= hi:
+                cnt, items = band_buckets[name]
+                band_buckets[name] = (cnt + 1, items + [a])
+                break
+
+    lines.append("## Summary by relevance score")
+    lines.append("")
+    lines.append("| Band | Score range | Count | Meaning |")
+    lines.append("|---|---:|---:|---|")
+    for name, lo, hi, meaning in bands:
+        cnt = band_buckets[name][0]
+        rng = f"{lo}-{hi}" if hi != 999 else f"{lo}+"
+        lines.append(f"| {name} | `{rng}` | {cnt} | {meaning} |")
+    lines.append("")
+
+    # ---- Top 10 highest-relevance preview ----
+    top10 = sorted(kept, key=lambda a: -getattr(a, "_relevance_score", 0))[:10]
+    if top10:
+        lines.append("## Top 10 highest relevance")
+        lines.append("")
+        for i, a in enumerate(top10, 1):
+            score = getattr(a, "_relevance_score", 0)
+            player_tag = f" · *{a.player}*" if a.player else ""
+            lines.append(f"{i}. `[{score}]` **{a.title_original}**{player_tag}")
+        lines.append("")
+
     # Per-category summary for kept articles
     cat_counts: dict[str, int] = {}
     for a in kept:
