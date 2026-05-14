@@ -1,6 +1,6 @@
 # Market Watch — raw_data preview
 
-- Generated: **2026-05-14 04:33 UTC**
+- Generated: **2026-05-14 04:37 UTC**
 - Crawled: **820**
 - Kept: **423** (Market Pulse: 329 · Players Movement: 94)
 - Filtered out (no category match): **397**
@@ -1693,67 +1693,39 @@
 
 ## Players Movement (94)
 
-### cafebiz (3)
+### AliPay (1)
 
-- **[Dư nợ cho vay 10 tỷ USD: Con số gây choáng trong báo cáo tài chính của công ty mẹ Shopee, hé lộ 'cỗ máy tín dụng' đang nuôi cuộc chiến với TikTok Shop](https://cafebiz.vn/du-no-cho-vay-10-ty-usd-con-so-gay-choang-trong-bao-cao-tai-chinh-cua-cong-ty-me-shopee-he-lo-co-may-tin-dung-dang-nuoi-cuoc-chien-voi-tiktok-shop-176260514090628662.chn)**
-  - relevance: `11` · category: `—` · player: `Shopee` · scope: `domestic` · published: —
-  - themes: super_app_commerce
+#### Khác (1)
+
+- **[Ant Group Q4 profit falls 79% as AI spending rises](https://www.techinasia.com/news/ant-group-q4-profit-falls-79-ai-spending-rises)**
+  - relevance: `6` · category: `—` · player: `AliPay` · scope: `international` · published: 2026-05-14 00:37 UTC
   - signal: Performance
-  - Tổng giá trị hàng hóa giao dịch (GMV) của Shopee tăng 30% so với cùng kỳ, trong khi EBITDA điều chỉnh của mảng này lại giảm 9%.
+  - The drop came as Ant stepped up spending on AI for healthcare, large language models, and payments after its profit fell 91% in the previous quarter.
 
-- **[Chi phí giảm 30%, doanh thu tăng 47%: "Vũ khí" AI đã giúp tập đoàn mẹ của Shopee hốt bạc 7 tỷ USD như thế nào?](https://cafebiz.vn/chi-phi-giam-30-doanh-thu-tang-47-vu-khi-ai-da-giup-tap-doan-me-cua-shopee-hot-bac-7-ty-usd-nhu-the-nao-176260514101254903.chn)**
-  - relevance: `6` · category: `Marketing` · player: `Shopee` · scope: `domestic` · published: —
-  - signal: Performance
-  - Sự kết hợp giữa khả năng nhắm mục tiêu chính xác của AI và nội dung chất lượng đã giúp tỷ lệ người bán chấp nhận trả tiền quảng cáo tăng 35% so với năm ngoái.
+### Grab (26)
 
-- **[Rúng động: Phòng chat tội phạm tình dục Telegram xuyên quốc gia mang bí danh "dầu", "nhiên liệu", "xe sang", đứng đầu bởi nhóm tri thức cao](https://cafebiz.vn/rung-dong-phong-chat-toi-pham-tinh-duc-telegram-xuyen-quoc-gia-mang-bi-danh-dau-nhien-lieu-xe-sang-dung-dau-boi-nhom-tri-thuc-cao-176260514095247162.chn)**
-  - relevance: `5` · category: `—` · player: `Telegram` · scope: `domestic` · published: —
-  - Một sinh viên người Trung Quốc vừa bị tòa án Đức kết tội đánh thuốc mê và cưỡng hiếp một phụ nữ ở Munich (thủ phủ bang Bayern) trong nhiều tháng. Đáng chú ý, bị cáo là thành viên của một nhóm chat Telegram, nơi đàn ông chia sẻ hình ảnh về tội ác của họ.
+#### Product (2)
 
-### cafef_kinhteso (2)
-
-- **[Thử nghiệm "GrabCar Thú Cưng" ở Hà Nội](https://cafef.vn/thu-nghiem-grabcar-thu-cung-o-ha-noi-18826051310460722.chn)**
-  - relevance: `6` · category: `—` · player: `Grab` · scope: `domestic` · published: 2026-05-13 03:45 UTC
+- **[Hãy trở thành những người dùng đầu tiên trải nghiệm Vay Siêu Tốc trên Grab](https://www.grab.com/vn/blog/vaysieutoc/)**
+  - relevance: `6` · category: `Product/Product launch` · player: `Grab` · scope: `domestic` · published: —
   - signal: Launch
-  - Sau thời gian thử nghiệm tại TP.HCM, Grab Việt Nam đã triển khai thử nghiệm dịch vụ GrabCar Thú Cưng tại Hà Nội.
+  - Thứ Tư Tháng Ba 18th, 2026 Hãy trở thành những người dùng đầu tiên trải nghiệm Vay Siêu Tốc trên Grab TRẢI NGHIỆM NGAY Cần “ting ting”, có Vay Siêu Tốc trên Grab Trải nghiệm giải pháp tài chính mới ra mắt trên Grab , với lãi suất tối ưu dành riêng cho người dùng Grab , giúp bạn chủ động xoay sở các tình huống chỉ trong tích tắc. Công ty TNHH GFIN Việt Nam ( GFIN ) – Công ty thuộc hệ sinh thái của Grab – xin giới thiệu chương trình Vay Siêu Tốc được cung cấp và chịu trách nhiệm bởi Công ty Tài ch
 
-- **[Tổng giám đốc MoMo: AI đang khiến lừa đảo trở nên nhanh hơn, rẻ hơn, tinh vi hơn](https://cafef.vn/tong-giam-doc-momo-ai-dang-khien-lua-dao-tro-nen-nhanh-hon-re-hon-tinh-vi-hon-188260512134529972.chn)**
-  - relevance: `5` · category: `—` · player: `MoMo` · scope: `domestic` · published: 2026-05-12 06:46 UTC
-  - Ông Nguyễn Mạnh Tường, Đồng chủ tịch MoMo cho biết mỗi giao dịch trên nền tảng của MoMo được xử lý trong 100-300 mili giây, nhanh hơn một cái chớp mắt nhưng cuộc chiến với tội phạm mạng vẫn rất cam go.
+- **[Đặc quyền người dùng GrabVIP](https://www.grab.com/vn/blog/dac-quyen-grabvip/)**
+  - relevance: `5` · category: `Product/Off product` · player: `Grab` · scope: `domestic` · published: —
+  - Thứ Ba Tháng Tư 7th, 2026 Đặc quyền người dùng GrabVIP Khám phá Đặc quyền GrabVIP từ các đối tác của Grab Chương trình GrabVIP là gì? GrabVIP là chương trình mang đến các đặc quyền dành riêng cho người dùng VIP khi sử dụng dịch vụ Grab. Các đặc quyền cơ bản của người dùng GrabVIP Đặc quyền GrabVIP từ các đối tác Đặc quyền từ đối tác chỉ dành cho người dùng VIP. Xem thêm ở bên dưới. Ride Cover Basic Chọn tham gia để nhân ngay voucher khi bị đón trễ và bảo hiểm tai nạn cho 10 chuyến xe vào quý này
 
-### dantri_ai (1)
+#### Feature (4)
 
-- **[Đề nghị Zalo, Meta bảo vệ người dùng trước nguy cơ lừa đảo bằng AI](https://dantri.com.vn/cong-nghe/de-nghi-zalo-meta-bao-ve-nguoi-dung-truoc-nguy-co-lua-dao-bang-ai-20260512150646414.htm)**
-  - relevance: `5` · category: `—` · player: `Zalo` · scope: `domestic` · published: 2026-05-13 07:15 UTC
-  - (Dân trí) - Ủy ban Cạnh tranh Quốc gia đã có văn bản đề nghị các nền tảng số tăng cường bảo vệ quyền lợi người tiêu dùng trước nguy cơ lừa đảo bằng trí tuệ nhân tạo.
+- **[Thông tin mới nhất](https://www.grab.com/vn/blog/driver/)**
+  - relevance: `6` · category: `Feature` · player: `Grab` · scope: `domestic` · published: —
+  - signal: Launch
+  - Driver Blog Grab | Ghé Quán Tốt Bụng, thêm chút mát lòng 💚 Bike Driver Blog, Car Driver Blog, Driver Blog, Express Driver Blog Quý Đối tác thân mến, Mùa nắng nóng đang vào cao điểm, nhưng những cuốc xe vẫn đều đặn lăn bánh mỗi ngày. Sau mỗi chuyến đi an toàn, mỗi đơn hàng được giao đún [..] Read More GrabExpress | Triển khai thử nghiệm tính năng “Thông báo cơ hội nhận cuốc” Bike Driver Blog, Driver Blog, Express Driver Blog Quý Đối tác thân mến, Để giúp Đối tác có cơ hội nhận nhiều cuốc xe – gia
 
-### grab_merchant_vn (8)
-
-- **[GFIN x VIETCREDIT | Chương trình hoàn tiền 01 tháng lãi vay khi đăng ký vay qua thương hiệu Tin Vay](https://merchant.grab.com/vn-vn/blog/gfin-vc-hoan01thanglaivay)**
-  - relevance: `10` · category: `Marketing` · player: `Grab` · scope: `domestic` · published: —
-  - themes: mobility_food_economics
-  - signal: Campaign_Marketing
-  - Quý Đối tác thân mến, Công ty TNHH GFIN Việt Nam (“GFIN”) mang đến cho các Đối tác Tài xế, Đối tác Thương nhân chương trình Hoàn tiền lãi 01 tháng cho các khoản vay tín chấp với thương hiệu TIN VAY của VietCredit (“TIN VAY”). TIN VAY hoàn tiền lãi trung bình 01 tháng trực tiếp vào khoản vay: Giá trị ưu đãi sẽ được TIN VAY cấn trừ trực tiếp vào khoản vay của Đối tác trong vòng 15 (mười lăm) ngày làm việc kể từ ngày đến hạn thanh toán kỳ đầu tiên. Cụ thể như sau: Hình thức thực hiện: Khoản tiền ho
-
-- **[GrabMart | Bí kíp tăng trưởng doanh thu sầu riêng](https://merchant.grab.com/vn-vn/blog/grabmart-bikiptangtruongdoanhthu-saurieng)**
-  - relevance: `6` · category: `—` · player: `Grab` · scope: `domestic` · published: —
-  - signal: Performance
-  - Quý Đối tác Thương nhân ơi, Mùa hè gõ cửa - cũng là lúc sầu riêng vào mùa, thơm lừng và cực kỳ hút khách . Nhu cầu tìm kiếm “sầu riêng” dự kiến tăng nhanh trên Grabmart. Đây chính là thời điểm vàng để Đối tác bứt phá doanh thu ! 🔥 Nắm bắt thời điểm vàng– lên kệ ngay hôm nay để đón đầu nhu cầu Người dùng! Đối tác cũng có thể linh động bán theo trọng lượng sản phẩm để cung cấp mức giá phù hợp hơn với người dùng. 👉 Tham khảo hướng dẫn “Bán theo trọng lượng sản phẩm” . Nếu Đối tác có thắc mắc hoặc c
-
-- **[GrabMart | Đảm việc nhà - Giỏi kinh doanh nhờ nắm bắt xu hướng bán hàng qua ứng dụng](https://merchant.grab.com/vn-vn/blog/traicaysachanvatvoduyninh)**
-  - relevance: `6` · category: `—` · player: `Grab` · scope: `domestic` · published: —
-  - signal: Performance
-  - Hơn 21 năm gắn bó với nghề kinh doanh mỹ phẩm theo mô hình truyền thống, chị Ngọc Diệp đã trải qua những ngày thử thách và biến động bởi đại dịch Covid-19. Từ việc phải tạm đóng cửa hàng mỹ phẩm và trăn trở giải quyết bài toán xoay vốn, hiện tại chị Diệp đã sở hữu cửa hàng online hoạt động ổn định, với doanh thu đủ để chị tự mình nuôi hai con học đại học, đồng thời chu toàn cả việc nội trợ trong gia đình. Việc chuyển đổi mô hình kinh doanh truyền thống sang hình thức online vào thời điểm đại dịc
-
-- **[GrabMart | Các chương trình ưu đãi dành cho ngành hàng trái cây tươi mùa hè 2026](https://merchant.grab.com/vn-vn/blog/traicay2026)**
-  - relevance: `6` · category: `Marketing` · player: `Grab` · scope: `domestic` · published: —
-  - signal: Performance
-  - Quý Đối tác GrabMart thân mến, 🥑🥑 Mùa hè đến, trái cây chín rộ! Nhằm đồng hành và hỗ trợ Đối tác gia tăng cơ hội doanh thu trong mùa trái cây, GrabMart triển khai 02 chương trình mang đến các quyền lợi hấp dẫn dành cho Đối tác: Tặng mã freeship và đồng tài trợ ưu đãi giảm giá . Thể lệ các chương trình vô cùng đơn giản: Đối tác chỉ cần đăng tải và/hoặc tạo các ưu đãi cho 08 loại sản phẩm trái cây áp dụng bên dưới. Cùng GrabMart tham khảo thông tin chi tiết và tham gia ngay hôm nay! Giá gốc của 1k
-
-- **[Grab | Giải pháp tăng trưởng Người dùng mới (dành cho dịch vụ Đi Ăn Nhà Hàng)](https://merchant.grab.com/vn-vn/blog/dealhoidonkhachmoi)**
-  - relevance: `6` · category: `Marketing/User acquisition` · player: `Grab` · scope: `domestic` · published: —
-  - signal: Performance
-  - Quý Đối tác thân mến, 🤗 Đối tác mong muốn thu hút thêm nhiều Người dùng mới đến nhà hàng trải nghiệm món ngon ? 🤗 Đối tác đang tìm kiếm chiến dịch marketing với ngân sách tối ưu để tiếp cận Người dùng mới ? Mời Đối tác tham gia chương trình “Deal Hời Đón Khách Mới” - giải pháp giúp thu hút và mở rộng tệp Người dùng mới cho dịch vụ Đi Ăn Nhà Hàng. Thông qua chương trình, Người dùng lần đầu đến dùng bữa tại nhà hàng của Đối tác sẽ nhận được Voucher Nhà Hàng với mức ưu đãi hấp dẫn hơn . (*) Người d
+- **[GRABUNLIMITED – FREESHIP MỌI ĐƠN, ƯU ĐÃI MỌI CHUYẾN XE](https://www.grab.com/vn/blog/he-hoi-vien-grabunlimited/)**
+  - relevance: `6` · category: `Feature` · player: `Grab` · scope: `domestic` · published: —
+  - signal: Product_Feature
+  - Thứ Ba Tháng Tư 7th, 2026 GRABUNLIMITED – FREESHIP MỌI ĐƠN, ƯU ĐÃI MỌI CHUYẾN XE Quyền lợi hội viên GrabUnlimited <Cập nhật từ tháng 4/2026 – dành cho Hệ Hội Viên> Bạn đã tham gia #GrabUnlimited chưa? Lễ này, đi mall cho mát, hay mở tiệc tại gia, hay vi vu xả láng, ví vẫn nhẹ nhàng. GU chơi lễ kiểu gì, GrabUnlimited cũng chiều tất! 👉 👉 👉 Tham gia ngay, hưởng thêm 2 tháng dùng thử miễn phí(*) ngay! Lận lưng gói #GrabUnlimited ✅ Freeship mọi đơn ✅ Ưu đãi mọi chuyến xe , gu lễ nào cũng bao tiết kiệ
 
 - **[Grab | Cập nhật cách tính điểm đánh giá sao Cửa hàng](https://merchant.grab.com/vn-vn/blog/capnhatcachtinhdiemdanhgiasao2026)**
   - relevance: `6` · category: `Feature` · player: `Grab` · scope: `domestic` · published: —
@@ -1764,11 +1736,7 @@
   - relevance: `5` · category: `Feature` · player: `Grab` · scope: `domestic` · published: —
   - Quý Đối tác thân mến, Nhằm giúp Đối tác Nhà hàng chủ động và linh hoạt hơn khi tiếp nhận đơn, giảm tỷ lệ hủy đơn và nâng cao trải nghiệm Người dùng, Grab triển khai tính năng Nhận đơn theo cách thủ công từ ngày 02/02/2026 . Cụ thể, khi có thông báo đơn hàng mới, Đối tác Nhà hàng có thể chủ động thao tác “Chấp nhận” hoặc “Từ chối” tùy theo khả năng phục vụ tại thời điểm nhận đơn. 📍 Phạm vi triển khai: Toàn quốc. 👥 Đối tượng áp dụng: Chỉ áp dụng với các Đối tác Nhà hàng GrabFood thỏa điều kiện áp
 
-- **[Ngày hội Du lịch TP. HCM 2026: Grab vinh danh Quán Trứ Danh - Tôn vinh du lịch ẩm thực thành phố](https://merchant.grab.com/vn-vn/blog/ngayhoidulich2026)**
-  - relevance: `5` · category: `—` · player: `Grab` · scope: `domestic` · published: —
-  - Quý Đối tác thân mến, Ngày 02/4 - 05/4/2026, Grab kết hợp cùng Sở Du lịch TP. Hồ Chí Minh tổ chức Ngày hội Du lịch TP. Hồ Chí Minh 2026 tại Khu B, Công viên 23/9. Mục tiêu chung của sự kiện hướng đến xúc tiến du lịch và văn hóa ẩm thực của thành phố. Riêng với Grab, sự kiện còn là nơi vinh danh các Đối tác Nhà hàng GrabFood đặc sắc tại khu vực - Quán Trứ Danh - sáng kiến của Grab trong việc lan tỏa văn hóa ẩm thực Việt Nam. 👉 NHẤN VÀO ĐÂY ĐỂ XEM VIDEO Tối ngày 05/4/2026, Grab cùng Sở Du lịch TP.
-
-### grab_vn_blog (17)
+#### Marketing — Voucher / Khuyến mãi (12)
 
 - **[Ưu đãi ngân hàng HD Bank](https://www.grab.com/vn/blog/uu-dai-ngan-hang-hd-bank/)**
   - relevance: `11` · category: `Marketing/User acquisition` · player: `Grab` · scope: `domestic` · published: —
@@ -1812,20 +1780,11 @@
   - signal: Campaign_Marketing
   - Grab Blog Ưu đãi ngân hàng HD Bank Passenger Blog Ưu đãi khi sử dụng thẻ HD Bank thanh toán khi đặt Grab Độc lập tự do, ăn no là hạnh phúc. Thanh toán bằng thẻ HDBank trên GrabFood để tiết kiệm đến 135.000đ/thá [..] Read More Ưu đãi ngân hàng TPBank Passenger Blog Ưu đãi khi sử dụng thẻ TPBank JCB Cashback thanh toán khi đặt Grab Chẳng cần “flex” nhiều, chỉ cần thanh toán bằng TPBank khi đặt GrabFood là đủ để [..] Read More Đặc quyền người dùng GrabVIP Passenger Blog Khám phá Đặc quyền GrabVIP t
 
-- **[Thông tin mới nhất](https://www.grab.com/vn/blog/driver/)**
-  - relevance: `6` · category: `Feature` · player: `Grab` · scope: `domestic` · published: —
-  - signal: Launch
-  - Driver Blog Grab | Ghé Quán Tốt Bụng, thêm chút mát lòng 💚 Bike Driver Blog, Car Driver Blog, Driver Blog, Express Driver Blog Quý Đối tác thân mến, Mùa nắng nóng đang vào cao điểm, nhưng những cuốc xe vẫn đều đặn lăn bánh mỗi ngày. Sau mỗi chuyến đi an toàn, mỗi đơn hàng được giao đún [..] Read More GrabExpress | Triển khai thử nghiệm tính năng “Thông báo cơ hội nhận cuốc” Bike Driver Blog, Driver Blog, Express Driver Blog Quý Đối tác thân mến, Để giúp Đối tác có cơ hội nhận nhiều cuốc xe – gia
-
-- **[GRABUNLIMITED – FREESHIP MỌI ĐƠN, ƯU ĐÃI MỌI CHUYẾN XE](https://www.grab.com/vn/blog/he-hoi-vien-grabunlimited/)**
-  - relevance: `6` · category: `Feature` · player: `Grab` · scope: `domestic` · published: —
-  - signal: Product_Feature
-  - Thứ Ba Tháng Tư 7th, 2026 GRABUNLIMITED – FREESHIP MỌI ĐƠN, ƯU ĐÃI MỌI CHUYẾN XE Quyền lợi hội viên GrabUnlimited <Cập nhật từ tháng 4/2026 – dành cho Hệ Hội Viên> Bạn đã tham gia #GrabUnlimited chưa? Lễ này, đi mall cho mát, hay mở tiệc tại gia, hay vi vu xả láng, ví vẫn nhẹ nhàng. GU chơi lễ kiểu gì, GrabUnlimited cũng chiều tất! 👉 👉 👉 Tham gia ngay, hưởng thêm 2 tháng dùng thử miễn phí(*) ngay! Lận lưng gói #GrabUnlimited ✅ Freeship mọi đơn ✅ Ưu đãi mọi chuyến xe , gu lễ nào cũng bao tiết kiệ
-
-- **[Hãy trở thành những người dùng đầu tiên trải nghiệm Vay Siêu Tốc trên Grab](https://www.grab.com/vn/blog/vaysieutoc/)**
-  - relevance: `6` · category: `Product/Product launch` · player: `Grab` · scope: `domestic` · published: —
-  - signal: Launch
-  - Thứ Tư Tháng Ba 18th, 2026 Hãy trở thành những người dùng đầu tiên trải nghiệm Vay Siêu Tốc trên Grab TRẢI NGHIỆM NGAY Cần “ting ting”, có Vay Siêu Tốc trên Grab Trải nghiệm giải pháp tài chính mới ra mắt trên Grab , với lãi suất tối ưu dành riêng cho người dùng Grab , giúp bạn chủ động xoay sở các tình huống chỉ trong tích tắc. Công ty TNHH GFIN Việt Nam ( GFIN ) – Công ty thuộc hệ sinh thái của Grab – xin giới thiệu chương trình Vay Siêu Tốc được cung cấp và chịu trách nhiệm bởi Công ty Tài ch
+- **[GFIN x VIETCREDIT | Chương trình hoàn tiền 01 tháng lãi vay khi đăng ký vay qua thương hiệu Tin Vay](https://merchant.grab.com/vn-vn/blog/gfin-vc-hoan01thanglaivay)**
+  - relevance: `10` · category: `Marketing` · player: `Grab` · scope: `domestic` · published: —
+  - themes: mobility_food_economics
+  - signal: Campaign_Marketing
+  - Quý Đối tác thân mến, Công ty TNHH GFIN Việt Nam (“GFIN”) mang đến cho các Đối tác Tài xế, Đối tác Thương nhân chương trình Hoàn tiền lãi 01 tháng cho các khoản vay tín chấp với thương hiệu TIN VAY của VietCredit (“TIN VAY”). TIN VAY hoàn tiền lãi trung bình 01 tháng trực tiếp vào khoản vay: Giá trị ưu đãi sẽ được TIN VAY cấn trừ trực tiếp vào khoản vay của Đối tác trong vòng 15 (mười lăm) ngày làm việc kể từ ngày đến hạn thanh toán kỳ đầu tiên. Cụ thể như sau: Hình thức thực hiện: Khoản tiền ho
 
 - **[GRABUNLIMITED – MỞ GRAB LUÔN CÓ MÃ ÁP](https://www.grab.com/vn/blog/grabunlimited-mo-grab-luon-co-ma-ap/)**
   - relevance: `6` · category: `Marketing` · player: `Grab` · scope: `domestic` · published: —
@@ -1837,14 +1796,37 @@
   - signal: Launch
   - Thứ Ba Tháng Năm 12th, 2026 THÔNG TIN KHUYẾN MẠI CỦA CHƯƠNG TRÌNH GRABFOOD VẠN DEAL MASTXIMUM GIẢM 50% 🔊 Xin thông báo mùa hè nóng kỷ lục chỉ còn là cái tên: GrabFood giới thiệu biệt đội Mátximum nóng tới đâu cũng có vạn deal món mát nhất – giảm “maximum”! 🧋 Biệt đội mát dịu dàng buitruonglinh mang đến hàng loạt món nước ngọt thanh cùng đá viên mát dịu 🍹 Biệt đội mát rười rượi Sơn.K mang đến hàng loạt món nước từ trái cây, sâm mát giải nhiệt cực mạnh từ trong ra ngoài 🍨 Biệt đội mát tê tái PHÁP
 
+- **[GrabMart | Các chương trình ưu đãi dành cho ngành hàng trái cây tươi mùa hè 2026](https://merchant.grab.com/vn-vn/blog/traicay2026)**
+  - relevance: `6` · category: `Marketing` · player: `Grab` · scope: `domestic` · published: —
+  - signal: Performance
+  - Quý Đối tác GrabMart thân mến, 🥑🥑 Mùa hè đến, trái cây chín rộ! Nhằm đồng hành và hỗ trợ Đối tác gia tăng cơ hội doanh thu trong mùa trái cây, GrabMart triển khai 02 chương trình mang đến các quyền lợi hấp dẫn dành cho Đối tác: Tặng mã freeship và đồng tài trợ ưu đãi giảm giá . Thể lệ các chương trình vô cùng đơn giản: Đối tác chỉ cần đăng tải và/hoặc tạo các ưu đãi cho 08 loại sản phẩm trái cây áp dụng bên dưới. Cùng GrabMart tham khảo thông tin chi tiết và tham gia ngay hôm nay! Giá gốc của 1k
+
+- **[Grab | Giải pháp tăng trưởng Người dùng mới (dành cho dịch vụ Đi Ăn Nhà Hàng)](https://merchant.grab.com/vn-vn/blog/dealhoidonkhachmoi)**
+  - relevance: `6` · category: `Marketing/User acquisition` · player: `Grab` · scope: `domestic` · published: —
+  - signal: Performance
+  - Quý Đối tác thân mến, 🤗 Đối tác mong muốn thu hút thêm nhiều Người dùng mới đến nhà hàng trải nghiệm món ngon ? 🤗 Đối tác đang tìm kiếm chiến dịch marketing với ngân sách tối ưu để tiếp cận Người dùng mới ? Mời Đối tác tham gia chương trình “Deal Hời Đón Khách Mới” - giải pháp giúp thu hút và mở rộng tệp Người dùng mới cho dịch vụ Đi Ăn Nhà Hàng. Thông qua chương trình, Người dùng lần đầu đến dùng bữa tại nhà hàng của Đối tác sẽ nhận được Voucher Nhà Hàng với mức ưu đãi hấp dẫn hơn . (*) Người d
+
+#### Khác (8)
+
+- **[Thử nghiệm "GrabCar Thú Cưng" ở Hà Nội](https://cafef.vn/thu-nghiem-grabcar-thu-cung-o-ha-noi-18826051310460722.chn)**
+  - relevance: `6` · category: `—` · player: `Grab` · scope: `domestic` · published: 2026-05-13 03:45 UTC
+  - signal: Launch
+  - Sau thời gian thử nghiệm tại TP.HCM, Grab Việt Nam đã triển khai thử nghiệm dịch vụ GrabCar Thú Cưng tại Hà Nội.
+
 - **[CÔNG BỐ KẾT QUẢ THỬ THÁCH “ĐƯỜNG ĐUA GIA NHẬP HỘI CHỦ SHOP” CÙNG GRABEXPRESS](https://www.grab.com/vn/blog/cong-bo-ket-qua-thu-thach-duong-dua-gia-nhap-hoi-chu-shop-cung-grabexpress/)**
   - relevance: `6` · category: `—` · player: `Grab` · scope: `domestic` · published: —
   - signal: Launch
   - Thứ Tư Tháng Năm 6th, 2026 CÔNG BỐ KẾT QUẢ THỬ THÁCH “ĐƯỜNG ĐUA GIA NHẬP HỘI CHỦ SHOP” CÙNG GRABEXPRESS Thông tin Thử thách “Đường Đua Gia Nhập Hội Chủ Shop” đã công bố trên Blog chính thức của Grab: https://www.grab.com/vn/blog/thu-thach-duong-dua-gia-nhap-hoi-chu-shop-cung-grabexpress/ Thử thách “Đường đua gia nhập Hội Chủ Shop” cùng GrabExpress đã chính thức khép lại với những con số ấn tượng. Grab xin gửi lời cảm ơn chân thành đến tất cả các “tay đua” đã tham gia. Dựa trên thể lệ chương trìn
 
-- **[Đặc quyền người dùng GrabVIP](https://www.grab.com/vn/blog/dac-quyen-grabvip/)**
-  - relevance: `5` · category: `Product/Off product` · player: `Grab` · scope: `domestic` · published: —
-  - Thứ Ba Tháng Tư 7th, 2026 Đặc quyền người dùng GrabVIP Khám phá Đặc quyền GrabVIP từ các đối tác của Grab Chương trình GrabVIP là gì? GrabVIP là chương trình mang đến các đặc quyền dành riêng cho người dùng VIP khi sử dụng dịch vụ Grab. Các đặc quyền cơ bản của người dùng GrabVIP Đặc quyền GrabVIP từ các đối tác Đặc quyền từ đối tác chỉ dành cho người dùng VIP. Xem thêm ở bên dưới. Ride Cover Basic Chọn tham gia để nhân ngay voucher khi bị đón trễ và bảo hiểm tai nạn cho 10 chuyến xe vào quý này
+- **[GrabMart | Bí kíp tăng trưởng doanh thu sầu riêng](https://merchant.grab.com/vn-vn/blog/grabmart-bikiptangtruongdoanhthu-saurieng)**
+  - relevance: `6` · category: `—` · player: `Grab` · scope: `domestic` · published: —
+  - signal: Performance
+  - Quý Đối tác Thương nhân ơi, Mùa hè gõ cửa - cũng là lúc sầu riêng vào mùa, thơm lừng và cực kỳ hút khách . Nhu cầu tìm kiếm “sầu riêng” dự kiến tăng nhanh trên Grabmart. Đây chính là thời điểm vàng để Đối tác bứt phá doanh thu ! 🔥 Nắm bắt thời điểm vàng– lên kệ ngay hôm nay để đón đầu nhu cầu Người dùng! Đối tác cũng có thể linh động bán theo trọng lượng sản phẩm để cung cấp mức giá phù hợp hơn với người dùng. 👉 Tham khảo hướng dẫn “Bán theo trọng lượng sản phẩm” . Nếu Đối tác có thắc mắc hoặc c
+
+- **[GrabMart | Đảm việc nhà - Giỏi kinh doanh nhờ nắm bắt xu hướng bán hàng qua ứng dụng](https://merchant.grab.com/vn-vn/blog/traicaysachanvatvoduyninh)**
+  - relevance: `6` · category: `—` · player: `Grab` · scope: `domestic` · published: —
+  - signal: Performance
+  - Hơn 21 năm gắn bó với nghề kinh doanh mỹ phẩm theo mô hình truyền thống, chị Ngọc Diệp đã trải qua những ngày thử thách và biến động bởi đại dịch Covid-19. Từ việc phải tạm đóng cửa hàng mỹ phẩm và trăn trở giải quyết bài toán xoay vốn, hiện tại chị Diệp đã sở hữu cửa hàng online hoạt động ổn định, với doanh thu đủ để chị tự mình nuôi hai con học đại học, đồng thời chu toàn cả việc nội trợ trong gia đình. Việc chuyển đổi mô hình kinh doanh truyền thống sang hình thức online vào thời điểm đại dịc
 
 - **[Thông báo triển khai dịch vụ GrabCar Plus, GrabBike Plus tại một số tỉnh thành](https://www.grab.com/vn/blog/thong-bao-trien-khai-dich-vu-grabcar-plus-grabbike-plus-tai-mot-so-tinh-thanh/)**
   - relevance: `5` · category: `—` · player: `Grab` · scope: `domestic` · published: —
@@ -1858,13 +1840,13 @@
   - relevance: `5` · category: `—` · player: `Grab` · scope: `domestic` · published: —
   - Thứ Năm Tháng Năm 7th, 2026 🚀 THAM GIA THỬ THÁCH “BẢN ĐỒ BUNG SỨC MÙA THI CÙNG GRAB” CÙNG GRAB SINH VIÊN🎁 Các bạn sinh viên ơi! Grab chính thức khởi động Thử thách “Bản đồ bung sức mùa thi cùng Grab” với nhiều phần quà vô cùng hấp dẫn trong tháng 05 tới đây. Hãy cùng Grab khám phá thể lệ chi tiết của Thử thách này nhé! 🏁 THÔNG TIN TỔNG QUAN VỀ THỬ THÁCH Tên chương trình: “Bản đồ bung sức mùa thi cùng Grab” – Grab thêm thời gian, bung sức cùng Exam🎁 Thời gian: Từ 00:00 ngày 12/05/2026 đến 23:59 n
 
-### momo_newsroom (5)
+- **[Ngày hội Du lịch TP. HCM 2026: Grab vinh danh Quán Trứ Danh - Tôn vinh du lịch ẩm thực thành phố](https://merchant.grab.com/vn-vn/blog/ngayhoidulich2026)**
+  - relevance: `5` · category: `—` · player: `Grab` · scope: `domestic` · published: —
+  - Quý Đối tác thân mến, Ngày 02/4 - 05/4/2026, Grab kết hợp cùng Sở Du lịch TP. Hồ Chí Minh tổ chức Ngày hội Du lịch TP. Hồ Chí Minh 2026 tại Khu B, Công viên 23/9. Mục tiêu chung của sự kiện hướng đến xúc tiến du lịch và văn hóa ẩm thực của thành phố. Riêng với Grab, sự kiện còn là nơi vinh danh các Đối tác Nhà hàng GrabFood đặc sắc tại khu vực - Quán Trứ Danh - sáng kiến của Grab trong việc lan tỏa văn hóa ẩm thực Việt Nam. 👉 NHẤN VÀO ĐÂY ĐỂ XEM VIDEO Tối ngày 05/4/2026, Grab cùng Sở Du lịch TP.
 
-- **[Tham gia Vòng Sống Khỏe nhận quà có trị giá đến 3.990.000đ](https://momo.vn/tin-tuc/tin-tuc-su-kien/tham-gia-vong-song-khoe-nhan-qua-co-tri-gia-den-8707)**
-  - relevance: `11` · category: `—` · player: `MoMo` · scope: `domestic` · published: —
-  - themes: payment_wallet_war
-  - signal: Regulation
-  - Tham gia Vòng Sống Khỏe nhận quà có trị giá đến 3.990.000đ Sự Kiện · hôm qua Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Làm nhiệm vụ đơn giản, nhận lượt quay và trúng quà có giá trị cao tại Vòng Sống Khỏe. Xem chi tiết ngay! Thời gian áp dụng: Từ 18/05/2026 đến hết ngày 30/09/2026. Đối tượng tham gia: Tất cả các khách hàng sử dụng Ứng dụng MoMo; Khách hàng không thực hiện xác thực tài khoản, định danh tài khoản ví điện tử trên Ứng Dụng MoMo theo quy định của Công Ty và/hoặc khôn
+### MoMo (6)
+
+#### Marketing — Voucher / Khuyến mãi (3)
 
 - **[Bạn mới nhập mã CHONMOMO: Có quà 500.000đ giảm nhiều dịch vụ, thêm tiền thưởng đến 1 triệu](https://momo.vn/tin-tuc/khuyen-mai/ban-moi-nhap-ma-chonmomo-co-qua-500000d-giam-8225)**
   - relevance: `10` · category: `Marketing` · player: `MoMo` · scope: `domestic` · published: —
@@ -1884,17 +1866,31 @@
   - signal: Campaign_Marketing
   - Miễn phí 1.000 ly trà sữa khi đặt vé Vietnam Airlines trên MoMo Khuyến mãi · 21 giờ trước Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Lần đầu tiên, trà sữa trên không xuất hiện trên MoMo. Từ nay việc vi vu không chỉ là di chuyển, mà là một bữa tiệc trà sữa đúng nghĩa ngay trên máy bay. Cùng khám phá ngay! Cảm giác nhâm nhi ly trà sữa thơm béo, dai giòn topping ngay giữa biển mây bồng bềnh thật sự là một trải nghiệm "chill" khó tả. Những mệt mỏi của chuyến bay như tan biến, nhường
 
+#### Khác (3)
+
+- **[Tham gia Vòng Sống Khỏe nhận quà có trị giá đến 3.990.000đ](https://momo.vn/tin-tuc/tin-tuc-su-kien/tham-gia-vong-song-khoe-nhan-qua-co-tri-gia-den-8707)**
+  - relevance: `11` · category: `—` · player: `MoMo` · scope: `domestic` · published: —
+  - themes: payment_wallet_war
+  - signal: Regulation
+  - Tham gia Vòng Sống Khỏe nhận quà có trị giá đến 3.990.000đ Sự Kiện · hôm qua Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Làm nhiệm vụ đơn giản, nhận lượt quay và trúng quà có giá trị cao tại Vòng Sống Khỏe. Xem chi tiết ngay! Thời gian áp dụng: Từ 18/05/2026 đến hết ngày 30/09/2026. Đối tượng tham gia: Tất cả các khách hàng sử dụng Ứng dụng MoMo; Khách hàng không thực hiện xác thực tài khoản, định danh tài khoản ví điện tử trên Ứng Dụng MoMo theo quy định của Công Ty và/hoặc khôn
+
+- **[Tổng giám đốc MoMo: AI đang khiến lừa đảo trở nên nhanh hơn, rẻ hơn, tinh vi hơn](https://cafef.vn/tong-giam-doc-momo-ai-dang-khien-lua-dao-tro-nen-nhanh-hon-re-hon-tinh-vi-hon-188260512134529972.chn)**
+  - relevance: `5` · category: `—` · player: `MoMo` · scope: `domestic` · published: 2026-05-12 06:46 UTC
+  - Ông Nguyễn Mạnh Tường, Đồng chủ tịch MoMo cho biết mỗi giao dịch trên nền tảng của MoMo được xử lý trong 100-300 mili giây, nhanh hơn một cái chớp mắt nhưng cuộc chiến với tội phạm mạng vẫn rất cam go.
+
 - **[Mỗi lần thanh toán hoá đơn, thêm mầm xanh được tích luỹ](https://momo.vn/tin-tuc/thong-bao/moi-lan-thanh-toan-hoa-don-them-mam-xanh-duoc-8709)**
   - relevance: `5` · category: `—` · player: `MoMo` · scope: `domestic` · published: —
   - Mỗi lần thanh toán hoá đơn, thêm mầm xanh được tích luỹ Thông báo · hôm qua Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Thay vì chỉ là những giao dịch thanh toán thông thường, giờ đây với Green Hub - Góp hóa đơn trồng rừng trên MoMo, mỗi hóa đơn bạn chi trả đều mang lại giá trị đóng góp thiết thực cho môi trường. Mỗi hoá đơn chi trả, một mầm xanh được tích luỹ Thanh toán hóa đơn giờ đây không còn đơn thuần là khoản chi trả cho nhu cầu sinh hoạt cá nhân, mà chính là hành động vì m
 
-### reuters_tech (1)
+### Shopee (17)
 
-- **[Meta seeks to avoid EU fine with free WhatsApp access for rival AI chatbots - Reuters](https://news.google.com/rss/articles/CBMizAFBVV95cUxOYm5qekpIZ3VjRVQwQ2x6eTRnWmdDZTJOUTVYbkxaQklrRzdFRjYtRjRHU1JLV0Mxb1JLcDlsZFo5Y2E5STF5aFFRMkpseThURm5UUGhTUUZBajU2U3c2dnNXSEVEUXFBRzVxQzlyQUNRd1pUX2ROVmxNekZjUDNWWnhiemYwMmF4emoxa3hoR2Jzd3VNYlhpSGFLQ0o5dlUtYUR4LUI1LUtYVFByUFV3YUUxYXI2VHQ2MmlaaXFsSzRtTDU0R2N0dEdWa3g?oc=5)**
-  - relevance: `5` · category: `—` · player: `WhatsApp` · scope: `international` · published: 2026-05-12 20:35 UTC
-  - Meta seeks to avoid EU fine with free WhatsApp access for rival AI chatbots Reuters
+#### Product (1)
 
-### shopee_seller_blog (15)
+- **[[QUAN TRỌNG] Thông báo phát hành Chứng từ khấu trừ thuế 2025 đối với hoạt động kinh doanh trên Shopee](https://banhang.shopee.vn/edu/article/27358)**
+  - relevance: `6` · category: `Product/Product launch` · player: `Shopee` · scope: `domestic` · published: —
+  - signal: Launch
+
+#### Feature (7)
 
 - **[[QUAN TRỌNG] CẬP NHẬT VỀ PHÍ DÀNH CHO NGƯỜI BÁN KHÔNG THUỘC SHOPEE MALL TỪ NGÀY 01/05/2026](https://banhang.shopee.vn/edu/article/27451)**
   - relevance: `11` · category: `Feature` · player: `Shopee` · scope: `domestic` · published: —
@@ -1906,21 +1902,9 @@
   - themes: super_app_commerce
   - signal: Product_Feature
 
-- **[TỔNG HỢP CÁC MỨC PHÍ DÀNH CHO NGƯỜI BÁN THUỘC SHOPEE MALL](https://banhang.shopee.vn/edu/article/21087)**
-  - relevance: `10` · category: `—` · player: `Shopee` · scope: `domestic` · published: —
-  - themes: super_app_commerce
-
-- **[Tỷ lệ sản phẩm bật kênh Hỏa Tốc đối với Shopee Mall/Shop Yêu Thích+](https://banhang.shopee.vn/edu/article/27364)**
-  - relevance: `10` · category: `—` · player: `Shopee` · scope: `domestic` · published: —
-  - themes: super_app_commerce
-
 - **[Cập nhật mức thuế suất GTGT áp dụng trên các loại phí của Shopee Việt Nam từ tháng 05/2025 đến hết tháng 12/2026](https://banhang.shopee.vn/edu/article/25329)**
   - relevance: `6` · category: `Feature` · player: `Shopee` · scope: `domestic` · published: —
   - signal: Product_Feature
-
-- **[[QUAN TRỌNG] Thông báo phát hành Chứng từ khấu trừ thuế 2025 đối với hoạt động kinh doanh trên Shopee](https://banhang.shopee.vn/edu/article/27358)**
-  - relevance: `6` · category: `Product/Product launch` · player: `Shopee` · scope: `domestic` · published: —
-  - signal: Launch
 
 - **[[QUAN TRỌNG] Cập nhật địa chỉ theo đơn vị hành chính mới](https://banhang.shopee.vn/edu/article/26981)**
   - relevance: `6` · category: `Feature` · player: `Shopee` · scope: `domestic` · published: —
@@ -1937,6 +1921,29 @@
 - **[Tính năng phân bổ đơn vị vận chuyển tự động cho Người bán trên Shopee](https://banhang.shopee.vn/edu/article/17468)**
   - relevance: `5` · category: `Feature` · player: `Shopee` · scope: `domestic` · published: —
 
+#### Marketing — Voucher / Khuyến mãi (1)
+
+- **[Chi phí giảm 30%, doanh thu tăng 47%: "Vũ khí" AI đã giúp tập đoàn mẹ của Shopee hốt bạc 7 tỷ USD như thế nào?](https://cafebiz.vn/chi-phi-giam-30-doanh-thu-tang-47-vu-khi-ai-da-giup-tap-doan-me-cua-shopee-hot-bac-7-ty-usd-nhu-the-nao-176260514101254903.chn)**
+  - relevance: `6` · category: `Marketing` · player: `Shopee` · scope: `domestic` · published: —
+  - signal: Performance
+  - Sự kết hợp giữa khả năng nhắm mục tiêu chính xác của AI và nội dung chất lượng đã giúp tỷ lệ người bán chấp nhận trả tiền quảng cáo tăng 35% so với năm ngoái.
+
+#### Khác (8)
+
+- **[Dư nợ cho vay 10 tỷ USD: Con số gây choáng trong báo cáo tài chính của công ty mẹ Shopee, hé lộ 'cỗ máy tín dụng' đang nuôi cuộc chiến với TikTok Shop](https://cafebiz.vn/du-no-cho-vay-10-ty-usd-con-so-gay-choang-trong-bao-cao-tai-chinh-cua-cong-ty-me-shopee-he-lo-co-may-tin-dung-dang-nuoi-cuoc-chien-voi-tiktok-shop-176260514090628662.chn)**
+  - relevance: `11` · category: `—` · player: `Shopee` · scope: `domestic` · published: —
+  - themes: super_app_commerce
+  - signal: Performance
+  - Tổng giá trị hàng hóa giao dịch (GMV) của Shopee tăng 30% so với cùng kỳ, trong khi EBITDA điều chỉnh của mảng này lại giảm 9%.
+
+- **[TỔNG HỢP CÁC MỨC PHÍ DÀNH CHO NGƯỜI BÁN THUỘC SHOPEE MALL](https://banhang.shopee.vn/edu/article/21087)**
+  - relevance: `10` · category: `—` · player: `Shopee` · scope: `domestic` · published: —
+  - themes: super_app_commerce
+
+- **[Tỷ lệ sản phẩm bật kênh Hỏa Tốc đối với Shopee Mall/Shop Yêu Thích+](https://banhang.shopee.vn/edu/article/27364)**
+  - relevance: `10` · category: `—` · player: `Shopee` · scope: `domestic` · published: —
+  - themes: super_app_commerce
+
 - **[[04/05 - 10/05] ĐIỂM TIN BÁN HÀNG TRÊN SHOPEE TUẦN QUA CÓ GÌ MỚI !](https://banhang.shopee.vn/edu/article/20471)**
   - relevance: `5` · category: `—` · player: `Shopee` · scope: `domestic` · published: —
 
@@ -1952,25 +1959,9 @@
 - **[BẢN TIN TẾT ÂM LỊCH 2026](https://banhang.shopee.vn/edu/article/26800)**
   - relevance: `5` · category: `—` · player: `Shopee` · scope: `domestic` · published: —
 
-### techcrunch (1)
+### Telegram (20)
 
-- **[WhatsApp adds an incognito mode in Meta AI chats](https://techcrunch.com/2026/05/13/whatsapp-adds-an-incognito-mode-in-meta-ai-chats/)**
-  - relevance: `13` · category: `—` · player: `WhatsApp` · scope: `international` · published: 2026-05-13 14:00 UTC
-  - themes: big_tech_in_finance_commerce, ai_infra_general
-  - Meta said these incognito conversations are not saved, and messages will disappear by default once you close the chat.
-
-### techinasia (2)
-
-- **[Ant Group Q4 profit falls 79% as AI spending rises](https://www.techinasia.com/news/ant-group-q4-profit-falls-79-ai-spending-rises)**
-  - relevance: `6` · category: `—` · player: `AliPay` · scope: `international` · published: 2026-05-14 00:37 UTC
-  - signal: Performance
-  - The drop came as Ant stepped up spending on AI for healthcare, large language models, and payments after its profit fell 91% in the previous quarter.
-
-- **[Meta offers rival AI chatbots free WhatsApp access to avoid EU fine](https://www.techinasia.com/news/meta-offers-rival-ai-chatbots-free-whatsapp-access-avoid-eu-fine)**
-  - relevance: `5` · category: `—` · player: `WhatsApp` · scope: `international` · published: 2026-05-13 04:19 UTC
-  - The move is part of the company’s effort to settle an EU antitrust probe that could otherwise result in a fine.
-
-### telegram_blog (19)
+#### Feature (19)
 
 - **[Guest AI Bots, Bot-to-Bot Chats, Chat Automation, Custom AI Styles, 100M+ Emoji & Sticker Search and Much More](https://telegram.org/blog/ai-bot-revolution-11-new-features)**
   - relevance: `6` · category: `Feature` · player: `Telegram` · scope: `international` · published: —
@@ -2067,18 +2058,21 @@
   - signal: Launch
   - Today we launch the largest update in the history of mini apps. They get a full-screen mode, subscription plans, home screen shortcuts, sending gifts, sharing media, creating documents, access to geolocation, motion tracker, setting emoji statuses — and more. Mini apps are now able to use the entire screen in portrait or landscape orientation — allowing apps to host more game genres with expanded gestures and interfaces. Mini apps are able to receive information about the motion of your device t
 
-### whatsapp_blog (10)
+#### Khác (1)
+
+- **[Rúng động: Phòng chat tội phạm tình dục Telegram xuyên quốc gia mang bí danh "dầu", "nhiên liệu", "xe sang", đứng đầu bởi nhóm tri thức cao](https://cafebiz.vn/rung-dong-phong-chat-toi-pham-tinh-duc-telegram-xuyen-quoc-gia-mang-bi-danh-dau-nhien-lieu-xe-sang-dung-dau-boi-nhom-tri-thuc-cao-176260514095247162.chn)**
+  - relevance: `5` · category: `—` · player: `Telegram` · scope: `domestic` · published: —
+  - Một sinh viên người Trung Quốc vừa bị tòa án Đức kết tội đánh thuốc mê và cưỡng hiếp một phụ nữ ở Munich (thủ phủ bang Bayern) trong nhiều tháng. Đáng chú ý, bị cáo là thành viên của một nhóm chat Telegram, nơi đàn ông chia sẻ hình ảnh về tội ác của họ.
+
+### WhatsApp (13)
+
+#### Feature (5)
 
 - **[New Feature Roundup: Missed call messages, new Status stickers and more!](https://blog.whatsapp.com/new-feature-roundup-missed-call-messages-new-status-stickers-and-more)**
   - relevance: `14` · category: `Feature` · player: `WhatsApp` · scope: `international` · published: —
   - themes: big_tech_in_finance_commerce, ai_infra_general
   - signal: Product_Feature
   - We’re introducing another bundle of features just in time for the holidays. This edition is packed with exciting new updates including missed call messages, fun Status stickers, improved Meta AI image generation, and more - making it easier than ever to connect with those who matter most. Missed call messages : The holidays are a busy time packed with catching up with loved ones and sometimes you may not catch someone right away. If they don’t answer, you can now record a voice or video note , d
-
-- **[Introducing Incognito Chat with Meta AI: A completely private way to chat with AI](https://blog.whatsapp.com/introducing-incognito-chat-with-meta-ai-a-completely-private-way-to-chat-with-ai)**
-  - relevance: `13` · category: `—` · player: `WhatsApp` · scope: `international` · published: —
-  - themes: big_tech_in_finance_commerce, ai_infra_general
-  - Chatting with AI has quickly become a critical part of how people get information and ask important questions. And many of these questions can be deeply sensitive, or include situations where people are including private financial, personal, health or work data with their questions. Ten years ago we brought the world end-to-end encryption and now we are extending this privacy to chats with Meta AI. Today we're launching Incognito Chat with Meta AI, a new way to have completely private conversati
 
 - **[New Feature Roundup: Free up space, multiple accounts, cross-platform transfer and more](https://blog.whatsapp.com/new-feature-roundup-free-up-space-multiple-accounts-cross-platform-transfer-and-more)**
   - relevance: `6` · category: `Feature` · player: `WhatsApp` · scope: `international` · published: —
@@ -2100,6 +2094,26 @@
   - signal: Product_Feature
   - For those of you that have used WhatsApp from the very start, you’ll remember About was our first feature. Even before we brought the world private and secure messaging, we made it simple for you to quickly share what’s up in your life. Today we're reintroducing and improving About, making it more visible, timely, and easier to use. For those days when you’re free one minute but busy the next - About can tell others why you can’t talk or what you do want to talk about with just an emoji and a sh
 
+#### Khác (8)
+
+- **[WhatsApp adds an incognito mode in Meta AI chats](https://techcrunch.com/2026/05/13/whatsapp-adds-an-incognito-mode-in-meta-ai-chats/)**
+  - relevance: `13` · category: `—` · player: `WhatsApp` · scope: `international` · published: 2026-05-13 14:00 UTC
+  - themes: big_tech_in_finance_commerce, ai_infra_general
+  - Meta said these incognito conversations are not saved, and messages will disappear by default once you close the chat.
+
+- **[Introducing Incognito Chat with Meta AI: A completely private way to chat with AI](https://blog.whatsapp.com/introducing-incognito-chat-with-meta-ai-a-completely-private-way-to-chat-with-ai)**
+  - relevance: `13` · category: `—` · player: `WhatsApp` · scope: `international` · published: —
+  - themes: big_tech_in_finance_commerce, ai_infra_general
+  - Chatting with AI has quickly become a critical part of how people get information and ask important questions. And many of these questions can be deeply sensitive, or include situations where people are including private financial, personal, health or work data with their questions. Ten years ago we brought the world end-to-end encryption and now we are extending this privacy to chats with Meta AI. Today we're launching Incognito Chat with Meta AI, a new way to have completely private conversati
+
+- **[Meta offers rival AI chatbots free WhatsApp access to avoid EU fine](https://www.techinasia.com/news/meta-offers-rival-ai-chatbots-free-whatsapp-access-avoid-eu-fine)**
+  - relevance: `5` · category: `—` · player: `WhatsApp` · scope: `international` · published: 2026-05-13 04:19 UTC
+  - The move is part of the company’s effort to settle an EU antitrust probe that could otherwise result in a fine.
+
+- **[Meta seeks to avoid EU fine with free WhatsApp access for rival AI chatbots - Reuters](https://news.google.com/rss/articles/CBMizAFBVV95cUxOYm5qekpIZ3VjRVQwQ2x6eTRnWmdDZTJOUTVYbkxaQklrRzdFRjYtRjRHU1JLV0Mxb1JLcDlsZFo5Y2E5STF5aFFRMkpseThURm5UUGhTUUZBajU2U3c2dnNXSEVEUXFBRzVxQzlyQUNRd1pUX2ROVmxNekZjUDNWWnhiemYwMmF4emoxa3hoR2Jzd3VNYlhpSGFLQ0o5dlUtYUR4LUI1LUtYVFByUFV3YUUxYXI2VHQ2MmlaaXFsSzRtTDU0R2N0dEdWa3g?oc=5)**
+  - relevance: `5` · category: `—` · player: `WhatsApp` · scope: `international` · published: 2026-05-12 20:35 UTC
+  - Meta seeks to avoid EU fine with free WhatsApp access for rival AI chatbots Reuters
+
 - **[Introducing parent-managed accounts on WhatsApp](https://blog.whatsapp.com/introducing-parent-managed-accounts-on-whatsapp)**
   - relevance: `5` · category: `—` · player: `WhatsApp` · scope: `international` · published: —
   - WhatsApp is the trusted way families communicate because it’s simple, private, and reliable. With input from families and experts, we're rolling out new parent-managed accounts that allow parents or guardians to set up WhatsApp for pre-teens, with new controls to limit their WhatsApp experience to messaging and calling. To begin, parents will need the phone they have bought for their family member and their own device, side by side to link their accounts. Once set up, these accounts are controll
@@ -2116,7 +2130,9 @@
   - relevance: `5` · category: `—` · player: `WhatsApp` · scope: `international` · published: —
   - Today we are announcing a big upgrade for your wrist — the all-new WhatsApp app for your Apple Watch*. This new experience will help you stay on top of your chats without needing to pull out your iPhone. In addition to reading and responding to messages, for the first time WhatsApp on Apple Watch will now support many requested features: This is just the start of making WhatsApp on your Apple Watch an even better experience. As always, your personal messages and calls remain private with end-to-
 
-### zalopay_news (2)
+### Zalo (11)
+
+#### Marketing — Voucher / Khuyến mãi (10)
 
 - **[Tin tức](https://zalopay.vn/tin-tuc/tin-tuc-su-kien)**
   - relevance: `6` · category: `Marketing/Transaction Growth` · player: `Zalo` · scope: `domestic` · published: —
@@ -2127,8 +2143,6 @@
   - relevance: `6` · category: `Marketing/Transaction Growth` · player: `Zalo` · scope: `domestic` · published: —
   - signal: Campaign_Marketing
   - Trang chủ Tin tức Tin tức Cập nhập thông tin mới nhất về ZaloPay Khuyến mãi - Ưu đãi Ưu đãi riêng cho người dùng ZaloPay Blog Chuyên trang cung cấp thông tin hữu ích Dịch vụ Chuyển tiền - Nhận tiền Miễn phí, an toàn, chuyển tiền Zalo chat Nạp tiền điện thoại Nạp ĐT - Mua thẻ ĐT - Data 3G/4G Thanh toán hóa đơn Điện - Nước - Internet - Chung Cư Mua sắm Online Thương mại điện tử - Đi chợ Online Giải trí Game - Ứng dụng - Xem phim trực tuyến Tải Zalopay
-
-### zalopay_promo (8)
 
 - **[Khuyến mãi – Ưu Đãi](https://zalopay.vn/khuyen-mai/dac-biet)**
   - relevance: `6` · category: `Marketing/Transaction Growth` · player: `Zalo` · scope: `domestic` · published: —
@@ -2169,6 +2183,12 @@
   - relevance: `6` · category: `Marketing/Transaction Growth` · player: `Zalo` · scope: `domestic` · published: —
   - signal: Campaign_Marketing
   - Trang chủ Tin tức Tin tức Cập nhập thông tin mới nhất về ZaloPay Khuyến mãi - Ưu đãi Ưu đãi riêng cho người dùng ZaloPay Blog Chuyên trang cung cấp thông tin hữu ích Dịch vụ Chuyển tiền - Nhận tiền Miễn phí, an toàn, chuyển tiền Zalo chat Nạp tiền điện thoại Nạp ĐT - Mua thẻ ĐT - Data 3G/4G Thanh toán hóa đơn Điện - Nước - Internet - Chung Cư Mua sắm Online Thương mại điện tử - Đi chợ Online Giải trí Game - Ứng dụng - Xem phim trực tuyến Tải Zalopay
+
+#### Khác (1)
+
+- **[Đề nghị Zalo, Meta bảo vệ người dùng trước nguy cơ lừa đảo bằng AI](https://dantri.com.vn/cong-nghe/de-nghi-zalo-meta-bao-ve-nguoi-dung-truoc-nguy-co-lua-dao-bang-ai-20260512150646414.htm)**
+  - relevance: `5` · category: `—` · player: `Zalo` · scope: `domestic` · published: 2026-05-13 07:15 UTC
+  - (Dân trí) - Ủy ban Cạnh tranh Quốc gia đã có văn bản đề nghị các nền tảng số tăng cường bảo vệ quyền lợi người tiêu dùng trước nguy cơ lừa đảo bằng trí tuệ nhân tạo.
 
 ---
 
