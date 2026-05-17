@@ -1,37 +1,81 @@
 # Market Watch — Database preview
 
-- Generated: **2026-05-17 15:32 UTC**
-- Kept: **84** (Market Pulse: 81 · Players Movement: 3)
+- Generated: **2026-05-17 15:43 UTC**
+- Kept: **107** (Market Pulse: 80 · Players Movement: 27)
 - Flagged HUMAN_REVIEW: **11**
 
 ## Summary by signal level
 
 | Level | Count |
 |---|---:|
-| 4 - Strategic shift | 3 |
-| 3 - Market signal | 80 |
+| 4 - Strategic shift | 5 |
+| 3 - Market signal | 101 |
 | 2 - Minor signal | 1 |
 
 ## Top 10 by signal score
 
 1. `[3.84]` **China clears Tencent’s Ximalaya acquisition with strict bans on exclusive deals, fee hikes** · Trung quốc
-2. `[3.52]` **THÔNG TIN KHUYẾN MẠI CỦA CHƯƠNG TRÌNH GRABFOOD VẠN DEAL MASTXIMUM GIẢM 50%** · Grab
-3. `[3.42]` **Thu giữ loạt hàng giả ở Saigon Square, chợ Bến Thành** · Trong nước
-4. `[3.4]` **Thông báo triển khai dịch vụ GrabCar Plus, GrabBike Plus tại một số tỉnh thành** · Grab
-5. `[3.4]` **Thử thách của Tín** · Grab
-6. `[3.36]` **Chinese foundries SMIC, Hua Hong forecast second-quarter growth amid AI boom** · Trung quốc
-7. `[3.36]` **Alibaba CEO signals capex boost as China tech giant forges full-stack AI path** · Trung quốc
-8. `[3.36]` **Kuaishou shares soar as Kling AI eyes US$20 billion valuation in potential spin-off** · Trung quốc
-9. `[3.24]` **Trump, Xi weigh AI ‘guardrails’ as Nvidia chip exports hang in the balance** · Trung quốc
-10. `[3.24]` **AI agents face trust issues in ‘high-risk’ industrial sectors: experts** · Trung quốc
+2. `[3.58]` **[QUAN TRỌNG] CẬP NHẬT CHÍNH SÁCH GÓI VOUCHER XTRA VÀ CONTENT XTRA DÀNH CHO TẤT CẢ NGƯỜI BÁN TỪ THÁNG 09/2025** · Shopee
+3. `[3.52]` **Bạn mới nhập mã CHONMOMO: Có quà 500.000đ giảm nhiều dịch vụ, thêm tiền thưởng đến 1 triệu** · MoMo
+4. `[3.52]` **THÔNG TIN KHUYẾN MẠI CỦA CHƯƠNG TRÌNH GRABFOOD VẠN DEAL MASTXIMUM GIẢM 50%** · Grab
+5. `[3.42]` **Thu giữ loạt hàng giả ở Saigon Square, chợ Bến Thành** · Trong nước
+6. `[3.4]` **GrabMart | Đảm việc nhà - Giỏi kinh doanh nhờ nắm bắt xu hướng bán hàng qua ứng dụng** · Grab
+7. `[3.4]` **Grab | Giải pháp tăng trưởng Người dùng mới (dành cho dịch vụ Đi Ăn Nhà Hàng)** · Grab
+8. `[3.4]` **GrabMart | Bí kíp tăng trưởng doanh thu sầu riêng** · Grab
+9. `[3.4]` **GrabMart | Các chương trình ưu đãi dành cho ngành hàng trái cây tươi mùa hè 2026** · Grab
+10. `[3.4]` **Grab | Cập nhật cách tính điểm đánh giá sao Cửa hàng** · Grab
 
-## Players Movement (3)
+## Players Movement (27)
 
-### Grab (3)
+### Grab (17)
 
 - **[THÔNG TIN KHUYẾN MẠI CỦA CHƯƠNG TRÌNH GRABFOOD VẠN DEAL MASTXIMUM GIẢM 50%](https://www.grab.com/vn/blog/thong-tin-khuyen-mai-cua-chuong-trinh-grabfood-van-deal-mastximum-giam-50/)**
   - signal: `3.52` (4 - Strategic shift) · R1/R2: `3.0`/`4.3` · source: `grab_vn_blog` · published: 2026-05-12
   - Thứ Ba Tháng Năm 12th, 2026 THÔNG TIN KHUYẾN MẠI CỦA CHƯƠNG TRÌNH GRABFOOD VẠN DEAL MASTXIMUM GIẢM 50% 🔊 Xin thông báo mùa hè nóng kỷ lục chỉ còn là cái tên: GrabFood giới thiệu biệt đội Mátximum nóng tới đâu cũng có vạn deal món mát nhất – giảm “maximum”! 🧋 Biệt đội mát dịu dàng buitruonglinh mang 
+
+- **[GrabMart | Đảm việc nhà - Giỏi kinh doanh nhờ nắm bắt xu hướng bán hàng qua ứng dụng](https://merchant.grab.com/vn-vn/blog/traicaysachanvatvoduyninh)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_merchant_vn` · published: —
+  - Hơn 21 năm gắn bó với nghề kinh doanh mỹ phẩm theo mô hình truyền thống, chị Ngọc Diệp đã trải qua những ngày thử thách và biến động bởi đại dịch Covid-19. Từ việc phải tạm đóng cửa hàng mỹ phẩm và trăn trở giải quyết bài toán xoay vốn, hiện tại chị Diệp đã sở hữu cửa hàng online hoạt động ổn định, 
+
+- **[Grab | Giải pháp tăng trưởng Người dùng mới (dành cho dịch vụ Đi Ăn Nhà Hàng)](https://merchant.grab.com/vn-vn/blog/dealhoidonkhachmoi)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_merchant_vn` · published: —
+  - Quý Đối tác thân mến, 🤗 Đối tác mong muốn thu hút thêm nhiều Người dùng mới đến nhà hàng trải nghiệm món ngon ? 🤗 Đối tác đang tìm kiếm chiến dịch marketing với ngân sách tối ưu để tiếp cận Người dùng mới ? Mời Đối tác tham gia chương trình “Deal Hời Đón Khách Mới” - giải pháp giúp thu hút và mở rộn
+
+- **[GrabMart | Bí kíp tăng trưởng doanh thu sầu riêng](https://merchant.grab.com/vn-vn/blog/grabmart-bikiptangtruongdoanhthu-saurieng)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_merchant_vn` · published: —
+  - Quý Đối tác Thương nhân ơi, Mùa hè gõ cửa - cũng là lúc sầu riêng vào mùa, thơm lừng và cực kỳ hút khách . Nhu cầu tìm kiếm “sầu riêng” dự kiến tăng nhanh trên Grabmart. Đây chính là thời điểm vàng để Đối tác bứt phá doanh thu ! 🔥 Nắm bắt thời điểm vàng– lên kệ ngay hôm nay để đón đầu nhu cầu Người 
+
+- **[GrabMart | Các chương trình ưu đãi dành cho ngành hàng trái cây tươi mùa hè 2026](https://merchant.grab.com/vn-vn/blog/traicay2026)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_merchant_vn` · published: —
+  - Quý Đối tác GrabMart thân mến, 🥑🥑 Mùa hè đến, trái cây chín rộ! Nhằm đồng hành và hỗ trợ Đối tác gia tăng cơ hội doanh thu trong mùa trái cây, GrabMart triển khai 02 chương trình mang đến các quyền lợi hấp dẫn dành cho Đối tác: Tặng mã freeship và đồng tài trợ ưu đãi giảm giá . Thể lệ các chương trì
+
+- **[Grab | Cập nhật cách tính điểm đánh giá sao Cửa hàng](https://merchant.grab.com/vn-vn/blog/capnhatcachtinhdiemdanhgiasao2026)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_merchant_vn` · published: 2026-06-15
+  - Quý Đối tác thân mến, Khi kinh doanh trên nền tảng số, điểm đánh giá sao từ Người dùng là một trong những yếu tố quan trọng để thu hút thêm đơn hàng và xây dựng uy tín của Cửa hàng. Để đảm bảo sự công bằng, minh bạch giữa các Cửa hàng, đồng thời khuyến khích tất cả Đối tác không ngừng nâng cao chất 
+
+- **[Thông tin mới nhất](https://www.grab.com/vn/blog/driver/)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: —
+  - Driver Blog Grab | Ghé Quán Tốt Bụng, thêm chút mát lòng 💚 Bike Driver Blog, Car Driver Blog, Driver Blog, Express Driver Blog Quý Đối tác thân mến, Mùa nắng nóng đang vào cao điểm, nhưng những cuốc xe vẫn đều đặn lăn bánh mỗi ngày. Sau mỗi chuyến đi an toàn, mỗi đơn hàng được giao đún [..] Read Mor
+
+- **[All](https://www.grab.com/vn/blog/?page=1)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: —
+  - Grab Blog Ưu đãi ngân hàng ACB Passenger Blog Ưu đãi khi sử dụng thẻ ACB thanh toán khi đặt Grab Muốn ăn ngon thì phải vào bếp, nhưng muốn ăn vừa ngon vừa rẻ thì nhớ thanh toán bằng thẻ ACB khi đặt Grab. Ưu [..] Read More Ưu đãi ngân hàng HD Bank Passenger Blog Ưu đãi khi sử dụng thẻ HD Bank thanh t
+
+- **[Community](https://www.grab.com/vn/blog/grab-community?page=1)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: —
+  - Grab Blog Ưu đãi ngân hàng ACB Passenger Blog Ưu đãi khi sử dụng thẻ ACB thanh toán khi đặt Grab Muốn ăn ngon thì phải vào bếp, nhưng muốn ăn vừa ngon vừa rẻ thì nhớ thanh toán bằng thẻ ACB khi đặt Grab. Ưu [..] Read More Ưu đãi ngân hàng HD Bank Passenger Blog Ưu đãi khi sử dụng thẻ HD Bank thanh t
+
+- **[News](https://www.grab.com/vn/blog/news?page=1)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: —
+  - Grab Blog Ưu đãi ngân hàng ACB Passenger Blog Ưu đãi khi sử dụng thẻ ACB thanh toán khi đặt Grab Muốn ăn ngon thì phải vào bếp, nhưng muốn ăn vừa ngon vừa rẻ thì nhớ thanh toán bằng thẻ ACB khi đặt Grab. Ưu [..] Read More Ưu đãi ngân hàng HD Bank Passenger Blog Ưu đãi khi sử dụng thẻ HD Bank thanh t
+
+- **[Driven by Tech](https://www.grab.com/vn/blog/driven-by-tech?page=1)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: —
+  - Grab Blog Ưu đãi ngân hàng ACB Passenger Blog Ưu đãi khi sử dụng thẻ ACB thanh toán khi đặt Grab Muốn ăn ngon thì phải vào bếp, nhưng muốn ăn vừa ngon vừa rẻ thì nhớ thanh toán bằng thẻ ACB khi đặt Grab. Ưu [..] Read More Ưu đãi ngân hàng HD Bank Passenger Blog Ưu đãi khi sử dụng thẻ HD Bank thanh t
+
+- **[Pulse of Vietnam](https://www.grab.com/vn/blog/pulse-of-vietnam?page=1)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: —
+  - Grab Blog Ưu đãi ngân hàng ACB Passenger Blog Ưu đãi khi sử dụng thẻ ACB thanh toán khi đặt Grab Muốn ăn ngon thì phải vào bếp, nhưng muốn ăn vừa ngon vừa rẻ thì nhớ thanh toán bằng thẻ ACB khi đặt Grab. Ưu [..] Read More Ưu đãi ngân hàng HD Bank Passenger Blog Ưu đãi khi sử dụng thẻ HD Bank thanh t
 
 - **[Thông báo triển khai dịch vụ GrabCar Plus, GrabBike Plus tại một số tỉnh thành](https://www.grab.com/vn/blog/thong-bao-trien-khai-dich-vu-grabcar-plus-grabbike-plus-tai-mot-so-tinh-thanh/)**
   - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: 2026-05-13
@@ -41,7 +85,61 @@
   - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: 2026-05-12
   - Thứ Ba Tháng Năm 12th, 2026 Thử thách của Tín Các bạn sinh viên ơi! Grab chính thức khởi động Thử thách “Bản đồ bung sức mùa thi cùng Grab” với nhiều phần quà vô cùng hấp dẫn trong tháng 05 tới đây. Hãy cùng Grab khám phá thể lệ chi tiết của Thử thách này nhé! 🏁 THÔNG TIN TỔNG QUAN VỀ THỬ THÁCH Tên 
 
-## Market Pulse (81)
+- **[AI in action](https://www.grab.com/sg/inside-grab/ai-in-action/)**
+  - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
+  - AI in action All stories Perspectives Solutions Product innovation All stories Rides Food and deliveries Financial services Enterprise Autonomous Technology GrabX Tracing our impact All stories Environment Social impact Marketplace principles All stories Fares and pricing Matching Inside scoop All s
+
+- **[Product innovation](https://www.grab.com/sg/inside-grab/product-innovation/)**
+  - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
+  - AI in action All stories Perspectives Solutions Product innovation All stories Rides Food and deliveries Financial services Enterprise Autonomous Technology GrabX Tracing our impact All stories Environment Social impact Marketplace principles All stories Fares and pricing Matching Inside scoop All s
+
+- **[Tracing our impact](https://www.grab.com/sg/inside-grab/tracing-our-impact/)**
+  - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
+  - AI in action All stories Perspectives Solutions Product innovation All stories Rides Food and deliveries Financial services Enterprise Autonomous Technology GrabX Tracing our impact All stories Environment Social impact Marketplace principles All stories Fares and pricing Matching Inside scoop All s
+
+### MoMo (4)
+
+- **[Bạn mới nhập mã CHONMOMO: Có quà 500.000đ giảm nhiều dịch vụ, thêm tiền thưởng đến 1 triệu](https://momo.vn/tin-tuc/khuyen-mai/ban-moi-nhap-ma-chonmomo-co-qua-500000d-giam-8225)**
+  - signal: `3.52` (4 - Strategic shift) · R1/R2: `3.0`/`4.3` · source: `momo_newsroom` · published: —
+  - Bạn mới nhập mã CHONMOMO: Có quà 500.000đ giảm nhiều dịch vụ, thêm tiền thưởng đến 1 triệu Khuyến mãi · 01/04/2026 · 12.2K lượt xem Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Chọn MoMo - chọn linh hoạt chi tiêu: Nhận ngay bộ thẻ quà 500.000đ giảm mọi dịch vụ & lì xì đến 1 triệu khi 
+
+- **[Combo du lịch siêu hời - Đón chào lễ hội pháo hoa tại Đà Nẵng](https://momo.vn/tin-tuc/khuyen-mai/combo-du-lich-sieu-hoi-don-chao-le-hoi-phao-hoa-8718)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `momo_newsroom` · published: —
+  - Combo du lịch siêu hời - Đón chào lễ hội pháo hoa tại Đà Nẵng Khuyến mãi · 15/05/2026 · 2.3K lượt xem Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Lễ hội Pháo hoa Quốc tế Đà Nẵng (DIFF) 2026 chính thức quay trở lại, hứa hẹn biến bầu trời sông Hàn thành một kiệt tác nghệ thuật đầy mê h
+
+- **[[15.5 - 31.5] HOÀN ĐẾN 8.686Đ KHI TỰ CHUYỂN 2K TỪ NGÂN HÀNG ĐẾN SĐT MOMO CỦA BẢN THÂN](https://momo.vn/tin-tuc/khuyen-mai/155-315-hoan-den-8686d-khi-tu-chuyen-2k-tu-ngan-8717)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `momo_newsroom` · published: 2026-05-31
+  - [15.5 - 31.5] HOÀN ĐẾN 8.686Đ KHI TỰ CHUYỂN 2K TỪ NGÂN HÀNG ĐẾN SĐT MOMO CỦA BẢN THÂN Khuyến mãi · 15/05/2026 Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn MoMo thưởng đến 8.686Đ cho bạn khi thực hiện giao dịch tự chuyển 2K từ app Ngân hàng đến SĐT MoMo của chính mình. Thời gian diễn r
+
+- **[Mỗi lần thanh toán hoá đơn, thêm mầm xanh được tích luỹ](https://momo.vn/tin-tuc/thong-bao/moi-lan-thanh-toan-hoa-don-them-mam-xanh-duoc-8709)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `momo_newsroom` · published: —
+  - Mỗi lần thanh toán hoá đơn, thêm mầm xanh được tích luỹ Thông báo · 12/05/2026 Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Thay vì chỉ là những giao dịch thanh toán thông thường, giờ đây với Green Hub - Góp hóa đơn trồng rừng trên MoMo, mỗi hóa đơn bạn chi trả đều mang lại giá trị đó
+
+### Shopee (4)
+
+- **[[QUAN TRỌNG] CẬP NHẬT CHÍNH SÁCH GÓI VOUCHER XTRA VÀ CONTENT XTRA DÀNH CHO TẤT CẢ NGƯỜI BÁN TỪ THÁNG 09/2025](https://banhang.shopee.vn/edu/article/25901)**
+  - signal: `3.58` (4 - Strategic shift) · R1/R2: `3.5`/`3.7` · source: `shopee_seller_blog` · published: —
+
+- **[Tính năng phân bổ đơn vị vận chuyển tự động cho Người bán trên Shopee](https://banhang.shopee.vn/edu/article/17468)**
+  - signal: `3.28` (3 - Market signal) · R1/R2: `3.0`/`3.7` · source: `shopee_seller_blog` · published: —
+
+- **[Tỷ lệ sản phẩm bật kênh Hỏa Tốc đối với Shopee Mall/Shop Yêu Thích+](https://banhang.shopee.vn/edu/article/27364)**
+  - signal: `3.28` (3 - Market signal) · R1/R2: `3.0`/`3.7` · source: `shopee_seller_blog` · published: —
+
+- **[[QUAN TRỌNG] CẬP NHẬT VỀ PHÍ DÀNH CHO NGƯỜI BÁN KHÔNG THUỘC SHOPEE MALL TỪ NGÀY 23/05/2026](https://banhang.shopee.vn/edu/article/27540)**
+  - signal: `3.28` (3 - Market signal) · R1/R2: `3.0`/`3.7` · source: `shopee_seller_blog` · published: 2026-05-23
+
+### Zalo (2)
+
+- **[Tin tức](https://zalopay.vn/tin-tuc/tin-tuc-su-kien)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `zalopay_news` · published: —
+  - Trang chủ Tin tức Tin tức Cập nhập thông tin mới nhất về ZaloPay Khuyến mãi - Ưu đãi Ưu đãi riêng cho người dùng ZaloPay Blog Chuyên trang cung cấp thông tin hữu ích Dịch vụ Chuyển tiền - Nhận tiền Miễn phí, an toàn, chuyển tiền Zalo chat Nạp tiền điện thoại Nạp ĐT - Mua thẻ ĐT - Data 3G/4G Thanh to
+
+- **[Khuyến mãi – Ưu Đãi](https://zalopay.vn/khuyen-mai/dac-biet)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `zalopay_promo` · published: —
+  - Trang chủ Tin tức Tin tức Cập nhập thông tin mới nhất về ZaloPay Khuyến mãi - Ưu đãi Ưu đãi riêng cho người dùng ZaloPay Blog Chuyên trang cung cấp thông tin hữu ích Dịch vụ Chuyển tiền - Nhận tiền Miễn phí, an toàn, chuyển tiền Zalo chat Nạp tiền điện thoại Nạp ĐT - Mua thẻ ĐT - Data 3G/4G Thanh to
+
+## Market Pulse (80)
 
 ### Trong nước (1)
 
@@ -99,7 +197,7 @@
   - signal: `2.4` (2 - Minor signal) · R1/R2: `2.0`/`3.0` · source: `scmp_tech` · published: 2026-05-13
   - Chinese memory module manufacturers are accelerating the release of consumer and enterprise storage products powered by domestic DDR5 chips, as breakthroughs by ChangXin Memory Technologies (CXMT), the nation’s leading memory chipmaker, filter through the supply chain. Powev, one of China’s major me
 
-### Quốc tế (68)
+### Quốc tế (67)
 
 - **[Google adds Gemini-powered dictation to Gboard, which could be bad news for dictation startups](https://techcrunch.com/2026/05/12/google-adds-gemini-powered-dictation-to-gboard-which-could-be-bad-news-for-dictation-startups/)**
   - signal: `3.24` (3 - Market signal) · R1/R2: `3.6`/`2.7` · source: `techcrunch_apps` · published: 2026-05-12
@@ -144,10 +242,6 @@
 - **[Sony A7 R VI - máy ảnh cảm biến xếp chồng giá 114 triệu đồng](https://vnexpress.net/sony-a7-r-vi-may-anh-cam-bien-xep-chong-gia-114-trieu-dong-5074084.html)**
   - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `vnexpress_khcn` · published: 2026-05-15
   - Sony A7 R VI trang bị cảm biến xếp chồng (full stack) 67 megapixel, chip AI thế hệ mới, khả năng quay video 8K và giá 114 triệu đồng.
-
-- **[Sam Altman 'lộ' khối tài sản hơn 2 tỷ USD từ đối tác của OpenAI](https://vnexpress.net/sam-altman-lo-khoi-tai-san-hon-2-ty-usd-tu-doi-tac-cua-openai-5073854.html)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `vnexpress_khcn` · published: 2026-05-14
-  - Tài liệu tòa án cho thấy Sam Altman có cổ phần hơn hai tỷ USD tại hàng loạt công ty đang bắt tay với OpenAI.
 
 - **[Điện thoại Trump T1 bắt đầu được giao hàng](https://vnexpress.net/dien-thoai-trump-t1-bat-dau-duoc-giao-hang-5073733.html)**
   - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `vnexpress_khcn` · published: 2026-05-14
