@@ -45,6 +45,30 @@ def now_utc() -> datetime:
     return datetime.now(timezone.utc)
 
 
+def date_from_text(text: str) -> Optional[datetime]:
+    """Recover a date from promo phrasing in title/snippet text.
+
+    Player-blog promo posts ("[15.5 - 31.5]", "áp dụng đến 31/5/2026")
+    rarely expose a machine-readable publish date, but the active promo
+    window in the text is a reliable recency proxy. Prefers the end date
+    (promo still valid until then) and falls back to the start date.
+    """
+    if not text:
+        return None
+    from src.utils.promo_dates import extract_promo_dates
+
+    start, end = extract_promo_dates(text)
+    for s in (end, start):
+        if not s:
+            continue
+        try:
+            d, m, y = (int(x) for x in s.split("/"))
+            return datetime(y, m, d, tzinfo=timezone.utc)
+        except (ValueError, TypeError):
+            continue
+    return None
+
+
 _URL_DATE_RES = [
     re.compile(r"/(20\d{2})[/-](\d{1,2})[/-](\d{1,2})(?:[/-]|\b)"),
     re.compile(r"[-_](20\d{2})(\d{2})(\d{2})[-_.]"),

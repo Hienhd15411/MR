@@ -33,7 +33,12 @@ from src.storage.models import (
     SourceType,
     Status,
 )
-from src.utils.date_utils import extract_published, now_utc, within_window
+from src.utils.date_utils import (
+    date_from_text,
+    extract_published,
+    now_utc,
+    within_window,
+)
 
 # Anchor text fragments that mean "this <a> is a CTA button or nav
 # menu entry, not an article". Stripped link text matching one of these
@@ -233,9 +238,11 @@ class PlayerBlogCrawler(BaseCrawler):
 
         if not title or _looks_like_cta_or_nav(title):
             return None
-        # Strict last-N-days window: undated posts are dropped rather than
-        # silently kept, so old blog entries never leak into the report.
-        if published is None or not within_window(published, self.window_days):
+        if published is None:
+            published = date_from_text(f"{title} {snippet}")
+        # Priority-0 player blog: keep undated posts (newest-first, capped);
+        # drop only when an explicit date is older than the window.
+        if published is not None and not within_window(published, self.window_days):
             return None
 
         return RawArticle(

@@ -19,7 +19,12 @@ from src.storage.models import (
     Status,
 )
 from src.config.settings import CRAWL_WINDOW_DAYS
-from src.utils.date_utils import extract_published, now_utc, within_window
+from src.utils.date_utils import (
+    date_from_text,
+    extract_published,
+    now_utc,
+    within_window,
+)
 
 
 LIST_URL = "https://www.grab.com/vn/blog/"
@@ -101,8 +106,11 @@ class GrabVNBlog(BaseCrawler):
 
         if not title:
             return None
-        # Strict last-N-days window: undated posts are dropped.
-        if published is None or not within_window(published, self.window_days):
+        if published is None:
+            published = date_from_text(f"{title} {snippet}")
+        # Priority-0 player blog: keep undated posts (newest-first, capped);
+        # drop only when an explicit date is older than the window.
+        if published is not None and not within_window(published, self.window_days):
             return None
 
         return RawArticle(
