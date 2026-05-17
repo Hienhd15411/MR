@@ -1,346 +1,53 @@
 # Market Watch — Database preview
 
-- Generated: **2026-05-17 15:06 UTC**
-- Kept: **163** (Market Pulse: 89 · Players Movement: 74)
-- Flagged HUMAN_REVIEW: **12**
+- Generated: **2026-05-17 15:32 UTC**
+- Kept: **84** (Market Pulse: 81 · Players Movement: 3)
+- Flagged HUMAN_REVIEW: **11**
 
 ## Summary by signal level
 
 | Level | Count |
 |---|---:|
-| 4 - Strategic shift | 7 |
-| 3 - Market signal | 154 |
-| 2 - Minor signal | 2 |
+| 4 - Strategic shift | 3 |
+| 3 - Market signal | 80 |
+| 2 - Minor signal | 1 |
 
 ## Top 10 by signal score
 
-1. `[4.0]` **Mini Apps 2.0: Full-Screen Mode, Home Screen Icons, Geolocation and 10 more features** · Telegram
-2. `[3.84]` **China clears Tencent’s Ximalaya acquisition with strict bans on exclusive deals, fee hikes** · Trung quốc
-3. `[3.58]` **[QUAN TRỌNG] CẬP NHẬT CHÍNH SÁCH GÓI VOUCHER XTRA VÀ CONTENT XTRA DÀNH CHO TẤT CẢ NGƯỜI BÁN TỪ THÁNG 09/2025** · Shopee
-4. `[3.52]` **Bạn mới nhập mã CHONMOMO: Có quà 500.000đ giảm nhiều dịch vụ, thêm tiền thưởng đến 1 triệu** · MoMo
-5. `[3.52]` **Helping billions ring in the New Year on WhatsApp** · WhatsApp
-6. `[3.42]` **Thu giữ loạt hàng giả ở Saigon Square, chợ Bến Thành** · Trong nước
-7. `[3.42]` **The Wise Talk số 6: "Sự trỗi dậy của công nghệ bảo hiểm- Insurtech"** · Trong nước
-8. `[3.4]` **Grab | Cập nhật cách tính điểm đánh giá sao Cửa hàng** · Grab
-9. `[3.4]` **Introducing Incognito Chat with Meta AI: A completely private way to chat with AI** · WhatsApp
-10. `[3.4]` **Affiliate Programs, AI-Powered Sticker Search, Collages, and More** · Telegram
+1. `[3.84]` **China clears Tencent’s Ximalaya acquisition with strict bans on exclusive deals, fee hikes** · Trung quốc
+2. `[3.52]` **THÔNG TIN KHUYẾN MẠI CỦA CHƯƠNG TRÌNH GRABFOOD VẠN DEAL MASTXIMUM GIẢM 50%** · Grab
+3. `[3.42]` **Thu giữ loạt hàng giả ở Saigon Square, chợ Bến Thành** · Trong nước
+4. `[3.4]` **Thông báo triển khai dịch vụ GrabCar Plus, GrabBike Plus tại một số tỉnh thành** · Grab
+5. `[3.4]` **Thử thách của Tín** · Grab
+6. `[3.36]` **Chinese foundries SMIC, Hua Hong forecast second-quarter growth amid AI boom** · Trung quốc
+7. `[3.36]` **Alibaba CEO signals capex boost as China tech giant forges full-stack AI path** · Trung quốc
+8. `[3.36]` **Kuaishou shares soar as Kling AI eyes US$20 billion valuation in potential spin-off** · Trung quốc
+9. `[3.24]` **Trump, Xi weigh AI ‘guardrails’ as Nvidia chip exports hang in the balance** · Trung quốc
+10. `[3.24]` **AI agents face trust issues in ‘high-risk’ industrial sectors: experts** · Trung quốc
 
-## Players Movement (74)
+## Players Movement (3)
 
-### Grab (41)
+### Grab (3)
 
-- **[Grab | Cập nhật cách tính điểm đánh giá sao Cửa hàng](https://merchant.grab.com/vn-vn/blog/capnhatcachtinhdiemdanhgiasao2026)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_merchant_vn` · published: —
-  - Quý Đối tác thân mến, Khi kinh doanh trên nền tảng số, điểm đánh giá sao từ Người dùng là một trong những yếu tố quan trọng để thu hút thêm đơn hàng và xây dựng uy tín của Cửa hàng. Để đảm bảo sự công bằng, minh bạch giữa các Cửa hàng, đồng thời khuyến khích tất cả Đối tác không ngừng nâng cao chất 
-
-- **[GrabMart | Đảm việc nhà - Giỏi kinh doanh nhờ nắm bắt xu hướng bán hàng qua ứng dụng](https://merchant.grab.com/vn-vn/blog/traicaysachanvatvoduyninh)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_merchant_vn` · published: —
-  - Hơn 21 năm gắn bó với nghề kinh doanh mỹ phẩm theo mô hình truyền thống, chị Ngọc Diệp đã trải qua những ngày thử thách và biến động bởi đại dịch Covid-19. Từ việc phải tạm đóng cửa hàng mỹ phẩm và trăn trở giải quyết bài toán xoay vốn, hiện tại chị Diệp đã sở hữu cửa hàng online hoạt động ổn định, 
-
-- **[Grab | Giải pháp tăng trưởng Người dùng mới (dành cho dịch vụ Đi Ăn Nhà Hàng)](https://merchant.grab.com/vn-vn/blog/dealhoidonkhachmoi)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_merchant_vn` · published: —
-  - Quý Đối tác thân mến, 🤗 Đối tác mong muốn thu hút thêm nhiều Người dùng mới đến nhà hàng trải nghiệm món ngon ? 🤗 Đối tác đang tìm kiếm chiến dịch marketing với ngân sách tối ưu để tiếp cận Người dùng mới ? Mời Đối tác tham gia chương trình “Deal Hời Đón Khách Mới” - giải pháp giúp thu hút và mở rộn
+- **[THÔNG TIN KHUYẾN MẠI CỦA CHƯƠNG TRÌNH GRABFOOD VẠN DEAL MASTXIMUM GIẢM 50%](https://www.grab.com/vn/blog/thong-tin-khuyen-mai-cua-chuong-trinh-grabfood-van-deal-mastximum-giam-50/)**
+  - signal: `3.52` (4 - Strategic shift) · R1/R2: `3.0`/`4.3` · source: `grab_vn_blog` · published: 2026-05-12
+  - Thứ Ba Tháng Năm 12th, 2026 THÔNG TIN KHUYẾN MẠI CỦA CHƯƠNG TRÌNH GRABFOOD VẠN DEAL MASTXIMUM GIẢM 50% 🔊 Xin thông báo mùa hè nóng kỷ lục chỉ còn là cái tên: GrabFood giới thiệu biệt đội Mátximum nóng tới đâu cũng có vạn deal món mát nhất – giảm “maximum”! 🧋 Biệt đội mát dịu dàng buitruonglinh mang 
 
 - **[Thông báo triển khai dịch vụ GrabCar Plus, GrabBike Plus tại một số tỉnh thành](https://www.grab.com/vn/blog/thong-bao-trien-khai-dich-vu-grabcar-plus-grabbike-plus-tai-mot-so-tinh-thanh/)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: —
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: 2026-05-13
   - Thứ Tư Tháng Năm 13th, 2026 Thông báo triển khai dịch vụ GrabCar Plus, GrabBike Plus tại một số tỉnh thành Bạn thân mến, Nhằm đáp ứng nhu cầu di chuyển đa dạng của hành khách, Grab chính thức triển khai dịch vụ GrabCar, GrabCar Plus và GrabBike Plus tại một số tỉnh thành từ ngày 14/05/2026. Thông ti
 
-- **[GFIN x VIETCREDIT | Chương trình hoàn tiền 01 tháng lãi vay khi đăng ký vay qua thương hiệu Tin Vay](https://merchant.grab.com/vn-vn/blog/gfin-vc-hoan01thanglaivay)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_merchant_vn` · published: —
-  - Quý Đối tác thân mến, Công ty TNHH GFIN Việt Nam (“GFIN”) mang đến cho các Đối tác Tài xế, Đối tác Thương nhân chương trình Hoàn tiền lãi 01 tháng cho các khoản vay tín chấp với thương hiệu TIN VAY của VietCredit (“TIN VAY”). TIN VAY hoàn tiền lãi trung bình 01 tháng trực tiếp vào khoản vay: Giá trị
-
-- **[GrabMart | Bí kíp tăng trưởng doanh thu sầu riêng](https://merchant.grab.com/vn-vn/blog/grabmart-bikiptangtruongdoanhthu-saurieng)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_merchant_vn` · published: —
-  - Quý Đối tác Thương nhân ơi, Mùa hè gõ cửa - cũng là lúc sầu riêng vào mùa, thơm lừng và cực kỳ hút khách . Nhu cầu tìm kiếm “sầu riêng” dự kiến tăng nhanh trên Grabmart. Đây chính là thời điểm vàng để Đối tác bứt phá doanh thu ! 🔥 Nắm bắt thời điểm vàng– lên kệ ngay hôm nay để đón đầu nhu cầu Người 
-
-- **[GrabMart | Các chương trình ưu đãi dành cho ngành hàng trái cây tươi mùa hè 2026](https://merchant.grab.com/vn-vn/blog/traicay2026)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_merchant_vn` · published: —
-  - Quý Đối tác GrabMart thân mến, 🥑🥑 Mùa hè đến, trái cây chín rộ! Nhằm đồng hành và hỗ trợ Đối tác gia tăng cơ hội doanh thu trong mùa trái cây, GrabMart triển khai 02 chương trình mang đến các quyền lợi hấp dẫn dành cho Đối tác: Tặng mã freeship và đồng tài trợ ưu đãi giảm giá . Thể lệ các chương trì
-
-- **[Ngày hội Du lịch TP. HCM 2026: Grab vinh danh Quán Trứ Danh - Tôn vinh du lịch ẩm thực thành phố](https://merchant.grab.com/vn-vn/blog/ngayhoidulich2026)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_merchant_vn` · published: —
-  - Quý Đối tác thân mến, Ngày 02/4 - 05/4/2026, Grab kết hợp cùng Sở Du lịch TP. Hồ Chí Minh tổ chức Ngày hội Du lịch TP. Hồ Chí Minh 2026 tại Khu B, Công viên 23/9. Mục tiêu chung của sự kiện hướng đến xúc tiến du lịch và văn hóa ẩm thực của thành phố. Riêng với Grab, sự kiện còn là nơi vinh danh các 
-
-- **[Thông tin mới nhất](https://www.grab.com/vn/blog/driver/)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: —
-  - Driver Blog Grab | Ghé Quán Tốt Bụng, thêm chút mát lòng 💚 Bike Driver Blog, Car Driver Blog, Driver Blog, Express Driver Blog Quý Đối tác thân mến, Mùa nắng nóng đang vào cao điểm, nhưng những cuốc xe vẫn đều đặn lăn bánh mỗi ngày. Sau mỗi chuyến đi an toàn, mỗi đơn hàng được giao đún [..] Read Mor
-
-- **[Đặc quyền người dùng GrabVIP](https://www.grab.com/vn/blog/dac-quyen-grabvip/)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: —
-  - Thứ Ba Tháng Tư 7th, 2026 Đặc quyền người dùng GrabVIP Khám phá Đặc quyền GrabVIP từ các đối tác của Grab Chương trình GrabVIP là gì? GrabVIP là chương trình mang đến các đặc quyền dành riêng cho người dùng VIP khi sử dụng dịch vụ Grab. Các đặc quyền cơ bản của người dùng GrabVIP Đặc quyền GrabVIP t
-
-- **[GRABUNLIMITED – FREESHIP MỌI ĐƠN, ƯU ĐÃI MỌI CHUYẾN XE](https://www.grab.com/vn/blog/he-hoi-vien-grabunlimited/)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: —
-  - Thứ Ba Tháng Tư 7th, 2026 GRABUNLIMITED – FREESHIP MỌI ĐƠN, ƯU ĐÃI MỌI CHUYẾN XE Quyền lợi hội viên GrabUnlimited <Cập nhật từ tháng 4/2026 – dành cho Hệ Hội Viên> Bạn đã tham gia #GrabUnlimited chưa? Lễ này, đi mall cho mát, hay mở tiệc tại gia, hay vi vu xả láng, ví vẫn nhẹ nhàng. GU chơi lễ kiểu 
-
-- **[All](https://www.grab.com/vn/blog/?page=1)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: —
-  - Grab Blog Ưu đãi ngân hàng ACB Passenger Blog Ưu đãi khi sử dụng thẻ ACB thanh toán khi đặt Grab Muốn ăn ngon thì phải vào bếp, nhưng muốn ăn vừa ngon vừa rẻ thì nhớ thanh toán bằng thẻ ACB khi đặt Grab. Ưu [..] Read More Ưu đãi ngân hàng HD Bank Passenger Blog Ưu đãi khi sử dụng thẻ HD Bank thanh t
-
-- **[Community](https://www.grab.com/vn/blog/grab-community?page=1)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: —
-  - Grab Blog Ưu đãi ngân hàng ACB Passenger Blog Ưu đãi khi sử dụng thẻ ACB thanh toán khi đặt Grab Muốn ăn ngon thì phải vào bếp, nhưng muốn ăn vừa ngon vừa rẻ thì nhớ thanh toán bằng thẻ ACB khi đặt Grab. Ưu [..] Read More Ưu đãi ngân hàng HD Bank Passenger Blog Ưu đãi khi sử dụng thẻ HD Bank thanh t
-
-- **[News](https://www.grab.com/vn/blog/news?page=1)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: —
-  - Grab Blog Ưu đãi ngân hàng ACB Passenger Blog Ưu đãi khi sử dụng thẻ ACB thanh toán khi đặt Grab Muốn ăn ngon thì phải vào bếp, nhưng muốn ăn vừa ngon vừa rẻ thì nhớ thanh toán bằng thẻ ACB khi đặt Grab. Ưu [..] Read More Ưu đãi ngân hàng HD Bank Passenger Blog Ưu đãi khi sử dụng thẻ HD Bank thanh t
-
-- **[Driven by Tech](https://www.grab.com/vn/blog/driven-by-tech?page=1)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: —
-  - Grab Blog Ưu đãi ngân hàng ACB Passenger Blog Ưu đãi khi sử dụng thẻ ACB thanh toán khi đặt Grab Muốn ăn ngon thì phải vào bếp, nhưng muốn ăn vừa ngon vừa rẻ thì nhớ thanh toán bằng thẻ ACB khi đặt Grab. Ưu [..] Read More Ưu đãi ngân hàng HD Bank Passenger Blog Ưu đãi khi sử dụng thẻ HD Bank thanh t
-
-- **[Pulse of Vietnam](https://www.grab.com/vn/blog/pulse-of-vietnam?page=1)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: —
-  - Grab Blog Ưu đãi ngân hàng ACB Passenger Blog Ưu đãi khi sử dụng thẻ ACB thanh toán khi đặt Grab Muốn ăn ngon thì phải vào bếp, nhưng muốn ăn vừa ngon vừa rẻ thì nhớ thanh toán bằng thẻ ACB khi đặt Grab. Ưu [..] Read More Ưu đãi ngân hàng HD Bank Passenger Blog Ưu đãi khi sử dụng thẻ HD Bank thanh t
-
 - **[Thử thách của Tín](https://www.grab.com/vn/blog/thu-thach-cua-tin/)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: —
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: 2026-05-12
   - Thứ Ba Tháng Năm 12th, 2026 Thử thách của Tín Các bạn sinh viên ơi! Grab chính thức khởi động Thử thách “Bản đồ bung sức mùa thi cùng Grab” với nhiều phần quà vô cùng hấp dẫn trong tháng 05 tới đây. Hãy cùng Grab khám phá thể lệ chi tiết của Thử thách này nhé! 🏁 THÔNG TIN TỔNG QUAN VỀ THỬ THÁCH Tên 
 
-- **[🚀 THAM GIA THỬ THÁCH “BẢN ĐỒ BUNG SỨC MÙA THI CÙNG GRAB” CÙNG GRAB SINH VIÊN🎁](https://www.grab.com/vn/blog/%f0%9f%9a%80-tham-gia-thu-thach-ban-do-bung-suc-mua-thi-cung-grab-cung-grab-sinh-vien%f0%9f%8e%81/)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: —
-  - Thứ Năm Tháng Năm 7th, 2026 🚀 THAM GIA THỬ THÁCH “BẢN ĐỒ BUNG SỨC MÙA THI CÙNG GRAB” CÙNG GRAB SINH VIÊN🎁 Các bạn sinh viên ơi! Grab chính thức khởi động Thử thách “Bản đồ bung sức mùa thi cùng Grab” với nhiều phần quà vô cùng hấp dẫn trong tháng 05 tới đây. Hãy cùng Grab khám phá thể lệ chi tiết củ
+## Market Pulse (81)
 
-- **[AI in action](https://www.grab.com/sg/inside-grab/ai-in-action/)**
-  - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
-  - AI in action All stories Perspectives Solutions Product innovation All stories Rides Food and deliveries Financial services Enterprise Autonomous Technology GrabX Tracing our impact All stories Environment Social impact Marketplace principles All stories Fares and pricing Matching Inside scoop All s
-
-- **[Perspectives](https://www.grab.com/sg/inside-grab/ai-in-action/perspectives/)**
-  - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
-  - AI in action All stories Perspectives Solutions Product innovation All stories Rides Food and deliveries Financial services Enterprise Autonomous Technology GrabX Tracing our impact All stories Environment Social impact Marketplace principles All stories Fares and pricing Matching Inside scoop All s
-
-- **[Solutions](https://www.grab.com/sg/inside-grab/ai-in-action/solutions/)**
-  - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
-  - AI in action All stories Perspectives Solutions Product innovation All stories Rides Food and deliveries Financial services Enterprise Autonomous Technology GrabX Tracing our impact All stories Environment Social impact Marketplace principles All stories Fares and pricing Matching Inside scoop All s
-
-- **[Product innovation](https://www.grab.com/sg/inside-grab/product-innovation/)**
-  - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
-  - AI in action All stories Perspectives Solutions Product innovation All stories Rides Food and deliveries Financial services Enterprise Autonomous Technology GrabX Tracing our impact All stories Environment Social impact Marketplace principles All stories Fares and pricing Matching Inside scoop All s
-
-- **[Rides](https://www.grab.com/sg/inside-grab/product-innovation/rides/)**
-  - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
-  - AI in action All stories Perspectives Solutions Product innovation All stories Rides Food and deliveries Financial services Enterprise Autonomous Technology GrabX Tracing our impact All stories Environment Social impact Marketplace principles All stories Fares and pricing Matching Inside scoop All s
-
-- **[Food and deliveries](https://www.grab.com/sg/inside-grab/product-innovation/food-and-deliveries/)**
-  - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
-  - AI in action All stories Perspectives Solutions Product innovation All stories Rides Food and deliveries Financial services Enterprise Autonomous Technology GrabX Tracing our impact All stories Environment Social impact Marketplace principles All stories Fares and pricing Matching Inside scoop All s
-
-- **[Financial services](https://www.grab.com/sg/inside-grab/product-innovation/financial-services/)**
-  - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
-  - AI in action All stories Perspectives Solutions Product innovation All stories Rides Food and deliveries Financial services Enterprise Autonomous Technology GrabX Tracing our impact All stories Environment Social impact Marketplace principles All stories Fares and pricing Matching Inside scoop All s
-
-- **[Enterprise](https://www.grab.com/sg/inside-grab/product-innovation/enterprise/)**
-  - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
-  - AI in action All stories Perspectives Solutions Product innovation All stories Rides Food and deliveries Financial services Enterprise Autonomous Technology GrabX Tracing our impact All stories Environment Social impact Marketplace principles All stories Fares and pricing Matching Inside scoop All s
-
-- **[Autonomous Technology](https://www.grab.com/sg/inside-grab/product-innovation/autonomous-technology/)**
-  - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
-  - AI in action All stories Perspectives Solutions Product innovation All stories Rides Food and deliveries Financial services Enterprise Autonomous Technology GrabX Tracing our impact All stories Environment Social impact Marketplace principles All stories Fares and pricing Matching Inside scoop All s
-
-- **[GrabX](https://www.grab.com/sg/inside-grab/product-innovation/grabx/)**
-  - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
-  - AI in action All stories Perspectives Solutions Product innovation All stories Rides Food and deliveries Financial services Enterprise Autonomous Technology GrabX Tracing our impact All stories Environment Social impact Marketplace principles All stories Fares and pricing Matching Inside scoop All s
-
-- **[Tracing our impact](https://www.grab.com/sg/inside-grab/tracing-our-impact/)**
-  - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
-  - AI in action All stories Perspectives Solutions Product innovation All stories Rides Food and deliveries Financial services Enterprise Autonomous Technology GrabX Tracing our impact All stories Environment Social impact Marketplace principles All stories Fares and pricing Matching Inside scoop All s
-
-- **[Environment](https://www.grab.com/sg/inside-grab/tracing-our-impact/environment/)**
-  - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
-  - AI in action All stories Perspectives Solutions Product innovation All stories Rides Food and deliveries Financial services Enterprise Autonomous Technology GrabX Tracing our impact All stories Environment Social impact Marketplace principles All stories Fares and pricing Matching Inside scoop All s
-
-- **[Social impact](https://www.grab.com/sg/inside-grab/tracing-our-impact/social-impact/)**
-  - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
-  - AI in action All stories Perspectives Solutions Product innovation All stories Rides Food and deliveries Financial services Enterprise Autonomous Technology GrabX Tracing our impact All stories Environment Social impact Marketplace principles All stories Fares and pricing Matching Inside scoop All s
-
-- **[Marketplace principles](https://www.grab.com/sg/inside-grab/marketplace-principles/)**
-  - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
-  - AI in action All stories Perspectives Solutions Product innovation All stories Rides Food and deliveries Financial services Enterprise Autonomous Technology GrabX Tracing our impact All stories Environment Social impact Marketplace principles All stories Fares and pricing Matching Inside scoop All s
-
-- **[Fares and pricing](https://www.grab.com/sg/inside-grab/marketplace-principles/fares-and-pricing/)**
-  - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
-  - AI in action All stories Perspectives Solutions Product innovation All stories Rides Food and deliveries Financial services Enterprise Autonomous Technology GrabX Tracing our impact All stories Environment Social impact Marketplace principles All stories Fares and pricing Matching Inside scoop All s
-
-- **[Matching](https://www.grab.com/sg/inside-grab/marketplace-principles/matching/)**
-  - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
-  - AI in action All stories Perspectives Solutions Product innovation All stories Rides Food and deliveries Financial services Enterprise Autonomous Technology GrabX Tracing our impact All stories Environment Social impact Marketplace principles All stories Fares and pricing Matching Inside scoop All s
-
-- **[Inside scoop](https://www.grab.com/sg/inside-grab/inside-scoop/)**
-  - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
-  - AI in action All stories Perspectives Solutions Product innovation All stories Rides Food and deliveries Financial services Enterprise Autonomous Technology GrabX Tracing our impact All stories Environment Social impact Marketplace principles All stories Fares and pricing Matching Inside scoop All s
-
-- **[From our leaders](https://www.grab.com/sg/inside-grab/inside-scoop/from-our-leaders/)**
-  - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
-  - AI in action All stories Perspectives Solutions Product innovation All stories Rides Food and deliveries Financial services Enterprise Autonomous Technology GrabX Tracing our impact All stories Environment Social impact Marketplace principles All stories Fares and pricing Matching Inside scoop All s
-
-- **[Industry trends](https://www.grab.com/sg/inside-grab/inside-scoop/industry-trends/)**
-  - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
-  - AI in action All stories Perspectives Solutions Product innovation All stories Rides Food and deliveries Financial services Enterprise Autonomous Technology GrabX Tracing our impact All stories Environment Social impact Marketplace principles All stories Fares and pricing Matching Inside scoop All s
-
-- **[Drivers and passengers weren’t sure where to access our safety tools. Here’s what we did](https://www.grab.com/sg/inside-grab/stories/drivers-and-passengers-finding-safety-tools/)**
-  - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
-  - AI in action All stories Perspectives Solutions Product innovation All stories Rides Food and deliveries Financial services Enterprise Autonomous Technology GrabX Tracing our impact All stories Environment Social impact Marketplace principles All stories Fares and pricing Matching Inside scoop All s
-
-- **[How Grab’s Legal team automated contract reviews without losing expert control](https://www.grab.com/sg/inside-grab/stories/how-grabs-legal-team-automated-contract-reviews-without-losing-expert-control/)**
-  - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
-  - AI in action All stories Perspectives Solutions Product innovation All stories Rides Food and deliveries Financial services Enterprise Autonomous Technology GrabX Tracing our impact All stories Environment Social impact Marketplace principles All stories Fares and pricing Matching Inside scoop All s
-
-- **[Grab’s ESG progress in 2025: Rising as One](https://www.grab.com/sg/inside-grab/stories/grabs-esg-progress-in-2025-rising-as-one/)**
-  - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
-  - AI in action All stories Perspectives Solutions Product innovation All stories Rides Food and deliveries Financial services Enterprise Autonomous Technology GrabX Tracing our impact All stories Environment Social impact Marketplace principles All stories Fares and pricing Matching Inside scoop All s
-
-- **[We introduced Group Ride for people to ride together and save on fares](https://www.grab.com/sg/inside-grab/stories/grabx-group-ride-save-fares/)**
-  - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
-  - AI in action All stories Perspectives Solutions Product innovation All stories Rides Food and deliveries Financial services Enterprise Autonomous Technology GrabX Tracing our impact All stories Environment Social impact Marketplace principles All stories Fares and pricing Matching Inside scoop All s
-
-### MoMo (3)
-
-- **[Bạn mới nhập mã CHONMOMO: Có quà 500.000đ giảm nhiều dịch vụ, thêm tiền thưởng đến 1 triệu](https://momo.vn/tin-tuc/khuyen-mai/ban-moi-nhap-ma-chonmomo-co-qua-500000d-giam-8225)**
-  - signal: `3.52` (4 - Strategic shift) · R1/R2: `3.0`/`4.3` · source: `momo_newsroom` · published: —
-  - Bạn mới nhập mã CHONMOMO: Có quà 500.000đ giảm nhiều dịch vụ, thêm tiền thưởng đến 1 triệu Khuyến mãi · 01/04/2026 · 12.2K lượt xem Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Chọn MoMo - chọn linh hoạt chi tiêu: Nhận ngay bộ thẻ quà 500.000đ giảm mọi dịch vụ & lì xì đến 1 triệu khi 
-
-- **[[15.5 - 31.5] HOÀN ĐẾN 8.686Đ KHI TỰ CHUYỂN 2K TỪ NGÂN HÀNG ĐẾN SĐT MOMO CỦA BẢN THÂN](https://momo.vn/tin-tuc/khuyen-mai/155-315-hoan-den-8686d-khi-tu-chuyen-2k-tu-ngan-8717)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `momo_newsroom` · published: —
-  - [15.5 - 31.5] HOÀN ĐẾN 8.686Đ KHI TỰ CHUYỂN 2K TỪ NGÂN HÀNG ĐẾN SĐT MOMO CỦA BẢN THÂN Khuyến mãi · 15/05/2026 Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn MoMo thưởng đến 8.686Đ cho bạn khi thực hiện giao dịch tự chuyển 2K từ app Ngân hàng đến SĐT MoMo của chính mình. Thời gian diễn r
-
-- **[Mỗi lần thanh toán hoá đơn, thêm mầm xanh được tích luỹ](https://momo.vn/tin-tuc/thong-bao/moi-lan-thanh-toan-hoa-don-them-mam-xanh-duoc-8709)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `momo_newsroom` · published: —
-  - Mỗi lần thanh toán hoá đơn, thêm mầm xanh được tích luỹ Thông báo · 12/05/2026 Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Thay vì chỉ là những giao dịch thanh toán thông thường, giờ đây với Green Hub - Góp hóa đơn trồng rừng trên MoMo, mỗi hóa đơn bạn chi trả đều mang lại giá trị đó
-
-### Shopee (5)
-
-- **[[QUAN TRỌNG] CẬP NHẬT CHÍNH SÁCH GÓI VOUCHER XTRA VÀ CONTENT XTRA DÀNH CHO TẤT CẢ NGƯỜI BÁN TỪ THÁNG 09/2025](https://banhang.shopee.vn/edu/article/25901)**
-  - signal: `3.58` (4 - Strategic shift) · R1/R2: `3.5`/`3.7` · source: `shopee_seller_blog` · published: —
-
-- **[Tính năng phân bổ đơn vị vận chuyển tự động cho Người bán trên Shopee](https://banhang.shopee.vn/edu/article/17468)**
-  - signal: `3.28` (3 - Market signal) · R1/R2: `3.0`/`3.7` · source: `shopee_seller_blog` · published: —
-
-- **[Tỷ lệ sản phẩm bật kênh Hỏa Tốc đối với Shopee Mall/Shop Yêu Thích+](https://banhang.shopee.vn/edu/article/27364)**
-  - signal: `3.28` (3 - Market signal) · R1/R2: `3.0`/`3.7` · source: `shopee_seller_blog` · published: —
-
-- **[[QUAN TRỌNG] CẬP NHẬT VỀ PHÍ DÀNH CHO NGƯỜI BÁN KHÔNG THUỘC SHOPEE MALL TỪ NGÀY 23/05/2026](https://banhang.shopee.vn/edu/article/27540)**
-  - signal: `3.28` (3 - Market signal) · R1/R2: `3.0`/`3.7` · source: `shopee_seller_blog` · published: —
-
-- **[BẢN TIN LỄ GIỖ TỔ & 30/4 - 1/5 2026](https://banhang.shopee.vn/edu/article/27402)**
-  - signal: `3.28` (3 - Market signal) · R1/R2: `3.0`/`3.7` · source: `shopee_seller_blog` · published: —
-
-### Telegram (15)
-
-- **[Mini Apps 2.0: Full-Screen Mode, Home Screen Icons, Geolocation and 10 more features](https://telegram.org/blog/fullscreen-miniapps-and-more)**
-  - signal: `4.0` (4 - Strategic shift) · R1/R2: `4.0`/`4.0` · source: `telegram_blog` · published: —
-  - Today we launch the largest update in the history of mini apps. They get a full-screen mode, subscription plans, home screen shortcuts, sending gifts, sharing media, creating documents, access to geolocation, motion tracker, setting emoji statuses — and more. Mini apps are now able to use the entire
-
-- **[Affiliate Programs, AI-Powered Sticker Search, Collages, and More](https://telegram.org/blog/affiliate-programs-ai-sticker-search)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `telegram_blog` · published: —
-  - Today, we’re bringing exciting news for content creators and mini app developers on Telegram. Creators now have a simple way to monetize their efforts (and earn Stars!), while mini app developers gain a powerful tool to attract new users . In addition, Telegram users can now find stickers with AI an
-
-- **[Guest AI Bots, Bot-to-Bot Chats, Chat Automation, Custom AI Styles, 100M+ Emoji & Sticker Search and Much More](https://telegram.org/blog/ai-bot-revolution-11-new-features)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `telegram_blog` · published: —
-  - Today's update is an AI Bot revolution and more, adding over 10 new features and hundreds of improvements to Telegram: Telegram is the only platform where all AI models can compete freely — while users have full control over their experience. AI assistants and automated tools built as Telegram bots 
-
-- **[Member Tags, Login with Telegram, Disable Sharing, GIF Editing, Date Formatting, Voting Timestamps](https://telegram.org/blog/member-tags-disable-sharing-and-more)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `telegram_blog` · published: —
-  - In today's update, we add tags to help group members show who they are, a setting to disable sharing messages in specific 1-on-1 chats, GIF editing and captions , new tools for signing up and logging in to apps and websites with Telegram — and more. Members in group chats can now add a tag next to t
-
-- **[Android Redesign, Group Ownership Transfer, Gift Crafting, Colored Bot Buttons](https://telegram.org/blog/crafting-android-design-and-more)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `telegram_blog` · published: —
-  - This release adds the biggest interface update in the history of Telegram for Android , a crafting system to generate exclusive new gifts — and much more. Telegram for Android has a fully redesigned interface that makes navigation and search even quicker and more intuitive . The new bottom bar lets 
-
-- **[AI Summaries, New Design and More](https://telegram.org/blog/new-design-ai-summaries)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `telegram_blog` · published: —
-  - Telegram's first update of 2026 brings even more Liquid Glass interfaces on iOS and AI summaries for channel posts and Instant View pages — built to maximize privacy and protect user data . Long posts in channels can now be instantly summarized — to recap the latest news and stay productive. Instant
-
-- **[Passkeys, Gift Purchase Offers and More](https://telegram.org/blog/passkeys-and-gift-offers)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `telegram_blog` · published: —
-  - In today's update, we add secure passkeys for instant login without SMS codes, gift purchase offers with built-in scam protection, and a simple way to add audio from your profile to stories. You can now create a passkey on your device to instantly log in to Telegram with a PIN or biometric data like
-
-- **[Live Stories, Repeated Messages, Auctions for Gifts and More](https://telegram.org/blog/live-stories-gift-auctions)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `telegram_blog` · published: —
-  - In today's update, you can start a stream with a live chat in your Telegram Story. We've also added repeating scheduled messages , an auction system for new gifts that ensures fair distribution — and more. Every Telegram user can now host live streams in Telegram Stories to share experiences in real
-
-- **[Comments in Group Calls, Notes for Contacts, Suggested Birthdays and More](https://telegram.org/blog/comments-in-video-chats-threads-for-bots)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `telegram_blog` · published: —
-  - In today's update we're launching live comments and reactions in group calls and video chats, notes for contacts, suggested birthdays , new ways to customize your profile colors — plus threaded chats and response streaming for AI bots, improvements for gifts , Liquid Glass on iOS , and more. Partici
-
-- **[Music on Profiles, Stickers Mini App, New Profiles, and More](https://telegram.org/blog/profile-music-gift-themes)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `telegram_blog` · published: —
-  - In today’s update, you can add music to your profile, choose a default profile tab , set unique chat themes based on your collectible gifts, help your friends upgrade their gifts — and more. Audio files from any of your chats can now be added to your profile with a single tap in the media player. On
-
-- **[Public Post Search, Story Albums, Gift Collections and More](https://telegram.org/blog/post-search-story-albums-and-more)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `telegram_blog` · published: —
-  - Today's update introduces global search for public posts on Telegram, sorting stories into albums and organizing gifts into collections, managing bots via a new stylish mini app — and so much more. Search now has a 'Posts' tab, where you can see relevant results from public channels . This makes it 
-
-- **[Checklists, Suggested Posts and More Monetization Options for Channels](https://telegram.org/blog/checklists-suggested-posts)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `telegram_blog` · published: —
-  - Today's update introduces checklists to help teams and individuals track tasks without leaving Telegram. We've also added suggested posts — a safe, easy way to organize partnerships and promotions with channels, opening new opportunities for creators to crowdsource and monetize content. Premium user
-
-- **[Direct Messages for Channels, Voice Trimming, Topic Tabs and HD Photos](https://telegram.org/blog/direct-to-channel-trim-voice-and-more)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `telegram_blog` · published: —
-  - In today's update, we add new ways for users to start conversations with their favorite channels, navigate topics more efficiently, trim voice messages before sending, send photos in higher quality — and more. You can now send direct messages to channels and have private chats with owners and admins
-
-- **[Gift Marketplace, Posting Several Stories at Once, Auto-Translate For Channels](https://telegram.org/blog/gift-marketplace-and-more)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `telegram_blog` · published: —
-  - Introducing Telegram’s second major update in just 8 days! You can now safely buy or sell collectible gifts in the new marketplace. The story editor lets you post multiple stories at once or split long videos into several stories. Channels can enable auto-translation so everyone sees posts in their 
-
-- **[Wear Collectible Gifts, Move Gifts to the Blockchain, Send Gifts to Channels, and More](https://telegram.org/blog/wear-gifts-blockchain-and-more)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `telegram_blog` · published: —
-  - Today's update adds 6 new features to Telegram, including the ability to wear collectible gifts as an emoji status, move gifts to the blockchain, send gifts to channels — and more. Gifts that you upgrade to collectibles can now be used as a unique emoji status . Using a gift as your status gives it 
-
-### WhatsApp (8)
-
-- **[Helping billions ring in the New Year on WhatsApp](https://blog.whatsapp.com/helping-billions-ring-in-the-new-year-on-whatsapp)**
-  - signal: `3.52` (4 - Strategic shift) · R1/R2: `3.0`/`4.3` · source: `whatsapp_blog` · published: —
-  - New Year’s is our biggest day at WhatsApp, with each year breaking new records for how people text and call their friends and loved ones. On a regular day, we support over 100 billion messages and 2 billion calls - but the twenty four hours when the world welcomes a New Year always tops our charts. 
-
-- **[Introducing Incognito Chat with Meta AI: A completely private way to chat with AI](https://blog.whatsapp.com/introducing-incognito-chat-with-meta-ai-a-completely-private-way-to-chat-with-ai)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `whatsapp_blog` · published: —
-  - Chatting with AI has quickly become a critical part of how people get information and ask important questions. And many of these questions can be deeply sensitive, or include situations where people are including private financial, personal, health or work data with their questions. Ten years ago we
-
-- **[New Feature Roundup: Free up space, multiple accounts, cross-platform transfer and more](https://blog.whatsapp.com/new-feature-roundup-free-up-space-multiple-accounts-cross-platform-transfer-and-more)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `whatsapp_blog` · published: —
-  - Over time, our chats become a record of the moments that matter: conversations with family, laughs with friends, the photos and videos we couldn't stop sharing. To help you make the most of all of it, we're rolling out new ways to make WhatsApp even easier to use — whether you're staying organized, 
-
-- **[Introducing parent-managed accounts on WhatsApp](https://blog.whatsapp.com/introducing-parent-managed-accounts-on-whatsapp)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `whatsapp_blog` · published: —
-  - WhatsApp is the trusted way families communicate because it’s simple, private, and reliable. With input from families and experts, we're rolling out new parent-managed accounts that allow parents or guardians to set up WhatsApp for pre-teens, with new controls to limit their WhatsApp experience to m
-
-- **[WhatsApp's Latest Privacy Protection: Strict Account Settings](https://blog.whatsapp.com/whatsapps-latest-privacy-protection-strict-account-settings)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `whatsapp_blog` · published: —
-  - At WhatsApp, we think you should be able to have a private conversation online, just like you would in-person. We will always defend that right to privacy for everyone, starting with default end-to-end encryption. But we also know that a few of our users – like journalists or public-facing figures –
-
-- **[Level Up Your WhatsApp Group Chats With New Member Tags, Text Stickers, and More](https://blog.whatsapp.com/level-up-your-whatsapp-group-chats-with-new-member-tags-text-stickers-and-more)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `whatsapp_blog` · published: —
-  - It’s a new year and a great time for some upgrades to your group chats. Group chats on WhatsApp make it easier to stay connected with the people in your life no matter what device they own – whether it’s sharing New Year’s resolutions, preparing for that special celebration you have coming up, or pl
-
-- **[Reintroducing About: An improved way to share what you're up to](https://blog.whatsapp.com/reintroducing-about-an-improved-way-to-share-what-youre-up-to)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `whatsapp_blog` · published: —
-  - For those of you that have used WhatsApp from the very start, you’ll remember About was our first feature. Even before we brought the world private and secure messaging, we made it simple for you to quickly share what’s up in your life. Today we're reintroducing and improving About, making it more v
-
-- **[Introducing WhatsApp for Apple Watch](https://blog.whatsapp.com/introducing-whatsapp-for-apple-watch)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `whatsapp_blog` · published: —
-  - Today we are announcing a big upgrade for your wrist — the all-new WhatsApp app for your Apple Watch*. This new experience will help you stay on top of your chats without needing to pull out your iPhone. In addition to reading and responding to messages, for the first time WhatsApp on Apple Watch wi
-
-### Zalo (2)
-
-- **[Tin tức](https://zalopay.vn/tin-tuc/tin-tuc-su-kien)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `zalopay_news` · published: —
-  - Trang chủ Tin tức Tin tức Cập nhập thông tin mới nhất về ZaloPay Khuyến mãi - Ưu đãi Ưu đãi riêng cho người dùng ZaloPay Blog Chuyên trang cung cấp thông tin hữu ích Dịch vụ Chuyển tiền - Nhận tiền Miễn phí, an toàn, chuyển tiền Zalo chat Nạp tiền điện thoại Nạp ĐT - Mua thẻ ĐT - Data 3G/4G Thanh to
-
-- **[Khuyến mãi – Ưu Đãi](https://zalopay.vn/khuyen-mai/dac-biet)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `zalopay_promo` · published: —
-  - Trang chủ Tin tức Tin tức Cập nhập thông tin mới nhất về ZaloPay Khuyến mãi - Ưu đãi Ưu đãi riêng cho người dùng ZaloPay Blog Chuyên trang cung cấp thông tin hữu ích Dịch vụ Chuyển tiền - Nhận tiền Miễn phí, an toàn, chuyển tiền Zalo chat Nạp tiền điện thoại Nạp ĐT - Mua thẻ ĐT - Data 3G/4G Thanh to
-
-## Market Pulse (89)
-
-### Trong nước (2)
+### Trong nước (1)
 
 - **[Thu giữ loạt hàng giả ở Saigon Square, chợ Bến Thành](https://vnexpress.net/thu-giu-loat-hang-gia-o-saigon-square-cho-ben-thanh-5074046.html)**
   - signal: `3.42` (4 - Strategic shift) · R1/R2: `3.7`/`3.0` · source: `vnexpress_kinhdoanh` · published: 2026-05-14
   - Quản lý thị trường TP HCM vừa kiểm tra đột xuất Saigon Square và chợ Bến Thành thu giữ nhiều hàng giả, không rõ nguồn gốc và xử phạt hơn nửa tỷ đồng.
-
-- **[The Wise Talk số 6: "Sự trỗi dậy của công nghệ bảo hiểm- Insurtech"](https://vneconomy.vn/techconnect/the-wise-talk-so-6-su-troi-day-cua-cong-nghe-bao-hiem-insurtech-e330.htm)**
-  - signal: `3.42` (4 - Strategic shift) · R1/R2: `3.7`/`3.0` · source: `vneconomy_techconnect` · published: —
-  - The Wise Talk số 6: "Sự trỗi dậy của công nghệ bảo hiểm- Insurtech" CEO Saladin: Lòng tin của người tiêu dùng là yếu tố vô cùng quan trọng trong ngành bảo hiểm 13:00 03/04/2023 CEO Saladin: Lòng tin của người tiêu dùng là yếu tố vô cùng quan trọng trong ngành bảo hiểm 13:00 03/04/2023 Ứng dụng công 
 
 ### Trung quốc (12)
 
@@ -392,7 +99,7 @@
   - signal: `2.4` (2 - Minor signal) · R1/R2: `2.0`/`3.0` · source: `scmp_tech` · published: 2026-05-13
   - Chinese memory module manufacturers are accelerating the release of consumer and enterprise storage products powered by domestic DDR5 chips, as breakthroughs by ChangXin Memory Technologies (CXMT), the nation’s leading memory chipmaker, filter through the supply chain. Powev, one of China’s major me
 
-### Quốc tế (75)
+### Quốc tế (68)
 
 - **[Google adds Gemini-powered dictation to Gboard, which could be bad news for dictation startups](https://techcrunch.com/2026/05/12/google-adds-gemini-powered-dictation-to-gboard-which-could-be-bad-news-for-dictation-startups/)**
   - signal: `3.24` (3 - Market signal) · R1/R2: `3.6`/`2.7` · source: `techcrunch_apps` · published: 2026-05-12
@@ -438,6 +145,10 @@
   - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `vnexpress_khcn` · published: 2026-05-15
   - Sony A7 R VI trang bị cảm biến xếp chồng (full stack) 67 megapixel, chip AI thế hệ mới, khả năng quay video 8K và giá 114 triệu đồng.
 
+- **[Sam Altman 'lộ' khối tài sản hơn 2 tỷ USD từ đối tác của OpenAI](https://vnexpress.net/sam-altman-lo-khoi-tai-san-hon-2-ty-usd-tu-doi-tac-cua-openai-5073854.html)**
+  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `vnexpress_khcn` · published: 2026-05-14
+  - Tài liệu tòa án cho thấy Sam Altman có cổ phần hơn hai tỷ USD tại hàng loạt công ty đang bắt tay với OpenAI.
+
 - **[Điện thoại Trump T1 bắt đầu được giao hàng](https://vnexpress.net/dien-thoai-trump-t1-bat-dau-duoc-giao-hang-5073733.html)**
   - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `vnexpress_khcn` · published: 2026-05-14
   - Sau nhiều tháng trì hoãn, công ty Trump Mobile thông báo đang giao điện thoại T1 cho khách hàng đã đặt cọc 100 USD.
@@ -454,18 +165,6 @@
   - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `vnexpress_kinhdoanh` · published: 2026-05-15
   - Vietnam Airlines dự kiến lỗ trong quý II, khiến lợi nhuận nửa đầu năm 2026 xuống mức âm dù quý I vừa lãi kỷ lục hơn 4.500 tỷ.
 
-- **[Cerebras IPO Winners Include Foundation, Benchmark—and OpenAI](https://www.theinformation.com/articles/cerebras-ipo-winners-include-foundation-benchmark-openai?offer=ab-25&utm_content=article_push&utm_medium=organic&utm_campaign=AB_post&utm_term=AB_post)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `theinformation_tech` · published: —
-  - Save 25% and Subscribe to The Information These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or fi
-
-- **[In-depth insights in seconds. Ask Deep Research.](https://www.theinformation.com/deep-research)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `theinformation_tech` · published: —
-  - How does Anthropic's $30 billion annualized revenue compare to OpenAI's? What does SpaceX's Cursor deal reveal about its AI strategy? Why are AI companies relying more on human labor again? How quickly can AI exploit real-world cybersecurity flaws?
-
-- **[Anthropic and OpenAI’s Share of AI Startup Revenues Rises to 89%](https://www.theinformation.com/articles/anthropic-openais-share-ai-startup-revenues-rises-89)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `theinformation_tech` · published: —
-  - Subscribe to read the full article These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling i
-
 - **[Building a safe, effective sandbox to enable Codex on Windows](https://openai.com/index/building-codex-windows-sandbox/)**
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `openai_news` · published: 2026-05-13
   - May 13, 2026 Engineering Security Building a safe, effective sandbox to enable Codex on Windows By David Wiesen, Member of Technical Staff Share When I joined the Codex engineering team in September 2025, Codex for Windows didn’t have a sandbox implementation meaning that Windows users were forced t
@@ -473,10 +172,6 @@
 - **[Our response to the TanStack npm supply chain attack](https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack/)**
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `openai_news` · published: 2026-05-13
   - May 13, 2026 Company Security Our response to the TanStack npm supply chain attack Share We recently identified a security issue involving a common open-source library, TanStack npm, that is part of a broader attack known as Mini Shai-Hulud ⁠ (opens in a new window) . We found no evidence that OpenA
-
-- **[OpenAI Campus Network: Student club interest form](https://openai.com/index/openai-campus-network-student-club-interest-form/)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `openai_news` · published: —
-  - May 11, 2026 Company OpenAI Campus Network: Student club interest form Join a global network of student leaders building AI-native campuses. Share We’re partnering with student clubs across universities worldwide to: Bring hands-on AI learning to campus Support student-led events, workshops, and res
 
 - **[OpenAI launches the OpenAI Deployment Company to help businesses build around intelligence](https://openai.com/index/openai-launches-the-deployment-company/)**
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `openai_news` · published: 2026-05-13
@@ -522,6 +217,10 @@
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `meta_newsroom` · published: 2026-05-13
   - Today, we’re introducing Instants, a new way to share photos in the moment with your Close Friends or mutual followers with just a tap. Photos you share on Instants disappear after they’ve been viewed and can’t be viewed after 24 hours. You also can’t edit your instants before sharing, so you can sh
 
+- **[Introducing a Completely Private Way to Chat With AI](https://about.fb.com/news/2026/05/incognito-chat-whatsapp-meta-ai/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `meta_newsroom` · published: 2026-05-13
+  - Chatting with AI has quickly become a critical part of how people get information and ask important questions. These questions can be deeply sensitive or personal, like health issues, loan details, or career advice. Today, we’re launching Incognito Chat with Meta AI on WhatsApp and the Meta AI app, 
+
 - **[New Supervision Tools Give Parents Insights Into Their Teen’s Algorithm and More](https://about.fb.com/news/2026/05/new-supervision-tools-parents-insights-teens-algorithm/)**
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `meta_newsroom` · published: 2026-05-12
   - Today, we’re making it easier for parents to manage and supervise their teen’s experiences across Instagram, Meta Horizon, Facebook, and Messenger by consolidating the parental tools in Family Center. We’re also giving parents new insights to better understand their teen’s algorithm on Instagram and
@@ -549,6 +248,10 @@
 - **[How to turn off Instagram’s new Instants feature and retract photos you accidentally shared](https://techcrunch.com/2026/05/14/how-to-turn-of-instagrams-new-instants-feature-and-retract-photos-you-accidentally-shared/)**
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_apps` · published: 2026-05-14
   - While the Meta-owned social network billed Instants as a new format to share real-life moments as they’re happening, many users are looking for a way  to turn off the feature, especially those who have accidentally sent images to others, not fully understanding how the feature works.
+
+- **[Amazon launches an AI shopping assistant for the search bar, powered by Alexa+](https://techcrunch.com/2026/05/13/amazon-launches-an-ai-shopping-assistant-for-the-search-bar-powered-by-alexa/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_apps` · published: 2026-05-13
+  - Alexa for Shopping offers a voice- and touch-enabled shopping experience across mobile, desktop, and Echo Show smart displays. Alexa for Shopping provides more personalized recommendations and automates the shopping experience across Amazon and other online retailers.
 
 - **[WhatsApp adds an incognito mode in Meta AI chats](https://techcrunch.com/2026/05/13/whatsapp-adds-an-incognito-mode-in-meta-ai-chats/)**
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_apps` · published: 2026-05-13
@@ -658,29 +361,9 @@
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vnexpress_kinhdoanh` · published: 2026-05-14
   - Nhờ sức nâng đỡ của cổ phiếu Vingroup, chứng khoán hôm nay tiếp tục ghi nhận kỷ lục mới, đóng cửa ở trên mốc 1.925 điểm.
 
-- **[Talent Tracker:The Executives Leading the Data Center Race](https://www.theinformation.com/projects/data-center-executives)** 🚩HUMAN_REVIEW
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `theinformation_tech` · published: —
-  - Talent Tracker: The Executives Leading the Data Center Race The artificial intelligence arms race has elevated a once-obscure corner of the technology world: the executives building the physical infrastructure for AI. We highlighted the 16 executives who are emerging as the industry's most critical 
-
-- **[Why Trump Officials and VCs Love This Nuclear Power Startup’s Brute-Force Approach](https://www.theinformation.com/articles/trump-officials-vcs-love-nuclear-power-startups-brute-force-approach)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `theinformation_tech` · published: —
-  - Subscribe to read the full article These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling i
-
-- **[Why Anthropic Costs Are Unpredictable](https://www.theinformation.com/newsletters/applied-ai/anthropic-costs-unpredictable)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `theinformation_tech` · published: —
-  - Subscribe to read the full article These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling i
-
-- **[Gates Foundation Sells Remaining Microsoft Stake](https://www.theinformation.com/briefings/gates-foundation-sells-remaining-microsoft-stake)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `theinformation_tech` · published: —
-  - Read this briefing for free These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms
-
-- **[The SpaceXAI Exodus: More Than 50 Recent Exits as Meta, Thinking Machines Hire Staff](https://www.theinformation.com/articles/spacexai-exodus-50-recent-exits-meta-thinking-machines-hire-staff)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `theinformation_tech` · published: —
-  - Subscribe to read the full article These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling i
-
-- **[SpaceX Picks Nasdaq for Mid-June IPO](https://www.theinformation.com/briefings/spacex-picks-nasdaq-mid-june-ipo)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `theinformation_tech` · published: —
-  - Read this briefing for free These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms
+- **[Quản lý vỉa hè minh bạch hơn nhờ công nghệ](https://baotintuc.vn/video/quan-ly-via-he-minh-bach-hon-nho-cong-nghe-20260517221259840.htm)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `baotintuc_money` · published: 2026-05-17
+  - Từ ngày 15/5, phường An Đông (TP Hồ Chí Minh) triển khai ứng dụng đăng ký và thanh toán trực tuyến sử dụng tạm thời lòng đường, vỉa hè bằng mã QR. Mô hình này giúp người dân giảm thủ tục đi lại, tăng tính minh bạch trong quản lý và là bước thử nghiệm đáng chú ý trong chuyển đổi số đô thị tại cơ sở.
 
 - **[Apple’s New ChatGPT-Like Siri App Will Have Auto-Deleting Chats](https://www.bloomberg.com/news/newsletters/2026-05-17/ios-27-siri-app-to-have-auto-deleting-chats-siri-may-be-a-beta-genmoji-mp9udydr)**
   - signal: `2.52` (3 - Market signal) · R1/R2: `2.6`/`2.4` · source: `bloomberg_tech` · published: 2026-05-17
@@ -689,7 +372,3 @@
 - **[OpenAI says Codex is coming to your phone](https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/)**
   - signal: `2.52` (3 - Market signal) · R1/R2: `2.6`/`2.4` · source: `techcrunch_ai` · published: 2026-05-14
   - The update gives users enhanced flexibility over how they can manage their workflows.
-
-- **[Enterprise Software StartupTakeover List](https://www.theinformation.com/projects/enterprise-saas-takeover-list)**
-  - signal: `2.28` (2 - Minor signal) · R1/R2: `2.0`/`2.7` · source: `theinformation_tech` · published: —
-  - Many startups that sell cloud-based software to businesses are struggling in the aftermath of the pandemic’s low interest rates, which encouraged businesses to spend more on tools to help employees work remotely and investors to pour tens of billions of dollars into these startups. Many of these sta
