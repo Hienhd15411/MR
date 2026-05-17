@@ -42,6 +42,19 @@ def _build_one(entry: dict[str, Any]) -> BaseCrawler | None:
                                       else "news"),
                 player=entry.get("player"),
             )
+        if kind == "html":
+            from src.crawlers.html_listing import HtmlListingCrawler
+
+            return HtmlListingCrawler(
+                name=key,
+                list_url=entry["list_url"],
+                scope=entry.get("scope", "domestic"),
+                type_=entry.get("type", "market_pulse"),
+                source_type=entry.get("source_type",
+                                      "website" if entry.get("type") == "players_movement"
+                                      else "news"),
+                player=entry.get("player"),
+            )
         if kind == "playwright":
             cls = _load_class(entry["module"])
             return cls()

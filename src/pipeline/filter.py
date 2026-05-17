@@ -1,24 +1,30 @@
-"""Round 1 (Scanning) filter — matches anh's Excel `Scanning` sheet rule.
+"""4-Tier filter — Market Watch Crawler Instructions v2, Section 2.
 
-Rule:
-    KEEP if  (tracked_player OR adjacent_player OR vertical_match)
-             AND NOT (exclude_pattern OR noise_title)
-    DROP otherwise
+Decision per article (source_priority comes from sources.yaml):
 
-Themes / business signals / relevance score are still computed and stashed
-on the article as METADATA for the AI Round 2 step. They are NOT gates —
-Round 1 deliberately over-includes so Round 2 (AI manual via Claude Code)
-has a candidate pool of ~300-500 articles to curate down to ~30-50 that
-make the report.
+    IF source_priority == 0:              KEEP, Players Movement
+    ELSE:
+      has_t1, has_t3 (exception-aware), t2_count, t4_trigger
+      IF has_t1 AND has_t3:               KEEP + HUMAN_REVIEW (Tier 4)
+      ELIF has_t3:                         DISCARD  (T3 reason code)
+      ELIF has_t1:                         KEEP
+      ELIF t2_count >= 2:                  KEEP
+      ELIF t4_trigger:                     KEEP + HUMAN_REVIEW
+      ELSE:                                DISCARD  (NO_KEYWORD)
 
-Reference: references/MR26001_MarketWatch_Database.xlsx → sheet
-`Scanning` (Bước 1, Round 1) and `Database` (480 rows produced by it).
+Also computes (Section 2.5 / 2.6):
+  - topic_group       Market Pulse | Players Movement
+  - sub_topic_group   geography (Trong nước/SEA/Trung quốc/Quốc tế) or player
+  - review_flag       True when HUMAN_REVIEW
+  - discard_reason    code when discarded (else "")
+The chosen verdict is stashed on the article as private attributes
+consumed by the scoring stage + the Excel sinks.
 """
 from __future__ import annotations
 
 import re
 import unicodedata
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Iterable
 
@@ -27,360 +33,226 @@ from loguru import logger
 
 from src.storage.models import ArticleType, RawArticle, Status
 
-CATEGORIES_YAML = Path(__file__).resolve().parents[1] / "config" / "categories.yaml"
-
-# Source name → player mapping. Articles from these player-blog sources
-# are auto-tagged as that player even when the title doesn't mention the
-# brand (player promo titles like "5.5 Sale" or "Happy Friday" come
-# from grab_vn_blog / momo_newsroom / zalopay_news and obviously belong
-# to that player).
-_SOURCE_TO_PLAYER = {
-    "momo_newsroom": "MoMo",
-    "grab_vn_blog": "Grab",
-    "grab_merchant_vn": "Grab",
-    "zalopay_news": "Zalo",
-    "zalopay_promo": "Zalo",
-    "zalo_oa_news": "Zalo",
-    "whatsapp_blog": "WhatsApp",
-    "telegram_blog": "Telegram",
-    "shopee_seller_blog": "Shopee",
-    "tiktokshop_seller_blog": "TikTokShop",
-}
+TIERS_YAML = Path(__file__).resolve().parents[1] / "config" / "tiers.yaml"
+SOURCES_YAML = Path(__file__).resolve().parents[1] / "config" / "sources.yaml"
 
 
-def _player_for_source(source: str) -> str | None:
-    return _SOURCE_TO_PLAYER.get(source)
-
-
-# Bonuses kept for downstream sort + Round 2 prioritisation.
-_TRACKED_PLAYER_BONUS = 5
-_ADJACENT_PLAYER_BONUS = 1
-_BUSINESS_SIGNAL_BONUS = 1
-
-# Title-level noise patterns. If the article title matches any of these,
-# we drop it regardless of theme/player score — these are clickbait,
-# opinion, explainer, lifestyle, ticker or rumour articles that aren't
-# strategic intel even when they mention a tracked brand.
-_NOISE_TITLE_PATTERNS = [
-    # NOTE: question titles are NOT dropped anymore — anh's Database
-    # keeps many "Vì sao DN X thất bại?", "Có gì ở mô hình AI Y?" because
-    # they are market-analysis explainers. Round 2 AI will filter.
-    # Lifestyle / health clickbait — keep only specific shape patterns.
-    re.compile(r"^\s*(bí quyết|mẹo|tips)\b", re.IGNORECASE),
-    re.compile(r"^\s*cách\s+(làm|sử dụng|đăng ký|nhận|kích hoạt|tải|kiếm tiền)\b",
-               re.IGNORECASE),
-    re.compile(r"\b(hủy hoại|đe doạ).+(bộ não|sức khỏe|sức khoẻ)\b",
-               re.IGNORECASE),
-    # Price tickers (commodity, not strategic)
-    re.compile(r"\bgiá\s+(bitcoin|btc|eth|vàng|usd|xăng|dầu)\b", re.IGNORECASE),
-    re.compile(r"\b(tỷ giá|tỉ giá)\b", re.IGNORECASE),
-    re.compile(r"\bbitcoin hôm nay\b", re.IGNORECASE),
-    # Rumours / leaks (gadget speculation)
-    re.compile(r"\b(rò rỉ|lộ\s+(diện|thông tin|thiết kế|cấu hình|tính năng)|"
-               r"sắp\s+(khai tử|ngừng))\b", re.IGNORECASE),
-    # Pure gadget reviews / preview titles — narrow scope only
-    re.compile(r"^\s*(đánh giá|review|trên tay|hands-on)\s+"
-               r"(iphone|samsung|galaxy|macbook|laptop|tablet|smartphone|"
-               r"điện thoại|máy tính|tai nghe|đồng hồ|smartwatch)",
-               re.IGNORECASE),
-    re.compile(r"\b(unboxing|so sánh chi tiết)\b", re.IGNORECASE),
-    # Listicle markers
-    re.compile(r"^\s*(top\s+\d+|\d+\s+(điều|cách|lý do|bí mật|mẹo))",
-               re.IGNORECASE),
-    # Title starts with emoji
-    re.compile(r"^\s*[\U0001F300-\U0001FAFF☀-➿]+"),
-    # Vague single-word nav titles
-    re.compile(r"^\s*(thông báo|thông cáo|sự kiện|cộng đồng|khuyến mãi|"
-               r"thư viện|ưu đãi)\s*$", re.IGNORECASE),
-    # Gadget release with price tag in title (consumer launch)
-    re.compile(r"\bgiá\s+(từ\s+)?\d+([\.,]\d+)?\s*(triệu|tr|nghìn|usd|\$)",
-               re.IGNORECASE),
-    # Vehicle / motorbike releases
-    re.compile(r"\bxe\s+(côn\s+tay|máy\s+điện|tay\s+ga)\b", re.IGNORECASE),
-]
-
-
-def _is_noise_title(title: str) -> bool:
-    if not title:
-        return True  # empty title = drop
-    # Drop if too short / no real content
-    if len(title.strip()) < 10:
-        return True
-    # Drop if more than 70% uppercase letters (banner / promo all-caps)
-    letters = [c for c in title if c.isalpha()]
-    if letters:
-        upper_ratio = sum(1 for c in letters if c.isupper()) / len(letters)
-        if upper_ratio > 0.7 and len(letters) > 6:
-            return True
-    for pat in _NOISE_TITLE_PATTERNS:
-        if pat.search(title):
-            return True
-    return False
-
+# ---------------------------------------------------------------------------
+# keyword pattern helpers (word-boundary, accent-aware, acronym-safe)
+# ---------------------------------------------------------------------------
 
 def _strip_accents(text: str) -> str:
     nfkd = unicodedata.normalize("NFKD", text)
     return "".join(c for c in nfkd if not unicodedata.combining(c))
 
 
-def _is_acronym(keyword: str) -> bool:
-    kw = keyword.strip()
+def _is_acronym(kw: str) -> bool:
+    kw = kw.strip()
     if not kw or " " in kw or len(kw) > 8 or not kw.isascii():
         return False
     return kw.isupper() and any(c.isalpha() for c in kw)
 
 
-def _build_pattern(keyword: str, case_sensitive: bool = False) -> re.Pattern[str]:
+def _pattern(keyword: str) -> re.Pattern[str]:
     kw = keyword.strip()
     flags = re.UNICODE
-    if not case_sensitive:
+    if not _is_acronym(kw):
         flags |= re.IGNORECASE
-    escaped = re.escape(kw)
-    return re.compile(rf"(?<![\w]){escaped}(?![\w])", flags)
+    return re.compile(rf"(?<![\w]){re.escape(kw)}(?![\w])", flags)
 
 
-@dataclass
-class CategoryHit:
-    category: str
-    subcategory: str | None = None
-    keyword: str = ""
-
-
-@dataclass
-class _CompiledCategory:
-    name: str
-    weight: int
-    patterns: list[tuple[re.Pattern[str], str]]
-    subcategories: list[tuple[str, list[tuple[re.Pattern[str], str]]]]
-
-
-def _compile_keyword_block(block: dict) -> list[tuple[re.Pattern[str], str]]:
-    out: list[tuple[re.Pattern[str], str]] = []
-    for kw in block.get("keywords", []) or []:
-        cs = _is_acronym(kw)
-        out.append((_build_pattern(kw, case_sensitive=cs), kw))
-        accent_free = _strip_accents(kw)
-        if accent_free != kw and len(accent_free) >= 6 and " " in accent_free.strip():
-            out.append((_build_pattern(accent_free, case_sensitive=False), kw))
-    return out
-
-
-def _compile_categories(raw: dict) -> dict[str, list[_CompiledCategory]]:
-    sections: dict[str, list[_CompiledCategory]] = {}
-    for section, cats in raw.items():
-        if not isinstance(cats, dict):
+def _compile_list(words: Iterable[str]) -> list[re.Pattern[str]]:
+    pats: list[re.Pattern[str]] = []
+    for w in words:
+        if not w:
             continue
-        compiled: list[_CompiledCategory] = []
-        for name, body in cats.items():
-            body = body or {}
-            weight = int(body.get("weight", 1))
-            patterns = _compile_keyword_block(body)
-            subs: list[tuple[str, list[tuple[re.Pattern[str], str]]]] = []
-            for sub_name, sub_body in (body.get("subcategories") or {}).items():
-                subs.append((sub_name, _compile_keyword_block(sub_body)))
-            compiled.append(_CompiledCategory(name=name, weight=weight,
-                                              patterns=patterns,
-                                              subcategories=subs))
-        sections[section] = compiled
-    return sections
+        pats.append(_pattern(w))
+        accent_free = _strip_accents(w)
+        if accent_free != w and len(accent_free) >= 6 and " " in accent_free.strip():
+            pats.append(_pattern(accent_free))
+    return pats
 
 
-class EditorialClassifier:
-    """Editor-in-chief briefing the V-app CEO."""
-
-    def __init__(self, yaml_path: Path = CATEGORIES_YAML):
-        with yaml_path.open(encoding="utf-8") as f:
-            raw = yaml.safe_load(f) or {}
-        self._sections = _compile_categories(raw)
-
-    @staticmethod
-    def _haystack(article: RawArticle) -> str:
-        parts = [article.title_original or "", article.content_snippet or ""]
-        text = " ".join(parts)
-        return text + " || " + _strip_accents(text)
-
-    @staticmethod
-    def _title_haystack(article: RawArticle) -> str:
-        """Title-only haystack — used for player attribution.
-
-        A player is the article's *subject* only when it appears in the
-        title. A passing mention in the body (e.g. an Indonesia
-        regulation article that mentions Grab once) should stay in
-        Market Pulse, not be re-routed to Players Movement.
-        """
-        text = article.title_original or ""
-        return text + " || " + _strip_accents(text)
-
-    def _first_hit(
-        self, haystack: str, cats: list[_CompiledCategory]
-    ) -> CategoryHit | None:
-        for cat in cats:
-            for pat, kw in cat.patterns:
-                if pat.search(haystack):
-                    sub = None
-                    for sub_name, sub_pats in cat.subcategories:
-                        if any(p.search(haystack) for p, _ in sub_pats):
-                            sub = sub_name
-                            break
-                    return CategoryHit(category=cat.name, subcategory=sub, keyword=kw)
-        return None
-
-    def _all_hits(
-        self, haystack: str, cats: list[_CompiledCategory]
-    ) -> list[tuple[str, int]]:
-        """Return [(category_name, weight)] for every category that matches."""
-        out: list[tuple[str, int]] = []
-        seen: set[str] = set()
-        for cat in cats:
-            if cat.name in seen:
-                continue
-            for pat, _ in cat.patterns:
-                if pat.search(haystack):
-                    out.append((cat.name, cat.weight))
-                    seen.add(cat.name)
-                    break
-        return out
-
-    def _has_business_signal(self, haystack: str) -> tuple[bool, str | None]:
-        for cat in self._sections.get("business_signals", []):
-            for pat, _ in cat.patterns:
-                if pat.search(haystack):
-                    return True, cat.name
-            for sub_name, sub_pats in cat.subcategories:
-                for pat, _ in sub_pats:
-                    if pat.search(haystack):
-                        return True, f"{cat.name}/{sub_name}"
-        return False, None
-
-    def _matches_exclude_pattern(self, haystack: str) -> str | None:
-        """Drop based on EXCLUDE keyword list from Excel Scanning sheet."""
-        for cat in self._sections.get("exclude_patterns", []):
-            for pat, _ in cat.patterns:
-                if pat.search(haystack):
-                    return cat.name
-        return None
-
-    def classify(self, article: RawArticle) -> RawArticle:
-        haystack = self._haystack(article)
-        title_haystack = self._title_haystack(article)
-
-        # ---- Source-based player auto-tag ----
-        # Articles from player blog sources belong to that player even
-        # when the title is a generic promo line ("5.5 Sale", "Happy
-        # Friday") that doesn't mention the brand.
-        source_player = _player_for_source(article.source)
-
-        # ---- Always compute metadata (used by Round 2 / sort / render) ----
-        # tracked = subject of the article (player keyword in TITLE)
-        # mentioned_anywhere = also includes passing mentions in body
-        tracked = [n for n, _ in self._all_hits(
-            title_haystack, self._sections.get("players", []))]
-        if source_player and source_player not in tracked:
-            tracked.insert(0, source_player)
-        tracked_anywhere = [n for n, _ in self._all_hits(
-            haystack, self._sections.get("players", []))]
-        if source_player and source_player not in tracked_anywhere:
-            tracked_anywhere.insert(0, source_player)
-        adjacent = [n for n, _ in self._all_hits(
-            haystack, self._sections.get("adjacent_players", []))]
-        themes = self._all_hits(haystack, self._sections.get("strategic_themes", []))
-        has_signal, signal_type = self._has_business_signal(haystack)
-
-        score = sum(w for _, w in themes)
-        if tracked:
-            score += _TRACKED_PLAYER_BONUS
-        if adjacent and not tracked:
-            score += _ADJACENT_PLAYER_BONUS
-        if has_signal:
-            score += _BUSINESS_SIGNAL_BONUS
-
-        # Mentioned players list includes passing-mention tracked + adjacent
-        article._mentioned_players = ", ".join(tracked_anywhere + adjacent)  # type: ignore[attr-defined]
-        article._business_signal = signal_type  # type: ignore[attr-defined]
-        article._matched_themes = ", ".join(name for name, _ in themes)  # type: ignore[attr-defined]
-        article._relevance_score = score  # type: ignore[attr-defined]
-
-        # ---- Round 1 (Scanning) gates ----
-        # Only TITLE-tracked players bypass noise/exclude (their own promo
-        # & content all belong in Players Movement). Passing mentions in
-        # body don't grant bypass — those go through the normal MP flow.
-        if not tracked:
-            # Gate 1: hard title noise (clickbait, ticker, gadget review).
-            if _is_noise_title(article.title_original or ""):
-                article.status = Status.FILTERED_OUT
-                article._exclude_reason = "noise_title"  # type: ignore[attr-defined]
-                return article
-
-            # Gate 2: explicit exclude patterns from anh's Excel Scanning sheet.
-            excl = self._matches_exclude_pattern(haystack)
-            if excl is not None:
-                article.status = Status.FILTERED_OUT
-                article._exclude_reason = excl  # type: ignore[attr-defined]
-                return article
-
-        # Gate 3: must match Cluster 1 (player) OR Cluster 2 (vertical).
-        # That's it — no signal / no threshold gating. We also accept a
-        # strategic_theme hit as in-scope, since anh's editorial concerns
-        # include policy keywords (Thông tư, VNeID…) that aren't in the
-        # vertical keyword lists.
-        in_scope = (
-            bool(tracked) or bool(tracked_anywhere) or bool(adjacent)
-            or bool(themes)
-        )
-        mp_hit = self._first_hit(haystack, self._sections.get("market_pulse", []))
-        if mp_hit is not None:
-            in_scope = True
-
-        if not in_scope:
-            article.status = Status.FILTERED_OUT
-            article._exclude_reason = "no_player_or_vertical_match"  # type: ignore[attr-defined]
-            return article
-
-        # ---- Output classification ----
-        if tracked:
-            article.type = ArticleType.PLAYERS_MOVEMENT
-            article.player = tracked[0]
-            pm_hit = self._first_hit(
-                haystack, self._sections.get("players_movement_categories", []))
-            if pm_hit is not None:
-                article.pre_category = (
-                    f"{pm_hit.category}/{pm_hit.subcategory}"
-                    if pm_hit.subcategory else pm_hit.category
-                )
-            else:
-                article.pre_category = None
-            return article
-
-        article.type = ArticleType.MARKET_PULSE
-        if mp_hit is not None:
-            article.pre_category = (
-                f"{mp_hit.category}/{mp_hit.subcategory}"
-                if mp_hit.subcategory else mp_hit.category
-            )
-        else:
-            article.pre_category = None
-        return article
+def _any(pats: list[re.Pattern[str]], hay: str) -> bool:
+    return any(p.search(hay) for p in pats)
 
 
-# Backwards-compatible alias for existing imports.
-CategoryClassifier = EditorialClassifier
+def _count(pats: list[re.Pattern[str]], hay: str) -> int:
+    return sum(1 for p in pats if p.search(hay))
 
 
-def apply_filter(articles: Iterable[RawArticle]) -> list[RawArticle]:
-    """Classify and rank articles. Highest relevance first."""
-    clf = EditorialClassifier()
-    out: list[RawArticle] = []
-    kept = filtered = 0
-    for a in articles:
-        clf.classify(a)
-        if a.status == Status.FILTERED_OUT:
-            filtered += 1
-        else:
-            kept += 1
-        out.append(a)
-    out.sort(key=lambda a: -getattr(a, "_relevance_score", 0))
-    logger.info(
-        "Round 1 (Scanning): kept={} filtered_out={}",
-        kept, filtered,
-    )
+@dataclass
+class _Tier3Block:
+    code: str
+    keywords: list[re.Pattern[str]]
+    exception: list[re.Pattern[str]]
+
+
+@dataclass
+class FilterVerdict:
+    keep: bool
+    topic_group: str = "Market Pulse"
+    sub_topic_group: str = "Quốc tế"
+    review_flag: bool = False
+    discard_reason: str = ""
+    matched_keywords: list[str] = field(default_factory=list)
+
+
+def _source_priority_map() -> dict[str, int]:
+    with SOURCES_YAML.open(encoding="utf-8") as f:
+        cfg = yaml.safe_load(f) or {}
+    out: dict[str, int] = {}
+    for section in ("news", "players"):
+        for entry in cfg.get(section) or []:
+            out[entry["key"]] = int(entry.get("priority", 1))
     return out
+
+
+class TierFilter:
+    def __init__(self, tiers_path: Path = TIERS_YAML):
+        with tiers_path.open(encoding="utf-8") as f:
+            raw = yaml.safe_load(f) or {}
+
+        # Flatten Tier-1 and Tier-2 keyword groups
+        self._t1 = _compile_list(
+            kw for grp in (raw.get("tier1") or {}).values() for kw in grp
+        )
+        self._t1_words = [
+            kw for grp in (raw.get("tier1") or {}).values() for kw in grp
+        ]
+        self._t2 = _compile_list(
+            kw for grp in (raw.get("tier2") or {}).values() for kw in grp
+        )
+
+        self._t3: list[_Tier3Block] = []
+        for blk in (raw.get("tier3") or {}).values():
+            self._t3.append(
+                _Tier3Block(
+                    code=blk.get("code", "T3"),
+                    keywords=_compile_list(blk.get("keywords") or []),
+                    exception=_compile_list(blk.get("exception") or []),
+                )
+            )
+
+        geo = raw.get("geography") or {}
+        self._geo_vn = _compile_list(geo.get("vn") or [])
+        self._geo_sea = _compile_list(geo.get("sea") or [])
+        self._geo_tq = _compile_list(geo.get("tq") or [])
+
+        self._priority = _source_priority_map()
+
+    # ---- helpers -------------------------------------------------------
+
+    @staticmethod
+    def _haystack(a: RawArticle) -> str:
+        text = f"{a.title_original or ''} {a.content_snippet or ''}"
+        return text + " || " + _strip_accents(text)
+
+    def _geography(self, hay: str) -> str:
+        if _any(self._geo_vn, hay):
+            return "Trong nước"
+        if _any(self._geo_sea, hay):
+            return "SEA"
+        if _any(self._geo_tq, hay):
+            return "Trung quốc"
+        return "Quốc tế"
+
+    def _tier3_hit(self, hay: str) -> tuple[bool, str]:
+        """Return (fired, code). A block fires only if a keyword matches
+        AND no exception keyword matches."""
+        for blk in self._t3:
+            if _any(blk.keywords, hay):
+                if blk.exception and _any(blk.exception, hay):
+                    continue  # exception rescues it
+                return True, blk.code
+        return False, ""
+
+    # ---- main ----------------------------------------------------------
+
+    def classify(self, a: RawArticle, source_key: str) -> FilterVerdict:
+        hay = self._haystack(a)
+        priority = self._priority.get(source_key, 1)
+
+        # Section 2.6 / 2.5 geography first (always computed)
+        geo = self._geography(hay)
+
+        # Priority 0 — player blog → always KEEP, Players Movement
+        if priority == 0:
+            v = FilterVerdict(keep=True, topic_group="Players Movement",
+                              sub_topic_group=a.player or "Players")
+            return v
+
+        has_t1 = _any(self._t1, hay)
+        t3_fired, t3_code = self._tier3_hit(hay)
+        t2_count = _count(self._t2, hay)
+
+        # Tier-4 ambiguity triggers (Section 2.4).
+        # NOT a blanket keep: only when there's a weak signal worth a
+        # human glance — clickbait-prone source, OR exactly one Tier-2
+        # keyword in a too-short article.
+        short_article = len((a.content_snippet or "").split()) < 30
+        t4_trigger = (priority == 3 and t2_count >= 1) or (
+            t2_count == 1 and short_article
+        )
+
+        topic_group = "Market Pulse"
+        sub_topic = geo
+        # Player-movement detection (Section 2.6) for non-priority-0
+        if a.player and a.type == ArticleType.PLAYERS_MOVEMENT:
+            topic_group = "Players Movement"
+            sub_topic = a.player
+
+        # Decision tree (Section 2)
+        if has_t1 and t3_fired:
+            return FilterVerdict(keep=True, topic_group=topic_group,
+                                 sub_topic_group=sub_topic, review_flag=True)
+        if t3_fired:
+            return FilterVerdict(keep=False, discard_reason=t3_code)
+        if has_t1:
+            return FilterVerdict(keep=True, topic_group=topic_group,
+                                 sub_topic_group=sub_topic)
+        if t2_count >= 2:
+            return FilterVerdict(keep=True, topic_group=topic_group,
+                                 sub_topic_group=sub_topic)
+        if t4_trigger:
+            return FilterVerdict(keep=True, topic_group=topic_group,
+                                 sub_topic_group=sub_topic, review_flag=True)
+        return FilterVerdict(keep=False, discard_reason="NO_KEYWORD")
+
+
+def apply_filter(
+    articles: Iterable[tuple[RawArticle, str]]
+) -> tuple[list[RawArticle], list[RawArticle]]:
+    """Classify (article, source_key) pairs.
+
+    Returns (kept, discarded). Verdict fields are stashed on each
+    article as private attrs for the scoring stage + Excel sinks.
+    """
+    flt = TierFilter()
+    kept: list[RawArticle] = []
+    discarded: list[RawArticle] = []
+    flagged = 0
+    for a, src in articles:
+        v = flt.classify(a, src)
+        a._topic_group = v.topic_group              # type: ignore[attr-defined]
+        a._sub_topic_group = v.sub_topic_group      # type: ignore[attr-defined]
+        a._review_flag = v.review_flag              # type: ignore[attr-defined]
+        a._discard_reason = v.discard_reason        # type: ignore[attr-defined]
+        if v.keep:
+            a.status = Status.NEW
+            kept.append(a)
+            if v.review_flag:
+                flagged += 1
+        else:
+            a.status = Status.FILTERED_OUT
+            discarded.append(a)
+    logger.info(
+        "Tier filter: kept={} discarded={} flagged_human_review={}",
+        len(kept), len(discarded), flagged,
+    )
+    return kept, discarded
+
+
+# Backwards-compatible alias for older imports/tests.
+CategoryClassifier = TierFilter
+EditorialClassifier = TierFilter

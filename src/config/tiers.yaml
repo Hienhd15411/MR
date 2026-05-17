@@ -1,0 +1,715 @@
+# Filtering tiers — transcribed verbatim from Market Watch Crawler
+# Instructions v2, Section 2. Used by src/pipeline/filter.py.
+#
+# Filter logic (Section 2):
+#   IF source_priority == 0:                  KEEP (Players Movement)
+#   ELSE:
+#     has_t1 = any Tier-1 keyword
+#     has_t3 = any Tier-3 keyword (no exception-platform mention)
+#     IF has_t1 AND has_t3:                    KEEP + HUMAN_REVIEW (Tier 4)
+#     ELIF has_t3 (and not has_t1):            DISCARD  (log T3 reason)
+#     ELIF has_t1:                             KEEP
+#     ELIF >=2 Tier-2 keywords:                KEEP
+#     ELIF Tier-4 ambiguous trigger:           KEEP + HUMAN_REVIEW
+#     ELSE:                                    DISCARD (NO_KEYWORD)
+
+tier1:
+  ai_models:
+    - ChatGPT
+    - GPT-5
+    - GPT-5.5
+    - GPT-5.4
+    - GPT-5.3
+    - GPT-4
+    - GPT-4o
+    - GPT-3
+    - GPT-3.5
+    - Claude
+    - Claude Opus
+    - Claude Sonnet
+    - Claude Haiku
+    - Claude Code
+    - Gemini
+    - Gemini Pro
+    - Gemini Ultra
+    - Gemini Flash
+    - Gemini Nano
+    - DeepSeek
+    - DeepSeek V4
+    - DeepSeek R1
+    - Llama
+    - Mistral
+    - Qwen
+    - Ernie
+    - Doubao
+    - Grok
+    - Perplexity
+    - Mythos
+    - Copilot
+    - Codex
+    - Sora
+    - Nano Banana
+    - Veo
+    - Apple Intelligence
+    - Siri
+    - Personal Intelligence
+  ai_vendors:
+    - OpenAI
+    - Anthropic
+    - xAI
+    - Meta AI
+    - Google AI
+    - Microsoft AI
+    - DeepMind
+    - Mistral AI
+    - Cohere
+    - Hugging Face
+    - Stability AI
+    - Midjourney
+  ai_concepts:
+    - LLM
+    - large language model
+    - generative AI
+    - Gen AI
+    - AI agent
+    - agentic AI
+    - agentic
+    - AI search
+    - AI assistant
+    - AI coding
+    - AI chatbot
+    - AI image
+    - AI voice
+    - AI dictation
+    - AI translation
+    - AI customer service
+    - OpenClaw
+    - MCP
+    - multi-modal
+    - foundation model
+    - AI Subscription
+    - AI pricing change
+    - AI Revenue stream
+    - AI business model
+    - Sản phẩm AI thương mại mới
+  players_core:
+    - MoMo
+    - Zalo
+    - ZaloPay
+    - Grab
+    - Traveloka
+    - WhatsApp
+    - Telegram
+    - Shopee
+    - TikTok Shop
+    - TikTokShop
+  sub_services:
+    - GrabCar
+    - GrabBike
+    - GrabFood
+    - GrabPay
+    - GrabMart
+    - GrabExpress
+    - GrabKitchen
+    - GrabAds
+    - GrabClub
+    - Ví Trả Sau
+    - MoMo Pay
+    - ZaloPay QR
+    - Zalo OA
+    - Zalo Mini App
+    - TikTok Shop Vietnam
+  competitors:
+    - Gojek
+    - GoTo
+    - Gocar
+    - Gosend
+    - Gopay
+    - Uber
+    - Lyft
+    - DoorDash
+    - Meituan
+    - Xanh SM
+    - Be
+    - GSM
+    - Tada
+    - Lalamove
+    - Ahamove
+    - Lazada
+    - Amazon
+    - Etsy
+    - Alibaba
+    - Pinduoduo
+    - Taobao
+    - Tmall
+    - JD.com
+    - Xiaohongshu
+    - RedNote
+    - Sendo
+    - VnShop
+    - Tokopedia
+    - Bukalapak
+    - Sea Group
+    - eBay
+    - Coupang
+    - Booking.com
+    - Booking Holdings
+    - Expedia
+    - Vrbo
+    - Airbnb
+    - Trip.com
+    - Klook
+    - Agoda
+    - Vinpearl
+    - PayPal
+    - Stripe
+    - Apple Pay
+    - Google Pay
+    - Alipay
+    - AlipayHK
+    - WeChat Pay
+    - Ant Group
+    - Ant International
+    - PhonePe
+    - Airwallex
+    - Robinhood
+    - RedotPay
+    - Klarna
+    - Affirm
+    - Square
+    - Cash App
+    - Razorpay
+    - Paytm
+    - Disney
+    - Disney+
+    - Netflix
+    - Spotify
+    - Prime Video
+    - YouTube Premium
+    - Apple TV
+    - HBO Max
+    - Ticketbox
+    - Ticketmaster
+    - Snapchat
+    - Snap
+    - Threads
+    - Instagram
+    - Facebook
+    - Discord
+    - X (Twitter)
+    - Reddit
+    - WeChat
+    - Line
+    - KakaoTalk
+    - Viber
+    - Messenger
+  fintech:
+    - ví điện tử
+    - e-wallet
+    - mobile wallet
+    - digital wallet
+    - fintech
+    - payment
+    - thanh toán
+    - QR payment
+    - QR code thanh toán
+    - BNPL
+    - buy now pay later
+    - mua trước trả sau
+    - eKYC
+    - KYC
+    - biometric
+    - sinh trắc học
+    - nhận diện khuôn mặt
+    - vân tay
+    - cross-border payment
+    - thanh toán xuyên biên giới
+    - remittance
+    - kiều hối
+    - open banking
+    - banking API
+    - neobank
+    - digital bank
+    - ngân hàng số
+    - mobile banking
+    - internet banking
+    - stablecoin
+    - CBDC
+    - tiền số ngân hàng
+    - embedded finance
+    - lending app
+    - insurance tech
+    - insurtech
+    - bảo hiểm số
+    - micro-loan
+    - credit score
+  ecommerce:
+    - ecommerce
+    - TMĐT
+    - thương mại điện tử
+    - marketplace
+    - sàn TMĐT
+    - livestream commerce
+    - livestream bán hàng
+    - social commerce
+    - GMV
+    - merchant
+    - người bán
+    - seller
+    - dropshipping
+    - fulfillment
+    - last-mile
+    - agentic commerce
+    - agentic storefront
+    - discover-and-buy
+    - AI search shopping
+    - voice commerce
+    - conversational commerce
+    - omnichannel
+    - headless commerce
+    - headless cms
+  ride_food:
+    - ride-hailing
+    - gọi xe
+    - xe ôm công nghệ
+    - gọi xe công nghệ
+    - food delivery
+    - giao đồ ăn
+    - giao hàng
+    - delivery
+    - last-mile delivery
+    - courier
+    - tài xế công nghệ
+    - gig worker
+    - gig economy
+    - taxi công nghệ
+    - xe điện gọi xe
+    - drone delivery
+    - autonomous delivery
+  travel_ticket:
+    - OTA
+    - online travel agent
+    - travel platform
+    - booking platform
+    - super app travel
+    - travel aggregator
+    - travel super-app
+    - hotel booking integration
+    - flight booking integration
+    - vé máy bay tích hợp
+    - đặt phòng qua app
+    - vacation rental platform
+    - cruise booking
+    - concert ticketing
+    - event ticketing
+    - vé concert qua app
+    - travel industry
+    - OTA market
+    - travel commerce
+    - vé máy bay GMV
+    - hotel GMV
+    - RevPAR
+    - travel tech investment
+  chat_social:
+    - messaging app
+    - chat app
+    - social media platform
+    - mini app
+    - mini program
+    - super app chat
+    - group chat
+    - direct message
+    - voice message
+    - video call
+    - WhatsApp Pay
+    - Zalo OA
+    - Telegram Bot
+    - Telegram Stars
+    - Zalo Mini App
+  regulation:
+    - Luật AI
+    - AI policy
+    - AI act
+    - Luật TMĐT
+    - eCommerce regulation
+    - Luật fintech
+    - luật thanh toán
+    - luật tiền điện tử
+    - chính sách gig economy
+    - chính sách ride-hailing
+    - chính sách food-delivery
+    - data privacy
+    - child safety
+    - age verification
+    - social media regulation
+    - chat regulation
+
+tier2:
+  earnings:
+    - earnings
+    - revenue
+    - doanh thu
+    - GMV
+    - EBITDA
+    - profit
+    - lợi nhuận
+    - valuation
+    - định giá
+    - IPO
+    - M&A
+    - sáp nhập
+    - acquisition
+    - mua lại
+    - funding round
+    - gọi vốn
+    - Series A
+    - Series B
+    - Series C
+    - Series D
+    - unicorn
+  infrastructure:
+    - chip AI
+    - AI chip
+    - semiconductor
+    - semiconductor manufacturing
+    - data center
+    - AI infrastructure
+    - hạ tầng AI
+    - cloud computing
+    - edge computing
+    - 5G
+    - internet bandwidth
+  cybersecurity:
+    - data breach
+    - vi phạm dữ liệu
+    - hack
+    - phishing
+    - deepfake
+    - account takeover
+    - ransomware
+    - vulnerability
+    - lỗ hổng bảo mật
+    - OTP fraud
+  consumer_research:
+    - khảo sát người dùng
+    - consumer survey
+    - user adoption report
+    - sensor tower data
+    - app analytics
+    - market share report
+    - GMV report
+    - digital adoption report
+    - payment behavior report
+  tech_giants:
+    - Apple
+    - Google
+    - Microsoft
+    - Meta
+    - Amazon
+    - Samsung
+    - Xiaomi
+    - ByteDance
+    - Baidu
+    - Tencent
+    - Alibaba
+    - Sony
+    - Huawei
+    - Qualcomm
+    - NVIDIA
+    - TSMC
+    - Intel
+    - AMD
+  vn_banks:
+    - Vietcombank
+    - VCB
+    - BIDV
+    - HDBank
+    - Techcombank
+    - VietinBank
+    - Agribank
+    - VPBank
+    - MB Bank
+    - Sacombank
+    - ACB
+    - TPBank
+    - OCB
+    - MSB
+    - SHB
+    - LPBank
+    - Eximbank
+    - VietBank
+    - Public Bank
+    - Saigonbank
+    - Bac A Bank
+  vn_tech_corp:
+    - VNPT
+    - Viettel
+    - FPT
+    - VNG
+    - Garena
+    - VinFast
+    - Vingroup
+    - Masan
+    - VnPay
+    - NAPAS
+    - Misa
+    - KiotViet
+
+# Tier-3 EXCLUDE — each block has `keywords` and an `exception`
+# keyword list. If a Tier-3 keyword matches but ALSO an exception
+# keyword matches, the block does NOT fire (article may still be kept).
+tier3:
+  travel_tips:
+    code: T3_TRAVEL_TIPS
+    keywords:
+      - cẩm nang du lịch
+      - top địa điểm du lịch
+      - top resort
+      - top khách sạn
+      - review điểm đến
+      - khám phá ẩm thực
+      - must-visit
+      - best places to visit
+      - kinh nghiệm du lịch
+      - tips du lịch
+      - lưu trú nhà nghỉ
+      - homestay review
+      - food blog
+      - review nhà hàng
+    exception:
+      - Booking
+      - Expedia
+      - Traveloka
+      - Klook
+      - Agoda
+      - MoMo
+      - ZaloPay
+  entertainment:
+    code: T3_ENTERTAINMENT
+    keywords:
+      - concert tour BTS
+      - tour diễn Taylor
+      - concert review
+      - idol comeback
+      - fan meeting
+      - kpop news
+      - drama Hàn Quốc
+      - review phim
+      - top phim
+      - phim hot tuần
+      - bóc tách phim
+      - review series
+      - idol show
+      - music video debut
+      - album debut
+    exception:
+      - Netflix
+      - Disney+
+      - Prime Video
+      - Spotify
+      - Ticketbox
+      - super-app
+      - super app
+  hardware_review:
+    code: T3_HARDWARE_REVIEW
+    keywords:
+      - review iPhone
+      - review Samsung Galaxy
+      - review laptop
+      - review MacBook
+      - benchmark CPU
+      - benchmark GPU
+      - test hiệu năng
+      - unboxing
+      - hands-on
+      - đập hộp
+      - RAM upgrade
+      - SSD comparison
+      - screen comparison
+      - camera comparison
+      - gaming laptop review
+    exception:
+      - AI
+      - Apple Intelligence
+      - on-device AI
+      - AI chip
+      - Apple Silicon
+      - Snapdragon AI
+      - NFC
+      - ApplePay
+  sports:
+    code: T3_SPORTS
+    keywords:
+      - U23 Việt Nam
+      - World Cup
+      - Premier League
+      - EPL
+      - NBA
+      - MLB
+      - NHL
+      - NFL
+      - F1
+      - MotoGP
+      - Tour de France
+      - Olympic medal
+      - World Athletics
+      - Wimbledon
+      - Roland Garros
+      - AFC Asian Cup
+      - SEA Games
+      - ASIAD
+      - esports tournament
+      - LoL Worlds
+      - Dota 2 The International
+      - CS:GO Major
+    exception:
+      - streaming
+      - broadcast
+      - ticket platform
+      - sponsorship
+      - esports investment
+      - esports M&A
+      - super-app
+  crypto_speculation:
+    code: T3_CRYPTO_SPEC
+    keywords:
+      - Bitcoin giá
+      - BTC price
+      - ETH price
+      - altcoin pump
+      - memecoin
+      - crypto trading signal
+      - bullish crypto
+      - bearish crypto
+      - whale alert
+      - on-chain analysis
+      - NFT floor price
+      - NFT minting
+    exception:
+      - stablecoin
+      - CBDC
+      - crypto payment
+      - crypto wallet
+      - crypto regulation
+      - blockchain infrastructure
+  pure_politics:
+    code: T3_POLITICS
+    keywords:
+      - bầu cử
+      - đại hội Đảng
+      - kỳ họp Quốc hội
+      - ngoại giao quốc tế
+      - hội nghị thượng đỉnh
+      - chính trị Mỹ tổng thống
+      - NATO summit
+      - G7
+      - G20
+    exception:
+      - AI policy
+      - tech policy
+      - payment regulation
+      - eCommerce regulation
+      - data privacy law
+      - antitrust
+  personal_lifestyle:
+    code: T3_LIFESTYLE
+    keywords:
+      - phàn nàn cá nhân
+      - than phiền dịch vụ
+      - blog cá nhân chia sẻ
+      - vlog trải nghiệm
+      - story người dùng cá nhân
+      - beauty review cá nhân
+      - fashion personal style
+    exception:
+      - báo cáo
+      - khảo sát
+      - số liệu
+  healthcare:
+    code: T3_HEALTHCARE
+    keywords:
+      - phẫu thuật
+      - bệnh nhân
+      - lâm sàng
+      - clinical trial
+      - drug development
+      - vaccine clinical
+      - medical breakthrough
+      - dược phẩm điều trị
+    exception:
+      - AI healthcare app
+      - health AI subscription
+      - telemedicine platform
+  b2b_b2g_ai:
+    code: T3_B2BG_AI
+    keywords:
+      - AI cho cơ quan nhà nước
+      - AI cho công an
+      - AI quân sự
+      - AI cho chính phủ
+      - AI government
+      - civil service AI
+      - enterprise AI tool
+      - AI HR enterprise
+    exception:
+      - B2C
+      - precedent
+  workforce:
+    code: T3_WORKFORCE
+    keywords:
+      - AI workforce
+      - AI engineer demand
+      - data engineer
+      - AI talent
+      - reskilling AI
+    exception: []
+  other_regulation:
+    code: T3_OTHER_REG
+    keywords:
+      - luật doanh nghiệp
+      - luật thuế thuần
+      - quy định xây dựng
+      - quy định y tế
+      - quy định giáo dục
+    exception: []
+
+# Section 2.5 — geographic mapping (priority VN > SEA > TQ > Quốc tế)
+geography:
+  vn:
+    - Việt Nam
+    - "VN"
+    - Hà Nội
+    - TP.HCM
+    - Saigon
+    - Sài Gòn
+    - người Việt
+  sea:
+    - Indonesia
+    - Thailand
+    - Thái Lan
+    - Singapore
+    - Malaysia
+    - Philippines
+    - "SEA"
+    - ASEAN
+    - Đông Nam Á
+  tq:
+    - Trung Quốc
+    - China
+    - "TQ"
+    - Beijing
+    - Shanghai
+    - Shenzhen
+    - Hong Kong
+
+# Player-name → sub_topic_group for Players Movement
+players_movement:
+  - MoMo
+  - Zalo
+  - ZaloPay
+  - Grab
+  - Shopee
+  - TikTokShop
+  - WhatsApp
+  - Telegram
+  - Traveloka

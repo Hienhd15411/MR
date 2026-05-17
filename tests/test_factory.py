@@ -1,17 +1,23 @@
 from src.crawlers.factory import build_crawlers_from_yaml
-from src.crawlers.rss import RSSCrawler
 
 
-def test_factory_loads_news_and_players():
+def test_factory_loads_v2_sources():
     crawlers = build_crawlers_from_yaml()
     names = {c.name for c in crawlers}
-    # At least our flagship sources must be wired up.
-    assert "vnexpress_sohoa" in names
-    assert "techcrunch" in names
-    assert "momo_newsroom" in names
-    assert "grab_vn_blog" in names
-    # 23 = 21 news + 2 players (allow a small margin if YAML evolves).
-    assert len(crawlers) >= 20
+    # Spec v2 priority-0 players
+    for k in ["momo_newsroom", "grab_vn_blog", "grab_merchant_vn",
+              "zalopay_news", "shopee_seller_blog", "telegram_blog"]:
+        assert k in names, f"missing {k}"
+    # Spec v2 priority-1 media (html + rss)
+    for k in ["openai_news", "techcrunch_ai", "vnexpress_kinhdoanh",
+              "scmp_tech", "techinasia_fintech", "bloomberg_tech"]:
+        assert k in names, f"missing {k}"
+    # 36 sources total (25 news + 11 players)
+    assert len(crawlers) >= 30
 
-    rss_news = [c for c in crawlers if isinstance(c, RSSCrawler)]
-    assert len(rss_news) >= 18
+
+def test_html_crawler_type_built():
+    from src.crawlers.html_listing import HtmlListingCrawler
+
+    crawlers = {c.name: c for c in build_crawlers_from_yaml()}
+    assert isinstance(crawlers["openai_news"], HtmlListingCrawler)

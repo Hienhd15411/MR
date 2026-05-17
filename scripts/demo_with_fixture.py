@@ -39,12 +39,22 @@ async def main() -> None:
     # Bypass network: feed the RSS fixture directly.
     VnExpressSoHoa.fetch = fake_fetch  # type: ignore[assignment]
 
+    from src.pipeline.dedup import deduplicate
+    from src.pipeline.scoring import apply_scoring
+
     articles = await crawler.run(client=None)
-    articles = apply_filter(articles)
-    n_md = write_markdown(OUTPUT_MD, articles)
-    n_xlsx = write_excel(OUTPUT_XLSX, articles)
-    print(f"Wrote {n_md} articles to {OUTPUT_MD.relative_to(ROOT)}")
-    print(f"Wrote {n_xlsx} articles to {OUTPUT_XLSX.relative_to(ROOT)}")
+    for a in articles:
+        a._source_priority = 1  # type: ignore[attr-defined]
+    uniq, dups = deduplicate(articles)
+    kept, disc = apply_filter([(a, "vnexpress_khcn") for a in uniq])
+    apply_scoring(kept)
+    disc = dups + disc
+    audit = [["demo", "demo", "vnexpress_khcn",
+              len(articles), len(kept), len(disc), 0, ""]]
+    n_xlsx = write_excel(OUTPUT_XLSX, kept, disc, audit)
+    n_md = write_markdown(OUTPUT_MD, kept)
+    print(f"Wrote {n_md} kept rows to {OUTPUT_MD.relative_to(ROOT)}")
+    print(f"Wrote {n_xlsx} Database rows to {OUTPUT_XLSX.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":

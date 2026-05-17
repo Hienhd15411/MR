@@ -1,291 +1,306 @@
-# All sources used by the auto-crawl pipeline.
+# 36 sources from Market Watch Crawler Instructions v2 — Section 1.
+# priority: 0 = player official blog (always KEEP, Players Movement)
+#           1 = Tier-1 tech media
+#           2 = mid-tier
+#           3 = clickbait-prone (lowest dedup priority)
 #
-# crawler:
-#   rss        → src.crawlers.rss.RSSCrawler (default; very stable)
-#   playwright → src.crawlers.playwright_html.PlaywrightHtmlCrawler
-#                (used for SPAs / paywalled sites — see players below)
+# crawler: rss        → src.crawlers.rss.RSSCrawler (known feed)
+#          html        → src.crawlers.html_listing.HtmlListingCrawler
+#          playwright  → src.crawlers.players.* (SPA player blogs)
 #
-# scope: domestic | international
-# type:  market_pulse | players_movement
-#
-# RSS feeds prioritised whenever possible because they are far more stable
-# than HTML scraping. Sites without a public RSS are scheduled with
-# Playwright in src/crawlers/players/ instead.
+# scope default by source; geographic sub_topic_group is recomputed
+# per-article by the filter (Section 2.5).
 
 news:
-  # ----- Vietnam -----
-  - key: vnexpress_sohoa
-    name: "VnExpress – Số hoá"
-    crawler: rss
-    rss_url: "https://vnexpress.net/rss/so-hoa.rss"
-    scope: domestic
+  # ---------- Priority 1 — Tier-1 tech media ----------
+  - key: openai_news
+    name: "OpenAI"
+    priority: 1
+    crawler: html
+    list_url: "https://openai.com/news/"
+    scope: international
     type: market_pulse
 
-  - key: vnexpress_kinhdoanh
-    name: "VnExpress – Kinh doanh"
+  - key: bloomberg_tech
+    name: "Bloomberg"
+    priority: 1
     crawler: rss
-    rss_url: "https://vnexpress.net/rss/kinh-doanh.rss"
-    scope: domestic
-    type: market_pulse
-
-  - key: tuoitre_nhipsongso
-    name: "Tuổi Trẻ – Nhịp sống số"
-    crawler: rss
-    rss_url: "https://tuoitre.vn/rss/nhip-song-so.rss"
-    scope: domestic
-    type: market_pulse
-
-  - key: tuoitre_kinhdoanh
-    name: "Tuổi Trẻ – Kinh doanh"
-    crawler: rss
-    rss_url: "https://tuoitre.vn/rss/kinh-doanh.rss"
-    scope: domestic
-    type: market_pulse
-
-  - key: thanhnien_congnghe
-    name: "Thanh Niên – Công nghệ"
-    crawler: rss
-    rss_url: "https://thanhnien.vn/rss/cong-nghe.rss"
-    scope: domestic
-    type: market_pulse
-
-  - key: cafef_kinhteso
-    name: "CafeF – Kinh tế số"
-    crawler: rss
-    rss_url: "https://cafef.vn/kinh-te-so.rss"
-    scope: domestic
-    type: market_pulse
-
-  - key: cafef_doanhnghiep
-    name: "CafeF – Doanh nghiệp"
-    crawler: rss
-    rss_url: "https://cafef.vn/doanh-nghiep.rss"
-    scope: domestic
-    type: market_pulse
-
-  - key: cafebiz
-    name: "CafeBiz"
-    crawler: rss
-    rss_url: "https://cafebiz.vn/rss/home.rss"
-    scope: domestic
-    type: market_pulse
-
-  - key: theleader
-    name: "The Leader"
-    crawler: rss
-    rss_url: "https://theleader.vn/rss/trang-chu.rss"
-    scope: domestic
-    type: market_pulse
-
-  - key: nhipcaudautu
-    name: "Nhịp Cầu Đầu Tư"
-    crawler: rss
-    rss_url: "https://nhipcaudautu.vn/rss/cong-nghe.rss"
-    scope: domestic
-    type: market_pulse
-
-  - key: vietnamnet_ict
-    name: "VietnamNet – ICT (gồm ICTNews)"
-    crawler: rss
-    rss_url: "https://vietnamnet.vn/rss/cong-nghe.rss"
-    scope: domestic
-    type: market_pulse
-
-  - key: genk
-    name: "Genk"
-    crawler: rss
-    rss_url: "https://genk.vn/rss/home.rss"
-    scope: domestic
-    type: market_pulse
-
-  - key: vir
-    name: "Vietnam Investment Review"
-    crawler: rss
-    rss_url: "https://vir.com.vn/rss/home.rss"
-    scope: domestic
-    type: market_pulse
-
-  - key: thesaigontimes
-    name: "The Saigon Times"
-    crawler: rss
-    # Best-effort; site sometimes paywalled. Fail-soft if blocked.
-    rss_url: "https://thesaigontimes.vn/feed"
-    scope: domestic
-    type: market_pulse
-
-  - key: baodautu
-    name: "Báo Đầu Tư"
-    crawler: rss
-    rss_url: "https://baodautu.vn/rss/cong-nghe.rss"
-    scope: domestic
-    type: market_pulse
-
-  - key: vneconomy
-    name: "VnEconomy"
-    crawler: rss
-    rss_url: "https://vneconomy.vn/cong-nghe.rss"
-    scope: domestic
-    type: market_pulse
-
-  - key: dddn
-    name: "Diễn đàn Doanh nghiệp"
-    crawler: rss
-    rss_url: "https://diendandoanhnghiep.vn/rss/cong-nghe.rss"
-    scope: domestic
-    type: market_pulse
-
-  - key: vnbusiness
-    name: "Vietnam Business Insider"
-    crawler: rss
-    rss_url: "https://vnbusiness.vn/rss/cong-nghe.rss"
-    scope: domestic
-    type: market_pulse
-
-  - key: doanhnhansaigon
-    name: "Doanh Nhân Sài Gòn"
-    crawler: rss
-    rss_url: "https://doanhnhansaigon.vn/rss/cong-nghe.rss"
-    scope: domestic
-    type: market_pulse
-
-  - key: brandsvietnam
-    name: "Brands Vietnam"
-    crawler: rss
-    rss_url: "https://www.brandsvietnam.com/feed.rss"
-    scope: domestic
-    type: market_pulse
-
-  # Sources from references/MR26001 sheet `Source_Crawl_Data`
-  - key: baotintuc_money
-    name: "Báo tin tức – Thị trường tiền tệ"
-    crawler: rss
-    rss_url: "https://baotintuc.vn/rss/thi-truong-tien-te-128.rss"
-    scope: domestic
+    rss_url: "https://feeds.bloomberg.com/technology/news.rss"
+    scope: international
     type: market_pulse
 
   - key: dantri_ai
-    name: "Dân Trí – AI/Internet"
+    name: "Dân Trí"
+    priority: 1
     crawler: rss
-    rss_url: "https://dantri.com.vn/rss/cong-nghe.rss"
+    rss_url: "https://dantri.com.vn/cong-nghe/ai-internet.rss"
     scope: domestic
     type: market_pulse
 
-  - key: vneconomy_techconnect
-    name: "VnEconomy – Techconnect"
+  - key: dantri_security
+    name: "Dân Trí"
+    priority: 1
     crawler: rss
-    rss_url: "https://vneconomy.vn/techconnect.rss"
+    rss_url: "https://dantri.com.vn/cong-nghe/an-ninh-mang.rss"
     scope: domestic
+    type: market_pulse
+
+  - key: luatvietnam_chinhsach
+    name: "Luật Việt Nam"
+    priority: 1
+    crawler: html
+    list_url: "https://luatvietnam.vn/ban-tin-luatvietnam/diem-tin-chinh-sach-moi-c559-article.html"
+    scope: domestic
+    type: market_pulse
+
+  - key: luatvietnam_vbm
+    name: "Luật Việt Nam"
+    priority: 1
+    crawler: html
+    list_url: "https://luatvietnam.vn/ban-tin-luatvietnam/diem-tin-van-ban-moi-c220-article.html"
+    scope: domestic
+    type: market_pulse
+
+  - key: meta_newsroom
+    name: "Meta"
+    priority: 1
+    crawler: html
+    list_url: "https://about.fb.com/news/"
+    scope: international
+    type: market_pulse
+
+  - key: meta_product
+    name: "Meta"
+    priority: 1
+    crawler: html
+    list_url: "https://about.fb.com/news/category/product-news/"
+    scope: international
+    type: market_pulse
+
+  - key: scmp_wechat
+    name: "SCMP"
+    priority: 1
+    crawler: html
+    list_url: "https://www.scmp.com/topics/wechat"
+    scope: international
     type: market_pulse
 
   - key: scmp_tech
-    name: "SCMP – Tech"
+    name: "SCMP"
+    priority: 1
     crawler: rss
     rss_url: "https://www.scmp.com/rss/36/feed"
     scope: international
     type: market_pulse
 
-  - key: thuvienphapluat_vbm
-    name: "Thư viện pháp luật – Văn bản mới"
-    crawler: rss
-    rss_url: "https://thuvienphapluat.vn/rss/van-ban-moi.rss"
-    scope: domestic
-    type: market_pulse
-
-  - key: luatvietnam_chinhsach
-    name: "Luật Việt Nam – Điểm tin chính sách"
-    crawler: rss
-    rss_url: "https://luatvietnam.vn/rss/diem-tin-chinh-sach-moi-c559.rss"
-    scope: domestic
-    type: market_pulse
-
-  # ----- International -----
-  - key: techcrunch
+  - key: techcrunch_apps
     name: "TechCrunch"
+    priority: 1
     crawler: rss
-    rss_url: "https://techcrunch.com/feed/"
+    rss_url: "https://techcrunch.com/category/apps/feed/"
     scope: international
     type: market_pulse
 
-  - key: theverge
-    name: "The Verge"
+  - key: techcrunch_ai
+    name: "TechCrunch"
+    priority: 1
     crawler: rss
-    rss_url: "https://www.theverge.com/rss/index.xml"
+    rss_url: "https://techcrunch.com/category/artificial-intelligence/feed/"
     scope: international
     type: market_pulse
 
-  - key: bloomberg_tech
-    name: "Bloomberg Technology"
-    crawler: rss
-    # Bloomberg is heavily paywalled; the public RSS gives titles + summaries.
-    rss_url: "https://feeds.bloomberg.com/technology/news.rss"
-    scope: international
-    type: market_pulse
-
-  - key: reuters_tech
-    name: "Reuters Technology"
-    crawler: rss
-    # Reuters often blocks scrapers. Public Google News query as fallback.
-    rss_url: "https://news.google.com/rss/search?q=site:reuters.com+technology&hl=en-US"
-    scope: international
-    type: market_pulse
-
-  - key: techinasia
+  - key: techinasia_fintech
     name: "Tech in Asia"
-    crawler: rss
-    rss_url: "https://www.techinasia.com/feed"
+    priority: 1
+    crawler: html
+    list_url: "https://www.techinasia.com/category/fintech"
     scope: international
     type: market_pulse
 
-  - key: krasia
-    name: "KrAsia"
-    crawler: rss
-    rss_url: "https://kr-asia.com/feed"
+  - key: techinasia_consumer
+    name: "Tech in Asia"
+    priority: 1
+    crawler: html
+    list_url: "https://www.techinasia.com/category/consumer-tech"
     scope: international
     type: market_pulse
 
-  - key: restofworld
-    name: "Rest of World"
-    crawler: rss
-    rss_url: "https://restofworld.org/feed/latest/"
+  - key: techinasia_ecom
+    name: "Tech in Asia"
+    priority: 1
+    crawler: html
+    list_url: "https://www.techinasia.com/category/e-commerce-social-commerce"
     scope: international
     type: market_pulse
 
-  - key: e27
-    name: "e27"
-    crawler: rss
-    rss_url: "https://e27.co/feed/"
+  - key: sensortower_blog
+    name: "Sensor Tower"
+    priority: 1
+    crawler: html
+    list_url: "https://sensortower.com/blog"
     scope: international
     type: market_pulse
 
-# Players Movement sources — newsroom / blog pages of focal players.
-# These rarely have RSS, so they use Playwright + httpx fallback.
+  - key: vneconomy_techtalk
+    name: "VNEconomy"
+    priority: 1
+    crawler: html
+    list_url: "https://vneconomy.vn/techconnect/tech-talk.htm"
+    scope: domestic
+    type: market_pulse
+
+  - key: vnexpress_khcn
+    name: "VnExpress"
+    priority: 1
+    crawler: rss
+    rss_url: "https://vnexpress.net/rss/khoa-hoc-cong-nghe.rss"
+    scope: domestic
+    type: market_pulse
+
+  - key: vnexpress_kinhdoanh
+    name: "VnExpress"
+    priority: 1
+    crawler: rss
+    rss_url: "https://vnexpress.net/rss/kinh-doanh.rss"
+    scope: domestic
+    type: market_pulse
+
+  # ---------- Priority 2 — mid-tier ----------
+  - key: baotintuc_money
+    name: "Báo Tin Tức"
+    priority: 2
+    crawler: rss
+    rss_url: "https://baotintuc.vn/thi-truong-tien-te-587ct128.rss"
+    scope: domestic
+    type: market_pulse
+
+  - key: vneconomy_techconnect
+    name: "VNEconomy"
+    priority: 2
+    crawler: html
+    list_url: "https://vneconomy.vn/techconnect/"
+    scope: domestic
+    type: market_pulse
+
+  - key: vneconomy_lifestyle
+    name: "VNEconomy"
+    priority: 2
+    crawler: html
+    list_url: "https://vneconomy.vn/techconnect/tech-lifestyle.htm"
+    scope: domestic
+    type: market_pulse
+
+  # ---------- Priority 3 — clickbait-prone ----------
+  - key: genk_ai
+    name: "GenK"
+    priority: 3
+    crawler: rss
+    rss_url: "https://genk.vn/ai.rss"
+    scope: domestic
+    type: market_pulse
+
+  - key: genk_ict
+    name: "GenK"
+    priority: 3
+    crawler: rss
+    rss_url: "https://genk.vn/tin-ict.rss"
+    scope: domestic
+    type: market_pulse
+
+  - key: theinformation_tech
+    name: "The Information"
+    priority: 3
+    crawler: html
+    list_url: "https://www.theinformation.com/technology?view=recent"
+    scope: international
+    type: market_pulse
+
+# ---------- Priority 0 — player official blogs (Players Movement) ----------
 players:
-  - key: momo
-    name: "MoMo Newsroom"
-    crawler: playwright
-    module: src.crawlers.players.momo:MoMoNewsroom
-    scope: domestic
-    type: players_movement
-    player: MoMo
-
-  - key: grab_vn_blog
-    name: "Grab VN Blog"
-    crawler: playwright
-    module: src.crawlers.players.grab:GrabVNBlog
-    scope: domestic
-    type: players_movement
-    player: Grab
-
   - key: grab_merchant_vn
-    name: "Grab Merchant VN Blog"
+    name: "Grab Merchant"
+    priority: 0
     crawler: playwright
     module: src.crawlers.players.grab_merchant:GrabMerchantVNBlog
     scope: domestic
     type: players_movement
     player: Grab
 
+  - key: grab_vn_blog
+    name: "Grab Passenger"
+    priority: 0
+    crawler: playwright
+    module: src.crawlers.players.grab:GrabVNBlog
+    scope: domestic
+    type: players_movement
+    player: Grab
+
+  - key: grab_inside
+    name: "Grab Passenger"
+    priority: 0
+    crawler: playwright
+    module: src.crawlers.players.grab_inside:GrabInsideBlog
+    scope: international
+    type: players_movement
+    player: Grab
+
+  - key: momo_newsroom
+    name: "MoMo"
+    priority: 0
+    crawler: playwright
+    module: src.crawlers.players.momo:MoMoNewsroom
+    scope: domestic
+    type: players_movement
+    player: MoMo
+
+  - key: shopee_seller_blog
+    name: "Shopee"
+    priority: 0
+    crawler: playwright
+    module: src.crawlers.players.marketplace:ShopeeSellerBlog
+    scope: domestic
+    type: players_movement
+    player: Shopee
+
+  - key: telegram_blog
+    name: "Telegram"
+    priority: 0
+    crawler: playwright
+    module: src.crawlers.players.messaging:TelegramBlog
+    scope: international
+    type: players_movement
+    player: Telegram
+
+  - key: tiktokshop_seller_blog
+    name: "TikTokShop"
+    priority: 0
+    crawler: playwright
+    module: src.crawlers.players.marketplace:TikTokShopSellerBlog
+    scope: domestic
+    type: players_movement
+    player: TikTokShop
+
+  - key: whatsapp_blog
+    name: "WhatsApp"
+    priority: 0
+    crawler: playwright
+    module: src.crawlers.players.messaging:WhatsAppBlog
+    scope: international
+    type: players_movement
+    player: WhatsApp
+
+  - key: zalo_oa_news
+    name: "ZaloOA"
+    priority: 0
+    crawler: playwright
+    module: src.crawlers.players.zalo:ZaloOANews
+    scope: domestic
+    type: players_movement
+    player: Zalo
+
   - key: zalopay_news
-    name: "Zalopay News"
+    name: "ZaloPay"
+    priority: 0
     crawler: playwright
     module: src.crawlers.players.zalo:ZaloPayNews
     scope: domestic
@@ -293,49 +308,10 @@ players:
     player: Zalo
 
   - key: zalopay_promo
-    name: "Zalopay Khuyến mãi"
+    name: "ZaloPay"
+    priority: 0
     crawler: playwright
     module: src.crawlers.players.zalo:ZaloPayPromo
     scope: domestic
     type: players_movement
     player: Zalo
-
-  - key: zalo_oa_news
-    name: "Zalo OA News"
-    crawler: playwright
-    module: src.crawlers.players.zalo:ZaloOANews
-    scope: domestic
-    type: players_movement
-    player: Zalo
-
-  - key: whatsapp_blog
-    name: "WhatsApp Blog"
-    crawler: playwright
-    module: src.crawlers.players.messaging:WhatsAppBlog
-    scope: international
-    type: players_movement
-    player: WhatsApp
-
-  - key: telegram_blog
-    name: "Telegram Blog"
-    crawler: playwright
-    module: src.crawlers.players.messaging:TelegramBlog
-    scope: international
-    type: players_movement
-    player: Telegram
-
-  - key: shopee_seller_blog
-    name: "Shopee Seller Blog"
-    crawler: playwright
-    module: src.crawlers.players.marketplace:ShopeeSellerBlog
-    scope: domestic
-    type: players_movement
-    player: Shopee
-
-  - key: tiktokshop_seller_blog
-    name: "TikTokShop Seller Blog"
-    crawler: playwright
-    module: src.crawlers.players.marketplace:TikTokShopSellerBlog
-    scope: domestic
-    type: players_movement
-    player: TikTokShop
