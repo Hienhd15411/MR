@@ -36,7 +36,9 @@ from src.storage.models import (
 from src.utils.date_utils import (
     date_from_text,
     extract_published,
+    listing_date_near,
     now_utc,
+    scan_date,
     within_window,
 )
 
@@ -199,7 +201,10 @@ class PlayerBlogCrawler(BaseCrawler):
                 seen_canonical.add(canonical)
                 # Use canonical URL so /blog/x?ref=A and ...?ref=B collapse.
                 if title and canonical not in self._cache:
-                    self._cache[canonical] = {"title": title}
+                    self._cache[canonical] = {
+                        "title": title,
+                        "listing_date": listing_date_near(a),
+                    }
                 urls.append(canonical)
         return urls[: self.max_items]
 
@@ -239,7 +244,11 @@ class PlayerBlogCrawler(BaseCrawler):
         if not title or _looks_like_cta_or_nav(title):
             return None
         if published is None:
+            published = scan_date(snippet)
+        if published is None:
             published = date_from_text(f"{title} {snippet}")
+        if published is None:
+            published = meta.get("listing_date")
         # Priority-0 player blog: keep undated posts (newest-first, capped);
         # drop only when an explicit date is older than the window.
         if published is not None and not within_window(published, self.window_days):

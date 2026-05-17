@@ -17,9 +17,21 @@ def parse_date(text: str, languages: Optional[list[str]] = None) -> Optional[dat
     """
     if not text:
         return None
+    # ISO 8601 is always year-first; parse it directly so the DMY default
+    # below (correct for Vietnamese DD/MM strings) cannot mis-swap it.
+    iso = text.strip().replace("Z", "+00:00")
+    if re.match(r"^\d{4}-\d{2}-\d{2}([T ]\d|$)", iso):
+        try:
+            dt = datetime.fromisoformat(iso)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt.astimezone(timezone.utc)
+        except ValueError:
+            pass
     settings = {
         "RETURN_AS_TIMEZONE_AWARE": True,
         "TO_TIMEZONE": "UTC",
+        "DATE_ORDER": "DMY",
     }
     dt = dateparser.parse(text.strip(), languages=languages or ["vi", "en"], settings=settings)
     if dt is None:
@@ -66,6 +78,79 @@ def date_from_text(text: str) -> Optional[datetime]:
             return datetime(y, m, d, tzinfo=timezone.utc)
         except (ValueError, TypeError):
             continue
+    return None
+
+
+_VI_MONTH = r"(?:tháng|thg\.?)\s*\d{1,2}"
+_EN_MONTH = (
+    r"(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?"
+)
+_SCAN_RES = [
+    re.compile(r"\b20\d{2}-\d{1,2}-\d{1,2}\b"),                       # ISO
+    re.compile(r"\b\d{1,2}[/.\-]\d{1,2}[/.\-]20\d{2}\b"),             # DD/MM/YYYY
+    re.compile(rf"ngày\s+\d{{1,2}}\s+{_VI_MONTH}\s+năm\s+20\d{{2}}", re.I),
+    re.compile(rf"\d{{1,2}}\s+{_VI_MONTH}(?:[,\s]+20\d{{2}})?", re.I),
+    re.compile(rf"{_EN_MONTH}\s+\d{{1,2}},?\s+20\d{{2}}", re.I),
+    re.compile(rf"\d{{1,2}}\s+{_EN_MONTH},?\s+20\d{{2}}", re.I),
+    re.compile(r"\b[0-3]?\d[/.][01]?\d\b"),                           # DD/MM (no yr)
+]
+
+
+def scan_date(text: str) -> Optional[datetime]:
+    """Find the first plausible calendar date anywhere in free text.
+
+    Used for player-blog listing cards / detail bodies that print a date
+    like "15/05/2026", "15 tháng 5, 2026" or "May 15, 2026" but expose no
+    machine-readable metadata. More permissive than date_from_text (which
+    only understands promo phrasing); strict enough that promo amounts
+    ("500.000đ", "8.686Đ") do not match.
+    """
+    if not text:
+        return None
+    for rx in _SCAN_RES:
+        m = rx.search(text)
+        if not m:
+            continue
+        dt = parse_date(m.group(0))
+        if dt and 2000 <= dt.year <= 2100:
+            return dt
+    return None
+
+
+def listing_date_near(anchor, max_up: int = 4) -> Optional[datetime]:
+    """Extract a publish date from the DOM card surrounding a list anchor.
+
+    Player blog index pages render each post as a card containing both the
+    link and a small date element. Walk a few ancestors up from the <a>
+    and look for a <time> tag, a date-classed element, or a short text
+    node that scans as a date. Returns the closest match.
+    """
+    node = getattr(anchor, "parent", None)
+    for _ in range(max_up):
+        if node is None:
+            break
+        t = node.find("time") if hasattr(node, "find") else None
+        if t is not None:
+            dt = parse_date(
+                t.get("datetime") or t.get_text(" ", strip=True)
+            )
+            if dt:
+                return dt
+        if hasattr(node, "find_all"):
+            for el in node.find_all(
+                attrs={"class": re.compile(r"date|time|publish|ngay", re.I)}
+            ):
+                txt = el.get_text(" ", strip=True)
+                if 0 < len(txt) <= 40:
+                    dt = scan_date(txt)
+                    if dt:
+                        return dt
+            txt = node.get_text(" ", strip=True)
+            if len(txt) <= 200:
+                dt = scan_date(txt)
+                if dt:
+                    return dt
+        node = getattr(node, "parent", None)
     return None
 
 

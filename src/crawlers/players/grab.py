@@ -22,7 +22,9 @@ from src.config.settings import CRAWL_WINDOW_DAYS
 from src.utils.date_utils import (
     date_from_text,
     extract_published,
+    listing_date_near,
     now_utc,
+    scan_date,
     within_window,
 )
 
@@ -75,7 +77,10 @@ class GrabVNBlog(BaseCrawler):
                     continue
                 title = a.get_text(" ", strip=True)
                 if title:
-                    self._cache.setdefault(href, {"title": title})
+                    self._cache.setdefault(
+                        href,
+                        {"title": title, "listing_date": listing_date_near(a)},
+                    )
                 if href not in urls:
                     urls.append(href)
         return urls[: self.max_items]
@@ -107,7 +112,11 @@ class GrabVNBlog(BaseCrawler):
         if not title:
             return None
         if published is None:
+            published = scan_date(snippet)
+        if published is None:
             published = date_from_text(f"{title} {snippet}")
+        if published is None:
+            published = meta.get("listing_date")
         # Priority-0 player blog: keep undated posts (newest-first, capped);
         # drop only when an explicit date is older than the window.
         if published is not None and not within_window(published, self.window_days):
