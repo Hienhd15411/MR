@@ -1,26 +1,26 @@
 # Market Watch — Database preview
 
-- Generated: **2026-05-17 15:43 UTC**
-- Kept: **107** (Market Pulse: 80 · Players Movement: 27)
-- Flagged HUMAN_REVIEW: **11**
+- Generated: **2026-05-17 17:26 UTC**
+- Kept: **106** (Market Pulse: 79 · Players Movement: 27)
+- Flagged HUMAN_REVIEW: **10**
 
 ## Summary by signal level
 
 | Level | Count |
 |---|---:|
-| 4 - Strategic shift | 5 |
+| 4 - Strategic shift | 4 |
 | 3 - Market signal | 101 |
 | 2 - Minor signal | 1 |
 
 ## Top 10 by signal score
 
-1. `[3.84]` **China clears Tencent’s Ximalaya acquisition with strict bans on exclusive deals, fee hikes** · Trung quốc
-2. `[3.58]` **[QUAN TRỌNG] CẬP NHẬT CHÍNH SÁCH GÓI VOUCHER XTRA VÀ CONTENT XTRA DÀNH CHO TẤT CẢ NGƯỜI BÁN TỪ THÁNG 09/2025** · Shopee
-3. `[3.52]` **Bạn mới nhập mã CHONMOMO: Có quà 500.000đ giảm nhiều dịch vụ, thêm tiền thưởng đến 1 triệu** · MoMo
-4. `[3.52]` **THÔNG TIN KHUYẾN MẠI CỦA CHƯƠNG TRÌNH GRABFOOD VẠN DEAL MASTXIMUM GIẢM 50%** · Grab
-5. `[3.42]` **Thu giữ loạt hàng giả ở Saigon Square, chợ Bến Thành** · Trong nước
-6. `[3.4]` **GrabMart | Đảm việc nhà - Giỏi kinh doanh nhờ nắm bắt xu hướng bán hàng qua ứng dụng** · Grab
-7. `[3.4]` **Grab | Giải pháp tăng trưởng Người dùng mới (dành cho dịch vụ Đi Ăn Nhà Hàng)** · Grab
+1. `[4.0]` **Tham gia Vòng Sống Khỏe nhận quà có trị giá đến 3.990.000đ** · MoMo
+2. `[3.84]` **China clears Tencent’s Ximalaya acquisition with strict bans on exclusive deals, fee hikes** · Trung quốc
+3. `[3.58]` **[QUAN TRỌNG] CẬP NHẬT CHÍNH SÁCH GÓI VOUCHER XTRA VÀ CONTENT XTRA DÀNH CHO TẤT CẢ NGƯỜI BÁN TỪ THÁNG 09/2025** · Shopee
+4. `[3.42]` **Thu giữ loạt hàng giả ở Saigon Square, chợ Bến Thành** · Trong nước
+5. `[3.4]` **GrabMart | Đảm việc nhà - Giỏi kinh doanh nhờ nắm bắt xu hướng bán hàng qua ứng dụng** · Grab
+6. `[3.4]` **Grab | Giải pháp tăng trưởng Người dùng mới (dành cho dịch vụ Đi Ăn Nhà Hàng)** · Grab
+7. `[3.4]` **GFIN x VIETCREDIT | Chương trình hoàn tiền 01 tháng lãi vay khi đăng ký vay qua thương hiệu Tin Vay** · Grab
 8. `[3.4]` **GrabMart | Bí kíp tăng trưởng doanh thu sầu riêng** · Grab
 9. `[3.4]` **GrabMart | Các chương trình ưu đãi dành cho ngành hàng trái cây tươi mùa hè 2026** · Grab
 10. `[3.4]` **Grab | Cập nhật cách tính điểm đánh giá sao Cửa hàng** · Grab
@@ -29,10 +29,6 @@
 
 ### Grab (17)
 
-- **[THÔNG TIN KHUYẾN MẠI CỦA CHƯƠNG TRÌNH GRABFOOD VẠN DEAL MASTXIMUM GIẢM 50%](https://www.grab.com/vn/blog/thong-tin-khuyen-mai-cua-chuong-trinh-grabfood-van-deal-mastximum-giam-50/)**
-  - signal: `3.52` (4 - Strategic shift) · R1/R2: `3.0`/`4.3` · source: `grab_vn_blog` · published: 2026-05-12
-  - Thứ Ba Tháng Năm 12th, 2026 THÔNG TIN KHUYẾN MẠI CỦA CHƯƠNG TRÌNH GRABFOOD VẠN DEAL MASTXIMUM GIẢM 50% 🔊 Xin thông báo mùa hè nóng kỷ lục chỉ còn là cái tên: GrabFood giới thiệu biệt đội Mátximum nóng tới đâu cũng có vạn deal món mát nhất – giảm “maximum”! 🧋 Biệt đội mát dịu dàng buitruonglinh mang 
-
 - **[GrabMart | Đảm việc nhà - Giỏi kinh doanh nhờ nắm bắt xu hướng bán hàng qua ứng dụng](https://merchant.grab.com/vn-vn/blog/traicaysachanvatvoduyninh)**
   - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_merchant_vn` · published: —
   - Hơn 21 năm gắn bó với nghề kinh doanh mỹ phẩm theo mô hình truyền thống, chị Ngọc Diệp đã trải qua những ngày thử thách và biến động bởi đại dịch Covid-19. Từ việc phải tạm đóng cửa hàng mỹ phẩm và trăn trở giải quyết bài toán xoay vốn, hiện tại chị Diệp đã sở hữu cửa hàng online hoạt động ổn định, 
@@ -40,6 +36,10 @@
 - **[Grab | Giải pháp tăng trưởng Người dùng mới (dành cho dịch vụ Đi Ăn Nhà Hàng)](https://merchant.grab.com/vn-vn/blog/dealhoidonkhachmoi)**
   - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_merchant_vn` · published: —
   - Quý Đối tác thân mến, 🤗 Đối tác mong muốn thu hút thêm nhiều Người dùng mới đến nhà hàng trải nghiệm món ngon ? 🤗 Đối tác đang tìm kiếm chiến dịch marketing với ngân sách tối ưu để tiếp cận Người dùng mới ? Mời Đối tác tham gia chương trình “Deal Hời Đón Khách Mới” - giải pháp giúp thu hút và mở rộn
+
+- **[GFIN x VIETCREDIT | Chương trình hoàn tiền 01 tháng lãi vay khi đăng ký vay qua thương hiệu Tin Vay](https://merchant.grab.com/vn-vn/blog/gfin-vc-hoan01thanglaivay)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_merchant_vn` · published: —
+  - Quý Đối tác thân mến, Công ty TNHH GFIN Việt Nam (“GFIN”) mang đến cho các Đối tác Tài xế, Đối tác Thương nhân chương trình Hoàn tiền lãi 01 tháng cho các khoản vay tín chấp với thương hiệu TIN VAY của VietCredit (“TIN VAY”). TIN VAY hoàn tiền lãi trung bình 01 tháng trực tiếp vào khoản vay: Giá trị
 
 - **[GrabMart | Bí kíp tăng trưởng doanh thu sầu riêng](https://merchant.grab.com/vn-vn/blog/grabmart-bikiptangtruongdoanhthu-saurieng)**
   - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_merchant_vn` · published: —
@@ -99,35 +99,35 @@
 
 ### MoMo (4)
 
-- **[Bạn mới nhập mã CHONMOMO: Có quà 500.000đ giảm nhiều dịch vụ, thêm tiền thưởng đến 1 triệu](https://momo.vn/tin-tuc/khuyen-mai/ban-moi-nhap-ma-chonmomo-co-qua-500000d-giam-8225)**
-  - signal: `3.52` (4 - Strategic shift) · R1/R2: `3.0`/`4.3` · source: `momo_newsroom` · published: —
-  - Bạn mới nhập mã CHONMOMO: Có quà 500.000đ giảm nhiều dịch vụ, thêm tiền thưởng đến 1 triệu Khuyến mãi · 01/04/2026 · 12.2K lượt xem Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Chọn MoMo - chọn linh hoạt chi tiêu: Nhận ngay bộ thẻ quà 500.000đ giảm mọi dịch vụ & lì xì đến 1 triệu khi 
+- **[Tham gia Vòng Sống Khỏe nhận quà có trị giá đến 3.990.000đ](https://momo.vn/tin-tuc/tin-tuc-su-kien/tham-gia-vong-song-khoe-nhan-qua-co-tri-gia-den-8707)**
+  - signal: `4.0` (4 - Strategic shift) · R1/R2: `4.0`/`4.0` · source: `momo_newsroom` · published: 2026-05-12
+  - Tham gia Vòng Sống Khỏe nhận quà có trị giá đến 3.990.000đ Sự Kiện · 12/05/2026 Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Làm nhiệm vụ đơn giản, nhận lượt quay và trúng quà có giá trị cao tại Vòng Sống Khỏe. Xem chi tiết ngay! Thời gian áp dụng: Từ 18/05/2026 đến hết ngày 30/09/202
 
 - **[Combo du lịch siêu hời - Đón chào lễ hội pháo hoa tại Đà Nẵng](https://momo.vn/tin-tuc/khuyen-mai/combo-du-lich-sieu-hoi-don-chao-le-hoi-phao-hoa-8718)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `momo_newsroom` · published: —
-  - Combo du lịch siêu hời - Đón chào lễ hội pháo hoa tại Đà Nẵng Khuyến mãi · 15/05/2026 · 2.3K lượt xem Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Lễ hội Pháo hoa Quốc tế Đà Nẵng (DIFF) 2026 chính thức quay trở lại, hứa hẹn biến bầu trời sông Hàn thành một kiệt tác nghệ thuật đầy mê h
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `momo_newsroom` · published: 2026-05-15
+  - Combo du lịch siêu hời - Đón chào lễ hội pháo hoa tại Đà Nẵng Khuyến mãi · 15/05/2026 · 2.5K lượt xem Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Lễ hội Pháo hoa Quốc tế Đà Nẵng (DIFF) 2026 chính thức quay trở lại, hứa hẹn biến bầu trời sông Hàn thành một kiệt tác nghệ thuật đầy mê h
 
 - **[[15.5 - 31.5] HOÀN ĐẾN 8.686Đ KHI TỰ CHUYỂN 2K TỪ NGÂN HÀNG ĐẾN SĐT MOMO CỦA BẢN THÂN](https://momo.vn/tin-tuc/khuyen-mai/155-315-hoan-den-8686d-khi-tu-chuyen-2k-tu-ngan-8717)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `momo_newsroom` · published: 2026-05-31
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `momo_newsroom` · published: 2026-05-15
   - [15.5 - 31.5] HOÀN ĐẾN 8.686Đ KHI TỰ CHUYỂN 2K TỪ NGÂN HÀNG ĐẾN SĐT MOMO CỦA BẢN THÂN Khuyến mãi · 15/05/2026 Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn MoMo thưởng đến 8.686Đ cho bạn khi thực hiện giao dịch tự chuyển 2K từ app Ngân hàng đến SĐT MoMo của chính mình. Thời gian diễn r
 
 - **[Mỗi lần thanh toán hoá đơn, thêm mầm xanh được tích luỹ](https://momo.vn/tin-tuc/thong-bao/moi-lan-thanh-toan-hoa-don-them-mam-xanh-duoc-8709)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `momo_newsroom` · published: —
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `momo_newsroom` · published: 2026-05-12
   - Mỗi lần thanh toán hoá đơn, thêm mầm xanh được tích luỹ Thông báo · 12/05/2026 Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Thay vì chỉ là những giao dịch thanh toán thông thường, giờ đây với Green Hub - Góp hóa đơn trồng rừng trên MoMo, mỗi hóa đơn bạn chi trả đều mang lại giá trị đó
 
 ### Shopee (4)
 
 - **[[QUAN TRỌNG] CẬP NHẬT CHÍNH SÁCH GÓI VOUCHER XTRA VÀ CONTENT XTRA DÀNH CHO TẤT CẢ NGƯỜI BÁN TỪ THÁNG 09/2025](https://banhang.shopee.vn/edu/article/25901)**
-  - signal: `3.58` (4 - Strategic shift) · R1/R2: `3.5`/`3.7` · source: `shopee_seller_blog` · published: —
+  - signal: `3.58` (4 - Strategic shift) · R1/R2: `3.5`/`3.7` · source: `shopee_seller_blog` · published: 2026-05-14
 
-- **[Tính năng phân bổ đơn vị vận chuyển tự động cho Người bán trên Shopee](https://banhang.shopee.vn/edu/article/17468)**
-  - signal: `3.28` (3 - Market signal) · R1/R2: `3.0`/`3.7` · source: `shopee_seller_blog` · published: —
-
-- **[Tỷ lệ sản phẩm bật kênh Hỏa Tốc đối với Shopee Mall/Shop Yêu Thích+](https://banhang.shopee.vn/edu/article/27364)**
-  - signal: `3.28` (3 - Market signal) · R1/R2: `3.0`/`3.7` · source: `shopee_seller_blog` · published: —
+- **[Cập nhật mức thuế suất GTGT áp dụng trên các loại phí của Shopee Việt Nam từ tháng 05/2025 đến hết tháng 12/2026](https://banhang.shopee.vn/edu/article/25329)**
+  - signal: `3.28` (3 - Market signal) · R1/R2: `3.0`/`3.7` · source: `shopee_seller_blog` · published: 2026-05-14
 
 - **[[QUAN TRỌNG] CẬP NHẬT VỀ PHÍ DÀNH CHO NGƯỜI BÁN KHÔNG THUỘC SHOPEE MALL TỪ NGÀY 23/05/2026](https://banhang.shopee.vn/edu/article/27540)**
   - signal: `3.28` (3 - Market signal) · R1/R2: `3.0`/`3.7` · source: `shopee_seller_blog` · published: 2026-05-23
+
+- **[Tính năng phân bổ đơn vị vận chuyển tự động cho Người bán trên Shopee](https://banhang.shopee.vn/edu/article/17468)**
+  - signal: `3.28` (3 - Market signal) · R1/R2: `3.0`/`3.7` · source: `shopee_seller_blog` · published: 2026-05-12
 
 ### Zalo (2)
 
@@ -139,7 +139,7 @@
   - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `zalopay_promo` · published: —
   - Trang chủ Tin tức Tin tức Cập nhập thông tin mới nhất về ZaloPay Khuyến mãi - Ưu đãi Ưu đãi riêng cho người dùng ZaloPay Blog Chuyên trang cung cấp thông tin hữu ích Dịch vụ Chuyển tiền - Nhận tiền Miễn phí, an toàn, chuyển tiền Zalo chat Nạp tiền điện thoại Nạp ĐT - Mua thẻ ĐT - Data 3G/4G Thanh to
 
-## Market Pulse (80)
+## Market Pulse (79)
 
 ### Trong nước (1)
 
@@ -197,7 +197,7 @@
   - signal: `2.4` (2 - Minor signal) · R1/R2: `2.0`/`3.0` · source: `scmp_tech` · published: 2026-05-13
   - Chinese memory module manufacturers are accelerating the release of consumer and enterprise storage products powered by domestic DDR5 chips, as breakthroughs by ChangXin Memory Technologies (CXMT), the nation’s leading memory chipmaker, filter through the supply chain. Powev, one of China’s major me
 
-### Quốc tế (67)
+### Quốc tế (66)
 
 - **[Google adds Gemini-powered dictation to Gboard, which could be bad news for dictation startups](https://techcrunch.com/2026/05/12/google-adds-gemini-powered-dictation-to-gboard-which-could-be-bad-news-for-dictation-startups/)**
   - signal: `3.24` (3 - Market signal) · R1/R2: `3.6`/`2.7` · source: `techcrunch_apps` · published: 2026-05-12
@@ -242,6 +242,10 @@
 - **[Sony A7 R VI - máy ảnh cảm biến xếp chồng giá 114 triệu đồng](https://vnexpress.net/sony-a7-r-vi-may-anh-cam-bien-xep-chong-gia-114-trieu-dong-5074084.html)**
   - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `vnexpress_khcn` · published: 2026-05-15
   - Sony A7 R VI trang bị cảm biến xếp chồng (full stack) 67 megapixel, chip AI thế hệ mới, khả năng quay video 8K và giá 114 triệu đồng.
+
+- **[Sam Altman 'lộ' khối tài sản hơn 2 tỷ USD từ đối tác của OpenAI](https://vnexpress.net/sam-altman-lo-khoi-tai-san-hon-2-ty-usd-tu-doi-tac-cua-openai-5073854.html)**
+  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `vnexpress_khcn` · published: 2026-05-14
+  - Tài liệu tòa án cho thấy Sam Altman có cổ phần hơn hai tỷ USD tại hàng loạt công ty đang bắt tay với OpenAI.
 
 - **[Điện thoại Trump T1 bắt đầu được giao hàng](https://vnexpress.net/dien-thoai-trump-t1-bat-dau-duoc-giao-hang-5073733.html)**
   - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `vnexpress_khcn` · published: 2026-05-14
@@ -411,10 +415,6 @@
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_ai` · published: 2026-05-14
   - This is Cisco's latest layoff in recent years, while the company's chief executive touts record revenue and growth.
 
-- **[Who decides what AI tells you? Campbell Brown, once Meta’s news chief, has thoughts](https://techcrunch.com/2026/05/13/who-decides-what-ai-tells-you-campbell-brown-once-metas-news-chief-has-thoughts/)** 🚩HUMAN_REVIEW
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_ai` · published: 2026-05-14
-  - "The conversation is sort of happening in Silicon Valley around one thing, and a totally different conversation is happening among consumers," Campbell Brown said at StrictlyVC.
-
 - **[AI Mythos của Anthropic có thể bẻ khóa máy Mac](https://vnexpress.net/ai-mythos-cua-anthropic-co-the-be-khoa-may-mac-5074524.html)**
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vnexpress_khcn` · published: 2026-05-16
   - Các nhà nghiên cứu bảo mật cảnh báo Calude Mythos của Anthropic đã có thể vượt qua hệ thống bảo mật của macOS theo cách chưa từng đạt được trước đây.
@@ -454,10 +454,6 @@
 - **[Chứng khoán tiếp tục lập kỷ lục mới](https://vnexpress.net/chung-khoan-tiep-tuc-lap-ky-luc-moi-5073931.html)** 🚩HUMAN_REVIEW
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vnexpress_kinhdoanh` · published: 2026-05-14
   - Nhờ sức nâng đỡ của cổ phiếu Vingroup, chứng khoán hôm nay tiếp tục ghi nhận kỷ lục mới, đóng cửa ở trên mốc 1.925 điểm.
-
-- **[Quản lý vỉa hè minh bạch hơn nhờ công nghệ](https://baotintuc.vn/video/quan-ly-via-he-minh-bach-hon-nho-cong-nghe-20260517221259840.htm)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `baotintuc_money` · published: 2026-05-17
-  - Từ ngày 15/5, phường An Đông (TP Hồ Chí Minh) triển khai ứng dụng đăng ký và thanh toán trực tuyến sử dụng tạm thời lòng đường, vỉa hè bằng mã QR. Mô hình này giúp người dân giảm thủ tục đi lại, tăng tính minh bạch trong quản lý và là bước thử nghiệm đáng chú ý trong chuyển đổi số đô thị tại cơ sở.
 
 - **[Apple’s New ChatGPT-Like Siri App Will Have Auto-Deleting Chats](https://www.bloomberg.com/news/newsletters/2026-05-17/ios-27-siri-app-to-have-auto-deleting-chats-siri-may-be-a-beta-genmoji-mp9udydr)**
   - signal: `2.52` (3 - Market signal) · R1/R2: `2.6`/`2.4` · source: `bloomberg_tech` · published: 2026-05-17
