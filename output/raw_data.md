@@ -1,15 +1,15 @@
 # Market Watch — Database preview
 
-- Generated: **2026-05-17 17:26 UTC**
-- Kept: **106** (Market Pulse: 79 · Players Movement: 27)
-- Flagged HUMAN_REVIEW: **10**
+- Generated: **2026-05-17 23:53 UTC**
+- Kept: **110** (Market Pulse: 77 · Players Movement: 33)
+- Flagged HUMAN_REVIEW: **8**
 
 ## Summary by signal level
 
 | Level | Count |
 |---|---:|
-| 4 - Strategic shift | 4 |
-| 3 - Market signal | 101 |
+| 4 - Strategic shift | 5 |
+| 3 - Market signal | 104 |
 | 2 - Minor signal | 1 |
 
 ## Top 10 by signal score
@@ -17,15 +17,15 @@
 1. `[4.0]` **Tham gia Vòng Sống Khỏe nhận quà có trị giá đến 3.990.000đ** · MoMo
 2. `[3.84]` **China clears Tencent’s Ximalaya acquisition with strict bans on exclusive deals, fee hikes** · Trung quốc
 3. `[3.58]` **[QUAN TRỌNG] CẬP NHẬT CHÍNH SÁCH GÓI VOUCHER XTRA VÀ CONTENT XTRA DÀNH CHO TẤT CẢ NGƯỜI BÁN TỪ THÁNG 09/2025** · Shopee
-4. `[3.42]` **Thu giữ loạt hàng giả ở Saigon Square, chợ Bến Thành** · Trong nước
-5. `[3.4]` **GrabMart | Đảm việc nhà - Giỏi kinh doanh nhờ nắm bắt xu hướng bán hàng qua ứng dụng** · Grab
-6. `[3.4]` **Grab | Giải pháp tăng trưởng Người dùng mới (dành cho dịch vụ Đi Ăn Nhà Hàng)** · Grab
-7. `[3.4]` **GFIN x VIETCREDIT | Chương trình hoàn tiền 01 tháng lãi vay khi đăng ký vay qua thương hiệu Tin Vay** · Grab
-8. `[3.4]` **GrabMart | Bí kíp tăng trưởng doanh thu sầu riêng** · Grab
-9. `[3.4]` **GrabMart | Các chương trình ưu đãi dành cho ngành hàng trái cây tươi mùa hè 2026** · Grab
-10. `[3.4]` **Grab | Cập nhật cách tính điểm đánh giá sao Cửa hàng** · Grab
+4. `[3.52]` **Helping billions ring in the New Year on WhatsApp** · WhatsApp
+5. `[3.42]` **Thu giữ loạt hàng giả ở Saigon Square, chợ Bến Thành** · Trong nước
+6. `[3.4]` **Introducing Incognito Chat with Meta AI: A completely private way to chat with AI** · WhatsApp
+7. `[3.4]` **GrabMart | Đảm việc nhà - Giỏi kinh doanh nhờ nắm bắt xu hướng bán hàng qua ứng dụng** · Grab
+8. `[3.4]` **Grab | Giải pháp tăng trưởng Người dùng mới (dành cho dịch vụ Đi Ăn Nhà Hàng)** · Grab
+9. `[3.4]` **GFIN x VIETCREDIT | Chương trình hoàn tiền 01 tháng lãi vay khi đăng ký vay qua thương hiệu Tin Vay** · Grab
+10. `[3.4]` **GrabMart | Bí kíp tăng trưởng doanh thu sầu riêng** · Grab
 
-## Players Movement (27)
+## Players Movement (33)
 
 ### Grab (17)
 
@@ -105,7 +105,7 @@
 
 - **[Combo du lịch siêu hời - Đón chào lễ hội pháo hoa tại Đà Nẵng](https://momo.vn/tin-tuc/khuyen-mai/combo-du-lich-sieu-hoi-don-chao-le-hoi-phao-hoa-8718)**
   - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `momo_newsroom` · published: 2026-05-15
-  - Combo du lịch siêu hời - Đón chào lễ hội pháo hoa tại Đà Nẵng Khuyến mãi · 15/05/2026 · 2.5K lượt xem Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Lễ hội Pháo hoa Quốc tế Đà Nẵng (DIFF) 2026 chính thức quay trở lại, hứa hẹn biến bầu trời sông Hàn thành một kiệt tác nghệ thuật đầy mê h
+  - Combo du lịch siêu hời - Đón chào lễ hội pháo hoa tại Đà Nẵng Khuyến mãi · 15/05/2026 · 2.6K lượt xem Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Lễ hội Pháo hoa Quốc tế Đà Nẵng (DIFF) 2026 chính thức quay trở lại, hứa hẹn biến bầu trời sông Hàn thành một kiệt tác nghệ thuật đầy mê h
 
 - **[[15.5 - 31.5] HOÀN ĐẾN 8.686Đ KHI TỰ CHUYỂN 2K TỪ NGÂN HÀNG ĐẾN SĐT MOMO CỦA BẢN THÂN](https://momo.vn/tin-tuc/khuyen-mai/155-315-hoan-den-8686d-khi-tu-chuyen-2k-tu-ngan-8717)**
   - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `momo_newsroom` · published: 2026-05-15
@@ -129,6 +129,32 @@
 - **[Tính năng phân bổ đơn vị vận chuyển tự động cho Người bán trên Shopee](https://banhang.shopee.vn/edu/article/17468)**
   - signal: `3.28` (3 - Market signal) · R1/R2: `3.0`/`3.7` · source: `shopee_seller_blog` · published: 2026-05-12
 
+### WhatsApp (6)
+
+- **[Helping billions ring in the New Year on WhatsApp](https://blog.whatsapp.com/helping-billions-ring-in-the-new-year-on-whatsapp)**
+  - signal: `3.52` (4 - Strategic shift) · R1/R2: `3.0`/`4.3` · source: `whatsapp_blog` · published: —
+  - New Year’s is our biggest day at WhatsApp, with each year breaking new records for how people text and call their friends and loved ones. On a regular day, we support over 100 billion messages and 2 billion calls - but the twenty four hours when the world welcomes a New Year always tops our charts. 
+
+- **[Introducing Incognito Chat with Meta AI: A completely private way to chat with AI](https://blog.whatsapp.com/introducing-incognito-chat-with-meta-ai-a-completely-private-way-to-chat-with-ai)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `whatsapp_blog` · published: 2026-05-13
+  - Chatting with AI has quickly become a critical part of how people get information and ask important questions. And many of these questions can be deeply sensitive, or include situations where people are including private financial, personal, health or work data with their questions. Ten years ago we
+
+- **[New Feature Roundup: Free up space, multiple accounts, cross-platform transfer and more](https://blog.whatsapp.com/new-feature-roundup-free-up-space-multiple-accounts-cross-platform-transfer-and-more)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `whatsapp_blog` · published: —
+  - Over time, our chats become a record of the moments that matter: conversations with family, laughs with friends, the photos and videos we couldn't stop sharing. To help you make the most of all of it, we're rolling out new ways to make WhatsApp even easier to use — whether you're staying organized, 
+
+- **[WhatsApp's Latest Privacy Protection: Strict Account Settings](https://blog.whatsapp.com/whatsapps-latest-privacy-protection-strict-account-settings)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `whatsapp_blog` · published: —
+  - At WhatsApp, we think you should be able to have a private conversation online, just like you would in-person. We will always defend that right to privacy for everyone, starting with default end-to-end encryption. But we also know that a few of our users – like journalists or public-facing figures –
+
+- **[Level Up Your WhatsApp Group Chats With New Member Tags, Text Stickers, and More](https://blog.whatsapp.com/level-up-your-whatsapp-group-chats-with-new-member-tags-text-stickers-and-more)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `whatsapp_blog` · published: —
+  - It’s a new year and a great time for some upgrades to your group chats. Group chats on WhatsApp make it easier to stay connected with the people in your life no matter what device they own – whether it’s sharing New Year’s resolutions, preparing for that special celebration you have coming up, or pl
+
+- **[Reintroducing About: An improved way to share what you're up to](https://blog.whatsapp.com/reintroducing-about-an-improved-way-to-share-what-youre-up-to)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `whatsapp_blog` · published: —
+  - For those of you that have used WhatsApp from the very start, you’ll remember About was our first feature. Even before we brought the world private and secure messaging, we made it simple for you to quickly share what’s up in your life. Today we're reintroducing and improving About, making it more v
+
 ### Zalo (2)
 
 - **[Tin tức](https://zalopay.vn/tin-tuc/tin-tuc-su-kien)**
@@ -139,7 +165,7 @@
   - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `zalopay_promo` · published: —
   - Trang chủ Tin tức Tin tức Cập nhập thông tin mới nhất về ZaloPay Khuyến mãi - Ưu đãi Ưu đãi riêng cho người dùng ZaloPay Blog Chuyên trang cung cấp thông tin hữu ích Dịch vụ Chuyển tiền - Nhận tiền Miễn phí, an toàn, chuyển tiền Zalo chat Nạp tiền điện thoại Nạp ĐT - Mua thẻ ĐT - Data 3G/4G Thanh to
 
-## Market Pulse (79)
+## Market Pulse (77)
 
 ### Trong nước (1)
 
@@ -165,13 +191,13 @@
   - signal: `3.36` (3 - Market signal) · R1/R2: `3.4`/`3.3` · source: `scmp_tech` · published: 2026-05-12
   - Kuaishou Technology’s shares jumped as much as 10 per cent on Tuesday morning after reports that the Chinese short-video platform was raising new funding for its Kling AI unit at a valuation of US$20 billion. Kuaishou – often seen as a rival to ByteDance-owned Douyin in China – plans to spin off its
 
-- **[Trump, Xi weigh AI ‘guardrails’ as Nvidia chip exports hang in the balance](https://www.scmp.com/tech/article/3353764/trump-xi-weigh-ai-guardrails-nvidia-chip-exports-hang-balance?utm_source=rss_feed)**
-  - signal: `3.24` (3 - Market signal) · R1/R2: `3.4`/`3.0` · source: `scmp_tech` · published: 2026-05-15
-  - US President Donald Trump and Chinese officials discussed artificial intelligence “guardrails” and Nvidia’s H200 chips during his just-ended state visit to Beijing. Speaking to reporters on Air Force One during his return flight, Trump said the two sides “talked about possibly working together for g
-
 - **[AI agents face trust issues in ‘high-risk’ industrial sectors: experts](https://www.scmp.com/tech/tech-trends/article/3353797/ai-agents-face-trust-issues-high-risk-industrial-sectors-experts?utm_source=rss_feed)**
   - signal: `3.24` (3 - Market signal) · R1/R2: `3.4`/`3.0` · source: `scmp_tech` · published: 2026-05-17
   - China’s industrial sectors are racing to integrate artificial intelligence to boost efficiency, bolstered by state support, but experts warn that critical vertical markets – such as healthcare and aerospace – may be too “high risk” for the shift towards autonomous agents. Hailed as the driver of a “
+
+- **[Trump, Xi weigh AI ‘guardrails’ as Nvidia chip exports hang in the balance](https://www.scmp.com/tech/article/3353764/trump-xi-weigh-ai-guardrails-nvidia-chip-exports-hang-balance?utm_source=rss_feed)**
+  - signal: `3.24` (3 - Market signal) · R1/R2: `3.4`/`3.0` · source: `scmp_tech` · published: 2026-05-15
+  - US President Donald Trump and Chinese officials discussed artificial intelligence “guardrails” and Nvidia’s H200 chips during his just-ended state visit to Beijing. Speaking to reporters on Air Force One during his return flight, Trump said the two sides “talked about possibly working together for g
 
 - **[China’s tech companies are looking to rewrite the e-commerce playbook with AI agents](https://www.scmp.com/tech/tech-trends/article/3353747/chinas-tech-companies-are-looking-rewrite-e-commerce-playbook-ai-agents?utm_source=rss_feed)**
   - signal: `3.24` (3 - Market signal) · R1/R2: `3.4`/`3.0` · source: `scmp_tech` · published: 2026-05-15
@@ -197,7 +223,7 @@
   - signal: `2.4` (2 - Minor signal) · R1/R2: `2.0`/`3.0` · source: `scmp_tech` · published: 2026-05-13
   - Chinese memory module manufacturers are accelerating the release of consumer and enterprise storage products powered by domestic DDR5 chips, as breakthroughs by ChangXin Memory Technologies (CXMT), the nation’s leading memory chipmaker, filter through the supply chain. Powev, one of China’s major me
 
-### Quốc tế (66)
+### Quốc tế (64)
 
 - **[Google adds Gemini-powered dictation to Gboard, which could be bad news for dictation startups](https://techcrunch.com/2026/05/12/google-adds-gemini-powered-dictation-to-gboard-which-could-be-bad-news-for-dictation-startups/)**
   - signal: `3.24` (3 - Market signal) · R1/R2: `3.6`/`2.7` · source: `techcrunch_apps` · published: 2026-05-12
@@ -279,6 +305,14 @@
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `openai_news` · published: 2026-05-14
   - May 8, 2026 Security Safety Running Codex safely at OpenAI A look at the controls, boundaries, and telemetry OpenAI uses to govern coding agents in real workflows. Share As AI systems become more capable, they increasingly act on behalf of users. Coding agents can autonomously review repositories, r
 
+- **[YouTube and Netflix Are Starting to Sound a Lot Like Normal TV](https://www.bloomberg.com/news/newsletters/2026-05-17/youtube-and-netflix-are-starting-to-sound-a-lot-like-normal-tv)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `bloomberg_tech` · published: 2026-05-17
+  - YouTube is pitching advertisers on a new slate of shows -- just like a TV network.
+
+- **[South Korean Bond Yields Set to Rise on Chips Boom, Analysts Say](https://www.bloomberg.com/news/articles/2026-05-16/korea-bond-yields-may-extend-gains-on-chips-boom-analysts-say)** 🚩HUMAN_REVIEW
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `bloomberg_tech` · published: 2026-05-16
+  - South Korea’s bonds are set to extend this year’s rout as a semiconductor boom supercharges the nation’s economic growth and adds to inflationary pressures, analysts say.
+
 - **[AI Poised to Tilt Job Market Leverage Toward Older Workers](https://www.bloomberg.com/news/articles/2026-05-16/ai-poised-to-tilt-job-market-leverage-toward-older-workers)**
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `bloomberg_tech` · published: 2026-05-16
   - When it comes to job cuts, older workers are often disproportionately affected. But a new survey of chief executive officers suggests this won’t be a given as companies adopt artificial intelligence.
@@ -299,25 +333,9 @@
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `bloomberg_tech` · published: 2026-05-15
   - Snap Inc., Google’s YouTube and ByteDance Ltd.’s TikTok reached agreements to settle the first lawsuit headed to trial over claims that addiction to top social media platforms has disrupted learning and pushed public schools to spend massive sums fighting a mental health crisis, according to court f
 
-- **[Korea Bond Yields Seen Gaining on Chips Boom, Analysts Say](https://www.bloomberg.com/news/articles/2026-05-16/korea-bond-yields-may-extend-gains-on-chips-boom-analysts-say)** 🚩HUMAN_REVIEW
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `bloomberg_tech` · published: 2026-05-16
-  - South Korea’s bonds are set to extend this year’s rout as a semiconductor boom supercharges the nation’s economic growth and adds to inflationary pressures, analysts say.
-
-- **[Forbright Files for IPO Pitching Middle Market, Digital Banking](https://www.bloomberg.com/news/articles/2026-05-15/forbright-files-for-ipo-pitching-middle-market-digital-banking)** 🚩HUMAN_REVIEW
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `bloomberg_tech` · published: 2026-05-15
-  - Forbright Inc., a financial services platform that focuses on middle-market lending and digital consumer banking, filed for an initial public offering showing growing deposits.
-
-- **[US Is Starting to See Heavy Job Losses in Roles Exposed to AI](https://www.bloomberg.com/news/articles/2026-05-15/us-is-starting-to-see-heavy-job-losses-in-roles-exposed-to-ai)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `bloomberg_tech` · published: 2026-05-15
-  - Several US occupations expected to be impacted by artificial intelligence saw heavy job losses for a second year in 2025, led by customer service representatives and certain types of secretaries and salespeople.
-
 - **[Introducing Instants: A New Way to Share in the Moment](https://about.fb.com/news/2026/05/instants-share-in-the-moment/)**
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `meta_newsroom` · published: 2026-05-13
   - Today, we’re introducing Instants, a new way to share photos in the moment with your Close Friends or mutual followers with just a tap. Photos you share on Instants disappear after they’ve been viewed and can’t be viewed after 24 hours. You also can’t edit your instants before sharing, so you can sh
-
-- **[Introducing a Completely Private Way to Chat With AI](https://about.fb.com/news/2026/05/incognito-chat-whatsapp-meta-ai/)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `meta_newsroom` · published: 2026-05-13
-  - Chatting with AI has quickly become a critical part of how people get information and ask important questions. These questions can be deeply sensitive or personal, like health issues, loan details, or career advice. Today, we’re launching Incognito Chat with Meta AI on WhatsApp and the Meta AI app, 
 
 - **[New Supervision Tools Give Parents Insights Into Their Teen’s Algorithm and More](https://about.fb.com/news/2026/05/new-supervision-tools-parents-insights-teens-algorithm/)**
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `meta_newsroom` · published: 2026-05-12
@@ -383,9 +401,9 @@
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_apps` · published: 2026-05-11
   - This will be the first time that The Times has collaborated with a TV broadcaster for an entertainment-based program, representing yet another pivot in the media company's attempt to build a sustainable digital subscription business as print revenue continues to decline.
 
-- **[TikTok launches an ad-free subscription plan in the UK](https://techcrunch.com/2026/05/11/tiktok-launches-an-ad-free-subscription-plan-in-the-uk/)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_apps` · published: 2026-05-11
-  - Users who sign up for the plan won’t see ads on TikTok, and their data won’t be used for advertising purposes.
+- **[Why trust is a big question at the Elon Musk-OpenAI trial](https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_ai` · published: 2026-05-17
+  - A big theme in the trial’s final days was whether OpenAI CEO Sam Altman is trustworthy.
 
 - **[OpenAI co-founder Greg Brockman takes charge of product strategy](https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/)**
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_ai` · published: 2026-05-16
@@ -411,9 +429,9 @@
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_ai` · published: 2026-05-14
   - A new open source gadget called Clawdmeter turns Claude Code usage stats into a tiny desktop dashboard for AI coding power users.
 
-- **[Cisco cuts nearly 4,000 jobs to spend more on AI, reports ‘record quarterly revenue’](https://techcrunch.com/2026/05/14/cisco-cuts-nearly-4000-jobs-to-spend-more-on-ai-reports-record-quarterly-revenue/)** 🚩HUMAN_REVIEW
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_ai` · published: 2026-05-14
-  - This is Cisco's latest layoff in recent years, while the company's chief executive touts record revenue and growth.
+- **[Phiên tòa 'tỷ phú đấu tỷ phú' giữa Musk và Altman](https://vnexpress.net/phien-toa-ty-phu-dau-ty-phu-giua-musk-va-altman-5074631.html)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vnexpress_khcn` · published: 2026-05-17
+  - Sau ba tuần tranh tụng, bên cạnh những thông tin chưa từng xuất hiện, phiên tòa giữa Elon Musk với Sam Altman và OpenAI còn phô trương sự giàu có.
 
 - **[AI Mythos của Anthropic có thể bẻ khóa máy Mac](https://vnexpress.net/ai-mythos-cua-anthropic-co-the-be-khoa-may-mac-5074524.html)**
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vnexpress_khcn` · published: 2026-05-16
@@ -455,9 +473,9 @@
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vnexpress_kinhdoanh` · published: 2026-05-14
   - Nhờ sức nâng đỡ của cổ phiếu Vingroup, chứng khoán hôm nay tiếp tục ghi nhận kỷ lục mới, đóng cửa ở trên mốc 1.925 điểm.
 
-- **[Apple’s New ChatGPT-Like Siri App Will Have Auto-Deleting Chats](https://www.bloomberg.com/news/newsletters/2026-05-17/ios-27-siri-app-to-have-auto-deleting-chats-siri-may-be-a-beta-genmoji-mp9udydr)**
-  - signal: `2.52` (3 - Market signal) · R1/R2: `2.6`/`2.4` · source: `bloomberg_tech` · published: 2026-05-17
-  - Also: A Genmoji upgrade is coming in iOS 27.
+- **[Apple’s Siri revamp could include auto-deleting chats](https://techcrunch.com/2026/05/17/apples-siri-revamp-could-include-auto-deleting-chats/)**
+  - signal: `2.52` (3 - Market signal) · R1/R2: `2.6`/`2.4` · source: `techcrunch_apps` · published: 2026-05-17
+  - Privacy will be a major theme when Apple unveils a new version of Siri.
 
 - **[OpenAI says Codex is coming to your phone](https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/)**
   - signal: `2.52` (3 - Market signal) · R1/R2: `2.6`/`2.4` · source: `techcrunch_ai` · published: 2026-05-14
