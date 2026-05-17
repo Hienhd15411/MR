@@ -94,10 +94,11 @@ class RSSCrawler(BaseCrawler):
         if not xml:
             return []
         items = parse_rss(xml)
-        # Keep only items in the last N days (or items missing date).
+        # Strict last-N-days window: an item with no pubDate, or one outside
+        # the window, is dropped so stale posts never reach the Database.
         kept: list[RSSItem] = []
         for it in items:
-            if it.published and not within_window(it.published, self.window_days):
+            if not it.published or not within_window(it.published, self.window_days):
                 continue
             kept.append(it)
         kept = kept[: self.max_items]

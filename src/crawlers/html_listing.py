@@ -31,7 +31,7 @@ from src.storage.models import (
     SourceType,
     Status,
 )
-from src.utils.date_utils import now_utc, parse_date, within_window
+from src.utils.date_utils import extract_published, now_utc, within_window
 
 _NAV_PATH_RE = re.compile(
     r"/(category|tag|topics?|author|about|contact|privacy|terms|login|"
@@ -131,19 +131,14 @@ class HtmlListingCrawler(BaseCrawler):
                 desc = soup.find("meta", attrs={"name": "description"})
                 if desc and desc.get("content"):
                     snippet = desc["content"]
-            time_el = soup.find("time")
-            if time_el:
-                published = parse_date(
-                    time_el.get("datetime") or time_el.get_text(strip=True)
-                )
-            if published is None:
-                meta_date = soup.find("meta", attrs={"property": "article:published_time"})
-                if meta_date and meta_date.get("content"):
-                    published = parse_date(meta_date["content"])
+            published = extract_published(soup, url)
 
         if not title or _looks_like_cta_or_nav(title):
             return None
-        if published is not None and not within_window(published, self.window_days):
+        # Strict last-N-days window: an article whose publish date cannot be
+        # established is treated as out-of-window so stale posts never leak
+        # into the weekly Database.
+        if published is None or not within_window(published, self.window_days):
             return None
 
         return RawArticle(

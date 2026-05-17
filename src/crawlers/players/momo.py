@@ -22,7 +22,7 @@ from src.storage.models import (
     Status,
 )
 from src.config.settings import CRAWL_WINDOW_DAYS
-from src.utils.date_utils import now_utc, parse_date, within_window
+from src.utils.date_utils import extract_published, now_utc, within_window
 
 
 LIST_URL = "https://momo.vn/tin-tuc"
@@ -136,18 +136,13 @@ class MoMoNewsroom(BaseCrawler):
                 desc = soup.find("meta", attrs={"name": "description"})
                 if desc and desc.get("content"):
                     snippet = desc["content"]
-            time_el = soup.find("time")
-            if time_el:
-                published = parse_date(
-                    time_el.get("datetime") or time_el.get_text(strip=True)
-                )
+            published = extract_published(soup, url)
 
         if not title:
             return None
-        # Spec: only "7 ngày gần nhất". Drop articles known to be older.
-        # If we couldn't parse a date, keep the article (listing pages are
-        # ordered newest-first and we already cap to max_items).
-        if published is not None and not within_window(published, self.window_days):
+        # Spec: only "7 ngày gần nhất". An article whose date cannot be
+        # established is treated as out-of-window and dropped.
+        if published is None or not within_window(published, self.window_days):
             return None
 
         return RawArticle(

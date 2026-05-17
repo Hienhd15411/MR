@@ -33,7 +33,7 @@ from src.storage.models import (
     SourceType,
     Status,
 )
-from src.utils.date_utils import now_utc, parse_date, within_window
+from src.utils.date_utils import extract_published, now_utc, within_window
 
 # Anchor text fragments that mean "this <a> is a CTA button or nav
 # menu entry, not an article". Stripped link text matching one of these
@@ -229,15 +229,13 @@ class PlayerBlogCrawler(BaseCrawler):
                     if candidate and not _looks_like_cta_or_nav(candidate):
                         snippet = candidate
 
-            time_el = soup.find("time")
-            if time_el:
-                published = parse_date(
-                    time_el.get("datetime") or time_el.get_text(strip=True)
-                )
+            published = extract_published(soup, url)
 
         if not title or _looks_like_cta_or_nav(title):
             return None
-        if published is not None and not within_window(published, self.window_days):
+        # Strict last-N-days window: undated posts are dropped rather than
+        # silently kept, so old blog entries never leak into the report.
+        if published is None or not within_window(published, self.window_days):
             return None
 
         return RawArticle(
