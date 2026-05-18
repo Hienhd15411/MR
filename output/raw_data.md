@@ -1,15 +1,15 @@
 # Market Watch — Database preview
 
-- Generated: **2026-05-18 03:34 UTC**
-- Kept: **107** (Market Pulse: 76 · Players Movement: 31)
+- Generated: **2026-05-18 03:53 UTC**
+- Kept: **110** (Market Pulse: 85 · Players Movement: 25)
 - Flagged HUMAN_REVIEW: **8**
 
 ## Summary by signal level
 
 | Level | Count |
 |---|---:|
-| 4 - Strategic shift | 6 |
-| 3 - Market signal | 100 |
+| 4 - Strategic shift | 5 |
+| 3 - Market signal | 104 |
 | 2 - Minor signal | 1 |
 
 ## Top 10 by signal score
@@ -18,14 +18,14 @@
 2. `[3.58]` **[QUAN TRỌNG] CẬP NHẬT CHÍNH SÁCH GÓI VOUCHER XTRA VÀ CONTENT XTRA DÀNH CHO TẤT CẢ NGƯỜI BÁN TỪ THÁNG 09/2025** · Shopee
 3. `[3.52]` **Thành công trao 195 suất học bổng cho học sinh nghèo hiếu học tại Cần Thơ** · MoMo
 4. `[3.52]` **Sale giữa tháng 5: Vé máy bay giảm đến 1 triệu** · MoMo
-5. `[3.52]` **Helping billions ring in the New Year on WhatsApp** · WhatsApp
-6. `[3.42]` **Thu giữ loạt hàng giả ở Saigon Square, chợ Bến Thành** · Trong nước
-7. `[3.4]` **Introducing Incognito Chat with Meta AI: A completely private way to chat with AI** · WhatsApp
-8. `[3.4]` **GrabMart | Đảm việc nhà - Giỏi kinh doanh nhờ nắm bắt xu hướng bán hàng qua ứng dụng** · Grab
-9. `[3.4]` **Grab | Giải pháp tăng trưởng Người dùng mới (dành cho dịch vụ Đi Ăn Nhà Hàng)** · Grab
-10. `[3.4]` **GFIN x VIETCREDIT | Chương trình hoàn tiền 01 tháng lãi vay khi đăng ký vay qua thương hiệu Tin Vay** · Grab
+5. `[3.42]` **Thu giữ loạt hàng giả ở Saigon Square, chợ Bến Thành** · Trong nước
+6. `[3.4]` **GrabMart | Đảm việc nhà - Giỏi kinh doanh nhờ nắm bắt xu hướng bán hàng qua ứng dụng** · Grab
+7. `[3.4]` **Grab | Giải pháp tăng trưởng Người dùng mới (dành cho dịch vụ Đi Ăn Nhà Hàng)** · Grab
+8. `[3.4]` **GFIN x VIETCREDIT | Chương trình hoàn tiền 01 tháng lãi vay khi đăng ký vay qua thương hiệu Tin Vay** · Grab
+9. `[3.4]` **GrabMart | Bí kíp tăng trưởng doanh thu sầu riêng** · Grab
+10. `[3.4]` **GrabMart | Các chương trình ưu đãi dành cho ngành hàng trái cây tươi mùa hè 2026** · Grab
 
-## Players Movement (31)
+## Players Movement (25)
 
 ### Grab (11)
 
@@ -120,32 +120,6 @@
 - **[collection_ic Created with Sketch. Hướng dẫn yêu cầu hỗ trợ (raise ticket) API trên Shopee Open Platform](https://banhang.shopee.vn/edu/article/12783)**
   - signal: `3.28` (3 - Market signal) · R1/R2: `3.0`/`3.7` · source: `shopee_seller_blog` · published: 2026-05-13
 
-### WhatsApp (6)
-
-- **[Helping billions ring in the New Year on WhatsApp](https://blog.whatsapp.com/helping-billions-ring-in-the-new-year-on-whatsapp)**
-  - signal: `3.52` (4 - Strategic shift) · R1/R2: `3.0`/`4.3` · source: `whatsapp_blog` · published: —
-  - New Year’s is our biggest day at WhatsApp, with each year breaking new records for how people text and call their friends and loved ones. On a regular day, we support over 100 billion messages and 2 billion calls - but the twenty four hours when the world welcomes a New Year always tops our charts. 
-
-- **[Introducing Incognito Chat with Meta AI: A completely private way to chat with AI](https://blog.whatsapp.com/introducing-incognito-chat-with-meta-ai-a-completely-private-way-to-chat-with-ai)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `whatsapp_blog` · published: 2026-05-13
-  - Chatting with AI has quickly become a critical part of how people get information and ask important questions. And many of these questions can be deeply sensitive, or include situations where people are including private financial, personal, health or work data with their questions. Ten years ago we
-
-- **[New Feature Roundup: Free up space, multiple accounts, cross-platform transfer and more](https://blog.whatsapp.com/new-feature-roundup-free-up-space-multiple-accounts-cross-platform-transfer-and-more)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `whatsapp_blog` · published: —
-  - Over time, our chats become a record of the moments that matter: conversations with family, laughs with friends, the photos and videos we couldn't stop sharing. To help you make the most of all of it, we're rolling out new ways to make WhatsApp even easier to use — whether you're staying organized, 
-
-- **[WhatsApp's Latest Privacy Protection: Strict Account Settings](https://blog.whatsapp.com/whatsapps-latest-privacy-protection-strict-account-settings)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `whatsapp_blog` · published: —
-  - At WhatsApp, we think you should be able to have a private conversation online, just like you would in-person. We will always defend that right to privacy for everyone, starting with default end-to-end encryption. But we also know that a few of our users – like journalists or public-facing figures –
-
-- **[Level Up Your WhatsApp Group Chats With New Member Tags, Text Stickers, and More](https://blog.whatsapp.com/level-up-your-whatsapp-group-chats-with-new-member-tags-text-stickers-and-more)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `whatsapp_blog` · published: —
-  - It’s a new year and a great time for some upgrades to your group chats. Group chats on WhatsApp make it easier to stay connected with the people in your life no matter what device they own – whether it’s sharing New Year’s resolutions, preparing for that special celebration you have coming up, or pl
-
-- **[Reintroducing About: An improved way to share what you're up to](https://blog.whatsapp.com/reintroducing-about-an-improved-way-to-share-what-youre-up-to)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `whatsapp_blog` · published: —
-  - For those of you that have used WhatsApp from the very start, you’ll remember About was our first feature. Even before we brought the world private and secure messaging, we made it simple for you to quickly share what’s up in your life. Today we're reintroducing and improving About, making it more v
-
 ### Zalo (2)
 
 - **[Tin tức](https://zalopay.vn/tin-tuc/tin-tuc-su-kien)**
@@ -156,7 +130,7 @@
   - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `zalopay_promo` · published: —
   - Trang chủ Tin tức Tin tức Cập nhập thông tin mới nhất về ZaloPay Khuyến mãi - Ưu đãi Ưu đãi riêng cho người dùng ZaloPay Blog Chuyên trang cung cấp thông tin hữu ích Dịch vụ Chuyển tiền - Nhận tiền Miễn phí, an toàn, chuyển tiền Zalo chat Nạp tiền điện thoại Nạp ĐT - Mua thẻ ĐT - Data 3G/4G Thanh to
 
-## Market Pulse (76)
+## Market Pulse (85)
 
 ### Trong nước (1)
 
@@ -214,7 +188,7 @@
   - signal: `2.4` (2 - Minor signal) · R1/R2: `2.0`/`3.0` · source: `scmp_tech` · published: 2026-05-13
   - Chinese memory module manufacturers are accelerating the release of consumer and enterprise storage products powered by domestic DDR5 chips, as breakthroughs by ChangXin Memory Technologies (CXMT), the nation’s leading memory chipmaker, filter through the supply chain. Powev, one of China’s major me
 
-### Quốc tế (63)
+### Quốc tế (72)
 
 - **[Google adds Gemini-powered dictation to Gboard, which could be bad news for dictation startups](https://techcrunch.com/2026/05/12/google-adds-gemini-powered-dictation-to-gboard-which-could-be-bad-news-for-dictation-startups/)**
   - signal: `3.24` (3 - Market signal) · R1/R2: `3.6`/`2.7` · source: `techcrunch_apps` · published: 2026-05-12
@@ -247,6 +221,14 @@
 - **[Cerebras raises $5.5B, then stock pops $108%, in the first huge tech IPO of 2026](https://techcrunch.com/2026/05/14/cerebras-raises-5-5b-kicking-off-2026s-ipo-season-with-a-bang/)** 🚩HUMAN_REVIEW
   - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `techcrunch_ai` · published: 2026-05-14
   - A year ago, it looked like this day would never happen for Cerebras.
+
+- **[Marketing operating system Nectar Social raises $30M Series A led by Menlo](https://techcrunch.com/2026/05/16/marketing-operating-system-nectar-social-raises-30m-series-a-in-round-led-by-menlo/)**
+  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `techcrunch_latest` · published: 2026-05-16
+  - AI-powered marketing platform Nectar Social announced Thursday that it raised a $30 million Series A round led by Menlo Ventures and its Anthology Fund, which was created alongside Anthropic.
+
+- **[$60B AI chip darling Cerebras almost died early on, burning $8M a month](https://techcrunch.com/2026/05/16/60b-ai-chip-darling-cerebras-almost-died-early-on-burning-8m-a-month/)**
+  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `techcrunch_latest` · published: 2026-05-16
+  - Cerebras Systems was 2026's biggest tech IPO so far. But years ago, it burned through hundreds of millions working on a chip many believed impossible.
 
 - **[Startup Mỹ được định giá gần 100 tỷ USD nhờ chip AI 'bằng cái đĩa'](https://vnexpress.net/startup-my-duoc-dinh-gia-gan-100-ty-usd-nho-chip-ai-bang-cai-dia-5074683.html)**
   - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `vnexpress_khcn` · published: 2026-05-16
@@ -296,6 +278,10 @@
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `bloomberg_tech` · published: 2026-05-18
   - ChangXin Memory Technologies Inc. reported soaring revenue and profit in the first quarter and forecast higher earnings ahead, bolstering its financials ahead of a high-profile initial public offering later this year.
 
+- **[E-Commerce Giant Shein Buys Apparel Brand Everlane, Reports Say](https://www.bloomberg.com/news/articles/2026-05-18/e-commerce-giant-shein-buys-apparel-brand-everlane-reports-say)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `bloomberg_tech` · published: 2026-05-18
+  - Chinese e-commerce giant Shein is acquiring US apparel retailer Everlane from majority owner L Catterton, according to media reports.
+
 - **[YouTube and Netflix Are Starting to Sound a Lot Like Normal TV](https://www.bloomberg.com/news/newsletters/2026-05-17/youtube-and-netflix-are-starting-to-sound-a-lot-like-normal-tv)**
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `bloomberg_tech` · published: 2026-05-17
   - YouTube is pitching advertisers on a new slate of shows -- just like a TV network.
@@ -323,6 +309,10 @@
 - **[Introducing Instants: A New Way to Share in the Moment](https://about.fb.com/news/2026/05/instants-share-in-the-moment/)**
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `meta_newsroom` · published: 2026-05-13
   - Today, we’re introducing Instants, a new way to share photos in the moment with your Close Friends or mutual followers with just a tap. Photos you share on Instants disappear after they’ve been viewed and can’t be viewed after 24 hours. You also can’t edit your instants before sharing, so you can sh
+
+- **[Introducing a Completely Private Way to Chat With AI](https://about.fb.com/news/2026/05/incognito-chat-whatsapp-meta-ai/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `meta_newsroom` · published: 2026-05-13
+  - Chatting with AI has quickly become a critical part of how people get information and ask important questions. These questions can be deeply sensitive or personal, like health issues, loan details, or career advice. Today, we’re launching Incognito Chat with Meta AI on WhatsApp and the Meta AI app, 
 
 - **[New Supervision Tools Give Parents Insights Into Their Teen’s Algorithm and More](https://about.fb.com/news/2026/05/new-supervision-tools-parents-insights-teens-algorithm/)**
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `meta_newsroom` · published: 2026-05-12
@@ -372,6 +362,10 @@
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_apps` · published: 2026-05-12
   - Google’s new Android feature, Pause Point, forces you to wait before opening distracting apps in an effort to curb addictive scrolling habits.
 
+- **[Indigo brings the open social web to one app](https://techcrunch.com/2026/05/12/indigo-brings-the-open-social-web-to-one-app/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_apps` · published: 2026-05-12
+  - Indigo's new social app lets you cross-post to the open social web, including Mastodon and Bluesky, and browse a unified timeline.
+
 - **[Threads tests a Meta AI integration that works similarly to Grok](https://techcrunch.com/2026/05/12/threads-tests-a-meta-ai-integration-that-works-similarly-to-grok/)**
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_apps` · published: 2026-05-12
   - The feature is designed to help people get real-time context about trends and breaking stories, as well as receive recommendations, all within conversations.
@@ -415,6 +409,22 @@
 - **[Clawdmeter turns your Claude Code usage stats into a tiny desktop dashboard](https://techcrunch.com/2026/05/14/clawdmeter-turns-your-claude-code-usage-stats-into-a-tiny-desktop-dashboard/)**
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_ai` · published: 2026-05-14
   - A new open source gadget called Clawdmeter turns Claude Code usage stats into a tiny desktop dashboard for AI coding power users.
+
+- **[Users turn to jailbreaking their older Kindles as Amazon ends support](https://techcrunch.com/2026/05/16/users-turn-to-jailbreaking-their-older-kindles-as-amazon-ends-support/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_latest` · published: 2026-05-16
+  - It may be possible to jailbreak an older, end-of-support Kindle and continue adding books to it. But doing so carries risks.
+
+- **[Finally, texts between Android and iPhone users can be end-to-end encrypted](https://techcrunch.com/2026/05/11/finally-texts-between-android-and-iphone-users-can-be-end-to-end-encrypted/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_social` · published: 2026-05-11
+  - Google had urged Apple for years to support RCS texting to make communication between each company's devices more seamless.
+
+- **[TikTok launches an ad-free subscription plan in the UK](https://techcrunch.com/2026/05/11/tiktok-launches-an-ad-free-subscription-plan-in-the-uk/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_social` · published: 2026-05-11
+  - Users who sign up for the plan won’t see ads on TikTok, and their data won’t be used for advertising purposes.
+
+- **[Bảo vệ trẻ em trên không gian mạng: Không thể chỉ dừng ở cảnh báo nguy cơ](https://vneconomy.vn/techconnect/bao-ve-tre-em-tren-khong-gian-mang-khong-the-chi-dung-o-canh-bao-nguy-co.htm)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vneconomy_techtalk` · published: 2026-05-17
+  - Tech Talk Bảo vệ trẻ em trên không gian mạng: Không thể chỉ dừng ở cảnh báo nguy cơ Bảo Bình 17/05/2026 Chia sẻ Khảo sát sơ bộ cho thấy khoảng 9/10 thiếu niên đã được học hoặc tiếp cận nội dung về an toàn mạng, nhưng đồng thời cũng có tới 9/10 em phản ánh đã trực tiếp hoặc gián tiếp đối mặt với các 
 
 - **[Phiên tòa 'tỷ phú đấu tỷ phú' giữa Musk và Altman](https://vnexpress.net/phien-toa-ty-phu-dau-ty-phu-giua-musk-va-altman-5074631.html)**
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vnexpress_khcn` · published: 2026-05-17
