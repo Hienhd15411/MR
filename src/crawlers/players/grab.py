@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup
 from loguru import logger
 
 from src.crawlers.base import BaseCrawler
+from src.utils.debug_dump import dump_html
 from src.storage.models import (
     ArticleType,
     RawArticle,
@@ -90,8 +91,9 @@ class GrabVNBlog(BaseCrawler):
 
     async def list_article_urls(self, client: httpx.AsyncClient) -> list[str]:
         urls: list[str] = []
-        for list_url in LIST_URLS:
+        for i, list_url in enumerate(LIST_URLS):
             html = await self._fetch_spa(client, list_url)
+            dump_html(self.name, i, list_url, html)
             if not html:
                 continue
             soup = BeautifulSoup(html, "html.parser")

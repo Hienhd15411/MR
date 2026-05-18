@@ -26,6 +26,7 @@ from loguru import logger
 
 from src.config.settings import CRAWL_WINDOW_DAYS
 from src.crawlers.base import BaseCrawler
+from src.utils.debug_dump import dump_html
 from src.storage.models import (
     ArticleType,
     RawArticle,
@@ -185,8 +186,9 @@ class PlayerBlogCrawler(BaseCrawler):
         all_pages = [self.base_url] + list(self.list_urls)
         urls: list[str] = []
         seen_canonical: set[str] = set()
-        for list_url in all_pages:
+        for i, list_url in enumerate(all_pages):
             html = await self._fetch_spa(client, list_url)
+            dump_html(self.name, i, list_url, html)
             if not html:
                 continue
             soup = BeautifulSoup(html, "html.parser")

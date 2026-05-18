@@ -14,6 +14,7 @@ from bs4 import BeautifulSoup
 from loguru import logger
 
 from src.crawlers.base import BaseCrawler
+from src.utils.debug_dump import dump_html
 from src.storage.models import (
     ArticleType,
     RawArticle,
@@ -99,8 +100,9 @@ class MoMoNewsroom(BaseCrawler):
 
     async def list_article_urls(self, client: httpx.AsyncClient) -> list[str]:
         urls: list[str] = []
-        for list_url in [self.base_url] + LIST_URLS_EXTRA:
+        for i, list_url in enumerate([self.base_url] + LIST_URLS_EXTRA):
             html = await self._fetch_spa(client, list_url)
+            dump_html(self.name, i, list_url, html)
             if not html:
                 continue
             soup = BeautifulSoup(html, "html.parser")

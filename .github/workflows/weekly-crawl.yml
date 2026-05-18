@@ -33,6 +33,9 @@ jobs:
       LOG_LEVEL: INFO
       # Always crawl fresh in CI; the local .cache/ is dev-only.
       CRAWL_CACHE: "0"
+      # Dump raw listing HTML so player-blog selectors can be fixed from
+      # the real DOM (sandbox has no network). Temporary debugging aid.
+      MW_DEBUG_DUMP: "1"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -89,6 +92,7 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add output/raw_data.xlsx output/raw_data.md
+          git add -f output/debug 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No changes in output/ — skipping commit."
             exit 0

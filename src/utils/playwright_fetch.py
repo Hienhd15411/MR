@@ -12,7 +12,7 @@ from src.utils.anti_bot import random_user_agent
 
 
 async def fetch_html(
-    url: str, timeout_ms: int = 25_000, scroll: bool = True
+    url: str, timeout_ms: int = 25_000, scroll: bool = False
 ) -> Optional[str]:
     try:
         from playwright.async_api import async_playwright  # type: ignore
