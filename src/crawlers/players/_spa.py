@@ -139,6 +139,9 @@ class PlayerBlogCrawler(BaseCrawler):
     # Heavy JS SPAs return a non-empty shell over httpx (so the SPA-empty
     # heuristic misfires); force the headless browser for these.
     force_playwright: bool = False
+    # Listing lazy-loads more posts on scroll (opt-in; an unbounded
+    # global scroll previously blew the job timeout).
+    needs_scroll: bool = False
 
     def __init__(self, max_items: int = 60, window_days: int = CRAWL_WINDOW_DAYS):
         super().__init__()
@@ -178,7 +181,7 @@ class PlayerBlogCrawler(BaseCrawler):
         from src.utils.playwright_fetch import fetch_html
 
         logger.info("[{}] rendering with Playwright: {}", self.name, url)
-        return await fetch_html(url)
+        return await fetch_html(url, scroll=self.needs_scroll)
 
     # ---- Crawler interface ---------------------------------------------
 

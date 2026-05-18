@@ -34,9 +34,11 @@ async def fetch_html(
                 if scroll:
                     # Blog/listing SPAs lazy-load posts on scroll; without
                     # this only the first 3-5 articles are in the DOM.
+                    # Conservative bound so a scroll never blows the job
+                    # timeout (the earlier aggressive loop did).
                     try:
                         prev_h = 0
-                        for _ in range(12):
+                        for _ in range(6):
                             h = await page.evaluate("document.body.scrollHeight")
                             if h <= prev_h:
                                 break
@@ -44,7 +46,7 @@ async def fetch_html(
                             await page.evaluate(
                                 "window.scrollTo(0, document.body.scrollHeight)"
                             )
-                            await page.wait_for_timeout(1200)
+                            await page.wait_for_timeout(900)
                     except Exception:
                         pass
                 html = await page.content()

@@ -89,14 +89,14 @@ class MoMoNewsroom(BaseCrawler):
         self._cache: dict[str, dict] = {}
 
     async def _fetch_spa(self, client: httpx.AsyncClient, url: str) -> Optional[str]:
-        """SPAs may return 200 with empty shell HTML; force Playwright in that case."""
-        html = await self.fetch(client, url)
-        if html and "<a" in html.lower() and len(html) > 5000:
-            return html
+        """momo.vn renders only ~3 posts server-side; the rest lazy-load
+        on scroll. Always drive a scrolling headless browser."""
         from src.utils.playwright_fetch import fetch_html
 
-        logger.info("[{}] HTML looks empty, forcing Playwright for {}", self.name, url)
-        return await fetch_html(url)
+        html = await fetch_html(url, scroll=True)
+        if html:
+            return html
+        return await self.fetch(client, url)
 
     async def list_article_urls(self, client: httpx.AsyncClient) -> list[str]:
         urls: list[str] = []

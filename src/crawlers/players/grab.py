@@ -32,18 +32,22 @@ from src.utils.date_utils import (
 
 LIST_URL = "https://www.grab.com/vn/blog/"
 
-# Grab VN blog is organised into category pages. Each one lists that
-# section's recent posts — crawl them all, not just the homepage.
+# Real Grab VN blog sections (confirmed from live DOM). Each paginates
+# with ?page=N; crawl the first few pages of every section.
 _SECTIONS = [
-    "driver", "merchant", "food", "mart", "express", "news",
-    "passenger", "car", "delivery", "safety", "payment", "story",
+    "", "driven-by-tech", "grab-community", "news",
+    "pulse-of-vietnam", "driver",
 ]
-LIST_URLS = [LIST_URL] + [f"{LIST_URL}{s}/" for s in _SECTIONS]
+LIST_URLS: list[str] = []
+for _s in _SECTIONS:
+    _b = f"https://www.grab.com/vn/blog/{_s}".rstrip("/")
+    LIST_URLS += [f"{_b}/", f"{_b}?page=1", f"{_b}?page=2"]
 
-# A category/landing slug is NOT an article. Real posts have a long,
-# hyphenated slug (e.g. /vn/blog/grab-uu-dai-thang-5-2026).
-_NON_POST_SLUGS = set(_SECTIONS) | {
+# Section/landing slugs are never articles. Real posts have a long,
+# hyphenated slug (e.g. /vn/blog/thong-bao-trien-khai-dich-vu-grabcar).
+_NON_POST_SLUGS = {s for s in _SECTIONS if s} | {
     "vn", "blog", "category", "tag", "author", "page", "search",
+    "merchant", "food", "mart", "express",
 }
 
 
@@ -57,11 +61,12 @@ def _post_slug(href: str) -> Optional[str]:
 
 
 def _looks_like_post(href: str) -> bool:
+    # ?page= URLs are category pagination, never a single article.
+    if not href or "page=" in href:
+        return False
     slug = _post_slug(href)
     if not slug or slug in _NON_POST_SLUGS:
         return False
-    # Article slugs are hyphenated and reasonably long; category pages
-    # ("driver", "merchant") are single short words and get filtered above.
     return "-" in slug and len(slug) >= 12
 
 
