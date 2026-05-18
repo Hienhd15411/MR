@@ -93,6 +93,9 @@ class HtmlListingCrawler(BaseCrawler):
 
     async def list_article_urls(self, client: httpx.AsyncClient) -> list[str]:
         html = await self._fetch_spa(client, self.list_url)
+        from src.utils.debug_dump import dump_html
+
+        dump_html(self.name, 0, self.list_url, html)
         if not html:
             return []
         soup = BeautifulSoup(html, "html.parser")

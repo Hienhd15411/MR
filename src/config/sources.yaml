@@ -15,7 +15,7 @@ news:
   # ---------- Priority 1 — Tier-1 tech media ----------
   - key: openai_news
     name: "OpenAI"
-    priority: 1
+    priority: 0
     crawler: html
     list_url: "https://openai.com/news/"
     scope: international
@@ -32,16 +32,16 @@ news:
   - key: dantri_ai
     name: "Dân Trí"
     priority: 1
-    crawler: rss
-    rss_url: "https://dantri.com.vn/cong-nghe/ai-internet.rss"
+    crawler: html
+    list_url: "https://dantri.com.vn/cong-nghe.htm"
     scope: domestic
     type: market_pulse
 
   - key: dantri_security
     name: "Dân Trí"
     priority: 1
-    crawler: rss
-    rss_url: "https://dantri.com.vn/cong-nghe/an-ninh-mang.rss"
+    crawler: html
+    list_url: "https://dantri.com.vn/cong-nghe/an-ninh-mang.htm"
     scope: domestic
     type: market_pulse
 
@@ -125,27 +125,19 @@ news:
     scope: international
     type: market_pulse
 
+  - key: techinasia_feed
+    name: "Tech in Asia"
+    priority: 1
+    crawler: rss
+    rss_url: "https://www.techinasia.com/feed"
+    scope: international
+    type: market_pulse
+
   - key: techinasia_fintech
     name: "Tech in Asia"
     priority: 1
     crawler: html
-    list_url: "https://www.techinasia.com/category/fintech"
-    scope: international
-    type: market_pulse
-
-  - key: techinasia_consumer
-    name: "Tech in Asia"
-    priority: 1
-    crawler: html
-    list_url: "https://www.techinasia.com/category/consumer-tech"
-    scope: international
-    type: market_pulse
-
-  - key: techinasia_ecom
-    name: "Tech in Asia"
-    priority: 1
-    crawler: html
-    list_url: "https://www.techinasia.com/category/e-commerce-social-commerce"
+    list_url: "https://www.techinasia.com/news"
     scope: international
     type: market_pulse
 
@@ -210,16 +202,16 @@ news:
   - key: genk_ai
     name: "GenK"
     priority: 3
-    crawler: rss
-    rss_url: "https://genk.vn/ai.rss"
+    crawler: html
+    list_url: "https://genk.vn/ai.chn"
     scope: domestic
     type: market_pulse
 
   - key: genk_ict
     name: "GenK"
     priority: 3
-    crawler: rss
-    rss_url: "https://genk.vn/tin-ict.rss"
+    crawler: html
+    list_url: "https://genk.vn/tin-cong-nghe.chn"
     scope: domestic
     type: market_pulse
 

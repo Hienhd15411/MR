@@ -124,6 +124,15 @@ def _source_priority_map() -> dict[str, int]:
     return out
 
 
+def _player_source_keys() -> set[str]:
+    """Keys in the players: section — only these get the priority-0
+    'always keep as Players Movement' treatment. A news source pinned to
+    priority 0 (e.g. OpenAI) must still be classified by the tier tree."""
+    with SOURCES_YAML.open(encoding="utf-8") as f:
+        cfg = yaml.safe_load(f) or {}
+    return {e["key"] for e in (cfg.get("players") or [])}
+
+
 class TierFilter:
     def __init__(self, tiers_path: Path = TIERS_YAML):
         with tiers_path.open(encoding="utf-8") as f:
@@ -159,6 +168,7 @@ class TierFilter:
         self._geo_tq = _compile_list(geo.get("tq") or [])
 
         self._priority = _source_priority_map()
+        self._player_keys = _player_source_keys()
 
     # ---- helpers -------------------------------------------------------
 
@@ -195,11 +205,13 @@ class TierFilter:
         # Section 2.6 / 2.5 geography first (always computed)
         geo = self._geography(hay)
 
-        # Priority 0 — player blog → always KEEP, Players Movement
-        if priority == 0:
-            v = FilterVerdict(keep=True, topic_group="Players Movement",
-                              sub_topic_group=a.player or "Players")
-            return v
+        # Priority 0 player blog → always KEEP, Players Movement.
+        # A non-player source pinned to priority 0 (e.g. OpenAI) is still
+        # always kept but classified by the tier tree below.
+        if priority == 0 and source_key in self._player_keys:
+            return FilterVerdict(keep=True, topic_group="Players Movement",
+                                 sub_topic_group=a.player or "Players")
+        force_keep = priority == 0
 
         has_t1 = _any(self._t1, hay)
         t3_fired, t3_code = self._tier3_hit(hay)
@@ -223,15 +235,15 @@ class TierFilter:
         if has_t1 and t3_fired:
             return FilterVerdict(keep=True, topic_group=topic_group,
                                  sub_topic_group=sub_topic, review_flag=True)
-        if t3_fired:
+        if t3_fired and not force_keep:
             return FilterVerdict(keep=False, discard_reason=t3_code)
-        if has_t1:
-            return FilterVerdict(keep=True, topic_group=topic_group,
-                                 sub_topic_group=sub_topic)
-        if t2_count >= 2:
+        if has_t1 or t2_count >= 2:
             return FilterVerdict(keep=True, topic_group=topic_group,
                                  sub_topic_group=sub_topic)
         if t4_trigger:
+            return FilterVerdict(keep=True, topic_group=topic_group,
+                                 sub_topic_group=sub_topic, review_flag=True)
+        if force_keep:
             return FilterVerdict(keep=True, topic_group=topic_group,
                                  sub_topic_group=sub_topic, review_flag=True)
         return FilterVerdict(keep=False, discard_reason="NO_KEYWORD")

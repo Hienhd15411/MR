@@ -91,6 +91,9 @@ class RSSCrawler(BaseCrawler):
 
     async def list_article_urls(self, client: httpx.AsyncClient) -> list[str]:
         xml = await self.fetch(client, self.rss_url)
+        from src.utils.debug_dump import dump_html
+
+        dump_html(self.name, 0, self.rss_url, xml)
         if not xml:
             return []
         items = parse_rss(xml)
