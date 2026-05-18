@@ -73,12 +73,28 @@ def _compile_list(words: Iterable[str]) -> list[re.Pattern[str]]:
     return pats
 
 
+def _compile_groups(words: Iterable[str]) -> list[list[re.Pattern[str]]]:
+    """One pattern-group per keyword (main + accent-free alias). Used so
+    counting is per-keyword: a single keyword whose accented and
+    accent-stripped forms both appear in the haystack counts once."""
+    groups: list[list[re.Pattern[str]]] = []
+    for w in words:
+        if w:
+            groups.append(_compile_list([w]))
+    return groups
+
+
 def _any(pats: list[re.Pattern[str]], hay: str) -> bool:
     return any(p.search(hay) for p in pats)
 
 
 def _count(pats: list[re.Pattern[str]], hay: str) -> int:
     return sum(1 for p in pats if p.search(hay))
+
+
+def _count_groups(groups: list[list[re.Pattern[str]]], hay: str) -> int:
+    """Distinct keywords matched (a group hits at most once)."""
+    return sum(1 for g in groups if any(p.search(hay) for p in g))
 
 
 @dataclass
@@ -121,6 +137,9 @@ class TierFilter:
             kw for grp in (raw.get("tier1") or {}).values() for kw in grp
         ]
         self._t2 = _compile_list(
+            kw for grp in (raw.get("tier2") or {}).values() for kw in grp
+        )
+        self._t2_groups = _compile_groups(
             kw for grp in (raw.get("tier2") or {}).values() for kw in grp
         )
 
@@ -184,16 +203,14 @@ class TierFilter:
 
         has_t1 = _any(self._t1, hay)
         t3_fired, t3_code = self._tier3_hit(hay)
-        t2_count = _count(self._t2, hay)
+        t2_count = _count_groups(self._t2_groups, hay)
 
-        # Tier-4 ambiguity triggers (Section 2.4).
-        # NOT a blanket keep: only when there's a weak signal worth a
-        # human glance — clickbait-prone source, OR exactly one Tier-2
-        # keyword in a too-short article.
-        short_article = len((a.content_snippet or "").split()) < 30
-        t4_trigger = (priority == 3 and t2_count >= 1) or (
-            t2_count == 1 and short_article
-        )
+        # Tier-4 ambiguity triggers (Section 2.4). The Tier-1∧Tier-3 case
+        # is handled below. Here: only clickbait-prone Priority-3 sources.
+        # A single generic Tier-2 keyword with no vertical core (e.g. a
+        # conglomerate name in a stock-index or personnel story) is NOT
+        # ambiguous — per the spec it is "no relevant keywords" → DISCARD.
+        t4_trigger = priority == 3 and t2_count >= 1
 
         topic_group = "Market Pulse"
         sub_topic = geo
