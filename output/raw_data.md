@@ -1,7 +1,7 @@
 # Market Watch — Database preview
 
-- Generated: **2026-05-17 23:53 UTC**
-- Kept: **110** (Market Pulse: 77 · Players Movement: 33)
+- Generated: **2026-05-18 02:51 UTC**
+- Kept: **101** (Market Pulse: 77 · Players Movement: 24)
 - Flagged HUMAN_REVIEW: **8**
 
 ## Summary by signal level
@@ -9,25 +9,29 @@
 | Level | Count |
 |---|---:|
 | 4 - Strategic shift | 5 |
-| 3 - Market signal | 104 |
+| 3 - Market signal | 95 |
 | 2 - Minor signal | 1 |
 
 ## Top 10 by signal score
 
-1. `[4.0]` **Tham gia Vòng Sống Khỏe nhận quà có trị giá đến 3.990.000đ** · MoMo
-2. `[3.84]` **China clears Tencent’s Ximalaya acquisition with strict bans on exclusive deals, fee hikes** · Trung quốc
-3. `[3.58]` **[QUAN TRỌNG] CẬP NHẬT CHÍNH SÁCH GÓI VOUCHER XTRA VÀ CONTENT XTRA DÀNH CHO TẤT CẢ NGƯỜI BÁN TỪ THÁNG 09/2025** · Shopee
-4. `[3.52]` **Helping billions ring in the New Year on WhatsApp** · WhatsApp
+1. `[4.0]` **GrabCar | Cập nhật chương trình thưởng doanh thu mỗi tuần tại một số khu vực** · Grab
+2. `[4.0]` **Tham gia Vòng Sống Khỏe nhận quà có trị giá đến 3.990.000đ** · MoMo
+3. `[3.84]` **China clears Tencent’s Ximalaya acquisition with strict bans on exclusive deals, fee hikes** · Trung quốc
+4. `[3.58]` **[QUAN TRỌNG] CẬP NHẬT CHÍNH SÁCH GÓI VOUCHER XTRA VÀ CONTENT XTRA DÀNH CHO TẤT CẢ NGƯỜI BÁN TỪ THÁNG 09/2025** · Shopee
 5. `[3.42]` **Thu giữ loạt hàng giả ở Saigon Square, chợ Bến Thành** · Trong nước
-6. `[3.4]` **Introducing Incognito Chat with Meta AI: A completely private way to chat with AI** · WhatsApp
-7. `[3.4]` **GrabMart | Đảm việc nhà - Giỏi kinh doanh nhờ nắm bắt xu hướng bán hàng qua ứng dụng** · Grab
-8. `[3.4]` **Grab | Giải pháp tăng trưởng Người dùng mới (dành cho dịch vụ Đi Ăn Nhà Hàng)** · Grab
-9. `[3.4]` **GFIN x VIETCREDIT | Chương trình hoàn tiền 01 tháng lãi vay khi đăng ký vay qua thương hiệu Tin Vay** · Grab
-10. `[3.4]` **GrabMart | Bí kíp tăng trưởng doanh thu sầu riêng** · Grab
+6. `[3.4]` **GrabMart | Đảm việc nhà - Giỏi kinh doanh nhờ nắm bắt xu hướng bán hàng qua ứng dụng** · Grab
+7. `[3.4]` **Grab | Giải pháp tăng trưởng Người dùng mới (dành cho dịch vụ Đi Ăn Nhà Hàng)** · Grab
+8. `[3.4]` **GFIN x VIETCREDIT | Chương trình hoàn tiền 01 tháng lãi vay khi đăng ký vay qua thương hiệu Tin Vay** · Grab
+9. `[3.4]` **GrabMart | Bí kíp tăng trưởng doanh thu sầu riêng** · Grab
+10. `[3.4]` **GrabMart | Các chương trình ưu đãi dành cho ngành hàng trái cây tươi mùa hè 2026** · Grab
 
-## Players Movement (33)
+## Players Movement (24)
 
-### Grab (17)
+### Grab (16)
+
+- **[GrabCar | Cập nhật chương trình thưởng doanh thu mỗi tuần tại một số khu vực](https://www.grab.com/vn/blog/driver/car/thuongdoanhthumoituan-grabcar/)**
+  - signal: `4.0` (4 - Strategic shift) · R1/R2: `4.0`/`4.0` · source: `grab_vn_blog` · published: 2026-05-17
+  - Chủ Nhật Tháng Năm 17th, 2026 GrabCar | Cập nhật chương trình thưởng doanh thu mỗi tuần tại một số khu vực Quý Đối tác thân mến, Từ ngày 18/5/2026, Grab cập nhật chương trình thưởng % doanh thu mỗi tuần với thông tin chi tiết như sau: LƯU Ý LƯU Ý Tiền thưởng sẽ được tự động thanh toán vào Ví Tiền mặ
 
 - **[GrabMart | Đảm việc nhà - Giỏi kinh doanh nhờ nắm bắt xu hướng bán hàng qua ứng dụng](https://merchant.grab.com/vn-vn/blog/traicaysachanvatvoduyninh)**
   - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_merchant_vn` · published: —
@@ -53,19 +57,7 @@
   - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_merchant_vn` · published: 2026-06-15
   - Quý Đối tác thân mến, Khi kinh doanh trên nền tảng số, điểm đánh giá sao từ Người dùng là một trong những yếu tố quan trọng để thu hút thêm đơn hàng và xây dựng uy tín của Cửa hàng. Để đảm bảo sự công bằng, minh bạch giữa các Cửa hàng, đồng thời khuyến khích tất cả Đối tác không ngừng nâng cao chất 
 
-- **[Thông tin mới nhất](https://www.grab.com/vn/blog/driver/)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: —
-  - Driver Blog Grab | Ghé Quán Tốt Bụng, thêm chút mát lòng 💚 Bike Driver Blog, Car Driver Blog, Driver Blog, Express Driver Blog Quý Đối tác thân mến, Mùa nắng nóng đang vào cao điểm, nhưng những cuốc xe vẫn đều đặn lăn bánh mỗi ngày. Sau mỗi chuyến đi an toàn, mỗi đơn hàng được giao đún [..] Read Mor
-
-- **[All](https://www.grab.com/vn/blog/?page=1)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: —
-  - Grab Blog Ưu đãi ngân hàng ACB Passenger Blog Ưu đãi khi sử dụng thẻ ACB thanh toán khi đặt Grab Muốn ăn ngon thì phải vào bếp, nhưng muốn ăn vừa ngon vừa rẻ thì nhớ thanh toán bằng thẻ ACB khi đặt Grab. Ưu [..] Read More Ưu đãi ngân hàng HD Bank Passenger Blog Ưu đãi khi sử dụng thẻ HD Bank thanh t
-
 - **[Community](https://www.grab.com/vn/blog/grab-community?page=1)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: —
-  - Grab Blog Ưu đãi ngân hàng ACB Passenger Blog Ưu đãi khi sử dụng thẻ ACB thanh toán khi đặt Grab Muốn ăn ngon thì phải vào bếp, nhưng muốn ăn vừa ngon vừa rẻ thì nhớ thanh toán bằng thẻ ACB khi đặt Grab. Ưu [..] Read More Ưu đãi ngân hàng HD Bank Passenger Blog Ưu đãi khi sử dụng thẻ HD Bank thanh t
-
-- **[News](https://www.grab.com/vn/blog/news?page=1)**
   - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: —
   - Grab Blog Ưu đãi ngân hàng ACB Passenger Blog Ưu đãi khi sử dụng thẻ ACB thanh toán khi đặt Grab Muốn ăn ngon thì phải vào bếp, nhưng muốn ăn vừa ngon vừa rẻ thì nhớ thanh toán bằng thẻ ACB khi đặt Grab. Ưu [..] Read More Ưu đãi ngân hàng HD Bank Passenger Blog Ưu đãi khi sử dụng thẻ HD Bank thanh t
 
@@ -85,6 +77,10 @@
   - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: 2026-05-12
   - Thứ Ba Tháng Năm 12th, 2026 Thử thách của Tín Các bạn sinh viên ơi! Grab chính thức khởi động Thử thách “Bản đồ bung sức mùa thi cùng Grab” với nhiều phần quà vô cùng hấp dẫn trong tháng 05 tới đây. Hãy cùng Grab khám phá thể lệ chi tiết của Thử thách này nhé! 🏁 THÔNG TIN TỔNG QUAN VỀ THỬ THÁCH Tên 
 
+- **[Grab | Thử thách quay video: “LAN TỎA QUÁN TỐT BỤNG – CHÚT MÁT LÒNG GỬI TRAO”](https://www.grab.com/vn/blog/driver/bike/ugc-quantotbung/)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: 2026-05-15
+  - Thứ Sáu Tháng Năm 15th, 2026 Grab | Thử thách quay video: “LAN TỎA QUÁN TỐT BỤNG – CHÚT MÁT LÒNG GỬI TRAO” Quý Đối tác thân mến, Mùa nắng nóng cao điểm đã đến, những cung đường dường như dài hơn và oi ả hơn. Thế nhưng, giữa cái nắng gắt ấy, sự tử tế vẫn luôn hiện hữu qua những ly nước mát lạnh miễn 
+
 - **[AI in action](https://www.grab.com/sg/inside-grab/ai-in-action/)**
   - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
   - AI in action All stories Perspectives Solutions Product innovation All stories Rides Food and deliveries Financial services Enterprise Autonomous Technology GrabX Tracing our impact All stories Environment Social impact Marketplace principles All stories Fares and pricing Matching Inside scoop All s
@@ -97,19 +93,11 @@
   - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
   - AI in action All stories Perspectives Solutions Product innovation All stories Rides Food and deliveries Financial services Enterprise Autonomous Technology GrabX Tracing our impact All stories Environment Social impact Marketplace principles All stories Fares and pricing Matching Inside scoop All s
 
-### MoMo (4)
+### MoMo (2)
 
 - **[Tham gia Vòng Sống Khỏe nhận quà có trị giá đến 3.990.000đ](https://momo.vn/tin-tuc/tin-tuc-su-kien/tham-gia-vong-song-khoe-nhan-qua-co-tri-gia-den-8707)**
   - signal: `4.0` (4 - Strategic shift) · R1/R2: `4.0`/`4.0` · source: `momo_newsroom` · published: 2026-05-12
   - Tham gia Vòng Sống Khỏe nhận quà có trị giá đến 3.990.000đ Sự Kiện · 12/05/2026 Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Làm nhiệm vụ đơn giản, nhận lượt quay và trúng quà có giá trị cao tại Vòng Sống Khỏe. Xem chi tiết ngay! Thời gian áp dụng: Từ 18/05/2026 đến hết ngày 30/09/202
-
-- **[Combo du lịch siêu hời - Đón chào lễ hội pháo hoa tại Đà Nẵng](https://momo.vn/tin-tuc/khuyen-mai/combo-du-lich-sieu-hoi-don-chao-le-hoi-phao-hoa-8718)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `momo_newsroom` · published: 2026-05-15
-  - Combo du lịch siêu hời - Đón chào lễ hội pháo hoa tại Đà Nẵng Khuyến mãi · 15/05/2026 · 2.6K lượt xem Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Lễ hội Pháo hoa Quốc tế Đà Nẵng (DIFF) 2026 chính thức quay trở lại, hứa hẹn biến bầu trời sông Hàn thành một kiệt tác nghệ thuật đầy mê h
-
-- **[[15.5 - 31.5] HOÀN ĐẾN 8.686Đ KHI TỰ CHUYỂN 2K TỪ NGÂN HÀNG ĐẾN SĐT MOMO CỦA BẢN THÂN](https://momo.vn/tin-tuc/khuyen-mai/155-315-hoan-den-8686d-khi-tu-chuyen-2k-tu-ngan-8717)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `momo_newsroom` · published: 2026-05-15
-  - [15.5 - 31.5] HOÀN ĐẾN 8.686Đ KHI TỰ CHUYỂN 2K TỪ NGÂN HÀNG ĐẾN SĐT MOMO CỦA BẢN THÂN Khuyến mãi · 15/05/2026 Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn MoMo thưởng đến 8.686Đ cho bạn khi thực hiện giao dịch tự chuyển 2K từ app Ngân hàng đến SĐT MoMo của chính mình. Thời gian diễn r
 
 - **[Mỗi lần thanh toán hoá đơn, thêm mầm xanh được tích luỹ](https://momo.vn/tin-tuc/thong-bao/moi-lan-thanh-toan-hoa-don-them-mam-xanh-duoc-8709)**
   - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `momo_newsroom` · published: 2026-05-12
@@ -128,32 +116,6 @@
 
 - **[Tính năng phân bổ đơn vị vận chuyển tự động cho Người bán trên Shopee](https://banhang.shopee.vn/edu/article/17468)**
   - signal: `3.28` (3 - Market signal) · R1/R2: `3.0`/`3.7` · source: `shopee_seller_blog` · published: 2026-05-12
-
-### WhatsApp (6)
-
-- **[Helping billions ring in the New Year on WhatsApp](https://blog.whatsapp.com/helping-billions-ring-in-the-new-year-on-whatsapp)**
-  - signal: `3.52` (4 - Strategic shift) · R1/R2: `3.0`/`4.3` · source: `whatsapp_blog` · published: —
-  - New Year’s is our biggest day at WhatsApp, with each year breaking new records for how people text and call their friends and loved ones. On a regular day, we support over 100 billion messages and 2 billion calls - but the twenty four hours when the world welcomes a New Year always tops our charts. 
-
-- **[Introducing Incognito Chat with Meta AI: A completely private way to chat with AI](https://blog.whatsapp.com/introducing-incognito-chat-with-meta-ai-a-completely-private-way-to-chat-with-ai)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `whatsapp_blog` · published: 2026-05-13
-  - Chatting with AI has quickly become a critical part of how people get information and ask important questions. And many of these questions can be deeply sensitive, or include situations where people are including private financial, personal, health or work data with their questions. Ten years ago we
-
-- **[New Feature Roundup: Free up space, multiple accounts, cross-platform transfer and more](https://blog.whatsapp.com/new-feature-roundup-free-up-space-multiple-accounts-cross-platform-transfer-and-more)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `whatsapp_blog` · published: —
-  - Over time, our chats become a record of the moments that matter: conversations with family, laughs with friends, the photos and videos we couldn't stop sharing. To help you make the most of all of it, we're rolling out new ways to make WhatsApp even easier to use — whether you're staying organized, 
-
-- **[WhatsApp's Latest Privacy Protection: Strict Account Settings](https://blog.whatsapp.com/whatsapps-latest-privacy-protection-strict-account-settings)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `whatsapp_blog` · published: —
-  - At WhatsApp, we think you should be able to have a private conversation online, just like you would in-person. We will always defend that right to privacy for everyone, starting with default end-to-end encryption. But we also know that a few of our users – like journalists or public-facing figures –
-
-- **[Level Up Your WhatsApp Group Chats With New Member Tags, Text Stickers, and More](https://blog.whatsapp.com/level-up-your-whatsapp-group-chats-with-new-member-tags-text-stickers-and-more)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `whatsapp_blog` · published: —
-  - It’s a new year and a great time for some upgrades to your group chats. Group chats on WhatsApp make it easier to stay connected with the people in your life no matter what device they own – whether it’s sharing New Year’s resolutions, preparing for that special celebration you have coming up, or pl
-
-- **[Reintroducing About: An improved way to share what you're up to](https://blog.whatsapp.com/reintroducing-about-an-improved-way-to-share-what-youre-up-to)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `whatsapp_blog` · published: —
-  - For those of you that have used WhatsApp from the very start, you’ll remember About was our first feature. Even before we brought the world private and secure messaging, we made it simple for you to quickly share what’s up in your life. Today we're reintroducing and improving About, making it more v
 
 ### Zalo (2)
 
@@ -285,10 +247,6 @@
   - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `vnexpress_kinhdoanh` · published: 2026-05-15
   - VinEnergo, công ty năng lượng do ông Phạm Nhật Vượng sáng lập, hoàn tất tăng vốn từ hơn 28.300 tỷ đồng lên 79.923 tỷ đồng, vượt tập đoàn Vingroup.
 
-- **[Vietnam Airlines có thể lỗ trở lại vì giá nhiên liệu bay neo cao](https://vnexpress.net/vietnam-airlines-co-the-lo-tro-lai-vi-gia-nhien-lieu-bay-neo-cao-5074266.html)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `vnexpress_kinhdoanh` · published: 2026-05-15
-  - Vietnam Airlines dự kiến lỗ trong quý II, khiến lợi nhuận nửa đầu năm 2026 xuống mức âm dù quý I vừa lãi kỷ lục hơn 4.500 tỷ.
-
 - **[Building a safe, effective sandbox to enable Codex on Windows](https://openai.com/index/building-codex-windows-sandbox/)**
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `openai_news` · published: 2026-05-13
   - May 13, 2026 Engineering Security Building a safe, effective sandbox to enable Codex on Windows By David Wiesen, Member of Technical Staff Share When I joined the Codex engineering team in September 2025, Codex for Windows didn’t have a sandbox implementation meaning that Windows users were forced t
@@ -336,6 +294,10 @@
 - **[Introducing Instants: A New Way to Share in the Moment](https://about.fb.com/news/2026/05/instants-share-in-the-moment/)**
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `meta_newsroom` · published: 2026-05-13
   - Today, we’re introducing Instants, a new way to share photos in the moment with your Close Friends or mutual followers with just a tap. Photos you share on Instants disappear after they’ve been viewed and can’t be viewed after 24 hours. You also can’t edit your instants before sharing, so you can sh
+
+- **[Introducing a Completely Private Way to Chat With AI](https://about.fb.com/news/2026/05/incognito-chat-whatsapp-meta-ai/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `meta_newsroom` · published: 2026-05-13
+  - Chatting with AI has quickly become a critical part of how people get information and ask important questions. These questions can be deeply sensitive or personal, like health issues, loan details, or career advice. Today, we’re launching Incognito Chat with Meta AI on WhatsApp and the Meta AI app, 
 
 - **[New Supervision Tools Give Parents Insights Into Their Teen’s Algorithm and More](https://about.fb.com/news/2026/05/new-supervision-tools-parents-insights-teens-algorithm/)**
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `meta_newsroom` · published: 2026-05-12
