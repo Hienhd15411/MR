@@ -109,6 +109,22 @@ news:
     scope: international
     type: market_pulse
 
+  - key: techcrunch_latest
+    name: "TechCrunch"
+    priority: 1
+    crawler: rss
+    rss_url: "https://techcrunch.com/feed/"
+    scope: international
+    type: market_pulse
+
+  - key: techcrunch_social
+    name: "TechCrunch"
+    priority: 1
+    crawler: rss
+    rss_url: "https://techcrunch.com/category/social/feed/"
+    scope: international
+    type: market_pulse
+
   - key: techinasia_fintech
     name: "Tech in Asia"
     priority: 1

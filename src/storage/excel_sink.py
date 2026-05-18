@@ -24,6 +24,31 @@ _HFILL = PatternFill(start_color="FF1F4E78", end_color="FF1F4E78", fill_type="so
 _HFONT = Font(bold=True, color="FFFFFFFF")
 
 
+def _source_site_map() -> dict[str, str]:
+    """crawler-key -> human-readable publisher name (from sources.yaml)."""
+    import yaml
+
+    from src.pipeline.filter import SOURCES_YAML
+
+    out: dict[str, str] = {}
+    try:
+        with SOURCES_YAML.open(encoding="utf-8") as f:
+            cfg = yaml.safe_load(f) or {}
+        for section in ("news", "players"):
+            for e in cfg.get(section) or []:
+                out[e["key"]] = e.get("name") or e["key"]
+    except Exception:  # noqa: BLE001 — never block export on config read
+        pass
+    return out
+
+
+_SITE_MAP = _source_site_map()
+
+
+def _site(a: RawArticle) -> str:
+    return _SITE_MAP.get(a.source, a.source)
+
+
 def _iso_week(dt: Optional[datetime]) -> int:
     d = dt or datetime.now(timezone.utc)
     return d.isocalendar().week
@@ -73,6 +98,7 @@ def _database_row(a: RawArticle, idx: int) -> list:
         r2,                                          # 20 R2
         sig,                                         # 21 signal_score
         "",                                          # 22 related_vertical HUMAN
+        _site(a),                                    # 23 source_site
     ]
 
 
@@ -118,6 +144,7 @@ def write_excel(
         wd.append([
             a.url,
             a.source,
+            _site(a),
             a.title_original or "",
             _fmt(a.published_date),
             _ga(a, "_discard_reason", ""),

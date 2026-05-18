@@ -103,6 +103,11 @@ tier1:
     - Shopee
     - TikTok Shop
     - TikTokShop
+    - TikTok
+    - ByteDance
+    - Douyin
+    - CapCut
+    - Lemon8
   sub_services:
     - GrabCar
     - GrabBike
@@ -140,6 +145,8 @@ tier1:
     - Etsy
     - Alibaba
     - Pinduoduo
+    - Temu
+    - Shein
     - Taobao
     - Tmall
     - JD.com
@@ -314,6 +321,15 @@ tier1:
     - messaging app
     - chat app
     - social media platform
+    - social app
+    - social web
+    - open social web
+    - decentralized social
+    - fediverse
+    - Bluesky
+    - Mastodon
+    - ATProto
+    - AT Protocol
     - mini app
     - mini program
     - super app chat

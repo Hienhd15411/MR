@@ -37,11 +37,12 @@ DATABASE_HEADERS = [
     "R2",                # 20 auto basic
     "signal_score",      # 21 auto compute
     "related_vertical",  # 22 HUMAN
+    "source_site",       # 23 auto — human-readable publisher/site
 ]
 DATABASE_TAB = "Database"
 
 DISCARDED_HEADERS = [
-    "url", "source_name", "title_raw", "publish_date",
+    "url", "source_name", "source_site", "title_raw", "publish_date",
     "discard_reason", "matched_keywords", "review_flag",
 ]
 DISCARDED_TAB = "Discarded"
