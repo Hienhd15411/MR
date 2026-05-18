@@ -135,8 +135,11 @@ class PlayerBlogCrawler(BaseCrawler):
     type_: str = "players_movement"
     scope: str = "domestic"
     player: str = ""
+    # Heavy JS SPAs return a non-empty shell over httpx (so the SPA-empty
+    # heuristic misfires); force the headless browser for these.
+    force_playwright: bool = False
 
-    def __init__(self, max_items: int = 30, window_days: int = CRAWL_WINDOW_DAYS):
+    def __init__(self, max_items: int = 60, window_days: int = CRAWL_WINDOW_DAYS):
         super().__init__()
         self.max_items = max_items
         self.window_days = window_days
@@ -167,12 +170,13 @@ class PlayerBlogCrawler(BaseCrawler):
     # ---- Fetch with SPA fallback ---------------------------------------
 
     async def _fetch_spa(self, client: httpx.AsyncClient, url: str) -> Optional[str]:
-        html = await self.fetch(client, url)
-        if html and "<a" in html.lower() and len(html) > 5000:
-            return html
+        if not self.force_playwright:
+            html = await self.fetch(client, url)
+            if html and "<a" in html.lower() and len(html) > 5000:
+                return html
         from src.utils.playwright_fetch import fetch_html
 
-        logger.info("[{}] SPA empty, trying Playwright for {}", self.name, url)
+        logger.info("[{}] rendering with Playwright: {}", self.name, url)
         return await fetch_html(url)
 
     # ---- Crawler interface ---------------------------------------------

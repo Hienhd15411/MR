@@ -31,7 +31,9 @@ class ZaloOANews(PlayerBlogCrawler):
     name = "zalo_oa_news"
     base_url = "https://oa.zalo.me/home/resources/news"
     domain_prefix = "https://oa.zalo.me"
-    url_substring = "/news/"
-    article_url_re = re.compile(r"/news/[a-z0-9\-]{6,}")
+    url_substring = "/news"
+    # Article path is /home/resources/news/<slug-or-id>.
+    article_url_re = re.compile(r"/resources/news/[a-z0-9\-]{4,}|/news/[a-z0-9\-]{4,}")
     block_paths = {"/home/resources/news", "/news"}
+    force_playwright = True
     player = "Zalo"

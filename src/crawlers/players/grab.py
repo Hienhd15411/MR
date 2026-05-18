@@ -31,11 +31,37 @@ from src.utils.date_utils import (
 
 LIST_URL = "https://www.grab.com/vn/blog/"
 
+# Grab VN blog is organised into category pages. Each one lists that
+# section's recent posts — crawl them all, not just the homepage.
+_SECTIONS = [
+    "driver", "merchant", "food", "mart", "express", "news",
+    "passenger", "car", "delivery", "safety", "payment", "story",
+]
+LIST_URLS = [LIST_URL] + [f"{LIST_URL}{s}/" for s in _SECTIONS]
+
+# A category/landing slug is NOT an article. Real posts have a long,
+# hyphenated slug (e.g. /vn/blog/grab-uu-dai-thang-5-2026).
+_NON_POST_SLUGS = set(_SECTIONS) | {
+    "vn", "blog", "category", "tag", "author", "page", "search",
+}
+
+
+def _post_slug(href: str) -> Optional[str]:
+    if not href or "/vn/blog/" not in href:
+        return None
+    after = href.split("?")[0].split("#")[0].split("/vn/blog/", 1)[1].strip("/")
+    if not after:
+        return None
+    return after.split("/")[-1]
+
 
 def _looks_like_post(href: str) -> bool:
-    if not href:
+    slug = _post_slug(href)
+    if not slug or slug in _NON_POST_SLUGS:
         return False
-    return ("/vn/blog/" in href and not href.rstrip("/").endswith("/blog"))
+    # Article slugs are hyphenated and reasonably long; category pages
+    # ("driver", "merchant") are single short words and get filtered above.
+    return "-" in slug and len(slug) >= 12
 
 
 class GrabVNBlog(BaseCrawler):
@@ -63,18 +89,18 @@ class GrabVNBlog(BaseCrawler):
         return await fetch_html(url)
 
     async def list_article_urls(self, client: httpx.AsyncClient) -> list[str]:
-        html = await self._fetch_spa(client, self.base_url)
-        if not html:
-            return []
-        soup = BeautifulSoup(html, "html.parser")
         urls: list[str] = []
-        for a in soup.find_all("a", href=True):
-            href = a["href"]
-            if _looks_like_post(href):
+        for list_url in LIST_URLS:
+            html = await self._fetch_spa(client, list_url)
+            if not html:
+                continue
+            soup = BeautifulSoup(html, "html.parser")
+            for a in soup.find_all("a", href=True):
+                href = a["href"]
+                if not _looks_like_post(href):
+                    continue
                 if href.startswith("/"):
                     href = "https://www.grab.com" + href
-                if href.rstrip("/").endswith("/vn/blog"):
-                    continue
                 title = a.get_text(" ", strip=True)
                 if title:
                     self._cache.setdefault(
