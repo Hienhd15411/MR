@@ -1,9 +1,11 @@
 """Deduplication — Market Watch Crawler Instructions v2, Section 4.
 
-Two articles are the "same event" when ALL hold:
-  1. Jaccard title similarity >= 0.70  (token overlap; no AI SDK)
-  2. publish_date within 48h
-  3. share >= 1 main entity token (proper-noun-ish overlap)
+Two articles are the "same event" when:
+  - same URL, OR
+  - Jaccard title similarity >= 0.80 (token overlap; no AI SDK)
+    AND publish_date within 48h
+(A weak "share N tokens" branch was removed: it wrongly merged
+distinct player-blog promos that share generic vocabulary.)
 
 Keep rule when duplicates found:
   1. highest source priority (0 > 1 > 2 > 3)
@@ -89,8 +91,15 @@ def deduplicate(
             if not _within_48h(a, k):
                 continue
             sim = _jaccard(a_tok, k_tok)
-            shared_entity = len(a_tok & k_tok) >= 3
-            if sim >= 0.70 or shared_entity:
+            # Spec: "same event" needs strong title overlap. The old
+            # `or len(a&b)>=3` branch collapsed distinct player promos
+            # that merely share generic tokens (hoàn tiền / ưu đãi / phí).
+            # Different URLs with low title similarity are NOT duplicates.
+            if a.url and k.url and a.url == k.url:
+                is_dup = True
+            else:
+                is_dup = sim >= 0.80
+            if is_dup:
                 winner, loser = _keep_winner(k, a)
                 if winner is a:
                     # incoming wins — swap out the cached one
