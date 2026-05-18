@@ -1166,18 +1166,27 @@ exclude_patterns:
       - "TensorFlow"
       - "PyTorch"
   stock_earnings:
-    description: "Stock price / earnings thuần"
+    description: "Stock price / earnings / share-move thuần (no product action)"
     keywords:
       - "Q1 earnings"
       - "Q2 earnings"
       - "Q3 earnings"
       - "Q4 earnings"
       - "cổ phiếu"
+      - "cổ phiếu tăng"
       - "share price"
       - "stock price"
       - "earnings call"
       - "earnings beat"
       - "earnings miss"
+      - "shares soar"
+      - "shares surge"
+      - "shares jump"
+      - "shares rise"
+      - "stock surges"
+      - "stock jumps"
+      - "pre-IPO"
+      - "pre-IPO revenue"
   personality_no_action:
     description: "Personality/celeb không kèm action"
     keywords:
@@ -1237,7 +1246,12 @@ exclude_patterns:
       - "đường vành đai"
       - "siêu dự án"
       - "nhà máy điện"
-      - "khởi công"
+      # NOTE: was bare "khởi công" — its accent-free alias "khoi cong"
+      # false-matched "Khối Công nghệ" (CMC tech-division restructure).
+      # Narrowed to construction-specific phrases.
+      - "lễ khởi công"
+      - "khởi công dự án"
+      - "khởi công xây dựng"
       - "Vinhomes"
       - "Vingroup"
       - "Sun Group bất động sản"
@@ -1276,3 +1290,90 @@ exclude_patterns:
       # Vehicle releases (off-domain)
       - "xe côn tay"
       - "xe máy ga"
+      # TV / camera / smart-home device launches & reviews (no AI/super-app
+      # angle — note: exclude has NO exception list, so a stray "AI" in the
+      # title of a pure device review will NOT rescue it here)
+      - "ra mắt loạt TV"
+      - "loạt TV"
+      - "smart TV"
+      - "tivi"
+      - "máy ảnh"
+      - "máy ảnh không gương lật"
+      - "mirrorless"
+      - "Sony A7R"
+      - "robot lau nhà"
+      - "robot hút bụi"
+      - "máy lọc không khí"
+      # Celebrity-branded hardware (no business angle)
+      - "Trump T1"
+      - "điện thoại Trump"
+      - "Trump Mobile"
+
+  semiconductor_supply:
+    description: "Semiconductor upstream supply / 2nm hype / chip-co pre-IPO financials — too far from super-app. (TSMC AI-chip revenue stays via NO keyword here.)"
+    keywords:
+      - "chip capacity"
+      - "chip capacity crunch"
+      - "chip crunch"
+      - "capacity crunch"
+      - "wafer"
+      - "2nm"
+      - "3nm process"
+      - "chip pioneer"
+      - "CXMT"
+
+  b2b_niche:
+    description: "B2B SaaS/martech, fashion-brand M&A, B2B biotech — not B2C super-app"
+    keywords:
+      - "marketing operating system"
+      - "marketing OS"
+      - "martech"
+      - "Everlane"
+      - "apparel brand"
+      - "L Catterton"
+      - "biotech"
+      - "nano rocket"
+      - "drug discovery"
+      - "clinical trial"
+
+  energy_utility:
+    description: "Energy / electricity / power-grid economics — out of scope"
+    keywords:
+      - "power prices"
+      - "electricity prices"
+      - "power grid"
+      - "energy grid"
+      - "utility regulator"
+
+  lifestyle_howto:
+    description: "How-to / tutorial / lifestyle accident clips — not news with an actor"
+    keywords:
+      - "thủ thuật"
+      - "mẹo công nghệ"
+      - "câu lệnh AI"
+      - "hướng dẫn cách"
+      - "tự động xóa vật thể"
+      - "xóa vật thể trên ảnh"
+      - "tai nạn bếp"
+      - "nổ bình gas"
+      - "clip tai nạn"
+      - "cháy nổ bếp"
+
+  personal_drama:
+    description: "Personal drama / feud between tech leaders — no business action"
+    keywords:
+      - "bị tố nói dối"
+      - "khẩu chiến"
+      - "đấu khẩu"
+      - "drama cá nhân"
+      - "tỷ phú đấu tỷ phú"
+      - "mất trí nhớ chọn lọc"
+
+  physical_enforcement:
+    description: "Physical-market counterfeit raids / market-control enforcement — not platform"
+    keywords:
+      - "thu giữ"
+      - "hàng giả"
+      - "hàng nhái"
+      - "quản lý thị trường"
+      - "Saigon Square"

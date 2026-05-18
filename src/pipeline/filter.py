@@ -35,6 +35,7 @@ from src.storage.models import ArticleType, RawArticle, Status
 
 TIERS_YAML = Path(__file__).resolve().parents[1] / "config" / "tiers.yaml"
 SOURCES_YAML = Path(__file__).resolve().parents[1] / "config" / "sources.yaml"
+CATEGORIES_YAML = Path(__file__).resolve().parents[1] / "config" / "categories.yaml"
 
 
 # ---------------------------------------------------------------------------
@@ -105,6 +106,12 @@ class _Tier3Block:
 
 
 @dataclass
+class _ExcludeBlock:
+    name: str
+    keywords: list[re.Pattern[str]]
+
+
+@dataclass
 class FilterVerdict:
     keep: bool
     topic_group: str = "Market Pulse"
@@ -134,9 +141,25 @@ def _player_source_keys() -> set[str]:
 
 
 class TierFilter:
-    def __init__(self, tiers_path: Path = TIERS_YAML):
+    def __init__(
+        self,
+        tiers_path: Path = TIERS_YAML,
+        categories_path: Path = CATEGORIES_YAML,
+    ):
         with tiers_path.open(encoding="utf-8") as f:
             raw = yaml.safe_load(f) or {}
+
+        # Round-1 hard-exclude patterns (categories.yaml). An article that
+        # matches ANY of these is dropped before the tier tree, regardless
+        # of theme/player score — EXCEPT priority-0 player-blog sources,
+        # which are exempt (see classify()).
+        with categories_path.open(encoding="utf-8") as f:
+            cats = yaml.safe_load(f) or {}
+        self._exclude: list[_ExcludeBlock] = [
+            _ExcludeBlock(name=name,
+                          keywords=_compile_list(blk.get("keywords") or []))
+            for name, blk in (cats.get("exclude_patterns") or {}).items()
+        ]
 
         # Flatten Tier-1 and Tier-2 keyword groups
         self._t1 = _compile_list(
@@ -186,6 +209,13 @@ class TierFilter:
             return "Trung quốc"
         return "Quốc tế"
 
+    def _exclude_hit(self, hay: str) -> str:
+        """Return the matching exclude-block name, or "" if none."""
+        for blk in self._exclude:
+            if _any(blk.keywords, hay):
+                return blk.name
+        return ""
+
     def _tier3_hit(self, hay: str) -> tuple[bool, str]:
         """Return (fired, code). A block fires only if a keyword matches
         AND no exception keyword matches."""
@@ -211,6 +241,16 @@ class TierFilter:
         if priority == 0 and source_key in self._player_keys:
             return FilterVerdict(keep=True, topic_group="Players Movement",
                                  sub_topic_group=a.player or "Players")
+
+        # Round-1 hard exclude (categories.yaml). Applies to every
+        # non-player-blog source — including priority-0 news — so pure
+        # consumer-gadget / off-domain noise is dropped regardless of
+        # theme score, per the editorial spec.
+        ex = self._exclude_hit(hay)
+        if ex:
+            return FilterVerdict(keep=False,
+                                 discard_reason=f"EXCLUDE_{ex.upper()}")
+
         force_keep = priority == 0
 
         has_t1 = _any(self._t1, hay)

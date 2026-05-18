@@ -113,3 +113,58 @@ def test_apply_filter_splits_kept_discarded():
     assert len(discarded) == 1
     assert kept[0].status == Status.NEW
     assert discarded[0].status == Status.FILTERED_OUT
+
+
+# ---------------------------------------------------------------------------
+# Round-1 hard-exclude (categories.yaml exclude_patterns) — previously dead
+# config, now wired into TierFilter. Each of these editorial-noise headlines
+# must be DISCARDed regardless of theme score.
+# ---------------------------------------------------------------------------
+
+import pytest
+
+_NOISE = [
+    "Marketing operating system Nectar Social raises $30M Series A led by Menlo",
+    "Power prices are up 76% on America’s biggest grid, watchdog points fingers",
+    "Shein said to buy Everlane from L Catterton for $100m",
+    "Sony A7R VI ra mắt: máy ảnh không gương lật giá 114 triệu",
+    "Clip tai nạn bếp gas khiến cả nhà hoảng loạn",
+    "Dùng câu lệnh AI xóa vật thể trên ảnh chỉ trong vài giây",
+    "Điện thoại Trump T1 bắt đầu được giao hàng",
+    "LG ra mắt loạt TV 2026 với kích thước lớn",
+    "Thu giữ loạt hàng giả ở Saigon Square, chợ Bến Thành",
+    "HK biotech firm uses AI to produce nano rockets for drug discovery",
+    "Kuaishou shares soar as Kling AI eyes US$20 billion valuation in spin-off",
+    "Chip capacity crunch crisis deepens across foundries",
+    "Chinese chip pioneer hypes 2nm breakthrough",
+    "China’s CXMT sees H1 revenue rise pre-IPO",
+    "Trải nghiệm Spot+Scrub AI - robot lau nhà đầu tiên của Dyson",
+    "Altman bị tố nói dối, Musk bị chê 'mất trí nhớ chọn lọc'",
+]
+
+
+@pytest.mark.parametrize("title", _NOISE)
+def test_exclude_patterns_discard_noise(title):
+    f = _clf()
+    v = f.classify(_art(title), "techinasia_feed")  # non-player news source
+    assert not v.keep, f"should be excluded: {title}"
+    assert v.discard_reason.startswith("EXCLUDE_"), v.discard_reason
+
+
+def test_exclude_exempts_priority0_player_blog():
+    # A player-blog post that happens to contain an exclude keyword
+    # ("máy ảnh") must still be kept — player sources bypass exclude.
+    f = _clf()
+    a = _art("MoMo tặng ưu đãi khi mua máy ảnh trả góp", player="MoMo")
+    v = f.classify(a, "momo_newsroom")
+    assert v.keep
+    assert v.topic_group == "Players Movement"
+
+
+def test_exclude_does_not_kill_legit_vn_tech():
+    # "khởi công" accent-free alias used to false-match "Khối Công nghệ".
+    f = _clf()
+    a = _art("CMC tái cấu trúc Khối Công nghệ và Giải pháp, thúc đẩy chuyển đổi AI")
+    v = f.classify(a, "vneconomy_techconnect")
+    assert v.keep
+    assert not v.discard_reason.startswith("EXCLUDE_")
