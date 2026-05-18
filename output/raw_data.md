@@ -1,7 +1,7 @@
 # Market Watch — Database preview
 
-- Generated: **2026-05-18 03:07 UTC**
-- Kept: **108** (Market Pulse: 76 · Players Movement: 32)
+- Generated: **2026-05-18 03:34 UTC**
+- Kept: **107** (Market Pulse: 76 · Players Movement: 31)
 - Flagged HUMAN_REVIEW: **8**
 
 ## Summary by signal level
@@ -9,15 +9,15 @@
 | Level | Count |
 |---|---:|
 | 4 - Strategic shift | 6 |
-| 3 - Market signal | 101 |
+| 3 - Market signal | 100 |
 | 2 - Minor signal | 1 |
 
 ## Top 10 by signal score
 
-1. `[4.0]` **GrabCar | Cập nhật chương trình thưởng doanh thu mỗi tuần tại một số khu vực** · Grab
-2. `[4.0]` **Tham gia Vòng Sống Khỏe nhận quà có trị giá đến 3.990.000đ** · MoMo
-3. `[3.84]` **China clears Tencent’s Ximalaya acquisition with strict bans on exclusive deals, fee hikes** · Trung quốc
-4. `[3.58]` **[QUAN TRỌNG] CẬP NHẬT CHÍNH SÁCH GÓI VOUCHER XTRA VÀ CONTENT XTRA DÀNH CHO TẤT CẢ NGƯỜI BÁN TỪ THÁNG 09/2025** · Shopee
+1. `[3.84]` **China clears Tencent’s Ximalaya acquisition with strict bans on exclusive deals, fee hikes** · Trung quốc
+2. `[3.58]` **[QUAN TRỌNG] CẬP NHẬT CHÍNH SÁCH GÓI VOUCHER XTRA VÀ CONTENT XTRA DÀNH CHO TẤT CẢ NGƯỜI BÁN TỪ THÁNG 09/2025** · Shopee
+3. `[3.52]` **Thành công trao 195 suất học bổng cho học sinh nghèo hiếu học tại Cần Thơ** · MoMo
+4. `[3.52]` **Sale giữa tháng 5: Vé máy bay giảm đến 1 triệu** · MoMo
 5. `[3.52]` **Helping billions ring in the New Year on WhatsApp** · WhatsApp
 6. `[3.42]` **Thu giữ loạt hàng giả ở Saigon Square, chợ Bến Thành** · Trong nước
 7. `[3.4]` **Introducing Incognito Chat with Meta AI: A completely private way to chat with AI** · WhatsApp
@@ -25,13 +25,9 @@
 9. `[3.4]` **Grab | Giải pháp tăng trưởng Người dùng mới (dành cho dịch vụ Đi Ăn Nhà Hàng)** · Grab
 10. `[3.4]` **GFIN x VIETCREDIT | Chương trình hoàn tiền 01 tháng lãi vay khi đăng ký vay qua thương hiệu Tin Vay** · Grab
 
-## Players Movement (32)
+## Players Movement (31)
 
-### Grab (16)
-
-- **[GrabCar | Cập nhật chương trình thưởng doanh thu mỗi tuần tại một số khu vực](https://www.grab.com/vn/blog/driver/car/thuongdoanhthumoituan-grabcar/)**
-  - signal: `4.0` (4 - Strategic shift) · R1/R2: `4.0`/`4.0` · source: `grab_vn_blog` · published: 2026-05-17
-  - Chủ Nhật Tháng Năm 17th, 2026 GrabCar | Cập nhật chương trình thưởng doanh thu mỗi tuần tại một số khu vực Quý Đối tác thân mến, Từ ngày 18/5/2026, Grab cập nhật chương trình thưởng % doanh thu mỗi tuần với thông tin chi tiết như sau: LƯU Ý LƯU Ý Tiền thưởng sẽ được tự động thanh toán vào Ví Tiền mặ
+### Grab (11)
 
 - **[GrabMart | Đảm việc nhà - Giỏi kinh doanh nhờ nắm bắt xu hướng bán hàng qua ứng dụng](https://merchant.grab.com/vn-vn/blog/traicaysachanvatvoduyninh)**
   - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_merchant_vn` · published: —
@@ -57,18 +53,6 @@
   - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_merchant_vn` · published: 2026-06-15
   - Quý Đối tác thân mến, Khi kinh doanh trên nền tảng số, điểm đánh giá sao từ Người dùng là một trong những yếu tố quan trọng để thu hút thêm đơn hàng và xây dựng uy tín của Cửa hàng. Để đảm bảo sự công bằng, minh bạch giữa các Cửa hàng, đồng thời khuyến khích tất cả Đối tác không ngừng nâng cao chất 
 
-- **[Community](https://www.grab.com/vn/blog/grab-community?page=1)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: —
-  - Grab Blog Ưu đãi ngân hàng ACB Passenger Blog Ưu đãi khi sử dụng thẻ ACB thanh toán khi đặt Grab Muốn ăn ngon thì phải vào bếp, nhưng muốn ăn vừa ngon vừa rẻ thì nhớ thanh toán bằng thẻ ACB khi đặt Grab. Ưu [..] Read More Ưu đãi ngân hàng HD Bank Passenger Blog Ưu đãi khi sử dụng thẻ HD Bank thanh t
-
-- **[Driven by Tech](https://www.grab.com/vn/blog/driven-by-tech?page=1)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: —
-  - Grab Blog Ưu đãi ngân hàng ACB Passenger Blog Ưu đãi khi sử dụng thẻ ACB thanh toán khi đặt Grab Muốn ăn ngon thì phải vào bếp, nhưng muốn ăn vừa ngon vừa rẻ thì nhớ thanh toán bằng thẻ ACB khi đặt Grab. Ưu [..] Read More Ưu đãi ngân hàng HD Bank Passenger Blog Ưu đãi khi sử dụng thẻ HD Bank thanh t
-
-- **[Pulse of Vietnam](https://www.grab.com/vn/blog/pulse-of-vietnam?page=1)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: —
-  - Grab Blog Ưu đãi ngân hàng ACB Passenger Blog Ưu đãi khi sử dụng thẻ ACB thanh toán khi đặt Grab Muốn ăn ngon thì phải vào bếp, nhưng muốn ăn vừa ngon vừa rẻ thì nhớ thanh toán bằng thẻ ACB khi đặt Grab. Ưu [..] Read More Ưu đãi ngân hàng HD Bank Passenger Blog Ưu đãi khi sử dụng thẻ HD Bank thanh t
-
 - **[Thông báo triển khai dịch vụ GrabCar Plus, GrabBike Plus tại một số tỉnh thành](https://www.grab.com/vn/blog/thong-bao-trien-khai-dich-vu-grabcar-plus-grabbike-plus-tai-mot-so-tinh-thanh/)**
   - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: 2026-05-13
   - Thứ Tư Tháng Năm 13th, 2026 Thông báo triển khai dịch vụ GrabCar Plus, GrabBike Plus tại một số tỉnh thành Bạn thân mến, Nhằm đáp ứng nhu cầu di chuyển đa dạng của hành khách, Grab chính thức triển khai dịch vụ GrabCar, GrabCar Plus và GrabBike Plus tại một số tỉnh thành từ ngày 14/05/2026. Thông ti
@@ -76,10 +60,6 @@
 - **[Thử thách của Tín](https://www.grab.com/vn/blog/thu-thach-cua-tin/)**
   - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: 2026-05-12
   - Thứ Ba Tháng Năm 12th, 2026 Thử thách của Tín Các bạn sinh viên ơi! Grab chính thức khởi động Thử thách “Bản đồ bung sức mùa thi cùng Grab” với nhiều phần quà vô cùng hấp dẫn trong tháng 05 tới đây. Hãy cùng Grab khám phá thể lệ chi tiết của Thử thách này nhé! 🏁 THÔNG TIN TỔNG QUAN VỀ THỬ THÁCH Tên 
-
-- **[Grab | Thử thách quay video: “LAN TỎA QUÁN TỐT BỤNG – CHÚT MÁT LÒNG GỬI TRAO”](https://www.grab.com/vn/blog/driver/bike/ugc-quantotbung/)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: 2026-05-15
-  - Thứ Sáu Tháng Năm 15th, 2026 Grab | Thử thách quay video: “LAN TỎA QUÁN TỐT BỤNG – CHÚT MÁT LÒNG GỬI TRAO” Quý Đối tác thân mến, Mùa nắng nóng cao điểm đã đến, những cung đường dường như dài hơn và oi ả hơn. Thế nhưng, giữa cái nắng gắt ấy, sự tử tế vẫn luôn hiện hữu qua những ly nước mát lạnh miễn 
 
 - **[AI in action](https://www.grab.com/sg/inside-grab/ai-in-action/)**
   - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
@@ -93,15 +73,19 @@
   - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
   - AI in action All stories Perspectives Solutions Product innovation All stories Rides Food and deliveries Financial services Enterprise Autonomous Technology GrabX Tracing our impact All stories Environment Social impact Marketplace principles All stories Fares and pricing Matching Inside scoop All s
 
-### MoMo (4)
+### MoMo (7)
 
-- **[Tham gia Vòng Sống Khỏe nhận quà có trị giá đến 3.990.000đ](https://momo.vn/tin-tuc/tin-tuc-su-kien/tham-gia-vong-song-khoe-nhan-qua-co-tri-gia-den-8707)**
-  - signal: `4.0` (4 - Strategic shift) · R1/R2: `4.0`/`4.0` · source: `momo_newsroom` · published: 2026-05-12
-  - Tham gia Vòng Sống Khỏe nhận quà có trị giá đến 3.990.000đ Sự Kiện · 12/05/2026 Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Làm nhiệm vụ đơn giản, nhận lượt quay và trúng quà có giá trị cao tại Vòng Sống Khỏe. Xem chi tiết ngay! Thời gian áp dụng: Từ 18/05/2026 đến hết ngày 30/09/202
+- **[Thành công trao 195 suất học bổng cho học sinh nghèo hiếu học tại Cần Thơ](https://momo.vn/tin-tuc/cong-dong/thanh-cong-trao-195-suat-hoc-bong-cho-hoc-sinh-8714)**
+  - signal: `3.52` (4 - Strategic shift) · R1/R2: `3.0`/`4.3` · source: `momo_newsroom` · published: 2026-05-14
+  - Thành công trao 195 suất học bổng cho học sinh nghèo hiếu học tại Cần Thơ Cộng đồng · 14/05/2026 Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Những suất học bổng này không chỉ giúp giảm bớt gánh nặng về chi phí học tập cho các gia đình, mà còn là lời động viên, tiếp sức cho các em. Họ
+
+- **[Sale giữa tháng 5: Vé máy bay giảm đến 1 triệu](https://momo.vn/tin-tuc/khuyen-mai/sale-giua-thang-5-ve-may-bay-giam-den-1-trieu-8712)**
+  - signal: `3.52` (4 - Strategic shift) · R1/R2: `3.0`/`4.3` · source: `momo_newsroom` · published: 2026-05-13
+  - Sale giữa tháng 5: Vé máy bay giảm đến 1 triệu Khuyến mãi · 13/05/2026 · 5.6K lượt xem Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Giữa tháng lương chưa kịp về nhưng đã có nhu cầu đặt vé đi chơi, canh đúng ngày 15/5 để săn sale giữa tháng từ MoMo Travel nhé! Điểm danh ưu đãi sale giữ
 
 - **[Combo du lịch siêu hời - Đón chào lễ hội pháo hoa tại Đà Nẵng](https://momo.vn/tin-tuc/khuyen-mai/combo-du-lich-sieu-hoi-don-chao-le-hoi-phao-hoa-8718)**
   - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `momo_newsroom` · published: 2026-05-15
-  - Combo du lịch siêu hời - Đón chào lễ hội pháo hoa tại Đà Nẵng Khuyến mãi · 15/05/2026 · 2.7K lượt xem Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Lễ hội Pháo hoa Quốc tế Đà Nẵng (DIFF) 2026 chính thức quay trở lại, hứa hẹn biến bầu trời sông Hàn thành một kiệt tác nghệ thuật đầy mê h
+  - Combo du lịch siêu hời - Đón chào lễ hội pháo hoa tại Đà Nẵng Khuyến mãi · 15/05/2026 · 2.9K lượt xem Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Lễ hội Pháo hoa Quốc tế Đà Nẵng (DIFF) 2026 chính thức quay trở lại, hứa hẹn biến bầu trời sông Hàn thành một kiệt tác nghệ thuật đầy mê h
 
 - **[[15.5 - 31.5] HOÀN ĐẾN 8.686Đ KHI TỰ CHUYỂN 2K TỪ NGÂN HÀNG ĐẾN SĐT MOMO CỦA BẢN THÂN](https://momo.vn/tin-tuc/khuyen-mai/155-315-hoan-den-8686d-khi-tu-chuyen-2k-tu-ngan-8717)**
   - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `momo_newsroom` · published: 2026-05-15
@@ -111,7 +95,15 @@
   - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `momo_newsroom` · published: 2026-05-12
   - Mỗi lần thanh toán hoá đơn, thêm mầm xanh được tích luỹ Thông báo · 12/05/2026 Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Thay vì chỉ là những giao dịch thanh toán thông thường, giờ đây với Green Hub - Góp hóa đơn trồng rừng trên MoMo, mỗi hóa đơn bạn chi trả đều mang lại giá trị đó
 
-### Shopee (4)
+- **[Vé Săn Vàng: Đổi 199 MoMo Xu để có cơ hội nhận đến 2 chỉ vàng PNJ](https://momo.vn/tin-tuc/khuyen-mai/ve-san-vang-doi-199-momo-xu-de-co-co-hoi-nhan-den-8706)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `momo_newsroom` · published: 2026-05-12
+  - Vé Săn Vàng: Đổi 199 MoMo Xu để có cơ hội nhận đến 2 chỉ vàng PNJ Khuyến mãi · 12/05/2026 · 5.1K lượt xem Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Cơ hội săn vàng cực xịn đã đến, bạn chỉ cần dùng 199 Xu để đổi lấy 1 chiếc vé may mắn và có cơ hội rước về nhà đến 2 chỉ vàng PNJ. Xem
+
+- **[Đặt vé tàu thủy trên MoMo: Nhanh chóng, an toàn, chuẩn Châu Âu](https://momo.vn/tin-tuc/khuyen-mai/dat-ve-tau-thuy-tren-momo-nhanh-chong-an-toan-8708)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `momo_newsroom` · published: 2026-05-12
+  - Đặt vé tàu thủy trên MoMo: Nhanh chóng, an toàn, chuẩn Châu Âu Khuyến mãi · 12/05/2026 Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Bạn đang lên kế hoạch vi vu Phú Quốc, Phú Quý, hay Côn Đảo bằng đường thủy? Thay vì tốn thời gian ra bến tàu xếp hàng chờ đợi, giờ đây bạn hoàn toàn có t
+
+### Shopee (5)
 
 - **[[QUAN TRỌNG] CẬP NHẬT CHÍNH SÁCH GÓI VOUCHER XTRA VÀ CONTENT XTRA DÀNH CHO TẤT CẢ NGƯỜI BÁN TỪ THÁNG 09/2025](https://banhang.shopee.vn/edu/article/25901)**
   - signal: `3.58` (4 - Strategic shift) · R1/R2: `3.5`/`3.7` · source: `shopee_seller_blog` · published: 2026-05-14
@@ -124,6 +116,9 @@
 
 - **[Tính năng phân bổ đơn vị vận chuyển tự động cho Người bán trên Shopee](https://banhang.shopee.vn/edu/article/17468)**
   - signal: `3.28` (3 - Market signal) · R1/R2: `3.0`/`3.7` · source: `shopee_seller_blog` · published: 2026-05-12
+
+- **[collection_ic Created with Sketch. Hướng dẫn yêu cầu hỗ trợ (raise ticket) API trên Shopee Open Platform](https://banhang.shopee.vn/edu/article/12783)**
+  - signal: `3.28` (3 - Market signal) · R1/R2: `3.0`/`3.7` · source: `shopee_seller_blog` · published: 2026-05-13
 
 ### WhatsApp (6)
 
@@ -297,6 +292,10 @@
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `openai_news` · published: 2026-05-14
   - May 8, 2026 Security Safety Running Codex safely at OpenAI A look at the controls, boundaries, and telemetry OpenAI uses to govern coding agents in real workflows. Share As AI systems become more capable, they increasingly act on behalf of users. Coding agents can autonomously review repositories, r
 
+- **[Chipmaker CXMT Reports Eightfold Jump in Sales on Path to IPO](https://www.bloomberg.com/news/articles/2026-05-18/chipmaker-cxmt-reports-eightfold-jump-in-sales-on-path-to-ipo)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `bloomberg_tech` · published: 2026-05-18
+  - ChangXin Memory Technologies Inc. reported soaring revenue and profit in the first quarter and forecast higher earnings ahead, bolstering its financials ahead of a high-profile initial public offering later this year.
+
 - **[YouTube and Netflix Are Starting to Sound a Lot Like Normal TV](https://www.bloomberg.com/news/newsletters/2026-05-17/youtube-and-netflix-are-starting-to-sound-a-lot-like-normal-tv)**
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `bloomberg_tech` · published: 2026-05-17
   - YouTube is pitching advertisers on a new slate of shows -- just like a TV network.
@@ -320,10 +319,6 @@
 - **[Stripe's John Collison on How Agentic Commerce Will Reshape the Internet | Odd Lots](https://www.bloomberg.com/news/videos/2026-05-16/how-agentic-commerce-will-reshape-the-internet-video)**
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `bloomberg_tech` · published: 2026-05-16
   - The internet is made for shopping. For years, the main inputs for e-commerce transactions involved targeted ads, algorithmic recommendations, SEO, and lots of mindless scrolling. But agentic commerce might represent a sea change for e-commerce: With the rise of AI agents doing shopping on behalf of 
-
-- **[Snap, YouTube, TikTok Settle School Suit Targeting Social Media](https://www.bloomberg.com/news/articles/2026-05-15/snap-youtube-settle-school-social-media-suit-ahead-of-trial)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `bloomberg_tech` · published: 2026-05-15
-  - Snap Inc., Google’s YouTube and ByteDance Ltd.’s TikTok reached agreements to settle the first lawsuit headed to trial over claims that addiction to top social media platforms has disrupted learning and pushed public schools to spend massive sums fighting a mental health crisis, according to court f
 
 - **[Introducing Instants: A New Way to Share in the Moment](https://about.fb.com/news/2026/05/instants-share-in-the-moment/)**
   - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `meta_newsroom` · published: 2026-05-13
