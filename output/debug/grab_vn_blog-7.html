@@ -1,4 +1,4 @@
-<!-- source=grab_vn_blog idx=7 url=https://www.grab.com/vn/blog/grab-community?page=1 len=138744 -->
+<!-- source=grab_vn_blog idx=7 url=https://www.grab.com/vn/blog/grab-community?page=1 len=139528 -->
 <!DOCTYPE html>
 <html lang="vi" class="no-js">
 
@@ -53,7 +53,7 @@
 <link rel="next" href="https://www.grab.com/vn/blog/grab-community/page/2/" />
 <meta name="google-site-verification" content="vfxuon_ZyPfaowDg8ecP-FSfSGVGrBY08WH0gISpyGk" />
 <meta name="msvalidate.01" content="62D708192352CDCE3B73BA9B4A94A95C" />
-<!-- / The SEO Framework by Sybre Waaijer | 8.02ms meta | 0.32ms boot -->
+<!-- / The SEO Framework by Sybre Waaijer | 6.99ms meta | 0.46ms boot -->
 
 <script src='https://scribe-web-sdk.grab.com/scribe_bundle_v1.0.55.min.js'></script>    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -1428,6 +1428,16 @@ var sbiajaxurl = "https://www.grab.com/vn/wp-admin/admin-ajax.php";
             const country = window.location.pathname.split('/')?.[1];
             const pagePath = window.location.pathname.toLowerCase();
             const pageParams = new URLSearchParams(window.location.href.split('?')[1]);
+            const FORCE_ORGANIC_WEB_PATHS = [
+                '/th/food-blog/*',
+            ];
+            const forceOrganicWeb = FORCE_ORGANIC_WEB_PATHS.some(function (pattern) {
+                if (pattern.endsWith('/*')) {
+                    const base = pattern.slice(0, -2);
+                    return pagePath.startsWith(base + '/');
+                }
+                return pagePath === pattern || pagePath === pattern + '/';
+            });
             if (!country) {return}
             const SMARTSCRIPT_TRAVELLER_QR_CODE_ID = 'smartscript_traveller_download_qr';
             const SITE = {
@@ -1520,7 +1530,16 @@ var sbiajaxurl = "https://www.grab.com/vn/wp-admin/admin-ajax.php";
 
                 combinedParams.set('af_ad', pagePath);
                 combinedParams.delete('af_force_deeplink');
-                
+
+                if (forceOrganicWeb) {
+                    if (!pageParams.has('utm_source')) {
+                        combinedParams.set('pid', 'organic_web');
+                    }
+                    if (!pageParams.has('utm_campaign')) {
+                        combinedParams.set('c', 'organic_web');
+                    }
+                }
+
                 return combinedParams.toString();
             }
             // update SMARTSCRIPT_TRAVELLER_QR_CODE_ID QRCODE
