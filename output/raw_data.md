@@ -1,37 +1,41 @@
 # Market Watch — Database preview
 
-- Generated: **2026-08-23 23:20 UTC**
-- Kept: **154** (Market Pulse: 128 · Players Movement: 26)
-- Flagged HUMAN_REVIEW: **0**
+- Generated: **2026-08-31 01:09 UTC**
+- Kept: **143** (Market Pulse: 117 · Players Movement: 26)
+- Flagged HUMAN_REVIEW: **1**
 
 ## Summary by signal level
 
 | Level | Count |
 |---|---:|
-| 4 - Strategic shift | 13 |
-| 3 - Market signal | 139 |
+| 4 - Strategic shift | 12 |
+| 3 - Market signal | 129 |
 | 2 - Minor signal | 2 |
 
 ## Top 10 by signal score
 
-1. `[4.02]` **Đẩy mạnh ứng dụng AI trong công tác xây dựng và thi hành pháp luật** · Trong nước
-2. `[3.84]` **Zhipu AI’s answer to Project Glasswing marks shift for Chinese cyber safety: researcher** · Trung quốc
-3. `[3.84]` **Cách quê hương của DeepSeek, Moonshot giữ chân, thu hút nhân tài AI** · Trung quốc
-4. `[3.54]` **AI đang tổ chức lại cách doanh nghiệp Việt tuyển người và đào tạo nhân sự** · Trong nước
-5. `[3.54]` **Lừa đảo trực tuyến tại Việt Nam 'có dấu hiệu giảm rõ rệt'** · Trong nước
-6. `[3.52]` **>>TẠO CHIẾN DỊCH<<** · Grab
-7. `[3.48]` **Điểm tuần: iPhone 18 Pro Max lộ ngày ra mắt, Meta đối mặt rắc rối lớn** · Quốc tế
-8. `[3.48]` **Starcloud raises $250 million for orbital data centers as launch options dry up** · Quốc tế
-9. `[3.42]` **An ninh mạng trong kỷ nguyên AI** · Trong nước
-10. `[3.42]` **Năng lượng ổn định - Nền tảng phát triển AI chiến lược cho Việt Nam** · Trong nước
+1. `[4.02]` **Phát động Giải thưởng công nghệ số Make in Viet Nam 2026** · Trong nước
+2. `[3.84]` **Alibaba pushes into South America’s AI market with launch of Brazil data centres** · Trung quốc
+3. `[3.52]` **👉 XEM HƯỚNG DẪN CHI TIẾT** · Grab
+4. `[3.52]` **Săn deal tháng 9: Giảm 50%, chia 1 tỷ Xu, ưu đãi đến 100.000đ mỗi ngày.** · MoMo
+5. `[3.52]` **Mới! Tháng 9, tạo MoMo Nhà Mình: Săn vàng, macbook, hàng triệu bao lì xì đến 10 triệu. Tổng thưởng tới 1 tỷ!** · MoMo
+6. `[3.52]` **Tải MoMo, nhập MOMOBUS: Miễn phí 5 lượt đi xe buýt tại Hà Nội** · MoMo
+7. `[3.48]` **Doanh số Nvidia tăng gấp đôi, nhà đầu tư vẫn thận trọng vào tương lai** · Quốc tế
+8. `[3.42]` **Việt Nam đặt mục tiêu có 10 thương hiệu AI quốc tế năm 2030** · Trong nước
+9. `[3.42]` **Trung Quốc muốn xây 'nhà máy AI' tại Việt Nam** · Trong nước
+10. `[3.42]` **'Zalo cạnh tranh sòng phẳng với nền tảng ngoại'** · Trong nước
 
 ## Players Movement (26)
 
-### Grab (12)
+### Grab (13)
 
-- **[>>TẠO CHIẾN DỊCH<<](https://merchant.grab.com/vn-vn/blog/giaidau-quandinhthudo)**
+- **[👉 XEM HƯỚNG DẪN CHI TIẾT](https://merchant.grab.com/vn-vn/blog/uudai-banhtrungthu)**
   - signal: `3.52` (4 - Strategic shift) · R1/R2: `3.0`/`4.3` · source: `grab_merchant_vn` · published: —
-  - Tiếp nối sức nóng của Giải đấu Quán đỉnh 2026 , GrabFood tiếp tục khởi động ✨ Giải đấu Quán đỉnh Thủ đô ✨ - phiên bản dành riêng cho các Đối tác Nhà hàng GrabFood tại Hà Nội. Giải đấu không chỉ là cơ hội để các Đối tác gia tăng doanh thu, mở rộng độ phủ truyền thông, mà còn là sân chơi để Đối tác kh
+  - Quý Đối tác thân mến, Mùa Tết Đoàn viên đang đến rất gần, nhu cầu tìm kiếm sản phẩm bánh trung thu có xu hướng gia tăng trên GrabMart! Đồng hành cùng Đối tác nắm bắt cơ hội doanh thu này, GrabMart triển khai chương trình ưu đãi cực kỳ hấp dẫn dành riêng cho các sản phẩm bánh trung thu: Ví dụ: Sản ph
+
+- **[GrabMart | Chương trình ưu đãi đặc biệt nhân dịp lễ Quốc khánh](https://merchant.grab.com/vn-vn/blog/uudaiquockhanh)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_merchant_vn` · published: 2026-09-02
+  - Lễ Quốc khánh 2/9 sắp tới sẽ là kỳ nghỉ dài, cũng là thời điểm nhu cầu ăn uống và mua sắm tăng cao cho các buổi sum họp hay các chuyến du lịch cùng bạn bè và người thân. Grab khuyến khích Quý Đối tác tham gia chương trình “Ưu đãi dịp lễ Quốc khánh” để thu hút thêm Người dùng, gia tăng đơn hàng và qu
 
 - **[GFIN mở bán Máy in nhiệt - Không lo sai món, tinh gọn quy trình](https://merchant.grab.com/vn-vn/blog/gfin-mayinnhiet)**
   - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_merchant_vn` · published: —
@@ -41,13 +45,13 @@
   - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_merchant_vn` · published: —
   - Quý Đối tác thân mến, Một mùa trung thu nữa lại về! 🏮 Người dùng có thể tìm kiếm bánh trung thu trên GrabFood và GrabMart. Đây vừa là món quà ý nghĩa dành tặng đối tác, bạn bè, người thân, vừa là hương vị không thể thiếu trong mùa Tết đoàn viên. Hãy cùng Grab xem ngay hướng dẫn đăng tải sản phẩm bên
 
+- **[Grab | Ý tưởng hay tháng 7/2026 - Chương trình “Quán đỉnh - Mẹo hay”](https://merchant.grab.com/vn-vn/blog/ketqua-quandinhmeohay-thang72026)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_merchant_vn` · published: —
+  - Thời tiết tháng 7 nắng mưa thất thường cũng là lúc Đối tác Thương nhân phải đối mặt với nhiều thử thách. 🤔 Làm thế nào để thu hút Người dùng vào mùa thấp điểm? 🤔 Làm sao để bảo quản thực phẩm tốt hơn? 🤔 Đâu là cách đóng gói tối ưu để giao đơn trong mùa mưa?,... Hãy cùng Grab xem và tham khảo những ý
+
 - **[GrabMart | Đón mùa Vu Lan – Tăng cơ hội bán hàng](https://merchant.grab.com/vn-vn/blog/grabmart-or-don-mua-vu-lan)**
   - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_merchant_vn` · published: —
   - Mùa Vu Lan – Rằm tháng 7 là dịp để mọi người bày tỏ lòng biết ơn và tưởng nhớ công ơn cha mẹ, đây cũng là dịp nhu cầu ăn chay, cúng Rằm của Người dùng có xu hướng tăng cao. Chính vì thế, Grab khuyến khích các Đối tác có món chay trong thực đơn, hoặc đang chuẩn bị kinh doanh các sản phẩm cúng hãy nắm
-
-- **[Grab | Voucher Nhà Hàng Giảm Ngay - Giải pháp thu hút người đi ăn trực tiếp tại nhà hàng](https://merchant.grab.com/vn-vn/blog/vouchernhahanggiamngay-loiich)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_merchant_vn` · published: —
-  - Bên cạnh việc giao những món ngon đến Người dùng, Grab còn có tính năng Voucher Nhà Hàng Giảm Ngay giúp Đối tác tiếp cận với Người dùng có nhu cầu tìm kiếm địa điểm ăn uống trên trang Đi Ăn Nhà Hàng (ứng dụng Grab) để đến dùng bữa trực tiếp tại nhà hàng. Tính năng với cơ chế gợi ý thông minh, hiển t
 
 - **[HƯỚNG DẪN SỬ DỤNG TÍNH NĂNG](https://merchant.grab.com/vn-vn/blog/xyly-saithieumon-quamucchat)**
   - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_merchant_vn` · published: —
@@ -61,9 +65,9 @@
   - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_merchant_vn` · published: —
   - Quý Đối tác Nhà hàng thân mến, Với hơn 10 năm hoạt động tại Việt Nam, Grab không ngừng nỗ lực để hỗ trợ các Đối tác gia tăng cơ hội doanh thu. Thấu hiểu những thách thức về việc quản lý đặt bàn (như bàn trống vào giờ thấp điểm, quản lý thủ công tốn nhiều chi phí và công sức,...), Grab triển khai tín
 
-- **[Triển khai thử nghiệm dịch vụ GrabCar Mini tại Gia Lai, Đắk Lắk, Kiên Giang](https://www.grab.com/vn/blog/thong-bao-trien-khai-thu-dich-vu-grabcar-tiet-kiem-tai-dak-lak-gia-lai-kien-giang/)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: 2026-08-18
-  - Thứ Ba Tháng Tám 18th, 2026 Triển khai thử nghiệm dịch vụ GrabCar Mini tại Gia Lai, Đắk Lắk, Kiên Giang Bạn thân mến, Nhằm đáp ứng nhu cầu di chuyển đa dạng của hành khách, Grab thử nghiệm triển khai dịch vụ GrabCar Mini tại một số tỉnh thành. Thông tin chi tiết như sau: Thời gian và khu vực triển k
+- **[🚀 THAM GIA THỬ THÁCH “BỨT TỐC VÀO HỘI CHỦ SHOP” CÙNG GRABEXPRESS](https://www.grab.com/vn/blog/%f0%9f%9a%80-tham-gia-thu-thach-buc-toc-vao-hoi-chu-shop-cung-grabexpress/)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `grab_vn_blog` · published: 2026-08-28
+  - Thứ Sáu Tháng Tám 28th, 2026 🚀 THAM GIA THỬ THÁCH “BỨT TỐC VÀO HỘI CHỦ SHOP” CÙNG GRABEXPRESS 🚀 THAM GIA THỬ THÁCH “BỨT TỐC VÀO HỘI CHỦ SHOP” CÙNG GRABEXPRESS Bạn muốn nhanh chóng gia nhập Hội Chủ Shop và tận hưởng những đặc quyền hấp dẫn từ GrabExpress? Với chương trình “Bứt Tốc Vào Hội Chủ Shop”, 
 
 - **[AI in action](https://www.grab.com/sg/inside-grab/ai-in-action/)**
   - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
@@ -77,58 +81,53 @@
   - signal: `2.8` (3 - Market signal) · R1/R2: `2.0`/`4.0` · source: `grab_inside` · published: —
   - AI in action All stories Perspectives Solutions Product innovation All stories Rides Food and deliveries Financial services Enterprise Autonomous Technology GrabX Tracing our impact All stories Environment Social impact Marketplace principles All stories Fares and pricing Matching Inside scoop All s
 
-### MoMo (3)
+### MoMo (10)
 
-- **[Cơ hội cuối trước thềm lễ 2/9: Combo du lịch giảm đến 1.500.000đ](https://momo.vn/tin-tuc/khuyen-mai/co-hoi-cuoi-truoc-them-le-2-9-combo-du-lich-giam-8981)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `momo_newsroom` · published: 2026-08-19
-  - Khuyến mãi · 19/08/2026 · 5K lượt xem Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Cơ hội cuối trước thềm lễ 2/9: Combo du lịch giảm đến 1.500.000đ Không khí đại lễ đang nóng hơn bao giờ hết, nhanh tay nhập hội săn vé hời trên MoMo Travel ngay dân vi vu ơi! Toàn dân đang đồng lòng hướ
+- **[Săn deal tháng 9: Giảm 50%, chia 1 tỷ Xu, ưu đãi đến 100.000đ mỗi ngày.](https://momo.vn/tin-tuc/khuyen-mai/san-deal-thang-9-giam-50-chia-1-ty-xu-uu-dai-den-8994)**
+  - signal: `3.52` (4 - Strategic shift) · R1/R2: `3.0`/`4.3` · source: `momo_newsroom` · published: 2026-08-28
+  - Khuyến mãi · 28/08/2026 Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Săn deal tháng 9: Giảm 50%, chia 1 tỷ Xu, ưu đãi đến 100.000đ mỗi ngày. Từ 1/9 - 30/9, ngày nào vào mục ưu đãi trên MoMo cũng thấy deal! Từ giảm 50%, deal thương hiệu lớn đến chia 1 Tỷ Xu dịp Trung Thu. Kéo xuống xem
 
-- **[[SỐ LƯỢNG CÓ HẠN] Hoàn 10K khi chuyển 9.999Đ từ Vietcombank, MBBank, và Sacombank về số điện thoại MoMo bạn bè](https://momo.vn/tin-tuc/khuyen-mai/so-luong-co-han-hoan-10k-khi-chuyen-9999d-8980)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `momo_newsroom` · published: 2026-08-19
-  - Khuyến mãi · 19/08/2026 · 3.3K lượt xem Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn [SỐ LƯỢNG CÓ HẠN] Hoàn 10K khi chuyển 9.999Đ từ Vietcombank, MBBank, và Sacombank về số điện thoại MoMo bạn bè Ưu đãi dành riêng cho người dùng Ngân hàng Vietcombank, MBBank, và Sacombank khi chuyển t
+- **[Mới! Tháng 9, tạo MoMo Nhà Mình: Săn vàng, macbook, hàng triệu bao lì xì đến 10 triệu. Tổng thưởng tới 1 tỷ!](https://momo.vn/tin-tuc/khuyen-mai/moi-thang-9-tao-momo-nha-minh-san-vang-macbook-8992)**
+  - signal: `3.52` (4 - Strategic shift) · R1/R2: `3.0`/`4.3` · source: `momo_newsroom` · published: 2026-08-28
+  - Khuyến mãi · 28/08/2026 Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Mới! Tháng 9, tạo MoMo Nhà Mình: Săn vàng, macbook, hàng triệu bao lì xì đến 10 triệu. Tổng thưởng tới 1 tỷ! Tháng 9 tạo MoMo Nhà Mình, bạn chắc chắn nhận được lì xì ngẫu nhiên: Cơ hội rinh vàng, macbook, quà mua sắm
 
-- **[Bản tin Góp ý tháng 7: Những tính năng mới giúp trải nghiệm MoMo dễ dàng hơn](https://momo.vn/tin-tuc/thong-bao/ban-tin-gop-y-thang-7-nhung-tinh-nang-moi-giup-8979)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `momo_newsroom` · published: 2026-08-18
-  - Thông báo · 18/08/2026 Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Bản tin Góp ý tháng 7: Những tính năng mới giúp trải nghiệm MoMo dễ dàng hơn Từ việc gom trọn tiện ích vi vu quốc tế tại màn hình Du lịch quốc tế đến nâng cấp trang Giao dịch, MoMo tiếp tục cải thiện trải nghiệm dựa t
+- **[Tải MoMo, nhập MOMOBUS: Miễn phí 5 lượt đi xe buýt tại Hà Nội](https://momo.vn/tin-tuc/khuyen-mai/tai-momo-nhap-momobus-mien-phi-5-luot-di-xe-buyt-8984)**
+  - signal: `3.52` (4 - Strategic shift) · R1/R2: `3.0`/`4.3` · source: `momo_newsroom` · published: 2026-08-25
+  - Khuyến mãi · 25/08/2026 Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Tải MoMo, nhập MOMOBUS: Miễn phí 5 lượt đi xe buýt tại Hà Nội Đi buýt ở Thủ Đô bây giờ tiện quá, vì đã có thể thanh toán ngay bằng MoMo. Không cần chuẩn bị tiền lẻ, không cần chờ trả lại tiền thừa. Đặc biệt, bạn mới 
 
-### Shopee (1)
+- **[Tặng ngay gói 3 tháng ShopeeVIP cho bạn lần đầu giao dịch thành công tại Hoàn Tiền Mua Sắm](https://momo.vn/tin-tuc/khuyen-mai/tang-ngay-goi-3-thang-shopeevip-cho-ban-lan-dau-8993)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `momo_newsroom` · published: 2026-08-28
+  - Khuyến mãi · 28/08/2026 Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Tặng ngay gói 3 tháng ShopeeVIP cho bạn lần đầu giao dịch thành công tại Hoàn Tiền Mua Sắm Bạn sẽ có ngay 3 tháng ShopeeVIP miễn phí khi lần đầu chốt đơn thành công qua Hoàn Tiền Mua Sắm. Thỏa sức tận hưởng đặc quyền
 
-- **[BẢN TIN QUỐC KHÁNH 02/09/2026](https://banhang.shopee.vn/edu/article/28109)**
-  - signal: `3.28` (3 - Market signal) · R1/R2: `3.0`/`3.7` · source: `shopee_seller_blog` · published: 2026-08-17
+- **[Đẩy xe dưới mưa - Tích đức săn triệu Xu](https://momo.vn/tin-tuc/khuyen-mai/day-xe-duoi-mua-tich-duc-san-trieu-xu-8990)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `momo_newsroom` · published: 2026-08-27
+  - Khuyến mãi · 27/08/2026 Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Đẩy xe dưới mưa - Tích đức săn triệu Xu Mùa mưa tới rồi, đường phố lại đầy những pha xe chết máy bất ngờ. Vào Đẩy Xe Dưới Mưa, cùng MoMo chạm thật nhanh, đẩy xe qua màn mưa, gom Xu và tích điểm. Mưa ướt áo, nhưng lòn
 
-### WhatsApp (8)
+- **[Hướng dẫn 3 cách đi Metro miễn phí trong ngày Lễ 2/9](https://momo.vn/tin-tuc/thong-bao/huong-dan-3-cach-di-metro-mien-phi-trong-ngay-le-8989)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `momo_newsroom` · published: 2026-08-27
+  - Thông báo · 27/08/2026 Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Hướng dẫn 3 cách đi Metro miễn phí trong ngày Lễ 2/9 Mừng ngày Tết Độc Lập, Thành phố Hồ Chí Minh miễn phí vé đi Metro duy nhất ngày 2/9/2026 để người dân thoải mái vui chơi giải trí. MoMo hướng dẫn bạn 3 cách nhận vé
 
-- **[Introducing Web Calling on WhatsApp, Plus More New Updates](https://blog.whatsapp.com/introducing-web-calling-on-whatsapp-plus-more-new-updates)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `whatsapp_blog` · published: —
-  - Whether you're on your phone, at your desk, or switching between the two, calling on WhatsApp just works, privately and simply. Today, we are bringing new features to make that easier no matter where you are or what device you're on. Web Calling: You can now make and receive audio and video calls, b
+- **[Mừng Tết Độc Lập – Đi Metro & xe buýt Hà Nội miễn phí](https://momo.vn/tin-tuc/thong-bao/mung-tet-doc-lap-di-metro-xe-buyt-ha-noi-mien-phi-8988)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `momo_newsroom` · published: 2026-08-27
+  - Thông báo · 27/08/2026 Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Mừng Tết Độc Lập – Đi Metro & xe buýt Hà Nội miễn phí Từ 29/08 đến hết 02/09/2026, toàn bộ hành khách được miễn tiền vé trên các tuyến xe buýt có trợ giá và 2 tuyến Metro Cát Linh – Hà Đông, Nhổn – Ga Hà Nội (đoạn trê
 
-- **[New Feature Roundup: Sign up on iPad, WhatsApp in your car, and more](https://blog.whatsapp.com/new-feature-roundup-sign-up-on-ipad-whatsapp-in-your-car-and-more)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `whatsapp_blog` · published: —
-  - Your most important conversations don't just live on your phone anymore. You're catching up with friends from the couch on your iPad, checking in with family on the drive home, and switching between many different apps to manage your work and day. WhatsApp should work wherever you do. That's why we'
+- **[Bảo Bối Nhập Học đồng hành cùng sinh viên, tự tin đến trường, tối ưu chi tiêu!](https://momo.vn/tin-tuc/khuyen-mai/bao-boi-nhap-hoc-dong-hanh-cung-sinh-vien-tu-tin-8987)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `momo_newsroom` · published: 2026-08-25
+  - Khuyến mãi · 25/08/2026 · 2.6K lượt xem Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Bảo Bối Nhập Học đồng hành cùng sinh viên, tự tin đến trường, tối ưu chi tiêu! MoMo mang đến Bảo Bối Nhập Học gồm có: Bảo Bối Di Chuyển, Bảo Bối Kết Nối và Bảo Bối An Tâm giúp bạn thanh toán các dịch 
 
-- **[It’s time to reserve your WhatsApp username](https://blog.whatsapp.com/its-time-to-reserve-your-whatsapp-username)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `whatsapp_blog` · published: —
-  - When someone new walks into your life – a classmate, a neighbor, someone you meet at an event – sharing a phone number can feel like a big step. That’s because a phone number is personal and it’s tied to so many parts of your life. Sometimes you just want to chat without handing over your digits. Th
+- **[Ưu đãi ăn uống tháng 8: Deal cực hời, quà 0đ, Flash Sale trên MoMo](https://momo.vn/tin-tuc/khuyen-mai/uu-dai-an-uong-thang-8-deal-cuc-hoi-qua-0d-flash-8986)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `momo_newsroom` · published: 2026-08-25
+  - Khuyến mãi · 25/08/2026 Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Ưu đãi ăn uống tháng 8: Deal cực hời, quà 0đ, Flash Sale trên MoMo Xem bài viết này, là biết tất tần tật deal hot tháng 8 trên MoMo! Từ ưu đãi Ăn Uống siêu hời, nhiệm vụ Tích Xu đến Flash Sale mỗi ngày, vào MoMo săn 
 
-- **[Celebrating Football with New Features on WhatsApp](https://blog.whatsapp.com/celebrating-football-with-new-features-on-whatsapp)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `whatsapp_blog` · published: —
-  - Nothing brings people together quite like football: last-minute goals, the unbelievable saves, and the moments that make you jump and shout. The only thing that matches the energy on the pitch is your group chat. Whether it’s polls predicting each match winner, voice notes flying across time zones a
+- **[Hướng dẫn thanh toán xe buýt Hà Nội bằng MoMo: Quét QR nhanh gọn, đi xe tiện lợi](https://momo.vn/tin-tuc/thong-bao/huong-dan-thanh-toan-xe-buyt-ha-noi-bang-momo-8985)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `momo_newsroom` · published: 2026-08-25
+  - Thông báo · 25/08/2026 Chia sẻ Sao chép liên kết Chia sẻ Facebook Chia sẻ LinkedIn Hướng dẫn thanh toán xe buýt Hà Nội bằng MoMo: Quét QR nhanh gọn, đi xe tiện lợi Đi xe buýt Hà Nội giờ đây thuận tiện hơn với thanh toán online. Không cần chuẩn bị tiền lẻ, hành khách có thể sử dụng mã QR của Ví MoMo 
 
-- **[Introducing Incognito Chat with Meta AI: A completely private way to chat with AI](https://blog.whatsapp.com/introducing-incognito-chat-with-meta-ai-a-completely-private-way-to-chat-with-ai)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `whatsapp_blog` · published: —
-  - Chatting with AI has quickly become a critical part of how people get information and ask important questions. And many of these questions can be deeply sensitive, or include situations where people are including private financial, personal, health or work data with their questions. Ten years ago we
+### Telegram (1)
 
-- **[New Feature Roundup: Free up space, multiple accounts, cross-platform transfer and more](https://blog.whatsapp.com/new-feature-roundup-free-up-space-multiple-accounts-cross-platform-transfer-and-more)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `whatsapp_blog` · published: —
-  - Over time, our chats become a record of the moments that matter: conversations with family, laughs with friends, the photos and videos we couldn't stop sharing. To help you make the most of all of it, we're rolling out new ways to make WhatsApp even easier to use — whether you're staying organized, 
-
-- **[Introducing Group Message History: A more private way to catch up in group chats](https://blog.whatsapp.com/introducing-group-message-history-a-more-private-way-to-catch-up-in-group-chats)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `whatsapp_blog` · published: —
-  - We’re excited to introduce Group Message History, a feature that makes group chats even more welcoming without interruption. Now, group admins and members can choose to send recent messages to new members, so they can catch up quickly. One of our most requested features, it’s another example of how 
-
-- **[WhatsApp's Latest Privacy Protection: Strict Account Settings](https://blog.whatsapp.com/whatsapps-latest-privacy-protection-strict-account-settings)**
-  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `whatsapp_blog` · published: —
-  - At WhatsApp, we think you should be able to have a private conversation online, just like you would in-person. We will always defend that right to privacy for everyone, starting with default end-to-end encryption. But we also know that a few of our users – like journalists or public-facing figures –
+- **[Welcome Messages, Buttons in Messages and Signed Gifts](https://telegram.org/blog/welcome-messages-buttons-TG-13)**
+  - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `telegram_blog` · published: 2026-08-25
+  - Telegram is 13 years old now — but we can't stop adding new features: Groups and channels now support welcome messages to give new members extra info without cluttering the chat for others. When a user joins, only they can see the message. Multiple messages and media can be added to the welcome pack
 
 ### Zalo (2)
 
@@ -140,524 +139,480 @@
   - signal: `3.4` (3 - Market signal) · R1/R2: `3.0`/`4.0` · source: `zalopay_promo` · published: —
   - Trang chủ Tin tức Tin tức Cập nhập thông tin mới nhất về ZaloPay Khuyến mãi - Ưu đãi Ưu đãi riêng cho người dùng ZaloPay Blog Chuyên trang cung cấp thông tin hữu ích Dịch vụ Chuyển tiền - Nhận tiền Miễn phí, an toàn, chuyển tiền Zalo chat Nạp tiền điện thoại Nạp ĐT - Mua thẻ ĐT - Data 3G/4G Thanh to
 
-## Market Pulse (128)
+## Market Pulse (117)
 
-### Trong nước (8)
+### Trong nước (6)
 
-- **[Đẩy mạnh ứng dụng AI trong công tác xây dựng và thi hành pháp luật](https://vneconomy.vn/techconnect/day-manh-ung-dung-ai-trong-cong-tac-xay-dung-va-thi-hanh-phap-luat.htm)**
-  - signal: `4.02` (4 - Strategic shift) · R1/R2: `4.7`/`3.0` · source: `vneconomy_techconnect` · published: 2026-08-20
-  - Kính lúp công nghệ Đẩy mạnh ứng dụng AI trong công tác xây dựng và thi hành pháp luật Gia Bảo 20/08/2026 Chia sẻ Đứng trước yêu cầu chuyển đổi số toàn diện, Việt Nam và các nước ASEAN đang đẩy mạnh nghiên cứu, ứng dụng các công cụ trí tuệ nhân tạo (AI) chuyên biệt vào công tác xây dựng, rà soát và t
+- **[Phát động Giải thưởng công nghệ số Make in Viet Nam 2026](https://dantri.com.vn/khoa-hoc/phat-dong-giai-thuong-cong-nghe-so-make-in-viet-nam-2026-20260828172335005.htm)**
+  - signal: `4.02` (4 - Strategic shift) · R1/R2: `4.7`/`3.0` · source: `dantri_ai` · published: 2026-08-28
+  - Phát động Giải thưởng công nghệ số Make in Viet Nam 2026 Thương Huyền (Dân trí) - Giải thưởng Sản phẩm công nghệ số Make in Viet Nam năm 2026 lần đầu tiên có hạng mục riêng dành cho các sản phẩm trí tuệ nhân tạo. Chiều 28/8, tại Họp báo thường kỳ tháng 8, Bộ Khoa học và Công nghệ đã công bố, phát độ
 
-- **[AI đang tổ chức lại cách doanh nghiệp Việt tuyển người và đào tạo nhân sự](https://vneconomy.vn/techconnect/ai-dang-to-chuc-lai-cach-doanh-nghiep-viet-tuyen-nguoi-va-dao-tao-nhan-su.htm)**
-  - signal: `3.54` (4 - Strategic shift) · R1/R2: `3.7`/`3.3` · source: `vneconomy_techtalk` · published: 2026-08-20
-  - Theo Báo cáo của ILO, khoảng 11,5 triệu lao động tại Việt Nam, tương đương 1/5 lực lượng lao động, đang làm những công việc có khả năng chịu tác động của AI tạo sinh.
+- **[Việt Nam đặt mục tiêu có 10 thương hiệu AI quốc tế năm 2030](https://vnexpress.net/viet-nam-dat-muc-tieu-co-10-thuong-hieu-ai-quoc-te-nam-2030-5115221.html)**
+  - signal: `3.42` (4 - Strategic shift) · R1/R2: `3.7`/`3.0` · source: `vnexpress_khcn` · published: 2026-08-30
+  - Việt Nam phấn đấu đến năm 2030 hình thành 10 thương hiệu AI có năng lực cạnh tranh trên thị trường khu vực và quốc tế cùng 8 mô hình AI tiếng Việt.
 
-- **[Lừa đảo trực tuyến tại Việt Nam 'có dấu hiệu giảm rõ rệt'](https://vnexpress.net/lua-dao-truc-tuyen-tai-viet-nam-co-dau-hieu-giam-ro-ret-5112146.html)**
-  - signal: `3.54` (4 - Strategic shift) · R1/R2: `3.7`/`3.3` · source: `vnexpress_khcn` · published: 2026-08-22
-  - Lừa đảo trực tuyến tại Việt Nam giảm 56% về số vụ so với nửa đầu năm ngoái, nhưng thủ đoạn tiếp tục tinh vi nhờ AI, khai thác dữ liệu cá nhân.
+- **[Trung Quốc muốn xây 'nhà máy AI' tại Việt Nam](https://vnexpress.net/trung-quoc-muon-xay-nha-may-ai-tai-viet-nam-5114619.html)**
+  - signal: `3.42` (4 - Strategic shift) · R1/R2: `3.7`/`3.0` · source: `vnexpress_khcn` · published: 2026-08-29
+  - Doanh nghiệp Trung Quốc đề xuất hợp tác với Việt Nam về trung tâm dữ liệu, hạ tầng tính toán, cũng như các ứng dụng, kịch bản sử dụng AI.
 
-- **[An ninh mạng trong kỷ nguyên AI](https://vneconomy.vn/techconnect/an-ninh-mang-trong-ky-nguyen-ai.htm)**
-  - signal: `3.42` (4 - Strategic shift) · R1/R2: `3.7`/`3.0` · source: `vneconomy_techtalk` · published: 2026-08-20
-  - Tech Talk An ninh mạng trong kỷ nguyên AI Gia Bảo 20/08/2026 Chia sẻ The WISE Talk số 21 với chủ đề "An ninh mạng trong kỷ nguyên AI" được phát sóng trên trang chủ và Fanpage của VnEconomy vào 14:00, ngày 20/08/2026. Giữa làn sóng công nghệ hiện nay, trí tuệ nhân tạo (AI) đang trở thành trợ lực mạnh
+- **['Zalo cạnh tranh sòng phẳng với nền tảng ngoại'](https://vnexpress.net/zalo-canh-tranh-song-phang-voi-nen-tang-ngoai-5114698.html)**
+  - signal: `3.42` (4 - Strategic shift) · R1/R2: `3.7`/`3.0` · source: `vnexpress_khcn` · published: 2026-08-28
+  - Lãnh đạo Cục Viễn thông nhận định, Zalo đứng nhóm đầu về lượng thuê bao tại Việt Nam, có khả năng "cạnh tranh sòng phẳng" với các dịch vụ ngoại.
 
-- **[Năng lượng ổn định - Nền tảng phát triển AI chiến lược cho Việt Nam](https://vneconomy.vn/techconnect/nang-luong-on-dinh-nen-tang-phat-trien-ai-chien-luoc-cho-viet-nam.htm)**
-  - signal: `3.42` (4 - Strategic shift) · R1/R2: `3.7`/`3.0` · source: `vneconomy_techtalk` · published: 2026-08-18
-  - Tech Talk Năng lượng ổn định - Nền tảng phát triển AI chiến lược cho Việt Nam Gia Bảo 18/08/2026 Chia sẻ Năng lượng ổn định, chi phí hợp lý cần được xem là nền tảng chiến lược cho mục tiêu phát triển AI của Việt Nam, bên cạnh dữ liệu, chip và hạ tầng điện toán. Năng lượng ổn định là nền tảng cho tươ
+- **[Cuộc đua Internet gia đình tốc độ 2 Gbps tại Việt Nam](https://vnexpress.net/cuoc-dua-internet-gia-dinh-toc-do-2-gbps-tai-viet-nam-5114294.html)**
+  - signal: `3.42` (4 - Strategic shift) · R1/R2: `3.7`/`3.0` · source: `vnexpress_khcn` · published: 2026-08-28
+  - Viettel cung cấp Internet tốc độ 2 Gbps kèm thiết bị Wi-Fi 7 cho hộ gia đình với giá dưới 500.000 đồng mỗi tháng, bằng một nửa so với FPT.
 
-- **[AI đang viết lại cách người Việt học tiếng Anh](https://vneconomy.vn/techconnect/ai-dang-viet-lai-cach-nguoi-viet-hoc-tieng-anh.htm)**
-  - signal: `3.42` (4 - Strategic shift) · R1/R2: `3.7`/`3.0` · source: `vneconomy_techtalk` · published: 2026-08-17
-  - Tech Talk AI đang viết lại cách người Việt học tiếng Anh Bảo Bình 17/08/2026 Chia sẻ Việc từng bước đưa tiếng Anh trở thành ngôn ngữ thứ hai trong trường học đang đặt ngành giáo dục trước yêu cầu lớn về phát triển đội ngũ giáo viên, đổi mới phương pháp giảng dạy và xây dựng môi trường sử dụng ngoại 
+- **[Qualcomm muốn đưa Việt Nam thành trung tâm R&amp;D AI lớn thứ ba của tập đoàn trên toàn cầu](https://vnexpress.net/qualcomm-muon-dua-viet-nam-thanh-trung-tam-r-d-ai-lon-thu-ba-cua-tap-doan-tren-toan-cau-5114298.html)**
+  - signal: `3.42` (4 - Strategic shift) · R1/R2: `3.7`/`3.0` · source: `vnexpress_kinhdoanh` · published: 2026-08-27
+  - Qualcomm đang hướng đến mục tiêu đưa Việt Nam thành trung tâm nghiên cứu và phát triển AI lớn thứ ba của tập đoàn trên toàn cầu.
 
-- **[Gần một nửa cuộc tấn công mạng tại Việt Nam có yếu tố AI](https://vnexpress.net/gan-mot-nua-cuoc-tan-cong-mang-tai-viet-nam-co-yeu-to-ai-5111745.html)**
-  - signal: `3.42` (4 - Strategic shift) · R1/R2: `3.7`/`3.0` · source: `vnexpress_khcn` · published: 2026-08-21
-  - Bộ Công an ghi nhận nửa đầu năm 2026 có khoảng hai triệu cảnh báo tấn công mạng, trong đó gần một nửa có yếu tố AI, và hàng chục triệu bản ghi dữ liệu cá nhân bị rao bán.
+### SEA (2)
 
-- **[Chuyên gia gợi ý 'điểm ngọt' sản xuất chip AI cho Việt Nam](https://vnexpress.net/chuyen-gia-goi-y-diem-ngot-san-xuat-chip-ai-cho-viet-nam-5110564.html)**
-  - signal: `3.42` (4 - Strategic shift) · R1/R2: `3.7`/`3.0` · source: `vnexpress_khcn` · published: 2026-08-19
-  - Ông Kevin Koh của Faraday Technology (Đài Loan) đánh giá Việt Nam phù hợp trong sản xuất dòng chip AI sử dụng tiến trình 12-14 nm.
+- **[Supporting Thailand’s next generation of AI startups](https://openai.com/index/supporting-next-generation-ai-startups-thailand/)**
+  - signal: `3.0` (3 - Market signal) · R1/R2: `3.0`/`3.0` · source: `openai_news` · published: 2026-08-28
+  - August 28, 2026 Company Supporting Thailand’s next generation of AI startups OpenAI and Thailand’s Ministry of Higher Education, Science, Research and Innovation are launching an eight-week accelerator to help startups turn promising ideas into products ready for real-world use. Loading… Share Today
 
-### SEA (3)
-
-- **[Malaysia recognizes TNG eWallet as wage payment option](https://www.techinasia.com/news/malaysia-recognizes-tng-ewallet-wage-payment-option)**
-  - signal: `3.12` (3 - Market signal) · R1/R2: `3.0`/`3.3` · source: `techinasia_feed` · published: 2026-08-21
-  - More than 500,000 users receive wages through the app nationwide.
-
-- **[Trẻ khó được bảo vệ trên mạng khi nhiều phụ huynh còn "mù mờ" công nghệ](https://dantri.com.vn/cong-nghe/tre-kho-duoc-bao-ve-tren-mang-khi-nhieu-phu-huynh-con-mu-mo-cong-nghe-20260820083312129.htm)**
-  - signal: `3.0` (3 - Market signal) · R1/R2: `3.0`/`3.0` · source: `dantri_security` · published: 2026-08-20
-  - Trẻ khó được bảo vệ trên mạng khi nhiều phụ huynh còn "mù mờ" công nghệ Minh Nhật (Dân trí) - Khoảng cách giữa “biết” và “biết cách tự bảo vệ” trên môi trường số vẫn còn lớn, đặc biệt khi AI đang tạo ra những dạng rủi ro ngày càng khó nhận diện. Nguy cơ xâm hại hiện hữu trên "thế giới ảo" Tại hội th
-
-- **[Series SEA: Who’s investing in the region’s fintech startups?](https://www.techinasia.com/top-sea-investors-fintech)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `3.0`/`2.7` · source: `techinasia_feed` · published: 2026-08-22
-  - We've compiled a list of investors that are pouring money into Southeast Asia’s fintech startups.
+- **[Malaysia’s data centre rules aim to green the sector, not slam the door](https://www.scmp.com/opinion/asia-opinion/article/3365008/malaysias-data-centre-rules-aim-green-sector-not-slam-door?utm_source=rss_feed)**
+  - signal: `3.0` (3 - Market signal) · R1/R2: `3.0`/`3.0` · source: `scmp_tech` · published: 2026-08-24
+  - In global commercial real estate investment markets, data centres are all the rage. While stock markets continue to suffer bouts of volatility as sentiment oscillates between concerns artificial intelligence (AI) will fall short of expectations and fears it will prove more disruptive than many think
 
 ### Trung quốc (22)
 
-- **[Zhipu AI’s answer to Project Glasswing marks shift for Chinese cyber safety: researcher](https://www.scmp.com/tech/article/3364356/zhipu-ais-answer-project-glasswing-marks-shift-chinese-cyber-safety-researcher?utm_source=rss_feed)**
-  - signal: `3.84` (4 - Strategic shift) · R1/R2: `4.4`/`3.0` · source: `scmp_tech` · published: 2026-08-18
-  - Zhipu AI’s launch of China’s first answer to Project Glasswing signals a shift in how the country’s top artificial intelligence labs approach global cybersecurity, according to a researcher. The Beijing-based firm – now known internationally as Z.ai – announced its new GLM-5.3 model on Friday alongs
+- **[Alibaba pushes into South America’s AI market with launch of Brazil data centres](https://www.scmp.com/tech/big-tech/article/3365491/alibaba-pushes-south-americas-ai-market-launch-brazil-data-centres?utm_source=rss_feed)**
+  - signal: `3.84` (4 - Strategic shift) · R1/R2: `4.4`/`3.0` · source: `scmp_tech` · published: 2026-08-27
+  - Alibaba Group Holding has launched its first data centres in South America, as the Chinese technology giant ramps up its artificial intelligence infrastructure buildout in emerging markets amid an intensifying US-China AI rivalry. The Hangzhou-based company announced on Thursday that its new Brazili
 
-- **[Cách quê hương của DeepSeek, Moonshot giữ chân, thu hút nhân tài AI](https://vneconomy.vn/techconnect/cach-que-huong-cua-deepseek-moonshot-giu-chan-thu-hut-nhan-tai-ai.htm)**
-  - signal: `3.84` (4 - Strategic shift) · R1/R2: `4.4`/`3.0` · source: `vneconomy_techconnect` · published: 2026-08-19
-  - Tech Lifestyle Cách quê hương của DeepSeek, Moonshot giữ chân, thu hút nhân tài AI Hoàng Hà 19/08/2026 Chia sẻ Sau khi để mất những nhà sáng lập như Yang Zhilin và Liang Wenfeng vào tay các trung tâm công nghệ khác, tỉnh Quảng Đông (Trung Quốc) đang cố biến thế mạnh sản xuất, thị trường ứng dụng rộn
+- **[PetroChina First-Half Profit Rises 22% on Higher Oil Prices](https://www.bloomberg.com/news/articles/2026-08-30/petrochina-first-half-profit-rises-22-on-higher-oil-prices)**
+  - signal: `3.36` (3 - Market signal) · R1/R2: `3.4`/`3.3` · source: `bloomberg_tech` · published: 2026-08-30
+  - PetroChina Co. posted a 22% increase in first-half profit as a surge in global energy prices boosted upstream revenue at China’s biggest oil and gas producer.
 
-- **[Armed with funding boost, SpaceSail accelerates China’s push to rival Elon Musk’s Starlink](https://www.scmp.com/tech/article/3364654/armed-funding-boost-spacesail-accelerates-chinas-push-rival-elon-musks-starlink?utm_source=rss_feed)**
-  - signal: `3.36` (3 - Market signal) · R1/R2: `3.4`/`3.3` · source: `scmp_tech` · published: 2026-08-20
-  - In a record funding round for China’s satellite internet sector, domestic start-up SpaceSail has raised around 7 billion yuan (US$1 billion) to accelerate the buildout of a low-Earth-orbit (LEO) network designed to compete with Elon Musk’s Starlink project. Known officially as Shanghai Spacecom Sate
+- **[JD.com’s US$1.3b expansion could test Hong Kong’s footfall-driven retail property model](https://www.scmp.com/business/article/3365657/jdcoms-us13b-expansion-could-test-hong-kongs-footfall-driven-retail-property-model?utm_source=rss_feed)**
+  - signal: `3.36` (3 - Market signal) · R1/R2: `3.4`/`3.3` · source: `scmp_tech` · published: 2026-08-30
+  - JD.com’s rapid expansion in Hong Kong could challenge the property model that has long made the city’s busiest streets and shopping centres its most valuable, analysts say. The Chinese e-commerce giant has invested more than HK$10 billion (US$1.3 billion) in Hong Kong property over the past two year
 
-- **[Unitree Robotics surges 629% to US$66 billion valuation in Shanghai share debut](https://www.scmp.com/tech/tech-trends/article/3364499/unitree-robotics-surges-629-us66-billion-valuation-shanghai-share-debut?utm_source=rss_feed)**
-  - signal: `3.36` (3 - Market signal) · R1/R2: `3.4`/`3.3` · source: `scmp_tech` · published: 2026-08-19
-  - Shares of Unitree Robotics surged 629 per cent above their initial public offering price to open at 1,100 yuan in their Shanghai trading debut on Wednesday, giving China’s best-known humanoid robot maker a market capitalisation of about 445 billion yuan (US$66 billion). The opening pop from its IPO 
+- **[Meituan snaps losing streak with profitable June quarter though Douyin threat looms](https://www.scmp.com/tech/big-tech/article/3365595/meituan-snaps-losing-streak-profitable-june-quarter-though-douyin-threat-looms?utm_source=rss_feed)**
+  - signal: `3.36` (3 - Market signal) · R1/R2: `3.4`/`3.3` · source: `scmp_tech` · published: 2026-08-28
+  - On-demand delivery giant Meituan swung back to profitability in the second quarter as China’s price war in food delivery cooled, allowing the company to scale back subsidies and target higher-value customers. Beijing-based Meituan posted an adjusted net profit of 2.5 billion yuan (US$372 million) fo
 
-- **[Meet the Chinese AI star who splashed a reported US$70m on a California mansion](https://www.scmp.com/tech/big-tech/article/3364380/meet-chinese-ai-star-who-splashed-reported-us70m-california-mansion?utm_source=rss_feed)**
-  - signal: `3.36` (3 - Market signal) · R1/R2: `3.4`/`3.3` · source: `scmp_tech` · published: 2026-08-18
-  - Tony Wu Yuhuai, the China-born co-founder of Elon Musk’s artificial intelligence lab, sparked discussions across Chinese social media after reportedly spending US$70 million on a six-bedroom Californian mega-mansion. The property deal, the largest so far this year in the Bay Area, pushed the thirty-
+- **[MiniMax expands Alibaba cloud pact as compute needs surge for training and inference](https://www.scmp.com/tech/article/3365558/minimax-expands-alibaba-cloud-pact-compute-needs-surge-training-and-inference?utm_source=rss_feed)**
+  - signal: `3.36` (3 - Market signal) · R1/R2: `3.4`/`3.3` · source: `scmp_tech` · published: 2026-08-28
+  - Chinese artificial intelligence firm MiniMax has raised the three-year purchase ceiling on its cloud computing deals with Alibaba Group Holding by 220 per cent to US$1.2 billion, underscoring surging demand for computing power among the country’s top AI developers. The Shanghai-based company planned
 
-- **[Baidu’s quarterly revenue drops 4% as AI cloud surge fails to offset advertising slump](https://www.scmp.com/tech/big-tech/article/3364436/baidu-quarterly-revenue-drops-4-ai-cloud-surge-fails-offset-advertising-slump?utm_source=rss_feed)**
-  - signal: `3.36` (3 - Market signal) · R1/R2: `3.4`/`3.3` · source: `scmp_tech` · published: 2026-08-18
-  - Chinese tech giant Baidu on Tuesday posted a 4 per cent year-on-year decline in second-quarter revenue, as continued weakness in advertising outweighed growth in its artificial intelligence cloud operations, highlighting intensifying competition in China’s tech sector. Revenue for the three months e
+- **[Divergent results for Apple suppliers highlight memory price squeeze ahead of new iPhone](https://www.scmp.com/tech/big-tech/article/3365236/divergent-results-apple-suppliers-highlight-memory-price-squeeze-ahead-new-iphone?utm_source=rss_feed)**
+  - signal: `3.36` (3 - Market signal) · R1/R2: `3.4`/`3.3` · source: `scmp_tech` · published: 2026-08-25
+  - Two major Chinese suppliers to Apple posted divergent first-half results, underscoring how soaring memory prices are squeezing profits even as component makers pin their hopes on upcoming iPhone releases for a second-half rebound. Lens Technology, a Shenzhen- and Hong Kong-listed maker of smartphone
 
-- **[Ingenic launches IPO, joining wave of mainland China chipmakers raising funds in Hong Kong](https://www.scmp.com/tech/tech-trends/article/3364263/ingenic-launches-ipo-join-wave-mainland-china-chipmakers-raising-funds-hong-kong?utm_source=rss_feed)**
-  - signal: `3.36` (3 - Market signal) · R1/R2: `3.4`/`3.3` · source: `scmp_tech` · published: 2026-08-17
-  - Beijing-based Ingenic Semiconductor has launched a Hong Kong share offering to raise up to HK$3.22 billion (US$410.4 million), joining a growing wave of mainland Chinese chipmakers tapping the city’s capital markets to fund international expansion. The company, which has been listed on Shenzhen’s Na
+- **[Jack Ma buys HK$600 million of Alibaba shares, signalling AI confidence: sources](https://www.scmp.com/tech/big-tech/article/3365217/jack-ma-buys-hk600-million-alibaba-shares-signalling-ai-confidence-sources?utm_source=rss_feed)**
+  - signal: `3.36` (3 - Market signal) · R1/R2: `3.4`/`3.3` · source: `scmp_tech` · published: 2026-08-25
+  - Alibaba Group Holding founder Jack Ma has bought more than HK$600 million worth of the company’s Hong Kong-listed shares on consecutive days, according to people familiar with the matter, a show of confidence in the firm’s long-term prospects for artificial intelligence. The purchases showed Ma’s “s
 
-- **[AI chipmaker Biren projects up to 22-fold revenue surge amid China’s hi-tech boom](https://www.scmp.com/tech/tech-trends/article/3364262/ai-chipmaker-biren-projects-22-fold-revenue-surge-amid-chinas-hi-tech-boom?utm_source=rss_feed)**
-  - signal: `3.36` (3 - Market signal) · R1/R2: `3.4`/`3.3` · source: `scmp_tech` · published: 2026-08-17
-  - Chinese artificial intelligence chipmaker Biren Technology projects that its first-half revenue could shoot up by up to 2,107 per cent amid the AI hardware boom, joining industry peers like Hygon Information Technology and Cambricon Technologies in reporting accelerating demand for home-grown chips.
+- **[Alibaba’s record stock sale adds to Hong Kong tech flood](https://www.scmp.com/plus/business/banking-finance/article/3365060/alibabas-record-stock-sale-adds-hong-kong-tech-flood?utm_source=rss_feed)**
+  - signal: `3.36` (3 - Market signal) · R1/R2: `3.4`/`3.3` · source: `scmp_tech` · published: 2026-08-24
+  - Alibaba raised HK$80 billion (US$10.2 billion) in a record Hong Kong secondary stock sale as the e-commerce giant pours money into artificial intelligence (AI). Shares were priced at HK$112.70 apiece, an 8.4 per cent discount to Friday’s close, according to a Hong Kong stock exchange filing. The Han
 
-- **[Vì sao người Trung Quốc lạc quan với AI hơn người Mỹ?](https://vneconomy.vn/techconnect/vi-sao-nguoi-trung-quoc-lac-quan-voi-ai-hon-nguoi-my.htm)**
-  - signal: `3.36` (3 - Market signal) · R1/R2: `3.4`/`3.3` · source: `vneconomy_lifestyle` · published: 2026-08-17
-  - Theo AI Index 2025 của Đại học Stanford, 84% người Trung Quốc được khảo sát cho biết họ hào hứng với AI, mức cao nhất trong số các quốc gia được khảo sát, trong khi tại Mỹ tỷ lệ này chỉ là 38%. Một khảo sát khác cho thấy 72% người Trung Quốc tin tưởng AI, so với 32% người Mỹ.
+- **[Can China’s flash memory giant YMTC smash Shanghai Star Market IPO records?](https://www.scmp.com/tech/big-tech/article/3365017/can-chinas-flash-memory-giant-ymtc-smash-shanghai-star-market-ipo-records?utm_source=rss_feed)**
+  - signal: `3.36` (3 - Market signal) · R1/R2: `3.4`/`3.3` · source: `scmp_tech` · published: 2026-08-24
+  - China is gearing up for what could become its next record-breaking semiconductor stock listing as the parent company of chip giant Yangtze Memory Technologies Corporation (YMTC) prepares to go public on Shanghai’s Star Market. CCSH Corporation, parent of China’s top NAND flash maker, planned to sell
 
-- **[China’s overlooked internet army is quietly embedding AI into everyday businesses](https://www.scmp.com/tech/big-tech/article/3364972/chinas-overlooked-internet-army-quietly-embedding-ai-everyday-businesses?utm_source=rss_feed)**
-  - signal: `3.24` (3 - Market signal) · R1/R2: `3.4`/`3.0` · source: `scmp_tech` · published: 2026-08-23
-  - While China’s new “AI tigers” have captured global attention for challenging Silicon Valley front-runners, a quieter wave of domestic technology companies is building in-house artificial intelligence systems serving everyday users. Beyond pure-play AI labs like DeepSeek, Z.ai (also known as Zhipu AI
+- **[Alibaba’s top executives buy US$15m in shares in vote of confidence after AI fundraising](https://www.scmp.com/tech/big-tech/article/3365003/alibaba-sets-price-us102-billion-new-share-offer-fuel-ai-expansion?utm_source=rss_feed)**
+  - signal: `3.36` (3 - Market signal) · R1/R2: `3.4`/`3.3` · source: `scmp_tech` · published: 2026-08-24
+  - The top two executives at Alibaba Group Holding bought a combined HK$120 million (US$15.3 million) worth of the company’s ordinary shares on Monday in a vote of confidence after the tech giant unveiled one of China’s biggest fundraising rounds dedicated to AI. The share placement, the first since Al
 
-- **[Pay, perks, equity: China’s AI, chip firms lead way in offering rewards to lock in talent](https://www.scmp.com/tech/big-tech/article/3364689/pay-perks-equity-chinas-ai-chip-firms-lead-way-offering-rewards-lock-talent?utm_source=rss_feed)**
-  - signal: `3.24` (3 - Market signal) · R1/R2: `3.4`/`3.0` · source: `scmp_tech` · published: 2026-08-22
-  - In the high-stakes battle for China’s top talent, domestic tech companies – especially in semiconductors and artificial intelligence – are rolling out aggressive equity incentive plans as they capitalise on a bull market to retain key personnel. Recent corporate filings revealed an unprecedented wav
+- **[Nvidia chi 6 tỷ USD, xây dựng đối trọng AI mở của Mỹ](https://vneconomy.vn/techconnect/nvidia-chi-6-ty-usd-xay-dung-doi-trong-ai-mo-cua-my.htm)**
+  - signal: `3.36` (3 - Market signal) · R1/R2: `3.4`/`3.3` · source: `vneconomy_techconnect` · published: 2026-08-25
+  - Mô hình AI mở của Trung Quốc phơi bày những "điểm mù" trong chiến lược trí tuệ nhân tạo của Mỹ
 
-- **[China’s telecoms giants bet on ‘token factories’ as AI drives revenue growth](https://www.scmp.com/tech/big-tech/article/3364873/chinas-telecoms-giants-bet-token-factories-ai-drives-revenue-growth?utm_source=rss_feed)**
-  - signal: `3.24` (3 - Market signal) · R1/R2: `3.4`/`3.0` · source: `scmp_tech` · published: 2026-08-21
-  - China’s three state-owned telecoms giants have made billable artificial intelligence tokens a key focus of their growth strategies, as AI adoption accelerates across the country and computing demand soars. China Mobile, China Telecom and China Unicom all pointed to AI and computing operations as key
+- **[Clip “người phụ nữ bảo vệ chó cưng” gây tranh cãi tuần qua](https://dantri.com.vn/cong-nghe/clip-nguoi-phu-nu-bao-ve-cho-cung-gay-tranh-cai-tuan-qua-20260830063709115.htm)**
+  - signal: `3.24` (3 - Market signal) · R1/R2: `3.4`/`3.0` · source: `dantri_ai` · published: 2026-08-30
+  - Clip “người phụ nữ bảo vệ chó cưng” gây tranh cãi tuần qua Quang Huy (Dân trí) - Đoạn video ghi lại tại Trung Quốc, cho thấy tình huống người phụ nữ vì bảo vệ cho chó cưng mà làm ngã chiếc xe nôi và bỏ mặc con nhỏ đang nằm trong đó, đã gây ra nhiều tranh cãi trong cộng đồng mạng. Tình huống người ph
 
-- **[China’s supernodes go mainstream as AI model sizes grow](https://www.scmp.com/plus/tech/big-tech/article/3364660/chinas-supernodes-go-mainstream-ai-model-sizes-grow?utm_source=rss_feed)**
-  - signal: `3.24` (3 - Market signal) · R1/R2: `3.4`/`3.0` · source: `scmp_tech` · published: 2026-08-20
-  - Supernodes were everywhere at last month’s World Artificial Intelligence Conference (WAIC) in Shanghai. Assemblies of dozens or hundreds of computer chips and associated hardware, supernodes are China’s way around the United States’ ban on the export of the most advanced artificial intelligence (AI)
+- **[Not a token effort: beer meets artificial intelligence at bar in China’s capital](https://www.scmp.com/tech/tech-trends/article/3365740/not-token-effort-beer-meets-artificial-intelligence-bar-chinas-capital?utm_source=rss_feed)**
+  - signal: `3.24` (3 - Market signal) · R1/R2: `3.4`/`3.0` · source: `scmp_tech` · published: 2026-08-30
+  - Drinks, music, vibes … what else can a bar offer to attract customers? One in China’s capital, Beijing, is betting on unlimited access to artificial intelligence models. The AGI Bar in the Zhongguancun tech hub, known as China’s Silicon Valley, was packed with laptop-using customers on a recent nigh
 
-- **[Shanghai lays out plan to boost digital economy, catch up with Beijing, Shenzhen](https://www.scmp.com/tech/blockchain/article/3364593/shanghai-lays-out-plan-boost-digital-economy-catch-beijing-shenzhen?utm_source=rss_feed)**
-  - signal: `3.24` (3 - Market signal) · R1/R2: `3.4`/`3.0` · source: `scmp_tech` · published: 2026-08-19
-  - Shanghai has issued plans to boost its digital economy by doubling down on sectors including blockchain technology and AI infrastructure, as it steps up efforts to compete with other Chinese tech hubs such as Beijing and Shenzhen. In a new five-year plan for building “digital Shanghai”, the municipa
+- **[China leverages short-video ecosystem, lower costs to carve out lead in AI video](https://www.scmp.com/tech/tech-trends/article/3365605/china-leverages-short-video-ecosystem-lower-costs-carve-out-lead-ai-video?utm_source=rss_feed)**
+  - signal: `3.24` (3 - Market signal) · R1/R2: `3.4`/`3.0` · source: `scmp_tech` · published: 2026-08-29
+  - Chinese artificial intelligence companies are carving out a distinct lead over their US rivals in video generation, leveraging vast short-video ecosystems, looser copyright rules and aggressive pricing to dominate an arena where compute alone does not dictate success, analysts say. While US tech gia
 
-- **[Making better robots depends on better data capture, Chinese firm 51World says](https://www.scmp.com/tech/article/3364587/making-better-robots-depends-better-data-capture-chinese-firm-51world-says?utm_source=rss_feed)**
-  - signal: `3.24` (3 - Market signal) · R1/R2: `3.4`/`3.0` · source: `scmp_tech` · published: 2026-08-19
-  - The race to develop intelligent humanoid robots faces a major roadblock in a severe shortage of high-quality training data, but Beijing-based tech company 51World believes it has the tools to break the bottleneck. Best known for its digital twin and simulation technology, 51 World on Tuesday unveile
+- **[Crypto slump, AI boom overshadow CZ’s bullish pitch at Hong Kong’s Bitcoin Asia](https://www.scmp.com/tech/tech-trends/article/3365484/crypto-slump-ai-boom-overshadow-czs-bullish-pitch-hong-kongs-bitcoin-asia?utm_source=rss_feed)**
+  - signal: `3.24` (3 - Market signal) · R1/R2: `3.4`/`3.0` · source: `scmp_tech` · published: 2026-08-27
+  - Anxiety over the booming AI trade and bitcoin’s uncertain future is overshadowing this year’s Bitcoin Asia conference in Hong Kong, as a lingering crypto slump dampens enthusiasm despite a star appearance by Binance founder Zhao Changpeng. Zhao, known in the industry as “CZ”, struck a bullish tone d
 
-- **[Hong Kong Gold Exchange taps tech strength in joint venture to power gold settlement](https://www.scmp.com/business/china-business/article/3364508/hong-kong-gold-exchange-taps-tech-strength-joint-venture-power-gold-settlement?utm_source=rss_feed)**
-  - signal: `3.24` (3 - Market signal) · R1/R2: `3.4`/`3.0` · source: `scmp_tech` · published: 2026-08-19
-  - The Hong Kong Gold Exchange (HKGX) and TGX Technology have launched a joint venture to build a “secure, stable and internationally competitive” gold trading and clearing platform, as the city pushes to become a gold trading hub. Hong Kong Gold Exchange Trading System (HKGXTS) would draw on technolog
+- **[Gates pitches US-China AI cooperation ahead of Xi meeting](https://www.scmp.com/plus/tech/policy/article/3365454/gates-pitches-us-china-ai-cooperation-ahead-xi-meeting?utm_source=rss_feed)**
+  - signal: `3.24` (3 - Market signal) · R1/R2: `3.4`/`3.0` · source: `scmp_tech` · published: 2026-08-27
+  - Bill Gates is likely to meet Chinese President Xi Jinping later this year as the Microsoft co-founder seeks to rally support for global cooperation on artificial intelligence (AI) risks. A meeting may take place in November, Reuters reported on Wednesday citing a Gates spokesman. Xi last met his “ol
 
-- **[Nokia to close almost all sites in mainland China by year end, sources say](https://www.scmp.com/tech/big-tech/article/3364425/nokia-close-almost-all-sites-mainland-china-year-end-sources-say?utm_source=rss_feed)**
-  - signal: `3.24` (3 - Market signal) · R1/R2: `3.4`/`3.0` · source: `scmp_tech` · published: 2026-08-18
-  - Finnish telecoms equipment giant Nokia plans to cut most of its workforce in mainland China and close sites in stages by year end, marking a sweeping retreat after more than four decades as it loses ground to domestic rivals, according to sources familiar with the situation. One Shanghai-based sourc
+- **[AI boom, profit surge fuel China’s ambitious chip assembly buildout](https://www.scmp.com/tech/tech-trends/article/3365337/ai-boom-profit-surge-fuel-chinas-ambitious-chip-assembly-buildout?utm_source=rss_feed)**
+  - signal: `3.24` (3 - Market signal) · R1/R2: `3.4`/`3.0` · source: `scmp_tech` · published: 2026-08-26
+  - China’s leading semiconductor packaging and testing companies have launched a multibillion-dollar capacity expansion drive, as they ride a surge in artificial intelligence demand, stellar first-half profit growth, and Beijing’s urgent push for tech self-sufficiency. In the first half of the year, Ch
 
-- **[The next silicon? AI data centre material faces price spike amid China supply crunch](https://www.scmp.com/tech/tech-trends/article/3364327/next-silicon-ai-data-centre-material-faces-price-spike-amid-china-supply-crunch?utm_source=rss_feed)**
-  - signal: `3.24` (3 - Market signal) · R1/R2: `3.4`/`3.0` · source: `scmp_tech` · published: 2026-08-17
-  - The artificial intelligence boom is driving demand for optical modules that enable ultra-fast data transmission in data centres, with the latest beneficiary a chemical compound that is seeing an unprecedented surge in prices. Indium phosphide (InP) is used to make lasers that convert electrical sign
+- **[DeepSeek leads surge in low-cost Chinese open-weight models on US platform](https://www.scmp.com/tech/tech-trends/article/3365204/deepseek-leads-surge-low-cost-chinese-open-weight-models-us-platform?utm_source=rss_feed)**
+  - signal: `3.24` (3 - Market signal) · R1/R2: `3.4`/`3.0` · source: `scmp_tech` · published: 2026-08-25
+  - The usage of open-weight AI models from China hit a record high on a popular US web development platform, driven largely by DeepSeek’s latest lightweight model, as business demand for Anthropic’s cutting-edge Fable 5 stalls due to high costs. Open-weight models accounted for 54 per cent of token vol
 
-- **[Alibaba sells gaming arm Lingxi Games as tech giant sharpens focus on AI and e-commerce](https://www.scmp.com/tech/big-tech/article/3364287/alibaba-sells-gaming-arm-lingxi-games-tech-giant-sharpens-focus-ai-and-e-commerce?utm_source=rss_feed)**
-  - signal: `3.24` (3 - Market signal) · R1/R2: `3.4`/`3.0` · source: `scmp_tech` · published: 2026-08-17
-  - Alibaba Group Holding has agreed to sell its wholly owned gaming business Lingxi Games to Trustar Capital as the Chinese technology giant pivots away from noncore sectors to prioritise e-commerce and artificial intelligence, according to an internal letter issued on Monday. “As part of Alibaba’s bro
+- **[A rural city, once known for livestock, now provides China’s AI computing fuel](https://www.scmp.com/tech/tech-trends/article/3364920/rural-city-once-known-livestock-now-provides-chinas-ai-computing-fuel?utm_source=rss_feed)**
+  - signal: `3.24` (3 - Market signal) · R1/R2: `3.4`/`3.0` · source: `scmp_tech` · published: 2026-08-24
+  - For generations, Ulanqab – a city several hundred kilometres northwest of Beijing whose Mongolian name means “red cliff pass” – was known for its windswept pastureland, where cattle grazed and potatoes thrived under long hours of sunlight. Its economy hinged on the weather, driven by the cool, stron
 
-- **[Hong Kong firm bets on Chinese open-weight models to rival CoreWeave](https://www.scmp.com/tech/tech-trends/article/3364190/hong-kong-firm-bets-chinese-open-weight-models-rival-coreweave?utm_source=rss_feed)**
-  - signal: `3.24` (3 - Market signal) · R1/R2: `3.4`/`3.0` · source: `scmp_tech` · published: 2026-08-17
-  - The rise of Chinese open-weight models has shaken up the global artificial intelligence (AI) market in recent months. With China’s systems offering high performance at a lower cost, businesses around the world are looking at shifting away from Silicon Valley’s leading providers. Now, a new Hong Kong
+- **['AI bí ẩn' Ox Alpha dùng hoàn toàn bằng chip Trung Quốc](https://vnexpress.net/ai-bi-an-ox-alpha-dung-hoan-toan-bang-chip-trung-quoc-5114379.html)**
+  - signal: `3.24` (3 - Market signal) · R1/R2: `3.4`/`3.0` · source: `vnexpress_khcn` · published: 2026-08-28
+  - Công ty Z.AI cho biết mô hình GLM-5.3-Flash, hay Ox Alpha, của họ được vận hành hoàn toàn bằng chip do Trung Quốc tự sản xuất.
 
-- **[AI Mỹ xoay xở cạnh tranh giá với Trung Quốc](https://vnexpress.net/ai-my-xoay-xo-canh-tranh-gia-voi-trung-quoc-5110202.html)**
-  - signal: `3.24` (3 - Market signal) · R1/R2: `3.4`/`3.0` · source: `vnexpress_khcn` · published: 2026-08-19
-  - Nhiều công ty AI hàng đầu tại Mỹ như OpenAI, Anthropic ra mô hình rẻ hơn khi khách hàng doanh nghiệp có xu hướng chuộng sản phẩm Trung Quốc giá thấp.
+- **[Smartphone Trung Quốc vắng bóng trong top điện thoại bán chạy toàn cầu](https://vnexpress.net/smartphone-trung-quoc-vang-bong-trong-top-dien-thoai-ban-chay-toan-cau-5113890.html)**
+  - signal: `3.24` (3 - Market signal) · R1/R2: `3.4`/`3.0` · source: `vnexpress_khcn` · published: 2026-08-28
+  - Bảng xếp hạng điện thoại bán chạy toàn cầu quý II/2026 không xuất hiện đại diện nào từ Trung Quốc, chỉ có sản phẩm của Apple và Samsung.
 
-- **[“Cú sốc Trung Quốc” có thể xuất hiện trong cuộc đua robot và AI vật lý](https://vneconomy.vn/techconnect/cu-soc-trung-quoc-co-the-xuat-hien-trong-cuoc-dua-robot-va-ai-vat-ly.htm)**
-  - signal: `3.24` (3 - Market signal) · R1/R2: `3.4`/`3.0` · source: `vneconomy_techconnect` · published: 2026-08-18
-  - Chiến lược ‘toàn quốc’ của Trung Quốc trong AI vật lý đang sử dụng cùng một công thức đã đưa nước này đến vị thế thống trị trong xe điện và drone
+- **[AI đi sâu vào mọi nền tảng số Trung Quốc, từ giao đồ ăn, du lịch đến video và game](https://vneconomy.vn/techconnect/ai-di-sau-vao-moi-nen-tang-so-trung-quoc-tu-giao-do-an-du-lich-den-video-va-game.htm)**
+  - signal: `3.24` (3 - Market signal) · R1/R2: `3.4`/`3.0` · source: `vneconomy_techconnect` · published: 2026-08-26
+  - Việc các doanh nghiệp không chuyên về AI đầu tư phát triển mô hình riêng trước hết cho thấy AI đã trở thành một thành phần quan trọng trong hoạt động kinh doanh
 
-### Quốc tế (95)
-
-- **[Điểm tuần: iPhone 18 Pro Max lộ ngày ra mắt, Meta đối mặt rắc rối lớn](https://dantri.com.vn/cong-nghe/diem-tuan-iphone-18-pro-max-lo-ngay-ra-mat-meta-doi-mat-rac-roi-lon-20260822213644802.htm)**
-  - signal: `3.48` (4 - Strategic shift) · R1/R2: `3.6`/`3.3` · source: `dantri_ai` · published: 2026-08-23
-  - Điểm tuần: iPhone 18 Pro Max lộ ngày ra mắt, Meta đối mặt rắc rối lớn Thế Anh (Dân trí) - Những thông tin công nghệ nổi bật tuần qua gồm iPhone 18 Pro Max lộ ngày ra mắt, ứng dụng YouTube gặp lỗi lạ, Meta đối mặt phiên tòa 1.400 tỷ USD. iPhone 18 Pro Max lộ ngày ra mắt Đến nay, Apple vẫn chưa tiết l
-
-- **[Starcloud raises $250 million for orbital data centers as launch options dry up](https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/)**
-  - signal: `3.48` (4 - Strategic shift) · R1/R2: `3.6`/`3.3` · source: `techcrunch_ai` · published: 2026-08-21
-  - There's about to be a big fight to secure access to space.
-
-- **[Google packs Search and Gemini with new AI study tools](https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/)**
-  - signal: `3.24` (3 - Market signal) · R1/R2: `3.6`/`2.7` · source: `techcrunch_apps` · published: 2026-08-19
-  - The launch of the new study features marks Google's latest effort to make Gemini the AI assistant that students turn to when learning and studying, as it continues to compete with companies like OpenAI.
-
-- **[Tên lửa SpaceX đâm tạo hố sâu 3 mét trên bề mặt Mặt Trăng](https://vnexpress.net/ten-lua-spacex-dam-tao-ho-sau-3-met-tren-be-mat-mat-trang-5111101.html)**
-  - signal: `3.24` (3 - Market signal) · R1/R2: `3.6`/`2.7` · source: `vnexpress_khcn` · published: 2026-08-20
-  - NASA công bố hình ảnh trước và sau cho thấy tầng trên của tên lửa Falcon 9 đã đâm vào bề mặt Mặt Trăng, tạo thành một hố lớn bên cạnh hố cũ.
-
-- **[ChatGPT có phiên bản dành cho thiếu niên](https://vnexpress.net/chatgpt-co-phien-ban-danh-cho-thieu-nien-5110574.html)**
-  - signal: `3.24` (3 - Market signal) · R1/R2: `3.6`/`2.7` · source: `vnexpress_khcn` · published: 2026-08-19
-  - OpenAI công bố phiên bản "ChatGPT for Teens", bổ sung cơ chế an toàn và tính năng kiểm soát cho phụ huynh, nhằm bảo vệ người dùng nhỏ tuổi trước rủi ro AI.
-
-- **[Hugging Face Gauging Interest for Potential Sale, Business Insider Says](https://www.bloomberg.com/news/articles/2026-08-23/hugging-face-gauging-interest-for-potential-sale-business-insider-says)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `bloomberg_tech` · published: 2026-08-23
-  - Hugging Face Inc. is exploring a sale that may value the artificial intelligence platform at $13 billion or more, Business Insider reported, citing people familiar with the matter.
-
-- **[Alibaba Seeks $10 Billion From Share Sale, Draws Flak from Burry](https://www.bloomberg.com/news/articles/2026-08-23/alibaba-to-raise-10-billion-by-selling-shares-for-ai-expansion)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `bloomberg_tech` · published: 2026-08-23
-  - Alibaba Group Holding Ltd. is seeking to raise about HK$80 billion ($10.2 billion) from a share sale, its latest move to compete for global leadership in artificial intelligence. The move immediately spurred criticism from investor Michael Burry.
-
-- **[Meta Trial: How Social Media Lawsuits Threaten Big Tech](https://www.bloomberg.com/news/articles/2026-08-23/meta-trial-how-social-media-lawsuits-threaten-big-tech)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `bloomberg_tech` · published: 2026-08-23
-  - A flood of lawsuits against social media giants claim that by engineering their platforms to be hard to resist, the companies are causing serious harm to young users. In the first personal injury case to go to trial, a Los Angeles jury in March found Meta Platforms Inc. and Google negligent in the d
-
-- **[Loạt điện thoại pin lớn trong tầm giá 5 triệu đồng đáng cân nhắc](https://dantri.com.vn/cong-nghe/loat-dien-thoai-pin-lon-trong-tam-gia-5-trieu-dong-dang-can-nhac-20260821120255291.htm)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `dantri_ai` · published: 2026-08-21
-  - Loạt điện thoại pin lớn trong tầm giá 5 triệu đồng đáng cân nhắc T.Thủy (Dân trí) - Bạn đang tìm một chiếc smartphone pin lớn phục vụ công việc và giải trí, nhưng vẫn cần mức giá “mềm” vì ngân sách hạn chế? Dưới đây là những lựa chọn đáng cân nhắc. Samsung Galaxy A07 5G - Giá tham khảo 5,39 triệu đồ
-
-- **[Alibaba to issue US$10 billion in new shares for huge AI push amid strong investor demand](https://www.scmp.com/tech/big-tech/article/3364957/alibaba-issue-hk80-billion-new-shares-global-ai-push?utm_source=rss_feed)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `scmp_tech` · published: 2026-08-23
-  - Alibaba Group Holding will issue HK$80 billion (US$10.2 billion) worth of new shares and use all of the proceeds to invest in AI, the Chinese tech giant said on Sunday. The move aims to “extend the company’s global AI leadership”, it said, adding that Alibaba would use the funds raised to “invest in
-
-- **[Nvidia customers notified of AI-related price rises above 15%](https://www.scmp.com/tech/big-tech/article/3364945/nvidia-customers-notified-ai-related-price-rises-above-15?utm_source=rss_feed)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `scmp_tech` · published: 2026-08-22
-  - Some of Nvidia’s biggest customers have been told that the prices of servers containing its artificial intelligence chips are going up more than 15 per cent in many cases with memory chip costs soaring. The price rises will go into effect on systems shipped early next year and will impact systems in
-
-- **[Alibaba signals faster AI payoff, margin gains halfway through US$56 billion capex plan](https://www.scmp.com/tech/article/3364825/alibaba-signals-faster-ai-payoff-margin-gains-halfway-through-us56-billion-capex-plan?utm_source=rss_feed)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `scmp_tech` · published: 2026-08-21
-  - Alibaba Group Holding is expected to further accelerate cloud growth, expand operating margins and achieve faster payback on artificial intelligence investments, analysts say, as the Chinese tech giant reaches the halfway mark of its massive 380 billion yuan (US$56 billion) AI infrastructure spendin
-
-- **[Nvidia to provide up to US$105 billion guarantee for OpenAI’s Ohio data centre](https://www.scmp.com/tech/big-tech/article/3364341/nvidia-provide-us105-billion-guarantee-openais-ohio-data-centre?utm_source=rss_feed)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `scmp_tech` · published: 2026-08-17
-  - Nvidia has agreed to provide a ⁠guarantee of up to US$105 billion ⁠to help ⁠OpenAI lease a sprawling data centre in Ohio being developed by SoftBank-backed SB Energy, in one of the chipmaker’s largest infrastructure financing commitments. The Jensen Huang-led firm said on Monday it will also invest 
-
-- **[Uber faces fine of nearly $1B over automated driver suspensions](https://techcrunch.com/2026/08/23/uber-faces-fine-of-nearly-1b-over-automated-driver-suspensions/)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `techcrunch_apps` · published: 2026-08-23
-  - The Dutch Data Protection Authority is fining Uber €825 million in the second largest penalty issued under Europe’s GDPR.
-
-- **[TikTok reaches $400M settlement over children’s privacy lawsuit](https://techcrunch.com/2026/08/21/tiktok-reaches-400m-settlement-over-childrens-privacy-lawsuit/)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `techcrunch_apps` · published: 2026-08-21
-  - Two years after the U.S. Department of Justice alleged that TikTok violated the Children’s Online Privacy Protection Act, it has reached a $400 million settlement.
-
-- **[Perplexity’s free AI offer left it with millions more users in India](https://techcrunch.com/2026/08/18/perplexitys-free-ai-offer-left-it-with-millions-more-users-in-india/)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `techcrunch_apps` · published: 2026-08-18
-  - Perplexity's India revenue rose about 60% after the Airtel offer ended for new users, even as downloads declined.
-
-- **[Harvard’s $699 startup bootcamp offers AI avatars of its instructors](https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `techcrunch_ai` · published: 2026-08-22
-  - In the HBS Foundry program, AI avatars provide feedback during practice pitches and board meetings.
-
-- **[AI data startup Micro1 reaches $500M gross run rate amid AI training boom](https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `techcrunch_ai` · published: 2026-08-21
-  - Surging demand for AI training data is driving rapid growth for the startup and its rivals.
-
-- **[How AI accounting startup Rillet raised $100M and became a unicorn in 48 hours](https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `techcrunch_latest` · published: 2026-08-21
-  - Rillet CEO Nicolas Kopp shared growth numbers at a board meeting and set off a fundraising frenzy from Iconiq, Sequoia and others. Without even trying.
-
-- **[Alibaba to raise $10.2b for global AI push](https://www.techinasia.com/news/alibaba-raise-102b-global-ai-push)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `techinasia_feed` · published: 2026-08-23
-  - Alibaba’s capital expenditure rose 75% year on year to 67.7 billion yuan.
-
-- **[Nvidia to raise AI server prices by more than 15%](https://www.techinasia.com/news/nvidia-raise-ai-server-prices-15)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `techinasia_feed` · published: 2026-08-23
-  - Contract manufacturers have warned Microsoft, Google, and Oracle about the higher costs.
-
-- **[Broadcom in talks for up to $80b AI chip financing](https://www.techinasia.com/news/broadcom-talks-80b-ai-chip-financing)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `techinasia_feed` · published: 2026-08-23
-  - The package could include US$45 billion in senior debt and US$35 billion in junior debt.
-
-- **[Uber fined $963m over driver account suspensions](https://www.techinasia.com/news/uber-fined-963m-driver-account-suspensions)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `techinasia_feed` · published: 2026-08-22
-  - Uber’s European headquarters in the Netherlands made its regulator the lead authority.
-
-- **[Nvidia explores deal with S Korean AI startup Rebellions](https://www.techinasia.com/news/nvidia-explores-deal-korean-ai-startup-rebellions)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `techinasia_feed` · published: 2026-08-22
-  - Rebellions has raised roughly US$850 million from investors including SK Hynix and Arm.
-
-- **[US space data center startup Starcloud raises $250m](https://www.techinasia.com/news/space-data-center-startup-starcloud-raises-250m)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `techinasia_feed` · published: 2026-08-22
-  - Starcloud has already launched an orbital AI data center using Nvidia H100 GPUs.
-
-- **[OpenAI to cut GPT-5.6 Sol API prices by over 20%](https://www.techinasia.com/news/openai-cut-gpt56-sol-api-prices-20)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `techinasia_feed` · published: 2026-08-22
-  - OpenAI also slashed prices for its smaller Terra and Luna models last month.
-
-- **[TikTok to pay $400m to settle US child privacy claims](https://www.techinasia.com/news/tiktok-pay-400m-settle-child-privacy-claims)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `techinasia_feed` · published: 2026-08-22
-  - The case follows a 2019 FTC action against TikTok's predecessor, Musical.ly.
-
-- **[South Korea plans $72b fund for AI, youth programs](https://www.techinasia.com/news/south-korea-plans-72b-fund-ai-youth-programs)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `techinasia_feed` · published: 2026-08-21
-  - The budget ministry said the fund would save excess tax revenue in stronger years and use it when revenue weakens.
-
-- **[Kakao to split into AI, investment-focused companies](https://www.techinasia.com/news/kakao-to-split-into-ai-investment-focused-companies)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `techinasia_feed` · published: 2026-08-21
-  - Kakao shares fell 11% to 33,850 won (US$24) by after the announcement.
-
-- **[Giá RAM tiêu dùng tăng 5 lần sau một năm](https://vnexpress.net/gia-ram-tieu-dung-tang-5-lan-sau-mot-nam-5110967.html)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `vnexpress_khcn` · published: 2026-08-22
-  - Khủng hoảng chip nhớ do AI đang đẩy giá RAM tiêu dùng tăng phi mã, trong đó dòng DDR5 tăng 500% sau gần 12 tháng.
-
-- **[Đàm phán thương mại Mỹ - Canada đổ bể](https://vnexpress.net/dam-phan-thuong-mai-my-canada-do-be-5112231.html)**
-  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `vnexpress_kinhdoanh` · published: 2026-08-22
-  - Do đàm phán đổ bể, Mỹ chính thức áp thuế lên 20 tỷ USD hàng hóa Canada từ 22/8, khiến Ottawa tuyên bố sẽ có biện pháp trả đũa.
-
-- **[Partnering with CodeAI to prepare the first AI generation](https://openai.com/index/partnering-with-codeai/)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `openai_news` · published: 2026-08-19
-  - August 18, 2026 Company Partnering with CodeAI to prepare the first AI generation Share Today’s students will be the first generation to grow up with AI as part of everyday life. For parents and educators, the question isn’t simply whether young people will use AI, but whether they will learn to cri
-
-- **[Pacing model development in an era of cyber-critical capabilities](https://openai.com/index/pacing-model-development-cyber-capabilities/)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `openai_news` · published: 2026-08-19
-  - August 18, 2026 Company Publication Pacing model development in an era of cyber-critical capabilities Share Over the past several weeks, two developments have underscored the growing risks associated with increasingly capable AI systems: the OpenAI-Hugging Face incident and, separately, preliminary 
-
-- **[OpenAI joins PORTS-Pike project](https://openai.com/index/openai-joins-ports-pike-project/)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `openai_news` · published: 2026-08-19
-  - August 17, 2026 Global Affairs Company OpenAI joins PORTS-Pike project Expanding community investment and supporting thousands of Southern Ohio jobs. Share OpenAI has entered into an agreement to secure approximately 8 gigawatts-IT at the PORTS-Pike Technology Campus in Pike County, Ohio, working wi
-
-- **[UK Fintech Funding Drops to Lowest Level in At Least a Decade](https://www.bloomberg.com/news/articles/2026-08-23/uk-fintech-funding-drops-to-lowest-level-in-at-least-a-decade)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `bloomberg_tech` · published: 2026-08-23
-  - Investment in UK financial technology firms fell to the lowest level since at least 2016 in the first half of this year, as funders flock to companies tied to artificial intelligence and can show long-term growth.
-
-- **[DeepSeek Ends Weekend Peak Pricing for API Users From Today](https://www.bloomberg.com/news/articles/2026-08-23/deepseek-ends-weekend-peak-pricing-for-api-users-from-today)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `bloomberg_tech` · published: 2026-08-23
-  - DeepSeek will stop distinguishing between peak and off-peak API pricing on weekends from Aug. 23, with usage on Saturdays and Sundays charged at off-peak rates, the company said in a notice Saturday.
-
-- **[Mystery AI Model Ox Alpha Draws Developers With Free Access](https://www.bloomberg.com/news/articles/2026-08-23/mystery-ai-model-ox-alpha-draws-developers-with-free-access)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `bloomberg_tech` · published: 2026-08-23
-  - A new artificial intelligence model called Ox Alpha is gaining traction among developers after appearing online for free, even as the identity of its creator remains a mystery.
-
-- **[Cách lọc Facebook chỉ hiển thị các bài viết của bạn bè](https://dantri.com.vn/cong-nghe/cach-loc-facebook-chi-hien-thi-cac-bai-viet-cua-ban-be-20260822060505381.htm)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `dantri_ai` · published: 2026-08-22
-  - Cách lọc Facebook chỉ hiển thị các bài viết của bạn bè Quang Huy (Dân trí) - Facebook cung cấp một mục riêng giúp người dùng xem các bài viết do bạn bè đăng tải, thay vì phải lẫn với những nội dung được nền tảng đề xuất trên Bảng feed chính. Nếu thường xuyên sử dụng Facebook, người dùng có thể nhận 
-
-- **[Launching ‘Meta Startup School’ to Accelerate Growth For Early-Stage Startups](https://about.fb.com/news/2026/08/launching-meta-startup-school-to-accelerate-growth-for-early-stage-startups/)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `meta_newsroom` · published: 2026-08-19
-  - India’s startup ecosystem continues to see businesses being built and scaled around digital-first customer acquisition. For early-stage consumers brands, however, moving from initial traction to sustainable growth requires more than access to capital. Understanding how to use digital platforms effec
-
-- **[OpenAI-backed legal tech firm pivots to Chinese Kimi K3 open-weight model](https://www.scmp.com/tech/tech-trends/article/3364827/openai-backed-legal-tech-firm-pivots-chinese-kimi-k3-open-weight-model?utm_source=rss_feed)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `scmp_tech` · published: 2026-08-21
-  - A US artificial intelligence start-up backed by OpenAI has built its first in-house model on Chinese lab Moonshot AI’s Kimi K3, highlighting a growing shift by Western tech firms towards Chinese open-weight systems amid soaring development costs. San Francisco-based legal tech provider Harvey, whose
-
-- **[Chinese AI chips fall short on coding, forcing firms to stretch scarce Nvidia supply](https://www.scmp.com/tech/tech-trends/article/3364700/chinese-ai-chips-fall-short-coding-forcing-firms-stretch-scarce-nvidia-supply?utm_source=rss_feed)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `scmp_tech` · published: 2026-08-20
-  - Chinese AI companies are optimising software to cope with surging demand for inference, as part of that workload still relies on computing power from a limited pool of high-end chips amid restricted access to Nvidia processors. Compared with training an artificial intelligence model, which relies on
-
-- **[Meta accused of targeting children to boost Facebook and Instagram use, as US trial begins](https://www.scmp.com/news/world/united-states-canada/article/3364482/meta-accused-targeting-children-boost-facebook-and-instagram-use-us-trial-begins?utm_source=rss_feed)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `scmp_tech` · published: 2026-08-18
-  - Meta Platforms intentionally sought to ⁠addict children to its Facebook and Instagram platforms, a lawyer for California said on Tuesday at the start of a trial that could reshape some of the most popular apps on the planet. A bipartisan group of 29 US states is suing Meta, seeking potentially tens 
-
-- **[Xiaomi ‘in no rush’ to turn vast AI spending into profits despite earnings slump](https://www.scmp.com/business/china-evs/article/3364458/xiaomi-no-rush-turn-vast-ai-spending-profits-despite-earnings-slump?utm_source=rss_feed)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `scmp_tech` · published: 2026-08-18
-  - Chinese technology giant Xiaomi has said it is “in no rush” to convert its large investments in artificial intelligence into profit, after recording another decline in net profits in the second quarter amid intense competition and cost inflation. “Our investment in AI is currently still in a phase o
-
-- **[Chinese robots on the march despite tech war hurdles](https://www.scmp.com/plus/tech/tech-war/article/3364234/chinese-robots-march-despite-tech-war-hurdles?utm_source=rss_feed)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `scmp_tech` · published: 2026-08-17
-  - Did the stair-climbing Chinese robot vacuum or flying robovac prototypes that wowed visitors at the 2026 Consumer Electronics Show in Las Vegas go into production? American consumers will probably not find out. Nor will US businesses and households get to buy Iron, Xpeng’s humanoid robot, so lifelik
-
-- **[Linkdaze’s smart calendar is built to run a household, not just track a schedule](https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_apps` · published: 2026-08-23
-  - Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool.
-
-- **[Senators demand answers from TikTok over experiment that disabled safeguards](https://techcrunch.com/2026/08/20/senators-demand-answers-from-tiktok-over-experiment-that-disabled-safeguards/)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_apps` · published: 2026-08-20
-  - The safeguard was designed to prevent users from being overwhelmed by harmful content, but TikTok wanted to determine whether it made the app less engaging.
-
-- **[Meta brings Pocket, an app that lets you vibe-code and share games, to US users](https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_apps` · published: 2026-08-20
-  - Meta is bringing Pocket, its experimental AI-powered app for creating and sharing interactive games, to users across the U.S. after quietly testing it in Brazil.
-
-- **[TikTok explores peer-to-peer payments via DMs, report says](https://techcrunch.com/2026/08/18/tiktok-explores-peer-to-peer-payments-via-dms-report-says/)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_apps` · published: 2026-08-18
-  - If rolled out, the feature would use the social media service’s TikTok Pay offering, which is already available in Southeast Asia for TikTok Shop purchases.
-
-- **[Peacock is raising prices across all of its streaming plans](https://techcrunch.com/2026/08/18/peacock-is-raising-prices-across-all-of-its-streaming-plans/)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_apps` · published: 2026-08-18
-  - "These price changes allow Peacock to continue to create the best experience for its viewers, remain competitive in the marketplace, and deliver unique content across all genres," the company wrote on a support page.
-
-- **[Spotify’s new Playlist Notes let users and editors explain their song picks](https://techcrunch.com/2026/08/17/spotifys-new-playlist-notes-let-users-and-editors-explain-their-song-picks/)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_apps` · published: 2026-08-17
-  - Spotify launches a new feature that gives users a chance to explain the stories and reasoning behind their favorite music. Editors will be using the feature, too, on top playlists like RapCaviar and others.
-
-- **[Reddit begins testing a new audio and video experience, similar to popular TikTok videos](https://techcrunch.com/2026/08/17/reddit-begins-testing-a-new-audio-and-video-experience-similar-to-popular-tiktok-videos/)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_apps` · published: 2026-08-17
-  - Reddit is beginning to test video and audio versions of popular posts, allowing users to watch or listen to Reddit stories instead of just reading them.
-
-- **[Feedly attributes weeklong slowdown to bug, not its AI pivot](https://techcrunch.com/2026/08/17/feedly-attributes-weeklong-slowdown-to-bug-not-its-ai-pivot/)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_apps` · published: 2026-08-17
-  - Feedly says a bug is behind the performance issues that have made its web app nearly "unusable" for some users, while complaints about its mobile apps and customer support are adding to frustrations.
-
-- **[Who’s behind the new ‘stealth model’ Ox Alpha?](https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_ai` · published: 2026-08-23
-  - A mysterious new AI model called Ox Alpha has driven certain corners of the internet into a frenzy of speculation.
-
-- **[Flock CEO calls for ‘compromise’ as surveillance company faces growing backlash](https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash/)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_ai` · published: 2026-08-23
-  - Flock Safety faces a growing public outcry over concerns that its surveillance technology could be misused.
-
-- **[Is it legal to train AI models on copyrighted books? It’s complicated](https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_ai` · published: 2026-08-23
-  - Most published authors have, without their knowledge or consent, contributed to the development of the same AI tools that threaten to undermine their livelihoods. That seems illegal, right?
-
-- **[Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research](https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_ai` · published: 2026-08-22
-  - Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.
-
-- **[OpenAI says California should strengthen its AI safety bill](https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_ai` · published: 2026-08-22
-  - OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed.
-
-- **[Frontier AI labs still won’t say how they’d contain a rogue model](https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_ai` · published: 2026-08-22
-  - A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions about preparedness as AI systems increasingly demonstrate unexpected and potentially dangerous behavior.
-
-- **[Anthropic’s Opus 4.6 is a smut-machine](https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_ai` · published: 2026-08-21
-  - Anthropic forbids its Claude models from generating sexually explicit content. But a series of tests conducted by TechCrunch found that it didn't take much to get past the restriction.
-
-- **[Nvidia partners with data center developer Cloverleaf](https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_ai` · published: 2026-08-21
-  - Nvidia continues to pour money into data center development — just as AI data centers bring lots of money into Nvidia.
-
-- **[Nvidia just showed that the harness, not the AI model, is now the real hero](https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_ai` · published: 2026-08-21
-  - Nvidia research shows that AI agents can perform well, and not go off the deep end, through fine-tuning, even if the AI model isn't that great at the task.
-
-- **[ChatGPT can now send texts for you with new Apple Messages plug-in](https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_ai` · published: 2026-08-20
-  - Ever wanted someone else to do your texting for you? ChatGPT is being offered up as an automated text scribe via a new Apple Messages integration.
-
-- **[Google gives publishers a new way to fight AI-driven traffic losses](https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_ai` · published: 2026-08-20
-  - Google is giving publishers a new button that lets readers make them a preferred source across Search, Discover, and Google News, potentially boosting their traffic as AI search sends fewer clicks to the web.
-
-- **[Grok keeps sending gibberish responses to users](https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_ai` · published: 2026-08-20
-  - Affected users told TechCrunch they were using Grok Lite, and noticed the issues as early as Wednesday morning.
-
-- **[Pixel 11 Pro XL review: Snappier cameras can’t hide an iterative upgrade](https://techcrunch.com/2026/08/22/pixel-11-pro-xl-review-snappier-cameras-cant-hide-an-iterative-upgrade/)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_latest` · published: 2026-08-22
-  - Google’s Pixel 11 Pro XL brings snappier cameras and genuinely useful AI features like Rambler, but its iterative upgrades may not be enough to tempt recent Pixel owners.
-
-- **[Michael Polansky is training an AI model on skin that’s still alive](https://techcrunch.com/2026/08/21/michael-polansky-is-training-an-ai-model-on-skin-thats-still-alive/)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_latest` · published: 2026-08-22
-  - Michael Polansky — better known publicly as Lady Gaga's partner and a former top deputy to Sean Parker — has quietly spent years building an AI-driven startup that keeps living human skin tissue alive for weeks outside the body to discover new skincare compounds, and is only now going public about i
-
-- **[Apple is reportedly cutting hundreds of jobs from Siri, Vision Pro teams](https://techcrunch.com/2026/08/21/apple-is-reportedly-cutting-hundreds-of-jobs-from-siri-vision-pro-teams/)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_latest` · published: 2026-08-21
-  - Apple has admitted that some roles are being impacted as it shifts its focus away from certain initiatives.
-
-- **[We love AI. We hate AI. What now?](https://www.techinasia.com/love-ai-hate-ai)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techinasia_feed` · published: 2026-08-23
-  - AI is a lightning rod for opinions these days, so here are two stories that highlight both the rush to invest and the need for cautious adoption.
-
-- **[Salesforce expands AI agent access via MCP, Slack](https://www.techinasia.com/news/salesforce-expands-ai-agent-access-mcp-slack)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techinasia_feed` · published: 2026-08-21
-  - AI agents with the right permissions can securely discover and use business capabilities through the open Model Context Protocol (MCP).
-
-- **[AI copilot for Southeast Asia ecommerce](https://www.techinasia.com/ai-copilot-southeast-asia-ecommerce)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techinasia_feed` · published: 2026-08-21
-  - BA3.studio helps consumer brands track competitors and pricing across Shopee, TikTok Shop, and Lazada to capture missed online sales.
-
-- **[A16z partner: High ad spend is a warning sign for AI startups](https://www.techinasia.com/high-ad-spend-is-a-warning-sign-for-ai-startups)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techinasia_feed` · published: 2026-08-21
-  - Andreessen Horowitz's Anish Acharya explains why high marketing spend is a red flag for AI startups, and why premium pricing signals real demand.
-
-- **[SMEs want AI too, but not the kind Big Tech is selling](https://www.techinasia.com/big-techs-ai-pitch-fails-reach-small-businesses)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techinasia_feed` · published: 2026-08-21
-  - Big Tech's AI tools were built for enterprises, but SMEs want AI that’s cheaper, simpler, and predictable - creating an opening for tailored solutions.
-
-- **[Khi AI hóa "tri kỷ": Góc khuất bảo mật và bài toán phòng thủ của doanh nghiệp Việt](https://vneconomy.vn/techconnect/khi-ai-hoa-tri-ky-goc-khuat-bao-mat-va-bai-toan-phong-thu-cua-doanh-nghiep-viet.htm)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vneconomy_techtalk` · published: 2026-08-22
-  - Tech Talk Khi AI hóa "tri kỷ": Góc khuất bảo mật và bài toán phòng thủ của doanh nghiệp Việt Hoàng An 22/08/2026 Chia sẻ Khi sự tiện ích và thấu cảm của trí tuệ nhân tạo (AI) vô tình biến công nghệ này thành một "tri kỷ ảo", các doanh nghiệp Việt cũng đồng thời phải đối mặt với những góc khuất rủi r
-
-- **[Khi sự tiện lợi của AI trở thành "cái bẫy" với dữ liệu doanh nghiệp](https://vneconomy.vn/techconnect/khi-su-tien-loi-cua-ai-tro-thanh-cai-bay-voi-du-lieu-doanh-nghiep.htm)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vneconomy_techtalk` · published: 2026-08-19
-  - Tech Talk Khi sự tiện lợi của AI trở thành "cái bẫy" với dữ liệu doanh nghiệp Hoàng An 19/08/2026 Chia sẻ Trong bức tranh kinh doanh hiện đại, trí tuệ nhân tạo (AI) đang được ví như một động cơ siêu tốc, thúc đẩy mọi doanh nghiệp chuyển mình. Thế nhưng, đằng sau sự hào nhoáng của những cơ hội tăng t
-
-- **[Ứng dụng AI trong doanh nghiệp Việt: Từ chọn công cụ đến chọn đúng bài toán](https://vneconomy.vn/techconnect/ung-dung-ai-trong-doanh-nghiep-viet-tu-chon-cong-cu-den-chon-dung-bai-toan.htm)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vneconomy_techtalk` · published: 2026-08-18
-  - Tech Talk Ứng dụng AI trong doanh nghiệp Việt: Từ chọn công cụ đến chọn đúng bài toán Bảo Bình 18/08/2026 Chia sẻ Cuộc đua AI trong doanh nghiệp không nằm ở việc ai có nhiều công cụ hơn, mà ở việc ai xác định đúng bài toán hơn. Doanh nghiệp cần nhìn AI từ góc độ giá trị kinh doanh, thay vì chỉ đo số
-
-- **[Hơn 92.000 vụ giả mạo AI ChatGPT, Gemini để cài cắm mã độc](https://vnexpress.net/hon-92-000-vu-gia-mao-ai-chatgpt-gemini-de-cai-cam-ma-doc-5112449.html)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vnexpress_khcn` · published: 2026-08-23
-  - Kaspersky, công ty an ninh mạng của Nga, phát hiện trong năm tháng đầu năm có hơn 92.000 vụ tấn công giả mạo các dịch vụ và tác nhân AI, chủ yếu với ChatGPT, Claude và Gemini.
-
-- **[5 kim loại thúc đẩy bùng nổ trung tâm dữ liệu AI](https://vnexpress.net/5-kim-loai-thuc-day-bung-no-trung-tam-du-lieu-ai-5111655.html)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vnexpress_khcn` · published: 2026-08-23
-  - Các kim loại thiết yếu như đồng, nhôm, đất hiếm… đang trở thành nền tảng cốt lõi cho cuộc cách mạng AI thông qua cung cấp điện năng, truyền dữ liệu và tản nhiệt.
-
-- **[SpaceX sẽ thu hồi tầng trên của tên lửa Starship bằng đũa gắp](https://vnexpress.net/spacex-se-thu-hoi-tang-tren-cua-ten-lua-starship-bang-dua-gap-5111820.html)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vnexpress_khcn` · published: 2026-08-22
-  - Trong vài tháng tới, SpaceX sẽ cố gắng thu hồi tầng trên của Starship ngay tại bệ phóng, tiến tới mục tiêu tái sử dụng hoàn toàn siêu tên lửa này.
-
-- **[AI trong chứng khoán 'dễ mua công nghệ, khó đặt niềm tin'](https://vnexpress.net/ai-trong-chung-khoan-de-mua-cong-nghe-kho-dat-niem-tin-5111879.html)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vnexpress_khcn` · published: 2026-08-21
-  - Giới chuyên gia đánh giá việc mua và triển khai tác nhân AI trong hạ tầng chứng khoán không khó, nhưng đặt niềm tin vào chúng còn nhiều thách thức.
-
-- **[Cảnh đau buồn bên ngoài 'phiên tòa nghìn tỷ USD' xét xử Meta](https://vnexpress.net/canh-dau-buon-ben-ngoai-phien-toa-nghin-ty-usd-xet-xu-meta-5111534.html)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vnexpress_khcn` · published: 2026-08-21
-  - Nhiều phụ huynh đứng bên ngoài phiên tòa xét xử Meta với tâm trạng đau buồn và phẫn nộ, cho rằng con cái họ là nạn nhân khi dùng Facebook, Instagram.
-
-- **[Lập trình viên đua tạo công cụ 'tẩy' nhãn AI](https://vnexpress.net/lap-trinh-vien-dua-tao-cong-cu-tay-nhan-ai-5111494.html)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vnexpress_khcn` · published: 2026-08-21
-  - Nhiều lập trình viên đang tạo công cụ gỡ dấu chìm sau khi công ty Anthropic triển khai tính năng đánh dấu văn bản đầu ra của Claude.
-
-- **[Doanh nghiệp Nhật đang tụt hậu trong cuộc đua ứng dụng AI](https://vnexpress.net/doanh-nghiep-nhat-dang-tut-hau-trong-cuoc-dua-ung-dung-ai-5109979.html)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vnexpress_khcn` · published: 2026-08-19
-  - Văn hóa bảo thủ, thiếu hụt nhân sự có trình độ và hệ thống máy tính lỗi thời đang trở thành rào cản khiến các công ty Nhật Bản thụt lùi trong ứng dụng AI để tăng năng suất.
-
-- **[Thầy bói tại Hàn Quốc 'ế khách' vì AI](https://vnexpress.net/thay-boi-tai-han-quoc-e-khach-vi-ai-5110606.html)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vnexpress_khcn` · published: 2026-08-19
-  - Bói toán phổ biến tại Hàn Quốc, nhưng ngày càng nhiều người tin lời chatbot AI, khiến thầy bói truyền thống dần mất khách.
-
-- **[Mua, bán hàng với nước ngoài qua sàn online phải định danh điện tử](https://vnexpress.net/mua-ban-hang-voi-nuoc-ngoai-qua-san-online-phai-dinh-danh-dien-tu-5112332.html)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vnexpress_kinhdoanh` · published: 2026-08-23
-  - Từ 1/3/2027, tổ chức và cá nhân mua, bán hàng hóa với nước ngoài qua thương mại điện tử phải định danh, xác thực điện tử.
-
-- **[Loạt sáng kiến giúp 750 tấn rác nhựa không phải chôn lấp](https://vnexpress.net/loat-sang-kien-giup-750-tan-rac-nhua-khong-phai-chon-lap-5111417.html)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vnexpress_kinhdoanh` · published: 2026-08-20
-  - Loạt 11 sáng kiến từ màng phủ làm bằng vỏ tôm, AI truy xuất nguồn gốc đến bản đồ tái chế, giúp 750 tấn rác nhựa tránh phải chôn lấp.
-
-- **[11 năm Ahamove chuyển mình với công nghệ AI trong điều phối vận tải](https://vnexpress.net/11-nam-ahamove-chuyen-minh-voi-cong-nghe-ai-trong-dieu-phoi-van-tai-5111352.html)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vnexpress_kinhdoanh` · published: 2026-08-21
-  - Từ tự động điều phối đến hỗ trợ tạo đơn, AI đang giúp Ahamove tối ưu nguồn lực, nâng hiệu quả vận hành và mở rộng năng lực phục vụ khách hàng doanh nghiệp.
-
-- **[Doanh nghiệp tăng tốc triển khai AI agent](https://vneconomy.vn/techconnect/doanh-nghiep-tang-toc-trien-khai-ai-agent.htm)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vneconomy_techconnect` · published: 2026-08-21
-  - Tech Lifestyle Doanh nghiệp tăng tốc triển khai AI agent Hoàng Hà 21/08/2026 Chia sẻ Số lượng AI agent được doanh nghiệp đưa vào vận hành tăng gần gấp 3 lần chỉ trong hơn một năm, trong khi thời gian xây dựng một agent mới giảm hơn một nửa... Số lượng AI agent trung bình được kích hoạt tại mỗi doanh
-
-- **[Điểm danh những mô hình AI tốt nhất và tệ nhất về quyền riêng tư dữ liệu](https://vneconomy.vn/techconnect/diem-danh-nhung-mo-hinh-ai-tot-nhat-va-te-nhat-ve-quyen-rieng-tu-du-lieu.htm)**
-  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vneconomy_techconnect` · published: 2026-08-21
-  - Tech Lifestyle Điểm danh những mô hình AI tốt nhất và tệ nhất về quyền riêng tư dữ liệu Hoàng Hà 21/08/2026 Chia sẻ Một thực tế đáng lưu ý là hiện không nền tảng nào cho phép người dùng lấy lại dữ liệu sau khi dữ liệu đó đã được sử dụng để huấn luyện một mô hình ngôn ngữ lớn… Một số nền tảng AI lớn 
-
-- **[Uber adds Zipline drones to its Eats delivery network](https://techcrunch.com/2026/08/17/uber-adds-zipline-drones-to-its-eats-delivery-network/)**
-  - signal: `2.52` (3 - Market signal) · R1/R2: `2.6`/`2.4` · source: `techcrunch_apps` · published: 2026-08-17
-  - Uber is also making investing in Zipline a part of the tie-up.
-
-- **[DeepSeek adds vision to V4 Flash in latest test model](https://www.techinasia.com/news/deepseek-adds-vision-v4-flash-latest-test-model)**
-  - signal: `2.52` (3 - Market signal) · R1/R2: `2.6`/`2.4` · source: `techinasia_feed` · published: 2026-08-22
-  - DeepSeek previously released multimodal models under its DeepSeek-VL family.
-
-- **[Apple cuts more than 200 jobs across Siri, Vision Pro](https://www.techinasia.com/news/apple-cuts-200-jobs-siri-vision-pro)**
-  - signal: `2.52` (3 - Market signal) · R1/R2: `2.6`/`2.4` · source: `techinasia_feed` · published: 2026-08-22
-  - IDC estimated Apple shipped just 45,000 Vision Pro headsets in the last quarter.
-
-- **[Mapping the dominant players in Israel’s AI field](https://www.techinasia.com/visual-story/mapping-dominant-players-israels-ai-field)**
-  - signal: `2.52` (3 - Market signal) · R1/R2: `2.6`/`2.4` · source: `techinasia_feed` · published: 2026-08-21
-  - Mapping Israel's AI sector: Key players, top investors, and funding insights in one report.
-
-- **[Bringing brand inventory directly to AI assistants](https://www.techinasia.com/bringing-brand-inventory-ai-assistants)**
-  - signal: `2.52` (3 - Market signal) · R1/R2: `2.6`/`2.4` · source: `techinasia_feed` · published: 2026-08-21
-  - TruCommerce bridges the gap between brands and AI assistants, enabling in-chat discovery and transactions.
-
-- **[Offering Zero Data Retention for frontier models](https://openai.com/index/offering-zero-data-retention-for-frontier-models/)**
-  - signal: `2.28` (2 - Minor signal) · R1/R2: `2.0`/`2.7` · source: `openai_news` · published: 2026-08-18
-  - August 19, 2026 Company Safety Offering Zero Data Retention for frontier models Previewing Private Safety Processing, which strengthens safeguards across interactions while remaining compatible with ZDR. Share Zero Data Retention gives eligible API customers a clear promise: OpenAI does not retain t
-
-- **[OpenAI is gaining on Anthropic with business users, new data indicates](https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/)**
-  - signal: `2.28` (2 - Minor signal) · R1/R2: `2.0`/`2.7` · source: `techcrunch_ai` · published: 2026-08-20
-  - Businesses are willing to flop back and forth as each lab releases new models, volatility that should give both companies' investors pause about how "sticky" enterprise AI spending really is.
+### Quốc tế (87)
+
+- **[Doanh số Nvidia tăng gấp đôi, nhà đầu tư vẫn thận trọng vào tương lai](https://vneconomy.vn/techconnect/doanh-so-nvidia-tang-gap-doi-nha-dau-tu-van-than-trong-vao-tuong-lai.htm)**
+  - signal: `3.48` (4 - Strategic shift) · R1/R2: `3.6`/`3.3` · source: `vneconomy_techconnect` · published: 2026-08-28
+  - Kính lúp công nghệ Doanh số Nvidia tăng gấp đôi, nhà đầu tư vẫn thận trọng vào tương lai Gia Bảo 28/08/2026 Chia sẻ Báo cáo tài chính vừa công bố cho thấy lợi nhuận của Nvidia đã vượt kỳ vọng và doanh thu tăng gấp đôi so với cùng kỳ năm ngoái, nhưng chính tiềm năng tăng trưởng trong tương lai mới là
+
+- **[Expanding OpenAI’s presence in Brazil](https://openai.com/index/expanding-our-presence-in-brazil/)**
+  - signal: `3.24` (3 - Market signal) · R1/R2: `3.6`/`2.7` · source: `openai_news` · published: 2026-08-28
+  - August 27, 2026 Company Expanding OpenAI’s presence in Brazil With the launch of commercial operations in Brazil, we’re deepening our long-term commitment to the country and helping turn rapid AI adoption into broad economic and social benefits. Loading… Share We’re excited to expand our work in Bra
+
+- **[Galaxy S26 FE ra mắt với viên pin 4.900mAh và loạt tính năng AI](https://dantri.com.vn/cong-nghe/galaxy-s26-fe-ra-mat-voi-vien-pin-4900mah-va-loat-tinh-nang-ai-20260829011319927.htm)**
+  - signal: `3.24` (3 - Market signal) · R1/R2: `3.6`/`2.7` · source: `dantri_ai` · published: 2026-08-29
+  - Galaxy S26 FE ra mắt với viên pin 4.900mAh và loạt tính năng AI Đoàn Thủy và Việt Anh (Dân trí) - Galaxy S26 FE được giới thiệu với một số nâng cấp về camera, tính năng AI, pin và là mẫu máy đầu tiên trong dòng Galaxy S26 được ra mắt cùng One UI 9, giao diện dựa trên hệ điều hành Android 17. Theo ca
+
+- **[Introducing the Edits Film Festival to Spotlight India’s Emerging Creator Talent](https://about.fb.com/news/2026/08/introducing-the-edits-film-festival-to-spotlight-indias-emerging-creator-talent/)**
+  - signal: `3.24` (3 - Market signal) · R1/R2: `3.6`/`2.7` · source: `meta_newsroom` · published: 2026-08-25
+  - Today, we announce the launch of the Edits Film Festival — an initiative that invites content creators across India to showcase their creativity through Reels made on Edits, while spotlighting the many new features the app has introduced this year. The Edits Film Festival is a first-of-its-kind cele
+
+- **[Galaxy S26 FE - smartphone giá tốt với AI ‘cao cấp’](https://vnexpress.net/galaxy-s26-fe-smartphone-gia-tot-voi-ai-cao-cap-5114783.html)**
+  - signal: `3.24` (3 - Market signal) · R1/R2: `3.6`/`2.7` · source: `vnexpress_khcn` · published: 2026-08-29
+  - Mẫu điện thoại "Fan Edition" vừa ra mắt của Samsung cân bằng giữa sức mạnh xử lý, thời lượng pin và tính năng AI cao cấp, nhưng thiết kế không có nhiều đột phá.
+
+- **[Shein CEO’s Wealth Slumps $15 Billion After Whittled-Down IPO](https://www.bloomberg.com/news/articles/2026-08-30/shein-ceo-s-wealth-slumps-15-billion-after-whittled-down-ipo)**
+  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `bloomberg_tech` · published: 2026-08-30
+  - Chinese fast-fashion business Shein Global Holdings Ltd. was once worth more than the parent companies of H&amp;M and Zara, giving its reclusive boss Sky Xu a net worth of more than $23 billion.
+
+- **[9 triệu ảnh mặt người bị tin tặc chia sẻ công khai trên mạng](https://dantri.com.vn/cong-nghe/9-trieu-anh-mat-nguoi-bi-tin-tac-chia-se-cong-khai-tren-mang-20260825161212108.htm)**
+  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `dantri_security` · published: 2026-08-25
+  - 9 triệu ảnh mặt người bị tin tặc chia sẻ công khai trên mạng T.Thủy (Dân trí) - Một cơ sở dữ liệu chứa 9 triệu ảnh mặt người đã bị tin tặc đăng tải công khai trên mạng. Điều này tiềm ẩn nguy cơ những hình ảnh này bị sử dụng cho mục đích xấu, bao gồm tạo nội dung giả mạo bằng AI. 9 triệu ảnh gương mặ
+
+- **[EV maker Xpeng set to challenge Tesla in embodied AI after robotics unit raises US$900m](https://www.scmp.com/business/china-evs/article/3365096/ev-maker-xpeng-set-challenge-tesla-embodied-ai-after-robotics-unit-raises-us900m?utm_source=rss_feed)**
+  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `scmp_tech` · published: 2026-08-24
+  - Chinese electric vehicle (EV) maker Xpeng has secured US$900 million in funding from high-profile investors including Alibaba Group Holding and IDG Capital to spur its robotics unit, despite a widening second-quarter loss. Dogotix, a subsidiary of Xpeng, raised US$900 million in the latest round of 
+
+- **[Friend-focused photo-sharing app Retro snags $21M](https://techcrunch.com/2026/08/28/friend-focused-photo-sharing-app-retro-snags-21m/)**
+  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `techcrunch_apps` · published: 2026-08-28
+  - Retro, a friend-focused photo-sharing app built by former Instagram employees, has raised more than $21 million in Series A funding.
+
+- **[Neocloud Lambda secures $1B in debt to buy more chips](https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/)**
+  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `techcrunch_ai` · published: 2026-08-28
+  - Neocloud Lambda has raised $1B in private debt to buy Nvidia AI chips and lease them to Microsoft. It's the latest in a string of loans, underscoring the high cost of the AI boom.
+
+- **[Hugging Face is selling a cute $399 open source duck robot, Microduck](https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/)**
+  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `techcrunch_ai` · published: 2026-08-27
+  - Clem Delangue, CEO of Hugging Face, said the Microduck is an “open-source robot you can teach new tricks with reinforcement learning.”
+
+- **[OpenAI to start showing ads on ChatGPT’s free and Go tiers in India](https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/)**
+  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `techcrunch_ai` · published: 2026-08-27
+  - OpenAI has more than 100 million weekly active ChatGPT users in India, a huge chunk of whom are on the free or the lower-priced Go tiers.
+
+- **[Apple TV is raising its subscription prices again](https://techcrunch.com/2026/08/28/apple-tv-is-raising-its-subscription-prices-again/)**
+  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `techcrunch_latest` · published: 2026-08-28
+  - Now, Apple TV subscriptions will cost $14.99 per month, up from its previous price of $12.99 per month.
+
+- **[Meta settles for $18B in lawsuit brought by 29 states over social media harms to children](https://techcrunch.com/2026/08/26/meta-settles-for-18-billion-in-lawsuit-brought-by-29-states-over-social-media-harms-to-children/)**
+  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `techcrunch_social` · published: 2026-08-26
+  - The lawsuit alleged that Meta knowingly designed platforms like Instagram and Facebook to addict children, despite knowing about the harms the platforms could pose to young users.
+
+- **[Jio Platforms wins SEBI nod for $3.8b IPO](https://www.techinasia.com/news/jio-platforms-wins-sebi-nod-38b-ipo)**
+  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `techinasia_feed` · published: 2026-08-30
+  - Meta and Google together hold about 17.7% of Jio Platforms.
+
+- **[A16z launches $1.1b fund for AI hardware, infrastructure](https://www.techinasia.com/news/a16z-launches-11b-fund-ai-hardware-infrastructure)**
+  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `techinasia_feed` · published: 2026-08-29
+  - Its bets span chips, robots, memory, data centers, and the infrastructure around them.
+
+- **[MiniMax raises Alibaba cloud spending cap 220%](https://www.techinasia.com/news/minimax-raises-alibaba-cloud-spending-cap-220)**
+  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `techinasia_feed` · published: 2026-08-28
+  - MiniMax plans to spend up to US$300 million on Alibaba Cloud services in 2025, up from US$115 million.
+
+- **[LG OLED evo AI W6 - TV 'dán tường' giá 220 triệu đồng](https://vnexpress.net/lg-oled-evo-ai-w6-tv-dan-tuong-gia-220-trieu-dong-5115222.html)**
+  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `vnexpress_khcn` · published: 2026-08-30
+  - LG OLED evo AI W6 giá 220 triệu đồng cho bản 83 inch, có độ mỏng chỉ 9,9 mm, thiết kế ngàm treo như "dán tường".
+
+- **[Tủ lạnh âm tường tích hợp AI giá 60 triệu đồng](https://vnexpress.net/tu-lanh-am-tuong-tich-hop-ai-gia-60-trieu-dong-5115078.html)**
+  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `vnexpress_khcn` · published: 2026-08-30
+  - Tủ lạnh Instaview French Door Fit & Max của LG học thói quen sử dụng để điều chỉnh nhiệt độ, tối ưu điện năng, có thể phát hiện sự cố kỹ thuật và gửi cảnh báo về điện thoại.
+
+- **[Meta bị phản ứng vì dàn xếp 'vụ kiện nghìn tỷ USD'](https://vnexpress.net/meta-bi-phan-ung-vi-dan-xep-vu-kien-nghin-ty-usd-5114488.html)**
+  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `vnexpress_khcn` · published: 2026-08-29
+  - Meta bị chỉ trích sau khi đạt thỏa thuận trả 18 tỷ USD để giải quyết vụ kiện liên quan đến sự an toàn của trẻ em trên Facebook, Instagram.
+
+- **[Meta chi 18 tỷ USD dàn xếp vụ kiện 'nghìn tỷ'](https://vnexpress.net/meta-chi-18-ty-usd-dan-xep-vu-kien-nghin-ty-5113914.html)**
+  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `vnexpress_khcn` · published: 2026-08-27
+  - Meta đồng ý trả 18 tỷ USD để giải quyết khiếu nại từ 29 bang Mỹ liên quan đến sự an toàn của trẻ em trên Facebook, Instagram.
+
+- **[Bề bề vằn 2,5 triệu đồng một kg](https://vnexpress.net/be-be-van-2-5-trieu-dong-mot-kg-5114966.html)**
+  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `vnexpress_kinhdoanh` · published: 2026-08-29
+  - 2,5 triệu đồng một kg tôm tích vằn nặng 300-350 gram nhưng nhiều cửa hàng không mua đủ để bán dịp 2/9.
+
+- **[Ngành dịch vụ công nghệ thông tin Ấn Độ đang bị khách hàng “ép giá” vì AI](https://vneconomy.vn/techconnect/nganh-dich-vu-cong-nghe-thong-tin-an-do-dang-bi-khach-hang-ep-gia-vi-ai.htm)**
+  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `vneconomy_techconnect` · published: 2026-08-24
+  - Tech Lifestyle Ngành dịch vụ công nghệ thông tin Ấn Độ đang bị khách hàng “ép giá” vì AI Thanh Minh 24/08/2026 Chia sẻ Trí tuệ nhân tạo (AI) đang tạo ra một cuộc thay đổi sâu rộng đối với ngành dịch vụ công nghệ thông tin trị giá khoảng 315 tỷ USD mỗi năm của Ấn Độ... Tác động của AI đối với ngành C
+
+- **[SpaceX lên kế hoạch xây tổ hợp không gian trị giá 100 tỷ USD](https://vneconomy.vn/techconnect/spacex-len-ke-hoach-xay-to-hop-khong-gian-tri-gia-100-ty-usd.htm)**
+  - signal: `2.88` (3 - Market signal) · R1/R2: `2.6`/`3.3` · source: `vneconomy_techconnect` · published: 2026-08-27
+  - Tesla và SpaceX, cùng Intel, cũng có kế hoạch xây dựng một nhà máy sản xuất chip AI quy mô lớn
+
+- **[Our decision on Cursor following its acquisition by SpaceX](https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `openai_news` · published: 2026-08-28
+  - August 28, 2026 Company Our decision on Cursor following its acquisition by SpaceX Loading… Share Today, we notified SpaceX that we intend to wind down our contract providing OpenAI models to Cursor, with a proposed shutoff date of November 12, 2026. To maximize the time that developers can retain a
+
+- **[Learning never stops: How AI makes learning continuous](https://openai.com/index/learning-never-stops/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `openai_news` · published: 2026-08-26
+  - August 26, 2026 Product Learning never stops: How AI makes learning continuous Loading… Share As students head back to school, OpenAI is releasing a new report on how students and educators are already using ChatGPT to extend learning beyond the classroom. Students have long had to wait until class 
+
+- **[Jalapeño’s first results show industry-leading speed and efficiency in AI inference](https://openai.com/index/jalapeno-first-results/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `openai_news` · published: 2026-08-28
+  - August 25, 2026 Engineering Company Jalapeño’s first results show industry-leading speed and efficiency in AI inference Share Since announcing Jalapeño, OpenAI’s first custom inference chip, we have been testing the chip and the system built around it. The results show a significant performance adva
+
+- **[G20 Faces Divide Over Debt, AI and Global Growth](https://www.bloomberg.com/news/videos/2026-08-30/g20-faces-divide-over-debt-ai-and-global-growth-video)** 🚩HUMAN_REVIEW
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `bloomberg_tech` · published: 2026-08-30
+  - G20 finance officials are gathering in North Carolina with sovereign debt, global imbalances and economic growth in focus, but CSIS Director of Economics Program Philip Luck joins Bloomberg This Weekend and says the US and its partners increasingly disagree over both the problems and how to address 
+
+- **[Nhận tin nhắn nộp phạt vi phạm giao thông, nam thanh niên suýt sập bẫy lừa](https://dantri.com.vn/cong-nghe/nhan-tin-nhan-nop-phat-vi-pham-giao-thong-nam-thanh-nien-suyt-sap-bay-lua-20260825141858056.htm)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `dantri_security` · published: 2026-08-25
+  - Nhận tin nhắn nộp phạt vi phạm giao thông, nam thanh niên suýt sập bẫy lừa Đoàn Thủy (Dân trí) - Chỉ một ngày sau khi bị CSGT lập biên bản, Hoàng nhận tin nhắn yêu cầu nộp phạt qua website giả mạo Cổng Dịch vụ công quốc gia. Phát hiện bất thường khi thanh toán, anh kịp dừng lại. Tin nhắn đến đúng lú
+
+- **[Our Agreement With Bipartisan Attorneys General: Calling on TikTok and YouTube to Join Us in Supporting Teens](https://about.fb.com/news/2026/08/agreement-with-state-attorneys-general-supporting-teens/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `meta_newsroom` · published: 2026-08-26
+  - Our Agreement With US State Attorneys General Today, we are announcing an agreement with a bipartisan group of 52 attorneys general across US states, territories, and the District of Columbia, building on our longstanding efforts to empower parents and support teens. Over the years, we have consiste
+
+- **[Closed-Loop Cooling Explained: The Plumbing Behind Meta’s AI](https://about.fb.com/news/2026/08/closed-loop-cooling-explained-the-plumbing-behind-metas-ai/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `meta_newsroom` · published: 2026-08-27
+  - One of the consequences of the AI boom is that cooling servers has become a serious engineering challenge. The more powerful the AI hardware becomes, the more heat it generates during operation. And at a certain point, simply blowing more air through a server rack stops being a particularly efficien
+
+- **[New Account Security Features for WhatsApp](https://about.fb.com/news/2026/08/new-account-security-features-for-whatsapp/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `meta_newsroom` · published: 2026-08-25
+  - On WhatsApp, your conversations belong only to you and the people you’re talking to. It’s why we built end-to-end encryption by default, and it’s why we continue adding new ways to keep your account secure and in your hands. Here are a few we’ve been working on. Two-Step Verification Is Setting Stro
+
+- **[An Open Letter to TikTok and YouTube to Join Us in Supporting Teens](https://about.fb.com/news/2026/08/open-letter-to-tiktok-and-youtube-to-join-us-in-supporting-teens/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `meta_newsroom` · published: 2026-08-26
+  - We are announcing an agreement we have reached with a bipartisan group of 52 attorneys general across US states, territories, and the District of Columbia , building on our longstanding efforts to empower parents and support teens. Through this agreement, we have set out a path toward industry-wide 
+
+- **[Sony Music, Warner accuse Anthropic of ‘blatant theft’ in major new lawsuit](https://www.scmp.com/tech/big-tech/article/3365770/sony-music-warner-accuse-anthropic-blatant-theft-major-new-lawsuit?utm_source=rss_feed)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `scmp_tech` · published: 2026-08-30
+  - Some of the world’s biggest music publishers have launched a fresh lawsuit against Anthropic, accusing the artificial intelligence giant of conducting “one of the largest and most blatant ongoing thefts of intellectual property in history”. The case adds to the legal challenges facing Anthropic as t
+
+- **[AI server boom fuels record supply crunch for the ‘rice of electronics’](https://www.scmp.com/tech/tech-trends/article/3365353/ai-server-boom-fuels-record-supply-crunch-rice-electronics?utm_source=rss_feed)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `scmp_tech` · published: 2026-08-26
+  - Global inventories of multilayer ceramic capacitors (MLCCs) – tiny components dubbed “the rice of the electronics industry” – have dropped to a record low as the industry grapples with surging demand from artificial intelligence infrastructure. Worldwide distributor inventory volume for the componen
+
+- **[Why is Xiaomi doubling down on in-house chips amid a profit slump?](https://www.scmp.com/tech/tech-trends/article/3365179/why-xiaomi-doubling-down-house-chips-despite-profit-slump?utm_source=rss_feed)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `scmp_tech` · published: 2026-08-25
+  - Xiaomi’s long-term push into proprietary silicon is laying the groundwork for complex artificial intelligence workloads on smartphones and cars, analysts say, as the Chinese tech giant doubles down on self-developed chips despite an earnings slump and soaring component costs. On Monday it unveiled i
+
+- **[Bluesky adds an ‘algorithmic opt-out’ feature for those who don’t want to go viral](https://techcrunch.com/2026/08/27/bluesky-adds-an-algorithmic-opt-out-feature-for-those-who-dont-want-to-go-viral/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_apps` · published: 2026-08-27
+  - Sometimes people just want to post to their followers, Bluesky says.
+
+- **[YouTube now lets creators tag Amazon products and earn commissions from purchases](https://techcrunch.com/2026/08/27/youtube-now-lets-creators-tag-amazon-products-and-earn-commissions-from-purchases/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_apps` · published: 2026-08-27
+  - The update turns product recommendations into a more direct revenue stream for creators, and for Amazon, the move puts its massive online marketplace inside one of the most popular video platforms.
+
+- **[Google’s AI Mode can now track flight prices, help book hotels, and more](https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_apps` · published: 2026-08-27
+  - The updates indicate that Google is looking to position AI Mode as an AI travel agent of sorts, as it's moving beyond simply helping users find information to actually handling parts of the trip-planning and booking process.
+
+- **[AI’s memory crunch is coming for Android apps](https://techcrunch.com/2026/08/27/ais-memory-crunch-is-coming-for-android-apps/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_apps` · published: 2026-08-27
+  - Google is setting new memory-use limits for Android apps as AI data centers contribute to hardware shortages that could leave lower-cost phones with less memory.
+
+- **[Google’s Gemini has a branding problem, and so does the rest of AI](https://techcrunch.com/2026/08/26/googles-gemini-has-a-branding-problem-and-so-does-the-rest-of-ai/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_apps` · published: 2026-08-26
+  - Consumer AI apps need to stop making users learn their product architecture.
+
+- **[Flipboard acquires Graze, the feed builder working to monetize the open social web](https://techcrunch.com/2026/08/26/flipboard-acquires-graze-the-feed-builder-working-to-monetize-the-open-social-web/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_apps` · published: 2026-08-26
+  - Flipboard is acquiring Bluesky feed-building startup Graze, bringing its privacy-friendly ad technology and creator monetization tools into Flipboard’s growing open social web ecosystem.
+
+- **[Meta agrees to sweeping changes to restrict kids’ access to its apps as part of settlement with states](https://techcrunch.com/2026/08/26/meta-agrees-to-sweeping-changes-to-restrict-kids-access-to-its-apps-as-part-of-settlement-with-states/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_apps` · published: 2026-08-26
+  - One of the most notable changes is that Meta plans to implement a daily two-hour time limit for teens that can only be disabled with parental permission.
+
+- **[X sends cease-and-desist to open source project Nitter over alleged scraping](https://techcrunch.com/2026/08/25/x-sends-cease-and-desist-to-open-source-project-nitter-over-alleged-scraping/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_apps` · published: 2026-08-25
+  - X has sent cease-and-desist letters to Nitter, the open source project behind privacy-friendly X front ends, demanding its instances and code repository be taken down over alleged scraping.
+
+- **[Instagram’s ‘First Draft’ feature aims to make editing Reels less tedious](https://techcrunch.com/2026/08/25/instagrams-first-draft-feature-aims-to-make-editing-reels-less-tedious/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_apps` · published: 2026-08-25
+  - Instagram says the process can produce a first pass in under 10 seconds, potentially saving creators significant editing time while making video creation more approachable for people who don't have much experience with editing software.
+
+- **[Claude Cowork finally remembers what you told the app in chat](https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_apps` · published: 2026-08-25
+  - Anthropic is giving Claude a shared memory across chat and Cowork, so users no longer have to repeatedly brief the AI on projects, preferences, and other context.
+
+- **[WhatsApp tightens account security with stronger two-step verification and more](https://techcrunch.com/2026/08/25/whatsapp-tightens-account-security-with-stronger-two-step-verification-and-more/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_apps` · published: 2026-08-25
+  - WhatsApp’s two-step verification previously relied on a six-digit PIN, but now users can choose a longer, alphanumeric password with special characters.
+
+- **[Caterpillar is bringing to AI deployment what it learned from automating mining](https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_ai` · published: 2026-08-30
+  - Caterpillar has spent decades putting autonomous machines to work at remote mining sites. It's now bringing that experience to AI deployment.
+
+- **[Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft](https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_ai` · published: 2026-08-29
+  - This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.
+
+- **[Nvidia’s AI advantage is moving beyond the GPU](https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_ai` · published: 2026-08-29
+  - The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.
+
+- **[An Anthropic researcher just gave us a peek at self-improving AI](https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_ai` · published: 2026-08-28
+  - Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.
+
+- **[Anthropic gets its first court win over the Pentagon’s supply-chain risk label](https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_ai` · published: 2026-08-28
+  - A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington.
+
+- **[Meta executive leaves for OpenAI as the social media giant faces growing scrutiny in India](https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_ai` · published: 2026-08-28
+  - Sandhya Devanathan will oversee some OpenAI operations across Southeast Asia and Australia in her new role.
+
+- **[Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026](https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_ai` · published: 2026-08-27
+  - At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.
+
+- **[Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google](https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_ai` · published: 2026-08-27
+  - Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and also served as the startup's CTO, led a brief stint at OpenAI and is now at Google.
+
+- **[OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI](https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_ai` · published: 2026-08-27
+  - Some of the world's largest tech companies and AI startups have come together to decry the current state of cybersecurity and to advertise a new solution that they say can ward off a new generation of cyber threats.
+
+- **[Here’s all the times AI has gone rogue and hacked other companies](https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_ai` · published: 2026-08-27
+  - A recap of all the incidents involving LLMs made by Anthropic, Meta, and OpenAI, which went rogue and attacked real companies and individuals on the internet.
+
+- **[Plaud’s new earphones come with an eSIM-enabled case for talking to AI agents](https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_ai` · published: 2026-08-27
+  - Called Plaud One, these adopt the simple bare-bones style of Apple's AirPods, and can record calls, while their case can be used to record in-person conversations or take notes.
+
+- **[TechCrunch Mobility: The hidden human cost of robotaxis](https://techcrunch.com/2026/08/30/techcrunch-mobility-the-hidden-human-cost-of-robotaxis/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_latest` · published: 2026-08-30
+  - Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.
+
+- **[At TechBBQ, Europe’s AI conversations kept coming back to: Who’s actually in control?](https://techcrunch.com/2026/08/29/at-techbbq-europes-ai-conversations-kept-coming-back-to-whos-actually-in-control/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_latest` · published: 2026-08-29
+  - Investors, founders, and operators from across Europe arrived for the annual Nordic TechBBQ conference to talk about how humans can have agency over AI.
+
+- **[Andy Dunn’s startup Pie becomes less of an events app and more of a social network](https://techcrunch.com/2026/08/25/andy-dunns-startup-pie-becomes-less-of-an-events-app-and-more-of-a-social-network/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_social` · published: 2026-08-25
+  - The social app founded by Bonobos co-founder Andy Dunn is expanding beyond events with new digital homes for groups to connect, organize, and make plans.
+
+- **[Apply now to host a Side Event at TechCrunch Disrupt 2026](https://techcrunch.com/2026/08/24/apply-now-to-host-a-side-event-at-techcrunch-disrupt-2026/)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techcrunch_social` · published: 2026-08-24
+  - Apply before September 4 to be a part of the TechCrunch Disrupt community by hosting your own Side Event.
+
+- **[South Korea taps SK Telecom, Kakao, KT for free AI plan](https://www.techinasia.com/news/south-korea-taps-sk-telecom-kakao-kt-free-ai-plan)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `techinasia_feed` · published: 2026-08-30
+  - SK Telecom’s AI service will handle restaurant bookings and issue 83 types of certificates.
+
+- **[Meat proxy - thuật ngữ mới chỉ người dùng AI cẩu thả](https://vnexpress.net/meat-proxy-thuat-ngu-moi-chi-nguoi-dung-ai-cau-tha-5115001.html)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vnexpress_khcn` · published: 2026-08-30
+  - Khi AI ngày càng phổ biến, giới công nghệ đặt ra thuật ngữ meat proxy (proxy bằng xương bằng thịt), ám chỉ những người chỉ có vai trò "đại diện truyền tải đầu ra" của AI.
+
+- **[Chiếc áo giúp 'né' camera AI giám sát](https://vnexpress.net/chiec-ao-giup-ne-camera-ai-giam-sat-5114517.html)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vnexpress_khcn` · published: 2026-08-28
+  - Nhà thiết kế Đức Simon Weckert tạo ra áo sơ mi với sự kết hợp màu và họa tiết độc đáo, khiến camera giám sát sử dụng AI không thể nhận diện.
+
+- **[Startup Z.AI xác nhận đứng sau mô hình bí ẩn](https://vnexpress.net/startup-trung-quoc-xac-nhan-dung-sau-mo-hinh-ai-bi-an-5114206.html)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vnexpress_khcn` · published: 2026-08-28
+  - Startup Z.AI cho biết họ là nhà phát triển Ox Alpha, mô hình trọng số mở đang gây xôn xao nhờ hiệu năng tốt và cho phép dùng miễn phí một tuần.
+
+- **[LG đưa AI lên màn hình gaming OLED UltraGear](https://vnexpress.net/lg-dua-ai-len-man-hinh-gaming-oled-ultragear-5114311.html)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vnexpress_khcn` · published: 2026-08-28
+  - Màn hình UltraGear của LG trang bị tấm nền OLED RGB Tandem thế hệ thứ tư, lần đầu sử dụng hệ điều hành webOS, tích hợp sâu AI hỗ trợ chơi game.
+
+- **[Bill Gates kêu gọi 'để dành' công việc cho con người thời AI](https://vnexpress.net/bill-gates-keu-goi-de-danh-cong-viec-cho-con-nguoi-thoi-ai-5114268.html)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vnexpress_khcn` · published: 2026-08-28
+  - Bill Gates cảnh báo AI có thể mang đến nhiều rủi ro, chẳng hạn tăng tình trạng thất nghiệp, đề xuất bảo tồn một số công việc cho con người.
+
+- **[Giám đốc Honor: 'AI không chỉ dành cho smartphone cao cấp'](https://vnexpress.net/giam-doc-honor-ai-khong-chi-danh-cho-smartphone-cao-cap-5113288.html)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vnexpress_khcn` · published: 2026-08-28
+  - AI là tính năng nên có trên smartphone, nhưng cần đáp ứng đa dạng phân khúc thay vì chỉ trên thiết bị cao cấp, theo ông George Zheng.
+
+- **[Công ty Mỹ xây trung tâm dữ liệu AI 20 GW trong không gian](https://vnexpress.net/cong-ty-my-xay-trung-tam-du-lieu-ai-20-gw-trong-khong-gian-5112825.html)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vnexpress_khcn` · published: 2026-08-27
+  - Công ty Starcloud đang phát triển vệ tinh trang bị GPU hiệu suất cao, bao gồm phần cứng của NVIDIA để thực hiện các tác vụ AI trên quỹ đạo Trái Đất.
+
+- **[Galaxy S26 FE nâng cấp camera và hậu kỳ AI theo chuẩn cao cấp](https://vnexpress.net/galaxy-s26-fe-nang-cap-camera-va-hau-ky-ai-theo-chuan-cao-cap-5114307.html)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vnexpress_khcn` · published: 2026-08-28
+  - Galaxy S26 FE trang bị loạt tính năng trên các dòng flagship như My FanCam, khóa đường chân trời, Photo Assist, hỗ trợ sáng tạo với hình ảnh, video.
+
+- **[Nền tảng Hugging Face bị 700 tác nhân OpenAI tấn công](https://vnexpress.net/nen-tang-hugging-face-bi-700-tac-nhan-openai-tan-cong-5114062.html)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vnexpress_khcn` · published: 2026-08-27
+  - Một nhóm gồm 700 tác nhân do OpenAI tạo ra đã phối hợp với nhau để tấn công nền tảng Hugging Face hồi tháng 7, nhiều trường hợp thậm chí cố che dấu vết.
+
+- **[Các hãng bảo hiểm lãi tăng mạnh nhờ hoạt động tài chính](https://vnexpress.net/cac-hang-bao-hiem-lai-tang-manh-nho-hoat-dong-tai-chinh-5115223.html)**
+  - signal: `2.64` (3 - Market signal) · R1/R2: `2.6`/`2.7` · source: `vnexpress_kinhdoanh` · published: 2026-08-30
+  - Doanh thu bán mới vẫn suy giảm, nhiều hãng nhân thọ báo lợi nhuận tăng mạnh nửa đầu năm nhờ nguồn thu tài chính hoặc giảm chi phí bán hàng.
+
+- **[MiniMax revenue surges 283% but remains behind pace to meet forecast amid crowded AI race](https://www.scmp.com/tech/big-tech/article/3365341/minimax-revenue-surges-283-remains-behind-pace-meet-forecast-amid-crowded-ai-race?utm_source=rss_feed)**
+  - signal: `2.52` (3 - Market signal) · R1/R2: `2.0`/`3.3` · source: `scmp_tech` · published: 2026-08-26
+  - Chinese artificial intelligence firm MiniMax on Wednesday posted a 283 per cent surge in first-half revenue to US$116.6 million, powered by a 700 per cent jump in its enterprise business, though top-line growth remains off pace to hit full-year analyst forecasts. Revenue for the six months ended Jun
+
+- **[Bluesky now lets you upload 10-minute long videos](https://techcrunch.com/2026/08/26/bluesky-now-lets-you-upload-10-minute-long-videos/)**
+  - signal: `2.52` (3 - Market signal) · R1/R2: `2.6`/`2.4` · source: `techcrunch_apps` · published: 2026-08-26
+  - Bluesky's new 10-minute video support includes faster upload speeds, too.
+
+- **[Uber launches live video streaming for teen accounts](https://techcrunch.com/2026/08/25/uber-launches-live-video-streaming-for-teen-accounts/)**
+  - signal: `2.52` (3 - Market signal) · R1/R2: `2.6`/`2.4` · source: `techcrunch_apps` · published: 2026-08-25
+  - Uber said no one will be able to access the video once the ride ends.
+
+- **[Open-weight AI companies are the Valley’s hottest acquisition targets](https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/)**
+  - signal: `2.52` (3 - Market signal) · R1/R2: `2.6`/`2.4` · source: `techcrunch_ai` · published: 2026-08-28
+  - There's a lot of capital pouring into the business of giving models away.
+
+- **[Apple to name John Ternus CEO as AI becomes top priority](https://www.techinasia.com/news/apple-john-ternus-ceo-ai-top-priority)**
+  - signal: `2.52` (3 - Market signal) · R1/R2: `2.6`/`2.4` · source: `techinasia_feed` · published: 2026-08-31
+  - Ternus will continue overseeing Apple’s smart glasses efforts and new Siri AI features.
+
+- **[Anthropic sued by music publishers over Claude training](https://www.techinasia.com/news/anthropic-sued-music-publishers-claude-training)**
+  - signal: `2.52` (3 - Market signal) · R1/R2: `2.6`/`2.4` · source: `techinasia_feed` · published: 2026-08-30
+  - The complaint alleges the works were obtained through torrenting, scraping, and downloads.
+
+- **[These are Asia’s most active investors in AI](https://www.techinasia.com/these-are-asias-most-active-investors-in-ai)**
+  - signal: `2.52` (3 - Market signal) · R1/R2: `2.6`/`2.4` · source: `techinasia_feed` · published: 2026-08-30
+  - We've compiled a list of investors that are pouring money into Asia’s AI startups.
+
+- **[OpenAI plans to end AI deal with SpaceX-bound Cursor](https://www.techinasia.com/news/openai-plans-ai-deal-spacexbound-cursor)**
+  - signal: `2.52` (3 - Market signal) · R1/R2: `2.6`/`2.4` · source: `techinasia_feed` · published: 2026-08-29
+  - Cursor supports models and API keys from multiple AI providers.
+
+- **[Tencent unveils AI model it says outperforms Z.ai, Moonshot](https://www.techinasia.com/news/tencent-unveils-ai-model-outperforms-zai-moonshot)**
+  - signal: `2.52` (3 - Market signal) · R1/R2: `2.6`/`2.4` · source: `techinasia_feed` · published: 2026-08-29
+  - Tencent demonstrated Hy4 Preview for game creation, 3D web design, and accounting compliance.
+
+- **[GoTo VP Catherine Hindra resigns for personal reasons](https://www.techinasia.com/news/goto-vp-catherine-hindra-resigns-personal-reasons)**
+  - signal: `2.52` (3 - Market signal) · R1/R2: `2.6`/`2.4` · source: `techinasia_feed` · published: 2026-08-29
+  - Shareholders will vote on the resignation at an extraordinary meeting on October 14.
+
+- **[OpenAI rolls out ChatGPT ads to users in India](https://www.techinasia.com/news/openai-rolls-chatgpt-ads-users-india)**
+  - signal: `2.52` (3 - Market signal) · R1/R2: `2.6`/`2.4` · source: `techinasia_feed` · published: 2026-08-29
+  - Anthropic says its rival Claude chatbot will remain ad-free.
+
+- **[AI beyond the hype](https://www.techinasia.com/ai-hype)**
+  - signal: `2.52` (3 - Market signal) · R1/R2: `2.6`/`2.4` · source: `techinasia_feed` · published: 2026-08-29
+  - Wrtn Technologies, Fasset, Airbound, and more raised funds this week.
+
+- **[The full stack behind abundant intelligence](https://openai.com/index/the-full-stack-behind-abundant-intelligence/)**
+  - signal: `2.28` (2 - Minor signal) · R1/R2: `2.0`/`2.7` · source: `openai_news` · published: 2026-08-28
+  - August 25, 2026 Company The full stack behind abundant intelligence By Sarah Friar Loading… Share Progress in AI compounds fastest when the entire system improves together. That is how I think about OpenAI’s compute strategy: one integrated system spanning data centers and chips, frontier models, ou
+
+- **[Alibaba Cloud launches Brazil region for enterprise customers](https://www.techinasia.com/news/alibaba-cloud-launches-brazil-region-for-enterprise-customers)**
+  - signal: `2.28` (2 - Minor signal) · R1/R2: `2.0`/`2.7` · source: `techinasia_feed` · published: 2026-08-28
+  - It is the company's second region in Latin America after opening one in Mexico in February 2025.
