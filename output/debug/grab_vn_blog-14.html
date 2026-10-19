@@ -1,4 +1,4 @@
-<!-- source=grab_vn_blog idx=14 url=https://www.grab.com/vn/blog/pulse-of-vietnam?page=2 len=143363 -->
+<!-- source=grab_vn_blog idx=14 url=https://www.grab.com/vn/blog/pulse-of-vietnam?page=2 len=145104 -->
 <!DOCTYPE html>
 <html lang="vi" class="no-js">
 
@@ -54,7 +54,7 @@
 <link rel="next" href="https://www.grab.com/vn/blog/pulse-of-vietnam/page/2/" />
 <meta name="google-site-verification" content="vfxuon_ZyPfaowDg8ecP-FSfSGVGrBY08WH0gISpyGk" />
 <meta name="msvalidate.01" content="62D708192352CDCE3B73BA9B4A94A95C" />
-<!-- / The SEO Framework by Sybre Waaijer | 9.13ms meta | 0.32ms boot -->
+<!-- / The SEO Framework by Sybre Waaijer | 9.10ms meta | 0.35ms boot -->
 
 <script src='https://scribe-web-sdk.grab.com/scribe_bundle_v1.0.55.min.js'></script>    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -319,8 +319,26 @@ var scriptParams = {"currentEnv":"production"};
             </script>
         <link rel="alternate" hreflang="vi" href="https://www.grab.com/vn/blog/pulse-of-vietnam/?page=2"/>
 <link rel="alternate" hreflang="en" href="https://www.grab.com/vn/en/blog/pulse-of-vietnam/?page=2"/>
-<meta name="generator" content="Elementor 3.20.3; settings: css_print_method-internal, google_font-enabled, font_display-auto">
-</head>
+<meta name="generator" content="Elementor 4.2.3; settings: css_print_method-internal, google_font-enabled, font_display-auto">
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			</head>
 
 <body class="archive category category-pulse-of-vietnam category-129 paged-2 category-paged-2 wp-theme-grabsg translatepress-vi site-id-11 elementor-default elementor-kit-60154">
                 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54DG5SF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -1454,7 +1472,35 @@ $(".btn-download").click(function(event){
 <script type="text/javascript">
 var sbiajaxurl = "https://www.grab.com/vn/wp-admin/admin-ajax.php";
 </script>
-    <script>
+			<script>
+				( () => {
+					const lazyloadRunObserver = () => {
+						const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+						const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+							entries.forEach( ( entry ) => {
+								if ( entry.isIntersecting ) {
+									let lazyloadBackground = entry.target;
+									if( lazyloadBackground ) {
+										lazyloadBackground.classList.add( 'e-lazyloaded' );
+									}
+									lazyloadBackgroundObserver.unobserve( entry.target );
+								}
+							});
+						}, { rootMargin: '200px 0px 200px 0px' } );
+						lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+							lazyloadBackgroundObserver.observe( lazyloadBackground );
+						} );
+					};
+					const events = [
+						'DOMContentLoaded',
+						'elementor/lazyload/observe',
+					];
+					events.forEach( ( event ) => {
+						document.addEventListener( event, lazyloadRunObserver );
+					} );
+				} )();
+			</script>
+			    <script>
         window._runSmartScript = function () {
             const country = window.location.pathname.split('/')?.[1];
             const pagePath = window.location.pathname.toLowerCase();
@@ -1665,7 +1711,7 @@ var sbiajaxurl = "https://www.grab.com/vn/wp-admin/admin-ajax.php";
 window.lodash = _.noConflict();
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://www.grab.com/vn/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6" id="swiper-js"></script>
+<script type="text/javascript" src="https://www.grab.com/vn/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5" id="swiper-js"></script>
 
     </body>
 
